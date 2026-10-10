@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gemok Group 店舗別売上進捗ダッシュボード">
+  <title>Gemok Group | 営業ダッシュボード</title>
+  <style>
+    :root { --bg:#0b1322; --sidebar:#101c2f; --panel:#19283d; --panel-2:#142239; --line:#2f435f; --text:#f4f8ff; --muted:#9bb2d8; --blue:#73a8ff; --green:#43dfa0; --amber:#f5bd4e; --si:#ef4444; --sr:#facc15; --st:#3b82f6; --sk:#22c55e; --km:#f97316; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-width:320px; color:var(--text); background:var(--bg); font-family:Inter,"Noto Sans JP","Yu Gothic UI",sans-serif; }
+    .app { min-height:100vh; display:grid; grid-template-columns:236px minmax(0,1fr); grid-template-rows:86px minmax(0,1fr); }
+    .topbar { grid-column:1 / -1; display:flex; align-items:center; justify-content:space-between; gap:20px; padding:0 28px; border-bottom:1px solid var(--line); background:#0e192b; }
+    .brand { display:flex; align-items:center; gap:12px; }
+    .brand-mark { width:69px; height:78px; object-fit:contain; object-position:center; filter:drop-shadow(0 5px 9px rgba(0,0,0,.28)); }
+    .brand-name { font-size:19px; font-weight:800; letter-spacing:.02em; }
+    .brand-sub { margin-left:8px; color:var(--muted); font-size:12px; font-weight:500; }
+    .topbar-right { display:flex; align-items:center; gap:15px; color:var(--muted); font-size:12px; }
+    .live { display:inline-flex; align-items:center; gap:6px; color:var(--green); font-weight:700; }
+    .live i { width:7px; height:7px; border-radius:50%; background:currentColor; }
+    .fetch-timestamp { color:#a9bee0; font-variant-numeric:tabular-nums; white-space:nowrap; }
+    .language-switcher { display:inline-flex; gap:3px; padding:3px; border:1px solid rgba(155,190,235,.17); border-radius:8px; background:#17263d; }
+    .language-switcher button { padding:5px 7px; border:0; border-radius:5px; color:var(--muted); background:transparent; font:inherit; font-size:11px; font-weight:800; cursor:pointer; }
+    .language-switcher button:hover, .language-switcher button[aria-pressed="true"] { color:#fff; background:#315f9d; }
+    .sidebar { grid-row:2; padding:22px 15px; border-right:1px solid var(--line); background:var(--sidebar); }
+    .menu-label { margin:0 10px 11px; color:#7792bd; font-size:11px; font-weight:800; letter-spacing:.1em; }
+    .menu { display:grid; gap:6px; }
+    .menu-button { display:flex; align-items:center; width:100%; gap:11px; padding:12px 12px; border:1px solid transparent; border-radius:9px; color:#bbcee9; background:transparent; text-align:left; font:inherit; font-size:14px; font-weight:700; cursor:pointer; transition:.15s ease; }
+    .menu-button:hover { color:var(--text); background:#172741; }
+    .menu-button[aria-current="page"] { border-color:rgba(115,168,255,.25); color:#fff; background:#244a80; box-shadow:inset 3px 0 0 var(--blue); }
+    .menu-icon { display:grid; width:19px; height:19px; place-items:center; border-radius:5px; color:currentColor; background:rgba(140,180,240,.12); font-size:11px; }
+    .menu-divider { height:1px; margin:17px 10px; background:var(--line); }
+    .sidebar-note { margin:0 10px; color:#7892ba; font-size:11px; line-height:1.7; }
+    .content { min-width:0; padding:28px; background:radial-gradient(circle at 92% 0%,rgba(47,116,234,.14),transparent 31%),var(--bg); }
+    .page-head { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; margin-bottom:23px; }
+    h1 { margin:0; font-size:28px; letter-spacing:-.03em; }
+    .page-head p { margin:8px 0 0; color:var(--muted); font-size:13px; }
+    .data-note { flex:0 0 auto; padding:10px 13px; border:1px solid rgba(159,192,238,.15); border-radius:9px; color:var(--muted); background:var(--panel); font-size:11px; }
+    .data-note strong { display:block; margin-top:3px; color:var(--text); font-size:13px; }
+    .dashboard-fetch-timestamp { display:none; }
+    .daily { padding:17px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.92); }
+    .section-head { display:flex; align-items:end; justify-content:space-between; gap:15px; margin-bottom:14px; }
+    h2 { margin:0; font-size:16px; }
+    .section-head p { margin:4px 0 0; color:var(--muted); font-size:11px; }
+    .group-total { color:var(--green); font-size:15px; font-weight:800; white-space:nowrap; }
+    .group-total small { margin-right:7px; color:var(--muted); font-size:11px; font-weight:500; }
+    .daily-row { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:9px; }
+    .store-tile { min-width:0; padding:13px; border-radius:9px; background:var(--panel-2); }
+    .store-top { display:flex; align-items:center; justify-content:space-between; gap:5px; }
+    .store-code { font-size:13px; font-weight:800; }
+    .company { overflow:hidden; color:var(--muted); font-size:10px; text-overflow:ellipsis; white-space:nowrap; }
+    .store-value { margin-top:10px; font-size:clamp(19px,2.05vw,26px); font-weight:800; letter-spacing:-.045em; white-space:nowrap; }
+    .status { display:block; margin-top:7px; color:var(--green); font-size:10px; font-weight:800; }
+    .status.warn { color:var(--amber); }
+    .month-row { display:grid; grid-template-columns:135px repeat(5,minmax(0,1fr)); gap:9px; align-items:stretch; margin:15px 0 19px; }
+    .month-label { display:flex; flex-direction:column; justify-content:center; padding-left:2px; }
+    .month-label p { margin:5px 0 0; color:var(--muted); font-size:11px; }
+    .month-tile { min-width:0; padding:11px 12px; border-radius:9px; background:var(--panel); }
+    .month-top { display:flex; justify-content:space-between; gap:5px; font-size:12px; }
+    .month-top strong { font-size:13px; }
+    .rate { color:var(--blue); font-weight:800; }
+    .rate.warn { color:var(--amber); }
+    .month-value { margin:7px 0; color:var(--muted); font-size:10px; }
+    .month-value strong { color:var(--text); font-size:15px; }
+    .progress { height:5px; overflow:hidden; border-radius:99px; background:#364c6b; }
+    .progress span { display:block; height:100%; border-radius:inherit; background:var(--blue); }
+    .progress .warn { background:var(--amber); }
+    .chart-panel { padding:18px; border:1px solid rgba(159,192,238,.13); border-radius:14px; background:var(--panel); }
+    .chart-panel + .chart-panel { margin-top:16px; }
+    .chart-expand-trigger { touch-action:manipulation; }
+    .chart-fullscreen { position:fixed; z-index:1000; inset:0; display:grid; place-items:center; padding:16px; background:rgba(4,11,21,.94); }
+    .chart-fullscreen-dialog { position:relative; width:min(100%,860px); max-height:100%; overflow:auto; padding:48px 12px 16px; border:1px solid rgba(159,192,238,.24); border-radius:18px; background:var(--panel); box-shadow:0 24px 80px rgba(0,0,0,.48); }
+    .chart-fullscreen-close { position:absolute; top:10px; right:10px; padding:9px 12px; border:1px solid rgba(159,192,238,.25); border-radius:8px; color:var(--text); background:#243957; font:inherit; font-size:12px; font-weight:800; }
+    .fullscreen-chart-content { padding:0; border:0; border-radius:0; background:transparent; }
+    .fullscreen-chart-content svg { height:min(68vh,520px); }
+    .chart-meta { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:11px; color:var(--green); font-size:12px; font-weight:800; white-space:nowrap; }
+    .chart-meta span { display:grid; gap:2px; text-align:right; }
+    .chart-meta small { color:var(--muted); font-size:9px; font-weight:700; }
+    .legend { display:flex; flex-wrap:wrap; gap:12px; margin:11px 0 5px; color:var(--muted); font-size:10px; }
+    .legend span { display:inline-flex; align-items:center; gap:5px; }
+    .dot { width:8px; height:8px; border-radius:2px; }
+    .chart-type { margin-left:3px; color:#c8d7ed; }
+    .chart-type strong { color:var(--text); }
+    .chart-type-line { width:16px; height:0; border-top:2px solid var(--green); position:relative; }
+    .chart-type-line::after { content:""; position:absolute; top:-4px; left:6px; width:5px; height:5px; border-radius:50%; background:var(--green); }
+    svg { display:block; width:100%; height:225px; overflow:visible; }
+    .grid-line { stroke:#3a4d68; stroke-width:1; }
+    .axis { fill:#a4bce1; font-size:11px; font-family:Inter,"Noto Sans JP",sans-serif; }
+    .axis-label { fill:#a4bce1; font-size:10px; font-family:Inter,"Noto Sans JP",sans-serif; }
+    .document-value-label,.sales-value-label { font-family:Inter,"Noto Sans JP",sans-serif; font-size:9px; font-weight:800; }
+    .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
+    .notice.show { display:block; }
+    .construction { display:grid; min-height:510px; place-items:center; align-content:center; padding:56px 24px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:radial-gradient(circle at center,rgba(48,105,184,.16),transparent 48%),var(--panel); text-align:center; }
+    .construction[hidden], #sales-dashboard[hidden] { display:none; }
+    .construction-icon { display:grid; width:58px; height:58px; place-items:center; border:1px solid rgba(115,168,255,.35); border-radius:17px; color:var(--blue); background:#162943; font-size:29px; }
+    .construction-eyebrow { margin:18px 0 8px; color:var(--green); font-size:12px; font-weight:800; letter-spacing:.11em; }
+    .construction h1 { font-size:27px; }
+    .construction p:last-child { max-width:360px; margin:11px 0 0; color:var(--muted); font-size:13px; line-height:1.7; }
+    .target-dashboard[hidden] { display:none; }
+    .system-dashboard[hidden] { display:none; }
+    .system-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:var(--panel); }
+    .system-status { margin:0 0 16px; color:var(--muted); font-size:12px; }
+    .system-status.ok { color:var(--green); }
+    .system-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .system-store { padding:14px; border-radius:10px; background:var(--panel-2); }
+    .system-store h3 { margin:0 0 10px; font-size:15px; }
+    .system-store label,.interval-label { display:block; margin:9px 0 4px; color:var(--muted); font-size:10px; font-weight:700; }
+    .system-store input,.interval-input { width:100%; padding:9px 10px; border:1px solid #3d5575; border-radius:7px; color:var(--text); background:#102038; font:inherit; font-size:12px; }
+    .system-note { margin:16px 0 0; color:var(--muted); font-size:11px; line-height:1.6; }
+    .target-toolbar { display:flex; align-items:center; justify-content:space-between; gap:18px; margin-bottom:18px; padding:16px 18px; border:1px solid rgba(159,192,238,.14); border-radius:14px; background:var(--panel); }
+    .target-toolbar-copy { min-width:0; }
+    .target-toolbar-copy h2 { font-size:16px; }
+    .target-toolbar-copy p { margin:5px 0 0; color:var(--muted); font-size:12px; }
+    .month-picker { flex:0 0 auto; display:flex; align-items:center; gap:9px; color:var(--muted); font-size:12px; font-weight:700; }
+    .month-picker input { min-width:146px; padding:10px 11px; border:1px solid #3d5575; border-radius:8px; color:var(--text); background:#102038; font:inherit; color-scheme:dark; }
+    .target-form-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.92); }
+    .target-summary { display:flex; align-items:end; justify-content:space-between; gap:16px; margin-bottom:16px; }
+    .target-summary p { margin:4px 0 0; color:var(--muted); font-size:11px; }
+    .target-total { color:var(--green); font-size:22px; font-weight:800; letter-spacing:-.04em; white-space:nowrap; }
+    .target-total small { display:block; margin-bottom:3px; color:var(--muted); font-size:10px; font-weight:700; letter-spacing:0; }
+    .target-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; }
+    .target-card { min-width:0; padding:15px; border:1px solid rgba(159,192,238,.1); border-radius:11px; background:var(--panel-2); }
+    .target-store { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
+    .target-store strong { font-size:16px; }
+    .target-store span { display:block; margin-top:3px; color:var(--muted); font-size:10px; line-height:1.35; }
+    .target-branch { padding:3px 6px; border-radius:5px; color:#c8dcfa; background:#203957; font-size:9px; font-weight:800; }
+    .target-input-label { display:block; margin:17px 0 7px; color:var(--muted); font-size:10px; font-weight:700; }
+    .target-input-wrap { display:flex; align-items:center; gap:7px; padding:10px 10px; border:1px solid #3d5575; border-radius:8px; background:#102038; }
+    .target-input-wrap span { color:var(--blue); font-size:12px; font-weight:800; }
+    .target-input { width:100%; min-width:0; border:0; outline:0; color:var(--text); background:transparent; font:inherit; font-size:17px; font-weight:800; }
+    .target-input::-webkit-inner-spin-button { opacity:.55; }
+    .target-actions { display:flex; align-items:center; justify-content:space-between; gap:14px; margin-top:18px; }
+    .target-note, .target-saved { margin:0; color:var(--muted); font-size:11px; line-height:1.55; }
+    .target-saved { color:var(--green); font-weight:700; }
+    .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
+    .save-targets:hover { filter:brightness(1.06); }
+    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } }
+    @media (max-width:720px) { .app { grid-template-columns:1fr; grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; padding:0 18px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } }
+    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand" aria-label="Gemok Group"><img class="brand-mark" src="assets/gemok-mascot.png" alt="GEMOK mascot"><div class="brand-name">GEMOK GROUP<span class="brand-sub" data-i18n="dashboardLabel">営業ダッシュボード</span></div></div>
+      <div class="topbar-right"><span class="live"><i></i><span data-i18n="syncStatus">データ連携予定</span></span><span class="fetch-timestamp" id="fetch-timestamp" hidden></span><span class="user-name" data-i18n="administrator">管理者</span><div class="language-switcher" aria-label="Language selector"><button type="button" data-language="en" aria-pressed="false">EN</button><button type="button" data-language="zh" aria-pressed="false">CN</button><button type="button" data-language="ms" aria-pressed="false">BM</button><button type="button" data-language="ja" aria-pressed="true">JP</button></div></div>
+    </header>
+
+    <aside class="sidebar" aria-label="ダッシュボードメニュー">
+      <p class="menu-label" data-i18n="dashboards">DASHBOARDS</p>
+      <nav class="menu">
+        <button class="menu-button" type="button" data-name-key="overview"><span class="menu-icon">◎</span><span data-i18n="overview">グループ概要</span></button>
+        <button class="menu-button" type="button" aria-current="page" data-name-key="salesProgress"><span class="menu-icon">↗</span><span data-i18n="salesProgress">売上進捗</span></button>
+        <button class="menu-button" type="button" data-name-key="inventory"><span class="menu-icon">□</span><span data-i18n="inventory">在庫状況</span></button>
+        <button class="menu-button" type="button" data-name-key="targets"><span class="menu-icon">⚙</span><span data-i18n="targets">目標設定</span></button>
+        <button class="menu-button" type="button" data-name-key="system"><span class="menu-icon">⌘</span><span>システム設定</span></button>
+      </nav>
+      <div class="menu-divider"></div>
+      <p class="sidebar-note" data-i18n="sidebarNote">ERPのCash Salesと月間目標を連携し、全店舗の営業状況を表示します。</p>
+    </aside>
+
+    <main class="content">
+      <div class="notice" id="notice" aria-live="polite"></div>
+      <div id="sales-dashboard">
+      <header class="page-head">
+        <div><h1 id="page-title" data-i18n="salesProgress">売上進捗</h1><p data-i18n="pageSubtitle">本日のCash Salesと、当月の店舗別推移を一画面で確認</p></div>
+        <div class="data-note"><span data-i18n="displayData">表示データ</span><strong data-i18n="sampleData">サンプル表示（ERP連携前）</strong></div>
+      </header>
+
+      <section class="daily" aria-labelledby="daily-title">
+        <div class="section-head"><div><h2 id="daily-title" data-i18n="dailySalesTitle">全店舗・本日売上</h2><p>Cash Sales / RM</p></div><div class="group-total"><small data-i18n="groupTotal">グループ合計</small>RM 86,400</div></div>
+        <div class="daily-row">
+          <article class="store-tile"><div class="store-top"><span class="store-code">SI</span><span class="company">Chew Tayar</span></div><div class="store-value">RM 15,200</div><span class="status" data-status="up" data-rate="116">↑ 日次目標比 116%</span></article>
+          <article class="store-tile"><div class="store-top"><span class="store-code">SR</span><span class="company">Gemok Tayar</span></div><div class="store-value">RM 18,900</div><span class="status" data-status="up" data-rate="121">↑ 日次目標比 121%</span></article>
+          <article class="store-tile"><div class="store-top"><span class="store-code">ST</span><span class="company">Gemok Tayar</span></div><div class="store-value">RM 16,300</div><span class="status" data-status="up" data-rate="103">↑ 日次目標比 103%</span></article>
+          <article class="store-tile"><div class="store-top"><span class="store-code">SK</span><span class="company">G Tayar</span></div><div class="store-value">RM 17,100</div><span class="status warn" data-status="down" data-rate="91">↓ 日次目標比 91%</span></article>
+          <article class="store-tile"><div class="store-top"><span class="store-code">KM</span><span class="company">Bagus Tayar</span></div><div class="store-value">RM 18,900</div><span class="status" data-status="up" data-rate="105">↑ 日次目標比 105%</span></article>
+        </div>
+      </section>
+
+      <section class="month-row" aria-labelledby="month-title">
+        <div class="month-label"><h2 id="month-title" data-i18n="monthlyProgress">今月の進捗</h2><p data-i18n="monthlyCaption">累計売上 / 月間目標</p></div>
+        <article class="month-tile"><div class="month-top"><strong>SI</strong><span class="rate">88%</span></div><p class="month-value"><strong>RM 312K</strong> / 355K</p><div class="progress"><span style="width:88%"></span></div></article>
+        <article class="month-tile"><div class="month-top"><strong>SR</strong><span class="rate">86%</span></div><p class="month-value"><strong>RM 382K</strong> / 445K</p><div class="progress"><span style="width:86%"></span></div></article>
+        <article class="month-tile"><div class="month-top"><strong>ST</strong><span class="rate">81%</span></div><p class="month-value"><strong>RM 344K</strong> / 425K</p><div class="progress"><span style="width:81%"></span></div></article>
+        <article class="month-tile"><div class="month-top"><strong>SK</strong><span class="rate warn">77%</span></div><p class="month-value"><strong>RM 418K</strong> / 543K</p><div class="progress"><span class="warn" style="width:77%"></span></div></article>
+        <article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate">80%</span></div><p class="month-value"><strong>RM 404K</strong> / 505K</p><div class="progress"><span style="width:80%"></span></div></article>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="sales-chart-title">
+        <div class="section-head"><div><h2 id="sales-chart-title" data-i18n="salesChartTitle">当月の日別売上</h2><p data-i18n="salesChartSubtitle">日付ごとに店舗別のCash Salesを比較</p></div><div class="chart-meta"><span data-i18n="salesAccum">10月売上　RM 514,800</span></div></div>
+        <div class="legend" data-i18n-aria="legend" aria-label="店舗の凡例"><span><i class="dot" style="background:var(--si)"></i>SI</span><span><i class="dot" style="background:var(--sr)"></i>SR</span><span><i class="dot" style="background:var(--st)"></i>ST</span><span><i class="dot" style="background:var(--sk)"></i>SK</span><span><i class="dot" style="background:var(--km)"></i>KM</span></div>
+        <svg viewBox="0 0 970 235" role="img" aria-labelledby="sales-chart-title sales-chart-desc" preserveAspectRatio="none"><desc id="sales-chart-desc">1日から7日までの店舗別の日次売上を棒グラフで表示。</desc>
+          <g class="grid-line"><line x1="64" x2="950" y1="190" y2="190"/><line x1="64" x2="950" y1="144" y2="144"/><line x1="64" x2="950" y1="98" y2="98"/><line x1="64" x2="950" y1="52" y2="52"/></g><g class="axis"><text x="24" y="194">0</text><text x="13" y="148">10K</text><text x="13" y="102">20K</text><text x="13" y="56">30K</text></g>
+          <g fill="var(--si)"><rect x="94" y="128" width="10" height="62" rx="2"/><rect x="218" y="115" width="10" height="75" rx="2"/><rect x="342" y="132" width="10" height="58" rx="2"/><rect x="466" y="100" width="10" height="90" rx="2"/><rect x="590" y="124" width="10" height="66" rx="2"/><rect x="714" y="108" width="10" height="82" rx="2"/><rect x="838" y="112" width="10" height="78" rx="2"/></g>
+          <g fill="var(--sr)"><rect x="108" y="120" width="10" height="70" rx="2"/><rect x="232" y="99" width="10" height="91" rx="2"/><rect x="356" y="115" width="10" height="75" rx="2"/><rect x="480" y="82" width="10" height="108" rx="2"/><rect x="604" y="112" width="10" height="78" rx="2"/><rect x="728" y="92" width="10" height="98" rx="2"/><rect x="852" y="92" width="10" height="98" rx="2"/></g>
+          <g fill="var(--st)"><rect x="122" y="133" width="10" height="57" rx="2"/><rect x="246" y="111" width="10" height="79" rx="2"/><rect x="370" y="125" width="10" height="65" rx="2"/><rect x="494" y="93" width="10" height="97" rx="2"/><rect x="618" y="120" width="10" height="70" rx="2"/><rect x="742" y="102" width="10" height="88" rx="2"/><rect x="866" y="104" width="10" height="86" rx="2"/></g>
+          <g fill="var(--sk)"><rect x="136" y="124" width="10" height="66" rx="2"/><rect x="260" y="104" width="10" height="86" rx="2"/><rect x="384" y="128" width="10" height="62" rx="2"/><rect x="508" y="88" width="10" height="102" rx="2"/><rect x="632" y="116" width="10" height="74" rx="2"/><rect x="756" y="96" width="10" height="94" rx="2"/><rect x="880" y="100" width="10" height="90" rx="2"/></g>
+          <g fill="var(--km)"><rect x="150" y="137" width="10" height="53" rx="2"/><rect x="274" y="108" width="10" height="82" rx="2"/><rect x="398" y="120" width="10" height="70" rx="2"/><rect x="522" y="96" width="10" height="94" rx="2"/><rect x="646" y="128" width="10" height="62" rx="2"/><rect x="770" y="104" width="10" height="86" rx="2"/><rect x="894" y="96" width="10" height="94" rx="2"/></g>
+          <g class="axis"><text data-day="1" x="122" y="216">1日</text><text data-day="2" x="246" y="216">2日</text><text data-day="3" x="370" y="216">3日</text><text data-day="4" x="494" y="216">4日</text><text data-day="5" x="618" y="216">5日</text><text data-day="6" x="742" y="216">6日</text><text data-day="7" x="866" y="216">7日</text></g><text class="axis-label" data-i18n="amountAxis" x="64" y="229">売上（RM）</text>
+        </svg>
+      </section>
+
+      <section class="chart-panel" aria-labelledby="documents-chart-title">
+        <div class="section-head"><div><h2 id="documents-chart-title" data-i18n="documentsChartTitle">日別伝票数</h2><p data-i18n="documentsChartSubtitle">日付ごとに店舗別のCash Sales伝票数を比較</p></div><div class="chart-meta"><span data-i18n="documentsAccum">伝票　1,284件</span></div></div>
+        <div class="legend" data-i18n-aria="legend" aria-label="店舗の凡例"><span><i class="dot" style="background:var(--si)"></i>SI</span><span><i class="dot" style="background:var(--sr)"></i>SR</span><span><i class="dot" style="background:var(--st)"></i>ST</span><span><i class="dot" style="background:var(--sk)"></i>SK</span><span><i class="dot" style="background:var(--km)"></i>KM</span></div>
+        <svg viewBox="0 0 970 235" role="img" aria-labelledby="documents-chart-title documents-chart-desc" preserveAspectRatio="none"><desc id="documents-chart-desc">1日から7日までの店舗別の日次伝票数を折れ線グラフで表示。</desc>
+          <g class="grid-line"><line x1="64" x2="950" y1="190" y2="190"/><line x1="64" x2="950" y1="144" y2="144"/><line x1="64" x2="950" y1="98" y2="98"/><line x1="64" x2="950" y1="52" y2="52"/></g>
+          <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"><path d="M99 119 L223 103 L347 123 L471 87 L595 112 L719 93 L843 98" stroke="var(--si)"/><path d="M113 110 L237 84 L361 105 L485 64 L609 96 L733 75 L857 77" stroke="var(--sr)"/><path d="M127 126 L251 100 L375 119 L499 77 L623 110 L747 89 L871 93" stroke="var(--st)"/><path d="M141 115 L265 93 L389 121 L513 73 L637 103 L761 80 L885 87" stroke="var(--sk)"/><path d="M155 133 L279 105 L403 110 L527 82 L651 121 L775 98 L899 84" stroke="var(--km)"/></g>
+          <g><g fill="var(--si)"><circle cx="99" cy="119" r="3"/><circle cx="223" cy="103" r="3"/><circle cx="347" cy="123" r="3"/><circle cx="471" cy="87" r="3"/><circle cx="595" cy="112" r="3"/><circle cx="719" cy="93" r="3"/><circle cx="843" cy="98" r="3"/></g><g fill="var(--sr)"><circle cx="113" cy="110" r="3"/><circle cx="237" cy="84" r="3"/><circle cx="361" cy="105" r="3"/><circle cx="485" cy="64" r="3"/><circle cx="609" cy="96" r="3"/><circle cx="733" cy="75" r="3"/><circle cx="857" cy="77" r="3"/></g><g fill="var(--st)"><circle cx="127" cy="126" r="3"/><circle cx="251" cy="100" r="3"/><circle cx="375" cy="119" r="3"/><circle cx="499" cy="77" r="3"/><circle cx="623" cy="110" r="3"/><circle cx="747" cy="89" r="3"/><circle cx="871" cy="93" r="3"/></g><g fill="var(--sk)"><circle cx="141" cy="115" r="3"/><circle cx="265" cy="93" r="3"/><circle cx="389" cy="121" r="3"/><circle cx="513" cy="73" r="3"/><circle cx="637" cy="103" r="3"/><circle cx="761" cy="80" r="3"/><circle cx="885" cy="87" r="3"/></g><g fill="var(--km)"><circle cx="155" cy="133" r="3"/><circle cx="279" cy="105" r="3"/><circle cx="403" cy="110" r="3"/><circle cx="527" cy="82" r="3"/><circle cx="651" cy="121" r="3"/><circle cx="775" cy="98" r="3"/><circle cx="899" cy="84" r="3"/></g></g>
+          <g class="document-value-label" aria-label="本日の伝票数"><text x="834" y="113" fill="var(--si)">40</text><text x="849" y="67" fill="var(--sr)">49</text><text x="864" y="109" fill="var(--st)">42</text><text x="878" y="74" fill="var(--sk)">45</text><text x="893" y="62" fill="var(--km)">46</text></g>
+          <g class="axis"><text x="24" y="194">0</text><text x="24" y="148">20</text><text x="24" y="102">40</text><text x="24" y="56">60</text><text data-day="1" x="122" y="216">1日</text><text data-day="2" x="246" y="216">2日</text><text data-day="3" x="370" y="216">3日</text><text data-day="4" x="494" y="216">4日</text><text data-day="5" x="618" y="216">5日</text><text data-day="6" x="742" y="216">6日</text><text data-day="7" x="866" y="216">7日</text></g><text class="axis-label" data-i18n="documentAxis" x="64" y="229">伝票（件）</text>
+        </svg>
+      </section>
+      </div>
+
+      <section class="construction" id="construction" hidden aria-live="polite">
+        <span class="construction-icon" aria-hidden="true">⌁</span>
+        <p class="construction-eyebrow" data-i18n="underConstruction">工事中</p>
+        <h1 id="construction-title">グループ概要</h1>
+        <p data-i18n="constructionMessage">このダッシュボードは現在準備中です。</p>
+      </section>
+
+      <section class="target-dashboard" id="target-dashboard" hidden aria-labelledby="target-page-title">
+        <header class="page-head">
+          <div><h1 id="target-page-title" data-i18n="targets">目標設定</h1><p data-i18n="targetPageSubtitle">対象月と店舗ごとの月間売上目標を設定します。</p></div>
+          <div class="data-note"><span data-i18n="targetDataLabel">設定単位</span><strong data-i18n="targetDataValue">月間目標 / RM</strong></div>
+        </header>
+        <form id="target-form">
+          <section class="target-toolbar" aria-label="対象月の選択">
+            <div class="target-toolbar-copy"><h2 data-i18n="targetMonthTitle">対象月</h2><p data-i18n="targetMonthHint">カレンダーから設定する月を選択してください。</p></div>
+            <label class="month-picker"><span data-i18n="targetMonthLabel">対象月</span><input id="target-month" type="month" value="2026-10" required></label>
+          </section>
+
+          <section class="target-form-panel" aria-labelledby="target-form-title">
+            <div class="target-summary"><div><h2 id="target-form-title" data-i18n="targetMonthlyTitle">店舗別・月間売上目標</h2><p data-i18n="targetMonthlyHint">各店舗の目標金額をRMで入力します。</p></div><div class="target-total"><small data-i18n="targetGroupLabel">グループ月間目標</small><span id="target-total-value">RM 1.65M</span></div></div>
+            <div class="target-grid">
+              <article class="target-card"><div class="target-store"><div><strong>SI</strong><span>Chew Tayar Sdn Bhd</span></div><b class="target-branch">SI</b></div><label class="target-input-label" for="target-si" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-si" data-store="SI" type="number" min="0" step="1000" value="550000" inputmode="numeric" required></div></article>
+              <article class="target-card"><div class="target-store"><div><strong>SR</strong><span>Gemok Tayar Sdn Bhd</span></div><b class="target-branch">SR</b></div><label class="target-input-label" for="target-sr" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sr" data-store="SR" type="number" min="0" step="1000" value="300000" inputmode="numeric" required></div></article>
+              <article class="target-card"><div class="target-store"><div><strong>ST</strong><span>Gemok Tayar Sdn Bhd</span></div><b class="target-branch">ST</b></div><label class="target-input-label" for="target-st" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-st" data-store="ST" type="number" min="0" step="1000" value="300000" inputmode="numeric" required></div></article>
+              <article class="target-card"><div class="target-store"><div><strong>SK</strong><span>G Tayar Sdn Bhd</span></div><b class="target-branch">SK</b></div><label class="target-input-label" for="target-sk" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sk" data-store="SK" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
+              <article class="target-card"><div class="target-store"><div><strong>KM</strong><span>Bagus Tayar Sdn Bhd</span></div><b class="target-branch">KM</b></div><label class="target-input-label" for="target-km" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-km" data-store="KM" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
+            </div>
+            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">目標を保存</button></div>
+          </section>
+        </form>
+      </section>
+      <section class="system-dashboard" id="system-dashboard" hidden>
+        <header class="page-head"><div><h1 id="system-title">システム設定</h1><p id="system-subtitle">専用ERPログインとバックグラウンド同期をこのPCに設定します。</p></div></header>
+        <form class="system-panel" id="system-form"><p class="system-status" id="system-status">ローカル取得サービスを確認中...</p><label class="interval-label" id="interval-label" for="interval-seconds">取得間隔（秒）</label><input class="interval-input" id="interval-seconds" type="number" min="10" value="300" required><div class="system-grid" id="system-grid"></div><p class="system-note" id="system-note">パスワードはダッシュボードやクラウドへ保存されず、このPCのWindowsユーザー暗号化で保護されます。店舗ごとに対象支店に限定した専用ERPアカウントを設定してください。</p><div class="target-actions"><span></span><button class="save-targets" id="system-save" type="submit">設定を保存して同期</button></div></form>
+      </section>
+    </main>
+  </div>
+  <script>
+    const translations = {
+      en: {
+        dashboardLabel: 'Sales Dashboard', syncStatus: 'Cash Sales snapshot loaded', administrator: 'Administrator', dashboards: 'DASHBOARDS',
+        overview: 'Group Overview', salesProgress: 'Sales Progress', inventory: 'Inventory Status', targets: 'Target Settings',
+        sidebarNote: 'Cash Sales actuals for 1–10 October are loaded from Webmax. KM is waiting for its connection source.',
+        pageSubtitle: 'Review today’s Cash Sales and this month’s store trends on one screen.', displayData: 'Displayed data', sampleData: 'Sample display (before ERP connection)',
+        dailySalesTitle: 'All Stores · Today’s Sales', groupTotal: 'Group total', monthlyProgress: 'This Month’s Progress', monthlyCaption: 'Cumulative sales / monthly target',
+        salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Compare daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
+        documentsChartTitle: 'Daily Document Count', documentsChartSubtitle: 'Compare Cash Sales document counts by store and date', documentsAccum: 'Documents  1,284',
+        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Saved values are stored in this browser. They will become shared settings after ERP and Excel integration.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
+      },
+      ms: {
+        dashboardLabel: 'Papan Pemuka Jualan', syncStatus: 'Snapshot Cash Sales dimuatkan', administrator: 'Pentadbir', dashboards: 'PAPAN PEMUKA',
+        overview: 'Ringkasan Kumpulan', salesProgress: 'Kemajuan Jualan', inventory: 'Status Inventori', targets: 'Tetapan Sasaran',
+        sidebarNote: 'Data sebenar Cash Sales 1–10 Oktober dimuatkan daripada Webmax. Sumber KM masih menunggu.',
+        pageSubtitle: 'Lihat Cash Sales hari ini dan trend cawangan bulan ini dalam satu skrin.', displayData: 'Data dipaparkan', sampleData: 'Paparan sampel (sebelum integrasi ERP)',
+        dailySalesTitle: 'Semua Cawangan · Jualan Hari Ini', groupTotal: 'Jumlah kumpulan', monthlyProgress: 'Kemajuan Bulan Ini', monthlyCaption: 'Jualan terkumpul / sasaran bulanan',
+        salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Bandingkan Cash Sales harian mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
+        documentsChartTitle: 'Bilangan Dokumen Harian', documentsChartSubtitle: 'Bandingkan bilangan dokumen Cash Sales mengikut cawangan dan tarikh', documentsAccum: 'Dokumen  1,284',
+        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Nilai simpanan direkodkan dalam pelayar ini. Ia akan menjadi tetapan bersama selepas integrasi ERP dan Excel.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
+      },
+      ja: {
+        dashboardLabel: '営業ダッシュボード', syncStatus: 'Cash Sales 実績を読み込み済み', administrator: '管理者', dashboards: 'DASHBOARDS',
+        overview: 'グループ概要', salesProgress: '売上進捗', inventory: '在庫状況', targets: '目標設定',
+        sidebarNote: 'Webmaxから10月1日〜10日のCash Sales実績を反映済みです。KMは接続先待ちです。',
+        pageSubtitle: '本日のCash Salesと、当月の店舗別推移を一画面で確認', displayData: '表示データ', sampleData: 'サンプル表示（ERP連携前）',
+        dailySalesTitle: '全店舗・本日売上', groupTotal: 'グループ合計', monthlyProgress: '今月の進捗', monthlyCaption: '累計売上 / 月間目標',
+        salesChartTitle: '当月の日別売上', salesChartSubtitle: '日付ごとに店舗別のCash Salesを比較', salesAccum: '10月売上　RM 514,800',
+        documentsChartTitle: '日別伝票数', documentsChartSubtitle: '日付ごとに店舗別のCash Sales伝票数を比較', documentsAccum: '伝票　1,284件',
+        amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
+      },
+      zh: {
+        dashboardLabel: '销售仪表板', syncStatus: 'Cash Sales 数据已加载', administrator: '管理员', dashboards: '仪表板',
+        overview: '集团概览', salesProgress: '销售进度', inventory: '库存状态', targets: '目标设置',
+        sidebarNote: '已加载 Webmax 10月1日至10日 Cash Sales 实绩。KM 正等待连接来源。',
+        pageSubtitle: '在一个页面查看今日 Cash Sales 和本月各门店趋势。', displayData: '显示数据', sampleData: '示例显示（ERP 对接前）',
+        dailySalesTitle: '所有门店 · 今日销售', groupTotal: '集团合计', monthlyProgress: '本月进度', monthlyCaption: '累计销售 / 月度目标',
+        salesChartTitle: '本月每日销售额', salesChartSubtitle: '按日期比较各门店的 Cash Sales', salesAccum: '10月销售额  RM 514,800',
+        documentsChartTitle: '每日单据数量', documentsChartSubtitle: '按日期比较各门店的 Cash Sales 单据数量', documentsAccum: '单据  1,284 张',
+        amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '保存的数值会记录在此浏览器中。ERP 与 Excel 对接后将切换为共享设置。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
+      }
+    };
+    const buttons = document.querySelectorAll('.menu-button');
+    const languageButtons = document.querySelectorAll('[data-language]');
+    let title = document.getElementById('page-title');
+    const notice = document.getElementById('notice');
+    const salesDashboard = document.getElementById('sales-dashboard');
+    const construction = document.getElementById('construction');
+    const constructionTitle = document.getElementById('construction-title');
+    const targetDashboard = document.getElementById('target-dashboard');
+    const systemDashboard = document.getElementById('system-dashboard');
+    const systemForm = document.getElementById('system-form');
+    const systemGrid = document.getElementById('system-grid');
+    const systemStatus = document.getElementById('system-status');
+    const intervalSeconds = document.getElementById('interval-seconds');
+    const targetForm = document.getElementById('target-form');
+    const targetMonth = document.getElementById('target-month');
+    const targetInputs = document.querySelectorAll('.target-input');
+    const targetTotalValue = document.getElementById('target-total-value');
+    const targetSaved = document.getElementById('target-saved');
+    const targetDefaults = { SI: 550000, SR: 300000, ST: 300000, SK: 250000, KM: 250000 };
+    const systemStores = { SI: 'Chew Tayar / SI', SR: 'Gemok Tayar / SR', ST: 'Gemok Tayar / ST', SK: 'G Tayar / SK', KM: 'Bagus Tayar / KM' };
+    const latestFetchCopy = { en: 'Latest fetch: {datetime}', ms: 'Kemaskini terakhir: {datetime}', ja: '最新取得日時：{datetime}', zh: '最新获取时间：{datetime}' };
+    const systemCopy = {
+      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Set the dedicated ERP logins and background sync on this PC.', checking: 'Checking the local collection service…', interval: 'Collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordNew: 'Enter only to change', passwordEmpty: 'Password', note: 'Passwords are not stored in the dashboard or cloud. They are protected with Windows user encryption on this PC. Configure a dedicated ERP account restricted to the relevant branch for each store.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', unavailable: 'Cannot connect to the local collection service. Start the collection service on this PC.', saving: 'Saving settings…', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
+      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Tetapkan log masuk ERP khusus dan penyegerakan latar belakang pada PC ini.', checking: 'Memeriksa perkhidmatan kutipan setempat…', interval: 'Selang kutipan (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordNew: 'Masukkan hanya untuk menukar', passwordEmpty: 'Kata laluan', note: 'Kata laluan tidak disimpan dalam papan pemuka atau awan. Ia dilindungi dengan penyulitan pengguna Windows pada PC ini. Tetapkan akaun ERP khusus yang dihadkan kepada cawangan berkaitan bagi setiap kedai.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Mulakan perkhidmatan kutipan pada PC ini.', saving: 'Menyimpan tetapan…', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
+      ja: { menu: 'システム設定', title: 'システム設定', subtitle: '専用ERPログインとバックグラウンド同期をこのPCに設定します。', checking: 'ローカル取得サービスを確認中...', interval: '取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordNew: '変更する場合のみ入力', passwordEmpty: 'パスワード', note: 'パスワードはダッシュボードやクラウドへ保存されず、このPCのWindowsユーザー暗号化で保護されます。店舗ごとに対象支店に限定した専用ERPアカウントを設定してください。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', unavailable: 'ローカル取得サービスに接続できません。PC上の取得サービスを起動してください。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
+      zh: { menu: '系统设置', title: '系统设置', subtitle: '在此电脑上设置专用 ERP 登录信息和后台同步。', checking: '正在检查本地采集服务…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordNew: '仅在需要更改时输入', passwordEmpty: '密码', note: '密码不会存储在仪表板或云端，而是使用此电脑的 Windows 用户加密进行保护。请为每间门店设置仅限对应分店权限的专用 ERP 账号。', save: '保存设置并同步', connected: '已连接到本地采集服务。', unavailable: '无法连接到本地采集服务。请在此电脑上启动采集服务。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
+    };
+    const collectorUrl = 'http://127.0.0.1:47251';
+    const fetchTimestamp = document.getElementById('fetch-timestamp');
+    const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
+    let latestSuccessfulAt = excelSnapshotFetchedAt;
+    let activeKey = 'salesProgress';
+    let language = ['en', 'ms', 'ja', 'zh'].includes(localStorage.getItem('gemok-language')) ? localStorage.getItem('gemok-language') : 'ja';
+    const currentMonthByLanguage = { en: 'October', ms: 'Oktober', ja: '10月', zh: '10月' };
+    const chartFullscreenCopy = {
+      en: { hint: 'Tap chart to expand', close: 'Close', dialog: 'Expanded chart' },
+      ms: { hint: 'Ketik graf untuk besarkan', close: 'Tutup', dialog: 'Graf dibesarkan' },
+      ja: { hint: 'グラフをタップして拡大', close: '閉じる', dialog: '拡大グラフ' },
+      zh: { hint: '点击图表放大', close: '关闭', dialog: '放大图表' }
+    };
+    const localeByLanguage = { en: 'en-MY', ms: 'ms-MY', ja: 'ja-JP', zh: 'zh-CN' };
+    const actualLabels = {
+      en: { snapshot: 'Cash Sales actuals · 1–10 Oct 2026', documents: 'documents', pending: 'Data pending', month: 'October MTD', actualTotal: 'MTD total', targetTotal: 'Monthly target', progressRate: 'Progress rate', documentTotal: 'Total documents' },
+      ms: { snapshot: 'Cash Sales sebenar · 1–10 Okt 2026', documents: 'dokumen', pending: 'Menunggu data', month: 'Oktober terkumpul', actualTotal: 'Jumlah terkumpul', targetTotal: 'Sasaran bulanan', progressRate: 'Kadar kemajuan', documentTotal: 'Jumlah dokumen' },
+      ja: { snapshot: 'Cash Sales 実績 · 2026年10月1日〜10日', documents: '件', pending: 'データ取得待ち', month: '10月累計', actualTotal: '今月累計合計', targetTotal: '今月目標合計', progressRate: '今月の進捗率', documentTotal: '累計伝票数' },
+      zh: { snapshot: 'Cash Sales 实绩 · 2026年10月1日至10日', documents: '张', pending: '数据待获取', month: '10月累计', actualTotal: '本月累计总额', targetTotal: '本月目标总额', progressRate: '本月进度率', documentTotal: '累计单据数' }
+    };
+    const cashSalesActuals = {
+      SI: { company: 'Chew Tayar', sales: [20447,10769,17042,21459,6630,19940,0,20599,15008,0], documents: [29,26,38,32,19,24,0,33,31,0] },
+      SR: { company: 'Gemok Tayar', sales: [4653,3467,7311.4,9659,6178,2963,5658,9822,3858,0], documents: [14,18,26,26,18,16,26,26,26,0] },
+      ST: { company: 'Gemok Tayar', sales: [5743,11942,17726,20313,4701,10810,0,10883,8850,0], documents: [13,23,31,30,15,16,0,14,14,0] },
+      SK: { company: 'G Tayar', sales: [3126,2136,7746,5323,3816,4688,0,4748,6603,0], documents: [10,12,15,25,17,15,0,14,19,0] }
+    };
+    let dashboardDataMeta = { month: '2026-10', latestDate: '2026-10-10' };
+    const actualCodes = Object.keys(cashSalesActuals);
+    function actualTargets() {
+      let saved = null;
+      try { saved = JSON.parse(localStorage.getItem('gemok-monthly-targets-2026-10')); } catch (error) { saved = null; }
+      return Object.fromEntries(Object.entries(targetDefaults).map(([code, value]) => [code, saved && Number.isFinite(Number(saved[code])) ? Number(saved[code]) : value]));
+    }
+    function formatRM(value, compact = false) {
+      const locale = localeByLanguage[language];
+      if (compact && Math.abs(value) >= 1000) return `RM ${(value / 1000).toLocaleString(locale, { maximumFractionDigits: 1 })}K`;
+      return `RM ${Number(value).toLocaleString(locale, { maximumFractionDigits: 2 })}`;
+    }
+    function salesProgressTitle() {
+      const open = ['en', 'ms'].includes(language) ? ' (' : '（';
+      const close = ['en', 'ms'].includes(language) ? ')' : '）';
+      return `${translations[language].salesProgress}${open}${dashboardMonthName()}${close}`;
+    }
+    function dashboardDate(day = 1) {
+      const [year, month] = dashboardDataMeta.month.split('-').map(Number);
+      return new Date(Date.UTC(year, month - 1, day));
+    }
+    function dashboardMonthName() {
+      const date = dashboardDate();
+      if (language === 'ja' || language === 'zh') return `${date.getUTCMonth() + 1}月`;
+      return new Intl.DateTimeFormat(localeByLanguage[language], { month: 'long', timeZone: 'UTC' }).format(date);
+    }
+    function dashboardSnapshot() {
+      const [year, month] = dashboardDataMeta.month.split('-').map(Number);
+      const lastDay = Number(dashboardDataMeta.latestDate.slice(-2));
+      const monthName = new Intl.DateTimeFormat(localeByLanguage[language], { month: 'short', timeZone: 'UTC' }).format(new Date(Date.UTC(year, month - 1, 1)));
+      if (language === 'ja') return `Cash Sales 実績 · ${year}年${month}月1日〜${lastDay}日`;
+      if (language === 'zh') return `Cash Sales 实绩 · ${year}年${month}月1日至${lastDay}日`;
+      if (language === 'ms') return `Cash Sales sebenar · 1–${lastDay} ${monthName} ${year}`;
+      return `Cash Sales actuals · 1–${lastDay} ${monthName} ${year}`;
+    }
+    function formatChartDay(day) {
+      const weekday = new Intl.DateTimeFormat(localeByLanguage[language], { weekday: 'short', timeZone: 'UTC' }).format(dashboardDate(day));
+      if (language === 'ja') return `${day}日（${weekday}）`;
+      if (language === 'zh') return `${day}日（周${weekday}）`;
+      return `${day} (${weekday})`;
+    }
+    function chartSvg(metric) {
+      const isSales = metric === 'sales';
+      const maxValue = isSales ? 30000 : 120;
+      const ticks = isSales ? [0, 10000, 20000, 30000] : [0, 30, 60, 90, 120];
+      const y = (value) => 190 - (138 * value / maxValue);
+      const displayDays = cashSalesActuals[actualCodes[0]].sales.length;
+      const x = (index) => 108 + (index * (displayDays > 1 ? 816 / (displayDays - 1) : 0));
+      const colors = ['var(--si)', 'var(--sr)', 'var(--st)', 'var(--sk)'];
+      const offsets = [-18, -6, 6, 18];
+      const grid = ticks.map((tick) => `<line x1="64" x2="950" y1="${y(tick)}" y2="${y(tick)}"/>`).join('');
+      const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : `${tick / 1000}K`) : tick}</text>`).join('');
+      const dayAxis = Array.from({ length: displayDays }, (_, index) => `<text x="${x(index) - 15}" y="216">${formatChartDay(index + 1)}</text>`).join('');
+      if (isSales) {
+        const bars = actualCodes.map((code, codeIndex) => cashSalesActuals[code].sales.map((value, dayIndex) => {
+          const barX = x(dayIndex) + offsets[codeIndex] - 5;
+          const label = value > 0 ? `<text class="sales-value-label" x="${barX + 5}" y="${Math.max(y(value) - 4, 46)}" text-anchor="middle" fill="${colors[codeIndex]}">${Math.floor(value / 1000)}K</text>` : '';
+          return `<rect x="${barX}" y="${y(value)}" width="10" height="${190 - y(value)}" rx="2"/>${label}`;
+        }).join('')).map((bars, index) => `<g fill="${colors[index]}">${bars}</g>`).join('');
+        return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].salesChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${bars}<text class="axis-label" x="64" y="229">${translations[language].amountAxis}</text></svg>`;
+      }
+      const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
+        let total = 0;
+        const barX = x(dayIndex) - 23;
+        const segments = actualCodes.map((code, codeIndex) => {
+          const value = cashSalesActuals[code].documents[dayIndex];
+          if (!value) return '';
+          const start = total;
+          total += value;
+          const top = y(total);
+          const height = y(start) - top;
+          const labelColor = code === 'SR' ? '#172238' : '#ffffff';
+          return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="document-value-label" x="${x(dayIndex)}" y="${top + (height / 2) + 3}" text-anchor="middle" fill="${labelColor}">${value}</text>`;
+        }).join('');
+        return `<g>${segments}</g>`;
+      }).join('');
+      return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].documentsChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].documentAxis}</text></svg>`;
+    }
+    function openChartFullscreen(panel) {
+      if (!window.matchMedia('(max-width:720px)').matches || document.querySelector('.chart-fullscreen')) return;
+      const copy = chartFullscreenCopy[language];
+      const previousFocus = document.activeElement;
+      const overlay = document.createElement('div');
+      overlay.className = 'chart-fullscreen';
+      overlay.setAttribute('role', 'dialog');
+      overlay.setAttribute('aria-modal', 'true');
+      overlay.setAttribute('aria-label', copy.dialog);
+      const dialog = document.createElement('div');
+      dialog.className = 'chart-fullscreen-dialog';
+      const closeButton = document.createElement('button');
+      closeButton.type = 'button';
+      closeButton.className = 'chart-fullscreen-close';
+      closeButton.textContent = copy.close;
+      const expandedChart = panel.cloneNode(true);
+      expandedChart.classList.add('fullscreen-chart-content');
+      expandedChart.querySelectorAll('.chart-expand-trigger').forEach((chart) => {
+        chart.classList.remove('chart-expand-trigger');
+        chart.removeAttribute('tabindex');
+        chart.removeAttribute('role');
+      });
+      const close = () => {
+        document.removeEventListener('keydown', onKeydown);
+        document.body.classList.remove('chart-fullscreen-open');
+        overlay.remove();
+        if (previousFocus && document.contains(previousFocus)) previousFocus.focus();
+      };
+      const onKeydown = (event) => { if (event.key === 'Escape') close(); };
+      closeButton.addEventListener('click', close);
+      overlay.addEventListener('click', (event) => { if (event.target === overlay) close(); });
+      document.addEventListener('keydown', onKeydown);
+      dialog.append(closeButton, expandedChart);
+      overlay.append(dialog);
+      document.body.classList.add('chart-fullscreen-open');
+      document.body.append(overlay);
+      closeButton.focus();
+    }
+    function bindChartExpansion() {
+      const copy = chartFullscreenCopy[language];
+      salesDashboard.querySelectorAll('.chart-panel svg').forEach((chart) => {
+        chart.classList.add('chart-expand-trigger');
+        chart.setAttribute('tabindex', '0');
+        chart.setAttribute('role', 'button');
+        chart.setAttribute('aria-label', `${chart.getAttribute('aria-label')}. ${copy.hint}`);
+        chart.addEventListener('click', () => openChartFullscreen(chart.closest('.chart-panel')));
+        chart.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            openChartFullscreen(chart.closest('.chart-panel'));
+          }
+        });
+      });
+    }
+    function renderSalesDashboard() {
+      const labels = { ...actualLabels[language], snapshot: dashboardSnapshot() };
+      const targets = actualTargets();
+      const todayTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.at(-1), 0);
+      const monthTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.reduce((total, value) => total + value, 0), 0);
+      const documentTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].documents.reduce((total, value) => total + value, 0), 0);
+      const monthTargetTotal = Object.values(targets).reduce((sum, value) => sum + value, 0);
+      const monthProgress = monthTargetTotal ? monthTotal / monthTargetTotal : 0;
+      const dailyCards = actualCodes.map((code) => {
+        const store = cashSalesActuals[code];
+        return `<article class="store-tile"><div class="store-top"><span class="store-code">${code}</span><span class="company">${store.company}</span></div><div class="store-value">${formatRM(store.sales.at(-1))}</div><span class="status">${store.documents.at(-1)} ${labels.documents}</span></article>`;
+      }).join('') + `<article class="store-tile"><div class="store-top"><span class="store-code">KM</span><span class="company">Bagus Tayar</span></div><div class="store-value">—</div><span class="status warn">${labels.pending}</span></article>`;
+      const monthCards = actualCodes.map((code) => {
+        const sales = cashSalesActuals[code].sales.reduce((sum, value) => sum + value, 0);
+        const rate = targets[code] ? sales / targets[code] : 0;
+        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${(rate * 100).toFixed(1)}%</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
+      }).join('') + `<article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate warn">${labels.pending}</span></div><p class="month-value"><strong>—</strong> / ${formatRM(targets.KM, true).replace('RM ', '')}</p><div class="progress"><span class="warn" style="width:0%"></span></div></article>`;
+      const legend = actualCodes.map((code) => `<span><i class="dot" style="background:var(--${code.toLowerCase()})"></i>${code}</span>`).join('') + `<span><i class="dot" style="background:var(--km)"></i>KM · ${labels.pending}</span>`;
+      salesDashboard.innerHTML = `
+        <header class="page-head"><div><h1 id="page-title">${salesProgressTitle()}</h1><p>${translations[language].pageSubtitle}</p></div><div class="data-note"><span>${translations[language].displayData}</span><strong>${labels.snapshot}</strong><small class="dashboard-fetch-timestamp" id="dashboard-fetch-timestamp">${latestFetchText()}</small></div></header>
+        <section class="daily" aria-labelledby="daily-title"><div class="section-head"><div><h2 id="daily-title">${translations[language].dailySalesTitle}</h2><p>Cash Sales / RM</p></div><div class="group-total"><small>${translations[language].groupTotal}</small>${formatRM(todayTotal)}</div></div><div class="daily-row">${dailyCards}</div></section>
+        <section class="month-row" aria-labelledby="month-title"><div class="month-label"><h2 id="month-title">${translations[language].monthlyProgress}</h2><p>${translations[language].monthlyCaption}</p></div>${monthCards}</section>
+        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${formatRM(monthTargetTotal, true)}</span><span><small>${labels.progressRate}</small>${(monthProgress * 100).toFixed(1)}%</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
+        <section class="chart-panel" aria-labelledby="documents-chart-title"><div class="section-head"><div><h2 id="documents-chart-title">${translations[language].documentsChartTitle}</h2><p>${translations[language].documentsChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.documentTotal}</small>${documentTotal} ${labels.documents}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('documents')}</section>`;
+      title = document.getElementById('page-title');
+      bindChartExpansion();
+    }
+    function targetStorageKey() { return `gemok-monthly-targets-${targetMonth.value}`; }
+    function formatTargetAmount(value) {
+      if (value >= 1000000) return `${(value / 1000000).toLocaleString(localeByLanguage[language], { maximumFractionDigits: 2 })}M`;
+      return new Intl.NumberFormat(localeByLanguage[language]).format(value);
+    }
+    function updateTargetTotal() {
+      const total = Array.from(targetInputs).reduce((sum, input) => sum + Math.max(0, Number(input.value) || 0), 0);
+      targetTotalValue.textContent = `RM ${formatTargetAmount(total)}`;
+    }
+    function loadTargetValues() {
+      let saved = null;
+      try { saved = JSON.parse(localStorage.getItem(targetStorageKey())); } catch (error) { saved = null; }
+      targetInputs.forEach((input) => { input.value = saved && Number.isFinite(Number(saved[input.dataset.store])) ? saved[input.dataset.store] : targetDefaults[input.dataset.store]; });
+      targetSaved.textContent = '';
+      updateTargetTotal();
+    }
+    function renderActivePage() {
+      const showingSales = activeKey === 'salesProgress';
+      const showingTargets = activeKey === 'targets';
+      const showingSystem = activeKey === 'system';
+      salesDashboard.hidden = !showingSales;
+      targetDashboard.hidden = !showingTargets;
+      systemDashboard.hidden = !showingSystem;
+      construction.hidden = showingSales || showingTargets || showingSystem;
+      constructionTitle.textContent = translations[language][activeKey];
+      notice.classList.remove('show');
+      notice.textContent = '';
+    }
+    function escapeHtml(value) { return String(value ?? '').replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]); }
+    function renderSystemStaticCopy() {
+      const copy = systemCopy[language];
+      document.querySelector('[data-name-key="system"] span:last-child').textContent = copy.menu;
+      document.getElementById('system-title').textContent = copy.title;
+      document.getElementById('system-subtitle').textContent = copy.subtitle;
+      document.getElementById('interval-label').textContent = copy.interval;
+      document.getElementById('system-note').textContent = copy.note;
+      document.getElementById('system-save').textContent = copy.save;
+    }
+    function latestFetchText() {
+      if (!latestSuccessfulAt) return '';
+      const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kuala_Lumpur', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(new Date(latestSuccessfulAt));
+      const value = Object.fromEntries(parts.filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]));
+      const timestamp = `${value.year}/${value.month}/${value.day} ${value.hour}:${value.minute}:${value.second}`;
+      return latestFetchCopy[language].replace('{datetime}', timestamp);
+    }
+    function renderLatestFetch() {
+      const text = latestFetchText();
+      fetchTimestamp.textContent = text;
+      fetchTimestamp.hidden = !text;
+      const dashboardTimestamp = document.getElementById('dashboard-fetch-timestamp');
+      if (dashboardTimestamp) dashboardTimestamp.textContent = text;
+    }
+    async function loadCollectorStatus() {
+      try { const response = await fetch(`${collectorUrl}/status`); if (!response.ok) throw new Error(); const status = await response.json(); latestSuccessfulAt = status.lastSuccessfulAt || excelSnapshotFetchedAt; }
+      catch { latestSuccessfulAt = latestSuccessfulAt || excelSnapshotFetchedAt; }
+      renderLatestFetch();
+    }
+    function mergeCollectorDashboardData(payload) {
+      if (!payload?.month || !/^\d{4}-\d{2}$/.test(payload.month) || !/^\d{4}-\d{2}-\d{2}$/.test(payload.latestDate || '')) return false;
+      const expectedDays = Number(payload.latestDate.slice(-2));
+      const switchingMonth = payload.month !== dashboardDataMeta.month;
+      if (switchingMonth) {
+        actualCodes.forEach((code) => {
+          cashSalesActuals[code].sales = Array(expectedDays).fill(0);
+          cashSalesActuals[code].documents = Array(expectedDays).fill(0);
+        });
+      } else {
+        actualCodes.forEach((code) => {
+          while (cashSalesActuals[code].sales.length < expectedDays) cashSalesActuals[code].sales.push(0);
+          while (cashSalesActuals[code].documents.length < expectedDays) cashSalesActuals[code].documents.push(0);
+        });
+      }
+      actualCodes.forEach((code) => {
+        const source = payload.stores?.[code];
+        if (!source) return;
+        if (source.company) cashSalesActuals[code].company = source.company;
+        for (let index = 0; index < expectedDays; index += 1) {
+          const sales = source.sales?.[index];
+          const documents = source.documents?.[index];
+          if (sales !== null && sales !== undefined && Number.isFinite(Number(sales))) cashSalesActuals[code].sales[index] = Number(sales);
+          if (documents !== null && documents !== undefined && Number.isFinite(Number(documents))) cashSalesActuals[code].documents[index] = Number(documents);
+        }
+      });
+      dashboardDataMeta = { month: payload.month, latestDate: payload.latestDate };
+      latestSuccessfulAt = payload.lastSuccessfulAt || latestSuccessfulAt || excelSnapshotFetchedAt;
+      return true;
+    }
+    async function loadCollectorDashboardData() {
+      try {
+        const response = await fetch(`${collectorUrl}/dashboard-data`);
+        if (!response.ok) throw new Error();
+        const payload = await response.json();
+        if (mergeCollectorDashboardData(payload)) {
+          renderSalesDashboard();
+          renderLatestFetch();
+        }
+      } catch { /* Keep the packaged Excel snapshot when this PC's service is unavailable. */ }
+    }
+    async function loadPublishedDashboardData() {
+      try {
+        const response = await fetch('dashboard-data.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error();
+        const payload = await response.json();
+        if (mergeCollectorDashboardData(payload)) {
+          renderSalesDashboard();
+          renderLatestFetch();
+        }
+      } catch { /* The bundled values remain available if the published snapshot is unavailable. */ }
+    }
+    function renderSystemStores(settings = {}) {
+      const copy = systemCopy[language];
+      systemGrid.innerHTML = Object.entries(systemStores).map(([code, name]) => {
+        const store = settings.stores?.[code] || {};
+        return `<article class="system-store"><h3>${code} <small>${name}</small></h3><label>${copy.url}</label><input name="${code}-url" type="url" value="${escapeHtml(store.url)}" placeholder="https://.../Webform/Sales_Cash"><label>${copy.erpId}</label><input name="${code}-id" type="text" value="${escapeHtml(store.id)}" autocomplete="username"><label>${copy.password} ${store.hasPassword ? copy.passwordSet : ''}</label><input name="${code}-password" type="password" placeholder="${store.hasPassword ? copy.passwordNew : copy.passwordEmpty}" autocomplete="new-password"></article>`;
+      }).join('');
+    }
+    async function loadSystemSettings() {
+      const copy = systemCopy[language]; systemStatus.textContent = copy.checking;
+      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; renderSystemStores(settings); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
+      catch { renderSystemStores(); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
+    }
+    function setLanguage(nextLanguage) {
+      language = nextLanguage;
+      const copy = translations[language];
+      document.documentElement.lang = language === 'zh' ? 'zh-Hans' : language;
+      document.querySelectorAll('[data-i18n]').forEach((element) => { element.textContent = copy[element.dataset.i18n]; });
+      document.querySelectorAll('[data-i18n-aria]').forEach((element) => { element.setAttribute('aria-label', copy[element.dataset.i18nAria]); });
+      document.querySelectorAll('[data-status]').forEach((element) => {
+        const arrow = element.dataset.status === 'up' ? '↑' : '↓';
+        element.textContent = `${arrow} ${language === 'en' ? 'Daily target' : language === 'ms' ? 'Sasaran harian' : language === 'zh' ? '日目标达成' : '日次目標比'} ${element.dataset.rate}%`;
+      });
+      languageButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
+      localStorage.setItem('gemok-language', language);
+      renderSystemStaticCopy();
+      renderLatestFetch();
+      renderSalesDashboard();
+      renderActivePage();
+      if (activeKey === 'system') loadSystemSettings();
+    }
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        buttons.forEach((item) => item.removeAttribute('aria-current'));
+        button.setAttribute('aria-current', 'page');
+        activeKey = button.dataset.nameKey;
+        if (activeKey === 'salesProgress') renderSalesDashboard();
+        else if (activeKey !== 'system') title.textContent = translations[language][activeKey];
+        renderActivePage();
+        if (activeKey === 'system') loadSystemSettings();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+    targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
+    targetMonth.addEventListener('change', loadTargetValues);
+    targetForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const targets = Object.fromEntries(Array.from(targetInputs, (input) => [input.dataset.store, Math.max(0, Number(input.value) || 0)]));
+      localStorage.setItem(targetStorageKey(), JSON.stringify(targets));
+      targetSaved.textContent = translations[language].targetSaved.replace('{month}', targetMonth.value);
+      updateTargetTotal();
+      renderSalesDashboard();
+    });
+    systemForm.addEventListener('submit', async (event) => {
+      event.preventDefault(); const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`), password: form.get(`${code}-password`) }]));
+      const copy = systemCopy[language]; systemStatus.textContent = copy.saving; systemStatus.className = 'system-status';
+      try { const response = await fetch(`${collectorUrl}/settings`, { method: 'POST', headers: { 'content-type': 'text/plain;charset=UTF-8' }, body: JSON.stringify({ intervalSeconds: Number(intervalSeconds.value), stores }) }); if (!response.ok) throw new Error(); await fetch(`${collectorUrl}/sync`, { method: 'POST' }); await loadSystemSettings(); systemStatus.textContent = copy.saved; systemStatus.className = 'system-status ok'; }
+      catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
+    });
+    languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+    renderSalesDashboard();
+    loadTargetValues();
+    setLanguage(language);
+    loadPublishedDashboardData();
+    loadCollectorStatus();
+    loadCollectorDashboardData();
+    setInterval(loadCollectorStatus, 30000);
+    setInterval(loadCollectorDashboardData, 30000);
+  </script>
+</body>
+</html>
