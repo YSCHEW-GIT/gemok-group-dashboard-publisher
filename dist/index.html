@@ -325,6 +325,7 @@
     const fetchTimestamp = document.getElementById('fetch-timestamp');
     const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
     let latestSuccessfulAt = excelSnapshotFetchedAt;
+    const autoReloadTimestampKey = 'gemok-sales-progress-last-fetch-timestamp';
     let activeKey = 'salesProgress';
     let language = ['en', 'ms', 'ja', 'zh'].includes(localStorage.getItem('gemok-language')) ? localStorage.getItem('gemok-language') : 'ja';
     const currentMonthByLanguage = { en: 'October', ms: 'Oktober', ja: '10月', zh: '10月' };
@@ -558,9 +559,29 @@
       const dashboardTimestamp = document.getElementById('dashboard-fetch-timestamp');
       if (dashboardTimestamp) dashboardTimestamp.textContent = text;
     }
-    async function loadCollectorStatus() {
+    function reloadForNewFetchTimestamp(timestamp, reloadOnChange = false) {
+      if (!timestamp) return false;
+      const previous = sessionStorage.getItem(autoReloadTimestampKey);
+      const nextTime = Date.parse(timestamp);
+      const previousTime = Date.parse(previous || '');
+      if (!Number.isFinite(nextTime)) return false;
+      if (!Number.isFinite(previousTime)) {
+        sessionStorage.setItem(autoReloadTimestampKey, timestamp);
+        return false;
+      }
+      if (nextTime > previousTime) {
+        sessionStorage.setItem(autoReloadTimestampKey, timestamp);
+        if (reloadOnChange && activeKey === 'salesProgress') {
+          window.location.reload();
+          return true;
+        }
+      }
+      return false;
+    }
+    async function loadCollectorStatus(reloadOnChange = false) {
       try { const response = await fetch(`${collectorUrl}/status`); if (!response.ok) throw new Error(); const status = await response.json(); latestSuccessfulAt = status.lastSuccessfulAt || excelSnapshotFetchedAt; }
       catch { latestSuccessfulAt = latestSuccessfulAt || excelSnapshotFetchedAt; }
+      if (reloadForNewFetchTimestamp(latestSuccessfulAt, reloadOnChange)) return;
       renderLatestFetch();
     }
     function mergeCollectorDashboardData(payload) {
@@ -614,6 +635,14 @@
           renderLatestFetch();
         }
       } catch { /* The bundled values remain available if the published snapshot is unavailable. */ }
+    }
+    async function reloadWhenPublishedDataChanges() {
+      try {
+        const response = await fetch('dashboard-data.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error();
+        const payload = await response.json();
+        reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
+      } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
     }
     function renderSystemStores(settings = {}) {
       const copy = systemCopy[language];
@@ -680,8 +709,9 @@
     loadPublishedDashboardData();
     loadCollectorStatus();
     loadCollectorDashboardData();
-    setInterval(loadCollectorStatus, 30000);
+    setInterval(() => loadCollectorStatus(true), 30000);
     setInterval(loadCollectorDashboardData, 30000);
+    setInterval(reloadWhenPublishedDataChanges, 30000);
   </script>
 </body>
 </html>
