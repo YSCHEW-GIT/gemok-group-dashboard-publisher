@@ -322,6 +322,7 @@
       zh: { menu: '系统设置', title: '系统设置', subtitle: '在此电脑上设置专用 ERP 登录信息和后台同步。', checking: '正在检查本地采集服务…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordNew: '仅在需要更改时输入', passwordEmpty: '密码', note: '密码不会存储在仪表板或云端，而是使用此电脑的 Windows 用户加密进行保护。请为每间门店设置仅限对应分店权限的专用 ERP 账号。', save: '保存设置并同步', connected: '已连接到本地采集服务。', unavailable: '无法连接到本地采集服务。请在此电脑上启动采集服务。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
     const collectorUrl = 'http://127.0.0.1:47251';
+    const githubDashboardDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/dashboard-data.json';
     const fetchTimestamp = document.getElementById('fetch-timestamp');
     const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
     let latestSuccessfulAt = excelSnapshotFetchedAt;
@@ -625,11 +626,24 @@
         }
       } catch { /* Keep the packaged Excel snapshot when this PC's service is unavailable. */ }
     }
+    async function fetchPublishedDashboardSnapshot() {
+      const sources = [
+        `${githubDashboardDataUrl}?v=${Date.now()}`,
+        'dashboard-data.json',
+      ];
+      let lastError;
+      for (const source of sources) {
+        try {
+          const response = await fetch(source, { cache: 'no-store' });
+          if (!response.ok) throw new Error(`Dashboard data request failed: ${response.status}`);
+          return await response.json();
+        } catch (error) { lastError = error; }
+      }
+      throw lastError || new Error('Dashboard data is unavailable');
+    }
     async function loadPublishedDashboardData() {
       try {
-        const response = await fetch('dashboard-data.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error();
-        const payload = await response.json();
+        const payload = await fetchPublishedDashboardSnapshot();
         if (mergeCollectorDashboardData(payload)) {
           renderSalesDashboard();
           renderLatestFetch();
@@ -638,9 +652,7 @@
     }
     async function reloadWhenPublishedDataChanges() {
       try {
-        const response = await fetch('dashboard-data.json', { cache: 'no-store' });
-        if (!response.ok) throw new Error();
-        const payload = await response.json();
+        const payload = await fetchPublishedDashboardSnapshot();
         reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
       } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
     }
