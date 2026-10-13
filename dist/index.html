@@ -387,7 +387,7 @@
     function formatChartDay(day) {
       const weekday = new Intl.DateTimeFormat(localeByLanguage[language], { weekday: 'short', timeZone: 'UTC' }).format(dashboardDate(day));
       if (language === 'ja') return `${day}日（${weekday}）`;
-      if (language === 'zh') return `${day}日（周${weekday}）`;
+      if (language === 'zh') return `${day}日（${weekday.replace(/^周/, '')}）`;
       return `${day} (${weekday})`;
     }
     function chartSvg(metric) {
