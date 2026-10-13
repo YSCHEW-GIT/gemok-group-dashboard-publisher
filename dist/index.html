@@ -106,6 +106,8 @@
     .system-store h3 { margin:0 0 10px; font-size:15px; }
     .system-store label,.interval-label { display:block; margin:9px 0 4px; color:var(--muted); font-size:10px; font-weight:700; }
     .system-store input,.interval-input { width:100%; padding:9px 10px; border:1px solid #3d5575; border-radius:7px; color:var(--text); background:#102038; font:inherit; font-size:12px; }
+    .system-store input[readonly],.interval-input[readonly] { border-color:#2d435f; color:#c7d4e6; background:#0d1a2b; cursor:default; }
+    .system-secret-status { margin:11px 0 0; color:var(--muted); font-size:10px; line-height:1.5; }
     .system-note { margin:16px 0 0; color:var(--muted); font-size:11px; line-height:1.6; }
     .target-toolbar { display:flex; align-items:center; justify-content:space-between; gap:18px; margin-bottom:18px; padding:16px 18px; border:1px solid rgba(159,192,238,.14); border-radius:14px; background:var(--panel); }
     .target-toolbar-copy { min-width:0; }
@@ -316,12 +318,13 @@
     const systemStores = { SI: 'Chew Tayar / SI', SR: 'Gemok Tayar / SR', ST: 'Gemok Tayar / ST', SK: 'G Tayar / SK', KM: 'Bagus Tayar / KM' };
     const latestFetchCopy = { en: 'Latest fetch: {datetime}', ms: 'Kemaskini terakhir: {datetime}', ja: '最新取得日時：{datetime}', zh: '最新获取时间：{datetime}' };
     const systemCopy = {
-      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Set the dedicated ERP logins and background sync on this PC.', checking: 'Checking the local collection service…', interval: 'Collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordNew: 'Enter only to change', passwordEmpty: 'Password', note: 'Passwords are not stored in the dashboard or cloud. They are protected with Windows user encryption on this PC. Configure a dedicated ERP account restricted to the relevant branch for each store.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', unavailable: 'Cannot connect to the local collection service. Start the collection service on this PC.', saving: 'Saving settings…', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
-      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Tetapkan log masuk ERP khusus dan penyegerakan latar belakang pada PC ini.', checking: 'Memeriksa perkhidmatan kutipan setempat…', interval: 'Selang kutipan (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordNew: 'Masukkan hanya untuk menukar', passwordEmpty: 'Kata laluan', note: 'Kata laluan tidak disimpan dalam papan pemuka atau awan. Ia dilindungi dengan penyulitan pengguna Windows pada PC ini. Tetapkan akaun ERP khusus yang dihadkan kepada cawangan berkaitan bagi setiap kedai.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Mulakan perkhidmatan kutipan pada PC ini.', saving: 'Menyimpan tetapan…', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
-      ja: { menu: 'システム設定', title: 'システム設定', subtitle: '専用ERPログインとバックグラウンド同期をこのPCに設定します。', checking: 'ローカル取得サービスを確認中...', interval: '取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordNew: '変更する場合のみ入力', passwordEmpty: 'パスワード', note: 'パスワードはダッシュボードやクラウドへ保存されず、このPCのWindowsユーザー暗号化で保護されます。店舗ごとに対象支店に限定した専用ERPアカウントを設定してください。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', unavailable: 'ローカル取得サービスに接続できません。PC上の取得サービスを起動してください。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
-      zh: { menu: '系统设置', title: '系统设置', subtitle: '在此电脑上设置专用 ERP 登录信息和后台同步。', checking: '正在检查本地采集服务…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordNew: '仅在需要更改时输入', passwordEmpty: '密码', note: '密码不会存储在仪表板或云端，而是使用此电脑的 Windows 用户加密进行保护。请为每间门店设置仅限对应分店权限的专用 ERP 账号。', save: '保存设置并同步', connected: '已连接到本地采集服务。', unavailable: '无法连接到本地采集服务。请在此电脑上启动采集服务。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
+      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Configure background collection on this protected administration page.', publicSubtitle: 'View the collector settings published by the administrator.', checking: 'Checking the local collection service…', publicChecking: 'Loading published settings…', interval: 'Collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordMissing: '(not configured)', passwordManaged: 'Managed separately on the server', note: 'ERP passwords are managed separately as encrypted systemd credentials on the Ubuntu server.', publicNote: 'Read-only. Change these values from the protected local administration dashboard. ERP passwords are never published.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', published: 'Showing the latest published settings (read-only).', unavailable: 'Cannot connect to the local collection service. Open the dashboard from the collector service.', publicUnavailable: 'Published settings are not available yet.', saving: 'Saving settings…', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
+      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Konfigurasikan kutipan latar belakang pada halaman pentadbiran terlindung ini.', publicSubtitle: 'Lihat tetapan pengumpul yang diterbitkan oleh pentadbir.', checking: 'Memeriksa perkhidmatan kutipan setempat…', publicChecking: 'Memuatkan tetapan yang diterbitkan…', interval: 'Selang kutipan (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordMissing: '(belum ditetapkan)', passwordManaged: 'Diuruskan secara berasingan pada pelayan', note: 'Kata laluan ERP diuruskan secara berasingan sebagai kelayakan systemd yang disulitkan pada pelayan Ubuntu.', publicNote: 'Baca sahaja. Ubah nilai ini daripada papan pemuka pentadbiran setempat yang terlindung. Kata laluan ERP tidak pernah diterbitkan.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', published: 'Menunjukkan tetapan terkini yang diterbitkan (baca sahaja).', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Buka papan pemuka daripada perkhidmatan pengumpul.', publicUnavailable: 'Tetapan yang diterbitkan belum tersedia.', saving: 'Menyimpan tetapan…', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
+      ja: { menu: 'システム設定', title: 'システム設定', subtitle: '保護された管理画面でバックグラウンド取得を設定します。', publicSubtitle: '管理者が公開した取得サービスの設定を確認できます。', checking: 'ローカル取得サービスを確認中...', publicChecking: '公開済み設定を読み込み中...', interval: '取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordMissing: '（未設定）', passwordManaged: 'サーバー上で別途管理', note: 'ERPパスワードはUbuntuサーバー上の暗号化systemd Credentialとして別途管理されます。', publicNote: '参照専用です。変更は保護されたローカル管理画面から行います。ERPパスワードは公開されません。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', published: '最新の公開済み設定を表示しています（参照専用）。', unavailable: 'ローカル取得サービスに接続できません。取得サービスから管理画面を開いてください。', publicUnavailable: '公開済み設定をまだ取得できません。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
+      zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
-    const collectorUrl = 'http://127.0.0.1:47251';
+    const localSettingsMode = location.port === '47251' && location.pathname.startsWith('/dashboard');
+    const collectorUrl = localSettingsMode ? location.origin : 'http://127.0.0.1:47251';
     const githubDashboardDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/dashboard-data.json';
     const fetchTimestamp = document.getElementById('fetch-timestamp');
     const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
@@ -541,10 +544,13 @@
       const copy = systemCopy[language];
       document.querySelector('[data-name-key="system"] span:last-child').textContent = copy.menu;
       document.getElementById('system-title').textContent = copy.title;
-      document.getElementById('system-subtitle').textContent = copy.subtitle;
+      document.getElementById('system-subtitle').textContent = localSettingsMode ? copy.subtitle : copy.publicSubtitle;
       document.getElementById('interval-label').textContent = copy.interval;
-      document.getElementById('system-note').textContent = copy.note;
-      document.getElementById('system-save').textContent = copy.save;
+      document.getElementById('system-note').textContent = localSettingsMode ? copy.note : copy.publicNote;
+      const saveButton = document.getElementById('system-save');
+      saveButton.textContent = copy.save;
+      saveButton.hidden = !localSettingsMode;
+      intervalSeconds.readOnly = !localSettingsMode;
     }
     function latestFetchText() {
       if (!latestSuccessfulAt) return '';
@@ -628,8 +634,8 @@
     }
     async function fetchPublishedDashboardSnapshot() {
       const sources = [
+        `dashboard-data.json?v=${Date.now()}`,
         `${githubDashboardDataUrl}?v=${Date.now()}`,
-        'dashboard-data.json',
       ];
       let lastError;
       for (const source of sources) {
@@ -656,17 +662,24 @@
         reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
       } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
     }
-    function renderSystemStores(settings = {}) {
+    function renderSystemStores(settings = {}, readOnly = !localSettingsMode) {
       const copy = systemCopy[language];
       systemGrid.innerHTML = Object.entries(systemStores).map(([code, name]) => {
         const store = settings.stores?.[code] || {};
-        return `<article class="system-store"><h3>${code} <small>${name}</small></h3><label>${copy.url}</label><input name="${code}-url" type="url" value="${escapeHtml(store.url)}" placeholder="https://.../Webform/Sales_Cash"><label>${copy.erpId}</label><input name="${code}-id" type="text" value="${escapeHtml(store.id)}" autocomplete="username"><label>${copy.password} ${store.hasPassword ? copy.passwordSet : ''}</label><input name="${code}-password" type="password" placeholder="${store.hasPassword ? copy.passwordNew : copy.passwordEmpty}" autocomplete="new-password"></article>`;
+        const readOnlyAttribute = readOnly ? ' readonly aria-readonly="true"' : '';
+        const passwordStatus = localSettingsMode ? `<p class="system-secret-status">${copy.password} ${store.hasPassword ? copy.passwordSet : copy.passwordMissing} · ${copy.passwordManaged}</p>` : '';
+        return `<article class="system-store"><h3>${code} <small>${name}</small></h3><label>${copy.url}</label><input name="${code}-url" type="url" value="${escapeHtml(store.url)}" placeholder="https://.../Webform/Sales_Cash"${readOnlyAttribute}><label>${copy.erpId}</label><input name="${code}-id" type="text" value="${escapeHtml(store.id)}" autocomplete="username"${readOnlyAttribute}>${passwordStatus}</article>`;
       }).join('');
     }
     async function loadSystemSettings() {
-      const copy = systemCopy[language]; systemStatus.textContent = copy.checking;
-      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; renderSystemStores(settings); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
-      catch { renderSystemStores(); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
+      const copy = systemCopy[language]; systemStatus.textContent = localSettingsMode ? copy.checking : copy.publicChecking;
+      if (!localSettingsMode) {
+        try { const payload = await fetchPublishedDashboardSnapshot(); if (!payload.systemSettings) throw new Error(); intervalSeconds.value = payload.systemSettings.intervalSeconds || 300; renderSystemStores(payload.systemSettings, true); systemStatus.textContent = copy.published; systemStatus.className = 'system-status ok'; }
+        catch { intervalSeconds.value = 300; renderSystemStores({}, true); systemStatus.textContent = copy.publicUnavailable; systemStatus.className = 'system-status'; }
+        return;
+      }
+      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; renderSystemStores(settings, false); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
+      catch { renderSystemStores({}, false); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
     }
     function setLanguage(nextLanguage) {
       language = nextLanguage;
@@ -709,7 +722,7 @@
       renderSalesDashboard();
     });
     systemForm.addEventListener('submit', async (event) => {
-      event.preventDefault(); const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`), password: form.get(`${code}-password`) }]));
+      event.preventDefault(); if (!localSettingsMode) return; const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`) }]));
       const copy = systemCopy[language]; systemStatus.textContent = copy.saving; systemStatus.className = 'system-status';
       try { const response = await fetch(`${collectorUrl}/settings`, { method: 'POST', headers: { 'content-type': 'text/plain;charset=UTF-8' }, body: JSON.stringify({ intervalSeconds: Number(intervalSeconds.value), stores }) }); if (!response.ok) throw new Error(); await fetch(`${collectorUrl}/sync`, { method: 'POST' }); await loadSystemSettings(); systemStatus.textContent = copy.saved; systemStatus.className = 'system-status ok'; }
       catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
