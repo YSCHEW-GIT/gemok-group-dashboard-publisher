@@ -659,15 +659,15 @@
         `dashboard-data.json?v=${Date.now()}`,
         `${githubDashboardDataUrl}?v=${Date.now()}`,
       ];
-      let lastError;
-      for (const source of sources) {
-        try {
+      const results = await Promise.allSettled(sources.map(async (source) => {
           const response = await fetch(source, { cache: 'no-store' });
           if (!response.ok) throw new Error(`Dashboard data request failed: ${response.status}`);
           return await response.json();
-        } catch (error) { lastError = error; }
-      }
-      throw lastError || new Error('Dashboard data is unavailable');
+      }));
+      const snapshots = results.filter((result) => result.status === 'fulfilled').map((result) => result.value);
+      if (!snapshots.length) throw new Error('Dashboard data is unavailable');
+      const snapshotTime = (payload) => Date.parse(payload?.lastSuccessfulAt || '') || Date.parse(`${payload?.latestDate || ''}T00:00:00Z`) || 0;
+      return snapshots.reduce((latest, candidate) => snapshotTime(candidate) > snapshotTime(latest) ? candidate : latest);
     }
     async function loadPublishedDashboardData() {
       try {
