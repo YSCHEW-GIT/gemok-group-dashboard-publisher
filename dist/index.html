@@ -87,9 +87,7 @@
     .grid-line { stroke:#3a4d68; stroke-width:1; }
     .axis { fill:#a4bce1; font-size:11px; font-family:Inter,"Noto Sans JP",sans-serif; }
     .axis-label { fill:#a4bce1; font-size:10px; font-family:Inter,"Noto Sans JP",sans-serif; }
-    .document-value-label,.document-total-label,.sales-value-label,.sales-total-label { font-family:Inter,"Noto Sans JP",sans-serif; font-weight:800; }
-    .document-value-label,.sales-value-label { font-size:9px; }
-    .document-total-label,.sales-total-label { font-size:10px; }
+    .document-value-label,.sales-value-label { font-family:Inter,"Noto Sans JP",sans-serif; font-size:9px; font-weight:800; }
     .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
     .notice.show { display:block; }
     .construction { display:grid; min-height:510px; place-items:center; align-content:center; padding:56px 24px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:radial-gradient(circle at center,rgba(48,105,184,.16),transparent 48%),var(--panel); text-align:center; }
@@ -263,7 +261,7 @@
         sidebarNote: 'Cash Sales actuals for 1–10 October are loaded from Webmax. KM is waiting for its connection source.',
         pageSubtitle: 'Review today’s Cash Sales and this month’s store trends on one screen.', displayData: 'Displayed data', sampleData: 'Sample display (before ERP connection)',
         dailySalesTitle: 'All Stores · Today’s Sales', groupTotal: 'Group total', monthlyProgress: 'This Month’s Progress', monthlyCaption: 'Cumulative sales / monthly target',
-        salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Stacked daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
+        salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Compare daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
         documentsChartTitle: 'Daily Document Count', documentsChartSubtitle: 'Compare Cash Sales document counts by store and date', documentsAccum: 'Documents  1,284',
         amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Saved values are stored in this browser. They will become shared settings after ERP and Excel integration.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
       },
@@ -273,7 +271,7 @@
         sidebarNote: 'Data sebenar Cash Sales 1–10 Oktober dimuatkan daripada Webmax. Sumber KM masih menunggu.',
         pageSubtitle: 'Lihat Cash Sales hari ini dan trend cawangan bulan ini dalam satu skrin.', displayData: 'Data dipaparkan', sampleData: 'Paparan sampel (sebelum integrasi ERP)',
         dailySalesTitle: 'Semua Cawangan · Jualan Hari Ini', groupTotal: 'Jumlah kumpulan', monthlyProgress: 'Kemajuan Bulan Ini', monthlyCaption: 'Jualan terkumpul / sasaran bulanan',
-        salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Cash Sales harian terkumpul mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
+        salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Bandingkan Cash Sales harian mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
         documentsChartTitle: 'Bilangan Dokumen Harian', documentsChartSubtitle: 'Bandingkan bilangan dokumen Cash Sales mengikut cawangan dan tarikh', documentsAccum: 'Dokumen  1,284',
         amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Nilai simpanan direkodkan dalam pelayar ini. Ia akan menjadi tetapan bersama selepas integrasi ERP dan Excel.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
       },
@@ -283,7 +281,7 @@
         sidebarNote: 'Webmaxから10月1日〜10日のCash Sales実績を反映済みです。KMは接続先待ちです。',
         pageSubtitle: '本日のCash Salesと、当月の店舗別推移を一画面で確認', displayData: '表示データ', sampleData: 'サンプル表示（ERP連携前）',
         dailySalesTitle: '全店舗・本日売上', groupTotal: 'グループ合計', monthlyProgress: '今月の進捗', monthlyCaption: '累計売上 / 月間目標',
-        salesChartTitle: '当月の日別売上', salesChartSubtitle: '日付ごとの店舗別Cash Salesを積み上げ表示', salesAccum: '10月売上　RM 514,800',
+        salesChartTitle: '当月の日別売上', salesChartSubtitle: '日付ごとに店舗別のCash Salesを比較', salesAccum: '10月売上　RM 514,800',
         documentsChartTitle: '日別伝票数', documentsChartSubtitle: '日付ごとに店舗別のCash Sales伝票数を比較', documentsAccum: '伝票　1,284件',
         amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
       },
@@ -293,7 +291,7 @@
         sidebarNote: '已加载 Webmax 10月1日至10日 Cash Sales 实绩。KM 正等待连接来源。',
         pageSubtitle: '在一个页面查看今日 Cash Sales 和本月各门店趋势。', displayData: '显示数据', sampleData: '示例显示（ERP 对接前）',
         dailySalesTitle: '所有门店 · 今日销售', groupTotal: '集团合计', monthlyProgress: '本月进度', monthlyCaption: '累计销售 / 月度目标',
-        salesChartTitle: '本月每日销售额', salesChartSubtitle: '按日期堆叠显示各门店的 Cash Sales', salesAccum: '10月销售额  RM 514,800',
+        salesChartTitle: '本月每日销售额', salesChartSubtitle: '按日期比较各门店的 Cash Sales', salesAccum: '10月销售额  RM 514,800',
         documentsChartTitle: '每日单据数量', documentsChartSubtitle: '按日期比较各门店的 Cash Sales 单据数量', documentsAccum: '单据  1,284 张',
         amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '保存的数值会记录在此浏览器中。ERP 与 Excel 对接后将切换为共享设置。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
       }
@@ -395,44 +393,25 @@
       if (language === 'zh') return `${day}日（${weekday.replace(/^周/, '')}）`;
       return `${day} (${weekday})`;
     }
-    function formatChartThousands(value) {
-      return `${(Number(value) / 1000).toLocaleString(localeByLanguage[language], { minimumFractionDigits: 1, maximumFractionDigits: 1 })}K`;
-    }
     function chartSvg(metric) {
       const isSales = metric === 'sales';
-      const displayDays = cashSalesActuals[actualCodes[0]].sales.length;
-      const dailySalesTotals = Array.from({ length: displayDays }, (_, dayIndex) => actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales[dayIndex], 0));
-      const rawSalesStep = Math.max(...dailySalesTotals, 1) / 3;
-      const salesStepMagnitude = 10 ** Math.floor(Math.log10(rawSalesStep));
-      const normalizedSalesStep = rawSalesStep / salesStepMagnitude;
-      const salesStepFactor = normalizedSalesStep <= 1 ? 1 : normalizedSalesStep <= 2 ? 2 : normalizedSalesStep <= 5 ? 5 : 10;
-      const salesStep = salesStepFactor * salesStepMagnitude;
-      const maxValue = isSales ? salesStep * 3 : 120;
-      const ticks = isSales ? [0, salesStep, salesStep * 2, salesStep * 3] : [0, 30, 60, 90, 120];
+      const maxValue = isSales ? 30000 : 120;
+      const ticks = isSales ? [0, 10000, 20000, 30000] : [0, 30, 60, 90, 120];
       const y = (value) => 190 - (138 * value / maxValue);
+      const displayDays = cashSalesActuals[actualCodes[0]].sales.length;
       const x = (index) => 108 + (index * (displayDays > 1 ? 816 / (displayDays - 1) : 0));
       const colors = ['var(--si)', 'var(--sr)', 'var(--st)', 'var(--sk)'];
+      const offsets = [-18, -6, 6, 18];
       const grid = ticks.map((tick) => `<line x1="64" x2="950" y1="${y(tick)}" y2="${y(tick)}"/>`).join('');
-      const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : formatChartThousands(tick)) : tick}</text>`).join('');
+      const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : `${tick / 1000}K`) : tick}</text>`).join('');
       const dayAxis = Array.from({ length: displayDays }, (_, index) => `<text x="${x(index) - 15}" y="216">${formatChartDay(index + 1)}</text>`).join('');
       if (isSales) {
-        const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
-          let total = 0;
-          const barX = x(dayIndex) - 23;
-          const segments = actualCodes.map((code, codeIndex) => {
-            const value = cashSalesActuals[code].sales[dayIndex];
-            if (!value) return '';
-            const start = total;
-            total += value;
-            const top = y(total);
-            const height = y(start) - top;
-            const labelColor = code === 'SR' ? '#172238' : '#ffffff';
-            return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="sales-value-label" x="${x(dayIndex)}" y="${top + (height / 2)}" dominant-baseline="middle" text-anchor="middle" fill="${labelColor}">${formatChartThousands(value)}</text>`;
-          }).join('');
-          const totalLabel = total > 0 ? `<text class="sales-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff">${formatChartThousands(total)}</text>` : '';
-          return `<g>${segments}${totalLabel}</g>`;
-        }).join('');
-        return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].salesChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].amountAxis}</text></svg>`;
+        const bars = actualCodes.map((code, codeIndex) => cashSalesActuals[code].sales.map((value, dayIndex) => {
+          const barX = x(dayIndex) + offsets[codeIndex] - 5;
+          const label = value > 0 ? `<text class="sales-value-label" x="${barX + 5}" y="${Math.max(y(value) - 4, 46)}" text-anchor="middle" fill="${colors[codeIndex]}">${Math.floor(value / 1000)}K</text>` : '';
+          return `<rect x="${barX}" y="${y(value)}" width="10" height="${190 - y(value)}" rx="2"/>${label}`;
+        }).join('')).map((bars, index) => `<g fill="${colors[index]}">${bars}</g>`).join('');
+        return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].salesChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${bars}<text class="axis-label" x="64" y="229">${translations[language].amountAxis}</text></svg>`;
       }
       const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
         let total = 0;
@@ -447,8 +426,7 @@
           const labelColor = code === 'SR' ? '#172238' : '#ffffff';
           return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="document-value-label" x="${x(dayIndex)}" y="${top + (height / 2) + 3}" text-anchor="middle" fill="${labelColor}">${value}</text>`;
         }).join('');
-        const totalLabel = total > 0 ? `<text class="document-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff">${total}</text>` : '';
-        return `<g>${segments}${totalLabel}</g>`;
+        return `<g>${segments}</g>`;
       }).join('');
       return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].documentsChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].documentAxis}</text></svg>`;
     }
