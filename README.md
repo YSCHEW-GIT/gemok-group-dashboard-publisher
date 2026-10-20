@@ -1,1 +1,4 @@
-¨¥yÛhr·šµë-­æ¦}Ó©z¶­Š‰ç¢Ú^®h­µçEj)^vÚ­æ­zËky©Ÿtê^­«b¢yè¶—«š+myÑZŠW¶‡+y«^²ÚŞjgİ:—«jØ¨z-¥êæŠÛ^tŒ5=,É½ÕÀM…±•Ì…Í¡‰½…ÉAÕ‰±¥Í¡•È()Q¡”5=,½±±•Ñ½ÈÕÁ‘…Ñ•Ì‘¥ÍĞ½‘…Í¡‰½…Éµ‘…Ñ„¹©Í½¹€™É½´¥ÑÌ±½…°…¡”…™Ñ•È„ÍÕ•ÍÍ™Õ°½±±•Ñ¥½¸¸)… ÁÕÍ¡•ÕÁ‘…Ñ”ÑÉ¥•ÉÌÑ¡”¥Ñ!ÕˆA…•Ì‘•Á±½åµ•¹Ğİ½É­™±½Ü¸(
+# GEMOK Group Sales Dashboard Publisher
+
+The GEMOK Collector updates `dist/dashboard-data.json` from its local cache after a successful collection.
+Each pushed update triggers the GitHub Pages deployment workflow.
