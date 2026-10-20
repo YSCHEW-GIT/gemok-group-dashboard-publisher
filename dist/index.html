@@ -1,742 +1,164 @@
-<!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Gemok Group åº—èˆ—åˆ¥å£²ä¸Šé€²æ—ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰">
-  <title>Gemok Group | å–¶æ¥­ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰</title>
-  <style>
-    :root { --bg:#0b1322; --sidebar:#101c2f; --panel:#19283d; --panel-2:#142239; --line:#2f435f; --text:#f4f8ff; --muted:#9bb2d8; --blue:#73a8ff; --green:#43dfa0; --amber:#f5bd4e; --si:#ef4444; --sr:#facc15; --st:#3b82f6; --sk:#22c55e; --km:#f97316; }
-    * { box-sizing:border-box; }
-    body { margin:0; min-width:320px; color:var(--text); background:var(--bg); font-family:Inter,"Noto Sans JP","Yu Gothic UI",sans-serif; }
-    .app { min-height:100vh; display:grid; grid-template-columns:236px minmax(0,1fr); grid-template-rows:86px minmax(0,1fr); }
-    .topbar { grid-column:1 / -1; display:flex; align-items:center; justify-content:space-between; gap:20px; padding:0 28px; border-bottom:1px solid var(--line); background:#0e192b; }
-    .brand { display:flex; align-items:center; gap:12px; }
-    .brand-mark { width:69px; height:78px; object-fit:contain; object-position:center; filter:drop-shadow(0 5px 9px rgba(0,0,0,.28)); }
-    .brand-name { font-size:19px; font-weight:800; letter-spacing:.02em; }
-    .brand-sub { margin-left:8px; color:var(--muted); font-size:12px; font-weight:500; }
-    .topbar-right { display:flex; align-items:center; gap:15px; color:var(--muted); font-size:12px; }
-    .live { display:inline-flex; align-items:center; gap:6px; color:var(--green); font-weight:700; }
-    .live i { width:7px; height:7px; border-radius:50%; background:currentColor; }
-    .fetch-timestamp { color:#a9bee0; font-variant-numeric:tabular-nums; white-space:nowrap; }
-    .language-switcher { display:inline-flex; gap:3px; padding:3px; border:1px solid rgba(155,190,235,.17); border-radius:8px; background:#17263d; }
-    .language-switcher button { padding:5px 7px; border:0; border-radius:5px; color:var(--muted); background:transparent; font:inherit; font-size:11px; font-weight:800; cursor:pointer; }
-    .language-switcher button:hover, .language-switcher button[aria-pressed="true"] { color:#fff; background:#315f9d; }
-    .sidebar { grid-row:2; padding:22px 15px; border-right:1px solid var(--line); background:var(--sidebar); }
-    .menu-label { margin:0 10px 11px; color:#7792bd; font-size:11px; font-weight:800; letter-spacing:.1em; }
-    .menu { display:grid; gap:6px; }
-    .menu-button { display:flex; align-items:center; width:100%; gap:11px; padding:12px 12px; border:1px solid transparent; border-radius:9px; color:#bbcee9; background:transparent; text-align:left; font:inherit; font-size:14px; font-weight:700; cursor:pointer; transition:.15s ease; }
-    .menu-button:hover { color:var(--text); background:#172741; }
-    .menu-button[aria-current="page"] { border-color:rgba(115,168,255,.25); color:#fff; background:#244a80; box-shadow:inset 3px 0 0 var(--blue); }
-    .menu-icon { display:grid; width:19px; height:19px; place-items:center; border-radius:5px; color:currentColor; background:rgba(140,180,240,.12); font-size:11px; }
-    .menu-divider { height:1px; margin:17px 10px; background:var(--line); }
-    .sidebar-note { margin:0 10px; color:#7892ba; font-size:11px; line-height:1.7; }
-    .content { min-width:0; padding:28px; background:radial-gradient(circle at 92% 0%,rgba(47,116,234,.14),transparent 31%),var(--bg); }
-    .page-head { display:flex; justify-content:space-between; align-items:flex-start; gap:20px; margin-bottom:23px; }
-    h1 { margin:0; font-size:28px; letter-spacing:-.03em; }
-    .page-head p { margin:8px 0 0; color:var(--muted); font-size:13px; }
-    .data-note { flex:0 0 auto; padding:10px 13px; border:1px solid rgba(159,192,238,.15); border-radius:9px; color:var(--muted); background:var(--panel); font-size:11px; }
-    .data-note strong { display:block; margin-top:3px; color:var(--text); font-size:13px; }
-    .dashboard-fetch-timestamp { display:none; }
-    .daily { padding:17px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.92); }
-    .section-head { display:flex; align-items:end; justify-content:space-between; gap:15px; margin-bottom:14px; }
-    h2 { margin:0; font-size:16px; }
-    .section-head p { margin:4px 0 0; color:var(--muted); font-size:11px; }
-    .group-total { color:var(--green); font-size:15px; font-weight:800; white-space:nowrap; }
-    .group-total small { margin-right:7px; color:var(--muted); font-size:11px; font-weight:500; }
-    .daily-row { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:9px; }
-    .store-tile { min-width:0; padding:13px; border-radius:9px; background:var(--panel-2); }
-    .store-top { display:flex; align-items:center; justify-content:space-between; gap:5px; }
-    .store-code { font-size:13px; font-weight:800; }
-    .company { overflow:hidden; color:var(--muted); font-size:10px; text-overflow:ellipsis; white-space:nowrap; }
-    .store-value { margin-top:10px; font-size:clamp(19px,2.05vw,26px); font-weight:800; letter-spacing:-.045em; white-space:nowrap; }
-    .status { display:block; margin-top:7px; color:var(--green); font-size:10px; font-weight:800; }
-    .status.warn { color:var(--amber); }
-    .month-row { display:grid; grid-template-columns:135px repeat(5,minmax(0,1fr)); gap:9px; align-items:stretch; margin:15px 0 19px; }
-    .month-label { display:flex; flex-direction:column; justify-content:center; padding-left:2px; }
-    .month-label p { margin:5px 0 0; color:var(--muted); font-size:11px; }
-    .month-tile { min-width:0; padding:11px 12px; border-radius:9px; background:var(--panel); }
-    .month-top { display:flex; justify-content:space-between; gap:5px; font-size:12px; }
-    .month-top strong { font-size:13px; }
-    .rate { color:var(--blue); font-weight:800; }
-    .rate.warn { color:var(--amber); }
-    .month-value { margin:7px 0; color:var(--muted); font-size:10px; }
-    .month-value strong { color:var(--text); font-size:15px; }
-    .progress { height:5px; overflow:hidden; border-radius:99px; background:#364c6b; }
-    .progress span { display:block; height:100%; border-radius:inherit; background:var(--blue); }
-    .progress .warn { background:var(--amber); }
-    .chart-panel { padding:18px; border:1px solid rgba(159,192,238,.13); border-radius:14px; background:var(--panel); }
-    .chart-panel + .chart-panel { margin-top:16px; }
-    .chart-expand-trigger { touch-action:manipulation; }
-    .chart-fullscreen { position:fixed; z-index:1000; inset:0; display:grid; place-items:center; padding:16px; background:rgba(4,11,21,.94); }
-    .chart-fullscreen-dialog { position:relative; width:min(100%,860px); max-height:100%; overflow:auto; padding:48px 12px 16px; border:1px solid rgba(159,192,238,.24); border-radius:18px; background:var(--panel); box-shadow:0 24px 80px rgba(0,0,0,.48); }
-    .chart-fullscreen-close { position:absolute; top:10px; right:10px; padding:9px 12px; border:1px solid rgba(159,192,238,.25); border-radius:8px; color:var(--text); background:#243957; font:inherit; font-size:12px; font-weight:800; }
-    .fullscreen-chart-content { padding:0; border:0; border-radius:0; background:transparent; }
-    .fullscreen-chart-content svg { height:min(68vh,520px); }
-    .chart-meta { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:11px; color:var(--green); font-size:12px; font-weight:800; white-space:nowrap; }
-    .chart-meta span { display:grid; gap:2px; text-align:right; }
-    .chart-meta small { color:var(--muted); font-size:9px; font-weight:700; }
-    .legend { display:flex; flex-wrap:wrap; gap:12px; margin:11px 0 5px; color:var(--muted); font-size:10px; }
-    .legend span { display:inline-flex; align-items:center; gap:5px; }
-    .dot { width:8px; height:8px; border-radius:2px; }
-    .chart-type { margin-left:3px; color:#c8d7ed; }
-    .chart-type strong { color:var(--text); }
-    .chart-type-line { width:16px; height:0; border-top:2px solid var(--green); position:relative; }
-    .chart-type-line::after { content:""; position:absolute; top:-4px; left:6px; width:5px; height:5px; border-radius:50%; background:var(--green); }
-    svg { display:block; width:100%; height:225px; overflow:visible; }
-    .grid-line { stroke:#3a4d68; stroke-width:1; }
-    .axis { fill:#a4bce1; font-size:11px; font-family:Inter,"Noto Sans JP",sans-serif; }
-    .axis-label { fill:#a4bce1; font-size:10px; font-family:Inter,"Noto Sans JP",sans-serif; }
-    .document-value-label,.sales-value-label { font-family:Inter,"Noto Sans JP",sans-serif; font-size:9px; font-weight:800; }
-    .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
-    .notice.show { display:block; }
-    .construction { display:grid; min-height:510px; place-items:center; align-content:center; padding:56px 24px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:radial-gradient(circle at center,rgba(48,105,184,.16),transparent 48%),var(--panel); text-align:center; }
-    .construction[hidden], #sales-dashboard[hidden] { display:none; }
-    .construction-icon { display:grid; width:58px; height:58px; place-items:center; border:1px solid rgba(115,168,255,.35); border-radius:17px; color:var(--blue); background:#162943; font-size:29px; }
-    .construction-eyebrow { margin:18px 0 8px; color:var(--green); font-size:12px; font-weight:800; letter-spacing:.11em; }
-    .construction h1 { font-size:27px; }
-    .construction p:last-child { max-width:360px; margin:11px 0 0; color:var(--muted); font-size:13px; line-height:1.7; }
-    .target-dashboard[hidden] { display:none; }
-    .system-dashboard[hidden] { display:none; }
-    .system-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:var(--panel); }
-    .system-status { margin:0 0 16px; color:var(--muted); font-size:12px; }
-    .system-status.ok { color:var(--green); }
-    .system-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
-    .system-store { padding:14px; border-radius:10px; background:var(--panel-2); }
-    .system-store h3 { margin:0 0 10px; font-size:15px; }
-    .system-store label,.interval-label { display:block; margin:9px 0 4px; color:var(--muted); font-size:10px; font-weight:700; }
-    .system-store input,.interval-input { width:100%; padding:9px 10px; border:1px solid #3d5575; border-radius:7px; color:var(--text); background:#102038; font:inherit; font-size:12px; }
-    .system-store input[readonly],.interval-input[readonly] { border-color:#2d435f; color:#c7d4e6; background:#0d1a2b; cursor:default; }
-    .system-secret-status { margin:11px 0 0; color:var(--muted); font-size:10px; line-height:1.5; }
-    .system-note { margin:16px 0 0; color:var(--muted); font-size:11px; line-height:1.6; }
-    .target-toolbar { display:flex; align-items:center; justify-content:space-between; gap:18px; margin-bottom:18px; padding:16px 18px; border:1px solid rgba(159,192,238,.14); border-radius:14px; background:var(--panel); }
-    .target-toolbar-copy { min-width:0; }
-    .target-toolbar-copy h2 { font-size:16px; }
-    .target-toolbar-copy p { margin:5px 0 0; color:var(--muted); font-size:12px; }
-    .month-picker { flex:0 0 auto; display:flex; align-items:center; gap:9px; color:var(--muted); font-size:12px; font-weight:700; }
-    .month-picker input { min-width:146px; padding:10px 11px; border:1px solid #3d5575; border-radius:8px; color:var(--text); background:#102038; font:inherit; color-scheme:dark; }
-    .target-form-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.92); }
-    .target-summary { display:flex; align-items:end; justify-content:space-between; gap:16px; margin-bottom:16px; }
-    .target-summary p { margin:4px 0 0; color:var(--muted); font-size:11px; }
-    .target-total { color:var(--green); font-size:22px; font-weight:800; letter-spacing:-.04em; white-space:nowrap; }
-    .target-total small { display:block; margin-bottom:3px; color:var(--muted); font-size:10px; font-weight:700; letter-spacing:0; }
-    .target-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; }
-    .target-card { min-width:0; padding:15px; border:1px solid rgba(159,192,238,.1); border-radius:11px; background:var(--panel-2); }
-    .target-store { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; }
-    .target-store strong { font-size:16px; }
-    .target-store span { display:block; margin-top:3px; color:var(--muted); font-size:10px; line-height:1.35; }
-    .target-branch { padding:3px 6px; border-radius:5px; color:#c8dcfa; background:#203957; font-size:9px; font-weight:800; }
-    .target-input-label { display:block; margin:17px 0 7px; color:var(--muted); font-size:10px; font-weight:700; }
-    .target-input-wrap { display:flex; align-items:center; gap:7px; padding:10px 10px; border:1px solid #3d5575; border-radius:8px; background:#102038; }
-    .target-input-wrap span { color:var(--blue); font-size:12px; font-weight:800; }
-    .target-input { width:100%; min-width:0; border:0; outline:0; color:var(--text); background:transparent; font:inherit; font-size:17px; font-weight:800; }
-    .target-input::-webkit-inner-spin-button { opacity:.55; }
-    .target-actions { display:flex; align-items:center; justify-content:space-between; gap:14px; margin-top:18px; }
-    .target-note, .target-saved { margin:0; color:var(--muted); font-size:11px; line-height:1.55; }
-    .target-saved { color:var(--green); font-weight:700; }
-    .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
-    .save-targets:hover { filter:brightness(1.06); }
-    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } }
-    @media (max-width:720px) { .app { grid-template-columns:1fr; grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; padding:0 18px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } }
-    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } }
-  </style>
-</head>
-<body>
-  <div class="app">
-    <header class="topbar">
-      <div class="brand" aria-label="Gemok Group"><img class="brand-mark" src="assets/gemok-mascot.png" alt="GEMOK mascot"><div class="brand-name">GEMOK GROUP<span class="brand-sub" data-i18n="dashboardLabel">å–¶æ¥­ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰</span></div></div>
-      <div class="topbar-right"><span class="live"><i></i><span data-i18n="syncStatus">ãƒ‡ãƒ¼ã‚¿é€£æºäºˆå®š</span></span><span class="fetch-timestamp" id="fetch-timestamp" hidden></span><span class="user-name" data-i18n="administrator">ç®¡ç†è€…</span><div class="language-switcher" aria-label="Language selector"><button type="button" data-language="en" aria-pressed="false">EN</button><button type="button" data-language="zh" aria-pressed="false">CN</button><button type="button" data-language="ms" aria-pressed="false">BM</button><button type="button" data-language="ja" aria-pressed="true">JP</button></div></div>
-    </header>
-
-    <aside class="sidebar" aria-label="ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰ãƒ¡ãƒ‹ãƒ¥ãƒ¼">
-      <p class="menu-label" data-i18n="dashboards">DASHBOARDS</p>
-      <nav class="menu">
-        <button class="menu-button" type="button" data-name-key="overview"><span class="menu-icon">â—Ž</span><span data-i18n="overview">ã‚°ãƒ«ãƒ¼ãƒ—æ¦‚è¦</span></button>
-        <button class="menu-button" type="button" aria-current="page" data-name-key="salesProgress"><span class="menu-icon">â†—</span><span data-i18n="salesProgress">å£²ä¸Šé€²æ—</span></button>
-        <button class="menu-button" type="button" data-name-key="inventory"><span class="menu-icon">â–¡</span><span data-i18n="inventory">åœ¨åº«çŠ¶æ³</span></button>
-        <button class="menu-button" type="button" data-name-key="targets"><span class="menu-icon">âš™</span><span data-i18n="targets">ç›®æ¨™è¨­å®š</span></button>
-        <button class="menu-button" type="button" data-name-key="system"><span class="menu-icon">âŒ˜</span><span>ã‚·ã‚¹ãƒ†ãƒ è¨­å®š</span></button>
-      </nav>
-      <div class="menu-divider"></div>
-      <p class="sidebar-note" data-i18n="sidebarNote">ERPã®Cash Salesã¨æœˆé–“ç›®æ¨™ã‚’é€£æºã—ã€å…¨åº—èˆ—ã®å–¶æ¥­çŠ¶æ³ã‚’è¡¨ç¤ºã—ã¾ã™ã€‚</p>
-    </aside>
-
-    <main class="content">
-      <div class="notice" id="notice" aria-live="polite"></div>
-      <div id="sales-dashboard">
-      <header class="page-head">
-        <div><h1 id="page-title" data-i18n="salesProgress">å£²ä¸Šé€²æ—</h1><p data-i18n="pageSubtitle">æœ¬æ—¥ã®Cash Salesã¨ã€å½“æœˆã®åº—èˆ—åˆ¥æŽ¨ç§»ã‚’ä¸€ç”»é¢ã§ç¢ºèª</p></div>
-        <div class="data-note"><span data-i18n="displayData">è¡¨ç¤ºãƒ‡ãƒ¼ã‚¿</span><strong data-i18n="sampleData">ã‚µãƒ³ãƒ—ãƒ«è¡¨ç¤ºï¼ˆERPé€£æºå‰ï¼‰</strong></div>
-      </header>
-
-      <section class="daily" aria-labelledby="daily-title">
-        <div class="section-head"><div><h2 id="daily-title" data-i18n="dailySalesTitle">å…¨åº—èˆ—ãƒ»æœ¬æ—¥å£²ä¸Š</h2><p>Cash Sales / RM</p></div><div class="group-total"><small data-i18n="groupTotal">ã‚°ãƒ«ãƒ¼ãƒ—åˆè¨ˆ</small>RM 86,400</div></div>
-        <div class="daily-row">
-          <article class="store-tile"><div class="store-top"><span class="store-code">SI</span><span class="company">Chew Tayar</span></div><div class="store-value">RM 15,200</div><span class="status" data-status="up" data-rate="116">â†‘ æ—¥æ¬¡ç›®æ¨™æ¯” 116%</span></article>
-          <article class="store-tile"><div class="store-top"><span class="store-code">SR</span><span class="company">Gemok Tayar</span></div><div class="store-value">RM 18,900</div><span class="status" data-status="up" data-rate="121">â†‘ æ—¥æ¬¡ç›®æ¨™æ¯” 121%</span></article>
-          <article class="store-tile"><div class="store-top"><span class="store-code">ST</span><span class="company">Gemok Tayar</span></div><div class="store-value">RM 16,300</div><span class="status" data-status="up" data-rate="103">â†‘ æ—¥æ¬¡ç›®æ¨™æ¯” 103%</span></article>
-          <article class="store-tile"><div class="store-top"><span class="store-code">SK</span><span class="company">G Tayar</span></div><div class="store-value">RM 17,100</div><span class="status warn" data-status="down" data-rate="91">â†“ æ—¥æ¬¡ç›®æ¨™æ¯” 91%</span></article>
-          <article class="store-tile"><div class="store-top"><span class="store-code">KM</span><span class="company">Bagus Tayar</span></div><div class="store-value">RM 18,900</div><span class="status" data-status="up" data-rate="105">â†‘ æ—¥æ¬¡ç›®æ¨™æ¯” 105%</span></article>
-        </div>
-      </section>
-
-      <section class="month-row" aria-labelledby="month-title">
-        <div class="month-label"><h2 id="month-title" data-i18n="monthlyProgress">ä»Šæœˆã®é€²æ—</h2><p data-i18n="monthlyCaption">ç´¯è¨ˆå£²ä¸Š / æœˆé–“ç›®æ¨™</p></div>
-        <article class="month-tile"><div class="month-top"><strong>SI</strong><span class="rate">88%</span></div><p class="month-value"><strong>RM 312K</strong> / 355K</p><div class="progress"><span style="width:88%"></span></div></article>
-        <article class="month-tile"><div class="month-top"><strong>SR</strong><span class="rate">86%</span></div><p class="month-value"><strong>RM 382K</strong> / 445K</p><div class="progress"><span style="width:86%"></span></div></article>
-        <article class="month-tile"><div class="month-top"><strong>ST</strong><span class="rate">81%</span></div><p class="month-value"><strong>RM 344K</strong> / 425K</p><div class="progress"><span style="width:81%"></span></div></article>
-        <article class="month-tile"><div class="month-top"><strong>SK</strong><span class="rate warn">77%</span></div><p class="month-value"><strong>RM 418K</strong> / 543K</p><div class="progress"><span class="warn" style="width:77%"></span></div></article>
-        <article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate">80%</span></div><p class="month-value"><strong>RM 404K</strong> / 505K</p><div class="progress"><span style="width:80%"></span></div></article>
-      </section>
-
-      <section class="chart-panel" aria-labelledby="sales-chart-title">
-        <div class="section-head"><div><h2 id="sales-chart-title" data-i18n="salesChartTitle">å½“æœˆã®æ—¥åˆ¥å£²ä¸Š</h2><p data-i18n="salesChartSubtitle">æ—¥ä»˜ã”ã¨ã«åº—èˆ—åˆ¥ã®Cash Salesã‚’æ¯”è¼ƒ</p></div><div class="chart-meta"><span data-i18n="salesAccum">10æœˆå£²ä¸Šã€€RM 514,800</span></div></div>
-        <div class="legend" data-i18n-aria="legend" aria-label="åº—èˆ—ã®å‡¡ä¾‹"><span><i class="dot" style="background:var(--si)"></i>SI</span><span><i class="dot" style="background:var(--sr)"></i>SR</span><span><i class="dot" style="background:var(--st)"></i>ST</span><span><i class="dot" style="background:var(--sk)"></i>SK</span><span><i class="dot" style="background:var(--km)"></i>KM</span></div>
-        <svg viewBox="0 0 970 235" role="img" aria-labelledby="sales-chart-title sales-chart-desc" preserveAspectRatio="none"><desc id="sales-chart-desc">1æ—¥ã‹ã‚‰7æ—¥ã¾ã§ã®åº—èˆ—åˆ¥ã®æ—¥æ¬¡å£²ä¸Šã‚’æ£’ã‚°ãƒ©ãƒ•ã§è¡¨ç¤ºã€‚</desc>
-          <g class="grid-line"><line x1="64" x2="950" y1="190" y2="190"/><line x1="64" x2="950" y1="144" y2="144"/><line x1="64" x2="950" y1="98" y2="98"/><line x1="64" x2="950" y1="52" y2="52"/></g><g class="axis"><text x="24" y="194">0</text><text x="13" y="148">10K</text><text x="13" y="102">20K</text><text x="13" y="56">30K</text></g>
-          <g fill="var(--si)"><rect x="94" y="128" width="10" height="62" rx="2"/><rect x="218" y="115" width="10" height="75" rx="2"/><rect x="342" y="132" width="10" height="58" rx="2"/><rect x="466" y="100" width="10" height="90" rx="2"/><rect x="590" y="124" width="10" height="66" rx="2"/><rect x="714" y="108" width="10" height="82" rx="2"/><rect x="838" y="112" width="10" height="78" rx="2"/></g>
-          <g fill="var(--sr)"><rect x="108" y="120" width="10" height="70" rx="2"/><rect x="232" y="99" width="10" height="91" rx="2"/><rect x="356" y="115" width="10" height="75" rx="2"/><rect x="480" y="82" width="10" height="108" rx="2"/><rect x="604" y="112" width="10" height="78" rx="2"/><rect x="728" y="92" width="10" height="98" rx="2"/><rect x="852" y="92" width="10" height="98" rx="2"/></g>
-          <g fill="var(--st)"><rect x="122" y="133" width="10" height="57" rx="2"/><rect x="246" y="111" width="10" height="79" rx="2"/><rect x="370" y="125" width="10" height="65" rx="2"/><rect x="494" y="93" width="10" height="97" rx="2"/><rect x="618" y="120" width="10" height="70" rx="2"/><rect x="742" y="102" width="10" height="88" rx="2"/><rect x="866" y="104" width="10" height="86" rx="2"/></g>
-          <g fill="var(--sk)"><rect x="136" y="124" width="10" height="66" rx="2"/><rect x="260" y="104" width="10" height="86" rx="2"/><rect x="384" y="128" width="10" height="62" rx="2"/><rect x="508" y="88" width="10" height="102" rx="2"/><rect x="632" y="116" width="10" height="74" rx="2"/><rect x="756" y="96" width="10" height="94" rx="2"/><rect x="880" y="100" width="10" height="90" rx="2"/></g>
-          <g fill="var(--km)"><rect x="150" y="137" width="10" height="53" rx="2"/><rect x="274" y="108" width="10" height="82" rx="2"/><rect x="398" y="120" width="10" height="70" rx="2"/><rect x="522" y="96" width="10" height="94" rx="2"/><rect x="646" y="128" width="10" height="62" rx="2"/><rect x="770" y="104" width="10" height="86" rx="2"/><rect x="894" y="96" width="10" height="94" rx="2"/></g>
-          <g class="axis"><text data-day="1" x="122" y="216">1æ—¥</text><text data-day="2" x="246" y="216">2æ—¥</text><text data-day="3" x="370" y="216">3æ—¥</text><text data-day="4" x="494" y="216">4æ—¥</text><text data-day="5" x="618" y="216">5æ—¥</text><text data-day="6" x="742" y="216">6æ—¥</text><text data-day="7" x="866" y="216">7æ—¥</text></g><text class="axis-label" data-i18n="amountAxis" x="64" y="229">å£²ä¸Šï¼ˆRMï¼‰</text>
-        </svg>
-      </section>
-
-      <section class="chart-panel" aria-labelledby="documents-chart-title">
-        <div class="section-head"><div><h2 id="documents-chart-title" data-i18n="documentsChartTitle">æ—¥åˆ¥ä¼ç¥¨æ•°</h2><p data-i18n="documentsChartSubtitle">æ—¥ä»˜ã”ã¨ã«åº—èˆ—åˆ¥ã®Cash Salesä¼ç¥¨æ•°ã‚’æ¯”è¼ƒ</p></div><div class="chart-meta"><span data-i18n="documentsAccum">ä¼ç¥¨ã€€1,284ä»¶</span></div></div>
-        <div class="legend" data-i18n-aria="legend" aria-label="åº—èˆ—ã®å‡¡ä¾‹"><span><i class="dot" style="background:var(--si)"></i>SI</span><span><i class="dot" style="background:var(--sr)"></i>SR</span><span><i class="dot" style="background:var(--st)"></i>ST</span><span><i class="dot" style="background:var(--sk)"></i>SK</span><span><i class="dot" style="background:var(--km)"></i>KM</span></div>
-        <svg viewBox="0 0 970 235" role="img" aria-labelledby="documents-chart-title documents-chart-desc" preserveAspectRatio="none"><desc id="documents-chart-desc">1æ—¥ã‹ã‚‰7æ—¥ã¾ã§ã®åº—èˆ—åˆ¥ã®æ—¥æ¬¡ä¼ç¥¨æ•°ã‚’æŠ˜ã‚Œç·šã‚°ãƒ©ãƒ•ã§è¡¨ç¤ºã€‚</desc>
-          <g class="grid-line"><line x1="64" x2="950" y1="190" y2="190"/><line x1="64" x2="950" y1="144" y2="144"/><line x1="64" x2="950" y1="98" y2="98"/><line x1="64" x2="950" y1="52" y2="52"/></g>
-          <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2"><path d="M99 119 L223 103 L347 123 L471 87 L595 112 L719 93 L843 98" stroke="var(--si)"/><path d="M113 110 L237 84 L361 105 L485 64 L609 96 L733 75 L857 77" stroke="var(--sr)"/><path d="M127 126 L251 100 L375 119 L499 77 L623 110 L747 89 L871 93" stroke="var(--st)"/><path d="M141 115 L265 93 L389 121 L513 73 L637 103 L761 80 L885 87" stroke="var(--sk)"/><path d="M155 133 L279 105 L403 110 L527 82 L651 121 L775 98 L899 84" stroke="var(--km)"/></g>
-          <g><g fill="var(--si)"><circle cx="99" cy="119" r="3"/><circle cx="223" cy="103" r="3"/><circle cx="347" cy="123" r="3"/><circle cx="471" cy="87" r="3"/><circle cx="595" cy="112" r="3"/><circle cx="719" cy="93" r="3"/><circle cx="843" cy="98" r="3"/></g><g fill="var(--sr)"><circle cx="113" cy="110" r="3"/><circle cx="237" cy="84" r="3"/><circle cx="361" cy="105" r="3"/><circle cx="485" cy="64" r="3"/><circle cx="609" cy="96" r="3"/><circle cx="733" cy="75" r="3"/><circle cx="857" cy="77" r="3"/></g><g fill="var(--st)"><circle cx="127" cy="126" r="3"/><circle cx="251" cy="100" r="3"/><circle cx="375" cy="119" r="3"/><circle cx="499" cy="77" r="3"/><circle cx="623" cy="110" r="3"/><circle cx="747" cy="89" r="3"/><circle cx="871" cy="93" r="3"/></g><g fill="var(--sk)"><circle cx="141" cy="115" r="3"/><circle cx="265" cy="93" r="3"/><circle cx="389" cy="121" r="3"/><circle cx="513" cy="73" r="3"/><circle cx="637" cy="103" r="3"/><circle cx="761" cy="80" r="3"/><circle cx="885" cy="87" r="3"/></g><g fill="var(--km)"><circle cx="155" cy="133" r="3"/><circle cx="279" cy="105" r="3"/><circle cx="403" cy="110" r="3"/><circle cx="527" cy="82" r="3"/><circle cx="651" cy="121" r="3"/><circle cx="775" cy="98" r="3"/><circle cx="899" cy="84" r="3"/></g></g>
-          <g class="document-value-label" aria-label="æœ¬æ—¥ã®ä¼ç¥¨æ•°"><text x="834" y="113" fill="var(--si)">40</text><text x="849" y="67" fill="var(--sr)">49</text><text x="864" y="109" fill="var(--st)">42</text><text x="878" y="74" fill="var(--sk)">45</text><text x="893" y="62" fill="var(--km)">46</text></g>
-          <g class="axis"><text x="24" y="194">0</text><text x="24" y="148">20</text><text x="24" y="102">40</text><text x="24" y="56">60</text><text data-day="1" x="122" y="216">1æ—¥</text><text data-day="2" x="246" y="216">2æ—¥</text><text data-day="3" x="370" y="216">3æ—¥</text><text data-day="4" x="494" y="216">4æ—¥</text><text data-day="5" x="618" y="216">5æ—¥</text><text data-day="6" x="742" y="216">6æ—¥</text><text data-day="7" x="866" y="216">7æ—¥</text></g><text class="axis-label" data-i18n="documentAxis" x="64" y="229">ä¼ç¥¨ï¼ˆä»¶ï¼‰</text>
-        </svg>
-      </section>
-      </div>
-
-      <section class="construction" id="construction" hidden aria-live="polite">
-        <span class="construction-icon" aria-hidden="true">âŒ</span>
-        <p class="construction-eyebrow" data-i18n="underConstruction">å·¥äº‹ä¸­</p>
-        <h1 id="construction-title">ã‚°ãƒ«ãƒ¼ãƒ—æ¦‚è¦</h1>
-        <p data-i18n="constructionMessage">ã“ã®ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰ã¯ç¾åœ¨æº–å‚™ä¸­ã§ã™ã€‚</p>
-      </section>
-
-      <section class="target-dashboard" id="target-dashboard" hidden aria-labelledby="target-page-title">
-        <header class="page-head">
-          <div><h1 id="target-page-title" data-i18n="targets">ç›®æ¨™è¨­å®š</h1><p data-i18n="targetPageSubtitle">å¯¾è±¡æœˆã¨åº—èˆ—ã”ã¨ã®æœˆé–“å£²ä¸Šç›®æ¨™ã‚’è¨­å®šã—ã¾ã™ã€‚</p></div>
-          <div class="data-note"><span data-i18n="targetDataLabel">è¨­å®šå˜ä½</span><strong data-i18n="targetDataValue">æœˆé–“ç›®æ¨™ / RM</strong></div>
-        </header>
-        <form id="target-form">
-          <section class="target-toolbar" aria-label="å¯¾è±¡æœˆã®é¸æŠž">
-            <div class="target-toolbar-copy"><h2 data-i18n="targetMonthTitle">å¯¾è±¡æœˆ</h2><p data-i18n="targetMonthHint">ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‹ã‚‰è¨­å®šã™ã‚‹æœˆã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚</p></div>
-            <label class="month-picker"><span data-i18n="targetMonthLabel">å¯¾è±¡æœˆ</span><input id="target-month" type="month" value="2026-10" required></label>
-          </section>
-
-          <section class="target-form-panel" aria-labelledby="target-form-title">
-            <div class="target-summary"><div><h2 id="target-form-title" data-i18n="targetMonthlyTitle">åº—èˆ—åˆ¥ãƒ»æœˆé–“å£²ä¸Šç›®æ¨™</h2><p data-i18n="targetMonthlyHint">å„åº—èˆ—ã®ç›®æ¨™é‡‘é¡ã‚’RMã§å…¥åŠ›ã—ã¾ã™ã€‚</p></div><div class="target-total"><small data-i18n="targetGroupLabel">ã‚°ãƒ«ãƒ¼ãƒ—æœˆé–“ç›®æ¨™</small><span id="target-total-value">RM 1.65M</span></div></div>
-            <div class="target-grid">
-              <article class="target-card"><div class="target-store"><div><strong>SI</strong><span>Chew Tayar Sdn Bhd</span></div><b class="target-branch">SI</b></div><label class="target-input-label" for="target-si" data-i18n="targetInputLabel">æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-si" data-store="SI" type="number" min="0" step="1000" value="550000" inputmode="numeric" required></div></article>
-              <article class="target-card"><div class="target-store"><div><strong>SR</strong><span>Gemok Tayar Sdn Bhd</span></div><b class="target-branch">SR</b></div><label class="target-input-label" for="target-sr" data-i18n="targetInputLabel">æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sr" data-store="SR" type="number" min="0" step="1000" value="300000" inputmode="numeric" required></div></article>
-              <article class="target-card"><div class="target-store"><div><strong>ST</strong><span>Gemok Tayar Sdn Bhd</span></div><b class="target-branch">ST</b></div><label class="target-input-label" for="target-st" data-i18n="targetInputLabel">æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-st" data-store="ST" type="number" min="0" step="1000" value="300000" inputmode="numeric" required></div></article>
-              <article class="target-card"><div class="target-store"><div><strong>SK</strong><span>G Tayar Sdn Bhd</span></div><b class="target-branch">SK</b></div><label class="target-input-label" for="target-sk" data-i18n="targetInputLabel">æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sk" data-store="SK" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
-              <article class="target-card"><div class="target-store"><div><strong>KM</strong><span>Bagus Tayar Sdn Bhd</span></div><b class="target-branch">KM</b></div><label class="target-input-label" for="target-km" data-i18n="targetInputLabel">æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-km" data-store="KM" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
-            </div>
-            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">ä¿å­˜å†…å®¹ã¯ã“ã®ãƒ–ãƒ©ã‚¦ã‚¶ã«è¨˜éŒ²ã•ã‚Œã¾ã™ã€‚ERPãƒ»Excelé€£æºå¾Œã¯å…±é€šè¨­å®šã¸åˆ‡ã‚Šæ›¿ã‚ã‚Šã¾ã™ã€‚</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">ç›®æ¨™ã‚’ä¿å­˜</button></div>
-          </section>
-        </form>
-      </section>
-      <section class="system-dashboard" id="system-dashboard" hidden>
-        <header class="page-head"><div><h1 id="system-title">ã‚·ã‚¹ãƒ†ãƒ è¨­å®š</h1><p id="system-subtitle">å°‚ç”¨ERPãƒ­ã‚°ã‚¤ãƒ³ã¨ãƒãƒƒã‚¯ã‚°ãƒ©ã‚¦ãƒ³ãƒ‰åŒæœŸã‚’ã“ã®PCã«è¨­å®šã—ã¾ã™ã€‚</p></div></header>
-        <form class="system-panel" id="system-form"><p class="system-status" id="system-status">ãƒ­ãƒ¼ã‚«ãƒ«å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã‚’ç¢ºèªä¸­...</p><label class="interval-label" id="interval-label" for="interval-seconds">å–å¾—é–“éš”ï¼ˆç§’ï¼‰</label><input class="interval-input" id="interval-seconds" type="number" min="10" value="300" required><div class="system-grid" id="system-grid"></div><p class="system-note" id="system-note">ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¯ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰ã‚„ã‚¯ãƒ©ã‚¦ãƒ‰ã¸ä¿å­˜ã•ã‚Œãšã€ã“ã®PCã®Windowsãƒ¦ãƒ¼ã‚¶ãƒ¼æš—å·åŒ–ã§ä¿è­·ã•ã‚Œã¾ã™ã€‚åº—èˆ—ã”ã¨ã«å¯¾è±¡æ”¯åº—ã«é™å®šã—ãŸå°‚ç”¨ERPã‚¢ã‚«ã‚¦ãƒ³ãƒˆã‚’è¨­å®šã—ã¦ãã ã•ã„ã€‚</p><div class="target-actions"><span></span><button class="save-targets" id="system-save" type="submit">è¨­å®šã‚’ä¿å­˜ã—ã¦åŒæœŸ</button></div></form>
-      </section>
-    </main>
-  </div>
-  <script>
-    const translations = {
-      en: {
-        dashboardLabel: 'Sales Dashboard', syncStatus: 'Cash Sales snapshot loaded', administrator: 'Administrator', dashboards: 'DASHBOARDS',
-        overview: 'Group Overview', salesProgress: 'Sales Progress', inventory: 'Inventory Status', targets: 'Target Settings',
-        sidebarNote: 'Cash Sales actuals for 1â€“10 October are loaded from Webmax. KM is waiting for its connection source.',
-        pageSubtitle: 'Review todayâ€™s Cash Sales and this monthâ€™s store trends on one screen.', displayData: 'Displayed data', sampleData: 'Sample display (before ERP connection)',
-        dailySalesTitle: 'All Stores Â· Todayâ€™s Sales', groupTotal: 'Group total', monthlyProgress: 'This Monthâ€™s Progress', monthlyCaption: 'Cumulative sales / monthly target',
-        salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Compare daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
-        documentsChartTitle: 'Daily Document Count', documentsChartSubtitle: 'Compare Cash Sales document counts by store and date', documentsAccum: 'Documents  1,284',
-        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each storeâ€™s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Saved values are stored in this browser. They will become shared settings after ERP and Excel integration.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
-      },
-      ms: {
-        dashboardLabel: 'Papan Pemuka Jualan', syncStatus: 'Snapshot Cash Sales dimuatkan', administrator: 'Pentadbir', dashboards: 'PAPAN PEMUKA',
-        overview: 'Ringkasan Kumpulan', salesProgress: 'Kemajuan Jualan', inventory: 'Status Inventori', targets: 'Tetapan Sasaran',
-        sidebarNote: 'Data sebenar Cash Sales 1â€“10 Oktober dimuatkan daripada Webmax. Sumber KM masih menunggu.',
-        pageSubtitle: 'Lihat Cash Sales hari ini dan trend cawangan bulan ini dalam satu skrin.', displayData: 'Data dipaparkan', sampleData: 'Paparan sampel (sebelum integrasi ERP)',
-        dailySalesTitle: 'Semua Cawangan Â· Jualan Hari Ini', groupTotal: 'Jumlah kumpulan', monthlyProgress: 'Kemajuan Bulan Ini', monthlyCaption: 'Jualan terkumpul / sasaran bulanan',
-        salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Bandingkan Cash Sales harian mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
-        documentsChartTitle: 'Bilangan Dokumen Harian', documentsChartSubtitle: 'Bandingkan bilangan dokumen Cash Sales mengikut cawangan dan tarikh', documentsAccum: 'Dokumen  1,284',
-        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Nilai simpanan direkodkan dalam pelayar ini. Ia akan menjadi tetapan bersama selepas integrasi ERP dan Excel.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
-      },
-      ja: {
-        dashboardLabel: 'å–¶æ¥­ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰', syncStatus: 'Cash Sales å®Ÿç¸¾ã‚’èª­ã¿è¾¼ã¿æ¸ˆã¿', administrator: 'ç®¡ç†è€…', dashboards: 'DASHBOARDS',
-        overview: 'ã‚°ãƒ«ãƒ¼ãƒ—æ¦‚è¦', salesProgress: 'å£²ä¸Šé€²æ—', inventory: 'åœ¨åº«çŠ¶æ³', targets: 'ç›®æ¨™è¨­å®š',
-        sidebarNote: 'Webmaxã‹ã‚‰10æœˆ1æ—¥ã€œ10æ—¥ã®Cash Saleså®Ÿç¸¾ã‚’åæ˜ æ¸ˆã¿ã§ã™ã€‚KMã¯æŽ¥ç¶šå…ˆå¾…ã¡ã§ã™ã€‚',
-        pageSubtitle: 'æœ¬æ—¥ã®Cash Salesã¨ã€å½“æœˆã®åº—èˆ—åˆ¥æŽ¨ç§»ã‚’ä¸€ç”»é¢ã§ç¢ºèª', displayData: 'è¡¨ç¤ºãƒ‡ãƒ¼ã‚¿', sampleData: 'ã‚µãƒ³ãƒ—ãƒ«è¡¨ç¤ºï¼ˆERPé€£æºå‰ï¼‰',
-        dailySalesTitle: 'å…¨åº—èˆ—ãƒ»æœ¬æ—¥å£²ä¸Š', groupTotal: 'ã‚°ãƒ«ãƒ¼ãƒ—åˆè¨ˆ', monthlyProgress: 'ä»Šæœˆã®é€²æ—', monthlyCaption: 'ç´¯è¨ˆå£²ä¸Š / æœˆé–“ç›®æ¨™',
-        salesChartTitle: 'å½“æœˆã®æ—¥åˆ¥å£²ä¸Š', salesChartSubtitle: 'æ—¥ä»˜ã”ã¨ã«åº—èˆ—åˆ¥ã®Cash Salesã‚’æ¯”è¼ƒ', salesAccum: '10æœˆå£²ä¸Šã€€RM 514,800',
-        documentsChartTitle: 'æ—¥åˆ¥ä¼ç¥¨æ•°', documentsChartSubtitle: 'æ—¥ä»˜ã”ã¨ã«åº—èˆ—åˆ¥ã®Cash Salesä¼ç¥¨æ•°ã‚’æ¯”è¼ƒ', documentsAccum: 'ä¼ç¥¨ã€€1,284ä»¶',
-        amountAxis: 'å£²ä¸Šï¼ˆRMï¼‰', documentAxis: 'ä¼ç¥¨ï¼ˆä»¶ï¼‰', barMetric: 'æ£’', salesMetric: 'å£²ä¸Šï¼ˆå·¦è»¸ï¼‰', lineMetric: 'ç·š', documentMetric: 'ä¼ç¥¨æ•°ï¼ˆå³è»¸ï¼‰', legend: 'åº—èˆ—ã®å‡¡ä¾‹', underConstruction: 'å·¥äº‹ä¸­', constructionMessage: 'ã“ã®ãƒ€ãƒƒã‚·ãƒ¥ãƒœãƒ¼ãƒ‰ã¯ç¾åœ¨æº–å‚™ä¸­ã§ã™ã€‚', targetPageSubtitle: 'å¯¾è±¡æœˆã¨åº—èˆ—ã”ã¨ã®æœˆé–“å£²ä¸Šç›®æ¨™ã‚’è¨­å®šã—ã¾ã™ã€‚', targetDataLabel: 'è¨­å®šå˜ä½', targetDataValue: 'æœˆé–“ç›®æ¨™ / RM', targetMonthTitle: 'å¯¾è±¡æœˆ', targetMonthHint: 'ã‚«ãƒ¬ãƒ³ãƒ€ãƒ¼ã‹ã‚‰è¨­å®šã™ã‚‹æœˆã‚’é¸æŠžã—ã¦ãã ã•ã„ã€‚', targetMonthLabel: 'å¯¾è±¡æœˆ', targetMonthlyTitle: 'åº—èˆ—åˆ¥ãƒ»æœˆé–“å£²ä¸Šç›®æ¨™', targetMonthlyHint: 'å„åº—èˆ—ã®ç›®æ¨™é‡‘é¡ã‚’RMã§å…¥åŠ›ã—ã¾ã™ã€‚', targetGroupLabel: 'ã‚°ãƒ«ãƒ¼ãƒ—æœˆé–“ç›®æ¨™', targetInputLabel: 'æœˆé–“ç›®æ¨™ï¼ˆRMï¼‰', targetSaveNote: 'ä¿å­˜å†…å®¹ã¯ã“ã®ãƒ–ãƒ©ã‚¦ã‚¶ã«è¨˜éŒ²ã•ã‚Œã¾ã™ã€‚ERPãƒ»Excelé€£æºå¾Œã¯å…±é€šè¨­å®šã¸åˆ‡ã‚Šæ›¿ã‚ã‚Šã¾ã™ã€‚', saveTargets: 'ç›®æ¨™ã‚’ä¿å­˜', targetSaved: '{month}ã®ç›®æ¨™ã‚’ä¿å­˜ã—ã¾ã—ãŸã€‚'
-      },
-      zh: {
-        dashboardLabel: 'é”€å”®ä»ªè¡¨æ¿', syncStatus: 'Cash Sales æ•°æ®å·²åŠ è½½', administrator: 'ç®¡ç†å‘˜', dashboards: 'ä»ªè¡¨æ¿',
-        overview: 'é›†å›¢æ¦‚è§ˆ', salesProgress: 'é”€å”®è¿›åº¦', inventory: 'åº“å­˜çŠ¶æ€', targets: 'ç›®æ ‡è®¾ç½®',
-        sidebarNote: 'å·²åŠ è½½ Webmax 10æœˆ1æ—¥è‡³10æ—¥ Cash Sales å®žç»©ã€‚KM æ­£ç­‰å¾…è¿žæŽ¥æ¥æºã€‚',
-        pageSubtitle: 'åœ¨ä¸€ä¸ªé¡µé¢æŸ¥çœ‹ä»Šæ—¥ Cash Sales å’Œæœ¬æœˆå„é—¨åº—è¶‹åŠ¿ã€‚', displayData: 'æ˜¾ç¤ºæ•°æ®', sampleData: 'ç¤ºä¾‹æ˜¾ç¤ºï¼ˆERP å¯¹æŽ¥å‰ï¼‰',
-        dailySalesTitle: 'æ‰€æœ‰é—¨åº— Â· ä»Šæ—¥é”€å”®', groupTotal: 'é›†å›¢åˆè®¡', monthlyProgress: 'æœ¬æœˆè¿›åº¦', monthlyCaption: 'ç´¯è®¡é”€å”® / æœˆåº¦ç›®æ ‡',
-        salesChartTitle: 'æœ¬æœˆæ¯æ—¥é”€å”®é¢', salesChartSubtitle: 'æŒ‰æ—¥æœŸæ¯”è¾ƒå„é—¨åº—çš„ Cash Sales', salesAccum: '10æœˆé”€å”®é¢  RM 514,800',
-        documentsChartTitle: 'æ¯æ—¥å•æ®æ•°é‡', documentsChartSubtitle: 'æŒ‰æ—¥æœŸæ¯”è¾ƒå„é—¨åº—çš„ Cash Sales å•æ®æ•°é‡', documentsAccum: 'å•æ®  1,284 å¼ ',
-        amountAxis: 'é”€å”®é¢ï¼ˆRMï¼‰', documentAxis: 'å•æ®ï¼ˆå¼ ï¼‰', barMetric: 'æŸ±', salesMetric: 'é”€å”®é¢ï¼ˆå·¦è½´ï¼‰', lineMetric: 'çº¿', documentMetric: 'å•æ®æ•°ï¼ˆå³è½´ï¼‰', legend: 'é—¨åº—å›¾ä¾‹', underConstruction: 'æ–½å·¥ä¸­', constructionMessage: 'æ­¤ä»ªè¡¨æ¿æ­£åœ¨å‡†å¤‡ä¸­ã€‚', targetPageSubtitle: 'ä¸ºæ‰€é€‰æœˆä»½è®¾ç½®å„é—¨åº—çš„æœˆåº¦é”€å”®ç›®æ ‡ã€‚', targetDataLabel: 'è®¾ç½®å•ä½', targetDataValue: 'æœˆåº¦ç›®æ ‡ / RM', targetMonthTitle: 'ç›®æ ‡æœˆä»½', targetMonthHint: 'è¯·ä»Žæ—¥åŽ†ä¸­é€‰æ‹©è¦è®¾ç½®çš„æœˆä»½ã€‚', targetMonthLabel: 'ç›®æ ‡æœˆä»½', targetMonthlyTitle: 'å„é—¨åº—æœˆåº¦é”€å”®ç›®æ ‡', targetMonthlyHint: 'ä»¥RMè¾“å…¥å„é—¨åº—çš„ç›®æ ‡é‡‘é¢ã€‚', targetGroupLabel: 'é›†å›¢æœˆåº¦ç›®æ ‡', targetInputLabel: 'æœˆåº¦ç›®æ ‡ï¼ˆRMï¼‰', targetSaveNote: 'ä¿å­˜çš„æ•°å€¼ä¼šè®°å½•åœ¨æ­¤æµè§ˆå™¨ä¸­ã€‚ERP ä¸Ž Excel å¯¹æŽ¥åŽå°†åˆ‡æ¢ä¸ºå…±äº«è®¾ç½®ã€‚', saveTargets: 'ä¿å­˜ç›®æ ‡', targetSaved: 'å·²ä¿å­˜ {month} çš„ç›®æ ‡ã€‚'
-      }
-    };
-    const buttons = document.querySelectorAll('.menu-button');
-    const languageButtons = document.querySelectorAll('[data-language]');
-    let title = document.getElementById('page-title');
-    const notice = document.getElementById('notice');
-    const salesDashboard = document.getElementById('sales-dashboard');
-    const construction = document.getElementById('construction');
-    const constructionTitle = document.getElementById('construction-title');
-    const targetDashboard = document.getElementById('target-dashboard');
-    const systemDashboard = document.getElementById('system-dashboard');
-    const systemForm = document.getElementById('system-form');
-    const systemGrid = document.getElementById('system-grid');
-    const systemStatus = document.getElementById('system-status');
-    const intervalSeconds = document.getElementById('interval-seconds');
-    const targetForm = document.getElementById('target-form');
-    const targetMonth = document.getElementById('target-month');
-    const targetInputs = document.querySelectorAll('.target-input');
-    const targetTotalValue = document.getElementById('target-total-value');
-    const targetSaved = document.getElementById('target-saved');
-    const targetDefaults = { SI: 550000, SR: 300000, ST: 300000, SK: 250000, KM: 250000 };
-    const systemStores = { SI: 'Chew Tayar / SI', SR: 'Gemok Tayar / SR', ST: 'Gemok Tayar / ST', SK: 'G Tayar / SK', KM: 'Bagus Tayar / KM' };
-    const latestFetchCopy = { en: 'Latest fetch: {datetime}', ms: 'Kemaskini terakhir: {datetime}', ja: 'æœ€æ–°å–å¾—æ—¥æ™‚ï¼š{datetime}', zh: 'æœ€æ–°èŽ·å–æ—¶é—´ï¼š{datetime}' };
-    const systemCopy = {
-      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Configure background collection on this protected administration page.', publicSubtitle: 'View the collector settings published by the administrator.', checking: 'Checking the local collection serviceâ€¦', publicChecking: 'Loading published settingsâ€¦', interval: 'Collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordMissing: '(not configured)', passwordManaged: 'Managed separately on the server', note: 'ERP passwords are managed separately as encrypted systemd credentials on the Ubuntu server.', publicNote: 'Read-only. Change these values from the protected local administration dashboard. ERP passwords are never published.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', published: 'Showing the latest published settings (read-only).', unavailable: 'Cannot connect to the local collection service. Open the dashboard from the collector service.', publicUnavailable: 'Published settings are not available yet.', saving: 'Saving settingsâ€¦', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
-      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Konfigurasikan kutipan latar belakang pada halaman pentadbiran terlindung ini.', publicSubtitle: 'Lihat tetapan pengumpul yang diterbitkan oleh pentadbir.', checking: 'Memeriksa perkhidmatan kutipan setempatâ€¦', publicChecking: 'Memuatkan tetapan yang diterbitkanâ€¦', interval: 'Selang kutipan (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordMissing: '(belum ditetapkan)', passwordManaged: 'Diuruskan secara berasingan pada pelayan', note: 'Kata laluan ERP diuruskan secara berasingan sebagai kelayakan systemd yang disulitkan pada pelayan Ubuntu.', publicNote: 'Baca sahaja. Ubah nilai ini daripada papan pemuka pentadbiran setempat yang terlindung. Kata laluan ERP tidak pernah diterbitkan.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', published: 'Menunjukkan tetapan terkini yang diterbitkan (baca sahaja).', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Buka papan pemuka daripada perkhidmatan pengumpul.', publicUnavailable: 'Tetapan yang diterbitkan belum tersedia.', saving: 'Menyimpan tetapanâ€¦', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
-      ja: { menu: 'ã‚·ã‚¹ãƒ†ãƒ è¨­å®š', title: 'ã‚·ã‚¹ãƒ†ãƒ è¨­å®š', subtitle: 'ä¿è­·ã•ã‚ŒãŸç®¡ç†ç”»é¢ã§ãƒãƒƒã‚¯ã‚°ãƒ©ã‚¦ãƒ³ãƒ‰å–å¾—ã‚’è¨­å®šã—ã¾ã™ã€‚', publicSubtitle: 'ç®¡ç†è€…ãŒå…¬é–‹ã—ãŸå–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã®è¨­å®šã‚’ç¢ºèªã§ãã¾ã™ã€‚', checking: 'ãƒ­ãƒ¼ã‚«ãƒ«å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã‚’ç¢ºèªä¸­...', publicChecking: 'å…¬é–‹æ¸ˆã¿è¨­å®šã‚’èª­ã¿è¾¼ã¿ä¸­...', interval: 'å–å¾—é–“éš”ï¼ˆç§’ï¼‰', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰', passwordSet: 'ï¼ˆè¨­å®šæ¸ˆã¿ï¼‰', passwordMissing: 'ï¼ˆæœªè¨­å®šï¼‰', passwordManaged: 'ã‚µãƒ¼ãƒãƒ¼ä¸Šã§åˆ¥é€”ç®¡ç†', note: 'ERPãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¯Ubuntuã‚µãƒ¼ãƒãƒ¼ä¸Šã®æš—å·åŒ–systemd Credentialã¨ã—ã¦åˆ¥é€”ç®¡ç†ã•ã‚Œã¾ã™ã€‚', publicNote: 'å‚ç…§å°‚ç”¨ã§ã™ã€‚å¤‰æ›´ã¯ä¿è­·ã•ã‚ŒãŸãƒ­ãƒ¼ã‚«ãƒ«ç®¡ç†ç”»é¢ã‹ã‚‰è¡Œã„ã¾ã™ã€‚ERPãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¯å…¬é–‹ã•ã‚Œã¾ã›ã‚“ã€‚', save: 'è¨­å®šã‚’ä¿å­˜ã—ã¦åŒæœŸ', connected: 'ãƒ­ãƒ¼ã‚«ãƒ«å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã«æŽ¥ç¶šæ¸ˆã¿ã§ã™ã€‚', published: 'æœ€æ–°ã®å…¬é–‹æ¸ˆã¿è¨­å®šã‚’è¡¨ç¤ºã—ã¦ã„ã¾ã™ï¼ˆå‚ç…§å°‚ç”¨ï¼‰ã€‚', unavailable: 'ãƒ­ãƒ¼ã‚«ãƒ«å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã«æŽ¥ç¶šã§ãã¾ã›ã‚“ã€‚å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ã‹ã‚‰ç®¡ç†ç”»é¢ã‚’é–‹ã„ã¦ãã ã•ã„ã€‚', publicUnavailable: 'å…¬é–‹æ¸ˆã¿è¨­å®šã‚’ã¾ã å–å¾—ã§ãã¾ã›ã‚“ã€‚', saving: 'è¨­å®šã‚’ä¿å­˜ä¸­...', saved: 'ä¿å­˜ã—ã¾ã—ãŸã€‚åˆå›žåŒæœŸã‚’é–‹å§‹ã—ã¾ã—ãŸã€‚', saveFailed: 'ä¿å­˜ã§ãã¾ã›ã‚“ã§ã—ãŸã€‚ãƒ­ãƒ¼ã‚«ãƒ«å–å¾—ã‚µãƒ¼ãƒ“ã‚¹ãŒèµ·å‹•ã—ã¦ã„ã‚‹ã‹ç¢ºèªã—ã¦ãã ã•ã„ã€‚' },
-      zh: { menu: 'ç³»ç»Ÿè®¾ç½®', title: 'ç³»ç»Ÿè®¾ç½®', subtitle: 'åœ¨å—ä¿æŠ¤çš„ç®¡ç†é¡µé¢ä¸­é…ç½®åŽå°é‡‡é›†ã€‚', publicSubtitle: 'æŸ¥çœ‹ç®¡ç†å‘˜å‘å¸ƒçš„é‡‡é›†å™¨è®¾ç½®ã€‚', checking: 'æ­£åœ¨æ£€æŸ¥æœ¬åœ°é‡‡é›†æœåŠ¡â€¦', publicChecking: 'æ­£åœ¨åŠ è½½å·²å‘å¸ƒçš„è®¾ç½®â€¦', interval: 'é‡‡é›†é—´éš”ï¼ˆç§’ï¼‰', url: 'çŽ°é‡‘é”€å”® URL', erpId: 'ERP ID', password: 'ERP å¯†ç ', passwordSet: 'ï¼ˆå·²è®¾ç½®ï¼‰', passwordMissing: 'ï¼ˆæœªè®¾ç½®ï¼‰', passwordManaged: 'åœ¨æœåŠ¡å™¨ä¸Šå•ç‹¬ç®¡ç†', note: 'ERP å¯†ç åœ¨ Ubuntu æœåŠ¡å™¨ä¸Šä½œä¸ºåŠ å¯†çš„ systemd å‡­æ®å•ç‹¬ç®¡ç†ã€‚', publicNote: 'ä»…ä¾›æŸ¥çœ‹ã€‚è¯·ä»Žå—ä¿æŠ¤çš„æœ¬åœ°ç®¡ç†ä»ªè¡¨æ¿æ›´æ”¹è¿™äº›å€¼ã€‚ERP å¯†ç ç»ä¸ä¼šå‘å¸ƒã€‚', save: 'ä¿å­˜è®¾ç½®å¹¶åŒæ­¥', connected: 'å·²è¿žæŽ¥åˆ°æœ¬åœ°é‡‡é›†æœåŠ¡ã€‚', published: 'æ­£åœ¨æ˜¾ç¤ºæœ€æ–°å‘å¸ƒçš„è®¾ç½®ï¼ˆåªè¯»ï¼‰ã€‚', unavailable: 'æ— æ³•è¿žæŽ¥åˆ°æœ¬åœ°é‡‡é›†æœåŠ¡ã€‚è¯·ä»Žé‡‡é›†æœåŠ¡æ‰“å¼€ç®¡ç†ä»ªè¡¨æ¿ã€‚', publicUnavailable: 'å·²å‘å¸ƒçš„è®¾ç½®å°šä¸å¯ç”¨ã€‚', saving: 'æ­£åœ¨ä¿å­˜è®¾ç½®â€¦', saved: 'å·²ä¿å­˜ï¼Œé¦–æ¬¡åŒæ­¥å·²å¼€å§‹ã€‚', saveFailed: 'æ— æ³•ä¿å­˜è®¾ç½®ã€‚è¯·ç¡®è®¤æœ¬åœ°é‡‡é›†æœåŠ¡æ­£åœ¨è¿è¡Œã€‚' }
-    };
-    const localSettingsMode = location.port === '47251' && location.pathname.startsWith('/dashboard');
-    const collectorUrl = localSettingsMode ? location.origin : 'http://127.0.0.1:47251';
-    const githubDashboardDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/dashboard-data.json';
-    const fetchTimestamp = document.getElementById('fetch-timestamp');
-    const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
-    let latestSuccessfulAt = excelSnapshotFetchedAt;
-    const autoReloadTimestampKey = 'gemok-sales-progress-last-fetch-timestamp';
-    let activeKey = 'salesProgress';
-    let language = ['en', 'ms', 'ja', 'zh'].includes(localStorage.getItem('gemok-language')) ? localStorage.getItem('gemok-language') : 'ja';
-    const currentMonthByLanguage = { en: 'October', ms: 'Oktober', ja: '10æœˆ', zh: '10æœˆ' };
-    const chartFullscreenCopy = {
-      en: { hint: 'Tap chart to expand', close: 'Close', dialog: 'Expanded chart' },
-      ms: { hint: 'Ketik graf untuk besarkan', close: 'Tutup', dialog: 'Graf dibesarkan' },
-      ja: { hint: 'ã‚°ãƒ©ãƒ•ã‚’ã‚¿ãƒƒãƒ—ã—ã¦æ‹¡å¤§', close: 'é–‰ã˜ã‚‹', dialog: 'æ‹¡å¤§ã‚°ãƒ©ãƒ•' },
-      zh: { hint: 'ç‚¹å‡»å›¾è¡¨æ”¾å¤§', close: 'å…³é—­', dialog: 'æ”¾å¤§å›¾è¡¨' }
-    };
-    const localeByLanguage = { en: 'en-MY', ms: 'ms-MY', ja: 'ja-JP', zh: 'zh-CN' };
-    const actualLabels = {
-      en: { snapshot: 'Cash Sales actuals Â· 1â€“10 Oct 2026', documents: 'documents', pending: 'Data pending', month: 'October MTD', actualTotal: 'MTD total', targetTotal: 'Monthly target', progressRate: 'Progress rate', documentTotal: 'Total documents' },
-      ms: { snapshot: 'Cash Sales sebenar Â· 1â€“10 Okt 2026', documents: 'dokumen', pending: 'Menunggu data', month: 'Oktober terkumpul', actualTotal: 'Jumlah terkumpul', targetTotal: 'Sasaran bulanan', progressRate: 'Kadar kemajuan', documentTotal: 'Jumlah dokumen' },
-      ja: { snapshot: 'Cash Sales å®Ÿç¸¾ Â· 2026å¹´10æœˆ1æ—¥ã€œ10æ—¥', documents: 'ä»¶', pending: 'ãƒ‡ãƒ¼ã‚¿å–å¾—å¾…ã¡', month: '10æœˆç´¯è¨ˆ', actualTotal: 'ä»Šæœˆç´¯è¨ˆåˆè¨ˆ', targetTotal: 'ä»Šæœˆç›®æ¨™åˆè¨ˆ', progressRate: 'ä»Šæœˆã®é€²æ—çŽ‡', documentTotal: 'ç´¯è¨ˆä¼ç¥¨æ•°' },
-      zh: { snapshot: 'Cash Sales å®žç»© Â· 2026å¹´10æœˆ1æ—¥è‡³10æ—¥', documents: 'å¼ ', pending: 'æ•°æ®å¾…èŽ·å–', month: '10æœˆç´¯è®¡', actualTotal: 'æœ¬æœˆç´¯è®¡æ€»é¢', targetTotal: 'æœ¬æœˆç›®æ ‡æ€»é¢', progressRate: 'æœ¬æœˆè¿›åº¦çŽ‡', documentTotal: 'ç´¯è®¡å•æ®æ•°' }
-    };
-    const cashSalesActuals = {
-      SI: { company: 'Chew Tayar', sales: [20447,10769,17042,21459,6630,19940,0,20599,15008,0], documents: [29,26,38,32,19,24,0,33,31,0] },
-      SR: { company: 'Gemok Tayar', sales: [4653,3467,7311.4,9659,6178,2963,5658,9822,3858,0], documents: [14,18,26,26,18,16,26,26,26,0] },
-      ST: { company: 'Gemok Tayar', sales: [5743,11942,17726,20313,4701,10810,0,10883,8850,0], documents: [13,23,31,30,15,16,0,14,14,0] },
-      SK: { company: 'G Tayar', sales: [3126,2136,7746,5323,3816,4688,0,4748,6603,0], documents: [10,12,15,25,17,15,0,14,19,0] }
-    };
-    let dashboardDataMeta = { month: '2026-10', latestDate: '2026-10-10' };
-    const actualCodes = Object.keys(cashSalesActuals);
-    function actualTargets() {
-      let saved = null;
-      try { saved = JSON.parse(localStorage.getItem('gemok-monthly-targets-2026-10')); } catch (error) { saved = null; }
-      return Object.fromEntries(Object.entries(targetDefaults).map(([code, value]) => [code, saved && Number.isFinite(Number(saved[code])) ? Number(saved[code]) : value]));
-    }
-    function formatRM(value, compact = false) {
-      const locale = localeByLanguage[language];
-      if (compact && Math.abs(value) >= 1000) return `RM ${(value / 1000).toLocaleString(locale, { maximumFractionDigits: 1 })}K`;
-      return `RM ${Number(value).toLocaleString(locale, { maximumFractionDigits: 2 })}`;
-    }
-    function salesProgressTitle() {
-      const open = ['en', 'ms'].includes(language) ? ' (' : 'ï¼ˆ';
-      const close = ['en', 'ms'].includes(language) ? ')' : 'ï¼‰';
-      return `${translations[language].salesProgress}${open}${dashboardMonthName()}${close}`;
-    }
-    function dashboardDate(day = 1) {
-      const [year, month] = dashboardDataMeta.month.split('-').map(Number);
-      return new Date(Date.UTC(year, month - 1, day));
-    }
-    function dashboardMonthName() {
-      const date = dashboardDate();
-      if (language === 'ja' || language === 'zh') return `${date.getUTCMonth() + 1}æœˆ`;
-      return new Intl.DateTimeFormat(localeByLanguage[language], { month: 'long', timeZone: 'UTC' }).format(date);
-    }
-    function dashboardSnapshot() {
-      const [year, month] = dashboardDataMeta.month.split('-').map(Number);
-      const lastDay = Number(dashboardDataMeta.latestDate.slice(-2));
-      const monthName = new Intl.DateTimeFormat(localeByLanguage[language], { month: 'short', timeZone: 'UTC' }).format(new Date(Date.UTC(year, month - 1, 1)));
-      if (language === 'ja') return `Cash Sales å®Ÿç¸¾ Â· ${year}å¹´${month}æœˆ1æ—¥ã€œ${lastDay}æ—¥`;
-      if (language === 'zh') return `Cash Sales å®žç»© Â· ${year}å¹´${month}æœˆ1æ—¥è‡³${lastDay}æ—¥`;
-      if (language === 'ms') return `Cash Sales sebenar Â· 1â€“${lastDay} ${monthName} ${year}`;
-      return `Cash Sales actuals Â· 1â€“${lastDay} ${monthName} ${year}`;
-    }
-    function formatChartDay(day) {
-      const weekday = new Intl.DateTimeFormat(localeByLanguage[language], { weekday: 'short', timeZone: 'UTC' }).format(dashboardDate(day));
-      if (language === 'ja') return `${day}æ—¥ï¼ˆ${weekday}ï¼‰`;
-      if (language === 'zh') return `${day}æ—¥ï¼ˆ${weekday.replace(/^å‘¨/, '')}ï¼‰`;
-      return `${day} (${weekday})`;
-    }
-    function chartSvg(metric) {
-      const isSales = metric === 'sales';
-      const maxValue = isSales ? 30000 : 120;
-      const ticks = isSales ? [0, 10000, 20000, 30000] : [0, 30, 60, 90, 120];
-      const y = (value) => 190 - (138 * value / maxValue);
-      const displayDays = cashSalesActuals[actualCodes[0]].sales.length;
-      const x = (index) => 108 + (index * (displayDays > 1 ? 816 / (displayDays - 1) : 0));
-      const colors = ['var(--si)', 'var(--sr)', 'var(--st)', 'var(--sk)'];
-      const offsets = [-18, -6, 6, 18];
-      const grid = ticks.map((tick) => `<line x1="64" x2="950" y1="${y(tick)}" y2="${y(tick)}"/>`).join('');
-      const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : `${tick / 1000}K`) : tick}</text>`).join('');
-      const dayAxis = Array.from({ length: displayDays }, (_, index) => `<text x="${x(index) - 15}" y="216">${formatChartDay(index + 1)}</text>`).join('');
-      if (isSales) {
-        const bars = actualCodes.map((code, codeIndex) => cashSalesActuals[code].sales.map((value, dayIndex) => {
-          const barX = x(dayIndex) + offsets[codeIndex] - 5;
-          const label = value > 0 ? `<text class="sales-value-label" x="${barX + 5}" y="${Math.max(y(value) - 4, 46)}" text-anchor="middle" fill="${colors[codeIndex]}">${Math.floor(value / 1000)}K</text>` : '';
-          return `<rect x="${barX}" y="${y(value)}" width="10" height="${190 - y(value)}" rx="2"/>${label}`;
-        }).join('')).map((bars, index) => `<g fill="${colors[index]}">${bars}</g>`).join('');
-        return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].salesChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${bars}<text class="axis-label" x="64" y="229">${translations[language].amountAxis}</text></svg>`;
-      }
-      const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
-        let total = 0;
-        const barX = x(dayIndex) - 23;
-        const segments = actualCodes.map((code, codeIndex) => {
-          const value = cashSalesActuals[code].documents[dayIndex];
-          if (!value) return '';
-          const start = total;
-          total += value;
-          const top = y(total);
-          const height = y(start) - top;
-          const labelColor = code === 'SR' ? '#172238' : '#ffffff';
-          return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="document-value-label" x="${x(dayIndex)}" y="${top + (height / 2) + 3}" text-anchor="middle" fill="${labelColor}">${value}</text>`;
-        }).join('');
-        return `<g>${segments}</g>`;
-      }).join('');
-      return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].documentsChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].documentAxis}</text></svg>`;
-    }
-    function openChartFullscreen(panel) {
-      if (!window.matchMedia('(max-width:720px)').matches || document.querySelector('.chart-fullscreen')) return;
-      const copy = chartFullscreenCopy[language];
-      const previousFocus = document.activeElement;
-      const overlay = document.createElement('div');
-      overlay.className = 'chart-fullscreen';
-      overlay.setAttribute('role', 'dialog');
-      overlay.setAttribute('aria-modal', 'true');
-      overlay.setAttribute('aria-label', copy.dialog);
-      const dialog = document.createElement('div');
-      dialog.className = 'chart-fullscreen-dialog';
-      const closeButton = document.createElement('button');
-      closeButton.type = 'button';
-      closeButton.className = 'chart-fullscreen-close';
-      closeButton.textContent = copy.close;
-      const expandedChart = panel.cloneNode(true);
-      expandedChart.classList.add('fullscreen-chart-content');
-      expandedChart.querySelectorAll('.chart-expand-trigger').forEach((chart) => {
-        chart.classList.remove('chart-expand-trigger');
-        chart.removeAttribute('tabindex');
-        chart.removeAttribute('role');
-      });
-      const close = () => {
-        document.removeEventListener('keydown', onKeydown);
-        document.body.classList.remove('chart-fullscreen-open');
-        overlay.remove();
-        if (previousFocus && document.contains(previousFocus)) previousFocus.focus();
-      };
-      const onKeydown = (event) => { if (event.key === 'Escape') close(); };
-      closeButton.addEventListener('click', close);
-      overlay.addEventListener('click', (event) => { if (event.target === overlay) close(); });
-      document.addEventListener('keydown', onKeydown);
-      dialog.append(closeButton, expandedChart);
-      overlay.append(dialog);
-      document.body.classList.add('chart-fullscreen-open');
-      document.body.append(overlay);
-      closeButton.focus();
-    }
-    function bindChartExpansion() {
-      const copy = chartFullscreenCopy[language];
-      salesDashboard.querySelectorAll('.chart-panel svg').forEach((chart) => {
-        chart.classList.add('chart-expand-trigger');
-        chart.setAttribute('tabindex', '0');
-        chart.setAttribute('role', 'button');
-        chart.setAttribute('aria-label', `${chart.getAttribute('aria-label')}. ${copy.hint}`);
-        chart.addEventListener('click', () => openChartFullscreen(chart.closest('.chart-panel')));
-        chart.addEventListener('keydown', (event) => {
-          if (event.key === 'Enter' || event.key === ' ') {
-            event.preventDefault();
-            openChartFullscreen(chart.closest('.chart-panel'));
-          }
-        });
-      });
-    }
-    function renderSalesDashboard() {
-      const labels = { ...actualLabels[language], snapshot: dashboardSnapshot() };
-      const targets = actualTargets();
-      const todayTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.at(-1), 0);
-      const monthTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.reduce((total, value) => total + value, 0), 0);
-      const documentTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].documents.reduce((total, value) => total + value, 0), 0);
-      const monthTargetTotal = Object.values(targets).reduce((sum, value) => sum + value, 0);
-      const monthProgress = monthTargetTotal ? monthTotal / monthTargetTotal : 0;
-      const dailyCards = actualCodes.map((code) => {
-        const store = cashSalesActuals[code];
-        return `<article class="store-tile"><div class="store-top"><span class="store-code">${code}</span><span class="company">${store.company}</span></div><div class="store-value">${formatRM(store.sales.at(-1))}</div><span class="status">${store.documents.at(-1)} ${labels.documents}</span></article>`;
-      }).join('') + `<article class="store-tile"><div class="store-top"><span class="store-code">KM</span><span class="company">Bagus Tayar</span></div><div class="store-value">â€”</div><span class="status warn">${labels.pending}</span></article>`;
-      const monthCards = actualCodes.map((code) => {
-        const sales = cashSalesActuals[code].sales.reduce((sum, value) => sum + value, 0);
-        const rate = targets[code] ? sales / targets[code] : 0;
-        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${(rate * 100).toFixed(1)}%</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
-      }).join('') + `<article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate warn">${labels.pending}</span></div><p class="month-value"><strong>â€”</strong> / ${formatRM(targets.KM, true).replace('RM ', '')}</p><div class="progress"><span class="warn" style="width:0%"></span></div></article>`;
-      const legend = actualCodes.map((code) => `<span><i class="dot" style="background:var(--${code.toLowerCase()})"></i>${code}</span>`).join('') + `<span><i class="dot" style="background:var(--km)"></i>KM Â· ${labels.pending}</span>`;
-      salesDashboard.innerHTML = `
-        <header class="page-head"><div><h1 id="page-title">${salesProgressTitle()}</h1><p>${translations[language].pageSubtitle}</p></div><div class="data-note"><span>${translations[language].displayData}</span><strong>${labels.snapshot}</strong><small class="dashboard-fetch-timestamp" id="dashboard-fetch-timestamp">${latestFetchText()}</small></div></header>
-        <section class="daily" aria-labelledby="daily-title"><div class="section-head"><div><h2 id="daily-title">${translations[language].dailySalesTitle}</h2><p>Cash Sales / RM</p></div><div class="group-total"><small>${translations[language].groupTotal}</small>${formatRM(todayTotal)}</div></div><div class="daily-row">${dailyCards}</div></section>
-        <section class="month-row" aria-labelledby="month-title"><div class="month-label"><h2 id="month-title">${translations[language].monthlyProgress}</h2><p>${translations[language].monthlyCaption}</p></div>${monthCards}</section>
-        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${formatRM(monthTargetTotal, true)}</span><span><small>${labels.progressRate}</small>${(monthProgress * 100).toFixed(1)}%</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
-        <section class="chart-panel" aria-labelledby="documents-chart-title"><div class="section-head"><div><h2 id="documents-chart-title">${translations[language].documentsChartTitle}</h2><p>${translations[language].documentsChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.documentTotal}</small>${documentTotal} ${labels.documents}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('documents')}</section>`;
-      title = document.getElementById('page-title');
-      bindChartExpansion();
-    }
-    function targetStorageKey() { return `gemok-monthly-targets-${targetMonth.value}`; }
-    function formatTargetAmount(value) {
-      if (value >= 1000000) return `${(value / 1000000).toLocaleString(localeByLanguage[language], { maximumFractionDigits: 2 })}M`;
-      return new Intl.NumberFormat(localeByLanguage[language]).format(value);
-    }
-    function updateTargetTotal() {
-      const total = Array.from(targetInputs).reduce((sum, input) => sum + Math.max(0, Number(input.value) || 0), 0);
-      targetTotalValue.textContent = `RM ${formatTargetAmount(total)}`;
-    }
-    function loadTargetValues() {
-      let saved = null;
-      try { saved = JSON.parse(localStorage.getItem(targetStorageKey())); } catch (error) { saved = null; }
-      targetInputs.forEach((input) => { input.value = saved && Number.isFinite(Number(saved[input.dataset.store])) ? saved[input.dataset.store] : targetDefaults[input.dataset.store]; });
-      targetSaved.textContent = '';
-      updateTargetTotal();
-    }
-    function renderActivePage() {
-      const showingSales = activeKey === 'salesProgress';
-      const showingTargets = activeKey === 'targets';
-      const showingSystem = activeKey === 'system';
-      salesDashboard.hidden = !showingSales;
-      targetDashboard.hidden = !showingTargets;
-      systemDashboard.hidden = !showingSystem;
-      construction.hidden = showingSales || showingTargets || showingSystem;
-      constructionTitle.textContent = translations[language][activeKey];
-      notice.classList.remove('show');
-      notice.textContent = '';
-    }
-    function escapeHtml(value) { return String(value ?? '').replace(/[&<>'"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[character]); }
-    function renderSystemStaticCopy() {
-      const copy = systemCopy[language];
-      document.querySelector('[data-name-key="system"] span:last-child').textContent = copy.menu;
-      document.getElementById('system-title').textContent = copy.title;
-      document.getElementById('system-subtitle').textContent = localSettingsMode ? copy.subtitle : copy.publicSubtitle;
-      document.getElementById('interval-label').textContent = copy.interval;
-      document.getElementById('system-note').textContent = localSettingsMode ? copy.note : copy.publicNote;
-      const saveButton = document.getElementById('system-save');
-      saveButton.textContent = copy.save;
-      saveButton.hidden = !localSettingsMode;
-      intervalSeconds.readOnly = !localSettingsMode;
-    }
-    function latestFetchText() {
-      if (!latestSuccessfulAt) return '';
-      const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kuala_Lumpur', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false }).formatToParts(new Date(latestSuccessfulAt));
-      const value = Object.fromEntries(parts.filter((part) => part.type !== 'literal').map((part) => [part.type, part.value]));
-      const timestamp = `${value.year}/${value.month}/${value.day} ${value.hour}:${value.minute}:${value.second}`;
-      return latestFetchCopy[language].replace('{datetime}', timestamp);
-    }
-    function renderLatestFetch() {
-      const text = latestFetchText();
-      fetchTimestamp.textContent = text;
-      fetchTimestamp.hidden = !text;
-      const dashboardTimestamp = document.getElementById('dashboard-fetch-timestamp');
-      if (dashboardTimestamp) dashboardTimestamp.textContent = text;
-    }
-    function reloadForNewFetchTimestamp(timestamp, reloadOnChange = false) {
-      if (!timestamp) return false;
-      const previous = sessionStorage.getItem(autoReloadTimestampKey);
-      const nextTime = Date.parse(timestamp);
-      const previousTime = Date.parse(previous || '');
-      if (!Number.isFinite(nextTime)) return false;
-      if (!Number.isFinite(previousTime)) {
-        sessionStorage.setItem(autoReloadTimestampKey, timestamp);
-        return false;
-      }
-      if (nextTime > previousTime) {
-        sessionStorage.setItem(autoReloadTimestampKey, timestamp);
-        if (reloadOnChange && activeKey === 'salesProgress') {
-          window.location.reload();
-          return true;
-        }
-      }
-      return false;
-    }
-    async function loadCollectorStatus(reloadOnChange = false) {
-      try { const response = await fetch(`${collectorUrl}/status`); if (!response.ok) throw new Error(); const status = await response.json(); latestSuccessfulAt = status.lastSuccessfulAt || excelSnapshotFetchedAt; }
-      catch { latestSuccessfulAt = latestSuccessfulAt || excelSnapshotFetchedAt; }
-      if (reloadForNewFetchTimestamp(latestSuccessfulAt, reloadOnChange)) return;
-      renderLatestFetch();
-    }
-    function mergeCollectorDashboardData(payload) {
-      if (!payload?.month || !/^\d{4}-\d{2}$/.test(payload.month) || !/^\d{4}-\d{2}-\d{2}$/.test(payload.latestDate || '')) return false;
-      const expectedDays = Number(payload.latestDate.slice(-2));
-      const switchingMonth = payload.month !== dashboardDataMeta.month;
-      if (switchingMonth) {
-        actualCodes.forEach((code) => {
-          cashSalesActuals[code].sales = Array(expectedDays).fill(0);
-          cashSalesActuals[code].documents = Array(expectedDays).fill(0);
-        });
-      } else {
-        actualCodes.forEach((code) => {
-          while (cashSalesActuals[code].sales.length < expectedDays) cashSalesActuals[code].sales.push(0);
-          while (cashSalesActuals[code].documents.length < expectedDays) cashSalesActuals[code].documents.push(0);
-        });
-      }
-      actualCodes.forEach((code) => {
-        const source = payload.stores?.[code];
-        if (!source) return;
-        if (source.company) cashSalesActuals[code].company = source.company;
-        for (let index = 0; index < expectedDays; index += 1) {
-          const sales = source.sales?.[index];
-          const documents = source.documents?.[index];
-          if (sales !== null && sales !== undefined && Number.isFinite(Number(sales))) cashSalesActuals[code].sales[index] = Number(sales);
-          if (documents !== null && documents !== undefined && Number.isFinite(Number(documents))) cashSalesActuals[code].documents[index] = Number(documents);
-        }
-      });
-      dashboardDataMeta = { month: payload.month, latestDate: payload.latestDate };
-      latestSuccessfulAt = payload.lastSuccessfulAt || latestSuccessfulAt || excelSnapshotFetchedAt;
-      return true;
-    }
-    async function loadCollectorDashboardData() {
-      try {
-        const response = await fetch(`${collectorUrl}/dashboard-data`);
-        if (!response.ok) throw new Error();
-        const payload = await response.json();
-        if (mergeCollectorDashboardData(payload)) {
-          renderSalesDashboard();
-          renderLatestFetch();
-        }
-      } catch { /* Keep the packaged Excel snapshot when this PC's service is unavailable. */ }
-    }
-    async function fetchPublishedDashboardSnapshot() {
-      const sources = [
-        `dashboard-data.json?v=${Date.now()}`,
-        `${githubDashboardDataUrl}?v=${Date.now()}`,
-      ];
-      let lastError;
-      for (const source of sources) {
-        try {
-          const response = await fetch(source, { cache: 'no-store' });
-          if (!response.ok) throw new Error(`Dashboard data request failed: ${response.status}`);
-          return await response.json();
-        } catch (error) { lastError = error; }
-      }
-      throw lastError || new Error('Dashboard data is unavailable');
-    }
-    async function loadPublishedDashboardData() {
-      try {
-        const payload = await fetchPublishedDashboardSnapshot();
-        if (mergeCollectorDashboardData(payload)) {
-          renderSalesDashboard();
-          renderLatestFetch();
-        }
-      } catch { /* The bundled values remain available if the published snapshot is unavailable. */ }
-    }
-    async function reloadWhenPublishedDataChanges() {
-      try {
-        const payload = await fetchPublishedDashboardSnapshot();
-        reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
-      } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
-    }
-    function renderSystemStores(settings = {}, readOnly = !localSettingsMode) {
-      const copy = systemCopy[language];
-      systemGrid.innerHTML = Object.entries(systemStores).map(([code, name]) => {
-        const store = settings.stores?.[code] || {};
-        const readOnlyAttribute = readOnly ? ' readonly aria-readonly="true"' : '';
-        const passwordStatus = localSettingsMode ? `<p class="system-secret-status">${copy.password} ${store.hasPassword ? copy.passwordSet : copy.passwordMissing} Â· ${copy.passwordManaged}</p>` : '';
-        return `<article class="system-store"><h3>${code} <small>${name}</small></h3><label>${copy.url}</label><input name="${code}-url" type="url" value="${escapeHtml(store.url)}" placeholder="https://.../Webform/Sales_Cash"${readOnlyAttribute}><label>${copy.erpId}</label><input name="${code}-id" type="text" value="${escapeHtml(store.id)}" autocomplete="username"${readOnlyAttribute}>${passwordStatus}</article>`;
-      }).join('');
-    }
-    async function loadSystemSettings() {
-      const copy = systemCopy[language]; systemStatus.textContent = localSettingsMode ? copy.checking : copy.publicChecking;
-      if (!localSettingsMode) {
-        try { const payload = await fetchPublishedDashboardSnapshot(); if (!payload.systemSettings) throw new Error(); intervalSeconds.value = payload.systemSettings.intervalSeconds || 300; renderSystemStores(payload.systemSettings, true); systemStatus.textContent = copy.published; systemStatus.className = 'system-status ok'; }
-        catch { intervalSeconds.value = 300; renderSystemStores({}, true); systemStatus.textContent = copy.publicUnavailable; systemStatus.className = 'system-status'; }
-        return;
-      }
-      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; renderSystemStores(settings, false); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
-      catch { renderSystemStores({}, false); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
-    }
-    function setLanguage(nextLanguage) {
-      language = nextLanguage;
-      const copy = translations[language];
-      document.documentElement.lang = language === 'zh' ? 'zh-Hans' : language;
-      document.querySelectorAll('[data-i18n]').forEach((element) => { element.textContent = copy[element.dataset.i18n]; });
-      document.querySelectorAll('[data-i18n-aria]').forEach((element) => { element.setAttribute('aria-label', copy[element.dataset.i18nAria]); });
-      document.querySelectorAll('[data-status]').forEach((element) => {
-        const arrow = element.dataset.status === 'up' ? 'â†‘' : 'â†“';
-        element.textContent = `${arrow} ${language === 'en' ? 'Daily target' : language === 'ms' ? 'Sasaran harian' : language === 'zh' ? 'æ—¥ç›®æ ‡è¾¾æˆ' : 'æ—¥æ¬¡ç›®æ¨™æ¯”'} ${element.dataset.rate}%`;
-      });
-      languageButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
-      localStorage.setItem('gemok-language', language);
-      renderSystemStaticCopy();
-      renderLatestFetch();
-      renderSalesDashboard();
-      renderActivePage();
-      if (activeKey === 'system') loadSystemSettings();
-    }
-    buttons.forEach((button) => {
-      button.addEventListener('click', () => {
-        buttons.forEach((item) => item.removeAttribute('aria-current'));
-        button.setAttribute('aria-current', 'page');
-        activeKey = button.dataset.nameKey;
-        if (activeKey === 'salesProgress') renderSalesDashboard();
-        else if (activeKey !== 'system') title.textContent = translations[language][activeKey];
-        renderActivePage();
-        if (activeKey === 'system') loadSystemSettings();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    });
-    targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
-    targetMonth.addEventListener('change', loadTargetValues);
-    targetForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      const targets = Object.fromEntries(Array.from(targetInputs, (input) => [input.dataset.store, Math.max(0, Number(input.value) || 0)]));
-      localStorage.setItem(targetStorageKey(), JSON.stringify(targets));
-      targetSaved.textContent = translations[language].targetSaved.replace('{month}', targetMonth.value);
-      updateTargetTotal();
-      renderSalesDashboard();
-    });
-    systemForm.addEventListener('submit', async (event) => {
-      event.preventDefault(); if (!localSettingsMode) return; const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`) }]));
-      const copy = systemCopy[language]; systemStatus.textContent = copy.saving; systemStatus.className = 'system-status';
-      try { const response = await fetch(`${collectorUrl}/settings`, { method: 'POST', headers: { 'content-type': 'text/plain;charset=UTF-8' }, body: JSON.stringify({ intervalSeconds: Number(intervalSeconds.value), stores }) }); if (!response.ok) throw new Error(); await fetch(`${collectorUrl}/sync`, { method: 'POST' }); await loadSystemSettings(); systemStatus.textContent = copy.saved; systemStatus.className = 'system-status ok'; }
-      catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
-    });
-    languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
-    renderSalesDashboard();
-    loadTargetValues();
-    setLanguage(language);
-    loadPublishedDashboardData();
-    loadCollectorStatus();
-    loadCollectorDashboardData();
-    setInterval(() => loadCollectorStatus(true), 30000);
-    setInterval(loadCollectorDashboardData, 30000);
-    setInterval(reloadWhenPublishedDataChanges, 30000);
-  </script>
-</body>
-</html>
+¨¥yÛhr·šµë-­æ¦}Ó©z¶­Š‰ç¢Ú^®h­µçEj)^vÚ­æ­zËky©Ÿtê^­«b¢yè¶—«š+myÑZŠW¶‡+y«^²ÚÞjgÝ:—«jØ¨žz-¥êæŠÛ^tð…‘½ÑåÁ”¡Ñµ°ø(ñ¡Ñµ°±…¹œô‰©„ˆø(ñ¡•…ø(€€ñµ•Ñ„¡…ÉÍ•Ðô‰ÕÑ˜´àˆø(€€ñµ•Ñ„¹…µ”ô‰Ù¥•ÝÁ½ÉÐˆ½¹Ñ•¹Ðô‰Ý¥‘Ñ õ‘•Ù¥”µÝ¥‘Ñ °¥¹¥Ñ¥…°µÍ…±”ôÄˆø(€€ñµ•Ñ„¹…µ”ô‰‘•ÍÉ¥ÁÑ¥½¸ˆ½¹Ñ•¹Ðô‰•µ½¬É½ÕÀƒ–ê_¢"_–"—–ŽË’â+¦Ëš6_ŽŽŽ
+ßŽ—ŽsŽóŽ$ˆø(€€ñÑ¥Ñ±”ù•µ½¬É½ÕÀðƒ–ZÛš–·ŽŽŽ
+ßŽ—ŽsŽóŽ$ð½Ñ¥Ñ±”ø(€€ñÍÑå±”ø(€€€€éÉ½½Ðì€´µ‰œèŒÁˆÄÌÈÈì€´µÍ¥‘•‰…ÈèŒÄÀÅŒÉ˜ì€´µÁ…¹•°èŒÄäÈàÍì€´µÁ…¹•°´ÈèŒÄÐÈÈÌäì€´µ±¥¹”èŒÉ˜ÐÌÕ˜ì€´µÑ•áÐè˜Ñ˜á™˜ì€´µµÕÑ•èŒå‰ˆÉàì€´µ‰±Õ”èŒÜÍ„á™˜ì€´µÉ••¸èŒÐÍ‘™„Àì€´µ…µ‰•Èè˜Õ‰Ñ”ì€´µÍ¤è•˜ÐÐÐÐì€´µÍÈè™…ŒÄÔì€´µÍÐèŒÍˆàÉ˜Øì€´µÍ¬èŒÈÉŒÔÕ”ì€´µ­´è˜äÜÌÄØìô(€€€€¨ì‰½àµÍ¥é¥¹œé‰½É‘•Èµ‰½àìô(€€€‰½‘äìµ…É¥¸èÀìµ¥¸µÝ¥‘Ñ èÌÈÁÁàì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹éÙ…È ´µ‰œ¤ì™½¹Ðµ™…µ¥±äé%¹Ñ•È°‰9½Ñ¼M…¹Ì)@ˆ°‰eÔ½Ñ¡¥ŒU$ˆ±Í…¹ÌµÍ•É¥˜ìô(€€€€¹…ÁÀìµ¥¸µ¡•¥¡ÐèÄÀÁÙ ì‘¥ÍÁ±…äéÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌèÈÌÙÁàµ¥¹µ…à À°Å™È¤ìÉ¥µÑ•µÁ±…Ñ”µÉ½ÝÌèàÙÁàµ¥¹µ…à À°Å™È¤ìô(€€€€¹Ñ½Á‰…ÈìÉ¥µ½±Õµ¸èÄ€¼€´Äì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÈÁÁàìÁ…‘‘¥¹œèÀ€ÈáÁàì‰½É‘•Èµ‰½ÑÑ½´èÅÁàÍ½±¥Ù…È ´µ±¥¹”¤ì‰…­É½Õ¹èŒÁ”ÄäÉˆìô(€€€€¹‰É…¹ì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèÄÉÁàìô(€€€€¹‰É…¹µµ…É¬ìÝ¥‘Ñ èØåÁàì¡•¥¡ÐèÜáÁàì½‰©•Ðµ™¥Ðé½¹Ñ…¥¸ì½‰©•ÐµÁ½Í¥Ñ¥½¸é•¹Ñ•Èì™¥±Ñ•Èé‘É½ÀµÍ¡…‘½Ü À€ÕÁà€åÁàÉ‰„ À°À°À°¸Èà¤¤ìô(€€€€¹‰É…¹µ¹…µ”ì™½¹ÐµÍ¥é”èÄåÁàì™½¹ÐµÝ•¥¡ÐèàÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè¸ÀÉ•´ìô(€€€€¹‰É…¹µÍÕˆìµ…É¥¸µ±•™ÐèáÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèÔÀÀìô(€€€€¹Ñ½Á‰…ÈµÉ¥¡Ðì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèÄÕÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÉÁàìô(€€€€¹±¥Ù”ì‘¥ÍÁ±…äé¥¹±¥¹”µ™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèÙÁàì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹±¥Ù”¤ìÝ¥‘Ñ èÝÁàì¡•¥¡ÐèÝÁàì‰½É‘•ÈµÉ…‘¥ÕÌèÔÀ”ì‰…­É½Õ¹éÕÉÉ•¹Ñ½±½Èìô(€€€€¹™•Ñ µÑ¥µ•ÍÑ…µÀì½±½Èè„å‰•”Àì™½¹ÐµÙ…É¥…¹Ðµ¹Õµ•É¥ŒéÑ…‰Õ±…Èµ¹ÕµÌìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹±…¹Õ…”µÍÝ¥Ñ¡•Èì‘¥ÍÁ±…äé¥¹±¥¹”µ™±•àì…ÀèÍÁàìÁ…‘‘¥¹œèÍÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔÔ°ÄäÀ°ÈÌÔ°¸ÄÜ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèáÁàì‰…­É½Õ¹èŒÄÜÈØÍìô(€€€€¹±…¹Õ…”µÍÝ¥Ñ¡•È‰ÕÑÑ½¸ìÁ…‘‘¥¹œèÕÁà€ÝÁàì‰½É‘•ÈèÀì‰½É‘•ÈµÉ…‘¥ÕÌèÕÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì‰…­É½Õ¹éÑÉ…¹ÍÁ…É•¹Ðì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÅÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìÕÉÍ½ÈéÁ½¥¹Ñ•Èìô(€€€€¹±…¹Õ…”µÍÝ¥Ñ¡•È‰ÕÑÑ½¸é¡½Ù•È°€¹±…¹Õ…”µÍÝ¥Ñ¡•È‰ÕÑÑ½¹m…É¥„µÁÉ•ÍÍ•ô‰ÑÉÕ”‰tì½±½Èè™™˜ì‰…­É½Õ¹èŒÌÄÕ˜åìô(€€€€¹Í¥‘•‰…ÈìÉ¥µÉ½ÜèÈìÁ…‘‘¥¹œèÈÉÁà€ÄÕÁàì‰½É‘•ÈµÉ¥¡ÐèÅÁàÍ½±¥Ù…È ´µ±¥¹”¤ì‰…­É½Õ¹éÙ…È ´µÍ¥‘•‰…È¤ìô(€€€€¹µ•¹Ôµ±…‰•°ìµ…É¥¸èÀ€ÄÁÁà€ÄÅÁàì½±½ÈèŒÜÜäÉ‰ì™½¹ÐµÍ¥é”èÄÅÁàì™½¹ÐµÝ•¥¡ÐèàÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè¸Å•´ìô(€€€€¹µ•¹Ôì‘¥ÍÁ±…äéÉ¥ì…ÀèÙÁàìô(€€€€¹µ•¹Ôµ‰ÕÑÑ½¸ì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•ÈìÝ¥‘Ñ èÄÀÀ”ì…ÀèÄÅÁàìÁ…‘‘¥¹œèÄÉÁà€ÄÉÁàì‰½É‘•ÈèÅÁàÍ½±¥ÑÉ…¹ÍÁ…É•¹Ðì‰½É‘•ÈµÉ…‘¥ÕÌèåÁàì½±½Èè‰‰•”äì‰…­É½Õ¹éÑÉ…¹ÍÁ…É•¹ÐìÑ•áÐµ…±¥¸é±•™Ðì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÑÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀìÕÉÍ½ÈéÁ½¥¹Ñ•ÈìÑÉ…¹Í¥Ñ¥½¸è¸ÄÕÌ•…Í”ìô(€€€€¹µ•¹Ôµ‰ÕÑÑ½¸é¡½Ù•Èì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹èŒÄÜÈÜÐÄìô(€€€€¹µ•¹Ôµ‰ÕÑÑ½¹m…É¥„µÕÉÉ•¹Ðô‰Á…”‰tì‰½É‘•Èµ½±½ÈéÉ‰„ ÄÄÔ°ÄØà°ÈÔÔ°¸ÈÔ¤ì½±½Èè™™˜ì‰…­É½Õ¹èŒÈÐÑ„àÀì‰½àµÍ¡…‘½Üé¥¹Í•Ð€ÍÁà€À€ÀÙ…È ´µ‰±Õ”¤ìô(€€€€¹µ•¹Ôµ¥½¸ì‘¥ÍÁ±…äéÉ¥ìÝ¥‘Ñ èÄåÁàì¡•¥¡ÐèÄåÁàìÁ±…”µ¥Ñ•µÌé•¹Ñ•Èì‰½É‘•ÈµÉ…‘¥ÕÌèÕÁàì½±½ÈéÕÉÉ•¹Ñ½±½Èì‰…­É½Õ¹éÉ‰„ ÄÐÀ°ÄàÀ°ÈÐÀ°¸ÄÈ¤ì™½¹ÐµÍ¥é”èÄÅÁàìô(€€€€¹µ•¹Ôµ‘¥Ù¥‘•Èì¡•¥¡ÐèÅÁàìµ…É¥¸èÄÝÁà€ÄÁÁàì‰…­É½Õ¹éÙ…È ´µ±¥¹”¤ìô(€€€€¹Í¥‘•‰…Èµ¹½Ñ”ìµ…É¥¸èÀ€ÄÁÁàì½±½ÈèŒÜàäÉ‰„ì™½¹ÐµÍ¥é”èÄÅÁàì±¥¹”µ¡•¥¡ÐèÄ¸Üìô(€€€€¹½¹Ñ•¹Ðìµ¥¸µÝ¥‘Ñ èÀìÁ…‘‘¥¹œèÈáÁàì‰…­É½Õ¹éÉ…‘¥…°µÉ…‘¥•¹Ð¡¥É±”…Ð€äÈ”€À”±É‰„ ÐÜ°ÄÄØ°ÈÌÐ°¸ÄÐ¤±ÑÉ…¹ÍÁ…É•¹Ð€ÌÄ”¤±Ù…È ´µ‰œ¤ìô(€€€€¹Á…”µ¡•…ì‘¥ÍÁ±…äé™±•àì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…±¥¸µ¥Ñ•µÌé™±•àµÍÑ…ÉÐì…ÀèÈÁÁàìµ…É¥¸µ‰½ÑÑ½´èÈÍÁàìô(€€€ Äìµ…É¥¸èÀì™½¹ÐµÍ¥é”èÈáÁàì±•ÑÑ•ÈµÍÁ…¥¹œè´¸ÀÍ•´ìô(€€€€¹Á…”µ¡•…Àìµ…É¥¸èáÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÍÁàìô(€€€€¹‘…Ñ„µ¹½Ñ”ì™±•àèÀ€À…ÕÑ¼ìÁ…‘‘¥¹œèÄÁÁà€ÄÍÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÔ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèåÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ì™½¹ÐµÍ¥é”èÄÅÁàìô(€€€€¹‘…Ñ„µ¹½Ñ”ÍÑÉ½¹œì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèÍÁàì½±½ÈéÙ…È ´µÑ•áÐ¤ì™½¹ÐµÍ¥é”èÄÍÁàìô(€€€€¹‘…Í¡‰½…Éµ™•Ñ µÑ¥µ•ÍÑ…µÀì‘¥ÍÁ±…äé¹½¹”ìô(€€€€¹‘…¥±äìÁ…‘‘¥¹œèÄÝÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÕÁàì‰…­É½Õ¹éÉ‰„ ÈÔ°ÐÀ°ØÄ°¸äÈ¤ìô(€€€€¹Í•Ñ¥½¸µ¡•…ì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹ì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÄÕÁàìµ…É¥¸µ‰½ÑÑ½´èÄÑÁàìô(€€€ Èìµ…É¥¸èÀì™½¹ÐµÍ¥é”èÄÙÁàìô(€€€€¹Í•Ñ¥½¸µ¡•…Àìµ…É¥¸èÑÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàìô(€€€€¹É½ÕÀµÑ½Ñ…°ì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÍ¥é”èÄÕÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹É½ÕÀµÑ½Ñ…°Íµ…±°ìµ…É¥¸µÉ¥¡ÐèÝÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàì™½¹ÐµÝ•¥¡ÐèÔÀÀìô(€€€€¹‘…¥±äµÉ½Üì‘¥ÍÁ±…äéÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð Ô±µ¥¹µ…à À°Å™È¤¤ì…ÀèåÁàìô(€€€€¹ÍÑ½É”µÑ¥±”ìµ¥¸µÝ¥‘Ñ èÀìÁ…‘‘¥¹œèÄÍÁàì‰½É‘•ÈµÉ…‘¥ÕÌèåÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°´È¤ìô(€€€€¹ÍÑ½É”µÑ½Àì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÕÁàìô(€€€€¹ÍÑ½É”µ½‘”ì™½¹ÐµÍ¥é”èÄÍÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹½µÁ…¹äì½Ù•É™±½Üé¡¥‘‘•¸ì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàìÑ•áÐµ½Ù•É™±½Üé•±±¥ÁÍ¥ÌìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹ÍÑ½É”µÙ…±Õ”ìµ…É¥¸µÑ½ÀèÄÁÁàì™½¹ÐµÍ¥é”é±…µÀ ÄåÁà°È¸ÀÕÙÜ°ÈÙÁà¤ì™½¹ÐµÝ•¥¡ÐèàÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè´¸ÀÐÕ•´ìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹ÍÑ…ÑÕÌì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèÝÁàì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÍ¥é”èÄÁÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹ÍÑ…ÑÕÌ¹Ý…É¸ì½±½ÈéÙ…È ´µ…µ‰•È¤ìô(€€€€¹µ½¹Ñ µÉ½Üì‘¥ÍÁ±…äéÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌèÄÌÕÁàÉ•Á•…Ð Ô±µ¥¹µ…à À°Å™È¤¤ì…ÀèåÁàì…±¥¸µ¥Ñ•µÌéÍÑÉ•Ñ ìµ…É¥¸èÄÕÁà€À€ÄåÁàìô(€€€€¹µ½¹Ñ µ±…‰•°ì‘¥ÍÁ±…äé™±•àì™±•àµ‘¥É•Ñ¥½¸é½±Õµ¸ì©ÕÍÑ¥™äµ½¹Ñ•¹Ðé•¹Ñ•ÈìÁ…‘‘¥¹œµ±•™ÐèÉÁàìô(€€€€¹µ½¹Ñ µ±…‰•°Àìµ…É¥¸èÕÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàìô(€€€€¹µ½¹Ñ µÑ¥±”ìµ¥¸µÝ¥‘Ñ èÀìÁ…‘‘¥¹œèÄÅÁà€ÄÉÁàì‰½É‘•ÈµÉ…‘¥ÕÌèåÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ìô(€€€€¹µ½¹Ñ µÑ½Àì‘¥ÍÁ±…äé™±•àì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÕÁàì™½¹ÐµÍ¥é”èÄÉÁàìô(€€€€¹µ½¹Ñ µÑ½ÀÍÑÉ½¹œì™½¹ÐµÍ¥é”èÄÍÁàìô(€€€€¹É…Ñ”ì½±½ÈéÙ…È ´µ‰±Õ”¤ì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹É…Ñ”¹Ý…É¸ì½±½ÈéÙ…È ´µ…µ‰•È¤ìô(€€€€¹µ½¹Ñ µÙ…±Õ”ìµ…É¥¸èÝÁà€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàìô(€€€€¹µ½¹Ñ µÙ…±Õ”ÍÑÉ½¹œì½±½ÈéÙ…È ´µÑ•áÐ¤ì™½¹ÐµÍ¥é”èÄÕÁàìô(€€€€¹ÁÉ½É•ÍÌì¡•¥¡ÐèÕÁàì½Ù•É™±½Üé¡¥‘‘•¸ì‰½É‘•ÈµÉ…‘¥ÕÌèäåÁàì‰…­É½Õ¹èŒÌØÑŒÙˆìô(€€€€¹ÁÉ½É•ÍÌÍÁ…¸ì‘¥ÍÁ±…äé‰±½¬ì¡•¥¡ÐèÄÀÀ”ì‰½É‘•ÈµÉ…‘¥ÕÌé¥¹¡•É¥Ðì‰…­É½Õ¹éÙ…È ´µ‰±Õ”¤ìô(€€€€¹ÁÉ½É•ÍÌ€¹Ý…É¸ì‰…­É½Õ¹éÙ…È ´µ…µ‰•È¤ìô(€€€€¹¡…ÉÐµÁ…¹•°ìÁ…‘‘¥¹œèÄáÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÌ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÑÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ìô(€€€€¹¡…ÉÐµÁ…¹•°€¬€¹¡…ÉÐµÁ…¹•°ìµ…É¥¸µÑ½ÀèÄÙÁàìô(€€€€¹¡…ÉÐµ•áÁ…¹µÑÉ¥•ÈìÑ½Õ µ…Ñ¥½¸éµ…¹¥ÁÕ±…Ñ¥½¸ìô(€€€€¹¡…ÉÐµ™Õ±±ÍÉ••¸ìÁ½Í¥Ñ¥½¸é™¥á•ìèµ¥¹‘•àèÄÀÀÀì¥¹Í•ÐèÀì‘¥ÍÁ±…äéÉ¥ìÁ±…”µ¥Ñ•µÌé•¹Ñ•ÈìÁ…‘‘¥¹œèÄÙÁàì‰…­É½Õ¹éÉ‰„ Ð°ÄÄ°ÈÄ°¸äÐ¤ìô(€€€€¹¡…ÉÐµ™Õ±±ÍÉ••¸µ‘¥…±½œìÁ½Í¥Ñ¥½¸éÉ•±…Ñ¥Ù”ìÝ¥‘Ñ éµ¥¸ ÄÀÀ”°àØÁÁà¤ìµ…àµ¡•¥¡ÐèÄÀÀ”ì½Ù•É™±½Üé…ÕÑ¼ìÁ…‘‘¥¹œèÐáÁà€ÄÉÁà€ÄÙÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÈÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄáÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ì‰½àµÍ¡…‘½ÜèÀ€ÈÑÁà€àÁÁàÉ‰„ À°À°À°¸Ðà¤ìô(€€€€¹¡…ÉÐµ™Õ±±ÍÉ••¸µ±½Í”ìÁ½Í¥Ñ¥½¸é…‰Í½±ÕÑ”ìÑ½ÀèÄÁÁàìÉ¥¡ÐèÄÁÁàìÁ…‘‘¥¹œèåÁà€ÄÉÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÈÔ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèáÁàì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹èŒÈÐÌäÔÜì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹™Õ±±ÍÉ••¸µ¡…ÉÐµ½¹Ñ•¹ÐìÁ…‘‘¥¹œèÀì‰½É‘•ÈèÀì‰½É‘•ÈµÉ…‘¥ÕÌèÀì‰…­É½Õ¹éÑÉ…¹ÍÁ…É•¹Ðìô(€€€€¹™Õ±±ÍÉ••¸µ¡…ÉÐµ½¹Ñ•¹ÐÍÙœì¡•¥¡Ðéµ¥¸ ØáÙ °ÔÈÁÁà¤ìô(€€€€¹¡…ÉÐµµ•Ñ„ì‘¥ÍÁ±…äé™±•àì™±•àµÝÉ…ÀéÝÉ…Àì©ÕÍÑ¥™äµ½¹Ñ•¹Ðé™±•àµ•¹ì…ÀèÄÅÁàì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹¡…ÉÐµµ•Ñ„ÍÁ…¸ì‘¥ÍÁ±…äéÉ¥ì…ÀèÉÁàìÑ•áÐµ…±¥¸éÉ¥¡Ðìô(€€€€¹¡…ÉÐµµ•Ñ„Íµ…±°ì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èåÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹±••¹ì‘¥ÍÁ±…äé™±•àì™±•àµÝÉ…ÀéÝÉ…Àì…ÀèÄÉÁàìµ…É¥¸èÄÅÁà€À€ÕÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàìô(€€€€¹±••¹ÍÁ…¸ì‘¥ÍÁ±…äé¥¹±¥¹”µ™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèÕÁàìô(€€€€¹‘½ÐìÝ¥‘Ñ èáÁàì¡•¥¡ÐèáÁàì‰½É‘•ÈµÉ…‘¥ÕÌèÉÁàìô(€€€€¹¡…ÉÐµÑåÁ”ìµ…É¥¸µ±•™ÐèÍÁàì½±½ÈèŒáÝ•ìô(€€€€¹¡…ÉÐµÑåÁ”ÍÑÉ½¹œì½±½ÈéÙ…È ´µÑ•áÐ¤ìô(€€€€¹¡…ÉÐµÑåÁ”µ±¥¹”ìÝ¥‘Ñ èÄÙÁàì¡•¥¡ÐèÀì‰½É‘•ÈµÑ½ÀèÉÁàÍ½±¥Ù…È ´µÉ••¸¤ìÁ½Í¥Ñ¥½¸éÉ•±…Ñ¥Ù”ìô(€€€€¹¡…ÉÐµÑåÁ”µ±¥¹”èé…™Ñ•Èì½¹Ñ•¹ÐèˆˆìÁ½Í¥Ñ¥½¸é…‰Í½±ÕÑ”ìÑ½Àè´ÑÁàì±•™ÐèÙÁàìÝ¥‘Ñ èÕÁàì¡•¥¡ÐèÕÁàì‰½É‘•ÈµÉ…‘¥ÕÌèÔÀ”ì‰…­É½Õ¹éÙ…È ´µÉ••¸¤ìô(€€€ÍÙœì‘¥ÍÁ±…äé‰±½¬ìÝ¥‘Ñ èÄÀÀ”ì¡•¥¡ÐèÈÈÕÁàì½Ù•É™±½ÜéÙ¥Í¥‰±”ìô(€€€€¹É¥µ±¥¹”ìÍÑÉ½­”èŒÍ„ÑØàìÍÑÉ½­”µÝ¥‘Ñ èÄìô(€€€€¹…á¥Ìì™¥±°è„Ñ‰”Äì™½¹ÐµÍ¥é”èÄÅÁàì™½¹Ðµ™…µ¥±äé%¹Ñ•È°‰9½Ñ¼M…¹Ì)@ˆ±Í…¹ÌµÍ•É¥˜ìô(€€€€¹…á¥Ìµ±…‰•°ì™¥±°è„Ñ‰”Äì™½¹ÐµÍ¥é”èÄÁÁàì™½¹Ðµ™…µ¥±äé%¹Ñ•È°‰9½Ñ¼M…¹Ì)@ˆ±Í…¹ÌµÍ•É¥˜ìô(€€€€¹‘½Õµ•¹ÐµÙ…±Õ”µ±…‰•°°¹‘½Õµ•¹ÐµÑ½Ñ…°µ±…‰•°°¹Í…±•ÌµÙ…±Õ”µ±…‰•°°¹Í…±•ÌµÑ½Ñ…°µ±…‰•°ì™½¹Ðµ™…µ¥±äé%¹Ñ•È°‰9½Ñ¼M…¹Ì)@ˆ±Í…¹ÌµÍ•É¥˜ì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹‘½Õµ•¹ÐµÙ…±Õ”µ±…‰•°°¹Í…±•ÌµÙ…±Õ”µ±…‰•°ì™½¹ÐµÍ¥é”èåÁàìô(€€€€¹‘½Õµ•¹ÐµÑ½Ñ…°µ±…‰•°°¹Í…±•ÌµÑ½Ñ…°µ±…‰•°ì™½¹ÐµÍ¥é”èÄÁÁàìô(€€€€¹¹½Ñ¥”ì‘¥ÍÁ±…äé¹½¹”ìµ…É¥¸µ‰½ÑÑ½´èÄáÁàìÁ…‘‘¥¹œèÄÉÁà€ÄÑÁàì‰½É‘•Èµ±•™ÐèÍÁàÍ½±¥Ù…È ´µ‰±Õ”¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÙÁàì½±½ÈèŒåå˜Äì‰…­É½Õ¹èŒÄÜÈäÐÔì™½¹ÐµÍ¥é”èÄÍÁàìô(€€€€¹¹½Ñ¥”¹Í¡½Üì‘¥ÍÁ±…äé‰±½¬ìô(€€€€¹½¹ÍÑÉÕÑ¥½¸ì‘¥ÍÁ±…äéÉ¥ìµ¥¸µ¡•¥¡ÐèÔÄÁÁàìÁ±…”µ¥Ñ•µÌé•¹Ñ•Èì…±¥¸µ½¹Ñ•¹Ðé•¹Ñ•ÈìÁ…‘‘¥¹œèÔÙÁà€ÈÑÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÕÁàì‰…­É½Õ¹éÉ…‘¥…°µÉ…‘¥•¹Ð¡¥É±”…Ð•¹Ñ•È±É‰„ Ðà°ÄÀÔ°ÄàÐ°¸ÄØ¤±ÑÉ…¹ÍÁ…É•¹Ð€Ðà”¤±Ù…È ´µÁ…¹•°¤ìÑ•áÐµ…±¥¸é•¹Ñ•Èìô(€€€€¹½¹ÍÑÉÕÑ¥½¹m¡¥‘‘•¹t°€Í…±•Ìµ‘…Í¡‰½…É‘m¡¥‘‘•¹tì‘¥ÍÁ±…äé¹½¹”ìô(€€€€¹½¹ÍÑÉÕÑ¥½¸µ¥½¸ì‘¥ÍÁ±…äéÉ¥ìÝ¥‘Ñ èÔáÁàì¡•¥¡ÐèÔáÁàìÁ±…”µ¥Ñ•µÌé•¹Ñ•Èì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÄÔ°ÄØà°ÈÔÔ°¸ÌÔ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÝÁàì½±½ÈéÙ…È ´µ‰±Õ”¤ì‰…­É½Õ¹èŒÄØÈäÐÌì™½¹ÐµÍ¥é”èÈåÁàìô(€€€€¹½¹ÍÑÉÕÑ¥½¸µ•å•‰É½Üìµ…É¥¸èÄáÁà€À€áÁàì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè¸ÄÅ•´ìô(€€€€¹½¹ÍÑÉÕÑ¥½¸ Äì™½¹ÐµÍ¥é”èÈÝÁàìô(€€€€¹½¹ÍÑÉÕÑ¥½¸Àé±…ÍÐµ¡¥±ìµ…àµÝ¥‘Ñ èÌØÁÁàìµ…É¥¸èÄÅÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÍÁàì±¥¹”µ¡•¥¡ÐèÄ¸Üìô(€€€€¹Ñ…É•Ðµ‘…Í¡‰½…É‘m¡¥‘‘•¹tì‘¥ÍÁ±…äé¹½¹”ìô(€€€€¹ÍåÍÑ•´µ‘…Í¡‰½…É‘m¡¥‘‘•¹tì‘¥ÍÁ±…äé¹½¹”ìô(€€€€¹ÍåÍÑ•´µÁ…¹•°ìÁ…‘‘¥¹œèÄáÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÕÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ìô(€€€€¹ÍåÍÑ•´µÍÑ…ÑÕÌìµ…É¥¸èÀ€À€ÄÙÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÉÁàìô(€€€€¹ÍåÍÑ•´µÍÑ…ÑÕÌ¹½¬ì½±½ÈéÙ…È ´µÉ••¸¤ìô(€€€€¹ÍåÍÑ•´µÉ¥ì‘¥ÍÁ±…äéÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð È±µ¥¹µ…à À°Å™È¤¤ì…ÀèÄÉÁàìô(€€€€¹ÍåÍÑ•´µÍÑ½É”ìÁ…‘‘¥¹œèÄÑÁàì‰½É‘•ÈµÉ…‘¥ÕÌèÄÁÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°´È¤ìô(€€€€¹ÍåÍÑ•´µÍÑ½É” Ììµ…É¥¸èÀ€À€ÄÁÁàì™½¹ÐµÍ¥é”èÄÕÁàìô(€€€€¹ÍåÍÑ•´µÍÑ½É”±…‰•°°¹¥¹Ñ•ÉÙ…°µ±…‰•°ì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸èåÁà€À€ÑÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹ÍåÍÑ•´µÍÑ½É”¥¹ÁÕÐ°¹¥¹Ñ•ÉÙ…°µ¥¹ÁÕÐìÝ¥‘Ñ èÄÀÀ”ìÁ…‘‘¥¹œèåÁà€ÄÁÁàì‰½É‘•ÈèÅÁàÍ½±¥€ŒÍÔÔÜÔì‰½É‘•ÈµÉ…‘¥ÕÌèÝÁàì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹èŒÄÀÈÀÌàì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÉÁàìô(€€€€¹ÍåÍÑ•´µÍÑ½É”¥¹ÁÕÑmÉ•…‘½¹±åt°¹¥¹Ñ•ÉÙ…°µ¥¹ÁÕÑmÉ•…‘½¹±åtì‰½É‘•Èµ½±½ÈèŒÉÐÌÕ˜ì½±½ÈèŒÝÑ”Øì‰…­É½Õ¹èŒÁÅ„ÉˆìÕÉÍ½Èé‘•™…Õ±Ðìô(€€€€¹ÍåÍÑ•´µÍ•É•ÐµÍÑ…ÑÕÌìµ…É¥¸èÄÅÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàì±¥¹”µ¡•¥¡ÐèÄ¸Ôìô(€€€€¹ÍåÍÑ•´µ¹½Ñ”ìµ…É¥¸èÄÙÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàì±¥¹”µ¡•¥¡ÐèÄ¸Øìô(€€€€¹Ñ…É•ÐµÑ½½±‰…Èì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÄáÁàìµ…É¥¸µ‰½ÑÑ½´èÄáÁàìÁ…‘‘¥¹œèÄÙÁà€ÄáÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÑÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°¤ìô(€€€€¹Ñ…É•ÐµÑ½½±‰…Èµ½Áäìµ¥¸µÝ¥‘Ñ èÀìô(€€€€¹Ñ…É•ÐµÑ½½±‰…Èµ½Áä Èì™½¹ÐµÍ¥é”èÄÙÁàìô(€€€€¹Ñ…É•ÐµÑ½½±‰…Èµ½ÁäÀìµ…É¥¸èÕÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÉÁàìô(€€€€¹µ½¹Ñ µÁ¥­•Èì™±•àèÀ€À…ÕÑ¼ì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèåÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹µ½¹Ñ µÁ¥­•È¥¹ÁÕÐìµ¥¸µÝ¥‘Ñ èÄÐÙÁàìÁ…‘‘¥¹œèÄÁÁà€ÄÅÁàì‰½É‘•ÈèÅÁàÍ½±¥€ŒÍÔÔÜÔì‰½É‘•ÈµÉ…‘¥ÕÌèáÁàì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹èŒÄÀÈÀÌàì™½¹Ðé¥¹¡•É¥Ðì½±½ÈµÍ¡•µ”é‘…É¬ìô(€€€€¹Ñ…É•Ðµ™½É´µÁ…¹•°ìÁ…‘‘¥¹œèÄáÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸ÄÐ¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÕÁàì‰…­É½Õ¹éÉ‰„ ÈÔ°ÐÀ°ØÄ°¸äÈ¤ìô(€€€€¹Ñ…É•ÐµÍÕµµ…Éäì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹ì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÄÙÁàìµ…É¥¸µ‰½ÑÑ½´èÄÙÁàìô(€€€€¹Ñ…É•ÐµÍÕµµ…ÉäÀìµ…É¥¸èÑÁà€À€Àì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàìô(€€€€¹Ñ…É•ÐµÑ½Ñ…°ì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÍ¥é”èÈÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè´¸ÀÑ•´ìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô(€€€€¹Ñ…É•ÐµÑ½Ñ…°Íµ…±°ì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µ‰½ÑÑ½´èÍÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀì±•ÑÑ•ÈµÍÁ…¥¹œèÀìô(€€€€¹Ñ…É•ÐµÉ¥ì‘¥ÍÁ±…äéÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð Ô±µ¥¹µ…à À°Å™È¤¤ì…ÀèÄÁÁàìô(€€€€¹Ñ…É•Ðµ…Éìµ¥¸µÝ¥‘Ñ èÀìÁ…‘‘¥¹œèÄÕÁàì‰½É‘•ÈèÅÁàÍ½±¥É‰„ ÄÔä°ÄäÈ°ÈÌà°¸Ä¤ì‰½É‘•ÈµÉ…‘¥ÕÌèÄÅÁàì‰…­É½Õ¹éÙ…È ´µÁ…¹•°´È¤ìô(€€€€¹Ñ…É•ÐµÍÑ½É”ì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé™±•àµÍÑ…ÉÐì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèáÁàìô(€€€€¹Ñ…É•ÐµÍÑ½É”ÍÑÉ½¹œì™½¹ÐµÍ¥é”èÄÙÁàìô(€€€€¹Ñ…É•ÐµÍÑ½É”ÍÁ…¸ì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèÍÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàì±¥¹”µ¡•¥¡ÐèÄ¸ÌÔìô(€€€€¹Ñ…É•Ðµ‰É…¹ ìÁ…‘‘¥¹œèÍÁà€ÙÁàì‰½É‘•ÈµÉ…‘¥ÕÌèÕÁàì½±½ÈèŒá‘™„ì‰…­É½Õ¹èŒÈÀÌäÔÜì™½¹ÐµÍ¥é”èåÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸èÄÝÁà€À€ÝÁàì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÁÁàì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…Àì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì…ÀèÝÁàìÁ…‘‘¥¹œèÄÁÁà€ÄÁÁàì‰½É‘•ÈèÅÁàÍ½±¥€ŒÍÔÔÜÔì‰½É‘•ÈµÉ…‘¥ÕÌèáÁàì‰…­É½Õ¹èŒÄÀÈÀÌàìô(€€€€¹Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀÍÁ…¸ì½±½ÈéÙ…È ´µ‰±Õ”¤ì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹Ñ…É•Ðµ¥¹ÁÕÐìÝ¥‘Ñ èÄÀÀ”ìµ¥¸µÝ¥‘Ñ èÀì‰½É‘•ÈèÀì½ÕÑ±¥¹”èÀì½±½ÈéÙ…È ´µÑ•áÐ¤ì‰…­É½Õ¹éÑÉ…¹ÍÁ…É•¹Ðì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÝÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìô(€€€€¹Ñ…É•Ðµ¥¹ÁÕÐèèµÝ•‰­¥Ðµ¥¹¹•ÈµÍÁ¥¸µ‰ÕÑÑ½¸ì½Á…¥Ñäè¸ÔÔìô(€€€€¹Ñ…É•Ðµ…Ñ¥½¹Ìì‘¥ÍÁ±…äé™±•àì…±¥¸µ¥Ñ•µÌé•¹Ñ•Èì©ÕÍÑ¥™äµ½¹Ñ•¹ÐéÍÁ…”µ‰•ÑÝ••¸ì…ÀèÄÑÁàìµ…É¥¸µÑ½ÀèÄáÁàìô(€€€€¹Ñ…É•Ðµ¹½Ñ”°€¹Ñ…É•ÐµÍ…Ù•ìµ…É¥¸èÀì½±½ÈéÙ…È ´µµÕÑ•¤ì™½¹ÐµÍ¥é”èÄÅÁàì±¥¹”µ¡•¥¡ÐèÄ¸ÔÔìô(€€€€¹Ñ…É•ÐµÍ…Ù•ì½±½ÈéÙ…È ´µÉ••¸¤ì™½¹ÐµÝ•¥¡ÐèÜÀÀìô(€€€€¹Í…Ù”µÑ…É•ÑÌì™±•àèÀ€À…ÕÑ¼ìÁ…‘‘¥¹œèÄÅÁà€ÄÙÁàì‰½É‘•ÈèÀì‰½É‘•ÈµÉ…‘¥ÕÌèáÁàì½±½ÈèŒÀÜÄÌÅ˜ì‰…­É½Õ¹éÙ…È ´µÉ••¸¤ì™½¹Ðé¥¹¡•É¥Ðì™½¹ÐµÍ¥é”èÄÉÁàì™½¹ÐµÝ•¥¡ÐèàÀÀìÕÉÍ½ÈéÁ½¥¹Ñ•Èìô(€€€€¹Í…Ù”µÑ…É•ÑÌé¡½Ù•Èì™¥±Ñ•Èé‰É¥¡Ñ¹•ÍÌ Ä¸ÀØ¤ìô(€€€µ•‘¥„€¡µ…àµÝ¥‘Ñ èÄÀÀÁÁà¤ì€¹‘…¥±äµÉ½ÜìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð Ì±µ¥¹µ…à À°Å™È¤¤ìô€¹µ½¹Ñ µÉ½ÜìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð Ì±µ¥¹µ…à À°Å™È¤¤ìô€¹µ½¹Ñ µ±…‰•°ìÉ¥µ½±Õµ¸éÍÁ…¸€ÌìÁ…‘‘¥¹œèÀìô€¹Ñ…É•ÐµÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð Ì±µ¥¹µ…à À°Å™È¤¤ìô€¹ÍåÍÑ•´µÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌèÅ™Èìôô(€€€µ•‘¥„€¡µ…àµÝ¥‘Ñ èÜÈÁÁà¤ì€¹…ÁÀìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìéµ¥¹µ…à À°Å™È¤ìÉ¥µÑ•µÁ±…Ñ”µÉ½ÝÌèàÙÁà…ÕÑ¼µ¥¹µ…à À°Å™È¤ìô€¹Ñ½Á‰…ÈìÉ¥µ½±Õµ¸é…ÕÑ¼ìµ¥¸µÝ¥‘Ñ èÀì…ÀèáÁàìÁ…‘‘¥¹œèÀ€ÄÉÁàìô€¹‰É…¹ìµ¥¸µÝ¥‘Ñ èÀì™±•àèÄ€Ä…ÕÑ¼ì…ÀèÝÁàì½Ù•É™±½Üé¡¥‘‘•¸ìô€¹‰É…¹µµ…É¬ì™±•àèÀ€À…ÕÑ¼ìÝ¥‘Ñ èÔÁÁàì¡•¥¡ÐèØÁÁàìô€¹‰É…¹µ¹…µ”ìµ¥¸µÝ¥‘Ñ èÀì½Ù•É™±½Üé¡¥‘‘•¸ì™½¹ÐµÍ¥é”èÄÍÁàì±¥¹”µ¡•¥¡ÐèÄ¸ÄÔìÑ•áÐµ½Ù•É™±½Üé•±±¥ÁÍ¥ÌìÝ¡¥Ñ”µÍÁ…”é¹½ÝÉ…Àìô€¹Ñ½Á‰…ÈµÉ¥¡Ðì™±•àèÀ€À…ÕÑ¼ìµ¥¸µÝ¥‘Ñ èÀì…ÀèÀìô€¹±…¹Õ…”µÍÝ¥Ñ¡•Èì…ÀèÉÁàìÁ…‘‘¥¹œèÉÁàìô€¹±…¹Õ…”µÍÝ¥Ñ¡•È‰ÕÑÑ½¸ìµ¥¸µÝ¥‘Ñ èÈÝÁàìÁ…‘‘¥¹œèÕÁà€ÑÁàìô€¹Í¥‘•‰…ÈìÉ¥µÉ½Üé…ÕÑ¼ì‰½É‘•ÈµÉ¥¡ÐèÀì‰½É‘•Èµ‰½ÑÑ½´èÅÁàÍ½±¥Ù…È ´µ±¥¹”¤ìÁ…‘‘¥¹œèÄÉÁà€ÄÑÁàìô€¹µ•¹Ôµ±…‰•°°¹µ•¹Ôµ‘¥Ù¥‘•È°¹Í¥‘•‰…Èµ¹½Ñ”ì‘¥ÍÁ±…äé¹½¹”ìô€¹µ•¹Ôì‘¥ÍÁ±…äé™±•àì…ÀèÝÁàì½Ù•É™±½Üé…ÕÑ¼ìô€¹µ•¹Ôµ‰ÕÑÑ½¸ì™±•àèÀ€À…ÕÑ¼ìÝ¥‘Ñ é…ÕÑ¼ìÁ…‘‘¥¹œèåÁà€ÄÅÁàì™½¹ÐµÍ¥é”èÄÉÁàìô€¹½¹Ñ•¹ÐìÁ…‘‘¥¹œèÈÁÁà€ÄÙÁàìô€¹‰É…¹µÍÕˆ°¹Ñ½Á‰…ÈµÉ¥¡Ð€ø€¹±¥Ù”°¹Ñ½Á‰…ÈµÉ¥¡Ð€ø€¹ÕÍ•Èµ¹…µ”°¹Ñ½Á‰…ÈµÉ¥¡Ð€ø€¹™•Ñ µÑ¥µ•ÍÑ…µÀì‘¥ÍÁ±…äé¹½¹”ìô€¹‘…Í¡‰½…Éµ™•Ñ µÑ¥µ•ÍÑ…µÀì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèÙÁàì½±½ÈèŒå™ŒÁ•”ì™½¹ÐµÍ¥é”èÄÁÁàì±¥¹”µ¡•¥¡ÐèÄ¸ÐÔìô€¹¡…ÉÐµ•áÁ…¹µÑÉ¥•ÈìÕÉÍ½Èéé½½´µ¥¸ìô€¹¡…ÉÐµÁ…¹•°èé…™Ñ•Èì½¹Ñ•¹Ðè‰Q…À¡…ÉÐÑ¼•áÁ…¹ˆì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèÉÁàì½±½ÈèŒÜàäÉ‰„ì™½¹ÐµÍ¥é”èÄÁÁàìÑ•áÐµ…±¥¸éÉ¥¡Ðìô‰½‘ä¹¡…ÉÐµ™Õ±±ÍÉ••¸µ½Á•¸ì½Ù•É™±½Üé¡¥‘‘•¸ìôô(€€€µ•‘¥„€¡µ…àµÝ¥‘Ñ èÔÈÁÁà¤ì€¹Á…”µ¡•…°¹Ñ…É•ÐµÑ½½±‰…È°¹Ñ…É•ÐµÍÕµµ…Éä°¹Ñ…É•Ðµ…Ñ¥½¹Ìì‘¥ÍÁ±…äé‰±½¬ìô€¹‘…Ñ„µ¹½Ñ”ì‘¥ÍÁ±…äé¥¹±¥¹”µ‰±½¬ìµ…É¥¸µÑ½ÀèÄÑÁàìô€¹‘…¥±äµÉ½Ü°¹µ½¹Ñ µÉ½Ü°¹Ñ…É•ÐµÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹ÌéÉ•Á•…Ð È±µ¥¹µ…à À°Å™È¤¤ìô€¹‘…¥±äµÉ½Ü€¹ÍÑ½É”µÑ¥±”é±…ÍÐµ¡¥±ìÉ¥µ½±Õµ¸éÍÁ…¸€Èìô€¹µ½¹Ñ µ±…‰•°ìÉ¥µ½±Õµ¸éÍÁ…¸€Èìô€¹Í•Ñ¥½¸µ¡•…ì‘¥ÍÁ±…äé‰±½¬ìô€¹É½ÕÀµÑ½Ñ…°ì‘¥ÍÁ±…äé‰±½¬ìµ…É¥¸µÑ½ÀèáÁàìô€¹µ½¹Ñ µÁ¥­•Èìµ…É¥¸µÑ½ÀèÄÑÁàìô€¹Ñ…É•ÐµÑ½Ñ…°ìµ…É¥¸µÑ½ÀèÄÍÁàìô€¹Ñ…É•Ðµ…Ñ¥½¹Ì€ø€¨€¬€¨ìµ…É¥¸µÑ½ÀèÄÉÁàìô€¹Í…Ù”µÑ…É•ÑÌìÝ¥‘Ñ èÄÀÀ”ìôÍÙœì¡•¥¡ÐèÄäÁÁàìôô(€€ð½ÍÑå±”ø(ð½¡•…ø(ñ‰½‘äø(€€ñ‘¥Ø±…ÍÌô‰…ÁÀˆø(€€€€ñ¡•…‘•È±…ÍÌô‰Ñ½Á‰…Èˆø(€€€€€€ñ‘¥Ø±…ÍÌô‰‰É…¹ˆ…É¥„µ±…‰•°ô‰•µ½¬É½ÕÀˆøñ¥µœ±…ÍÌô‰‰É…¹µµ…É¬ˆÍÉŒô‰…ÍÍ•ÑÌ½•µ½¬µµ…Í½Ð¹Á¹œˆ…±Ðô‰5=,µ…Í½Ðˆøñ‘¥Ø±…ÍÌô‰‰É…¹µ¹…µ”ˆù5=,I=U@ñÍÁ…¸±…ÍÌô‰‰É…¹µÍÕˆˆ‘…Ñ„µ¤Äá¸ô‰‘…Í¡‰½…É‘1…‰•°ˆû–ZÛš–·ŽŽŽ
+ßŽ—ŽsŽóŽ$ð½ÍÁ…¸øð½‘¥Øøð½‘¥Øø(€€€€€€ñ‘¥Ø±…ÍÌô‰Ñ½Á‰…ÈµÉ¥¡ÐˆøñÍÁ…¸±…ÍÌô‰±¥Ù”ˆøñ¤øð½¤øñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Íå¹MÑ…ÑÕÌˆûŽŽóŽ
+ÿ¦šBë’ê#–ºhð½ÍÁ…¸øð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰™•Ñ µÑ¥µ•ÍÑ…µÀˆ¥ô‰™•Ñ µÑ¥µ•ÍÑ…µÀˆ¡¥‘‘•¸øð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰ÕÍ•Èµ¹…µ”ˆ‘…Ñ„µ¤Äá¸ô‰…‘µ¥¹¥ÍÑÉ…Ñ½Èˆûžº‡žB¢ð½ÍÁ…¸øñ‘¥Ø±…ÍÌô‰±…¹Õ…”µÍÝ¥Ñ¡•Èˆ…É¥„µ±…‰•°ô‰1…¹Õ…”Í•±•Ñ½Èˆøñ‰ÕÑÑ½¸ÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ±…¹Õ…”ô‰•¸ˆ…É¥„µÁÉ•ÍÍ•ô‰™…±Í”ˆù8ð½‰ÕÑÑ½¸øñ‰ÕÑÑ½¸ÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ±…¹Õ…”ô‰é ˆ…É¥„µÁÉ•ÍÍ•ô‰™…±Í”ˆù8ð½‰ÕÑÑ½¸øñ‰ÕÑÑ½¸ÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ±…¹Õ…”ô‰µÌˆ…É¥„µÁÉ•ÍÍ•ô‰™…±Í”ˆù	4ð½‰ÕÑÑ½¸øñ‰ÕÑÑ½¸ÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ±…¹Õ…”ô‰©„ˆ…É¥„µÁÉ•ÍÍ•ô‰ÑÉÕ”ˆù)@ð½‰ÕÑÑ½¸øð½‘¥Øøð½‘¥Øø(€€€€ð½¡•…‘•Èø((€€€€ñ…Í¥‘”±…ÍÌô‰Í¥‘•‰…Èˆ…É¥„µ±…‰•°ô‹ŽŽŽ
+ßŽ—ŽsŽóŽ'Ž‡Ž/Ž—Žðˆø(€€€€€€ñÀ±…ÍÌô‰µ•¹Ôµ±…‰•°ˆ‘…Ñ„µ¤Äá¸ô‰‘…Í¡‰½…É‘ÌˆùM!	=ILð½Àø(€€€€€€ñ¹…Ø±…ÍÌô‰µ•¹Ôˆø(€€€€€€€€ñ‰ÕÑÑ½¸±…ÍÌô‰µ•¹Ôµ‰ÕÑÑ½¸ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ¹…µ”µ­•äô‰½Ù•ÉÙ¥•ÜˆøñÍÁ…¸±…ÍÌô‰µ•¹Ôµ¥½¸ˆûŠ^8ð½ÍÁ…¸øñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰½Ù•ÉÙ¥•ÜˆûŽ
+ÃŽ¯ŽóŽ_šš¢šð½ÍÁ…¸øð½‰ÕÑÑ½¸ø(€€€€€€€€ñ‰ÕÑÑ½¸±…ÍÌô‰µ•¹Ôµ‰ÕÑÑ½¸ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ…É¥„µÕÉÉ•¹Ðô‰Á…”ˆ‘…Ñ„µ¹…µ”µ­•äô‰Í…±•ÍAÉ½É•ÍÌˆøñÍÁ…¸±…ÍÌô‰µ•¹Ôµ¥½¸ˆûŠ\ð½ÍÁ…¸øñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Í…±•ÍAÉ½É•ÍÌˆû–ŽË’â+¦Ëš6\ð½ÍÁ…¸øð½‰ÕÑÑ½¸ø(€€€€€€€€ñ‰ÕÑÑ½¸±…ÍÌô‰µ•¹Ôµ‰ÕÑÑ½¸ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ¹…µ”µ­•äô‰¥¹Ù•¹Ñ½ÉäˆøñÍÁ…¸±…ÍÌô‰µ•¹Ôµ¥½¸ˆûŠZ„ð½ÍÁ…¸øñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰¥¹Ù•¹Ñ½Éäˆû–r£–ê¯ž*ÛšÎð½ÍÁ…¸øð½‰ÕÑÑ½¸ø(€€€€€€€€ñ‰ÕÑÑ½¸±…ÍÌô‰µ•¹Ôµ‰ÕÑÑ½¸ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ¹…µ”µ­•äô‰Ñ…É•ÑÌˆøñÍÁ…¸±…ÍÌô‰µ•¹Ôµ¥½¸ˆûŠjdð½ÍÁ…¸øñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Ñ…É•ÑÌˆûžn»š¢g¢¢·–ºhð½ÍÁ…¸øð½‰ÕÑÑ½¸ø(€€€€€€€€ñ‰ÕÑÑ½¸±…ÍÌô‰µ•¹Ôµ‰ÕÑÑ½¸ˆÑåÁ”ô‰‰ÕÑÑ½¸ˆ‘…Ñ„µ¹…µ”µ­•äô‰ÍåÍÑ•´ˆøñÍÁ…¸±…ÍÌô‰µ•¹Ôµ¥½¸ˆûŠ2`ð½ÍÁ…¸øñÍÁ…¸ûŽ
+ßŽ
+çŽŽƒ¢¢·–ºhð½ÍÁ…¸øð½‰ÕÑÑ½¸ø(€€€€€€ð½¹…Øø(€€€€€€ñ‘¥Ø±…ÍÌô‰µ•¹Ôµ‘¥Ù¥‘•Èˆøð½‘¥Øø(€€€€€€ñÀ±…ÍÌô‰Í¥‘•‰…Èµ¹½Ñ”ˆ‘…Ñ„µ¤Äá¸ô‰Í¥‘•‰…É9½Ñ”ˆùICŽ¹…Í M…±•ÏŽ£šr#¦ZOžn»š¢gŽ
+K¦šBëŽ_Ž–£–ê_¢"_Ž»–ZÛš–·ž*ÛšÎŽ
+K¢†£ž’ëŽ_ŽûŽgŽð½Àø(€€€€ð½…Í¥‘”ø((€€€€ñµ…¥¸±…ÍÌô‰½¹Ñ•¹Ðˆø(€€€€€€ñ‘¥Ø±…ÍÌô‰¹½Ñ¥”ˆ¥ô‰¹½Ñ¥”ˆ…É¥„µ±¥Ù”ô‰Á½±¥Ñ”ˆøð½‘¥Øø(€€€€€€ñ‘¥Ø¥ô‰Í…±•Ìµ‘…Í¡‰½…Éˆø(€€€€€€ñ¡•…‘•È±…ÍÌô‰Á…”µ¡•…ˆø(€€€€€€€€ñ‘¥Øøñ Ä¥ô‰Á…”µÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰Í…±•ÍAÉ½É•ÍÌˆû–ŽË’â+¦Ëš6\ð½ ÄøñÀ‘…Ñ„µ¤Äá¸ô‰Á…•MÕ‰Ñ¥Ñ±”ˆûšr³š^—Ž¹…Í M…±•ÏŽ£Ž–öOšr#Ž»–ê_¢"_–"—š:£žžïŽ
+K’âžRï¦v‹ŽŸžŠë¢ª4ð½Àøð½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰‘…Ñ„µ¹½Ñ”ˆøñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰‘¥ÍÁ±…å…Ñ„ˆû¢†£ž’ëŽŽóŽ
+üð½ÍÁ…¸øñÍÑÉ½¹œ‘…Ñ„µ¤Äá¸ô‰Í…µÁ±•…Ñ„ˆûŽ
+×ŽÏŽ_Ž¯¢†£ž’ë¾ò!IC¦šBë–&7¾ò$ð½ÍÑÉ½¹œøð½‘¥Øø(€€€€€€ð½¡•…‘•Èø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰‘…¥±äˆ…É¥„µ±…‰•±±•‘‰äô‰‘…¥±äµÑ¥Ñ±”ˆø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰‘…¥±äµÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰‘…¥±åM…±•ÍQ¥Ñ±”ˆû–£–ê_¢"_Žïšr³š^—–ŽË’â(ð½ ÈøñÀù…Í M…±•Ì€¼I4ð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰É½ÕÀµÑ½Ñ…°ˆøñÍµ…±°‘…Ñ„µ¤Äá¸ô‰É½ÕÁQ½Ñ…°ˆûŽ
+ÃŽ¯ŽóŽ_–B#¢¢ ð½Íµ…±°ùI4€àØ°ÐÀÀð½‘¥Øøð½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰‘…¥±äµÉ½Üˆø(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆùM$ð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆù¡•ÜQ…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆùI4€ÄÔ°ÈÀÀð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌˆ‘…Ñ„µÍÑ…ÑÕÌô‰ÕÀˆ‘…Ñ„µÉ…Ñ”ôˆÄÄØˆûŠDƒš^—š²‡žn»š¢gš¾P€ÄÄØ”ð½ÍÁ…¸øð½…ÉÑ¥±”ø(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆùMHð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆù•µ½¬Q…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆùI4€Äà°äÀÀð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌˆ‘…Ñ„µÍÑ…ÑÕÌô‰ÕÀˆ‘…Ñ„µÉ…Ñ”ôˆÄÈÄˆûŠDƒš^—š²‡žn»š¢gš¾P€ÄÈÄ”ð½ÍÁ…¸øð½…ÉÑ¥±”ø(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆùMPð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆù•µ½¬Q…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆùI4€ÄØ°ÌÀÀð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌˆ‘…Ñ„µÍÑ…ÑÕÌô‰ÕÀˆ‘…Ñ„µÉ…Ñ”ôˆÄÀÌˆûŠDƒš^—š²‡žn»š¢gš¾P€ÄÀÌ”ð½ÍÁ…¸øð½…ÉÑ¥±”ø(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆùM,ð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆùQ…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆùI4€ÄÜ°ÄÀÀð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌÝ…É¸ˆ‘…Ñ„µÍÑ…ÑÕÌô‰‘½Ý¸ˆ‘…Ñ„µÉ…Ñ”ôˆäÄˆûŠLƒš^—š²‡žn»š¢gš¾P€äÄ”ð½ÍÁ…¸øð½…ÉÑ¥±”ø(€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆù-4ð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆù	…ÕÌQ…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆùI4€Äà°äÀÀð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌˆ‘…Ñ„µÍÑ…ÑÕÌô‰ÕÀˆ‘…Ñ„µÉ…Ñ”ôˆÄÀÔˆûŠDƒš^—š²‡žn»š¢gš¾P€ÄÀÔ”ð½ÍÁ…¸øð½…ÉÑ¥±”ø(€€€€€€€€ð½‘¥Øø(€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰µ½¹Ñ µÉ½Üˆ…É¥„µ±…‰•±±•‘‰äô‰µ½¹Ñ µÑ¥Ñ±”ˆø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰µ½¹Ñ µ±…‰•°ˆøñ È¥ô‰µ½¹Ñ µÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰µ½¹Ñ¡±åAÉ½É•ÍÌˆû’î+šr#Ž»¦Ëš6\ð½ ÈøñÀ‘…Ñ„µ¤Äá¸ô‰µ½¹Ñ¡±å…ÁÑ¥½¸ˆûžÒ¿¢¢#–ŽË’â(€¼ƒšr#¦ZOžn»š¢dð½Àøð½‘¥Øø(€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œùM$ð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”ˆøàà”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œùI4€ÌÄÉ,ð½ÍÑÉ½¹œø€¼€ÌÔÕ,ð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸ÍÑå±”ô‰Ý¥‘Ñ èàà”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œùMHð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”ˆøàØ”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œùI4€ÌàÉ,ð½ÍÑÉ½¹œø€¼€ÐÐÕ,ð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸ÍÑå±”ô‰Ý¥‘Ñ èàØ”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œùMPð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”ˆøàÄ”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œùI4€ÌÐÑ,ð½ÍÑÉ½¹œø€¼€ÐÈÕ,ð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸ÍÑå±”ô‰Ý¥‘Ñ èàÄ”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œùM,ð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”Ý…É¸ˆøÜÜ”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œùI4€ÐÄá,ð½ÍÑÉ½¹œø€¼€ÔÐÍ,ð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸±…ÍÌô‰Ý…É¸ˆÍÑå±”ô‰Ý¥‘Ñ èÜÜ”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œù-4ð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”ˆøàÀ”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œùI4€ÐÀÑ,ð½ÍÑÉ½¹œø€¼€ÔÀÕ,ð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸ÍÑå±”ô‰Ý¥‘Ñ èàÀ”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰¡…ÉÐµÁ…¹•°ˆ…É¥„µ±…‰•±±•‘‰äô‰Í…±•Ìµ¡…ÉÐµÑ¥Ñ±”ˆø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰Í…±•Ìµ¡…ÉÐµÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰Í…±•Í¡…ÉÑQ¥Ñ±”ˆû–öOšr#Ž»š^—–"—–ŽË’â(ð½ ÈøñÀ‘…Ñ„µ¤Äá¸ô‰Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±”ˆûš^—’îcŽSŽ£Ž¯–ê_¢"_–"—Ž¹…Í M…±•ÏŽ
+Kš¾S¢òð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰¡…ÉÐµµ•Ñ„ˆøñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Í…±•ÍÕ´ˆøÄÃšr#–ŽË’â+ŽI4€ÔÄÐ°àÀÀð½ÍÁ…¸øð½‘¥Øøð½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰±••¹ˆ‘…Ñ„µ¤Äá¸µ…É¥„ô‰±••¹ˆ…É¥„µ±…‰•°ô‹–ê_¢"_Ž»–‡’ú,ˆøñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍ¤¤ˆøð½¤ùM$ð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍÈ¤ˆøð½¤ùMHð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍÐ¤ˆøð½¤ùMPð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍ¬¤ˆøð½¤ùM,ð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µ­´¤ˆøð½¤ù-4ð½ÍÁ…¸øð½‘¥Øø(€€€€€€€€ñÍÙœÙ¥•Ý	½àôˆÀ€À€äÜÀ€ÈÌÔˆÉ½±”ô‰¥µœˆ…É¥„µ±…‰•±±•‘‰äô‰Í…±•Ìµ¡…ÉÐµÑ¥Ñ±”Í…±•Ìµ¡…ÉÐµ‘•ÍŒˆÁÉ•Í•ÉÙ•ÍÁ•ÑI…Ñ¥¼ô‰¹½¹”ˆøñ‘•ÍŒ¥ô‰Í…±•Ìµ¡…ÉÐµ‘•ÍŒˆøÇš^—Ž/Ž
+$ßš^—ŽûŽŸŽ»–ê_¢"_–"—Ž»š^—š²‡–ŽË’â+Ž
+KšŽKŽ
+ÃŽ§ŽWŽŸ¢†£ž’ëŽð½‘•ÍŒø(€€€€€€€€€€ñœ±…ÍÌô‰É¥µ±¥¹”ˆøñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÄäÀˆäÈôˆÄäÀˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÄÐÐˆäÈôˆÄÐÐˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆäàˆäÈôˆäàˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÔÈˆäÈôˆÔÈˆ¼øð½œøñœ±…ÍÌô‰…á¥ÌˆøñÑ•áÐàôˆÈÐˆäôˆÄäÐˆøÀð½Ñ•áÐøñÑ•áÐàôˆÄÌˆäôˆÄÐàˆøÄÁ,ð½Ñ•áÐøñÑ•áÐàôˆÄÌˆäôˆÄÀÈˆøÈÁ,ð½Ñ•áÐøñÑ•áÐàôˆÄÌˆäôˆÔØˆøÌÁ,ð½Ñ•áÐøð½œø(€€€€€€€€€€ñœ™¥±°ô‰Ù…È ´µÍ¤¤ˆøñÉ•ÐàôˆäÐˆäôˆÄÈàˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆÈÄàˆäôˆÄÄÔˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÔˆÉàôˆÈˆ¼øñÉ•ÐàôˆÌÐÈˆäôˆÄÌÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÔàˆÉàôˆÈˆ¼øñÉ•ÐàôˆÐØØˆäôˆÄÀÀˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÀˆÉàôˆÈˆ¼øñÉ•ÐàôˆÔäÀˆäôˆÄÈÐˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØØˆÉàôˆÈˆ¼øñÉ•ÐàôˆÜÄÐˆäôˆÄÀàˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆàÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆàÌàˆäôˆÄÄÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜàˆÉàôˆÈˆ¼øð½œø(€€€€€€€€€€ñœ™¥±°ô‰Ù…È ´µÍÈ¤ˆøñÉ•ÐàôˆÄÀàˆäôˆÄÈÀˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÀˆÉàôˆÈˆ¼øñÉ•ÐàôˆÈÌÈˆäôˆääˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÄˆÉàôˆÈˆ¼øñÉ•ÐàôˆÌÔØˆäôˆÄÄÔˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÔˆÉàôˆÈˆ¼øñÉ•ÐàôˆÐàÀˆäôˆàÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÄÀàˆÉàôˆÈˆ¼øñÉ•ÐàôˆØÀÐˆäôˆÄÄÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜàˆÉàôˆÈˆ¼øñÉ•ÐàôˆÜÈàˆäôˆäÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäàˆÉàôˆÈˆ¼øñÉ•ÐàôˆàÔÈˆäôˆäÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäàˆÉàôˆÈˆ¼øð½œø(€€€€€€€€€€ñœ™¥±°ô‰Ù…È ´µÍÐ¤ˆøñÉ•ÐàôˆÄÈÈˆäôˆÄÌÌˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÔÜˆÉàôˆÈˆ¼øñÉ•ÐàôˆÈÐØˆäôˆÄÄÄˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜäˆÉàôˆÈˆ¼øñÉ•ÐàôˆÌÜÀˆäôˆÄÈÔˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØÔˆÉàôˆÈˆ¼øñÉ•ÐàôˆÐäÐˆäôˆäÌˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÜˆÉàôˆÈˆ¼øñÉ•ÐàôˆØÄàˆäôˆÄÈÀˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÀˆÉàôˆÈˆ¼øñÉ•ÐàôˆÜÐÈˆäôˆÄÀÈˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆààˆÉàôˆÈˆ¼øñÉ•ÐàôˆàØØˆäôˆÄÀÐˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆàØˆÉàôˆÈˆ¼øð½œø(€€€€€€€€€€ñœ™¥±°ô‰Ù…È ´µÍ¬¤ˆøñÉ•ÐàôˆÄÌØˆäôˆÄÈÐˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØØˆÉàôˆÈˆ¼øñÉ•ÐàôˆÈØÀˆäôˆÄÀÐˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆàØˆÉàôˆÈˆ¼øñÉ•ÐàôˆÌàÐˆäôˆÄÈàˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆÔÀàˆäôˆààˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÄÀÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆØÌÈˆäôˆÄÄØˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÐˆÉàôˆÈˆ¼øñÉ•ÐàôˆÜÔØˆäôˆäØˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÐˆÉàôˆÈˆ¼øñÉ•ÐàôˆààÀˆäôˆÄÀÀˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÀˆÉàôˆÈˆ¼øð½œø(€€€€€€€€€€ñœ™¥±°ô‰Ù…È ´µ­´¤ˆøñÉ•ÐàôˆÄÔÀˆäôˆÄÌÜˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÔÌˆÉàôˆÈˆ¼øñÉ•ÐàôˆÈÜÐˆäôˆÄÀàˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆàÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆÌäàˆäôˆÄÈÀˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆÜÀˆÉàôˆÈˆ¼øñÉ•ÐàôˆÔÈÈˆäôˆäØˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÐˆÉàôˆÈˆ¼øñÉ•ÐàôˆØÐØˆäôˆÄÈàˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆØÈˆÉàôˆÈˆ¼øñÉ•ÐàôˆÜÜÀˆäôˆÄÀÐˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆàØˆÉàôˆÈˆ¼øñÉ•ÐàôˆàäÐˆäôˆäØˆÝ¥‘Ñ ôˆÄÀˆ¡•¥¡ÐôˆäÐˆÉàôˆÈˆ¼øð½œø(€€€€€€€€€€ñœ±…ÍÌô‰…á¥ÌˆøñÑ•áÐ‘…Ñ„µ‘…äôˆÄˆàôˆÄÈÈˆäôˆÈÄØˆøÇš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÈˆàôˆÈÐØˆäôˆÈÄØˆøËš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÌˆàôˆÌÜÀˆäôˆÈÄØˆøÏš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÐˆàôˆÐäÐˆäôˆÈÄØˆøÓš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÔˆàôˆØÄàˆäôˆÈÄØˆø×š^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆØˆàôˆÜÐÈˆäôˆÈÄØˆøÛš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÜˆàôˆàØØˆäôˆÈÄØˆøßš^”ð½Ñ•áÐøð½œøñÑ•áÐ±…ÍÌô‰…á¥Ìµ±…‰•°ˆ‘…Ñ„µ¤Äá¸ô‰…µ½Õ¹Ñá¥ÌˆàôˆØÐˆäôˆÈÈäˆû–ŽË’â+¾ò!I7¾ò$ð½Ñ•áÐø(€€€€€€€€ð½ÍÙœø(€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰¡…ÉÐµÁ…¹•°ˆ…É¥„µ±…‰•±±•‘‰äô‰‘½Õµ•¹ÑÌµ¡…ÉÐµÑ¥Ñ±”ˆø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰‘½Õµ•¹ÑÌµ¡…ÉÐµÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±”ˆûš^—–"—’òwž–£šVÀð½ ÈøñÀ‘…Ñ„µ¤Äá¸ô‰‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±”ˆûš^—’îcŽSŽ£Ž¯–ê_¢"_–"—Ž¹…Í M…±•Ï’òwž–£šVÃŽ
+Kš¾S¢òð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰¡…ÉÐµµ•Ñ„ˆøñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰‘½Õµ•¹ÑÍÕ´ˆû’òwž–£Ž Ä°ÈàÓ’îØð½ÍÁ…¸øð½‘¥Øøð½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÌô‰±••¹ˆ‘…Ñ„µ¤Äá¸µ…É¥„ô‰±••¹ˆ…É¥„µ±…‰•°ô‹–ê_¢"_Ž»–‡’ú,ˆøñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍ¤¤ˆøð½¤ùM$ð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍÈ¤ˆøð½¤ùMHð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍÐ¤ˆøð½¤ùMPð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µÍ¬¤ˆøð½¤ùM,ð½ÍÁ…¸øñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µ­´¤ˆøð½¤ù-4ð½ÍÁ…¸øð½‘¥Øø(€€€€€€€€ñÍÙœÙ¥•Ý	½àôˆÀ€À€äÜÀ€ÈÌÔˆÉ½±”ô‰¥µœˆ…É¥„µ±…‰•±±•‘‰äô‰‘½Õµ•¹ÑÌµ¡…ÉÐµÑ¥Ñ±”‘½Õµ•¹ÑÌµ¡…ÉÐµ‘•ÍŒˆÁÉ•Í•ÉÙ•ÍÁ•ÑI…Ñ¥¼ô‰¹½¹”ˆøñ‘•ÍŒ¥ô‰‘½Õµ•¹ÑÌµ¡…ÉÐµ‘•ÍŒˆøÇš^—Ž/Ž
+$ßš^—ŽûŽŸŽ»–ê_¢"_–"—Ž»š^—š²‡’òwž–£šVÃŽ
+Kš*cŽ
+3žÞkŽ
+ÃŽ§ŽWŽŸ¢†£ž’ëŽð½‘•ÍŒø(€€€€€€€€€€ñœ±…ÍÌô‰É¥µ±¥¹”ˆøñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÄäÀˆäÈôˆÄäÀˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÄÐÐˆäÈôˆÄÐÐˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆäàˆäÈôˆäàˆ¼øñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆÔÈˆäÈôˆÔÈˆ¼øð½œø(€€€€€€€€€€ñœ™¥±°ô‰¹½¹”ˆÍÑÉ½­”µ±¥¹•…Àô‰É½Õ¹ˆÍÑÉ½­”µ±¥¹•©½¥¸ô‰É½Õ¹ˆÍÑÉ½­”µÝ¥‘Ñ ôˆÈ¸ÈˆøñÁ…Ñ ô‰4ää€ÄÄä0ÈÈÌ€ÄÀÌ0ÌÐÜ€ÄÈÌ0ÐÜÄ€àÜ0ÔäÔ€ÄÄÈ0ÜÄä€äÌ0àÐÌ€äàˆÍÑÉ½­”ô‰Ù…È ´µÍ¤¤ˆ¼øñÁ…Ñ ô‰4ÄÄÌ€ÄÄÀ0ÈÌÜ€àÐ0ÌØÄ€ÄÀÔ0ÐàÔ€ØÐ0ØÀä€äØ0ÜÌÌ€ÜÔ0àÔÜ€ÜÜˆÍÑÉ½­”ô‰Ù…È ´µÍÈ¤ˆ¼øñÁ…Ñ ô‰4ÄÈÜ€ÄÈØ0ÈÔÄ€ÄÀÀ0ÌÜÔ€ÄÄä0Ðää€ÜÜ0ØÈÌ€ÄÄÀ0ÜÐÜ€àä0àÜÄ€äÌˆÍÑÉ½­”ô‰Ù…È ´µÍÐ¤ˆ¼øñÁ…Ñ ô‰4ÄÐÄ€ÄÄÔ0ÈØÔ€äÌ0Ìàä€ÄÈÄ0ÔÄÌ€ÜÌ0ØÌÜ€ÄÀÌ0ÜØÄ€àÀ0ààÔ€àÜˆÍÑÉ½­”ô‰Ù…È ´µÍ¬¤ˆ¼øñÁ…Ñ ô‰4ÄÔÔ€ÄÌÌ0ÈÜä€ÄÀÔ0ÐÀÌ€ÄÄÀ0ÔÈÜ€àÈ0ØÔÄ€ÄÈÄ0ÜÜÔ€äà0àää€àÐˆÍÑÉ½­”ô‰Ù…È ´µ­´¤ˆ¼øð½œø(€€€€€€€€€€ñœøñœ™¥±°ô‰Ù…È ´µÍ¤¤ˆøñ¥É±”àôˆääˆäôˆÄÄäˆÈôˆÌˆ¼øñ¥É±”àôˆÈÈÌˆäôˆÄÀÌˆÈôˆÌˆ¼øñ¥É±”àôˆÌÐÜˆäôˆÄÈÌˆÈôˆÌˆ¼øñ¥É±”àôˆÐÜÄˆäôˆàÜˆÈôˆÌˆ¼øñ¥É±”àôˆÔäÔˆäôˆÄÄÈˆÈôˆÌˆ¼øñ¥É±”àôˆÜÄäˆäôˆäÌˆÈôˆÌˆ¼øñ¥É±”àôˆàÐÌˆäôˆäàˆÈôˆÌˆ¼øð½œøñœ™¥±°ô‰Ù…È ´µÍÈ¤ˆøñ¥É±”àôˆÄÄÌˆäôˆÄÄÀˆÈôˆÌˆ¼øñ¥É±”àôˆÈÌÜˆäôˆàÐˆÈôˆÌˆ¼øñ¥É±”àôˆÌØÄˆäôˆÄÀÔˆÈôˆÌˆ¼øñ¥É±”àôˆÐàÔˆäôˆØÐˆÈôˆÌˆ¼øñ¥É±”àôˆØÀäˆäôˆäØˆÈôˆÌˆ¼øñ¥É±”àôˆÜÌÌˆäôˆÜÔˆÈôˆÌˆ¼øñ¥É±”àôˆàÔÜˆäôˆÜÜˆÈôˆÌˆ¼øð½œøñœ™¥±°ô‰Ù…È ´µÍÐ¤ˆøñ¥É±”àôˆÄÈÜˆäôˆÄÈØˆÈôˆÌˆ¼øñ¥É±”àôˆÈÔÄˆäôˆÄÀÀˆÈôˆÌˆ¼øñ¥É±”àôˆÌÜÔˆäôˆÄÄäˆÈôˆÌˆ¼øñ¥É±”àôˆÐääˆäôˆÜÜˆÈôˆÌˆ¼øñ¥É±”àôˆØÈÌˆäôˆÄÄÀˆÈôˆÌˆ¼øñ¥É±”àôˆÜÐÜˆäôˆàäˆÈôˆÌˆ¼øñ¥É±”àôˆàÜÄˆäôˆäÌˆÈôˆÌˆ¼øð½œøñœ™¥±°ô‰Ù…È ´µÍ¬¤ˆøñ¥É±”àôˆÄÐÄˆäôˆÄÄÔˆÈôˆÌˆ¼øñ¥É±”àôˆÈØÔˆäôˆäÌˆÈôˆÌˆ¼øñ¥É±”àôˆÌàäˆäôˆÄÈÄˆÈôˆÌˆ¼øñ¥É±”àôˆÔÄÌˆäôˆÜÌˆÈôˆÌˆ¼øñ¥É±”àôˆØÌÜˆäôˆÄÀÌˆÈôˆÌˆ¼øñ¥É±”àôˆÜØÄˆäôˆàÀˆÈôˆÌˆ¼øñ¥É±”àôˆààÔˆäôˆàÜˆÈôˆÌˆ¼øð½œøñœ™¥±°ô‰Ù…È ´µ­´¤ˆøñ¥É±”àôˆÄÔÔˆäôˆÄÌÌˆÈôˆÌˆ¼øñ¥É±”àôˆÈÜäˆäôˆÄÀÔˆÈôˆÌˆ¼øñ¥É±”àôˆÐÀÌˆäôˆÄÄÀˆÈôˆÌˆ¼øñ¥É±”àôˆÔÈÜˆäôˆàÈˆÈôˆÌˆ¼øñ¥É±”àôˆØÔÄˆäôˆÄÈÄˆÈôˆÌˆ¼øñ¥É±”àôˆÜÜÔˆäôˆäàˆÈôˆÌˆ¼øñ¥É±”àôˆàääˆäôˆàÐˆÈôˆÌˆ¼øð½œøð½œø(€€€€€€€€€€ñœ±…ÍÌô‰‘½Õµ•¹ÐµÙ…±Õ”µ±…‰•°ˆ…É¥„µ±…‰•°ô‹šr³š^—Ž»’òwž–£šVÀˆøñÑ•áÐàôˆàÌÐˆäôˆÄÄÌˆ™¥±°ô‰Ù…È ´µÍ¤¤ˆøÐÀð½Ñ•áÐøñÑ•áÐàôˆàÐäˆäôˆØÜˆ™¥±°ô‰Ù…È ´µÍÈ¤ˆøÐäð½Ñ•áÐøñÑ•áÐàôˆàØÐˆäôˆÄÀäˆ™¥±°ô‰Ù…È ´µÍÐ¤ˆøÐÈð½Ñ•áÐøñÑ•áÐàôˆàÜàˆäôˆÜÐˆ™¥±°ô‰Ù…È ´µÍ¬¤ˆøÐÔð½Ñ•áÐøñÑ•áÐàôˆàäÌˆäôˆØÈˆ™¥±°ô‰Ù…È ´µ­´¤ˆøÐØð½Ñ•áÐøð½œø(€€€€€€€€€€ñœ±…ÍÌô‰…á¥ÌˆøñÑ•áÐàôˆÈÐˆäôˆÄäÐˆøÀð½Ñ•áÐøñÑ•áÐàôˆÈÐˆäôˆÄÐàˆøÈÀð½Ñ•áÐøñÑ•áÐàôˆÈÐˆäôˆÄÀÈˆøÐÀð½Ñ•áÐøñÑ•áÐàôˆÈÐˆäôˆÔØˆøØÀð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÄˆàôˆÄÈÈˆäôˆÈÄØˆøÇš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÈˆàôˆÈÐØˆäôˆÈÄØˆøËš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÌˆàôˆÌÜÀˆäôˆÈÄØˆøÏš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÐˆàôˆÐäÐˆäôˆÈÄØˆøÓš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÔˆàôˆØÄàˆäôˆÈÄØˆø×š^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆØˆàôˆÜÐÈˆäôˆÈÄØˆøÛš^”ð½Ñ•áÐøñÑ•áÐ‘…Ñ„µ‘…äôˆÜˆàôˆàØØˆäôˆÈÄØˆøßš^”ð½Ñ•áÐøð½œøñÑ•áÐ±…ÍÌô‰…á¥Ìµ±…‰•°ˆ‘…Ñ„µ¤Äá¸ô‰‘½Õµ•¹Ñá¥ÌˆàôˆØÐˆäôˆÈÈäˆû’òwž–£¾ò#’îÛ¾ò$ð½Ñ•áÐø(€€€€€€€€ð½ÍÙœø(€€€€€€ð½Í•Ñ¥½¸ø(€€€€€€ð½‘¥Øø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰½¹ÍÑÉÕÑ¥½¸ˆ¥ô‰½¹ÍÑÉÕÑ¥½¸ˆ¡¥‘‘•¸…É¥„µ±¥Ù”ô‰Á½±¥Ñ”ˆø(€€€€€€€€ñÍÁ…¸±…ÍÌô‰½¹ÍÑÉÕÑ¥½¸µ¥½¸ˆ…É¥„µ¡¥‘‘•¸ô‰ÑÉÕ”ˆûŠ2ð½ÍÁ…¸ø(€€€€€€€€ñÀ±…ÍÌô‰½¹ÍÑÉÕÑ¥½¸µ•å•‰É½Üˆ‘…Ñ„µ¤Äá¸ô‰Õ¹‘•É½¹ÍÑÉÕÑ¥½¸ˆû–Þ—’ê/’â´ð½Àø(€€€€€€€€ñ Ä¥ô‰½¹ÍÑÉÕÑ¥½¸µÑ¥Ñ±”ˆûŽ
+ÃŽ¯ŽóŽ_šš¢šð½ Äø(€€€€€€€€ñÀ‘…Ñ„µ¤Äá¸ô‰½¹ÍÑÉÕÑ¥½¹5•ÍÍ…”ˆûŽOŽ»ŽŽŽ
+ßŽ—ŽsŽóŽ'Ž¿ž>û–r£šê[–
+g’â·ŽŸŽgŽð½Àø(€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Ñ…É•Ðµ‘…Í¡‰½…Éˆ¥ô‰Ñ…É•Ðµ‘…Í¡‰½…Éˆ¡¥‘‘•¸…É¥„µ±…‰•±±•‘‰äô‰Ñ…É•ÐµÁ…”µÑ¥Ñ±”ˆø(€€€€€€€€ñ¡•…‘•È±…ÍÌô‰Á…”µ¡•…ˆø(€€€€€€€€€€ñ‘¥Øøñ Ä¥ô‰Ñ…É•ÐµÁ…”µÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•ÑÌˆûžn»š¢g¢¢·–ºhð½ ÄøñÀ‘…Ñ„µ¤Äá¸ô‰Ñ…É•ÑA…•MÕ‰Ñ¥Ñ±”ˆû–¾û¢Æ‡šr#Ž£–ê_¢"_ŽSŽ£Ž»šr#¦ZO–ŽË’â+žn»š¢gŽ
+K¢¢·–ºkŽ_ŽûŽgŽð½Àøð½‘¥Øø(€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰‘…Ñ„µ¹½Ñ”ˆøñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ…Ñ…1…‰•°ˆû¢¢·–ºk–6c’ö4ð½ÍÁ…¸øñÍÑÉ½¹œ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ…Ñ…Y…±Õ”ˆûšr#¦ZOžn»š¢d€¼I4ð½ÍÑÉ½¹œøð½‘¥Øø(€€€€€€€€ð½¡•…‘•Èø(€€€€€€€€ñ™½É´¥ô‰Ñ…É•Ðµ™½É´ˆø(€€€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Ñ…É•ÐµÑ½½±‰…Èˆ…É¥„µ±…‰•°ô‹–¾û¢Æ‡šr#Ž»¦ãš*xˆø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÑ½½±‰…Èµ½Áäˆøñ È‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ5½¹Ñ¡Q¥Ñ±”ˆû–¾û¢Æ‡šr ð½ ÈøñÀ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ5½¹Ñ¡!¥¹ÐˆûŽ
+¯Ž³ŽÏŽŽóŽ/Ž
+'¢¢·–ºkŽgŽ
+/šr#Ž
+K¦ãš*{Ž_Ž›Ž?ŽƒŽWŽŽð½Àøð½‘¥Øø(€€€€€€€€€€€€ñ±…‰•°±…ÍÌô‰µ½¹Ñ µÁ¥­•ÈˆøñÍÁ…¸‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ5½¹Ñ¡1…‰•°ˆû–¾û¢Æ‡šr ð½ÍÁ…¸øñ¥¹ÁÕÐ¥ô‰Ñ…É•Ðµµ½¹Ñ ˆÑåÁ”ô‰µ½¹Ñ ˆÙ…±Õ”ôˆÈÀÈØ´ÄÀˆÉ•ÅÕ¥É•øð½±…‰•°ø(€€€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰Ñ…É•Ðµ™½É´µÁ…¹•°ˆ…É¥„µ±…‰•±±•‘‰äô‰Ñ…É•Ðµ™½É´µÑ¥Ñ±”ˆø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÕµµ…Éäˆøñ‘¥Øøñ È¥ô‰Ñ…É•Ðµ™½É´µÑ¥Ñ±”ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ5½¹Ñ¡±åQ¥Ñ±”ˆû–ê_¢"_–"—Žïšr#¦ZO–ŽË’â+žn»š¢dð½ ÈøñÀ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ5½¹Ñ¡±å!¥¹Ðˆû–B–ê_¢"_Ž»žn»š¢g¦G¦†7Ž
+II7ŽŸ–—–*oŽ_ŽûŽgŽð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÑ½Ñ…°ˆøñÍµ…±°‘…Ñ„µ¤Äá¸ô‰Ñ…É•ÑÉ½ÕÁ1…‰•°ˆûŽ
+ÃŽ¯ŽóŽ_šr#¦ZOžn»š¢dð½Íµ…±°øñÍÁ…¸¥ô‰Ñ…É•ÐµÑ½Ñ…°µÙ…±Õ”ˆùI4€Ä¸ØÕ4ð½ÍÁ…¸øð½‘¥Øøð½‘¥Øø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÉ¥ˆø(€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰Ñ…É•Ðµ…Éˆøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÑ½É”ˆøñ‘¥ØøñÍÑÉ½¹œùM$ð½ÍÑÉ½¹œøñÍÁ…¸ù¡•ÜQ…å…ÈM‘¸	¡ð½ÍÁ…¸øð½‘¥Øøñˆ±…ÍÌô‰Ñ…É•Ðµ‰É…¹ ˆùM$ð½ˆøð½‘¥Øøñ±…‰•°±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ˆ™½Èô‰Ñ…É•ÐµÍ¤ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ%¹ÁÕÑ1…‰•°ˆûšr#¦ZOžn»š¢g¾ò!I7¾ò$ð½±…‰•°øñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀˆøñÍÁ…¸ùI4ð½ÍÁ…¸øñ¥¹ÁÕÐ±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐˆ¥ô‰Ñ…É•ÐµÍ¤ˆ‘…Ñ„µÍÑ½É”ô‰M$ˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÀˆÍÑ•ÀôˆÄÀÀÀˆÙ…±Õ”ôˆÔÔÀÀÀÀˆ¥¹ÁÕÑµ½‘”ô‰¹Õµ•É¥ŒˆÉ•ÅÕ¥É•øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰Ñ…É•Ðµ…Éˆøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÑ½É”ˆøñ‘¥ØøñÍÑÉ½¹œùMHð½ÍÑÉ½¹œøñÍÁ…¸ù•µ½¬Q…å…ÈM‘¸	¡ð½ÍÁ…¸øð½‘¥Øøñˆ±…ÍÌô‰Ñ…É•Ðµ‰É…¹ ˆùMHð½ˆøð½‘¥Øøñ±…‰•°±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ˆ™½Èô‰Ñ…É•ÐµÍÈˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ%¹ÁÕÑ1…‰•°ˆûšr#¦ZOžn»š¢g¾ò!I7¾ò$ð½±…‰•°øñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀˆøñÍÁ…¸ùI4ð½ÍÁ…¸øñ¥¹ÁÕÐ±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐˆ¥ô‰Ñ…É•ÐµÍÈˆ‘…Ñ„µÍÑ½É”ô‰MHˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÀˆÍÑ•ÀôˆÄÀÀÀˆÙ…±Õ”ôˆÌÀÀÀÀÀˆ¥¹ÁÕÑµ½‘”ô‰¹Õµ•É¥ŒˆÉ•ÅÕ¥É•øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰Ñ…É•Ðµ…Éˆøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÑ½É”ˆøñ‘¥ØøñÍÑÉ½¹œùMPð½ÍÑÉ½¹œøñÍÁ…¸ù•µ½¬Q…å…ÈM‘¸	¡ð½ÍÁ…¸øð½‘¥Øøñˆ±…ÍÌô‰Ñ…É•Ðµ‰É…¹ ˆùMPð½ˆøð½‘¥Øøñ±…‰•°±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ˆ™½Èô‰Ñ…É•ÐµÍÐˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ%¹ÁÕÑ1…‰•°ˆûšr#¦ZOžn»š¢g¾ò!I7¾ò$ð½±…‰•°øñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀˆøñÍÁ…¸ùI4ð½ÍÁ…¸øñ¥¹ÁÕÐ±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐˆ¥ô‰Ñ…É•ÐµÍÐˆ‘…Ñ„µÍÑ½É”ô‰MPˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÀˆÍÑ•ÀôˆÄÀÀÀˆÙ…±Õ”ôˆÌÀÀÀÀÀˆ¥¹ÁÕÑµ½‘”ô‰¹Õµ•É¥ŒˆÉ•ÅÕ¥É•øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰Ñ…É•Ðµ…Éˆøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÑ½É”ˆøñ‘¥ØøñÍÑÉ½¹œùM,ð½ÍÑÉ½¹œøñÍÁ…¸ùQ…å…ÈM‘¸	¡ð½ÍÁ…¸øð½‘¥Øøñˆ±…ÍÌô‰Ñ…É•Ðµ‰É…¹ ˆùM,ð½ˆøð½‘¥Øøñ±…‰•°±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ˆ™½Èô‰Ñ…É•ÐµÍ¬ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ%¹ÁÕÑ1…‰•°ˆûšr#¦ZOžn»š¢g¾ò!I7¾ò$ð½±…‰•°øñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀˆøñÍÁ…¸ùI4ð½ÍÁ…¸øñ¥¹ÁÕÐ±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐˆ¥ô‰Ñ…É•ÐµÍ¬ˆ‘…Ñ„µÍÑ½É”ô‰M,ˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÀˆÍÑ•ÀôˆÄÀÀÀˆÙ…±Õ”ôˆÈÔÀÀÀÀˆ¥¹ÁÕÑµ½‘”ô‰¹Õµ•É¥ŒˆÉ•ÅÕ¥É•øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€€€€€€€ñ…ÉÑ¥±”±…ÍÌô‰Ñ…É•Ðµ…Éˆøñ‘¥Ø±…ÍÌô‰Ñ…É•ÐµÍÑ½É”ˆøñ‘¥ØøñÍÑÉ½¹œù-4ð½ÍÑÉ½¹œøñÍÁ…¸ù	…ÕÌQ…å…ÈM‘¸	¡ð½ÍÁ…¸øð½‘¥Øøñˆ±…ÍÌô‰Ñ…É•Ðµ‰É…¹ ˆù-4ð½ˆøð½‘¥Øøñ±…‰•°±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµ±…‰•°ˆ™½Èô‰Ñ…É•Ðµ­´ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•Ñ%¹ÁÕÑ1…‰•°ˆûšr#¦ZOžn»š¢g¾ò!I7¾ò$ð½±…‰•°øñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐµÝÉ…ÀˆøñÍÁ…¸ùI4ð½ÍÁ…¸øñ¥¹ÁÕÐ±…ÍÌô‰Ñ…É•Ðµ¥¹ÁÕÐˆ¥ô‰Ñ…É•Ðµ­´ˆ‘…Ñ„µÍÑ½É”ô‰-4ˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÀˆÍÑ•ÀôˆÄÀÀÀˆÙ…±Õ”ôˆÈÔÀÀÀÀˆ¥¹ÁÕÑµ½‘”ô‰¹Õµ•É¥ŒˆÉ•ÅÕ¥É•øð½‘¥Øøð½…ÉÑ¥±”ø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ…Ñ¥½¹Ìˆøñ‘¥ØøñÀ±…ÍÌô‰Ñ…É•Ðµ¹½Ñ”ˆ‘…Ñ„µ¤Äá¸ô‰Ñ…É•ÑM…Ù•9½Ñ”ˆû’þw–¶c––ºçŽ¿ŽOŽ»Ž[Ž§Ž
+›Ž
+ÛŽ¯¢¢c¦2ËŽWŽ
+3ŽûŽgŽ	ICŽíá•³¦šBë–ú3Ž¿–Ç¦k¢¢·–ºkŽã–"Ž
++šnÿŽ
+?Ž
++ŽûŽgŽð½ÀøñÀ±…ÍÌô‰Ñ…É•ÐµÍ…Ù•ˆ¥ô‰Ñ…É•ÐµÍ…Ù•ˆ…É¥„µ±¥Ù”ô‰Á½±¥Ñ”ˆøð½Àøð½‘¥Øøñ‰ÕÑÑ½¸±…ÍÌô‰Í…Ù”µÑ…É•ÑÌˆÑåÁ”ô‰ÍÕ‰µ¥Ðˆ‘…Ñ„µ¤Äá¸ô‰Í…Ù•Q…É•ÑÌˆûžn»š¢gŽ
+K’þw–¶`ð½‰ÕÑÑ½¸øð½‘¥Øø(€€€€€€€€€€ð½Í•Ñ¥½¸ø(€€€€€€€€ð½™½É´ø(€€€€€€ð½Í•Ñ¥½¸ø(€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰ÍåÍÑ•´µ‘…Í¡‰½…Éˆ¥ô‰ÍåÍÑ•´µ‘…Í¡‰½…Éˆ¡¥‘‘•¸ø(€€€€€€€€ñ¡•…‘•È±…ÍÌô‰Á…”µ¡•…ˆøñ‘¥Øøñ Ä¥ô‰ÍåÍÑ•´µÑ¥Ñ±”ˆûŽ
+ßŽ
+çŽŽƒ¢¢·–ºhð½ ÄøñÀ¥ô‰ÍåÍÑ•´µÍÕ‰Ñ¥Ñ±”ˆû–ÂžR¡ICŽ·Ž
+ÃŽ
+“ŽÏŽ£ŽCŽŽ
+¿Ž
+ÃŽ§Ž
+›ŽÏŽ'–B3šrŽ
+KŽOŽ¹AŽ¯¢¢·–ºkŽ_ŽûŽgŽð½Àøð½‘¥Øøð½¡•…‘•Èø(€€€€€€€€ñ™½É´±…ÍÌô‰ÍåÍÑ•´µÁ…¹•°ˆ¥ô‰ÍåÍÑ•´µ™½É´ˆøñÀ±…ÍÌô‰ÍåÍÑ•´µÍÑ…ÑÕÌˆ¥ô‰ÍåÍÑ•´µÍÑ…ÑÕÌˆûŽ·ŽóŽ
+¯Ž¯–>[–ú_Ž
+×ŽóŽOŽ
+çŽ
+KžŠë¢ª7’â´¸¸¸ð½Àøñ±…‰•°±…ÍÌô‰¥¹Ñ•ÉÙ…°µ±…‰•°ˆ¥ô‰¥¹Ñ•ÉÙ…°µ±…‰•°ˆ™½Èô‰¥¹Ñ•ÉÙ…°µÍ•½¹‘Ìˆû–>[–ú_¦ZO¦jS¾ò#žžK¾ò$ð½±…‰•°øñ¥¹ÁÕÐ±…ÍÌô‰¥¹Ñ•ÉÙ…°µ¥¹ÁÕÐˆ¥ô‰¥¹Ñ•ÉÙ…°µÍ•½¹‘ÌˆÑåÁ”ô‰¹Õµ‰•Èˆµ¥¸ôˆÄÀˆÙ…±Õ”ôˆÌÀÀˆÉ•ÅÕ¥É•øñ‘¥Ø±…ÍÌô‰ÍåÍÑ•´µÉ¥ˆ¥ô‰ÍåÍÑ•´µÉ¥ˆøð½‘¥ØøñÀ±…ÍÌô‰ÍåÍÑ•´µ¹½Ñ”ˆ¥ô‰ÍåÍÑ•´µ¹½Ñ”ˆûŽGŽ
+çŽ¿ŽóŽ'Ž¿ŽŽŽ
+ßŽ—ŽsŽóŽ'Ž
+Ž
+¿Ž§Ž
+›Ž'Žã’þw–¶cŽWŽ
+3ŽkŽŽOŽ¹AŽ¹]¥¹‘½ÝÏŽ›ŽóŽ
+ÛŽóšj_–>ß–2[ŽŸ’þw¢¶ßŽWŽ
+3ŽûŽgŽ–ê_¢"_ŽSŽ£Ž¯–¾û¢Æ‡šR¿–ê_Ž¯¦fC–ºkŽ_Ž–ÂžR¡ICŽ
+‹Ž
+¯Ž
+›ŽÏŽ#Ž
+K¢¢·–ºkŽ_Ž›Ž?ŽƒŽWŽŽð½Àøñ‘¥Ø±…ÍÌô‰Ñ…É•Ðµ…Ñ¥½¹ÌˆøñÍÁ…¸øð½ÍÁ…¸øñ‰ÕÑÑ½¸±…ÍÌô‰Í…Ù”µÑ…É•ÑÌˆ¥ô‰ÍåÍÑ•´µÍ…Ù”ˆÑåÁ”ô‰ÍÕ‰µ¥Ðˆû¢¢·–ºkŽ
+K’þw–¶cŽ_Ž›–B3šr|ð½‰ÕÑÑ½¸øð½‘¥Øøð½™½É´ø(€€€€€€ð½Í•Ñ¥½¸ø(€€€€ð½µ…¥¸ø(€€ð½‘¥Øø(€€ñÍÉ¥ÁÐø(€€€½¹ÍÐÑÉ…¹Í±…Ñ¥½¹Ì€ôì(€€€€€•¸èì(€€€€€€€‘…Í¡‰½…É‘1…‰•°è€M…±•Ì…Í¡‰½…Éœ°Íå¹MÑ…ÑÕÌè€…Í M…±•ÌÍ¹…ÁÍ¡½Ð±½…‘•œ°…‘µ¥¹¥ÍÑÉ…Ñ½Èè€‘µ¥¹¥ÍÑÉ…Ñ½Èœ°‘…Í¡‰½…É‘Ìè€M!	=ILœ°(€€€€€€€½Ù•ÉÙ¥•Üè€É½ÕÀ=Ù•ÉÙ¥•Üœ°Í…±•ÍAÉ½É•ÍÌè€M…±•ÌAÉ½É•ÍÌœ°¥¹Ù•¹Ñ½Éäè€%¹Ù•¹Ñ½ÉäMÑ…ÑÕÌœ°Ñ…É•ÑÌè€Q…É•ÐM•ÑÑ¥¹Ìœ°(€€€€€€€Í¥‘•‰…É9½Ñ”è€…Í M…±•Ì…ÑÕ…±Ì™½È€ÇŠLÄÀ=Ñ½‰•È…É”±½…‘•™É½´]•‰µ…à¸-4¥ÌÝ…¥Ñ¥¹œ™½È¥ÑÌ½¹¹•Ñ¥½¸Í½ÕÉ”¸œ°(€€€€€€€Á…•MÕ‰Ñ¥Ñ±”è€I•Ù¥•ÜÑ½‘…çŠeÌ…Í M…±•Ì…¹Ñ¡¥Ìµ½¹Ñ£ŠeÌÍÑ½É”ÑÉ•¹‘Ì½¸½¹”ÍÉ••¸¸œ°‘¥ÍÁ±…å…Ñ„è€¥ÍÁ±…å•‘…Ñ„œ°Í…µÁ±•…Ñ„è€M…µÁ±”‘¥ÍÁ±…ä€¡‰•™½É”I@½¹¹•Ñ¥½¸¤œ°(€€€€€€€‘…¥±åM…±•ÍQ¥Ñ±”è€±°MÑ½É•Ìƒ
+ÜQ½‘…çŠeÌM…±•Ìœ°É½ÕÁQ½Ñ…°è€É½ÕÀÑ½Ñ…°œ°µ½¹Ñ¡±åAÉ½É•ÍÌè€Q¡¥Ì5½¹Ñ£ŠeÌAÉ½É•ÍÌœ°µ½¹Ñ¡±å…ÁÑ¥½¸è€ÕµÕ±…Ñ¥Ù”Í…±•Ì€¼µ½¹Ñ¡±äÑ…É•Ðœ°(€€€€€€€Í…±•Í¡…ÉÑQ¥Ñ±”è€…¥±äM…±•Ìœ°Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±”è€MÑ…­•‘…¥±ä…Í M…±•Ì‰äÍÑ½É”œ°Í…±•ÍÕ´è€=Ñ½‰•ÈÍ…±•Ì€I4€ÔÄÐ°àÀÀœ°(€€€€€€€‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±”è€…¥±ä½Õµ•¹Ð½Õ¹Ðœ°‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±”è€½µÁ…É”…Í M…±•Ì‘½Õµ•¹Ð½Õ¹ÑÌ‰äÍÑ½É”…¹‘…Ñ”œ°‘½Õµ•¹ÑÍÕ´è€½Õµ•¹ÑÌ€€Ä°ÈàÐœ°(€€€€€€€…µ½Õ¹Ñá¥Ìè€M…±•Ì€¡I4¤œ°‘½Õµ•¹Ñá¥Ìè€½Õµ•¹ÑÌœ°‰…É5•ÑÉ¥Œè€	…ÉÌœ°Í…±•Í5•ÑÉ¥Œè€M…±•Ì€¡±•™Ð…á¥Ì¤œ°±¥¹•5•ÑÉ¥Œè€1¥¹•Ìœ°‘½Õµ•¹Ñ5•ÑÉ¥Œè€½Õµ•¹Ð½Õ¹Ð€¡É¥¡Ð…á¥Ì¤œ°±••¹è€MÑ½É”±••¹œ°Õ¹‘•É½¹ÍÑÉÕÑ¥½¸è€U9H=9MQIUQ%=8œ°½¹ÍÑÉÕÑ¥½¹5•ÍÍ…”è€Q¡¥Ì‘…Í¡‰½…É¥ÌÕÉÉ•¹Ñ±ä‰•¥¹œÁÉ•Á…É•¸œ°Ñ…É•ÑA…•MÕ‰Ñ¥Ñ±”è€M•ÐÑ¡”µ½¹Ñ¡±äÍ…±•ÌÑ…É•Ð™½È•… ÍÑ½É”…¹Ñ¡”Í•±•Ñ•µ½¹Ñ ¸œ°Ñ…É•Ñ…Ñ…1…‰•°è€M•ÑÑ¥¹œ‰…Í¥Ìœ°Ñ…É•Ñ…Ñ…Y…±Õ”è€5½¹Ñ¡±äÑ…É•Ð€¼I4œ°Ñ…É•Ñ5½¹Ñ¡Q¥Ñ±”è€Q…É•Ðµ½¹Ñ œ°Ñ…É•Ñ5½¹Ñ¡!¥¹Ðè€M•±•ÐÑ¡”µ½¹Ñ Ñ¼½¹™¥ÕÉ”™É½´Ñ¡”…±•¹‘…È¸œ°Ñ…É•Ñ5½¹Ñ¡1…‰•°è€Q…É•Ðµ½¹Ñ œ°Ñ…É•Ñ5½¹Ñ¡±åQ¥Ñ±”è€5½¹Ñ¡±äÍ…±•ÌÑ…É•Ð‰äÍÑ½É”œ°Ñ…É•Ñ5½¹Ñ¡±å!¥¹Ðè€¹Ñ•È•… ÍÑ½É—ŠeÌÑ…É•Ð…µ½Õ¹Ð¥¸I4¸œ°Ñ…É•ÑÉ½ÕÁ1…‰•°è€É½ÕÀµ½¹Ñ¡±äÑ…É•Ðœ°Ñ…É•Ñ%¹ÁÕÑ1…‰•°è€5½¹Ñ¡±äÑ…É•Ð€¡I4¤œ°Ñ…É•ÑM…Ù•9½Ñ”è€M…Ù•Ù…±Õ•Ì…É”ÍÑ½É•¥¸Ñ¡¥Ì‰É½ÝÍ•È¸Q¡•äÝ¥±°‰•½µ”Í¡…É•Í•ÑÑ¥¹Ì…™Ñ•ÈI@…¹á•°¥¹Ñ•É…Ñ¥½¸¸œ°Í…Ù•Q…É•ÑÌè€M…Ù”Ñ…É•ÑÌœ°Ñ…É•ÑM…Ù•è€Q…É•ÑÌÍ…Ù•™½Èíµ½¹Ñ¡ô¸œ(€€€€€ô°(€€€€€µÌèì(€€€€€€€‘…Í¡‰½…É‘1…‰•°è€A…Á…¸A•µÕ­„)Õ…±…¸œ°Íå¹MÑ…ÑÕÌè€M¹…ÁÍ¡½Ð…Í M…±•Ì‘¥µÕ…Ñ­…¸œ°…‘µ¥¹¥ÍÑÉ…Ñ½Èè€A•¹Ñ…‘‰¥Èœ°‘…Í¡‰½…É‘Ìè€AA8A5U-œ°(€€€€€€€½Ù•ÉÙ¥•Üè€I¥¹­…Í…¸-ÕµÁÕ±…¸œ°Í…±•ÍAÉ½É•ÍÌè€-•µ…©Õ…¸)Õ…±…¸œ°¥¹Ù•¹Ñ½Éäè€MÑ…ÑÕÌ%¹Ù•¹Ñ½É¤œ°Ñ…É•ÑÌè€Q•Ñ…Á…¸M…Í…É…¸œ°(€€€€€€€Í¥‘•‰…É9½Ñ”è€…Ñ„Í•‰•¹…È…Í M…±•Ì€ÇŠLÄÀ=­Ñ½‰•È‘¥µÕ…Ñ­…¸‘…É¥Á…‘„]•‰µ…à¸MÕµ‰•È-4µ…Í¥ µ•¹Õ¹Ô¸œ°(€€€€€€€Á…•MÕ‰Ñ¥Ñ±”è€1¥¡…Ð…Í M…±•Ì¡…É¤¥¹¤‘…¸ÑÉ•¹…Ý…¹…¸‰Õ±…¸¥¹¤‘…±…´Í…ÑÔÍ­É¥¸¸œ°‘¥ÍÁ±…å…Ñ„è€…Ñ„‘¥Á…Á…É­…¸œ°Í…µÁ±•…Ñ„è€A…Á…É…¸Í…µÁ•°€¡Í•‰•±Õ´¥¹Ñ•É…Í¤I@¤œ°(€€€€€€€‘…¥±åM…±•ÍQ¥Ñ±”è€M•µÕ„…Ý…¹…¸ƒ
+Ü)Õ…±…¸!…É¤%¹¤œ°É½ÕÁQ½Ñ…°è€)Õµ±… ­ÕµÁÕ±…¸œ°µ½¹Ñ¡±åAÉ½É•ÍÌè€-•µ…©Õ…¸	Õ±…¸%¹¤œ°µ½¹Ñ¡±å…ÁÑ¥½¸è€)Õ…±…¸Ñ•É­ÕµÁÕ°€¼Í…Í…É…¸‰Õ±…¹…¸œ°(€€€€€€€Í…±•Í¡…ÉÑQ¥Ñ±”è€)Õ…±…¸!…É¥…¸œ°Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±”è€…Í M…±•Ì¡…É¥…¸Ñ•É­ÕµÁÕ°µ•¹¥­ÕÐ…Ý…¹…¸œ°Í…±•ÍÕ´è€)Õ…±…¸=­Ñ½‰•È€I4€ÔÄÐ°àÀÀœ°(€€€€€€€‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±”è€	¥±…¹…¸½­Õµ•¸!…É¥…¸œ°‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±”è€	…¹‘¥¹­…¸‰¥±…¹…¸‘½­Õµ•¸…Í M…±•Ìµ•¹¥­ÕÐ…Ý…¹…¸‘…¸Ñ…É¥­ œ°‘½Õµ•¹ÑÍÕ´è€½­Õµ•¸€€Ä°ÈàÐœ°(€€€€€€€…µ½Õ¹Ñá¥Ìè€)Õ…±…¸€¡I4¤œ°‘½Õµ•¹Ñá¥Ìè€½­Õµ•¸œ°‰…É5•ÑÉ¥Œè€	…Èœ°Í…±•Í5•ÑÉ¥Œè€)Õ…±…¸€¡Á…­Í¤­¥É¤¤œ°±¥¹•5•ÑÉ¥Œè€…É¥Í…¸œ°‘½Õµ•¹Ñ5•ÑÉ¥Œè€½­Õµ•¸€¡Á…­Í¤­…¹…¸¤œ°±••¹è€A•ÑÕ¹©Õ¬…Ý…¹…¸œ°Õ¹‘•É½¹ÍÑÉÕÑ¥½¸è€14A5	%98œ°½¹ÍÑÉÕÑ¥½¹5•ÍÍ…”è€A…Á…¸Á•µÕ­„¥¹¤Í•‘…¹œ‘¥Í•‘¥…­…¸¸œ°Ñ…É•ÑA…•MÕ‰Ñ¥Ñ±”è€Q•Ñ…Á­…¸Í…Í…É…¸©Õ…±…¸‰Õ±…¹…¸‰…¤Í•Ñ¥…À…Ý…¹…¸‘…¸‰Õ±…¸å…¹œ‘¥Á¥±¥ ¸œ°Ñ…É•Ñ…Ñ…1…‰•°è€Í…ÌÑ•Ñ…Á…¸œ°Ñ…É•Ñ…Ñ…Y…±Õ”è€M…Í…É…¸‰Õ±…¹…¸€¼I4œ°Ñ…É•Ñ5½¹Ñ¡Q¥Ñ±”è€	Õ±…¸Í…Í…É…¸œ°Ñ…É•Ñ5½¹Ñ¡!¥¹Ðè€A¥±¥ ‰Õ±…¸å…¹œ¥¹¥¸‘¥Ñ•Ñ…Á­…¸‘…É¥Á…‘„­…±•¹‘…È¸œ°Ñ…É•Ñ5½¹Ñ¡1…‰•°è€	Õ±…¸Í…Í…É…¸œ°Ñ…É•Ñ5½¹Ñ¡±åQ¥Ñ±”è€M…Í…É…¸©Õ…±…¸‰Õ±…¹…¸µ•¹¥­ÕÐ…Ý…¹…¸œ°Ñ…É•Ñ5½¹Ñ¡±å!¥¹Ðè€5…ÍÕ­­…¸…µ…Õ¸Í…Í…É…¸Í•Ñ¥…À…Ý…¹…¸‘…±…´I4¸œ°Ñ…É•ÑÉ½ÕÁ1…‰•°è€M…Í…É…¸‰Õ±…¹…¸­ÕµÁÕ±…¸œ°Ñ…É•Ñ%¹ÁÕÑ1…‰•°è€M…Í…É…¸‰Õ±…¹…¸€¡I4¤œ°Ñ…É•ÑM…Ù•9½Ñ”è€9¥±…¤Í¥µÁ…¹…¸‘¥É•­½‘­…¸‘…±…´Á•±…å…È¥¹¤¸%„…­…¸µ•¹©…‘¤Ñ•Ñ…Á…¸‰•ÉÍ…µ„Í•±•Á…Ì¥¹Ñ•É…Í¤I@‘…¸á•°¸œ°Í…Ù•Q…É•ÑÌè€M¥µÁ…¸Í…Í…É…¸œ°Ñ…É•ÑM…Ù•è€M…Í…É…¸Õ¹ÑÕ¬íµ½¹Ñ¡ôÑ•±… ‘¥Í¥µÁ…¸¸œ(€€€€€ô°(€€€€€©„èì(€€€€€€€‘…Í¡‰½…É‘1…‰•°è€Ÿ–ZÛš–·ŽŽŽ
+ßŽ—ŽsŽóŽ$œ°Íå¹MÑ…ÑÕÌè€…Í M…±•Ìƒ–ºžâûŽ
+K¢ª·Žÿ¢úóŽÿšâ#Žüœ°…‘µ¥¹¥ÍÑÉ…Ñ½Èè€Ÿžº‡žB¢œ°‘…Í¡‰½…É‘Ìè€M!	=ILœ°(€€€€€€€½Ù•ÉÙ¥•Üè€ŸŽ
+ÃŽ¯ŽóŽ_šš¢šœ°Í…±•ÍAÉ½É•ÍÌè€Ÿ–ŽË’â+¦Ëš6\œ°¥¹Ù•¹Ñ½Éäè€Ÿ–r£–ê¯ž*ÛšÎœ°Ñ…É•ÑÌè€Ÿžn»š¢g¢¢·–ºhœ°(€€€€€€€Í¥‘•‰…É9½Ñ”è€]•‰µ…ãŽ/Ž
+$ÄÃšr Çš^—ŽpÄÃš^—Ž¹…Í M…±•Ï–ºžâûŽ
+K–>7šbƒšâ#ŽÿŽŸŽgŽ	-7Ž¿š:—žÚk–#–úŽ‡ŽŸŽgŽœ°(€€€€€€€Á…•MÕ‰Ñ¥Ñ±”è€Ÿšr³š^—Ž¹…Í M…±•ÏŽ£Ž–öOšr#Ž»–ê_¢"_–"—š:£žžïŽ
+K’âžRï¦v‹ŽŸžŠë¢ª4œ°‘¥ÍÁ±…å…Ñ„è€Ÿ¢†£ž’ëŽŽóŽ
+üœ°Í…µÁ±•…Ñ„è€ŸŽ
+×ŽÏŽ_Ž¯¢†£ž’ë¾ò!IC¦šBë–&7¾ò$œ°(€€€€€€€‘…¥±åM…±•ÍQ¥Ñ±”è€Ÿ–£–ê_¢"_Žïšr³š^—–ŽË’â(œ°É½ÕÁQ½Ñ…°è€ŸŽ
+ÃŽ¯ŽóŽ_–B#¢¢ œ°µ½¹Ñ¡±åAÉ½É•ÍÌè€Ÿ’î+šr#Ž»¦Ëš6\œ°µ½¹Ñ¡±å…ÁÑ¥½¸è€ŸžÒ¿¢¢#–ŽË’â(€¼ƒšr#¦ZOžn»š¢dœ°(€€€€€€€Í…±•Í¡…ÉÑQ¥Ñ±”è€Ÿ–öOšr#Ž»š^—–"—–ŽË’â(œ°Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±”è€Ÿš^—’îcŽSŽ£Ž»–ê_¢"_–"•…Í M…±•ÏŽ
+Kž¦7Žÿ’â+ŽK¢†£ž’èœ°Í…±•ÍÕ´è€œÄÃšr#–ŽË’â+ŽI4€ÔÄÐ°àÀÀœ°(€€€€€€€‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±”è€Ÿš^—–"—’òwž–£šVÀœ°‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±”è€Ÿš^—’îcŽSŽ£Ž¯–ê_¢"_–"—Ž¹…Í M…±•Ï’òwž–£šVÃŽ
+Kš¾S¢òœ°‘½Õµ•¹ÑÍÕ´è€Ÿ’òwž–£Ž Ä°ÈàÓ’îØœ°(€€€€€€€…µ½Õ¹Ñá¥Ìè€Ÿ–ŽË’â+¾ò!I7¾ò$œ°‘½Õµ•¹Ñá¥Ìè€Ÿ’òwž–£¾ò#’îÛ¾ò$œ°‰…É5•ÑÉ¥Œè€ŸšŽHœ°Í…±•Í5•ÑÉ¥Œè€Ÿ–ŽË’â+¾ò#–Þ›¢îã¾ò$œ°±¥¹•5•ÑÉ¥Œè€ŸžÞhœ°‘½Õµ•¹Ñ5•ÑÉ¥Œè€Ÿ’òwž–£šVÃ¾ò#–>Ï¢îã¾ò$œ°±••¹è€Ÿ–ê_¢"_Ž»–‡’ú,œ°Õ¹‘•É½¹ÍÑÉÕÑ¥½¸è€Ÿ–Þ—’ê/’â´œ°½¹ÍÑÉÕÑ¥½¹5•ÍÍ…”è€ŸŽOŽ»ŽŽŽ
+ßŽ—ŽsŽóŽ'Ž¿ž>û–r£šê[–
+g’â·ŽŸŽgŽœ°Ñ…É•ÑA…•MÕ‰Ñ¥Ñ±”è€Ÿ–¾û¢Æ‡šr#Ž£–ê_¢"_ŽSŽ£Ž»šr#¦ZO–ŽË’â+žn»š¢gŽ
+K¢¢·–ºkŽ_ŽûŽgŽœ°Ñ…É•Ñ…Ñ…1…‰•°è€Ÿ¢¢·–ºk–6c’ö4œ°Ñ…É•Ñ…Ñ…Y…±Õ”è€Ÿšr#¦ZOžn»š¢d€¼I4œ°Ñ…É•Ñ5½¹Ñ¡Q¥Ñ±”è€Ÿ–¾û¢Æ‡šr œ°Ñ…É•Ñ5½¹Ñ¡!¥¹Ðè€ŸŽ
+¯Ž³ŽÏŽŽóŽ/Ž
+'¢¢·–ºkŽgŽ
+/šr#Ž
+K¦ãš*{Ž_Ž›Ž?ŽƒŽWŽŽœ°Ñ…É•Ñ5½¹Ñ¡1…‰•°è€Ÿ–¾û¢Æ‡šr œ°Ñ…É•Ñ5½¹Ñ¡±åQ¥Ñ±”è€Ÿ–ê_¢"_–"—Žïšr#¦ZO–ŽË’â+žn»š¢dœ°Ñ…É•Ñ5½¹Ñ¡±å!¥¹Ðè€Ÿ–B–ê_¢"_Ž»žn»š¢g¦G¦†7Ž
+II7ŽŸ–—–*oŽ_ŽûŽgŽœ°Ñ…É•ÑÉ½ÕÁ1…‰•°è€ŸŽ
+ÃŽ¯ŽóŽ_šr#¦ZOžn»š¢dœ°Ñ…É•Ñ%¹ÁÕÑ1…‰•°è€Ÿšr#¦ZOžn»š¢g¾ò!I7¾ò$œ°Ñ…É•ÑM…Ù•9½Ñ”è€Ÿ’þw–¶c––ºçŽ¿ŽOŽ»Ž[Ž§Ž
+›Ž
+ÛŽ¯¢¢c¦2ËŽWŽ
+3ŽûŽgŽ	ICŽíá•³¦šBë–ú3Ž¿–Ç¦k¢¢·–ºkŽã–"Ž
++šnÿŽ
+?Ž
++ŽûŽgŽœ°Í…Ù•Q…É•ÑÌè€Ÿžn»š¢gŽ
+K’þw–¶`œ°Ñ…É•ÑM…Ù•è€íµ½¹Ñ¡÷Ž»žn»š¢gŽ
+K’þw–¶cŽ_ŽûŽ_ŽŽœ(€€€€€ô°(€€€€€é èì(€€€€€€€‘…Í¡‰½…É‘1…‰•°è€Ÿ¦R–R»’î«¢†£švüœ°Íå¹MÑ…ÑÕÌè€…Í M…±•ÌƒšVÃš6»–ÞË–*ƒ¢öôœ°…‘µ¥¹¥ÍÑÉ…Ñ½Èè€Ÿžº‡žB–F`œ°‘…Í¡‰½…É‘Ìè€Ÿ’î«¢†£švüœ°(€€€€€€€½Ù•ÉÙ¥•Üè€Ÿ¦n–n‹šš¢ž œ°Í…±•ÍAÉ½É•ÍÌè€Ÿ¦R–R»¢þo–ê˜œ°¥¹Ù•¹Ñ½Éäè€Ÿ–êO–¶cž*Ûšœ°Ñ…É•ÑÌè€Ÿžn»š‚¢ºûžö¸œ°(€€€€€€€Í¥‘•‰…É9½Ñ”è€Ÿ–ÞË–*ƒ¢öô]•‰µ…à€ÄÃšr Çš^—¢ÌÄÃš^”…Í M…±•Ìƒ–º{žî§Ž	-4ƒš¶ž¶'–ú¢þ{š:—šv—šêCŽœ°(€€€€€€€Á…•MÕ‰Ñ¥Ñ±”è€Ÿ–r£’â’â«¦†×¦v‹š~—žr/’î+š^”…Í M…±•Ìƒ–J3šr³šr#–B¦^£–ê_¢Ú/–*ÿŽœ°‘¥ÍÁ±…å…Ñ„è€Ÿšbûž’ëšVÃš6¸œ°Í…µÁ±•…Ñ„è€Ÿž’ë’ú/šbûž’ë¾ò!I@ƒ–¾çš:—–&7¾ò$œ°(€€€€€€€‘…¥±åM…±•ÍQ¥Ñ±”è€Ÿš&šr'¦^£–ê\ƒ
+Üƒ’î+š^—¦R–R¸œ°É½ÕÁQ½Ñ…°è€Ÿ¦n–n‹–B#¢º„œ°µ½¹Ñ¡±åAÉ½É•ÍÌè€Ÿšr³šr#¢þo–ê˜œ°µ½¹Ñ¡±å…ÁÑ¥½¸è€ŸžÒ¿¢º‡¦R–R¸€¼ƒšr#–ê›žn»š‚œ°(€€€€€€€Í…±•Í¡…ÉÑQ¥Ñ±”è€Ÿšr³šr#š¾?š^—¦R–R»¦Štœ°Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±”è€Ÿš2'š^—šr–‚–>ƒšbûž’ë–B¦^£–ê_žj…Í M…±•Ìœ°Í…±•ÍÕ´è€œÄÃšr#¦R–R»¦Št€I4€ÔÄÐ°àÀÀœ°(€€€€€€€‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±”è€Ÿš¾?š^—–6Wš6»šVÃ¦<œ°‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±”è€Ÿš2'š^—šrš¾S¢ú–B¦^£–ê_žj…Í M…±•Ìƒ–6Wš6»šVÃ¦<œ°‘½Õµ•¹ÑÍÕ´è€Ÿ–6Wš6¸€€Ä°ÈàÐƒ–ò€œ°(€€€€€€€…µ½Õ¹Ñá¥Ìè€Ÿ¦R–R»¦Šw¾ò!I7¾ò$œ°‘½Õµ•¹Ñá¥Ìè€Ÿ–6Wš6»¾ò#–òƒ¾ò$œ°‰…É5•ÑÉ¥Œè€Ÿš~Äœ°Í…±•Í5•ÑÉ¥Œè€Ÿ¦R–R»¦Šw¾ò#–Þ›¢öÓ¾ò$œ°±¥¹•5•ÑÉ¥Œè€Ÿžêüœ°‘½Õµ•¹Ñ5•ÑÉ¥Œè€Ÿ–6Wš6»šVÃ¾ò#–>Ï¢öÓ¾ò$œ°±••¹è€Ÿ¦^£–ê_–nû’ú,œ°Õ¹‘•É½¹ÍÑÉÕÑ¥½¸è€ŸšZ÷–Þ—’â´œ°½¹ÍÑÉÕÑ¥½¹5•ÍÍ…”è€Ÿš¶“’î«¢†£švÿš¶–r£––’’â·Žœ°Ñ…É•ÑA…•MÕ‰Ñ¥Ñ±”è€Ÿ’âëš&¦'šr#’î÷¢ºûžö»–B¦^£–ê_žjšr#–ê›¦R–R»žn»š‚Žœ°Ñ…É•Ñ…Ñ…1…‰•°è€Ÿ¢ºûžö»–6W’ö4œ°Ñ…É•Ñ…Ñ…Y…±Õ”è€Ÿšr#–ê›žn»š‚€¼I4œ°Ñ…É•Ñ5½¹Ñ¡Q¥Ñ±”è€Ÿžn»š‚šr#’îôœ°Ñ…É•Ñ5½¹Ñ¡!¥¹Ðè€Ÿ¢¾ß’î;š^—–:’â·¦'š.§¢š¢ºûžö»žjšr#’î÷Žœ°Ñ…É•Ñ5½¹Ñ¡1…‰•°è€Ÿžn»š‚šr#’îôœ°Ñ…É•Ñ5½¹Ñ¡±åQ¥Ñ±”è€Ÿ–B¦^£–ê_šr#–ê›¦R–R»žn»š‚œ°Ñ…É•Ñ5½¹Ñ¡±å!¥¹Ðè€Ÿ’î•I7¢úO–—–B¦^£–ê_žjžn»š‚¦G¦ŠwŽœ°Ñ…É•ÑÉ½ÕÁ1…‰•°è€Ÿ¦n–n‹šr#–ê›žn»š‚œ°Ñ…É•Ñ%¹ÁÕÑ1…‰•°è€Ÿšr#–ê›žn»š‚¾ò!I7¾ò$œ°Ñ…É•ÑM…Ù•9½Ñ”è€Ÿ’þw–¶cžjšVÃ–ó’òk¢ºÃ–öW–r£š¶“šÖ?¢ž#–f£’â·Ž	I@ƒ’â8á•°ƒ–¾çš:—–B;–Â–"š6‹’âë–Ç’ê¯¢ºûžö»Žœ°Í…Ù•Q…É•ÑÌè€Ÿ’þw–¶cžn»š‚œ°Ñ…É•ÑM…Ù•è€Ÿ–ÞË’þw–¶`íµ½¹Ñ¡ôƒžjžn»š‚Žœ(€€€€€ô(€€€ôì(€€€½¹ÍÐ‰ÕÑÑ½¹Ì€ô‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° œ¹µ•¹Ôµ‰ÕÑÑ½¸œ¤ì(€€€½¹ÍÐ±…¹Õ…•	ÕÑÑ½¹Ì€ô‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° m‘…Ñ„µ±…¹Õ…•tœ¤ì(€€€±•ÐÑ¥Ñ±”€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Á…”µÑ¥Ñ±”œ¤ì(€€€½¹ÍÐ¹½Ñ¥”€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ¹½Ñ¥”œ¤ì(€€€½¹ÍÐÍ…±•Í…Í¡‰½…É€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Í…±•Ìµ‘…Í¡‰½…Éœ¤ì(€€€½¹ÍÐ½¹ÍÑÉÕÑ¥½¸€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ½¹ÍÑÉÕÑ¥½¸œ¤ì(€€€½¹ÍÐ½¹ÍÑÉÕÑ¥½¹Q¥Ñ±”€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ½¹ÍÑÉÕÑ¥½¸µÑ¥Ñ±”œ¤ì(€€€½¹ÍÐÑ…É•Ñ…Í¡‰½…É€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Ñ…É•Ðµ‘…Í¡‰½…Éœ¤ì(€€€½¹ÍÐÍåÍÑ•µ…Í¡‰½…É€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µ‘…Í¡‰½…Éœ¤ì(€€€½¹ÍÐÍåÍÑ•µ½É´€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µ™½É´œ¤ì(€€€½¹ÍÐÍåÍÑ•µÉ¥€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µÉ¥œ¤ì(€€€½¹ÍÐÍåÍÑ•µMÑ…ÑÕÌ€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µÍÑ…ÑÕÌœ¤ì(€€€½¹ÍÐ¥¹Ñ•ÉÙ…±M•½¹‘Ì€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ¥¹Ñ•ÉÙ…°µÍ•½¹‘Ìœ¤ì(€€€½¹ÍÐÑ…É•Ñ½É´€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Ñ…É•Ðµ™½É´œ¤ì(€€€½¹ÍÐÑ…É•Ñ5½¹Ñ €ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Ñ…É•Ðµµ½¹Ñ œ¤ì(€€€½¹ÍÐÑ…É•Ñ%¹ÁÕÑÌ€ô‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° œ¹Ñ…É•Ðµ¥¹ÁÕÐœ¤ì(€€€½¹ÍÐÑ…É•ÑQ½Ñ…±Y…±Õ”€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Ñ…É•ÐµÑ½Ñ…°µÙ…±Õ”œ¤ì(€€€½¹ÍÐÑ…É•ÑM…Ù•€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Ñ…É•ÐµÍ…Ù•œ¤ì(€€€½¹ÍÐÑ…É•Ñ•™…Õ±ÑÌ€ôìM$è€ÔÔÀÀÀÀ°MHè€ÌÀÀÀÀÀ°MPè€ÌÀÀÀÀÀ°M,è€ÈÔÀÀÀÀ°-4è€ÈÔÀÀÀÀôì(€€€½¹ÍÐÍåÍÑ•µMÑ½É•Ì€ôìM$è€¡•ÜQ…å…È€¼M$œ°MHè€•µ½¬Q…å…È€¼MHœ°MPè€•µ½¬Q…å…È€¼MPœ°M,è€Q…å…È€¼M,œ°-4è€	…ÕÌQ…å…È€¼-4œôì(€€€½¹ÍÐ±…Ñ•ÍÑ•Ñ¡½Áä€ôì•¸è€1…Ñ•ÍÐ™•Ñ èí‘…Ñ•Ñ¥µ•ôœ°µÌè€-•µ…Í­¥¹¤Ñ•É…­¡¥Èèí‘…Ñ•Ñ¥µ•ôœ°©„è€ŸšršZÃ–>[–ú_š^—šf¾òií‘…Ñ•Ñ¥µ•ôœ°é è€ŸšršZÃ¢:ß–>[š^Û¦^Ó¾òií‘…Ñ•Ñ¥µ•ôœôì(€€€½¹ÍÐÍåÍÑ•µ½Áä€ôì(€€€€€•¸èìµ•¹Ôè€MåÍÑ•´M•ÑÑ¥¹Ìœ°Ñ¥Ñ±”è€MåÍÑ•´M•ÑÑ¥¹Ìœ°ÍÕ‰Ñ¥Ñ±”è€½¹™¥ÕÉ”‰…­É½Õ¹½±±•Ñ¥½¸½¸Ñ¡¥ÌÁÉ½Ñ•Ñ•…‘µ¥¹¥ÍÑÉ…Ñ¥½¸Á…”¸œ°ÁÕ‰±¥MÕ‰Ñ¥Ñ±”è€Y¥•ÜÑ¡”½±±•Ñ½ÈÍ•ÑÑ¥¹ÌÁÕ‰±¥Í¡•‰äÑ¡”…‘µ¥¹¥ÍÑÉ…Ñ½È¸œ°¡•­¥¹œè€¡•­¥¹œÑ¡”±½…°½±±•Ñ¥½¸Í•ÉÙ¥—Š˜œ°ÁÕ‰±¥¡•­¥¹œè€1½…‘¥¹œÁÕ‰±¥Í¡•Í•ÑÑ¥¹ÏŠ˜œ°¥¹Ñ•ÉÙ…°è€½±±•Ñ¥½¸¥¹Ñ•ÉÙ…°€¡Í•½¹‘Ì¤œ°ÕÉ°è€…Í M…±•ÌUI0œ°•ÉÁ%è€I@%œ°Á…ÍÍÝ½Éè€I@Á…ÍÍÝ½Éœ°Á…ÍÍÝ½É‘M•Ðè€œ¡½¹™¥ÕÉ•¤œ°Á…ÍÍÝ½É‘5¥ÍÍ¥¹œè€œ¡¹½Ð½¹™¥ÕÉ•¤œ°Á…ÍÍÝ½É‘5…¹…•è€5…¹…•Í•Á…É…Ñ•±ä½¸Ñ¡”Í•ÉÙ•Èœ°¹½Ñ”è€I@Á…ÍÍÝ½É‘Ì…É”µ…¹…•Í•Á…É…Ñ•±ä…Ì•¹ÉåÁÑ•ÍåÍÑ•µÉ•‘•¹Ñ¥…±Ì½¸Ñ¡”U‰Õ¹ÑÔÍ•ÉÙ•È¸œ°ÁÕ‰±¥9½Ñ”è€I•…µ½¹±ä¸¡…¹”Ñ¡•Í”Ù…±Õ•Ì™É½´Ñ¡”ÁÉ½Ñ•Ñ•±½…°…‘µ¥¹¥ÍÑÉ…Ñ¥½¸‘…Í¡‰½…É¸I@Á…ÍÍÝ½É‘Ì…É”¹•Ù•ÈÁÕ‰±¥Í¡•¸œ°Í…Ù”è€M…Ù”Í•ÑÑ¥¹Ì…¹Íå¹Œœ°½¹¹•Ñ•è€½¹¹•Ñ•Ñ¼Ñ¡”±½…°½±±•Ñ¥½¸Í•ÉÙ¥”¸œ°ÁÕ‰±¥Í¡•è€M¡½Ý¥¹œÑ¡”±…Ñ•ÍÐÁÕ‰±¥Í¡•Í•ÑÑ¥¹Ì€¡É•…µ½¹±ä¤¸œ°Õ¹…Ù…¥±…‰±”è€…¹¹½Ð½¹¹•ÐÑ¼Ñ¡”±½…°½±±•Ñ¥½¸Í•ÉÙ¥”¸=Á•¸Ñ¡”‘…Í¡‰½…É™É½´Ñ¡”½±±•Ñ½ÈÍ•ÉÙ¥”¸œ°ÁÕ‰±¥U¹…Ù…¥±…‰±”è€AÕ‰±¥Í¡•Í•ÑÑ¥¹Ì…É”¹½Ð…Ù…¥±…‰±”å•Ð¸œ°Í…Ù¥¹œè€M…Ù¥¹œÍ•ÑÑ¥¹ÏŠ˜œ°Í…Ù•è€M…Ù•¸Q¡”™¥ÉÍÐÍå¹Œ¡…ÌÍÑ…ÉÑ•¸œ°Í…Ù•…¥±•è€½Õ±¹½ÐÍ…Ù”Í•ÑÑ¥¹Ì¸¡•¬Ñ¡…ÐÑ¡”±½…°½±±•Ñ¥½¸Í•ÉÙ¥”¥ÌÉÕ¹¹¥¹œ¸œô°(€€€€€µÌèìµ•¹Ôè€Q•Ñ…Á…¸M¥ÍÑ•´œ°Ñ¥Ñ±”è€Q•Ñ…Á…¸M¥ÍÑ•´œ°ÍÕ‰Ñ¥Ñ±”è€-½¹™¥ÕÉ…Í¥­…¸­ÕÑ¥Á…¸±…Ñ…È‰•±…­…¹œÁ…‘„¡…±…µ…¸Á•¹Ñ…‘‰¥É…¸Ñ•É±¥¹‘Õ¹œ¥¹¤¸œ°ÁÕ‰±¥MÕ‰Ñ¥Ñ±”è€1¥¡…ÐÑ•Ñ…Á…¸Á•¹ÕµÁÕ°å…¹œ‘¥Ñ•É‰¥Ñ­…¸½±• Á•¹Ñ…‘‰¥È¸œ°¡•­¥¹œè€5•µ•É¥­Í„Á•É­¡¥‘µ…Ñ…¸­ÕÑ¥Á…¸Í•Ñ•µÁ…ÓŠ˜œ°ÁÕ‰±¥¡•­¥¹œè€5•µÕ…Ñ­…¸Ñ•Ñ…Á…¸å…¹œ‘¥Ñ•É‰¥Ñ­…»Š˜œ°¥¹Ñ•ÉÙ…°è€M•±…¹œ­ÕÑ¥Á…¸€¡Í……Ð¤œ°ÕÉ°è€UI0)Õ…±…¸QÕ¹…¤œ°•ÉÁ%è€%I@œ°Á…ÍÍÝ½Éè€-…Ñ„±…±Õ…¸I@œ°Á…ÍÍÝ½É‘M•Ðè€œ¡Ñ•±… ‘¥Ñ•Ñ…Á­…¸¤œ°Á…ÍÍÝ½É‘5¥ÍÍ¥¹œè€œ¡‰•±Õ´‘¥Ñ•Ñ…Á­…¸¤œ°Á…ÍÍÝ½É‘5…¹…•è€¥ÕÉÕÍ­…¸Í•…É„‰•É…Í¥¹…¸Á…‘„Á•±…å…¸œ°¹½Ñ”è€-…Ñ„±…±Õ…¸I@‘¥ÕÉÕÍ­…¸Í•…É„‰•É…Í¥¹…¸Í•‰……¤­•±…å…­…¸ÍåÍÑ•µå…¹œ‘¥ÍÕ±¥Ñ­…¸Á…‘„Á•±…å…¸U‰Õ¹ÑÔ¸œ°ÁÕ‰±¥9½Ñ”è€	…„Í…¡…©„¸U‰… ¹¥±…¤¥¹¤‘…É¥Á…‘„Á…Á…¸Á•µÕ­„Á•¹Ñ…‘‰¥É…¸Í•Ñ•µÁ…Ðå…¹œÑ•É±¥¹‘Õ¹œ¸-…Ñ„±…±Õ…¸I@Ñ¥‘…¬Á•É¹… ‘¥Ñ•É‰¥Ñ­…¸¸œ°Í…Ù”è€M¥µÁ…¸Ñ•Ñ…Á…¸‘…¸Í••É…­­…¸œ°½¹¹•Ñ•è€¥Í…µ‰Õ¹­…¸­•Á…‘„Á•É­¡¥‘µ…Ñ…¸­ÕÑ¥Á…¸Í•Ñ•µÁ…Ð¸œ°ÁÕ‰±¥Í¡•è€5•¹Õ¹©Õ­­…¸Ñ•Ñ…Á…¸Ñ•É­¥¹¤å…¹œ‘¥Ñ•É‰¥Ñ­…¸€¡‰…„Í…¡…©„¤¸œ°Õ¹…Ù…¥±…‰±”è€Q¥‘…¬‘…Á…Ðµ•¹å…µ‰Õ¹œ­•Á…‘„Á•É­¡¥‘µ…Ñ…¸­ÕÑ¥Á…¸Í•Ñ•µÁ…Ð¸	Õ­„Á…Á…¸Á•µÕ­„‘…É¥Á…‘„Á•É­¡¥‘µ…Ñ…¸Á•¹ÕµÁÕ°¸œ°ÁÕ‰±¥U¹…Ù…¥±…‰±”è€Q•Ñ…Á…¸å…¹œ‘¥Ñ•É‰¥Ñ­…¸‰•±Õ´Ñ•ÉÍ•‘¥„¸œ°Í…Ù¥¹œè€5•¹å¥µÁ…¸Ñ•Ñ…Á…»Š˜œ°Í…Ù•è€¥Í¥µÁ…¸¸A•¹å••É…­…¸Á•ÉÑ…µ„Ñ•±… ‘¥µÕ±…­…¸¸œ°Í…Ù•…¥±•è€Q¥‘…¬‘…Á…Ðµ•¹å¥µÁ…¸Ñ•Ñ…Á…¸¸A…ÍÑ¥­…¸Á•É­¡¥‘µ…Ñ…¸­ÕÑ¥Á…¸Í•Ñ•µÁ…ÐÍ•‘…¹œ‰•É©…±…¸¸œô°(€€€€€©„èìµ•¹Ôè€ŸŽ
+ßŽ
+çŽŽƒ¢¢·–ºhœ°Ñ¥Ñ±”è€ŸŽ
+ßŽ
+çŽŽƒ¢¢·–ºhœ°ÍÕ‰Ñ¥Ñ±”è€Ÿ’þw¢¶ßŽWŽ
+3Žžº‡žBžRï¦v‹ŽŸŽCŽŽ
+¿Ž
+ÃŽ§Ž
+›ŽÏŽ'–>[–ú_Ž
+K¢¢·–ºkŽ_ŽûŽgŽœ°ÁÕ‰±¥MÕ‰Ñ¥Ñ±”è€Ÿžº‡žB¢Ž3–³¦Z/Ž_Ž–>[–ú_Ž
+×ŽóŽOŽ
+çŽ»¢¢·–ºkŽ
+KžŠë¢ª7ŽŸŽ7ŽûŽgŽœ°¡•­¥¹œè€ŸŽ·ŽóŽ
+¯Ž¯–>[–ú_Ž
+×ŽóŽOŽ
+çŽ
+KžŠë¢ª7’â´¸¸¸œ°ÁÕ‰±¥¡•­¥¹œè€Ÿ–³¦Z/šâ#Žÿ¢¢·–ºkŽ
+K¢ª·Žÿ¢úóŽÿ’â´¸¸¸œ°¥¹Ñ•ÉÙ…°è€Ÿ–>[–ú_¦ZO¦jS¾ò#žžK¾ò$œ°ÕÉ°è€…Í M…±•ÌUI0œ°•ÉÁ%è€I@%œ°Á…ÍÍÝ½Éè€ICŽGŽ
+çŽ¿ŽóŽ$œ°Á…ÍÍÝ½É‘M•Ðè€Ÿ¾ò#¢¢·–ºkšâ#Žÿ¾ò$œ°Á…ÍÍÝ½É‘5¥ÍÍ¥¹œè€Ÿ¾ò#šr«¢¢·–ºk¾ò$œ°Á…ÍÍÝ½É‘5…¹…•è€ŸŽ
+×ŽóŽCŽó’â+ŽŸ–"—¦Sžº‡žBœ°¹½Ñ”è€ICŽGŽ
+çŽ¿ŽóŽ'Ž½U‰Õ¹Ñ×Ž
+×ŽóŽCŽó’â+Ž»šj_–>ß–2YÍåÍÑ•µÉ•‘•¹Ñ¥…³Ž£Ž_Ž›–"—¦Sžº‡žBŽWŽ
+3ŽûŽgŽœ°ÁÕ‰±¥9½Ñ”è€Ÿ–>žŸ–ÂžR£ŽŸŽgŽ–’'šnÓŽ¿’þw¢¶ßŽWŽ
+3ŽŽ·ŽóŽ
+¯Ž¯žº‡žBžRï¦v‹Ž/Ž
+'¢†3ŽŽûŽgŽ	ICŽGŽ
+çŽ¿ŽóŽ'Ž¿–³¦Z/ŽWŽ
+3ŽûŽoŽ
+OŽœ°Í…Ù”è€Ÿ¢¢·–ºkŽ
+K’þw–¶cŽ_Ž›–B3šr|œ°½¹¹•Ñ•è€ŸŽ·ŽóŽ
+¯Ž¯–>[–ú_Ž
+×ŽóŽOŽ
+çŽ¯š:—žÚkšâ#ŽÿŽŸŽgŽœ°ÁÕ‰±¥Í¡•è€ŸšršZÃŽ»–³¦Z/šâ#Žÿ¢¢·–ºkŽ
+K¢†£ž’ëŽ_Ž›ŽŽûŽg¾ò#–>žŸ–ÂžR£¾ò'Žœ°Õ¹…Ù…¥±…‰±”è€ŸŽ·ŽóŽ
+¯Ž¯–>[–ú_Ž
+×ŽóŽOŽ
+çŽ¯š:—žÚkŽŸŽ7ŽûŽoŽ
+OŽ–>[–ú_Ž
+×ŽóŽOŽ
+çŽ/Ž
+'žº‡žBžRï¦v‹Ž
+K¦Z/ŽŽ›Ž?ŽƒŽWŽŽœ°ÁÕ‰±¥U¹…Ù…¥±…‰±”è€Ÿ–³¦Z/šâ#Žÿ¢¢·–ºkŽ
+KŽûŽƒ–>[–ú_ŽŸŽ7ŽûŽoŽ
+OŽœ°Í…Ù¥¹œè€Ÿ¢¢·–ºkŽ
+K’þw–¶c’â´¸¸¸œ°Í…Ù•è€Ÿ’þw–¶cŽ_ŽûŽ_ŽŽ–"w–n{–B3šrŽ
+K¦Z/–ž/Ž_ŽûŽ_ŽŽœ°Í…Ù•…¥±•è€Ÿ’þw–¶cŽŸŽ7ŽûŽoŽ
+OŽŸŽ_ŽŽŽ·ŽóŽ
+¯Ž¯–>[–ú_Ž
+×ŽóŽOŽ
+çŽ3¢Öß–.WŽ_Ž›ŽŽ
+/Ž/žŠë¢ª7Ž_Ž›Ž?ŽƒŽWŽŽœô°(€€€€€é èìµ•¹Ôè€ŸžÎïžî¢ºûžö¸œ°Ñ¥Ñ±”è€ŸžÎïžî¢ºûžö¸œ°ÍÕ‰Ñ¥Ñ±”è€Ÿ–r£–>_’þwš*“žjžº‡žB¦†×¦v‹’â·¦7žö»–B;–>Ã¦¦nŽœ°ÁÕ‰±¥MÕ‰Ñ¥Ñ±”è€Ÿš~—žr/žº‡žB–Fc–>G–âžj¦¦n–f£¢ºûžö»Žœ°¡•­¥¹œè€Ÿš¶–r£šŽš~—šr³–rÃ¦¦nšr7–*‡Š˜œ°ÁÕ‰±¥¡•­¥¹œè€Ÿš¶–r£–*ƒ¢ö÷–ÞË–>G–âžj¢ºûžö»Š˜œ°¥¹Ñ•ÉÙ…°è€Ÿ¦¦n¦^Ó¦jS¾ò#žžK¾ò$œ°ÕÉ°è€Ÿž:Ã¦G¦R–R¸UI0œ°•ÉÁ%è€I@%œ°Á…ÍÍÝ½Éè€I@ƒ–¾ž‚œ°Á…ÍÍÝ½É‘M•Ðè€Ÿ¾ò#–ÞË¢ºûžö»¾ò$œ°Á…ÍÍÝ½É‘5¥ÍÍ¥¹œè€Ÿ¾ò#šr«¢ºûžö»¾ò$œ°Á…ÍÍÝ½É‘5…¹…•è€Ÿ–r£šr7–*‡–f£’â+–6Wž.³žº‡žBœ°¹½Ñ”è€I@ƒ–¾ž‚–r U‰Õ¹ÑÔƒšr7–*‡–f£’â+’ös’âë–*ƒ–¾žjÍåÍÑ•µƒ–·š6»–6Wž.³žº‡žBŽœ°ÁÕ‰±¥9½Ñ”è€Ÿ’î’úoš~—žr/Ž¢¾ß’î;–>_’þwš*“žjšr³–rÃžº‡žB’î«¢†£švÿšnÓšRç¢þg’êo–óŽ	I@ƒ–¾ž‚žîw’â7’òk–>G–âŽœ°Í…Ù”è€Ÿ’þw–¶c¢ºûžö»–æÛ–B3š¶”œ°½¹¹•Ñ•è€Ÿ–ÞË¢þ{š:—–"Ãšr³–rÃ¦¦nšr7–*‡Žœ°ÁÕ‰±¥Í¡•è€Ÿš¶–r£šbûž’ëšršZÃ–>G–âžj¢ºûžö»¾ò#–>«¢¾ï¾ò'Žœ°Õ¹…Ù…¥±…‰±”è€Ÿš^ƒšÎW¢þ{š:—–"Ãšr³–rÃ¦¦nšr7–*‡Ž¢¾ß’î;¦¦nšr7–*‡š&O–òžº‡žB’î«¢†£švÿŽœ°ÁÕ‰±¥U¹…Ù…¥±…‰±”è€Ÿ–ÞË–>G–âžj¢ºûžö»–Âk’â7–>¿žR£Žœ°Í…Ù¥¹œè€Ÿš¶–r£’þw–¶c¢ºûžö»Š˜œ°Í…Ù•è€Ÿ–ÞË’þw–¶c¾ò3¦š[š²‡–B3š¶—–ÞË–ò–ž/Žœ°Í…Ù•…¥±•è€Ÿš^ƒšÎW’þw–¶c¢ºûžö»Ž¢¾ßž†»¢º“šr³–rÃ¦¦nšr7–*‡š¶–r£¢þC¢†3Žœô(€€€ôì(€€€½¹ÍÐ±½…±M•ÑÑ¥¹Í5½‘”€ô±½…Ñ¥½¸¹Á½ÉÐ€ôôô€œÐÜÈÔÄœ€˜˜±½…Ñ¥½¸¹Á…Ñ¡¹…µ”¹ÍÑ…ÉÑÍ]¥Ñ  œ½‘…Í¡‰½…Éœ¤ì(€€€½¹ÍÐ½±±•Ñ½ÉUÉ°€ô±½…±M•ÑÑ¥¹Í5½‘”€ü±½…Ñ¥½¸¹½É¥¥¸€è€¡ÑÑÀè¼¼ÄÈÜ¸À¸À¸ÄèÐÜÈÔÄœì(€€€½¹ÍÐ¥Ñ¡Õ‰…Í¡‰½…É‘…Ñ…UÉ°€ô€¡ÑÑÁÌè¼½åÍ¡•Üµ¥Ð¹¥Ñ¡Õˆ¹¥¼½•µ½¬µÉ½ÕÀµ‘…Í¡‰½…ÉµÁÕ‰±¥Í¡•È½‘…Í¡‰½…Éµ‘…Ñ„¹©Í½¸œì(€€€½¹ÍÐ™•Ñ¡Q¥µ•ÍÑ…µÀ€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ™•Ñ µÑ¥µ•ÍÑ…µÀœ¤ì(€€€½¹ÍÐ•á•±M¹…ÁÍ¡½Ñ•Ñ¡•‘Ð€ô€œÈÀÈØ´ÄÀ´ÀåPÄØèÌÐèÌÄ¸Äàåhœì(€€€±•Ð±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð€ô•á•±M¹…ÁÍ¡½Ñ•Ñ¡•‘Ðì(€€€½¹ÍÐ…ÕÑ½I•±½…‘Q¥µ•ÍÑ…µÁ-•ä€ô€•µ½¬µÍ…±•ÌµÁÉ½É•ÍÌµ±…ÍÐµ™•Ñ µÑ¥µ•ÍÑ…µÀœì(€€€±•Ð…Ñ¥Ù•-•ä€ô€Í…±•ÍAÉ½É•ÍÌœì(€€€±•Ð±…¹Õ…”€ôl•¸œ°€µÌœ°€©„œ°€é t¹¥¹±Õ‘•Ì¡±½…±MÑ½É…”¹•Ñ%Ñ•´ •µ½¬µ±…¹Õ…”œ¤¤€ü±½…±MÑ½É…”¹•Ñ%Ñ•´ •µ½¬µ±…¹Õ…”œ¤€è€©„œì(€€€½¹ÍÐÕÉÉ•¹Ñ5½¹Ñ¡	å1…¹Õ…”€ôì•¸è€=Ñ½‰•Èœ°µÌè€=­Ñ½‰•Èœ°©„è€œÄÃšr œ°é è€œÄÃšr œôì(€€€½¹ÍÐ¡…ÉÑÕ±±ÍÉ••¹½Áä€ôì(€€€€€•¸èì¡¥¹Ðè€Q…À¡…ÉÐÑ¼•áÁ…¹œ°±½Í”è€±½Í”œ°‘¥…±½œè€áÁ…¹‘•¡…ÉÐœô°(€€€€€µÌèì¡¥¹Ðè€-•Ñ¥¬É…˜Õ¹ÑÕ¬‰•Í…É­…¸œ°±½Í”è€QÕÑÕÀœ°‘¥…±½œè€É…˜‘¥‰•Í…É­…¸œô°(€€€€€©„èì¡¥¹Ðè€ŸŽ
+ÃŽ§ŽWŽ
+KŽ
+ÿŽŽ_Ž_Ž›š.‡–’œœ°±½Í”è€Ÿ¦Z'ŽcŽ
+,œ°‘¥…±½œè€Ÿš.‡–’ŸŽ
+ÃŽ§ŽTœô°(€€€€€é èì¡¥¹Ðè€Ÿž
+ç–ï–nû¢†£šRû–’œœ°±½Í”è€Ÿ–Ï¦^´œ°‘¥…±½œè€ŸšRû–’Ÿ–nû¢† œô(€€€ôì(€€€½¹ÍÐ±½…±•	å1…¹Õ…”€ôì•¸è€•¸µ5dœ°µÌè€µÌµ5dœ°©„è€©„µ)@œ°é è€é µ8œôì(€€€½¹ÍÐ…ÑÕ…±1…‰•±Ì€ôì(€€€€€•¸èìÍ¹…ÁÍ¡½Ðè€…Í M…±•Ì…ÑÕ…±Ìƒ
+Ü€ÇŠLÄÀ=Ð€ÈÀÈØœ°‘½Õµ•¹ÑÌè€‘½Õµ•¹ÑÌœ°Á•¹‘¥¹œè€…Ñ„Á•¹‘¥¹œœ°µ½¹Ñ è€=Ñ½‰•È5Qœ°…ÑÕ…±Q½Ñ…°è€5QÑ½Ñ…°œ°Ñ…É•ÑQ½Ñ…°è€5½¹Ñ¡±äÑ…É•Ðœ°ÁÉ½É•ÍÍI…Ñ”è€AÉ½É•ÍÌÉ…Ñ”œ°‘½Õµ•¹ÑQ½Ñ…°è€Q½Ñ…°‘½Õµ•¹ÑÌœô°(€€€€€µÌèìÍ¹…ÁÍ¡½Ðè€…Í M…±•ÌÍ•‰•¹…Èƒ
+Ü€ÇŠLÄÀ=­Ð€ÈÀÈØœ°‘½Õµ•¹ÑÌè€‘½­Õµ•¸œ°Á•¹‘¥¹œè€5•¹Õ¹Ô‘…Ñ„œ°µ½¹Ñ è€=­Ñ½‰•ÈÑ•É­ÕµÁÕ°œ°…ÑÕ…±Q½Ñ…°è€)Õµ±… Ñ•É­ÕµÁÕ°œ°Ñ…É•ÑQ½Ñ…°è€M…Í…É…¸‰Õ±…¹…¸œ°ÁÉ½É•ÍÍI…Ñ”è€-…‘…È­•µ…©Õ…¸œ°‘½Õµ•¹ÑQ½Ñ…°è€)Õµ±… ‘½­Õµ•¸œô°(€€€€€©„èìÍ¹…ÁÍ¡½Ðè€…Í M…±•Ìƒ–ºžâøƒ
+Ü€ÈÀÈÛ–æÐÄÃšr Çš^—ŽpÄÃš^”œ°‘½Õµ•¹ÑÌè€Ÿ’îØœ°Á•¹‘¥¹œè€ŸŽŽóŽ
+ÿ–>[–ú_–úŽ„œ°µ½¹Ñ è€œÄÃšr#žÒ¿¢¢ œ°…ÑÕ…±Q½Ñ…°è€Ÿ’î+šr#žÒ¿¢¢#–B#¢¢ œ°Ñ…É•ÑQ½Ñ…°è€Ÿ’î+šr#žn»š¢g–B#¢¢ œ°ÁÉ½É•ÍÍI…Ñ”è€Ÿ’î+šr#Ž»¦Ëš6_ž:œ°‘½Õµ•¹ÑQ½Ñ…°è€ŸžÒ¿¢¢#’òwž–£šVÀœô°(€€€€€é èìÍ¹…ÁÍ¡½Ðè€…Í M…±•Ìƒ–º{žî¤ƒ
+Ü€ÈÀÈÛ–æÐÄÃšr Çš^—¢ÌÄÃš^”œ°‘½Õµ•¹ÑÌè€Ÿ–ò€œ°Á•¹‘¥¹œè€ŸšVÃš6»–ú¢:ß–>Xœ°µ½¹Ñ è€œÄÃšr#žÒ¿¢º„œ°…ÑÕ…±Q½Ñ…°è€Ÿšr³šr#žÒ¿¢º‡šï¦Štœ°Ñ…É•ÑQ½Ñ…°è€Ÿšr³šr#žn»š‚šï¦Štœ°ÁÉ½É•ÍÍI…Ñ”è€Ÿšr³šr#¢þo–ê›ž:œ°‘½Õµ•¹ÑQ½Ñ…°è€ŸžÒ¿¢º‡–6Wš6»šVÀœô(€€€ôì(€€€½¹ÍÐ…Í¡M…±•ÍÑÕ…±Ì€ôì(€€€€€M$èì½µÁ…¹äè€¡•ÜQ…å…Èœ°Í…±•ÌèlÈÀÐÐÜ°ÄÀÜØä°ÄÜÀÐÈ°ÈÄÐÔä°ØØÌÀ°ÄääÐÀ°À°ÈÀÔää°ÄÔÀÀà°Át°‘½Õµ•¹ÑÌèlÈä°ÈØ°Ìà°ÌÈ°Ää°ÈÐ°À°ÌÌ°ÌÄ°Átô°(€€€€€MHèì½µÁ…¹äè€•µ½¬Q…å…Èœ°Í…±•ÌèlÐØÔÌ°ÌÐØÜ°ÜÌÄÄ¸Ð°äØÔä°ØÄÜà°ÈäØÌ°ÔØÔà°äàÈÈ°ÌàÔà°Át°‘½Õµ•¹ÑÌèlÄÐ°Äà°ÈØ°ÈØ°Äà°ÄØ°ÈØ°ÈØ°ÈØ°Átô°(€€€€€MPèì½µÁ…¹äè€•µ½¬Q…å…Èœ°Í…±•ÌèlÔÜÐÌ°ÄÄäÐÈ°ÄÜÜÈØ°ÈÀÌÄÌ°ÐÜÀÄ°ÄÀàÄÀ°À°ÄÀààÌ°ààÔÀ°Át°‘½Õµ•¹ÑÌèlÄÌ°ÈÌ°ÌÄ°ÌÀ°ÄÔ°ÄØ°À°ÄÐ°ÄÐ°Átô°(€€€€€M,èì½µÁ…¹äè€Q…å…Èœ°Í…±•ÌèlÌÄÈØ°ÈÄÌØ°ÜÜÐØ°ÔÌÈÌ°ÌàÄØ°ÐØàà°À°ÐÜÐà°ØØÀÌ°Át°‘½Õµ•¹ÑÌèlÄÀ°ÄÈ°ÄÔ°ÈÔ°ÄÜ°ÄÔ°À°ÄÐ°Ää°Átô(€€€ôì(€€€±•Ð‘…Í¡‰½…É‘…Ñ…5•Ñ„€ôìµ½¹Ñ è€œÈÀÈØ´ÄÀœ°±…Ñ•ÍÑ…Ñ”è€œÈÀÈØ´ÄÀ´ÄÀœôì(€€€½¹ÍÐ…ÑÕ…±½‘•Ì€ô=‰©•Ð¹­•åÌ¡…Í¡M…±•ÍÑÕ…±Ì¤ì(€€€™Õ¹Ñ¥½¸…ÑÕ…±Q…É•ÑÌ ¤ì(€€€€€±•ÐÍ…Ù•€ô¹Õ±°ì(€€€€€ÑÉäìÍ…Ù•€ô)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´ •µ½¬µµ½¹Ñ¡±äµÑ…É•ÑÌ´ÈÀÈØ´ÄÀœ¤¤ìô…Ñ €¡•ÉÉ½È¤ìÍ…Ù•€ô¹Õ±°ìô(€€€€€É•ÑÕÉ¸=‰©•Ð¹™É½µ¹ÑÉ¥•Ì¡=‰©•Ð¹•¹ÑÉ¥•Ì¡Ñ…É•Ñ•™…Õ±ÑÌ¤¹µ…À ¡m½‘”°Ù…±Õ•t¤€ôøm½‘”°Í…Ù•€˜˜9Õµ‰•È¹¥Í¥¹¥Ñ”¡9Õµ‰•È¡Í…Ù•‘m½‘•t¤¤€ü9Õµ‰•È¡Í…Ù•‘m½‘•t¤€èÙ…±Õ•t¤¤ì(€€€ô(€€€™Õ¹Ñ¥½¸™½Éµ…ÑI4¡Ù…±Õ”°½µÁ…Ð€ô™…±Í”¤ì(€€€€€½¹ÍÐ±½…±”€ô±½…±•	å1…¹Õ…•m±…¹Õ…•tì(€€€€€¥˜€¡½µÁ…Ð€˜˜5…Ñ ¹…‰Ì¡Ù…±Õ”¤€øô€ÄÀÀÀ¤É•ÑÕÉ¸I4€‘ì¡Ù…±Õ”€¼€ÄÀÀÀ¤¹Ñ½1½…±•MÑÉ¥¹œ¡±½…±”°ìµ…á¥µÕµÉ…Ñ¥½¹¥¥ÑÌè€Äô¥õ-€ì(€€€€€É•ÑÕÉ¸I4€‘í9Õµ‰•È¡Ù…±Õ”¤¹Ñ½1½…±•MÑÉ¥¹œ¡±½…±”°ìµ…á¥µÕµÉ…Ñ¥½¹¥¥ÑÌè€Èô¥õ€ì(€€€ô(€€€™Õ¹Ñ¥½¸Í…±•ÍAÉ½É•ÍÍQ¥Ñ±” ¤ì(€€€€€½¹ÍÐ½Á•¸€ôl•¸œ°€µÌt¹¥¹±Õ‘•Ì¡±…¹Õ…”¤€ü€œ€ œ€è€Ÿ¾ò œì(€€€€€½¹ÍÐ±½Í”€ôl•¸œ°€µÌt¹¥¹±Õ‘•Ì¡±…¹Õ…”¤€ü€œ¤œ€è€Ÿ¾ò$œì(€€€€€É•ÑÕÉ¸€‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Í…±•ÍAÉ½É•ÍÍô‘í½Á•¹ô‘í‘…Í¡‰½…É‘5½¹Ñ¡9…µ” ¥ô‘í±½Í•õ€ì(€€€ô(€€€™Õ¹Ñ¥½¸‘…Í¡‰½…É‘…Ñ”¡‘…ä€ô€Ä¤ì(€€€€€½¹ÍÐmå•…È°µ½¹Ñ¡t€ô‘…Í¡‰½…É‘…Ñ…5•Ñ„¹µ½¹Ñ ¹ÍÁ±¥Ð œ´œ¤¹µ…À¡9Õµ‰•È¤ì(€€€€€É•ÑÕÉ¸¹•Ü…Ñ”¡…Ñ”¹UQ¡å•…È°µ½¹Ñ €´€Ä°‘…ä¤¤ì(€€€ô(€€€™Õ¹Ñ¥½¸‘…Í¡‰½…É‘5½¹Ñ¡9…µ” ¤ì(€€€€€½¹ÍÐ‘…Ñ”€ô‘…Í¡‰½…É‘…Ñ” ¤ì(€€€€€¥˜€¡±…¹Õ…”€ôôô€©„œñð±…¹Õ…”€ôôô€é œ¤É•ÑÕÉ¸€‘í‘…Ñ”¹•ÑUQ5½¹Ñ  ¤€¬€Å÷šr!€ì(€€€€€É•ÑÕÉ¸¹•Ü%¹Ñ°¹…Ñ•Q¥µ•½Éµ…Ð¡±½…±•	å1…¹Õ…•m±…¹Õ…•t°ìµ½¹Ñ è€±½¹œœ°Ñ¥µ•i½¹”è€UQœô¤¹™½Éµ…Ð¡‘…Ñ”¤ì(€€€ô(€€€™Õ¹Ñ¥½¸‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ì(€€€€€½¹ÍÐmå•…È°µ½¹Ñ¡t€ô‘…Í¡‰½…É‘…Ñ…5•Ñ„¹µ½¹Ñ ¹ÍÁ±¥Ð œ´œ¤¹µ…À¡9Õµ‰•È¤ì(€€€€€½¹ÍÐ±…ÍÑ…ä€ô9Õµ‰•È¡‘…Í¡‰½…É‘…Ñ…5•Ñ„¹±…Ñ•ÍÑ…Ñ”¹Í±¥” ´È¤¤ì(€€€€€½¹ÍÐµ½¹Ñ¡9…µ”€ô¹•Ü%¹Ñ°¹…Ñ•Q¥µ•½Éµ…Ð¡±½…±•	å1…¹Õ…•m±…¹Õ…•t°ìµ½¹Ñ è€Í¡½ÉÐœ°Ñ¥µ•i½¹”è€UQœô¤¹™½Éµ…Ð¡¹•Ü…Ñ”¡…Ñ”¹UQ¡å•…È°µ½¹Ñ €´€Ä°€Ä¤¤¤ì(€€€€€¥˜€¡±…¹Õ…”€ôôô€©„œ¤É•ÑÕÉ¸…Í M…±•Ìƒ–ºžâøƒ
+Ü€‘íå•…É÷–æÐ‘íµ½¹Ñ¡÷šr Çš^—Žp‘í±…ÍÑ…å÷š^•€ì(€€€€€¥˜€¡±…¹Õ…”€ôôô€é œ¤É•ÑÕÉ¸…Í M…±•Ìƒ–º{žî¤ƒ
+Ü€‘íå•…É÷–æÐ‘íµ½¹Ñ¡÷šr Çš^—¢Ì‘í±…ÍÑ…å÷š^•€ì(€€€€€¥˜€¡±…¹Õ…”€ôôô€µÌœ¤É•ÑÕÉ¸…Í M…±•ÌÍ•‰•¹…Èƒ
+Ü€ÇŠL‘í±…ÍÑ…åô€‘íµ½¹Ñ¡9…µ•ô€‘íå•…Éõ€ì(€€€€€É•ÑÕÉ¸…Í M…±•Ì…ÑÕ…±Ìƒ
+Ü€ÇŠL‘í±…ÍÑ…åô€‘íµ½¹Ñ¡9…µ•ô€‘íå•…Éõ€ì(€€€ô(€€€™Õ¹Ñ¥½¸™½Éµ…Ñ¡…ÉÑ…ä¡‘…ä¤ì(€€€€€½¹ÍÐÝ••­‘…ä€ô¹•Ü%¹Ñ°¹…Ñ•Q¥µ•½Éµ…Ð¡±½…±•	å1…¹Õ…•m±…¹Õ…•t°ìÝ••­‘…äè€Í¡½ÉÐœ°Ñ¥µ•i½¹”è€UQœô¤¹™½Éµ…Ð¡‘…Í¡‰½…É‘…Ñ”¡‘…ä¤¤ì(€€€€€É•ÑÕÉ¸ì(€€€€€€€‘…äèl©„œ°€é t¹¥¹±Õ‘•Ì¡±…¹Õ…”¤€ü€‘í‘…å÷š^•€€èMÑÉ¥¹œ¡‘…ä¤°(€€€€€€€Ý••­‘…äè±…¹Õ…”€ôôô€é œ€üÝ••­‘…ä¹É•Á±…” ½{–F ¼°€œœ¤€èÝ••­‘…ä°(€€€€€ôì(€€€ô(€€€™Õ¹Ñ¥½¸™½Éµ…Ñ¡…ÉÑQ¡½ÕÍ…¹‘Ì¡Ù…±Õ”¤ì(€€€€€É•ÑÕÉ¸€‘ì¡9Õµ‰•È¡Ù…±Õ”¤€¼€ÄÀÀÀ¤¹Ñ½1½…±•MÑÉ¥¹œ¡±½…±•	å1…¹Õ…•m±…¹Õ…•t°ìµ¥¹¥µÕµÉ…Ñ¥½¹¥¥ÑÌè€Ä°µ…á¥µÕµÉ…Ñ¥½¹¥¥ÑÌè€Äô¥õ-€ì(€€€ô(€€€™Õ¹Ñ¥½¸¡…ÉÑMÙœ¡µ•ÑÉ¥Œ¤ì(€€€€€½¹ÍÐ¥ÍM…±•Ì€ôµ•ÑÉ¥Œ€ôôô€Í…±•Ìœì(€€€€€½¹ÍÐ‘¥ÍÁ±…å…åÌ€ô…Í¡M…±•ÍÑÕ…±Ím…ÑÕ…±½‘•ÍlÁut¹Í…±•Ì¹±•¹Ñ ì(€€€€€½¹ÍÐ‘…¥±åM…±•ÍQ½Ñ…±Ì€ôÉÉ…ä¹™É½´¡ì±•¹Ñ è‘¥ÍÁ±…å…åÌô°€¡|°‘…å%¹‘•à¤€ôø…ÑÕ…±½‘•Ì¹É•‘Õ” ¡ÍÕ´°½‘”¤€ôøÍÕ´€¬…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ím‘…å%¹‘•át°€À¤¤ì(€€€€€½¹ÍÐÉ…ÝM…±•ÍMÑ•À€ô5…Ñ ¹µ…à ¸¸¹‘…¥±åM…±•ÍQ½Ñ…±Ì°€Ä¤€¼€Ìì(€€€€€½¹ÍÐÍ…±•ÍMÑ•Á5…¹¥ÑÕ‘”€ô€ÄÀ€¨¨5…Ñ ¹™±½½È¡5…Ñ ¹±½œÄÀ¡É…ÝM…±•ÍMÑ•À¤¤ì(€€€€€½¹ÍÐ¹½Éµ…±¥é•‘M…±•ÍMÑ•À€ôÉ…ÝM…±•ÍMÑ•À€¼Í…±•ÍMÑ•Á5…¹¥ÑÕ‘”ì(€€€€€½¹ÍÐÍ…±•ÍMÑ•Á…Ñ½È€ô¹½Éµ…±¥é•‘M…±•ÍMÑ•À€ðô€Ä€ü€Ä€è¹½Éµ…±¥é•‘M…±•ÍMÑ•À€ðô€È€ü€È€è¹½Éµ…±¥é•‘M…±•ÍMÑ•À€ðô€Ô€ü€Ô€è€ÄÀì(€€€€€½¹ÍÐÍ…±•ÍMÑ•À€ôÍ…±•ÍMÑ•Á…Ñ½È€¨Í…±•ÍMÑ•Á5…¹¥ÑÕ‘”ì(€€€€€½¹ÍÐµ…áY…±Õ”€ô¥ÍM…±•Ì€üÍ…±•ÍMÑ•À€¨€Ì€è€ÄÈÀì(€€€€€½¹ÍÐÑ¥­Ì€ô¥ÍM…±•Ì€ülÀ°Í…±•ÍMÑ•À°Í…±•ÍMÑ•À€¨€È°Í…±•ÍMÑ•À€¨€Ít€èlÀ°€ÌÀ°€ØÀ°€äÀ°€ÄÈÁtì(€€€€€½¹ÍÐä€ô€¡Ù…±Õ”¤€ôø€ÄäÀ€´€ ÄÌà€¨Ù…±Õ”€¼µ…áY…±Õ”¤ì(€€€€€½¹ÍÐà€ô€¡¥¹‘•à¤€ôø€ÄÀà€¬€¡¥¹‘•à€¨€¡‘¥ÍÁ±…å…åÌ€ø€Ä€ü€àÄØ€¼€¡‘¥ÍÁ±…å…åÌ€´€Ä¤€è€À¤¤ì(€€€€€½¹ÍÐ½±½ÉÌ€ôlÙ…È ´µÍ¤¤œ°€Ù…È ´µÍÈ¤œ°€Ù…È ´µÍÐ¤œ°€Ù…È ´µÍ¬¤tì(€€€€€½¹ÍÐÉ¥€ôÑ¥­Ì¹µ…À ¡Ñ¥¬¤€ôø€ñ±¥¹”àÄôˆØÐˆàÈôˆäÔÀˆäÄôˆ‘íä¡Ñ¥¬¥ôˆäÈôˆ‘íä¡Ñ¥¬¥ôˆ¼ù€¤¹©½¥¸ œœ¤ì(€€€€€½¹ÍÐ…á¥Ì€ôÑ¥­Ì¹µ…À ¡Ñ¥¬¤€ôø€ñÑ•áÐàôˆ‘í¥ÍM…±•Ì€ü€ÄÌ€è€ÈÕôˆäôˆ‘íä¡Ñ¥¬¤€¬€Ñôˆø‘í¥ÍM…±•Ì€ü€¡Ñ¥¬€ôôô€À€ü€œÀœ€è™½Éµ…Ñ¡…ÉÑQ¡½ÕÍ…¹‘Ì¡Ñ¥¬¤¤€èÑ¥­ôð½Ñ•áÐù€¤¹©½¥¸ œœ¤ì(€€€€€½¹ÍÐ‘…åá¥Ì€ôÉÉ…ä¹™É½´¡ì±•¹Ñ è‘¥ÍÁ±…å…åÌô°€¡|°¥¹‘•à¤€ôøì(€€€€€€€½¹ÍÐ±…‰•°€ô™½Éµ…Ñ¡…ÉÑ…ä¡¥¹‘•à€¬€Ä¤ì(€€€€€€€É•ÑÕÉ¸€ñÑ•áÐàôˆ‘íà¡¥¹‘•à¥ôˆäôˆÈÀÜˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆøñÑÍÁ…¸àôˆ‘íà¡¥¹‘•à¥ôˆø‘í±…‰•°¹‘…åôð½ÑÍÁ…¸øñÑÍÁ…¸àôˆ‘íà¡¥¹‘•à¥ôˆ‘äôˆÄÌˆø‘í±…‰•°¹Ý••­‘…åôð½ÑÍÁ…¸øð½Ñ•áÐù€ì(€€€€€ô¤¹©½¥¸ œœ¤ì(€€€€€¥˜€¡¥ÍM…±•Ì¤ì(€€€€€€€½¹ÍÐÍÑ…­•‘	…ÉÌ€ôÉÉ…ä¹™É½´¡ì±•¹Ñ è‘¥ÍÁ±…å…åÌô°€¡|°‘…å%¹‘•à¤€ôøì(€€€€€€€€€±•ÐÑ½Ñ…°€ô€Àì(€€€€€€€€€½¹ÍÐ‰…É`€ôà¡‘…å%¹‘•à¤€´€ÈÌì(€€€€€€€€€½¹ÍÐÍ•µ•¹ÑÌ€ô…ÑÕ…±½‘•Ì¹µ…À ¡½‘”°½‘•%¹‘•à¤€ôøì(€€€€€€€€€€€½¹ÍÐÙ…±Õ”€ô…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ím‘…å%¹‘•átì(€€€€€€€€€€€¥˜€ …Ù…±Õ”¤É•ÑÕÉ¸€œœì(€€€€€€€€€€€½¹ÍÐÍÑ…ÉÐ€ôÑ½Ñ…°ì(€€€€€€€€€€€Ñ½Ñ…°€¬ôÙ…±Õ”ì(€€€€€€€€€€€½¹ÍÐÑ½À€ôä¡Ñ½Ñ…°¤ì(€€€€€€€€€€€½¹ÍÐ¡•¥¡Ð€ôä¡ÍÑ…ÉÐ¤€´Ñ½Àì(€€€€€€€€€€€½¹ÍÐ±…‰•±½±½È€ô½‘”€ôôô€MHœ€ü€œŒÄÜÈÈÌàœ€è€œ™™™™™˜œì(€€€€€€€€€€€É•ÑÕÉ¸€ñÉ•Ðàôˆ‘í‰…Éaôˆäôˆ‘íÑ½ÁôˆÝ¥‘Ñ ôˆÐØˆ¡•¥¡Ðôˆ‘í¡•¥¡Ñôˆ™¥±°ôˆ‘í½±½ÉÍm½‘•%¹‘•áuôˆ¼øñÑ•áÐ±…ÍÌô‰Í…±•ÌµÙ…±Õ”µ±…‰•°ˆàôˆ‘íà¡‘…å%¹‘•à¥ôˆäôˆ‘íÑ½À€¬€¡¡•¥¡Ð€¼€È¥ôˆ‘½µ¥¹…¹Ðµ‰…Í•±¥¹”ô‰µ¥‘‘±”ˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆ™¥±°ôˆ‘í±…‰•±½±½Éôˆø‘í™½Éµ…Ñ¡…ÉÑQ¡½ÕÍ…¹‘Ì¡Ù…±Õ”¥ôð½Ñ•áÐù€ì(€€€€€€€€€ô¤¹©½¥¸ œœ¤ì(€€€€€€€€€½¹ÍÐÑ½Ñ…±1…‰•°€ôÑ½Ñ…°€ø€À€ü€ñÑ•áÐ±…ÍÌô‰Í…±•ÌµÑ½Ñ…°µ±…‰•°ˆàôˆ‘íà¡‘…å%¹‘•à¥ôˆäôˆ‘í5…Ñ ¹µ…à¡ä¡Ñ½Ñ…°¤€´€Ø°€ÄÈ¥ôˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆ™¥±°ôˆ˜Ñ˜á™˜ˆø‘í™½Éµ…Ñ¡…ÉÑQ¡½ÕÍ…¹‘Ì¡Ñ½Ñ…°¥ôð½Ñ•áÐù€€è€œœì(€€€€€€€€€É•ÑÕÉ¸€ñœø‘íÍ•µ•¹ÑÍô‘íÑ½Ñ…±1…‰•±ôð½œù€ì(€€€€€€€ô¤¹©½¥¸ œœ¤ì(€€€€€€€É•ÑÕÉ¸€ñÍÙœÙ¥•Ý	½àôˆÀ€À€äÜÀ€ÈÌÔˆÉ½±”ô‰¥µœˆ…É¥„µ±…‰•°ôˆ‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Í…±•Í¡…ÉÑQ¥Ñ±•ôˆÁÉ•Í•ÉÙ•ÍÁ•ÑI…Ñ¥¼ô‰¹½¹”ˆøñœ±…ÍÌô‰É¥µ±¥¹”ˆø‘íÉ¥‘ôð½œøñœ±…ÍÌô‰…á¥Ìˆø‘í…á¥Íô‘í‘…åá¥Íôð½œø‘íÍÑ…­•‘	…ÉÍôñÑ•áÐ±…ÍÌô‰…á¥Ìµ±…‰•°ˆàôˆØÐˆäôˆÈÈäˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹…µ½Õ¹Ñá¥Íôð½Ñ•áÐøð½ÍÙœù€ì(€€€€€ô(€€€€€½¹ÍÐÍÑ…­•‘	…ÉÌ€ôÉÉ…ä¹™É½´¡ì±•¹Ñ è‘¥ÍÁ±…å…åÌô°€¡|°‘…å%¹‘•à¤€ôøì(€€€€€€€±•ÐÑ½Ñ…°€ô€Àì(€€€€€€€½¹ÍÐ‰…É`€ôà¡‘…å%¹‘•à¤€´€ÈÌì(€€€€€€€½¹ÍÐÍ•µ•¹ÑÌ€ô…ÑÕ…±½‘•Ì¹µ…À ¡½‘”°½‘•%¹‘•à¤€ôøì(€€€€€€€€€½¹ÍÐÙ…±Õ”€ô…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÍm‘…å%¹‘•átì(€€€€€€€€€¥˜€ …Ù…±Õ”¤É•ÑÕÉ¸€œœì(€€€€€€€€€½¹ÍÐÍÑ…ÉÐ€ôÑ½Ñ…°ì(€€€€€€€€€Ñ½Ñ…°€¬ôÙ…±Õ”ì(€€€€€€€€€½¹ÍÐÑ½À€ôä¡Ñ½Ñ…°¤ì(€€€€€€€€€½¹ÍÐ¡•¥¡Ð€ôä¡ÍÑ…ÉÐ¤€´Ñ½Àì(€€€€€€€€€½¹ÍÐ±…‰•±½±½È€ô½‘”€ôôô€MHœ€ü€œŒÄÜÈÈÌàœ€è€œ™™™™™˜œì(€€€€€€€€€É•ÑÕÉ¸€ñÉ•Ðàôˆ‘í‰…Éaôˆäôˆ‘íÑ½ÁôˆÝ¥‘Ñ ôˆÐØˆ¡•¥¡Ðôˆ‘í¡•¥¡Ñôˆ™¥±°ôˆ‘í½±½ÉÍm½‘•%¹‘•áuôˆ¼øñÑ•áÐ±…ÍÌô‰‘½Õµ•¹ÐµÙ…±Õ”µ±…‰•°ˆàôˆ‘íà¡‘…å%¹‘•à¥ôˆäôˆ‘íÑ½À€¬€¡¡•¥¡Ð€¼€È¤€¬€ÍôˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆ™¥±°ôˆ‘í±…‰•±½±½Éôˆø‘íÙ…±Õ•ôð½Ñ•áÐù€ì(€€€€€€€ô¤¹©½¥¸ œœ¤ì(€€€€€€€½¹ÍÐÑ½Ñ…±1…‰•°€ôÑ½Ñ…°€ø€À€ü€ñÑ•áÐ±…ÍÌô‰‘½Õµ•¹ÐµÑ½Ñ…°µ±…‰•°ˆàôˆ‘íà¡‘…å%¹‘•à¥ôˆäôˆ‘í5…Ñ ¹µ…à¡ä¡Ñ½Ñ…°¤€´€Ø°€ÄÈ¥ôˆÑ•áÐµ…¹¡½Èô‰µ¥‘‘±”ˆ™¥±°ôˆ˜Ñ˜á™˜ˆø‘íÑ½Ñ…±ôð½Ñ•áÐù€€è€œœì(€€€€€€€É•ÑÕÉ¸€ñœø‘íÍ•µ•¹ÑÍô‘íÑ½Ñ…±1…‰•±ôð½œù€ì(€€€€€ô¤¹©½¥¸ œœ¤ì(€€€€€É•ÑÕÉ¸€ñÍÙœÙ¥•Ý	½àôˆÀ€À€äÜÀ€ÈÌÔˆÉ½±”ô‰¥µœˆ…É¥„µ±…‰•°ôˆ‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±•ôˆÁÉ•Í•ÉÙ•ÍÁ•ÑI…Ñ¥¼ô‰¹½¹”ˆøñœ±…ÍÌô‰É¥µ±¥¹”ˆø‘íÉ¥‘ôð½œøñœ±…ÍÌô‰…á¥Ìˆø‘í…á¥Íô‘í‘…åá¥Íôð½œø‘íÍÑ…­•‘	…ÉÍôñÑ•áÐ±…ÍÌô‰…á¥Ìµ±…‰•°ˆàôˆØÐˆäôˆÈÈäˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘½Õµ•¹Ñá¥Íôð½Ñ•áÐøð½ÍÙœù€ì(€€€ô(€€€™Õ¹Ñ¥½¸½Á•¹¡…ÉÑÕ±±ÍÉ••¸¡Á…¹•°¤ì(€€€€€¥˜€ …Ý¥¹‘½Ü¹µ…Ñ¡5•‘¥„ œ¡µ…àµÝ¥‘Ñ èÜÈÁÁà¤œ¤¹µ…Ñ¡•Ìñð‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½È œ¹¡…ÉÐµ™Õ±±ÍÉ••¸œ¤¤É•ÑÕÉ¸ì(€€€€€½¹ÍÐ½Áä€ô¡…ÉÑÕ±±ÍÉ••¹½Áåm±…¹Õ…•tì(€€€€€½¹ÍÐÁÉ•Ù¥½ÕÍ½ÕÌ€ô‘½Õµ•¹Ð¹…Ñ¥Ù•±•µ•¹Ðì(€€€€€½¹ÍÐ½Ù•É±…ä€ô‘½Õµ•¹Ð¹É•…Ñ•±•µ•¹Ð ‘¥Øœ¤ì(€€€€€½Ù•É±…ä¹±…ÍÍ9…µ”€ô€¡…ÉÐµ™Õ±±ÍÉ••¸œì(€€€€€½Ù•É±…ä¹Í•ÑÑÑÉ¥‰ÕÑ” É½±”œ°€‘¥…±½œœ¤ì(€€€€€½Ù•É±…ä¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µµ½‘…°œ°€ÑÉÕ”œ¤ì(€€€€€½Ù•É±…ä¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µ±…‰•°œ°½Áä¹‘¥…±½œ¤ì(€€€€€½¹ÍÐ‘¥…±½œ€ô‘½Õµ•¹Ð¹É•…Ñ•±•µ•¹Ð ‘¥Øœ¤ì(€€€€€‘¥…±½œ¹±…ÍÍ9…µ”€ô€¡…ÉÐµ™Õ±±ÍÉ••¸µ‘¥…±½œœì(€€€€€½¹ÍÐ±½Í•	ÕÑÑ½¸€ô‘½Õµ•¹Ð¹É•…Ñ•±•µ•¹Ð ‰ÕÑÑ½¸œ¤ì(€€€€€±½Í•	ÕÑÑ½¸¹ÑåÁ”€ô€‰ÕÑÑ½¸œì(€€€€€±½Í•	ÕÑÑ½¸¹±…ÍÍ9…µ”€ô€¡…ÉÐµ™Õ±±ÍÉ••¸µ±½Í”œì(€€€€€±½Í•	ÕÑÑ½¸¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹±½Í”ì(€€€€€½¹ÍÐ•áÁ…¹‘•‘¡…ÉÐ€ôÁ…¹•°¹±½¹•9½‘”¡ÑÉÕ”¤ì(€€€€€•áÁ…¹‘•‘¡…ÉÐ¹±…ÍÍ1¥ÍÐ¹…‘ ™Õ±±ÍÉ••¸µ¡…ÉÐµ½¹Ñ•¹Ðœ¤ì(€€€€€•áÁ…¹‘•‘¡…ÉÐ¹ÅÕ•ÉåM•±•Ñ½É±° œ¹¡…ÉÐµ•áÁ…¹µÑÉ¥•Èœ¤¹™½É…  ¡¡…ÉÐ¤€ôøì(€€€€€€€¡…ÉÐ¹±…ÍÍ1¥ÍÐ¹É•µ½Ù” ¡…ÉÐµ•áÁ…¹µÑÉ¥•Èœ¤ì(€€€€€€€¡…ÉÐ¹É•µ½Ù•ÑÑÉ¥‰ÕÑ” Ñ…‰¥¹‘•àœ¤ì(€€€€€€€¡…ÉÐ¹É•µ½Ù•ÑÑÉ¥‰ÕÑ” É½±”œ¤ì(€€€€€ô¤ì(€€€€€½¹ÍÐ±½Í”€ô€ ¤€ôøì(€€€€€€€‘½Õµ•¹Ð¹É•µ½Ù•Ù•¹Ñ1¥ÍÑ•¹•È ­•å‘½Ý¸œ°½¹-•å‘½Ý¸¤ì(€€€€€€€‘½Õµ•¹Ð¹‰½‘ä¹±…ÍÍ1¥ÍÐ¹É•µ½Ù” ¡…ÉÐµ™Õ±±ÍÉ••¸µ½Á•¸œ¤ì(€€€€€€€½Ù•É±…ä¹É•µ½Ù” ¤ì(€€€€€€€¥˜€¡ÁÉ•Ù¥½ÕÍ½ÕÌ€˜˜‘½Õµ•¹Ð¹½¹Ñ…¥¹Ì¡ÁÉ•Ù¥½ÕÍ½ÕÌ¤¤ÁÉ•Ù¥½ÕÍ½ÕÌ¹™½ÕÌ ¤ì(€€€€€ôì(€€€€€½¹ÍÐ½¹-•å‘½Ý¸€ô€¡•Ù•¹Ð¤€ôøì¥˜€¡•Ù•¹Ð¹­•ä€ôôô€Í…Á”œ¤±½Í” ¤ìôì(€€€€€±½Í•	ÕÑÑ½¸¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°±½Í”¤ì(€€€€€½Ù•É±…ä¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€¡•Ù•¹Ð¤€ôøì¥˜€¡•Ù•¹Ð¹Ñ…É•Ð€ôôô½Ù•É±…ä¤±½Í” ¤ìô¤ì(€€€€€‘½Õµ•¹Ð¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ­•å‘½Ý¸œ°½¹-•å‘½Ý¸¤ì(€€€€€‘¥…±½œ¹…ÁÁ•¹¡±½Í•	ÕÑÑ½¸°•áÁ…¹‘•‘¡…ÉÐ¤ì(€€€€€½Ù•É±…ä¹…ÁÁ•¹¡‘¥…±½œ¤ì(€€€€€‘½Õµ•¹Ð¹‰½‘ä¹±…ÍÍ1¥ÍÐ¹…‘ ¡…ÉÐµ™Õ±±ÍÉ••¸µ½Á•¸œ¤ì(€€€€€‘½Õµ•¹Ð¹‰½‘ä¹…ÁÁ•¹¡½Ù•É±…ä¤ì(€€€€€±½Í•	ÕÑÑ½¸¹™½ÕÌ ¤ì(€€€ô(€€€™Õ¹Ñ¥½¸‰¥¹‘¡…ÉÑáÁ…¹Í¥½¸ ¤ì(€€€€€½¹ÍÐ½Áä€ô¡…ÉÑÕ±±ÍÉ••¹½Áåm±…¹Õ…•tì(€€€€€Í…±•Í…Í¡‰½…É¹ÅÕ•ÉåM•±•Ñ½É±° œ¹¡…ÉÐµÁ…¹•°ÍÙœœ¤¹™½É…  ¡¡…ÉÐ¤€ôøì(€€€€€€€¡…ÉÐ¹±…ÍÍ1¥ÍÐ¹…‘ ¡…ÉÐµ•áÁ…¹µÑÉ¥•Èœ¤ì(€€€€€€€¡…ÉÐ¹Í•ÑÑÑÉ¥‰ÕÑ” Ñ…‰¥¹‘•àœ°€œÀœ¤ì(€€€€€€€¡…ÉÐ¹Í•ÑÑÑÉ¥‰ÕÑ” É½±”œ°€‰ÕÑÑ½¸œ¤ì(€€€€€€€¡…ÉÐ¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µ±…‰•°œ°€‘í¡…ÉÐ¹•ÑÑÑÉ¥‰ÕÑ” …É¥„µ±…‰•°œ¥ô¸€‘í½Áä¹¡¥¹Ñõ€¤ì(€€€€€€€¡…ÉÐ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€ ¤€ôø½Á•¹¡…ÉÑÕ±±ÍÉ••¸¡¡…ÉÐ¹±½Í•ÍÐ œ¹¡…ÉÐµÁ…¹•°œ¤¤¤ì(€€€€€€€¡…ÉÐ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ­•å‘½Ý¸œ°€¡•Ù•¹Ð¤€ôøì(€€€€€€€€€¥˜€¡•Ù•¹Ð¹­•ä€ôôô€¹Ñ•Èœñð•Ù•¹Ð¹­•ä€ôôô€œ€œ¤ì(€€€€€€€€€€€•Ù•¹Ð¹ÁÉ•Ù•¹Ñ•™…Õ±Ð ¤ì(€€€€€€€€€€€½Á•¹¡…ÉÑÕ±±ÍÉ••¸¡¡…ÉÐ¹±½Í•ÍÐ œ¹¡…ÉÐµÁ…¹•°œ¤¤ì(€€€€€€€€€ô(€€€€€€€ô¤ì(€€€€€ô¤ì(€€€ô(€€€™Õ¹Ñ¥½¸É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€€€½¹ÍÐ±…‰•±Ì€ôì€¸¸¹…ÑÕ…±1…‰•±Ím±…¹Õ…•t°Í¹…ÁÍ¡½Ðè‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ôì(€€€€€½¹ÍÐÑ…É•ÑÌ€ô…ÑÕ…±Q…É•ÑÌ ¤ì(€€€€€½¹ÍÐÑ½‘…åQ½Ñ…°€ô…ÑÕ…±½‘•Ì¹É•‘Õ” ¡ÍÕ´°½‘”¤€ôøÍÕ´€¬…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì¹…Ð ´Ä¤°€À¤ì(€€€€€½¹ÍÐµ½¹Ñ¡Q½Ñ…°€ô…ÑÕ…±½‘•Ì¹É•‘Õ” ¡ÍÕ´°½‘”¤€ôøÍÕ´€¬…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì¹É•‘Õ” ¡Ñ½Ñ…°°Ù…±Õ”¤€ôøÑ½Ñ…°€¬Ù…±Õ”°€À¤°€À¤ì(€€€€€½¹ÍÐ‘½Õµ•¹ÑQ½Ñ…°€ô…ÑÕ…±½‘•Ì¹É•‘Õ” ¡ÍÕ´°½‘”¤€ôøÍÕ´€¬…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÌ¹É•‘Õ” ¡Ñ½Ñ…°°Ù…±Õ”¤€ôøÑ½Ñ…°€¬Ù…±Õ”°€À¤°€À¤ì(€€€€€½¹ÍÐµ½¹Ñ¡Q…É•ÑQ½Ñ…°€ô=‰©•Ð¹Ù…±Õ•Ì¡Ñ…É•ÑÌ¤¹É•‘Õ” ¡ÍÕ´°Ù…±Õ”¤€ôøÍÕ´€¬Ù…±Õ”°€À¤ì(€€€€€½¹ÍÐµ½¹Ñ¡AÉ½É•ÍÌ€ôµ½¹Ñ¡Q…É•ÑQ½Ñ…°€üµ½¹Ñ¡Q½Ñ…°€¼µ½¹Ñ¡Q…É•ÑQ½Ñ…°€è€Àì(€€€€€½¹ÍÐ‘…¥±å…É‘Ì€ô…ÑÕ…±½‘•Ì¹µ…À ¡½‘”¤€ôøì(€€€€€€€½¹ÍÐÍÑ½É”€ô…Í¡M…±•ÍÑÕ…±Ím½‘•tì(€€€€€€€É•ÑÕÉ¸€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆø‘í½‘•ôð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆø‘íÍÑ½É”¹½µÁ…¹åôð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆø‘í™½Éµ…ÑI4¡ÍÑ½É”¹Í…±•Ì¹…Ð ´Ä¤¥ôð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌˆø‘íÍÑ½É”¹‘½Õµ•¹ÑÌ¹…Ð ´Ä¥ô€‘í±…‰•±Ì¹‘½Õµ•¹ÑÍôð½ÍÁ…¸øð½…ÉÑ¥±”ù€ì(€€€€€ô¤¹©½¥¸ œœ¤€¬€ñ…ÉÑ¥±”±…ÍÌô‰ÍÑ½É”µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÑ½ÀˆøñÍÁ…¸±…ÍÌô‰ÍÑ½É”µ½‘”ˆù-4ð½ÍÁ…¸øñÍÁ…¸±…ÍÌô‰½µÁ…¹äˆù	…ÕÌQ…å…Èð½ÍÁ…¸øð½‘¥Øøñ‘¥Ø±…ÍÌô‰ÍÑ½É”µÙ…±Õ”ˆûŠPð½‘¥ØøñÍÁ…¸±…ÍÌô‰ÍÑ…ÑÕÌÝ…É¸ˆø‘í±…‰•±Ì¹Á•¹‘¥¹ôð½ÍÁ…¸øð½…ÉÑ¥±”ù€ì(€€€€€½¹ÍÐµ½¹Ñ¡…É‘Ì€ô…ÑÕ…±½‘•Ì¹µ…À ¡½‘”¤€ôøì(€€€€€€€½¹ÍÐÍ…±•Ì€ô…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì¹É•‘Õ” ¡ÍÕ´°Ù…±Õ”¤€ôøÍÕ´€¬Ù…±Õ”°€À¤ì(€€€€€€€½¹ÍÐÉ…Ñ”€ôÑ…É•ÑÍm½‘•t€üÍ…±•Ì€¼Ñ…É•ÑÍm½‘•t€è€Àì(€€€€€€€É•ÑÕÉ¸€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œø‘í½‘•ôð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”ˆø‘ì¡É…Ñ”€¨€ÄÀÀ¤¹Ñ½¥á• Ä¥ô”ð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œø‘í™½Éµ…ÑI4¡Í…±•Ì°ÑÉÕ”¥ôð½ÍÑÉ½¹œø€¼€‘í™½Éµ…ÑI4¡Ñ…É•ÑÍm½‘•t°ÑÉÕ”¤¹É•Á±…” I4€œ°€œœ¥ôð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸ÍÑå±”ô‰Ý¥‘Ñ è‘í5…Ñ ¹µ¥¸¡É…Ñ”€¨€ÄÀÀ°€ÄÀÀ¥ô”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ù€ì(€€€€€ô¤¹©½¥¸ œœ¤€¬€ñ…ÉÑ¥±”±…ÍÌô‰µ½¹Ñ µÑ¥±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µÑ½ÀˆøñÍÑÉ½¹œù-4ð½ÍÑÉ½¹œøñÍÁ…¸±…ÍÌô‰É…Ñ”Ý…É¸ˆø‘í±…‰•±Ì¹Á•¹‘¥¹ôð½ÍÁ…¸øð½‘¥ØøñÀ±…ÍÌô‰µ½¹Ñ µÙ…±Õ”ˆøñÍÑÉ½¹œûŠPð½ÍÑÉ½¹œø€¼€‘í™½Éµ…ÑI4¡Ñ…É•ÑÌ¹-4°ÑÉÕ”¤¹É•Á±…” I4€œ°€œœ¥ôð½Àøñ‘¥Ø±…ÍÌô‰ÁÉ½É•ÍÌˆøñÍÁ…¸±…ÍÌô‰Ý…É¸ˆÍÑå±”ô‰Ý¥‘Ñ èÀ”ˆøð½ÍÁ…¸øð½‘¥Øøð½…ÉÑ¥±”ù€ì(€€€€€½¹ÍÐ±••¹€ô…ÑÕ…±½‘•Ì¹µ…À ¡½‘”¤€ôø€ñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´´‘í½‘”¹Ñ½1½Ý•É…Í” ¥ô¤ˆøð½¤ø‘í½‘•ôð½ÍÁ…¸ù€¤¹©½¥¸ œœ¤€¬€ñÍÁ…¸øñ¤±…ÍÌô‰‘½ÐˆÍÑå±”ô‰‰…­É½Õ¹éÙ…È ´µ­´¤ˆøð½¤ù-4ƒ
+Ü€‘í±…‰•±Ì¹Á•¹‘¥¹ôð½ÍÁ…¸ù€ì(€€€€€Í…±•Í…Í¡‰½…É¹¥¹¹•É!Q50€ô€(€€€€€€€€ñ¡•…‘•È±…ÍÌô‰Á…”µ¡•…ˆøñ‘¥Øøñ Ä¥ô‰Á…”µÑ¥Ñ±”ˆø‘íÍ…±•ÍAÉ½É•ÍÍQ¥Ñ±” ¥ôð½ ÄøñÀø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Á…•MÕ‰Ñ¥Ñ±•ôð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰‘…Ñ„µ¹½Ñ”ˆøñÍÁ…¸ø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘¥ÍÁ±…å…Ñ…ôð½ÍÁ…¸øñÍÑÉ½¹œø‘í±…‰•±Ì¹Í¹…ÁÍ¡½Ñôð½ÍÑÉ½¹œøñÍµ…±°±…ÍÌô‰‘…Í¡‰½…Éµ™•Ñ µÑ¥µ•ÍÑ…µÀˆ¥ô‰‘…Í¡‰½…Éµ™•Ñ µÑ¥µ•ÍÑ…µÀˆø‘í±…Ñ•ÍÑ•Ñ¡Q•áÐ ¥ôð½Íµ…±°øð½‘¥Øøð½¡•…‘•Èø(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰‘…¥±äˆ…É¥„µ±…‰•±±•‘‰äô‰‘…¥±äµÑ¥Ñ±”ˆøñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰‘…¥±äµÑ¥Ñ±”ˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘…¥±åM…±•ÍQ¥Ñ±•ôð½ ÈøñÀù…Í M…±•Ì€¼I4ð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰É½ÕÀµÑ½Ñ…°ˆøñÍµ…±°ø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹É½ÕÁQ½Ñ…±ôð½Íµ…±°ø‘í™½Éµ…ÑI4¡Ñ½‘…åQ½Ñ…°¥ôð½‘¥Øøð½‘¥Øøñ‘¥Ø±…ÍÌô‰‘…¥±äµÉ½Üˆø‘í‘…¥±å…É‘Íôð½‘¥Øøð½Í•Ñ¥½¸ø(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰µ½¹Ñ µÉ½Üˆ…É¥„µ±…‰•±±•‘‰äô‰µ½¹Ñ µÑ¥Ñ±”ˆøñ‘¥Ø±…ÍÌô‰µ½¹Ñ µ±…‰•°ˆøñ È¥ô‰µ½¹Ñ µÑ¥Ñ±”ˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹µ½¹Ñ¡±åAÉ½É•ÍÍôð½ ÈøñÀø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹µ½¹Ñ¡±å…ÁÑ¥½¹ôð½Àøð½‘¥Øø‘íµ½¹Ñ¡…É‘Íôð½Í•Ñ¥½¸ø(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰¡…ÉÐµÁ…¹•°ˆ…É¥„µ±…‰•±±•‘‰äô‰Í…±•Ìµ¡…ÉÐµÑ¥Ñ±”ˆøñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰Í…±•Ìµ¡…ÉÐµÑ¥Ñ±”ˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Í…±•Í¡…ÉÑQ¥Ñ±•ôð½ ÈøñÀø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Í…±•Í¡…ÉÑMÕ‰Ñ¥Ñ±•ôð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰¡…ÉÐµµ•Ñ„ˆøñÍÁ…¸øñÍµ…±°ø‘í±…‰•±Ì¹…ÑÕ…±Q½Ñ…±ôð½Íµ…±°ø‘í™½Éµ…ÑI4¡µ½¹Ñ¡Q½Ñ…°¥ôð½ÍÁ…¸øñÍÁ…¸øñÍµ…±°ø‘í±…‰•±Ì¹Ñ…É•ÑQ½Ñ…±ôð½Íµ…±°ø‘í™½Éµ…ÑI4¡µ½¹Ñ¡Q…É•ÑQ½Ñ…°°ÑÉÕ”¥ôð½ÍÁ…¸øñÍÁ…¸øñÍµ…±°ø‘í±…‰•±Ì¹ÁÉ½É•ÍÍI…Ñ•ôð½Íµ…±°ø‘ì¡µ½¹Ñ¡AÉ½É•ÍÌ€¨€ÄÀÀ¤¹Ñ½¥á• Ä¥ô”ð½ÍÁ…¸øð½‘¥Øøð½‘¥Øøñ‘¥Ø±…ÍÌô‰±••¹ˆ…É¥„µ±…‰•°ôˆ‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹±••¹‘ôˆø‘í±••¹‘ôð½‘¥Øø‘í¡…ÉÑMÙœ Í…±•Ìœ¥ôð½Í•Ñ¥½¸ø(€€€€€€€€ñÍ•Ñ¥½¸±…ÍÌô‰¡…ÉÐµÁ…¹•°ˆ…É¥„µ±…‰•±±•‘‰äô‰‘½Õµ•¹ÑÌµ¡…ÉÐµÑ¥Ñ±”ˆøñ‘¥Ø±…ÍÌô‰Í•Ñ¥½¸µ¡•…ˆøñ‘¥Øøñ È¥ô‰‘½Õµ•¹ÑÌµ¡…ÉÐµÑ¥Ñ±”ˆø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘½Õµ•¹ÑÍ¡…ÉÑQ¥Ñ±•ôð½ ÈøñÀø‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹‘½Õµ•¹ÑÍ¡…ÉÑMÕ‰Ñ¥Ñ±•ôð½Àøð½‘¥Øøñ‘¥Ø±…ÍÌô‰¡…ÉÐµµ•Ñ„ˆøñÍÁ…¸øñÍµ…±°ø‘í±…‰•±Ì¹‘½Õµ•¹ÑQ½Ñ…±ôð½Íµ…±°ø‘í‘½Õµ•¹ÑQ½Ñ…±ô€‘í±…‰•±Ì¹‘½Õµ•¹ÑÍôð½ÍÁ…¸øð½‘¥Øøð½‘¥Øøñ‘¥Ø±…ÍÌô‰±••¹ˆ…É¥„µ±…‰•°ôˆ‘íÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹±••¹‘ôˆø‘í±••¹‘ôð½‘¥Øø‘í¡…ÉÑMÙœ ‘½Õµ•¹ÑÌœ¥ôð½Í•Ñ¥½¸ù€ì(€€€€€Ñ¥Ñ±”€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% Á…”µÑ¥Ñ±”œ¤ì(€€€€€‰¥¹‘¡…ÉÑáÁ…¹Í¥½¸ ¤ì(€€€ô(€€€™Õ¹Ñ¥½¸Ñ…É•ÑMÑ½É…•-•ä ¤ìÉ•ÑÕÉ¸•µ½¬µµ½¹Ñ¡±äµÑ…É•ÑÌ´‘íÑ…É•Ñ5½¹Ñ ¹Ù…±Õ•õ€ìô(€€€™Õ¹Ñ¥½¸™½Éµ…ÑQ…É•Ñµ½Õ¹Ð¡Ù…±Õ”¤ì(€€€€€¥˜€¡Ù…±Õ”€øô€ÄÀÀÀÀÀÀ¤É•ÑÕÉ¸€‘ì¡Ù…±Õ”€¼€ÄÀÀÀÀÀÀ¤¹Ñ½1½…±•MÑÉ¥¹œ¡±½…±•	å1…¹Õ…•m±…¹Õ…•t°ìµ…á¥µÕµÉ…Ñ¥½¹¥¥ÑÌè€Èô¥õ5€ì(€€€€€É•ÑÕÉ¸¹•Ü%¹Ñ°¹9Õµ‰•É½Éµ…Ð¡±½…±•	å1…¹Õ…•m±…¹Õ…•t¤¹™½Éµ…Ð¡Ù…±Õ”¤ì(€€€ô(€€€™Õ¹Ñ¥½¸ÕÁ‘…Ñ•Q…É•ÑQ½Ñ…° ¤ì(€€€€€½¹ÍÐÑ½Ñ…°€ôÉÉ…ä¹™É½´¡Ñ…É•Ñ%¹ÁÕÑÌ¤¹É•‘Õ” ¡ÍÕ´°¥¹ÁÕÐ¤€ôøÍÕ´€¬5…Ñ ¹µ…à À°9Õµ‰•È¡¥¹ÁÕÐ¹Ù…±Õ”¤ñð€À¤°€À¤ì(€€€€€Ñ…É•ÑQ½Ñ…±Y…±Õ”¹Ñ•áÑ½¹Ñ•¹Ð€ôI4€‘í™½Éµ…ÑQ…É•Ñµ½Õ¹Ð¡Ñ½Ñ…°¥õ€ì(€€€ô(€€€™Õ¹Ñ¥½¸±½…‘Q…É•ÑY…±Õ•Ì ¤ì(€€€€€±•ÐÍ…Ù•€ô¹Õ±°ì(€€€€€ÑÉäìÍ…Ù•€ô)M=8¹Á…ÉÍ”¡±½…±MÑ½É…”¹•Ñ%Ñ•´¡Ñ…É•ÑMÑ½É…•-•ä ¤¤¤ìô…Ñ €¡•ÉÉ½È¤ìÍ…Ù•€ô¹Õ±°ìô(€€€€€Ñ…É•Ñ%¹ÁÕÑÌ¹™½É…  ¡¥¹ÁÕÐ¤€ôøì¥¹ÁÕÐ¹Ù…±Õ”€ôÍ…Ù•€˜˜9Õµ‰•È¹¥Í¥¹¥Ñ”¡9Õµ‰•È¡Í…Ù•‘m¥¹ÁÕÐ¹‘…Ñ…Í•Ð¹ÍÑ½É•t¤¤€üÍ…Ù•‘m¥¹ÁÕÐ¹‘…Ñ…Í•Ð¹ÍÑ½É•t€èÑ…É•Ñ•™…Õ±ÑÍm¥¹ÁÕÐ¹‘…Ñ…Í•Ð¹ÍÑ½É•tìô¤ì(€€€€€Ñ…É•ÑM…Ù•¹Ñ•áÑ½¹Ñ•¹Ð€ô€œœì(€€€€€ÕÁ‘…Ñ•Q…É•ÑQ½Ñ…° ¤ì(€€€ô(€€€™Õ¹Ñ¥½¸É•¹‘•ÉÑ¥Ù•A…” ¤ì(€€€€€½¹ÍÐÍ¡½Ý¥¹M…±•Ì€ô…Ñ¥Ù•-•ä€ôôô€Í…±•ÍAÉ½É•ÍÌœì(€€€€€½¹ÍÐÍ¡½Ý¥¹Q…É•ÑÌ€ô…Ñ¥Ù•-•ä€ôôô€Ñ…É•ÑÌœì(€€€€€½¹ÍÐÍ¡½Ý¥¹MåÍÑ•´€ô…Ñ¥Ù•-•ä€ôôô€ÍåÍÑ•´œì(€€€€€Í…±•Í…Í¡‰½…É¹¡¥‘‘•¸€ô€…Í¡½Ý¥¹M…±•Ìì(€€€€€Ñ…É•Ñ…Í¡‰½…É¹¡¥‘‘•¸€ô€…Í¡½Ý¥¹Q…É•ÑÌì(€€€€€ÍåÍÑ•µ…Í¡‰½…É¹¡¥‘‘•¸€ô€…Í¡½Ý¥¹MåÍÑ•´ì(€€€€€½¹ÍÑÉÕÑ¥½¸¹¡¥‘‘•¸€ôÍ¡½Ý¥¹M…±•ÌñðÍ¡½Ý¥¹Q…É•ÑÌñðÍ¡½Ý¥¹MåÍÑ•´ì(€€€€€½¹ÍÑÉÕÑ¥½¹Q¥Ñ±”¹Ñ•áÑ½¹Ñ•¹Ð€ôÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•um…Ñ¥Ù•-•åtì(€€€€€¹½Ñ¥”¹±…ÍÍ1¥ÍÐ¹É•µ½Ù” Í¡½Üœ¤ì(€€€€€¹½Ñ¥”¹Ñ•áÑ½¹Ñ•¹Ð€ô€œœì(€€€ô(€€€™Õ¹Ñ¥½¸•Í…Á•!Ñµ°¡Ù…±Õ”¤ìÉ•ÑÕÉ¸MÑÉ¥¹œ¡Ù…±Õ”€üü€œœ¤¹É•Á±…” ½l˜ðøœ‰t½œ°€¡¡…É…Ñ•È¤€ôø€¡ì€œ˜œè€œ™…µÀìœ°€œðœè€œ™±Ðìœ°€œøœè€œ™Ðìœ°€ˆœˆè€œ˜ŒÌäìœ°€œˆœè€œ™ÅÕ½Ðìœô¥m¡…É…Ñ•Ét¤ìô(€€€™Õ¹Ñ¥½¸É•¹‘•ÉMåÍÑ•µMÑ…Ñ¥½Áä ¤ì(€€€€€½¹ÍÐ½Áä€ôÍåÍÑ•µ½Áåm±…¹Õ…•tì(€€€€€‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½È m‘…Ñ„µ¹…µ”µ­•äô‰ÍåÍÑ•´‰tÍÁ…¸é±…ÍÐµ¡¥±œ¤¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹µ•¹Ôì(€€€€€‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µÑ¥Ñ±”œ¤¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Ñ¥Ñ±”ì(€€€€€‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µÍÕ‰Ñ¥Ñ±”œ¤¹Ñ•áÑ½¹Ñ•¹Ð€ô±½…±M•ÑÑ¥¹Í5½‘”€ü½Áä¹ÍÕ‰Ñ¥Ñ±”€è½Áä¹ÁÕ‰±¥MÕ‰Ñ¥Ñ±”ì(€€€€€‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ¥¹Ñ•ÉÙ…°µ±…‰•°œ¤¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹¥¹Ñ•ÉÙ…°ì(€€€€€‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µ¹½Ñ”œ¤¹Ñ•áÑ½¹Ñ•¹Ð€ô±½…±M•ÑÑ¥¹Í5½‘”€ü½Áä¹¹½Ñ”€è½Áä¹ÁÕ‰±¥9½Ñ”ì(€€€€€½¹ÍÐÍ…Ù•	ÕÑÑ½¸€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ÍåÍÑ•´µÍ…Ù”œ¤ì(€€€€€Í…Ù•	ÕÑÑ½¸¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Í…Ù”ì(€€€€€Í…Ù•	ÕÑÑ½¸¹¡¥‘‘•¸€ô€…±½…±M•ÑÑ¥¹Í5½‘”ì(€€€€€¥¹Ñ•ÉÙ…±M•½¹‘Ì¹É•…‘=¹±ä€ô€…±½…±M•ÑÑ¥¹Í5½‘”ì(€€€ô(€€€™Õ¹Ñ¥½¸±…Ñ•ÍÑ•Ñ¡Q•áÐ ¤ì(€€€€€¥˜€ …±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð¤É•ÑÕÉ¸€œœì(€€€€€½¹ÍÐÁ…ÉÑÌ€ô¹•Ü%¹Ñ°¹…Ñ•Q¥µ•½Éµ…Ð •¸µœ°ìÑ¥µ•i½¹”è€Í¥„½-Õ…±…}1ÕµÁÕÈœ°å•…Èè€¹Õµ•É¥Œœ°µ½¹Ñ è€œÈµ‘¥¥Ðœ°‘…äè€œÈµ‘¥¥Ðœ°¡½ÕÈè€œÈµ‘¥¥Ðœ°µ¥¹ÕÑ”è€œÈµ‘¥¥Ðœ°Í•½¹è€œÈµ‘¥¥Ðœ°¡½ÕÈÄÈè™…±Í”ô¤¹™½Éµ…ÑQ½A…ÉÑÌ¡¹•Ü…Ñ”¡±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð¤¤ì(€€€€€½¹ÍÐÙ…±Õ”€ô=‰©•Ð¹™É½µ¹ÑÉ¥•Ì¡Á…ÉÑÌ¹™¥±Ñ•È ¡Á…ÉÐ¤€ôøÁ…ÉÐ¹ÑåÁ”€„ôô€±¥Ñ•É…°œ¤¹µ…À ¡Á…ÉÐ¤€ôømÁ…ÉÐ¹ÑåÁ”°Á…ÉÐ¹Ù…±Õ•t¤¤ì(€€€€€½¹ÍÐÑ¥µ•ÍÑ…µÀ€ô€‘íÙ…±Õ”¹å•…Éô¼‘íÙ…±Õ”¹µ½¹Ñ¡ô¼‘íÙ…±Õ”¹‘…åô€‘íÙ…±Õ”¹¡½ÕÉôè‘íÙ…±Õ”¹µ¥¹ÕÑ•ôè‘íÙ…±Õ”¹Í•½¹‘õ€ì(€€€€€É•ÑÕÉ¸±…Ñ•ÍÑ•Ñ¡½Áåm±…¹Õ…•t¹É•Á±…” í‘…Ñ•Ñ¥µ•ôœ°Ñ¥µ•ÍÑ…µÀ¤ì(€€€ô(€€€™Õ¹Ñ¥½¸É•¹‘•É1…Ñ•ÍÑ•Ñ  ¤ì(€€€€€½¹ÍÐÑ•áÐ€ô±…Ñ•ÍÑ•Ñ¡Q•áÐ ¤ì(€€€€€™•Ñ¡Q¥µ•ÍÑ…µÀ¹Ñ•áÑ½¹Ñ•¹Ð€ôÑ•áÐì(€€€€€™•Ñ¡Q¥µ•ÍÑ…µÀ¹¡¥‘‘•¸€ô€…Ñ•áÐì(€€€€€½¹ÍÐ‘…Í¡‰½…É‘Q¥µ•ÍÑ…µÀ€ô‘½Õµ•¹Ð¹•Ñ±•µ•¹Ñ	å% ‘…Í¡‰½…Éµ™•Ñ µÑ¥µ•ÍÑ…µÀœ¤ì(€€€€€¥˜€¡‘…Í¡‰½…É‘Q¥µ•ÍÑ…µÀ¤‘…Í¡‰½…É‘Q¥µ•ÍÑ…µÀ¹Ñ•áÑ½¹Ñ•¹Ð€ôÑ•áÐì(€€€ô(€€€™Õ¹Ñ¥½¸É•±½…‘½É9•Ý•Ñ¡Q¥µ•ÍÑ…µÀ¡Ñ¥µ•ÍÑ…µÀ°É•±½…‘=¹¡…¹”€ô™…±Í”¤ì(€€€€€¥˜€ …Ñ¥µ•ÍÑ…µÀ¤É•ÑÕÉ¸™…±Í”ì(€€€€€½¹ÍÐÁÉ•Ù¥½ÕÌ€ôÍ•ÍÍ¥½¹MÑ½É…”¹•Ñ%Ñ•´¡…ÕÑ½I•±½…‘Q¥µ•ÍÑ…µÁ-•ä¤ì(€€€€€½¹ÍÐ¹•áÑQ¥µ”€ô…Ñ”¹Á…ÉÍ”¡Ñ¥µ•ÍÑ…µÀ¤ì(€€€€€½¹ÍÐÁÉ•Ù¥½ÕÍQ¥µ”€ô…Ñ”¹Á…ÉÍ”¡ÁÉ•Ù¥½ÕÌñð€œœ¤ì(€€€€€¥˜€ …9Õµ‰•È¹¥Í¥¹¥Ñ”¡¹•áÑQ¥µ”¤¤É•ÑÕÉ¸™…±Í”ì(€€€€€¥˜€ …9Õµ‰•È¹¥Í¥¹¥Ñ”¡ÁÉ•Ù¥½ÕÍQ¥µ”¤¤ì(€€€€€€€Í•ÍÍ¥½¹MÑ½É…”¹Í•Ñ%Ñ•´¡…ÕÑ½I•±½…‘Q¥µ•ÍÑ…µÁ-•ä°Ñ¥µ•ÍÑ…µÀ¤ì(€€€€€€€É•ÑÕÉ¸™…±Í”ì(€€€€€ô(€€€€€¥˜€¡¹•áÑQ¥µ”€øÁÉ•Ù¥½ÕÍQ¥µ”¤ì(€€€€€€€Í•ÍÍ¥½¹MÑ½É…”¹Í•Ñ%Ñ•´¡…ÕÑ½I•±½…‘Q¥µ•ÍÑ…µÁ-•ä°Ñ¥µ•ÍÑ…µÀ¤ì(€€€€€€€¥˜€¡É•±½…‘=¹¡…¹”€˜˜…Ñ¥Ù•-•ä€ôôô€Í…±•ÍAÉ½É•ÍÌœ¤ì(€€€€€€€€€Ý¥¹‘½Ü¹±½…Ñ¥½¸¹É•±½… ¤ì(€€€€€€€€€É•ÑÕÉ¸ÑÉÕ”ì(€€€€€€€ô(€€€€€ô(€€€€€É•ÑÕÉ¸™…±Í”ì(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸±½…‘½±±•Ñ½ÉMÑ…ÑÕÌ¡É•±½…‘=¹¡…¹”€ô™…±Í”¤ì(€€€€€ÑÉäì½¹ÍÐÉ•ÍÁ½¹Í”€ô…Ý…¥Ð™•Ñ ¡€‘í½±±•Ñ½ÉUÉ±ô½ÍÑ…ÑÕÍ€¤ì¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È ¤ì½¹ÍÐÍÑ…ÑÕÌ€ô…Ý…¥ÐÉ•ÍÁ½¹Í”¹©Í½¸ ¤ì±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð€ôÍÑ…ÑÕÌ¹±…ÍÑMÕ•ÍÍ™Õ±Ðñð•á•±M¹…ÁÍ¡½Ñ•Ñ¡•‘Ðìô(€€€€€…Ñ ì±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð€ô±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ðñð•á•±M¹…ÁÍ¡½Ñ•Ñ¡•‘Ðìô(€€€€€¥˜€¡É•±½…‘½É9•Ý•Ñ¡Q¥µ•ÍÑ…µÀ¡±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð°É•±½…‘=¹¡…¹”¤¤É•ÑÕÉ¸ì(€€€€€É•¹‘•É1…Ñ•ÍÑ•Ñ  ¤ì(€€€ô(€€€™Õ¹Ñ¥½¸µ•É•½±±•Ñ½É…Í¡‰½…É‘…Ñ„¡Á…å±½…¤ì(€€€€€¥˜€ …Á…å±½…ü¹µ½¹Ñ ñð€„½yq‘ìÑôµq‘ìÉô¼¹Ñ•ÍÐ¡Á…å±½…¹µ½¹Ñ ¤ñð€„½yq‘ìÑôµq‘ìÉôµq‘ìÉô¼¹Ñ•ÍÐ¡Á…å±½…¹±…Ñ•ÍÑ…Ñ”ñð€œœ¤¤É•ÑÕÉ¸™…±Í”ì(€€€€€½¹ÍÐ•áÁ•Ñ•‘…åÌ€ô9Õµ‰•È¡Á…å±½…¹±…Ñ•ÍÑ…Ñ”¹Í±¥” ´È¤¤ì(€€€€€½¹ÍÐÍÝ¥Ñ¡¥¹5½¹Ñ €ôÁ…å±½…¹µ½¹Ñ €„ôô‘…Í¡‰½…É‘…Ñ…5•Ñ„¹µ½¹Ñ ì(€€€€€¥˜€¡ÍÝ¥Ñ¡¥¹5½¹Ñ ¤ì(€€€€€€€…ÑÕ…±½‘•Ì¹™½É…  ¡½‘”¤€ôøì(€€€€€€€€€…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì€ôÉÉ…ä¡•áÁ•Ñ•‘…åÌ¤¹™¥±° À¤ì(€€€€€€€€€…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÌ€ôÉÉ…ä¡•áÁ•Ñ•‘…åÌ¤¹™¥±° À¤ì(€€€€€€€ô¤ì(€€€€€ô•±Í”ì(€€€€€€€…ÑÕ…±½‘•Ì¹™½É…  ¡½‘”¤€ôøì(€€€€€€€€€Ý¡¥±”€¡…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì¹±•¹Ñ €ð•áÁ•Ñ•‘…åÌ¤…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ì¹ÁÕÍ  À¤ì(€€€€€€€€€Ý¡¥±”€¡…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÌ¹±•¹Ñ €ð•áÁ•Ñ•‘…åÌ¤…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÌ¹ÁÕÍ  À¤ì(€€€€€€€ô¤ì(€€€€€ô(€€€€€…ÑÕ…±½‘•Ì¹™½É…  ¡½‘”¤€ôøì(€€€€€€€½¹ÍÐÍ½ÕÉ”€ôÁ…å±½…¹ÍÑ½É•Ìü¹m½‘•tì(€€€€€€€¥˜€ …Í½ÕÉ”¤É•ÑÕÉ¸ì(€€€€€€€¥˜€¡Í½ÕÉ”¹½µÁ…¹ä¤…Í¡M…±•ÍÑÕ…±Ím½‘•t¹½µÁ…¹ä€ôÍ½ÕÉ”¹½µÁ…¹äì(€€€€€€€™½È€¡±•Ð¥¹‘•à€ô€Àì¥¹‘•à€ð•áÁ•Ñ•‘…åÌì¥¹‘•à€¬ô€Ä¤ì(€€€€€€€€€½¹ÍÐÍ…±•Ì€ôÍ½ÕÉ”¹Í…±•Ìü¹m¥¹‘•átì(€€€€€€€€€½¹ÍÐ‘½Õµ•¹ÑÌ€ôÍ½ÕÉ”¹‘½Õµ•¹ÑÌü¹m¥¹‘•átì(€€€€€€€€€¥˜€¡Í…±•Ì€„ôô¹Õ±°€˜˜Í…±•Ì€„ôôÕ¹‘•™¥¹•€˜˜9Õµ‰•È¹¥Í¥¹¥Ñ”¡9Õµ‰•È¡Í…±•Ì¤¤¤…Í¡M…±•ÍÑÕ…±Ím½‘•t¹Í…±•Ím¥¹‘•át€ô9Õµ‰•È¡Í…±•Ì¤ì(€€€€€€€€€¥˜€¡‘½Õµ•¹ÑÌ€„ôô¹Õ±°€˜˜‘½Õµ•¹ÑÌ€„ôôÕ¹‘•™¥¹•€˜˜9Õµ‰•È¹¥Í¥¹¥Ñ”¡9Õµ‰•È¡‘½Õµ•¹ÑÌ¤¤¤…Í¡M…±•ÍÑÕ…±Ím½‘•t¹‘½Õµ•¹ÑÍm¥¹‘•át€ô9Õµ‰•È¡‘½Õµ•¹ÑÌ¤ì(€€€€€€€ô(€€€€€ô¤ì(€€€€€‘…Í¡‰½…É‘…Ñ…5•Ñ„€ôìµ½¹Ñ èÁ…å±½…¹µ½¹Ñ °±…Ñ•ÍÑ…Ñ”èÁ…å±½…¹±…Ñ•ÍÑ…Ñ”ôì(€€€€€±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ð€ôÁ…å±½…¹±…ÍÑMÕ•ÍÍ™Õ±Ðñð±…Ñ•ÍÑMÕ•ÍÍ™Õ±Ðñð•á•±M¹…ÁÍ¡½Ñ•Ñ¡•‘Ðì(€€€€€É•ÑÕÉ¸ÑÉÕ”ì(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸±½…‘½±±•Ñ½É…Í¡‰½…É‘…Ñ„ ¤ì(€€€€€ÑÉäì(€€€€€€€½¹ÍÐÉ•ÍÁ½¹Í”€ô…Ý…¥Ð™•Ñ ¡€‘í½±±•Ñ½ÉUÉ±ô½‘…Í¡‰½…Éµ‘…Ñ…€¤ì(€€€€€€€¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È ¤ì(€€€€€€€½¹ÍÐÁ…å±½…€ô…Ý…¥ÐÉ•ÍÁ½¹Í”¹©Í½¸ ¤ì(€€€€€€€¥˜€¡µ•É•½±±•Ñ½É…Í¡‰½…É‘…Ñ„¡Á…å±½…¤¤ì(€€€€€€€€€É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€€€€€€€É•¹‘•É1…Ñ•ÍÑ•Ñ  ¤ì(€€€€€€€ô(€€€€€ô…Ñ ì€¼¨-••ÀÑ¡”Á…­…•á•°Í¹…ÁÍ¡½ÐÝ¡•¸Ñ¡¥ÌAÌÍ•ÉÙ¥”¥ÌÕ¹…Ù…¥±…‰±”¸€¨¼ô(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸™•Ñ¡AÕ‰±¥Í¡•‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ì(€€€€€½¹ÍÐÍ½ÕÉ•Ì€ôl(€€€€€€€‘…Í¡‰½…Éµ‘…Ñ„¹©Í½¸ýØô‘í…Ñ”¹¹½Ü ¥õ€°(€€€€€€€€‘í¥Ñ¡Õ‰…Í¡‰½…É‘…Ñ…UÉ±ôýØô‘í…Ñ”¹¹½Ü ¥õ€°(€€€€€tì(€€€€€½¹ÍÐÉ•ÍÕ±ÑÌ€ô…Ý…¥ÐAÉ½µ¥Í”¹…±±M•ÑÑ±•¡Í½ÕÉ•Ì¹µ…À¡…Íå¹Œ€¡Í½ÕÉ”¤€ôøì(€€€€€€€€€½¹ÍÐÉ•ÍÁ½¹Í”€ô…Ý…¥Ð™•Ñ ¡Í½ÕÉ”°ì…¡”è€¹¼µÍÑ½É”œô¤ì(€€€€€€€€€¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È¡…Í¡‰½…É‘…Ñ„É•ÅÕ•ÍÐ™…¥±•è€‘íÉ•ÍÁ½¹Í”¹ÍÑ…ÑÕÍõ€¤ì(€€€€€€€€€É•ÑÕÉ¸…Ý…¥ÐÉ•ÍÁ½¹Í”¹©Í½¸ ¤ì(€€€€€ô¤¤ì(€€€€€½¹ÍÐÍ¹…ÁÍ¡½ÑÌ€ôÉ•ÍÕ±ÑÌ¹™¥±Ñ•È ¡É•ÍÕ±Ð¤€ôøÉ•ÍÕ±Ð¹ÍÑ…ÑÕÌ€ôôô€™Õ±™¥±±•œ¤¹µ…À ¡É•ÍÕ±Ð¤€ôøÉ•ÍÕ±Ð¹Ù…±Õ”¤ì(€€€€€¥˜€ …Í¹…ÁÍ¡½ÑÌ¹±•¹Ñ ¤Ñ¡É½Ü¹•ÜÉÉ½È …Í¡‰½…É‘…Ñ„¥ÌÕ¹…Ù…¥±…‰±”œ¤ì(€€€€€½¹ÍÐÍ¹…ÁÍ¡½ÑQ¥µ”€ô€¡Á…å±½…¤€ôø…Ñ”¹Á…ÉÍ”¡Á…å±½…ü¹±…ÍÑMÕ•ÍÍ™Õ±Ðñð€œœ¤ñð…Ñ”¹Á…ÉÍ”¡€‘íÁ…å±½…ü¹±…Ñ•ÍÑ…Ñ”ñð€œõPÀÀèÀÀèÀÁi€¤ñð€Àì(€€€€€É•ÑÕÉ¸Í¹…ÁÍ¡½ÑÌ¹É•‘Õ” ¡±…Ñ•ÍÐ°…¹‘¥‘…Ñ”¤€ôøÍ¹…ÁÍ¡½ÑQ¥µ”¡…¹‘¥‘…Ñ”¤€øÍ¹…ÁÍ¡½ÑQ¥µ”¡±…Ñ•ÍÐ¤€ü…¹‘¥‘…Ñ”€è±…Ñ•ÍÐ¤ì(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸±½…‘AÕ‰±¥Í¡•‘…Í¡‰½…É‘…Ñ„ ¤ì(€€€€€ÑÉäì(€€€€€€€½¹ÍÐÁ…å±½…€ô…Ý…¥Ð™•Ñ¡AÕ‰±¥Í¡•‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ì(€€€€€€€¥˜€¡µ•É•½±±•Ñ½É…Í¡‰½…É‘…Ñ„¡Á…å±½…¤¤ì(€€€€€€€€€É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€€€€€€€É•¹‘•É1…Ñ•ÍÑ•Ñ  ¤ì(€€€€€€€ô(€€€€€ô…Ñ ì€¼¨Q¡”‰Õ¹‘±•Ù…±Õ•ÌÉ•µ…¥¸…Ù…¥±…‰±”¥˜Ñ¡”ÁÕ‰±¥Í¡•Í¹…ÁÍ¡½Ð¥ÌÕ¹…Ù…¥±…‰±”¸€¨¼ô(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸É•±½…‘]¡•¹AÕ‰±¥Í¡•‘…Ñ…¡…¹•Ì ¤ì(€€€€€ÑÉäì(€€€€€€€½¹ÍÐÁ…å±½…€ô…Ý…¥Ð™•Ñ¡AÕ‰±¥Í¡•‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ì(€€€€€€€É•±½…‘½É9•Ý•Ñ¡Q¥µ•ÍÑ…µÀ¡Á…å±½…¹±…ÍÑMÕ•ÍÍ™Õ±Ð°ÑÉÕ”¤ì(€€€€€ô…Ñ ì€¼¨-••ÀÑ¡”ÕÉÉ•¹ÐÁ…”Ý¡•¸Ñ¡”ÁÕ‰±¥Í¡•Í¹…ÁÍ¡½Ð¥ÌÑ•µÁ½É…É¥±äÕ¹…Ù…¥±…‰±”¸€¨¼ô(€€€ô(€€€™Õ¹Ñ¥½¸É•¹‘•ÉMåÍÑ•µMÑ½É•Ì¡Í•ÑÑ¥¹Ì€ôíô°É•…‘=¹±ä€ô€…±½…±M•ÑÑ¥¹Í5½‘”¤ì(€€€€€½¹ÍÐ½Áä€ôÍåÍÑ•µ½Áåm±…¹Õ…•tì(€€€€€ÍåÍÑ•µÉ¥¹¥¹¹•É!Q50€ô=‰©•Ð¹•¹ÑÉ¥•Ì¡ÍåÍÑ•µMÑ½É•Ì¤¹µ…À ¡m½‘”°¹…µ•t¤€ôøì(€€€€€€€½¹ÍÐÍÑ½É”€ôÍ•ÑÑ¥¹Ì¹ÍÑ½É•Ìü¹m½‘•tñðíôì(€€€€€€€½¹ÍÐÉ•…‘=¹±åÑÑÉ¥‰ÕÑ”€ôÉ•…‘=¹±ä€ü€œÉ•…‘½¹±ä…É¥„µÉ•…‘½¹±äô‰ÑÉÕ”ˆœ€è€œœì(€€€€€€€½¹ÍÐÁ…ÍÍÝ½É‘MÑ…ÑÕÌ€ô±½…±M•ÑÑ¥¹Í5½‘”€ü€ñÀ±…ÍÌô‰ÍåÍÑ•´µÍ•É•ÐµÍÑ…ÑÕÌˆø‘í½Áä¹Á…ÍÍÝ½É‘ô€‘íÍÑ½É”¹¡…ÍA…ÍÍÝ½É€ü½Áä¹Á…ÍÍÝ½É‘M•Ð€è½Áä¹Á…ÍÍÝ½É‘5¥ÍÍ¥¹ôƒ
+Ü€‘í½Áä¹Á…ÍÍÝ½É‘5…¹…•‘ôð½Àù€€è€œœì(€€€€€€€É•ÑÕÉ¸€ñ…ÉÑ¥±”±…ÍÌô‰ÍåÍÑ•´µÍÑ½É”ˆøñ Ìø‘í½‘•ô€ñÍµ…±°ø‘í¹…µ•ôð½Íµ…±°øð½ Ìøñ±…‰•°ø‘í½Áä¹ÕÉ±ôð½±…‰•°øñ¥¹ÁÕÐ¹…µ”ôˆ‘í½‘•ôµÕÉ°ˆÑåÁ”ô‰ÕÉ°ˆÙ…±Õ”ôˆ‘í•Í…Á•!Ñµ°¡ÍÑ½É”¹ÕÉ°¥ôˆÁ±…•¡½±‘•Èô‰¡ÑÑÁÌè¼¼¸¸¸½]•‰™½É´½M…±•Í}…Í ˆ‘íÉ•…‘=¹±åÑÑÉ¥‰ÕÑ•ôøñ±…‰•°ø‘í½Áä¹•ÉÁ%‘ôð½±…‰•°øñ¥¹ÁÕÐ¹…µ”ôˆ‘í½‘•ôµ¥ˆÑåÁ”ô‰Ñ•áÐˆÙ…±Õ”ôˆ‘í•Í…Á•!Ñµ°¡ÍÑ½É”¹¥¥ôˆ…ÕÑ½½µÁ±•Ñ”ô‰ÕÍ•É¹…µ”ˆ‘íÉ•…‘=¹±åÑÑÉ¥‰ÕÑ•ôø‘íÁ…ÍÍÝ½É‘MÑ…ÑÕÍôð½…ÉÑ¥±”ù€ì(€€€€€ô¤¹©½¥¸ œœ¤ì(€€€ô(€€€…Íå¹Œ™Õ¹Ñ¥½¸±½…‘MåÍÑ•µM•ÑÑ¥¹Ì ¤ì(€€€€€½¹ÍÐ½Áä€ôÍåÍÑ•µ½Áåm±…¹Õ…•tìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô±½…±M•ÑÑ¥¹Í5½‘”€ü½Áä¹¡•­¥¹œ€è½Áä¹ÁÕ‰±¥¡•­¥¹œì(€€€€€¥˜€ …±½…±M•ÑÑ¥¹Í5½‘”¤ì(€€€€€€€ÑÉäì½¹ÍÐÁ…å±½…€ô…Ý…¥Ð™•Ñ¡AÕ‰±¥Í¡•‘…Í¡‰½…É‘M¹…ÁÍ¡½Ð ¤ì¥˜€ …Á…å±½…¹ÍåÍÑ•µM•ÑÑ¥¹Ì¤Ñ¡É½Ü¹•ÜÉÉ½È ¤ì¥¹Ñ•ÉÙ…±M•½¹‘Ì¹Ù…±Õ”€ôÁ…å±½…¹ÍåÍÑ•µM•ÑÑ¥¹Ì¹¥¹Ñ•ÉÙ…±M•½¹‘Ìñð€ÌÀÀìÉ•¹‘•ÉMåÍÑ•µMÑ½É•Ì¡Á…å±½…¹ÍåÍÑ•µM•ÑÑ¥¹Ì°ÑÉÕ”¤ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹ÁÕ‰±¥Í¡•ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌ½¬œìô(€€€€€€€…Ñ ì¥¹Ñ•ÉÙ…±M•½¹‘Ì¹Ù…±Õ”€ô€ÌÀÀìÉ•¹‘•ÉMåÍÑ•µMÑ½É•Ì¡íô°ÑÉÕ”¤ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹ÁÕ‰±¥U¹…Ù…¥±…‰±”ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌœìô(€€€€€€€É•ÑÕÉ¸ì(€€€€€ô(€€€€€ÑÉäì½¹ÍÐÉ•ÍÁ½¹Í”€ô…Ý…¥Ð™•Ñ ¡€‘í½±±•Ñ½ÉUÉ±ô½Í•ÑÑ¥¹Í€¤ì¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È ¤ì½¹ÍÐÍ•ÑÑ¥¹Ì€ô…Ý…¥ÐÉ•ÍÁ½¹Í”¹©Í½¸ ¤ì¥¹Ñ•ÉÙ…±M•½¹‘Ì¹Ù…±Õ”€ôÍ•ÑÑ¥¹Ì¹¥¹Ñ•ÉÙ…±M•½¹‘Ìñð€ÌÀÀìÉ•¹‘•ÉMåÍÑ•µMÑ½É•Ì¡Í•ÑÑ¥¹Ì°™…±Í”¤ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹½¹¹•Ñ•ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌ½¬œìô(€€€€€…Ñ ìÉ•¹‘•ÉMåÍÑ•µMÑ½É•Ì¡íô°™…±Í”¤ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Õ¹…Ù…¥±…‰±”ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌœìô(€€€ô(€€€™Õ¹Ñ¥½¸Í•Ñ1…¹Õ…”¡¹•áÑ1…¹Õ…”¤ì(€€€€€±…¹Õ…”€ô¹•áÑ1…¹Õ…”ì(€€€€€½¹ÍÐ½Áä€ôÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•tì(€€€€€‘½Õµ•¹Ð¹‘½Õµ•¹Ñ±•µ•¹Ð¹±…¹œ€ô±…¹Õ…”€ôôô€é œ€ü€é µ!…¹Ìœ€è±…¹Õ…”ì(€€€€€‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° m‘…Ñ„µ¤Äá¹tœ¤¹™½É…  ¡•±•µ•¹Ð¤€ôøì•±•µ•¹Ð¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áåm•±•µ•¹Ð¹‘…Ñ…Í•Ð¹¤Äá¹tìô¤ì(€€€€€‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° m‘…Ñ„µ¤Äá¸µ…É¥…tœ¤¹™½É…  ¡•±•µ•¹Ð¤€ôøì•±•µ•¹Ð¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µ±…‰•°œ°½Áåm•±•µ•¹Ð¹‘…Ñ…Í•Ð¹¤Äá¹É¥…t¤ìô¤ì(€€€€€‘½Õµ•¹Ð¹ÅÕ•ÉåM•±•Ñ½É±° m‘…Ñ„µÍÑ…ÑÕÍtœ¤¹™½É…  ¡•±•µ•¹Ð¤€ôøì(€€€€€€€½¹ÍÐ…ÉÉ½Ü€ô•±•µ•¹Ð¹‘…Ñ…Í•Ð¹ÍÑ…ÑÕÌ€ôôô€ÕÀœ€ü€ŸŠDœ€è€ŸŠLœì(€€€€€€€•±•µ•¹Ð¹Ñ•áÑ½¹Ñ•¹Ð€ô€‘í…ÉÉ½Ýô€‘í±…¹Õ…”€ôôô€•¸œ€ü€…¥±äÑ…É•Ðœ€è±…¹Õ…”€ôôô€µÌœ€ü€M…Í…É…¸¡…É¥…¸œ€è±…¹Õ…”€ôôô€é œ€ü€Ÿš^—žn»š‚¢úûš"@œ€è€Ÿš^—š²‡žn»š¢gš¾Pô€‘í•±•µ•¹Ð¹‘…Ñ…Í•Ð¹É…Ñ•ô•€ì(€€€€€ô¤ì(€€€€€±…¹Õ…•	ÕÑÑ½¹Ì¹™½É…  ¡‰ÕÑÑ½¸¤€ôø‰ÕÑÑ½¸¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µÁÉ•ÍÍ•œ°MÑÉ¥¹œ¡‰ÕÑÑ½¸¹‘…Ñ…Í•Ð¹±…¹Õ…”€ôôô±…¹Õ…”¤¤¤ì(€€€€€±½…±MÑ½É…”¹Í•Ñ%Ñ•´ •µ½¬µ±…¹Õ…”œ°±…¹Õ…”¤ì(€€€€€É•¹‘•ÉMåÍÑ•µMÑ…Ñ¥½Áä ¤ì(€€€€€É•¹‘•É1…Ñ•ÍÑ•Ñ  ¤ì(€€€€€É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€€€É•¹‘•ÉÑ¥Ù•A…” ¤ì(€€€€€¥˜€¡…Ñ¥Ù•-•ä€ôôô€ÍåÍÑ•´œ¤±½…‘MåÍÑ•µM•ÑÑ¥¹Ì ¤ì(€€€ô(€€€‰ÕÑÑ½¹Ì¹™½É…  ¡‰ÕÑÑ½¸¤€ôøì(€€€€€‰ÕÑÑ½¸¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€ ¤€ôøì(€€€€€€€‰ÕÑÑ½¹Ì¹™½É…  ¡¥Ñ•´¤€ôø¥Ñ•´¹É•µ½Ù•ÑÑÉ¥‰ÕÑ” …É¥„µÕÉÉ•¹Ðœ¤¤ì(€€€€€€€‰ÕÑÑ½¸¹Í•ÑÑÑÉ¥‰ÕÑ” …É¥„µÕÉÉ•¹Ðœ°€Á…”œ¤ì(€€€€€€€…Ñ¥Ù•-•ä€ô‰ÕÑÑ½¸¹‘…Ñ…Í•Ð¹¹…µ•-•äì(€€€€€€€¥˜€¡…Ñ¥Ù•-•ä€ôôô€Í…±•ÍAÉ½É•ÍÌœ¤É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€€€€€•±Í”¥˜€¡…Ñ¥Ù•-•ä€„ôô€ÍåÍÑ•´œ¤Ñ¥Ñ±”¹Ñ•áÑ½¹Ñ•¹Ð€ôÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•um…Ñ¥Ù•-•åtì(€€€€€€€É•¹‘•ÉÑ¥Ù•A…” ¤ì(€€€€€€€¥˜€¡…Ñ¥Ù•-•ä€ôôô€ÍåÍÑ•´œ¤±½…‘MåÍÑ•µM•ÑÑ¥¹Ì ¤ì(€€€€€€€Ý¥¹‘½Ü¹ÍÉ½±±Q¼¡ìÑ½Àè€À°‰•¡…Ù¥½Èè€Íµ½½Ñ œô¤ì(€€€€€ô¤ì(€€€ô¤ì(€€€Ñ…É•Ñ%¹ÁÕÑÌ¹™½É…  ¡¥¹ÁÕÐ¤€ôø¥¹ÁÕÐ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ¥¹ÁÕÐœ°ÕÁ‘…Ñ•Q…É•ÑQ½Ñ…°¤¤ì(€€€Ñ…É•Ñ5½¹Ñ ¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ¡…¹”œ°±½…‘Q…É•ÑY…±Õ•Ì¤ì(€€€Ñ…É•Ñ½É´¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ÍÕ‰µ¥Ðœ°€¡•Ù•¹Ð¤€ôøì(€€€€€•Ù•¹Ð¹ÁÉ•Ù•¹Ñ•™…Õ±Ð ¤ì(€€€€€½¹ÍÐÑ…É•ÑÌ€ô=‰©•Ð¹™É½µ¹ÑÉ¥•Ì¡ÉÉ…ä¹™É½´¡Ñ…É•Ñ%¹ÁÕÑÌ°€¡¥¹ÁÕÐ¤€ôøm¥¹ÁÕÐ¹‘…Ñ…Í•Ð¹ÍÑ½É”°5…Ñ ¹µ…à À°9Õµ‰•È¡¥¹ÁÕÐ¹Ù…±Õ”¤ñð€À¥t¤¤ì(€€€€€±½…±MÑ½É…”¹Í•Ñ%Ñ•´¡Ñ…É•ÑMÑ½É…•-•ä ¤°)M=8¹ÍÑÉ¥¹¥™ä¡Ñ…É•ÑÌ¤¤ì(€€€€€Ñ…É•ÑM…Ù•¹Ñ•áÑ½¹Ñ•¹Ð€ôÑÉ…¹Í±…Ñ¥½¹Ím±…¹Õ…•t¹Ñ…É•ÑM…Ù•¹É•Á±…” íµ½¹Ñ¡ôœ°Ñ…É•Ñ5½¹Ñ ¹Ù…±Õ”¤ì(€€€€€ÕÁ‘…Ñ•Q…É•ÑQ½Ñ…° ¤ì(€€€€€É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€ô¤ì(€€€ÍåÍÑ•µ½É´¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ÍÕ‰µ¥Ðœ°…Íå¹Œ€¡•Ù•¹Ð¤€ôøì(€€€€€•Ù•¹Ð¹ÁÉ•Ù•¹Ñ•™…Õ±Ð ¤ì¥˜€ …±½…±M•ÑÑ¥¹Í5½‘”¤É•ÑÕÉ¸ì½¹ÍÐ™½É´€ô¹•Ü½Éµ…Ñ„¡ÍåÍÑ•µ½É´¤ì½¹ÍÐÍÑ½É•Ì€ô=‰©•Ð¹™É½µ¹ÑÉ¥•Ì¡=‰©•Ð¹­•åÌ¡ÍåÍÑ•µMÑ½É•Ì¤¹µ…À ¡½‘”¤€ôøm½‘”°ìÕÉ°è™½É´¹•Ð¡€‘í½‘•ôµÕÉ±€¤°¥è™½É´¹•Ð¡€‘í½‘•ôµ¥‘€¤õt¤¤ì(€€€€€½¹ÍÐ½Áä€ôÍåÍÑ•µ½Áåm±…¹Õ…•tìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Í…Ù¥¹œìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌœì(€€€€€ÑÉäì½¹ÍÐÉ•ÍÁ½¹Í”€ô…Ý…¥Ð™•Ñ ¡€‘í½±±•Ñ½ÉUÉ±ô½Í•ÑÑ¥¹Í€°ìµ•Ñ¡½è€A=MPœ°¡•…‘•ÉÌèì€½¹Ñ•¹ÐµÑåÁ”œè€Ñ•áÐ½Á±…¥¸í¡…ÉÍ•ÐõUQ´àœô°‰½‘äè)M=8¹ÍÑÉ¥¹¥™ä¡ì¥¹Ñ•ÉÙ…±M•½¹‘Ìè9Õµ‰•È¡¥¹Ñ•ÉÙ…±M•½¹‘Ì¹Ù…±Õ”¤°ÍÑ½É•Ìô¤ô¤ì¥˜€ …É•ÍÁ½¹Í”¹½¬¤Ñ¡É½Ü¹•ÜÉÉ½È ¤ì…Ý…¥Ð™•Ñ ¡€‘í½±±•Ñ½ÉUÉ±ô½Íå¹€°ìµ•Ñ¡½è€A=MPœô¤ì…Ý…¥Ð±½…‘MåÍÑ•µM•ÑÑ¥¹Ì ¤ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Í…Ù•ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌ½¬œìô(€€€€€…Ñ ìÍåÍÑ•µMÑ…ÑÕÌ¹Ñ•áÑ½¹Ñ•¹Ð€ô½Áä¹Í…Ù•…¥±•ìÍåÍÑ•µMÑ…ÑÕÌ¹±…ÍÍ9…µ”€ô€ÍåÍÑ•´µÍÑ…ÑÕÌœìô(€€€ô¤ì(€€€±…¹Õ…•	ÕÑÑ½¹Ì¹™½É…  ¡‰ÕÑÑ½¸¤€ôø‰ÕÑÑ½¸¹…‘‘Ù•¹Ñ1¥ÍÑ•¹•È ±¥¬œ°€ ¤€ôøÍ•Ñ1…¹Õ…”¡‰ÕÑÑ½¸¹‘…Ñ…Í•Ð¹±…¹Õ…”¤¤¤ì(€€€É•¹‘•ÉM…±•Í…Í¡‰½…É ¤ì(€€€±½…‘Q…É•ÑY…±Õ•Ì ¤ì(€€€Í•Ñ1…¹Õ…”¡±…¹Õ…”¤ì(€€€±½…‘AÕ‰±¥Í¡•‘…Í¡‰½…É‘…Ñ„ ¤ì(€€€±½…‘½±±•Ñ½ÉMÑ…ÑÕÌ ¤ì(€€€±½…‘½±±•Ñ½É…Í¡‰½…É‘…Ñ„ ¤ì(€€€Í•Ñ%¹Ñ•ÉÙ…°  ¤€ôø±½…‘½±±•Ñ½ÉMÑ…ÑÕÌ¡ÑÉÕ”¤°€ÌÀÀÀÀ¤ì(€€€Í•Ñ%¹Ñ•ÉÙ…°¡±½…‘½±±•Ñ½É…Í¡‰½…É‘…Ñ„°€ÌÀÀÀÀ¤ì(€€€Í•Ñ%¹Ñ•ÉÙ…°¡É•±½…‘]¡•¹AÕ‰±¥Í¡•‘…Ñ…¡…¹•Ì°€ÌÀÀÀÀ¤ì(€€ð½ÍÉ¥ÁÐø(ð½‰½‘äø(ð½¡Ñµ°ø(
