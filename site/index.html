@@ -87,7 +87,7 @@
     .grid-line { stroke:#3a4d68; stroke-width:1; }
     .axis { fill:#a4bce1; font-size:11px; font-family:Inter,"Noto Sans JP",sans-serif; }
     .axis-label { fill:#a4bce1; font-size:10px; font-family:Inter,"Noto Sans JP",sans-serif; }
-    .document-value-label,.document-total-label,.sales-value-label,.sales-total-label { font-family:Inter,"Noto Sans JP",sans-serif; font-weight:800; }
+    .document-value-label,.document-total-label,.sales-value-label,.sales-total-label { pointer-events:none; font-family:Inter,"Noto Sans JP",sans-serif; font-weight:800; }
     .document-value-label,.sales-value-label { font-size:9px; }
     .document-total-label,.sales-total-label { font-size:10px; }
     .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
@@ -411,7 +411,11 @@
       const maxValue = isSales ? salesStep * 3 : 120;
       const ticks = isSales ? [0, salesStep, salesStep * 2, salesStep * 3] : [0, 30, 60, 90, 120];
       const y = (value) => 190 - (138 * value / maxValue);
-      const x = (index) => 108 + (index * (displayDays > 1 ? 816 / (displayDays - 1) : 0));
+      const chartSpacing = displayDays > 1 ? 816 / (displayDays - 1) : 46;
+      const barWidth = Math.min(28, Math.max(12, chartSpacing * 0.64));
+      const segmentLabelSize = Math.min(9, Math.max(7, chartSpacing * 0.27));
+      const totalLabelSize = Math.min(10, Math.max(8, chartSpacing * 0.3));
+      const x = (index) => 108 + (index * (displayDays > 1 ? chartSpacing : 0));
       const colors = ['var(--si)', 'var(--sr)', 'var(--st)', 'var(--sk)'];
       const grid = ticks.map((tick) => `<line x1="64" x2="950" y1="${y(tick)}" y2="${y(tick)}"/>`).join('');
       const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : formatChartThousands(tick)) : tick}</text>`).join('');
@@ -422,7 +426,7 @@
       if (isSales) {
         const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
           let total = 0;
-          const barX = x(dayIndex) - 23;
+          const barX = x(dayIndex) - (barWidth / 2);
           const segments = actualCodes.map((code, codeIndex) => {
             const value = cashSalesActuals[code].sales[dayIndex];
             if (!value) return '';
@@ -431,16 +435,17 @@
             const top = y(total);
             const height = y(start) - top;
             const labelColor = code === 'SR' ? '#172238' : '#ffffff';
-            return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="sales-value-label" x="${x(dayIndex)}" y="${top + (height / 2)}" dominant-baseline="middle" text-anchor="middle" fill="${labelColor}">${formatChartThousands(value)}</text>`;
+            const label = `<text class="sales-value-label" x="${x(dayIndex)}" y="${top + (height / 2)}" dominant-baseline="middle" text-anchor="middle" fill="${labelColor}" style="font-size:${segmentLabelSize}px">${formatChartThousands(value)}</text>`;
+            return `<g><title>${code} · ${formatRM(value)}</title><rect x="${barX}" y="${top}" width="${barWidth}" height="${height}" rx="1.5" fill="${colors[codeIndex]}"/>${label}</g>`;
           }).join('');
-          const totalLabel = total > 0 ? `<text class="sales-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff">${formatChartThousands(total)}</text>` : '';
+          const totalLabel = total > 0 ? `<text class="sales-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff" style="font-size:${totalLabelSize}px">${formatChartThousands(total)}</text>` : '';
           return `<g>${segments}${totalLabel}</g>`;
         }).join('');
         return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].salesChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].amountAxis}</text></svg>`;
       }
       const stackedBars = Array.from({ length: displayDays }, (_, dayIndex) => {
         let total = 0;
-        const barX = x(dayIndex) - 23;
+        const barX = x(dayIndex) - (barWidth / 2);
         const segments = actualCodes.map((code, codeIndex) => {
           const value = cashSalesActuals[code].documents[dayIndex];
           if (!value) return '';
@@ -449,9 +454,10 @@
           const top = y(total);
           const height = y(start) - top;
           const labelColor = code === 'SR' ? '#172238' : '#ffffff';
-          return `<rect x="${barX}" y="${top}" width="46" height="${height}" fill="${colors[codeIndex]}"/><text class="document-value-label" x="${x(dayIndex)}" y="${top + (height / 2) + 3}" text-anchor="middle" fill="${labelColor}">${value}</text>`;
+          const label = `<text class="document-value-label" x="${x(dayIndex)}" y="${top + (height / 2) + 3}" text-anchor="middle" fill="${labelColor}" style="font-size:${segmentLabelSize}px">${value}</text>`;
+          return `<g><title>${code} · ${value}</title><rect x="${barX}" y="${top}" width="${barWidth}" height="${height}" rx="1.5" fill="${colors[codeIndex]}"/>${label}</g>`;
         }).join('');
-        const totalLabel = total > 0 ? `<text class="document-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff">${total}</text>` : '';
+        const totalLabel = total > 0 ? `<text class="document-total-label" x="${x(dayIndex)}" y="${Math.max(y(total) - 6, 12)}" text-anchor="middle" fill="#f4f8ff" style="font-size:${totalLabelSize}px">${total}</text>` : '';
         return `<g>${segments}${totalLabel}</g>`;
       }).join('');
       return `<svg viewBox="0 0 970 235" role="img" aria-label="${translations[language].documentsChartTitle}" preserveAspectRatio="none"><g class="grid-line">${grid}</g><g class="axis">${axis}${dayAxis}</g>${stackedBars}<text class="axis-label" x="64" y="229">${translations[language].documentAxis}</text></svg>`;
