@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-29T06:13:14.376Z",
+  "updatedAt": "2026-10-29T07:18:26.999Z",
   "stores": [
     {
       "code": "SI",
@@ -46,8 +46,8 @@
       "key": "adj-absorber",
       "name": "Adj Absorber",
       "sku": 76,
-      "quantity": 160,
-      "stockValue": 116779.18
+      "quantity": 159,
+      "stockValue": 116178.18
     },
     {
       "key": "battery",
@@ -88,8 +88,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9205,
-      "stockValue": 57058.049999999996
+      "quantity": 9183,
+      "stockValue": 57001.75
     },
     {
       "key": "non-stock-item",
@@ -102,29 +102,29 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2283,
-      "stockValue": 166212.98
+      "quantity": 2279,
+      "stockValue": 165813.98
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 407,
-      "stockValue": 3772.5
+      "quantity": 406,
+      "stockValue": 3765
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 618,
-      "quantity": 2641.5,
-      "stockValue": 98505.14999999998
+      "quantity": 2640.5,
+      "stockValue": 98465.14999999998
     },
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 231,
-      "quantity": 2205,
-      "stockValue": 422996.92000000004
+      "quantity": 2191,
+      "stockValue": 421138.28
     },
     {
       "key": "repair-rim",
@@ -1641,12 +1641,6 @@
       "spec": "0",
       "stores": {
         "SR": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 601,
-          "price": 688
-        },
-        "ST": {
           "company": "Gemok Tayar",
           "quantity": 1,
           "cost": 601,
@@ -6318,7 +6312,7 @@
         },
         "ST": {
           "company": "Gemok Tayar",
-          "quantity": 51,
+          "quantity": 49,
           "cost": 3,
           "price": 35
         }
@@ -6414,7 +6408,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 39,
+          "quantity": 38,
           "cost": 10,
           "price": 0
         }
@@ -8534,7 +8528,7 @@
         },
         "ST": {
           "company": "Gemok Tayar",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 12,
           "price": 100
         }
@@ -9364,19 +9358,19 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 366,
+          "quantity": 356,
           "cost": 1.65,
           "price": 10
         },
         "SK": {
           "company": "G Tayar",
-          "quantity": 172,
+          "quantity": 168,
           "cost": 1.3,
           "price": 10
         },
         "SR": {
           "company": "Gemok Tayar",
-          "quantity": 229,
+          "quantity": 225,
           "cost": 1.65,
           "price": 10
         },
@@ -10322,7 +10316,7 @@
         },
         "SK": {
           "company": "G Tayar",
-          "quantity": 9,
+          "quantity": 8,
           "cost": 7.5,
           "price": 0
         }
@@ -10590,7 +10584,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 31,
+          "quantity": 30,
           "cost": 28,
           "price": 0
         },
@@ -11261,17 +11255,11 @@
     {
       "code": "OETL5W40Q1LT",
       "groupKey": "oil",
-      "groupName": "Oil",
+      "groupName": "OIL",
       "brand": "",
       "name": "TOTAL 5W40 1L QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
-      "spec": "79",
+      "spec": "51",
       "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 1,
-          "cost": 19,
-          "price": 0
-        },
         "SR": {
           "company": "Gemok Tayar",
           "quantity": 7,
@@ -11318,13 +11306,13 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 57,
+          "quantity": 56,
           "cost": 166,
           "price": 0
         },
         "SK": {
           "company": "G Tayar",
-          "quantity": 26,
+          "quantity": 25,
           "cost": 186,
           "price": 288
         },
@@ -12580,7 +12568,7 @@
       "stores": {
         "ST": {
           "company": "Gemok Tayar",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 40,
           "price": 0
         }
@@ -23016,7 +23004,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 22,
+          "quantity": 20,
           "cost": 221.32,
           "price": 228
         },
@@ -24074,7 +24062,7 @@
       "stores": {
         "SK": {
           "company": "G Tayar",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 171,
           "price": 148
         }
@@ -25544,7 +25532,7 @@
       "stores": {
         "SR": {
           "company": "Gemok Tayar",
-          "quantity": 24,
+          "quantity": 20,
           "cost": 98,
           "price": 119
         }
@@ -26108,7 +26096,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 41,
+          "quantity": 39,
           "cost": 85,
           "price": 0
         },
@@ -26192,7 +26180,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 36,
+          "quantity": 34,
           "cost": 85,
           "price": 0
         },
