@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-29T04:56:17.481Z",
+  "updatedAt": "2026-10-29T05:00:27.961Z",
   "stores": [
     {
       "code": "SI",
@@ -10,21 +10,28 @@
   ],
   "groups": [
     {
+      "key": "parts",
+      "name": "Parts",
+      "sku": 3,
+      "quantity": 3,
+      "stockValue": 710
+    },
+    {
       "key": "ungrouped",
       "name": "Ungrouped",
-      "sku": 1634,
-      "quantity": 13205,
-      "stockValue": 803585.38
+      "sku": 1631,
+      "quantity": 13202,
+      "stockValue": 802875.38
     }
   ],
   "items": [
     {
       "code": "ASCDRALZA",
-      "groupKey": "ungrouped",
-      "groupName": "Ungrouped",
-      "brand": "",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "JAWASUKI",
       "name": "ASIMCO DISC ROTOR FRT ALZA/NCP 93/150 E SPEC KR2029",
-      "spec": "",
+      "spec": "Foreman Items",
       "stores": {
         "SI": {
           "company": "Chew Tayar",
@@ -36,11 +43,11 @@
     },
     {
       "code": "ASCDRHDACCORD",
-      "groupKey": "ungrouped",
-      "groupName": "Ungrouped",
-      "brand": "",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "JAWASUKI",
       "name": "ASIMCO DISC ROTOR FRT HD ACCORD KR9721",
-      "spec": "",
+      "spec": "Foreman Items",
       "stores": {
         "SI": {
           "company": "Chew Tayar",
@@ -52,11 +59,11 @@
     },
     {
       "code": "ASCDRVIOSJ",
-      "groupKey": "ungrouped",
-      "groupName": "Ungrouped",
-      "brand": "",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "JAWASUKI",
       "name": "ASIMCO DISC ROTOR FRT NCP93 J/SPEC KR2130",
-      "spec": "",
+      "spec": "Foreman Items",
       "stores": {
         "SI": {
           "company": "Chew Tayar",
