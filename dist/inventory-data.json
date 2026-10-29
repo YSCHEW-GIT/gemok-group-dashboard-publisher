@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-29T10:31:46.091Z",
+  "updatedAt": "2026-10-29T11:36:53.303Z",
   "stores": [
     {
       "code": "SI",
@@ -21,13 +21,6 @@
     }
   ],
   "groups": [
-    {
-      "key": "0",
-      "name": "0",
-      "sku": 1,
-      "quantity": 1,
-      "stockValue": 121
-    },
     {
       "key": "absorber",
       "name": "Absorber",
@@ -81,8 +74,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9092,
-      "stockValue": 56749.72999999999
+      "quantity": 9091,
+      "stockValue": 56747.12999999999
     },
     {
       "key": "non-stock-item",
@@ -136,9 +129,9 @@
     {
       "key": "spring",
       "name": "Spring",
-      "sku": 49,
-      "quantity": 222,
-      "stockValue": 42904.380000000005
+      "sku": 50,
+      "quantity": 223,
+      "stockValue": 43025.380000000005
     },
     {
       "key": "tool-and-stationery",
@@ -164,9 +157,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 742,
-      "quantity": 2022,
-      "stockValue": 169551.5
+      "sku": 710,
+      "quantity": 1984,
+      "stockValue": 163101.5
     },
     {
       "key": "used-tayar",
@@ -177,22 +170,6 @@
     }
   ],
   "items": [
-    {
-      "code": "SSHRKELISA",
-      "groupKey": "0",
-      "groupName": "0",
-      "brand": "",
-      "name": "HYPER RACING SPORT SPRING KELISA",
-      "spec": "",
-      "stores": {
-        "SK": {
-          "company": "G Tayar",
-          "quantity": 1,
-          "cost": 121,
-          "price": 0
-        }
-      }
-    },
     {
       "code": "PAB-ALZA09-FLH",
       "groupKey": "absorber",
@@ -6207,7 +6184,7 @@
       "stores": {
         "SK": {
           "company": "G Tayar",
-          "quantity": 29,
+          "quantity": 28,
           "cost": 2.6,
           "price": 0
         },
@@ -32922,6 +32899,22 @@
       }
     },
     {
+      "code": "SSHRKELISA",
+      "groupKey": "spring",
+      "groupName": "Spring",
+      "brand": "",
+      "name": "HYPER RACING SPORT SPRING KELISA",
+      "spec": "",
+      "stores": {
+        "SK": {
+          "company": "G Tayar",
+          "quantity": 1,
+          "cost": 121,
+          "price": 0
+        }
+      }
+    },
+    {
       "code": "SSHRKENARI",
       "groupKey": "spring",
       "groupName": "Spring",
@@ -36904,22 +36897,6 @@
       }
     },
     {
-      "code": "US259915",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7 4X100",
-      "spec": "",
-      "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 4,
-          "cost": 50,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US259920",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -37064,22 +37041,6 @@
       }
     },
     {
-      "code": "US2610300",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US2610304",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -37113,22 +37074,6 @@
     },
     {
       "code": "US2610313",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610351",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
@@ -37197,22 +37142,6 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610391",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X6JJ PCD100",
       "spec": "",
       "stores": {
         "ST": {
@@ -37304,38 +37233,6 @@
       }
     },
     {
-      "code": "US2610615",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 14X5JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610721",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US2610738",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -37352,219 +37249,11 @@
       }
     },
     {
-      "code": "US2610762",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610829",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJP CD1000",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610839",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 17X8JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610843",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610856",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X7JJ PCD 100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610859",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD 100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US2610862",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 16X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610869",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 17X8.5JJ PCD 100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610894",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610895",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610925",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610946",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 18X8JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610951S",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X5JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2610984",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 14X5.5JJ PCD100",
       "spec": "",
       "stores": {
         "ST": {
@@ -37869,54 +37558,6 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X6JJ PCD 100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2611440",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X7JJ PCD 5X114",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2611466",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2611471",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6.5 JJ PCD100",
       "spec": "",
       "stores": {
         "ST": {
@@ -38237,22 +37878,6 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X6.5 4X100",
-      "spec": "",
-      "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 4,
-          "cost": 62.5,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US2613839",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7 4X100",
       "spec": "",
       "stores": {
         "SI": {
@@ -48110,102 +47735,6 @@
       }
     },
     {
-      "code": "US269529",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269543",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 17X7JJ PCD 100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269546",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269549",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269630",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269652",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US269661",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -48222,39 +47751,7 @@
       }
     },
     {
-      "code": "US269676",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 17X8JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
       "code": "US269679",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269701",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
@@ -48287,22 +47784,6 @@
     },
     {
       "code": "US269735",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7JJ PCD100",
-      "spec": "",
-      "stores": {
-        "ST": {
-          "company": "Gemok Tayar",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "US269948",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
