@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-29T05:59:20.577Z",
+  "updatedAt": "2026-10-29T06:13:14.376Z",
   "stores": [
     {
       "code": "SI",
@@ -88,8 +88,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9207,
-      "stockValue": 57061.35
+      "quantity": 9205,
+      "stockValue": 57058.049999999996
     },
     {
       "key": "non-stock-item",
@@ -123,8 +123,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 231,
-      "quantity": 2211,
-      "stockValue": 424474.92000000004
+      "quantity": 2205,
+      "stockValue": 422996.92000000004
     },
     {
       "key": "repair-rim",
@@ -171,9 +171,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 735,
-      "quantity": 2015,
-      "stockValue": 168051.5
+      "sku": 736,
+      "quantity": 2016,
+      "stockValue": 168251.5
     },
     {
       "key": "used-tayar",
@@ -9382,7 +9382,7 @@
         },
         "ST": {
           "company": "Gemok Tayar",
-          "quantity": 332,
+          "quantity": 330,
           "cost": 1.65,
           "price": 10
         }
@@ -26364,7 +26364,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 20,
+          "quantity": 16,
           "cost": 246,
           "price": 0
         },
@@ -26376,7 +26376,7 @@
         },
         "ST": {
           "company": "Gemok Tayar",
-          "quantity": 15,
+          "quantity": 13,
           "cost": 247,
           "price": 208
         }
@@ -38088,6 +38088,22 @@
     },
     {
       "code": "US2611589S",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7JJ PCD100",
+      "spec": "",
+      "stores": {
+        "ST": {
+          "company": "Gemok Tayar",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
+      "code": "US2611600",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
