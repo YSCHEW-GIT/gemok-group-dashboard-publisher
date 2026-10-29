@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-29T09:26:48.070Z",
+  "updatedAt": "2026-10-29T10:31:46.091Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,9 @@
     {
       "key": "0",
       "name": "0",
-      "sku": 3,
-      "quantity": 73,
-      "stockValue": 921
-    },
-    {
-      "key": "5851",
-      "name": "5851",
       "sku": 1,
-      "quantity": 3,
-      "stockValue": 297
+      "quantity": 1,
+      "stockValue": 121
     },
     {
       "key": "absorber",
@@ -88,8 +81,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9120,
-      "stockValue": 56808.32999999999
+      "quantity": 9092,
+      "stockValue": 56749.72999999999
     },
     {
       "key": "non-stock-item",
@@ -115,16 +108,16 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 618,
-      "quantity": 2639.5,
-      "stockValue": 98457.64999999998
+      "sku": 619,
+      "quantity": 2642.5,
+      "stockValue": 98754.64999999998
     },
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 230,
-      "quantity": 2153,
-      "stockValue": 415130.28
+      "quantity": 2149,
+      "stockValue": 414254.28
     },
     {
       "key": "repair-rim",
@@ -137,8 +130,8 @@
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 345,
-      "quantity": 688,
-      "stockValue": 358464.52
+      "quantity": 691,
+      "stockValue": 358498.52
     },
     {
       "key": "spring",
@@ -164,16 +157,16 @@
     {
       "key": "ungrouped",
       "name": "Ungrouped",
-      "sku": 1,
-      "quantity": 4,
+      "sku": 2,
+      "quantity": 72,
       "stockValue": 710.52
     },
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 739,
-      "quantity": 2019,
-      "stockValue": 168951.5
+      "sku": 742,
+      "quantity": 2022,
+      "stockValue": 169551.5
     },
     {
       "key": "used-tayar",
@@ -184,38 +177,6 @@
     }
   ],
   "items": [
-    {
-      "code": "BF",
-      "groupKey": "0",
-      "groupName": "0",
-      "brand": "",
-      "name": "BRING FORWARD",
-      "spec": "",
-      "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 68,
-          "cost": 0,
-          "price": 0
-        }
-      }
-    },
-    {
-      "code": "SIMPGGM1541XA1136",
-      "groupKey": "0",
-      "groupName": "0",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 4X100 ET35 GGM/MLL XA1136X",
-      "spec": "",
-      "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 4,
-          "cost": 200,
-          "price": 0
-        }
-      }
-    },
     {
       "code": "SSHRKELISA",
       "groupKey": "0",
@@ -229,22 +190,6 @@
           "quantity": 1,
           "cost": 121,
           "price": 0
-        }
-      }
-    },
-    {
-      "code": "PKSLAMYVI18RH",
-      "groupKey": "5851",
-      "groupName": "5851",
-      "brand": "",
-      "name": "K SPORT LOWER ARM ORI -MYVI 2018 RH(Y)",
-      "spec": "0",
-      "stores": {
-        "SR": {
-          "company": "Gemok Tayar",
-          "quantity": 3,
-          "cost": 99,
-          "price": 170
         }
       }
     },
@@ -7010,7 +6955,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 364,
+          "quantity": 344,
           "cost": 2,
           "price": 150
         },
@@ -8494,7 +8439,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 14,
+          "quantity": 10,
           "cost": 3,
           "price": 100
         },
@@ -9342,7 +9287,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 346,
+          "quantity": 342,
           "cost": 1.65,
           "price": 10
         },
@@ -19295,6 +19240,22 @@
       }
     },
     {
+      "code": "PKSLAMYVI18RH",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "",
+      "name": "K SPORT LOWER ARM ORI -MYVI 2018 RH(Y)",
+      "spec": "",
+      "stores": {
+        "SR": {
+          "company": "Gemok Tayar",
+          "quantity": 3,
+          "cost": 99,
+          "price": 170
+        }
+      }
+    },
+    {
       "code": "PKSLAMYVILH",
       "groupKey": "parts",
       "groupName": "Parts",
@@ -23320,7 +23281,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 17,
+          "quantity": 13,
           "cost": 219,
           "price": 198
         },
@@ -28223,6 +28184,22 @@
       }
     },
     {
+      "code": "SIMPGGM1541XA1136",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET35 GGM/MLL XA1136X",
+      "spec": "0",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 4,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
       "code": "SIMPGGM158HCE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -28539,22 +28516,6 @@
           "quantity": 1,
           "cost": 720,
           "price": 588
-        }
-      }
-    },
-    {
-      "code": "SIMPHB1541GL",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7 4X100 ET38 HYPER BLACK GRAM LIGHT",
-      "spec": "",
-      "stores": {
-        "SI": {
-          "company": "Chew Tayar",
-          "quantity": 1,
-          "cost": 766,
-          "price": 0
         }
       }
     },
@@ -36463,6 +36424,22 @@
       }
     },
     {
+      "code": "BF",
+      "groupKey": "ungrouped",
+      "groupName": "Ungrouped",
+      "brand": "",
+      "name": "BRING FORWARD",
+      "spec": "",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 68,
+          "cost": 0,
+          "price": 0
+        }
+      }
+    },
+    {
       "code": "TPAT204517XSPT",
       "groupKey": "ungrouped",
       "groupName": "Ungrouped",
@@ -38004,6 +37981,22 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X7JJ PCD100",
+      "spec": "",
+      "stores": {
+        "ST": {
+          "company": "Gemok Tayar",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
+      "code": "US2611606",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 14X5.5JJ PCD100",
       "spec": "",
       "stores": {
         "ST": {
@@ -47562,6 +47555,38 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
+      "code": "US2620495",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
+      "code": "US2620498",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
       "spec": "",
       "stores": {
         "SI": {
