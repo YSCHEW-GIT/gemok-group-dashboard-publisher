@@ -93,11 +93,87 @@
     .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
     .notice.show { display:block; }
     .construction { display:grid; min-height:510px; place-items:center; align-content:center; padding:56px 24px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:radial-gradient(circle at center,rgba(48,105,184,.16),transparent 48%),var(--panel); text-align:center; }
-    .construction[hidden], #sales-dashboard[hidden] { display:none; }
+    .construction[hidden], #sales-dashboard[hidden], .inventory-dashboard[hidden] { display:none; }
     .construction-icon { display:grid; width:58px; height:58px; place-items:center; border:1px solid rgba(115,168,255,.35); border-radius:17px; color:var(--blue); background:#162943; font-size:29px; }
     .construction-eyebrow { margin:18px 0 8px; color:var(--green); font-size:12px; font-weight:800; letter-spacing:.11em; }
     .construction h1 { font-size:27px; }
     .construction p:last-child { max-width:360px; margin:11px 0 0; color:var(--muted); font-size:13px; line-height:1.7; }
+    .inventory-dashboard { --inventory-accent:#73a8ff; }
+    .inventory-head,.inventory-detail-toolbar,.inventory-product-head,.inventory-filter,.inventory-group-button { display:flex; align-items:center; }
+    .inventory-head { justify-content:space-between; gap:18px; margin-bottom:18px; }
+    .inventory-head h1 { margin:0; font-size:28px; }
+    .inventory-head p { margin:8px 0 0; color:var(--muted); font-size:13px; }
+    .inventory-sync { display:inline-flex; align-items:center; gap:8px; flex:0 0 auto; padding:10px 14px; border:1px solid rgba(115,168,255,.3); border-radius:9px; color:#dce9fb; background:#213753; font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
+    .inventory-sync:hover,.inventory-sync:focus-visible { border-color:var(--blue); background:#29466b; }
+    .inventory-sync[disabled] { opacity:.65; cursor:wait; }
+    .inventory-tier-head { display:flex; justify-content:space-between; gap:12px; margin-bottom:12px; }
+    .inventory-tier-head h2 { margin:0; font-size:16px; }
+    .inventory-tier-head span { color:var(--muted); font-size:11px; }
+    .inventory-panel { overflow:hidden; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.94); }
+    .inventory-groups-shell { padding:16px; }
+    .inventory-group-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:9px; }
+    .inventory-group-button { min-width:0; min-height:138px; flex-direction:column; justify-content:center; gap:9px; padding:12px 8px; border:1px solid rgba(159,192,238,.11); border-radius:11px; color:var(--text); background:var(--panel-2); font:inherit; text-align:center; cursor:pointer; transition:.16s ease; }
+    .inventory-group-button:hover,.inventory-group-button:focus-visible { border-color:rgba(115,168,255,.58); outline:0; transform:translateY(-2px); background:#1b304b; box-shadow:0 12px 24px rgba(3,10,21,.18); }
+    .inventory-group-icon { display:grid; width:74px; height:64px; place-items:center; border-radius:16px; background:linear-gradient(145deg,#28486f,#1c3656); }
+    .inventory-group-icon img { width:56px; height:56px; object-fit:contain; filter:brightness(0) saturate(100%) invert(72%) sepia(18%) saturate(1270%) hue-rotate(182deg) brightness(110%) contrast(105%); }
+    .inventory-group-button strong { max-width:100%; overflow:hidden; font-size:12px; text-overflow:ellipsis; white-space:nowrap; }
+    .inventory-group-button small { color:#819bc3; font-size:10px; }
+    .inventory-detail-toolbar { justify-content:space-between; gap:12px; margin-bottom:13px; }
+    .inventory-back { padding:9px 12px; border:1px solid rgba(115,168,255,.28); border-radius:8px; color:#dce9fb; background:#213753; font:inherit; font-size:11px; font-weight:800; cursor:pointer; }
+    .inventory-back:hover { background:#29466b; }
+    .inventory-sync-meta { color:var(--muted); font-size:11px; }
+    .inventory-product-head { align-items:flex-start; justify-content:space-between; gap:16px; padding:16px 17px; border-bottom:1px solid rgba(159,192,238,.12); }
+    .inventory-product-head h2 { margin:0; font-size:18px; }
+    .inventory-product-head p { margin:5px 0 0; color:var(--muted); font-size:11px; }
+    .inventory-product-summary { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; }
+    .inventory-product-summary span { padding:5px 7px; border-radius:6px; color:#bcd0ed; background:#20344f; font-size:11px; }
+    .inventory-filter { gap:10px; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
+    .inventory-filter label { flex:0 0 auto; color:#c6d8f1; font-size:11px; font-weight:800; }
+    .inventory-search-wrap { position:relative; flex:1 1 340px; max-width:480px; }
+    .inventory-search-wrap::before { content:"⌕"; position:absolute; top:50%; left:12px; color:#7892ba; font-size:16px; transform:translateY(-52%); }
+    .inventory-search { width:100%; padding:10px 12px 10px 34px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
+    .inventory-search:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(115,168,255,.12); }
+    .inventory-filter-count { margin-left:auto; color:var(--muted); font-size:11px; white-space:nowrap; }
+    .inventory-table-wrap { overflow-x:auto; }
+    .inventory-table { width:100%; min-width:760px; border-collapse:collapse; table-layout:fixed; }
+    .inventory-table th { height:38px; padding:0 10px; color:#7892ba; background:#142239; font-size:10px; text-align:left; }
+    .inventory-table th:nth-child(n+4),.inventory-stock-cell,.inventory-money { text-align:center; }
+    .inventory-table td { height:44px; padding:8px 10px; border-top:1px solid rgba(159,192,238,.09); color:#dce8f8; font-size:11px; }
+    .inventory-brand-row td { height:36px; color:#dbe9fc; background:rgba(35,58,88,.72); font-weight:900; letter-spacing:.035em; text-align:left!important; }
+    .inventory-brand-row span { margin-left:8px; color:#7892ba; font-weight:500; }
+    .inventory-code { color:#bcd0ed; font-weight:800; white-space:nowrap; }
+    .inventory-description strong { display:block; color:#fff; }
+    .inventory-description span,.inventory-store span { display:block; margin-top:3px; color:#7892ba; }
+    .inventory-store strong { color:#dce8f8; }
+    .inventory-stock { font-size:13px; font-weight:900; }
+    .inventory-stock.low { color:var(--amber); }
+    .inventory-money { font-variant-numeric:tabular-nums; white-space:nowrap; }
+    .inventory-empty td { height:130px; color:var(--muted); text-align:center!important; }
+    .inventory-card-list { display:none; }
+    .inventory-product-card { overflow:hidden; border:1px solid rgba(159,192,238,.14); border-radius:13px; background:#142239; box-shadow:0 9px 24px rgba(3,10,21,.15); }
+    .inventory-card-head { padding:14px; }
+    .inventory-card-kicker { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:9px; }
+    .inventory-card-brand { color:var(--blue); font-size:10px; font-weight:900; letter-spacing:.07em; }
+    .inventory-card-code { overflow:hidden; color:#9db4d7; font-size:10px; font-weight:800; text-overflow:ellipsis; white-space:nowrap; }
+    .inventory-card-head h3 { margin:0; color:#fff; font-size:15px; line-height:1.35; }
+    .inventory-card-spec { margin:4px 0 0; color:#819bc3; font-size:11px; line-height:1.45; }
+    .inventory-card-stock { padding:0 14px 5px; border-top:1px solid rgba(159,192,238,.1); }
+    .inventory-card-store { padding:12px 0; border-bottom:1px solid rgba(159,192,238,.08); }
+    .inventory-card-store:last-child { border-bottom:0; }
+    .inventory-card-store-name { display:flex; align-items:baseline; gap:8px; min-width:0; margin-bottom:8px; }
+    .inventory-card-store-name strong { flex:0 0 auto; color:#fff; font-size:12px; }
+    .inventory-card-store-name span { overflow:hidden; color:#7892ba; font-size:10px; text-overflow:ellipsis; white-space:nowrap; }
+    .inventory-card-store-values { display:grid; grid-template-columns:.72fr 1fr 1fr; gap:7px; }
+    .inventory-card-store-value { min-width:0; padding:8px 9px; border-radius:8px; background:#1b304a; font-variant-numeric:tabular-nums; }
+    .inventory-card-store-value small { display:block; margin-bottom:4px; color:#7892ba; font-size:9px; font-weight:800; }
+    .inventory-card-store-value strong { display:block; overflow:hidden; color:#dce8f8; font-size:11px; text-overflow:ellipsis; white-space:nowrap; }
+    .inventory-card-quantity { background:rgba(67,223,160,.08); }
+    .inventory-card-quantity strong { color:var(--green); font-size:16px; line-height:1; }
+    .inventory-card-quantity strong span { margin-left:3px; color:#8fa8ce; font-size:9px; }
+    .inventory-card-quantity.low { background:rgba(245,189,78,.09); }
+    .inventory-card-quantity.low strong { color:var(--amber); }
+    .inventory-card-empty { padding:46px 22px; border:1px dashed rgba(159,192,238,.2); border-radius:12px; color:var(--muted); background:#142239; font-size:12px; line-height:1.7; text-align:center; }
+    .inventory-demo-note { margin:11px 2px 0; color:#7892ba; font-size:10px; text-align:right; }
     .target-dashboard[hidden] { display:none; }
     .system-dashboard[hidden] { display:none; }
     .system-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:var(--panel); }
@@ -138,9 +214,9 @@
     .target-saved { color:var(--green); font-weight:700; }
     .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
     .save-targets:hover { filter:brightness(1.06); }
-    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } }
-    @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } }
-    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } }
+    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; scrollbar-width:none; } .menu::-webkit-scrollbar { display:none; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } .inventory-panel { overflow:visible; border:0; background:transparent; } .inventory-product-head,.inventory-filter { border:1px solid rgba(159,192,238,.14); background:rgba(25,40,61,.94); } .inventory-product-head { border-radius:13px 13px 0 0; } .inventory-filter { position:sticky; z-index:5; top:8px; border-top:0; border-radius:0 0 13px 13px; box-shadow:0 9px 22px rgba(3,10,21,.24); } .inventory-table-wrap { display:none; } .inventory-card-list { display:grid; gap:12px; margin-top:14px; } }
+    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter { align-items:stretch; flex-direction:column; } .inventory-search-wrap { flex-basis:auto; max-width:none; } .inventory-filter-count { margin-left:0; } .inventory-sync-meta { display:none; } }
   </style>
 </head>
 <body>
@@ -217,6 +293,30 @@
         </svg>
       </section>
       </div>
+
+      <section class="inventory-dashboard" id="inventory-dashboard" hidden aria-labelledby="inventory-page-title">
+        <div id="inventory-home">
+          <header class="inventory-head">
+            <div><h1 id="inventory-page-title">在庫状況</h1><p id="inventory-page-subtitle">商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。</p></div>
+            <button class="inventory-sync" id="inventory-sync" type="button"><span aria-hidden="true">↻</span><span id="inventory-sync-label">今すぐ同期</span></button>
+          </header>
+          <div class="inventory-tier-head"><h2 id="inventory-groups-title">商品グループ</h2><span id="inventory-home-meta">WEBMAX 5店舗 · プロトタイプデータ</span></div>
+          <div class="inventory-panel inventory-groups-shell">
+            <div class="inventory-group-grid" id="inventory-group-grid" aria-label="商品グループ"></div>
+          </div>
+          <p class="inventory-demo-note" id="inventory-demo-note">現在は画面確認用のサンプル在庫を表示しています。WEBMAX連携後に実データへ切り替えます。</p>
+        </div>
+
+        <div id="inventory-detail" hidden>
+          <div class="inventory-detail-toolbar"><button class="inventory-back" id="inventory-back" type="button">← 商品グループへ戻る</button><span class="inventory-sync-meta" id="inventory-detail-meta">WEBMAX 5店舗 · プロトタイプデータ</span></div>
+          <section class="inventory-panel" id="inventory-products-panel" aria-label="商品一覧">
+            <div class="inventory-product-head"><div><h2 id="inventory-detail-title"></h2><p id="inventory-detail-subtitle"></p></div><div class="inventory-product-summary" id="inventory-detail-summary"></div></div>
+            <div class="inventory-filter"><label for="inventory-search" id="inventory-search-label">商品検索</label><div class="inventory-search-wrap"><input class="inventory-search" id="inventory-search" type="search" placeholder="商品コード・商品名・仕様のキーワードを入力" autocomplete="off"></div><span class="inventory-filter-count" id="inventory-filter-count" aria-live="polite"></span></div>
+            <div class="inventory-table-wrap"><table class="inventory-table"><thead><tr><th style="width:20%">商品コード</th><th style="width:25%">商品詳細</th><th style="width:19%">店舗</th><th style="width:12%">在庫数</th><th style="width:12%">原価</th><th style="width:12%">売価</th></tr></thead><tbody id="inventory-product-list"></tbody></table></div>
+            <div class="inventory-card-list" id="inventory-card-list" aria-label="スマートフォン用商品一覧"></div>
+          </section>
+        </div>
+      </section>
 
       <section class="construction" id="construction" hidden aria-live="polite">
         <span class="construction-icon" aria-hidden="true">⌁</span>
@@ -325,9 +425,68 @@
       ja: { menu: 'システム設定', title: 'システム設定', subtitle: '保護された管理画面でバックグラウンド取得を設定します。', publicSubtitle: '管理者が公開した取得サービスの設定を確認できます。', checking: 'ローカル取得サービスを確認中...', publicChecking: '公開済み設定を読み込み中...', interval: '取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordMissing: '（未設定）', passwordManaged: 'サーバー上で別途管理', note: 'ERPパスワードはUbuntuサーバー上の暗号化systemd Credentialとして別途管理されます。', publicNote: '参照専用です。変更は保護されたローカル管理画面から行います。ERPパスワードは公開されません。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', published: '最新の公開済み設定を表示しています（参照専用）。', unavailable: 'ローカル取得サービスに接続できません。取得サービスから管理画面を開いてください。', publicUnavailable: '公開済み設定をまだ取得できません。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
       zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
+    const inventoryCopy = {
+      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncing:'Syncing…', syncDone:'Synced', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Product search', placeholder:'Search by product code, name, or specification', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Try another keyword.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
+      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncing:'Menyegerak…', syncDone:'Selesai', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Cari produk', placeholder:'Cari kod produk, nama atau spesifikasi', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Cuba kata kunci lain.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
+      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncing:'同期中…', syncDone:'同期完了', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'商品検索', placeholder:'商品コード・商品名・仕様のキーワードを入力', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。キーワードを変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
+      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncing:'同步中…', syncDone:'同步完成', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'商品搜索', placeholder:'输入商品代码、名称或规格', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配的商品，请更换关键词。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
+    };
+    const inventoryGroupNames = {
+      en: { 'passanger-tire':'Passenger Tire','4x4':'4x4','light-truck':'Light Truck','sport-rim':'Sport Rim','oil':'Engine Oil','oil-filter':'Oil Filter','absorber':'Absorber','adj-absorber':'Adjustable Absorber','spring':'Spring','brake-caliper':'Brake Caliper','brake-pad':'Brake Pad','brake-pump':'Brake Pump','parts':'Parts','battery':'Battery','repair-rim':'Rim Repair','used-sport-rim':'Used Sport Rim','used-tayar':'Used Tire','service':'Service','non-stock-item':'Non-Stock Item','miscellaneous':'Miscellaneous','tool-stationery':'Tools & Stationery' },
+      ms: { 'passanger-tire':'Tayar Penumpang','4x4':'4x4','light-truck':'Lori Ringan','sport-rim':'Rim Sukan','oil':'Minyak Enjin','oil-filter':'Penapis Minyak','absorber':'Penyerap Hentak','adj-absorber':'Penyerap Hentak Boleh Laras','spring':'Spring','brake-caliper':'Angkup Brek','brake-pad':'Pad Brek','brake-pump':'Pam Brek','parts':'Alat Ganti','battery':'Bateri','repair-rim':'Baiki Rim','used-sport-rim':'Rim Sukan Terpakai','used-tayar':'Tayar Terpakai','service':'Servis','non-stock-item':'Item Bukan Stok','miscellaneous':'Pelbagai','tool-stationery':'Alat & Alat Tulis' },
+      ja: { 'passanger-tire':'乗用車タイヤ','4x4':'4x4','light-truck':'ライトトラック','sport-rim':'スポーツリム','oil':'エンジンオイル','oil-filter':'オイルフィルター','absorber':'ショックアブソーバー','adj-absorber':'調整式アブソーバー','spring':'スプリング','brake-caliper':'ブレーキキャリパー','brake-pad':'ブレーキパッド','brake-pump':'ブレーキポンプ','parts':'パーツ','battery':'バッテリー','repair-rim':'リム修理','used-sport-rim':'中古スポーツリム','used-tayar':'中古タイヤ','service':'サービス','non-stock-item':'非在庫品','miscellaneous':'その他','tool-stationery':'工具・文具' },
+      zh: { 'passanger-tire':'乘用车轮胎','4x4':'四驱轮胎','light-truck':'轻型卡车轮胎','sport-rim':'运动轮圈','oil':'发动机油','oil-filter':'机油滤清器','absorber':'减震器','adj-absorber':'可调减震器','spring':'弹簧','brake-caliper':'刹车卡钳','brake-pad':'刹车片','brake-pump':'刹车泵','parts':'零件','battery':'电池','repair-rim':'轮圈维修','used-sport-rim':'二手运动轮圈','used-tayar':'二手轮胎','service':'服务','non-stock-item':'非库存商品','miscellaneous':'其他','tool-stationery':'工具与文具' }
+    };
+    const inventoryDashboard = document.getElementById('inventory-dashboard');
+    const inventoryHome = document.getElementById('inventory-home');
+    const inventoryDetail = document.getElementById('inventory-detail');
+    const inventoryGroupGrid = document.getElementById('inventory-group-grid');
+    const inventoryBack = document.getElementById('inventory-back');
+    const inventorySearch = document.getElementById('inventory-search');
+    const inventoryProductList = document.getElementById('inventory-product-list');
+    const inventoryCardList = document.getElementById('inventory-card-list');
+    const inventoryFilterCount = document.getElementById('inventory-filter-count');
+    const inventorySync = document.getElementById('inventory-sync');
+    const inventorySyncLabel = document.getElementById('inventory-sync-label');
+    const inventoryStores = [['SI','Chew Tayar'],['SR','Gemok Tayar'],['ST','Gemok Tayar'],['SK','G Tayar'],['KM','Bagus Tayar']];
+    let inventoryGroupDefinitions = [
+      ['passanger-tire','Passanger Tire',1482,18420,'RM 986K'], ['4x4','4x4',618,7840,'RM 412K'], ['light-truck','Light Truck',214,1840,'RM 286K'],
+      ['sport-rim','Sport Rim',208,846,'RM 392K'], ['oil','OIL',420,6570,'RM 166K'], ['oil-filter','Oil Filter',94,1260,'RM 31K'],
+      ['absorber','Absorber',84,426,'RM 92K'], ['adj-absorber','Adj Absorber',42,168,'RM 138K'], ['spring','Spring',72,284,'RM 58K'],
+      ['brake-caliper','Brake Caliper',66,214,'RM 121K'], ['brake-pad','Brake pad',126,684,'RM 76K'], ['brake-pump','Brake Pump',38,142,'RM 44K'],
+      ['parts','Parts',486,3420,'RM 214K'], ['battery','Battery',326,4210,'RM 276K'], ['repair-rim','Repair Rim',24,96,'RM 12K'],
+      ['used-sport-rim','Used Sport Rim',74,182,'RM 48K'], ['used-tayar','Used Tayar',164,522,'RM 36K'], ['service','Service',36,160,'RM 8K'],
+      ['non-stock-item','Non-Stock Item',56,74,'RM 18K'], ['miscellaneous','Miscellaneous',318,2610,'RM 64K'], ['tool-stationery','Tool&Stationery',146,1080,'RM 27K']
+    ];
+    const inventorySamples = {
+      'passanger-tire': [['TOYO TIRES','TYR-TY-CR1-21555R17','PROXES CR1','215/55R17 94V',21,286,390],['MICHELIN','TYR-MI-PR4-21555R17','PRIMACY 4','215/55R17 94W',32,418,560],['BRIDGESTONE','TYR-BS-EP3-19565R15','ECOPIA EP300','195/65R15 91V',84,205,285]],
+      '4x4': [['TOYO TIRES','SUV-TY-AT3-26565R17','OPEN COUNTRY A/T III','265/65R17 112T',17,468,625],['MICHELIN','SUV-MI-LTX-26565R17','LTX TRAIL','265/65R17 112T',24,558,735],['BRIDGESTONE','SUV-BS-ALN-22555R19','ALENZA 001','225/55R19 99V',12,618,810]],
+      'light-truck': [['BRIDGESTONE','LTR-BS-R623-195R15','R623 Light Truck','195R15C 106/104R',42,286,390],['TOYO TIRES','LTR-TY-H08-195R15','H08 Light Truck','195R15C 106/104S',28,272,375]],
+      'sport-rim': [['ENKEI','RIM-EN-RPF1-1775','RPF1 Sport Rim','17 × 7.5J · 5H',18,620,820],['ADVANTI','RIM-AD-ST01-1880','Storm S1','18 × 8.0J · 5H',12,780,1020]],
+      'oil': [['PETRONAS','OIL-PT-SY3-5W30-4L','Syntium 3000 E','5W-30 · Fully synthetic · 4L',74,108,158],['SHELL','OIL-SH-HU-5W40-4L','Helix Ultra','5W-40 · Fully synthetic · 4L',68,128,185]],
+      'oil-filter': [['DENSO','FLT-DN-1502002','Spin-On Oil Filter','M20 × 1.5 thread',88,18,32],['BOSCH','FLT-BO-P3318','Premium Oil Filter','Paper element · 64 mm',64,22,38]],
+      'absorber': [['KYB','ABS-KYB-EXCELG-F','Excel-G Front Absorber','Gas shock · Front axle',34,148,225],['MONROE','ABS-MO-OES-R','OESpectrum Rear','Gas shock · Rear axle',27,132,205]],
+      'adj-absorber': [['TEIN','ADJ-TEIN-SAZ-01','Street Advance Z Set','16-way adjustable · Full set',8,1780,2350],['BC RACING','ADJ-BC-BR-01','BR Series Coilover','Height adjustable · Full set',6,2240,2950]],
+      'spring': [['EIBACH','SPR-EI-PRO-KIT01','Pro-Kit Spring Set','Progressive lowering spring',14,680,890],['H&R','SPR-HR-SPORT01','Sport Spring Set','Performance lowering spring',9,760,990]],
+      'brake-caliper': [['BREMBO','CAL-BR-FR4P-RD','Front 4-Pot Caliper','Red · Left / right set',9,1120,1480],['ADVICS','CAL-AD-RR2P-BK','Rear 2-Pot Caliper','Black · Left / right set',7,760,1020]],
+      'brake-pad': [['BENDIX','PAD-BX-GCT-F01','General CT Front Pad','Ceramic compound · Front',48,86,135],['AKEBONO','PAD-AK-PRO-R01','ProACT Rear Pad','Low-dust ceramic · Rear',32,92,145]],
+      'brake-pump': [['AISIN','PMP-AI-MC-13','Brake Master Cylinder','13/16 inch bore',14,218,315],['SEIKEN','PMP-SK-WC-22','Rear Wheel Cylinder','22 mm bore',23,68,105]],
+      'battery': [['GS ASTRA','BAT-GS-DIN66L','DIN66L MF Battery','66Ah · 12V · L terminal',28,318,430],['AMARON','BAT-AM-GO55B24L','GO 55B24L','45Ah · Maintenance free',36,226,315],['BOSCH','BAT-BO-AGMLN4','S6 AGM LN4','80Ah · Start-stop',6,688,895]]
+    };
+    let inventoryGroups = Object.fromEntries(inventoryGroupDefinitions.map(([key,name,sku,points,value], groupIndex) => {
+      const fallbackCode = key.replace(/[^a-z0-9]/gi,'').slice(0,5).toUpperCase();
+      const samples = inventorySamples[key] || [['GEMOK SELECT',`${fallbackCode}-STD-01`,`${name} Standard`,`Standard specification · Grade A`,18 + groupIndex,48 + groupIndex * 3,78 + groupIndex * 4],['VALUE LINE',`${fallbackCode}-VAL-02`,`${name} Value Line`,`Workshop standard · Grade B`,11 + groupIndex,34 + groupIndex * 2,58 + groupIndex * 3]];
+      return [key,{ key,name,sku,points,value,items:samples }];
+    }));
+    let activeInventoryGroup = null;
+    let inventorySyncState = 'syncNow';
+    let inventoryCheckedAt = null;
+    let inventoryLive = false;
+    let inventoryDataUpdatedAt = null;
     const localSettingsMode = location.port === '47251' && location.pathname.startsWith('/dashboard');
     const collectorUrl = localSettingsMode ? location.origin : 'http://127.0.0.1:47251';
     const githubDashboardDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/dashboard-data.json';
+    const githubInventoryDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/inventory-data.json';
     const fetchTimestamp = document.getElementById('fetch-timestamp');
     const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
     let latestSuccessfulAt = excelSnapshotFetchedAt;
@@ -543,6 +702,117 @@
       title = document.getElementById('page-title');
       bindChartExpansion();
     }
+    function formatInventoryMoney(value) {
+      return `RM ${Number(value).toLocaleString('en-MY', { minimumFractionDigits:2, maximumFractionDigits:2 })}`;
+    }
+    function formatInventoryCompactMoney(value) {
+      const amount = Number(value) || 0;
+      if (amount >= 1000000) return `RM ${(amount / 1000000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}M`;
+      if (amount >= 1000) return `RM ${(amount / 1000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}K`;
+      return formatInventoryMoney(amount);
+    }
+    function inventoryStoreValue(value,index) {
+      const store = inventoryStores[index][0];
+      if (Array.isArray(value)) return value[index] ?? value[0] ?? 0;
+      if (value && typeof value === 'object') return value[store] ?? value.default ?? Object.values(value)[0] ?? 0;
+      return value;
+    }
+    function inventoryAllocation(total) {
+      const weights = [0.22,0.18,0.24,0.15];
+      const values = weights.map((weight) => Math.floor(total * weight));
+      values.push(total - values.reduce((sum,value) => sum + value,0));
+      return values;
+    }
+    function inventoryFormat(template,values = {}) {
+      return Object.entries(values).reduce((text,[key,value]) => text.replaceAll(`{${key}}`,value),template);
+    }
+    function inventoryGroupName(key) {
+      return inventoryGroupNames[language]?.[key] || inventoryGroups[key]?.name || key;
+    }
+    function inventoryGroupIconKey(key,name) {
+      const normalized = `${key} ${name}`.toLowerCase();
+      const aliases = [
+        [/passenger|passanger|tayar/, 'passanger-tire'], [/4x4|four wheel/, '4x4'], [/light truck/, 'light-truck'], [/sport rim/, 'sport-rim'],
+        [/oil filter/, 'oil-filter'], [/engine oil|\boil\b/, 'oil'], [/adjust.*absorber|adj absorber/, 'adj-absorber'], [/absorber|shock/, 'absorber'],
+        [/spring/, 'spring'], [/brake caliper/, 'brake-caliper'], [/brake pad/, 'brake-pad'], [/brake pump|master cylinder/, 'brake-pump'],
+        [/battery/, 'battery'], [/repair.*rim|rim repair/, 'repair-rim'], [/used.*rim/, 'used-sport-rim'], [/used.*tire|used.*tayar/, 'used-tayar'],
+        [/service/, 'service'], [/non.?stock/, 'non-stock-item'], [/tool|stationery/, 'tool-stationery'], [/part/, 'parts']
+      ];
+      return aliases.find(([pattern]) => pattern.test(normalized))?.[1] || 'miscellaneous';
+    }
+    function inventoryMetaText() {
+      const copy = inventoryCopy[language];
+      if (inventoryLive && inventoryDataUpdatedAt) {
+        const time = new Intl.DateTimeFormat(localeByLanguage[language],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(inventoryDataUpdatedAt);
+        return inventoryFormat(copy.liveMeta,{ stores:inventoryStores.length, time });
+      }
+      if (!inventoryCheckedAt) return copy.meta;
+      const time = new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt);
+      return inventoryFormat(copy.checked,{ time });
+    }
+    function renderInventoryStaticCopy() {
+      const copy = inventoryCopy[language];
+      document.getElementById('inventory-page-title').textContent = copy.title;
+      document.getElementById('inventory-page-subtitle').textContent = copy.subtitle;
+      inventorySyncLabel.textContent = copy[inventorySyncState];
+      document.getElementById('inventory-groups-title').textContent = copy.groups;
+      document.getElementById('inventory-home-meta').textContent = inventoryMetaText();
+      document.getElementById('inventory-detail-meta').textContent = inventoryMetaText();
+      document.getElementById('inventory-demo-note').textContent = inventoryLive ? copy.liveNote : copy.demoNote;
+      inventoryBack.textContent = copy.back;
+      document.getElementById('inventory-products-panel').setAttribute('aria-label',copy.productList);
+      document.getElementById('inventory-search-label').textContent = copy.search;
+      inventorySearch.placeholder = copy.placeholder;
+      inventoryGroupGrid.setAttribute('aria-label',copy.groups);
+      inventoryCardList.setAttribute('aria-label',copy.mobileList);
+      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
+    }
+    function renderInventoryGroups() {
+      const copy = inventoryCopy[language];
+      inventoryGroupGrid.innerHTML = inventoryGroupDefinitions.map(([key, name]) => `<button class="inventory-group-button" type="button" data-inventory-group="${key}"><span class="inventory-group-icon"><img src="assets/group-icons/${inventoryGroupIconKey(key,name)}.webp" alt=""></span><strong>${escapeHtml(name)}</strong><small>${escapeHtml(copy.showProducts)}</small></button>`).join('');
+      inventoryGroupGrid.querySelectorAll('[data-inventory-group]').forEach((button) => button.addEventListener('click', () => showInventoryDetail(button.dataset.inventoryGroup)));
+    }
+    function renderInventoryProducts() {
+      if (!activeInventoryGroup) return;
+      const copy = inventoryCopy[language];
+      const group = inventoryGroups[activeInventoryGroup];
+      const query = inventorySearch.value.trim().toLocaleLowerCase();
+      const matches = group.items.filter((item) => `${item[0]} ${item[1]} ${item[2]} ${item[3]}`.toLocaleLowerCase().includes(query));
+      document.getElementById('inventory-detail-title').textContent = inventoryGroupName(group.key);
+      document.getElementById('inventory-detail-subtitle').textContent = inventoryFormat(copy.byBrand,{ sku:group.sku.toLocaleString(localeByLanguage[language]) });
+      document.getElementById('inventory-detail-summary').innerHTML = `<span>${escapeHtml(inventoryFormat(copy.totalStock,{ points:group.points.toLocaleString(localeByLanguage[language]) }))}</span><span>${escapeHtml(inventoryFormat(copy.stockValue,{ value:group.value }))}</span>`;
+      inventoryFilterCount.textContent = inventoryFormat(query ? copy.matches : copy.showing,{ count:matches.length.toLocaleString(localeByLanguage[language]) });
+      if (!matches.length) {
+        inventoryProductList.innerHTML = `<tr class="inventory-empty"><td colspan="6">${escapeHtml(copy.empty)}</td></tr>`;
+        inventoryCardList.innerHTML = `<div class="inventory-card-empty">${escapeHtml(copy.empty)}</div>`;
+        return;
+      }
+      const grouped = Object.groupBy ? Object.groupBy(matches,(item) => item[0]) : matches.reduce((result,item) => ((result[item[0]] ||= []).push(item),result),{});
+      inventoryProductList.innerHTML = Object.entries(grouped).map(([brand,items]) => `<tr class="inventory-brand-row"><td colspan="6">${escapeHtml(brand || '—')}<span>${escapeHtml(inventoryFormat(copy.productCount,{ count:items.length.toLocaleString(localeByLanguage[language]) }))}</span></td></tr>${items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
+        const allocation = quantityByStore ? inventoryStores.map(([store]) => Number(quantityByStore[store]) || 0) : inventoryAllocation(stock);
+        return inventoryStores.map(([store,company],index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${inventoryStores.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${inventoryStores.length}"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(spec)}</span></td>` : ''}<td class="inventory-store"><strong>${store}</strong><span>${escapeHtml(company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${allocation[index] < 3 ? ' low' : ''}">${allocation[index]}</span></td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(cost,index))}</td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(price,index))}</td></tr>`).join('');
+      }).join('')}`).join('');
+      inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
+        const allocation = quantityByStore ? inventoryStores.map(([store]) => Number(quantityByStore[store]) || 0) : inventoryAllocation(stock);
+        const stores = inventoryStores.map(([store,company],index) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${store}</strong><span>${escapeHtml(company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${allocation[index] < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${allocation[index]}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(inventoryStoreValue(cost,index))}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(inventoryStoreValue(price,index))}</strong></div></div></div>`).join('');
+        return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3><p class="inventory-card-spec">${escapeHtml(spec)}</p></div><div class="inventory-card-stock">${stores}</div></article>`;
+      })).join('');
+    }
+    function showInventoryHome() {
+      activeInventoryGroup = null;
+      inventorySearch.value = '';
+      inventoryHome.hidden = false;
+      inventoryDetail.hidden = true;
+      window.scrollTo({ top:0, behavior:'smooth' });
+    }
+    function showInventoryDetail(key) {
+      activeInventoryGroup = key;
+      inventorySearch.value = '';
+      inventoryHome.hidden = true;
+      inventoryDetail.hidden = false;
+      renderInventoryProducts();
+      window.scrollTo({ top:0, behavior:'smooth' });
+    }
     function targetStorageKey() { return `gemok-monthly-targets-${targetMonth.value}`; }
     function formatTargetAmount(value) {
       if (value >= 1000000) return `${(value / 1000000).toLocaleString(localeByLanguage[language], { maximumFractionDigits: 2 })}M`;
@@ -561,13 +831,15 @@
     }
     function renderActivePage() {
       const showingSales = activeKey === 'salesProgress';
+      const showingInventory = activeKey === 'inventory';
       const showingTargets = activeKey === 'targets';
       const showingSystem = activeKey === 'system';
       salesDashboard.hidden = !showingSales;
+      inventoryDashboard.hidden = !showingInventory;
       targetDashboard.hidden = !showingTargets;
       systemDashboard.hidden = !showingSystem;
-      construction.hidden = showingSales || showingTargets || showingSystem;
-      constructionTitle.textContent = translations[language][activeKey];
+      construction.hidden = showingSales || showingInventory || showingTargets || showingSystem;
+      if (!construction.hidden) constructionTitle.textContent = translations[language][activeKey];
       notice.classList.remove('show');
       notice.textContent = '';
     }
@@ -664,6 +936,61 @@
         }
       } catch { /* Keep the packaged Excel snapshot when this PC's service is unavailable. */ }
     }
+    function mergeInventoryData(payload) {
+      if (!payload || !Array.isArray(payload.groups) || !Array.isArray(payload.items) || !payload.groups.length || !payload.items.length) return false;
+      const stores = Array.isArray(payload.stores) ? payload.stores.filter((store) => store?.code) : [];
+      if (stores.length) inventoryStores.splice(0, inventoryStores.length, ...stores.map((store) => [String(store.code), String(store.company || store.code)]));
+      const itemsByGroup = new Map(payload.groups.map((group) => [String(group.key), []]));
+      payload.items.forEach((item) => {
+        const groupKey = String(item.groupKey || 'ungrouped');
+        if (!itemsByGroup.has(groupKey)) itemsByGroup.set(groupKey, []);
+        const sourceStores = item.stores && typeof item.stores === 'object' ? item.stores : {};
+        const quantities = Object.fromEntries(inventoryStores.map(([store]) => [store, Number(sourceStores[store]?.quantity) || 0]));
+        const costs = Object.fromEntries(inventoryStores.map(([store]) => [store, Number(sourceStores[store]?.cost) || 0]));
+        const prices = Object.fromEntries(inventoryStores.map(([store]) => [store, Number(sourceStores[store]?.price) || 0]));
+        const total = Object.values(quantities).reduce((sum,value) => sum + value,0);
+        itemsByGroup.get(groupKey).push([String(item.brand || ''),String(item.code || ''),String(item.name || item.code || ''),String(item.spec || ''),total,costs,prices,quantities]);
+      });
+      inventoryGroupDefinitions = payload.groups.map((group) => [
+        String(group.key),
+        String(group.name || group.key),
+        Number(group.sku) || itemsByGroup.get(String(group.key))?.length || 0,
+        Number(group.quantity) || 0,
+        formatInventoryCompactMoney(group.stockValue),
+      ]);
+      inventoryGroups = Object.fromEntries(inventoryGroupDefinitions.map(([key,name,sku,points,value]) => [key,{ key,name,sku,points,value,items:itemsByGroup.get(key) || [] }]));
+      inventoryLive = true;
+      inventoryDataUpdatedAt = payload.updatedAt ? new Date(payload.updatedAt) : new Date();
+      inventoryCheckedAt = inventoryDataUpdatedAt;
+      if (activeInventoryGroup && !inventoryGroups[activeInventoryGroup]) showInventoryHome();
+      renderInventoryStaticCopy();
+      renderInventoryGroups();
+      if (activeInventoryGroup) renderInventoryProducts();
+      return true;
+    }
+    async function loadCollectorInventoryData() {
+      if (!localSettingsMode) return false;
+      try {
+        const response = await fetch(`${collectorUrl}/inventory-data`, { cache:'no-store' });
+        if (!response.ok) throw new Error();
+        return mergeInventoryData(await response.json());
+      } catch { return false; }
+    }
+    async function fetchPublishedInventorySnapshot() {
+      const sources = [`inventory-data.json?v=${Date.now()}`,`${githubInventoryDataUrl}?v=${Date.now()}`];
+      const results = await Promise.allSettled(sources.map(async (source) => {
+        const response = await fetch(source,{ cache:'no-store' });
+        if (!response.ok) throw new Error(`Inventory data request failed: ${response.status}`);
+        return await response.json();
+      }));
+      const snapshots = results.filter((result) => result.status === 'fulfilled').map((result) => result.value).filter((payload) => Array.isArray(payload?.groups) && payload.groups.length && Array.isArray(payload?.items) && payload.items.length);
+      if (!snapshots.length) throw new Error('Inventory data is unavailable');
+      return snapshots.reduce((latest,candidate) => (Date.parse(candidate.updatedAt || '') || 0) > (Date.parse(latest.updatedAt || '') || 0) ? candidate : latest);
+    }
+    async function loadPublishedInventoryData() {
+      try { return mergeInventoryData(await fetchPublishedInventorySnapshot()); }
+      catch { return false; }
+    }
     async function fetchPublishedDashboardSnapshot() {
       const sources = [
         `dashboard-data.json?v=${Date.now()}`,
@@ -728,6 +1055,9 @@
       renderSystemStaticCopy();
       renderLatestFetch();
       renderSalesDashboard();
+      renderInventoryStaticCopy();
+      renderInventoryGroups();
+      if (activeInventoryGroup) renderInventoryProducts();
       renderActivePage();
       if (activeKey === 'system') loadSystemSettings();
     }
@@ -737,11 +1067,34 @@
         button.setAttribute('aria-current', 'page');
         activeKey = button.dataset.nameKey;
         if (activeKey === 'salesProgress') renderSalesDashboard();
+        else if (activeKey === 'inventory') showInventoryHome();
         else if (activeKey !== 'system') title.textContent = translations[language][activeKey];
         renderActivePage();
         if (activeKey === 'system') loadSystemSettings();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
+    });
+    inventoryBack.addEventListener('click', showInventoryHome);
+    inventorySearch.addEventListener('input', renderInventoryProducts);
+    inventorySync.addEventListener('click', async () => {
+      inventorySync.disabled = true;
+      inventorySyncState = 'syncing';
+      renderInventoryStaticCopy();
+      let loaded = false;
+      try {
+        if (localSettingsMode) {
+          const response = await fetch(`${collectorUrl}/inventory-sync`, { method:'POST' });
+          if (!response.ok && response.status !== 409) throw new Error('Inventory sync request failed');
+          await new Promise((resolve) => window.setTimeout(resolve, 1200));
+          loaded = await loadCollectorInventoryData();
+        }
+        loaded = (await loadPublishedInventoryData()) || loaded;
+      } catch { /* Keep the most recent inventory snapshot when refresh fails. */ }
+      inventorySync.disabled = false;
+      inventorySyncState = loaded ? 'syncDone' : 'syncNow';
+      if (loaded) inventoryCheckedAt = inventoryDataUpdatedAt || new Date();
+      renderInventoryStaticCopy();
+      if (loaded) window.setTimeout(() => { inventorySyncState = 'syncNow'; renderInventoryStaticCopy(); }, 1800);
     });
     targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
     targetMonth.addEventListener('change', loadTargetValues);
@@ -760,14 +1113,19 @@
       catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
     });
     languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+    renderInventoryGroups();
     renderSalesDashboard();
     loadTargetValues();
     setLanguage(language);
     loadPublishedDashboardData();
+    loadPublishedInventoryData();
     loadCollectorStatus();
     loadCollectorDashboardData();
+    loadCollectorInventoryData();
     setInterval(() => loadCollectorStatus(true), 30000);
     setInterval(loadCollectorDashboardData, 30000);
+    setInterval(loadCollectorInventoryData, 30000);
+    setInterval(loadPublishedInventoryData, 60000);
     setInterval(reloadWhenPublishedDataChanges, 30000);
   </script>
 </body>
