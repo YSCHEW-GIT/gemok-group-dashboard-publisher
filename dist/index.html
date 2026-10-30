@@ -155,13 +155,18 @@
     .inventory-product-head p { margin:5px 0 0; color:var(--muted); font-size:11px; }
     .inventory-product-summary { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; }
     .inventory-product-summary span { padding:5px 7px; border-radius:6px; color:#bcd0ed; background:#20344f; font-size:11px; }
-    .inventory-filter { gap:10px; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
-    .inventory-filter label { flex:0 0 auto; color:#c6d8f1; font-size:11px; font-weight:800; }
-    .inventory-search-wrap { position:relative; flex:1 1 340px; max-width:480px; }
+    .inventory-filter { display:block; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
+    .inventory-filter-controls { display:grid; grid-template-columns:minmax(240px,2fr) minmax(190px,1fr) minmax(180px,1fr); gap:10px; align-items:end; }
+    .inventory-filter-control,.inventory-stock-range { min-width:0; margin:0; padding:0; border:0; }
+    .inventory-filter-control > span,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
+    .inventory-search-wrap { position:relative; }
     .inventory-search-wrap::before { content:"⌕"; position:absolute; top:50%; left:12px; color:#7892ba; font-size:16px; transform:translateY(-52%); }
-    .inventory-search { width:100%; padding:10px 12px 10px 34px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
-    .inventory-search:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(115,168,255,.12); }
-    .inventory-filter-count { margin-left:auto; color:var(--muted); font-size:11px; white-space:nowrap; }
+    .inventory-search,.inventory-filter-input { width:100%; height:38px; padding:9px 11px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
+    .inventory-search { padding-left:34px; }
+    .inventory-search:focus,.inventory-filter-input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(115,168,255,.12); }
+    .inventory-stock-range-inputs { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:6px; align-items:center; }
+    .inventory-stock-range-inputs span { color:#7892ba; font-size:12px; }
+    .inventory-filter-count { display:block; margin-top:8px; color:var(--muted); font-size:11px; text-align:right; }
     .inventory-table-wrap { overflow-x:auto; }
     .inventory-table { width:100%; min-width:760px; border-collapse:collapse; table-layout:fixed; }
     .inventory-table th { height:38px; padding:0 10px; color:#7892ba; background:#142239; font-size:10px; text-align:left; }
@@ -242,9 +247,9 @@
     .target-saved { color:var(--green); font-weight:700; }
     .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
     .save-targets:hover { filter:brightness(1.06); }
-    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .inventory-filter-controls { grid-template-columns:1fr 1fr; } .inventory-filter-keyword { grid-column:1 / -1; } }
     @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; scrollbar-width:none; } .menu::-webkit-scrollbar { display:none; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } .inventory-panel { overflow:visible; border:0; background:transparent; } .inventory-product-head,.inventory-filter { border:1px solid rgba(159,192,238,.14); background:rgba(25,40,61,.94); } .inventory-product-head { border-radius:13px 13px 0 0; } .inventory-filter { position:sticky; z-index:5; top:8px; border-top:0; border-radius:0 0 13px 13px; box-shadow:0 9px 22px rgba(3,10,21,.24); } .inventory-table-wrap { display:none; } .inventory-card-list { display:grid; gap:12px; margin-top:14px; } }
-    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter { align-items:stretch; flex-direction:column; } .inventory-search-wrap { flex-basis:auto; max-width:none; } .inventory-filter-count { margin-left:0; } .inventory-sync-meta { display:none; } .inventory-sync-dialog { padding:20px; } .inventory-sync-timing { grid-template-columns:1fr; } }
+    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter-controls { grid-template-columns:1fr; } .inventory-filter-keyword { grid-column:auto; } .inventory-filter-count { text-align:left; } .inventory-sync-meta { display:none; } .inventory-sync-dialog { padding:20px; } .inventory-sync-timing { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -339,7 +344,14 @@
           <div class="inventory-detail-toolbar"><button class="inventory-back" id="inventory-back" type="button">← 商品グループへ戻る</button><span class="inventory-sync-meta" id="inventory-detail-meta">WEBMAX 5店舗 · プロトタイプデータ</span></div>
           <section class="inventory-panel" id="inventory-products-panel" aria-label="商品一覧">
             <div class="inventory-product-head"><div><h2 id="inventory-detail-title"></h2><p id="inventory-detail-subtitle"></p></div><div class="inventory-product-summary" id="inventory-detail-summary"></div></div>
-            <div class="inventory-filter"><label for="inventory-search" id="inventory-search-label">商品検索</label><div class="inventory-search-wrap"><input class="inventory-search" id="inventory-search" type="search" placeholder="商品コード・商品名・仕様のキーワードを入力" autocomplete="off"></div><span class="inventory-filter-count" id="inventory-filter-count" aria-live="polite"></span></div>
+            <div class="inventory-filter">
+              <div class="inventory-filter-controls">
+                <label class="inventory-filter-control inventory-filter-keyword" for="inventory-search"><span id="inventory-search-label">キーワード</span><span class="inventory-search-wrap"><input class="inventory-search" id="inventory-search" type="search" placeholder="商品コード・商品名を入力" autocomplete="off"></span></label>
+                <fieldset class="inventory-stock-range"><legend id="inventory-stock-range-label">在庫数</legend><div class="inventory-stock-range-inputs"><input class="inventory-filter-input" id="inventory-stock-min" type="number" step="any" inputmode="decimal" placeholder="下限" aria-label="在庫数の下限"><span>–</span><input class="inventory-filter-input" id="inventory-stock-max" type="number" step="any" inputmode="decimal" placeholder="上限" aria-label="在庫数の上限"></div></fieldset>
+                <label class="inventory-filter-control" for="inventory-store-filter"><span id="inventory-store-filter-label">店舗</span><input class="inventory-filter-input" id="inventory-store-filter" type="search" list="inventory-store-options" placeholder="店舗コード・店舗名" autocomplete="off"><datalist id="inventory-store-options"></datalist></label>
+              </div>
+              <span class="inventory-filter-count" id="inventory-filter-count" aria-live="polite"></span>
+            </div>
             <div class="inventory-table-wrap"><table class="inventory-table"><thead><tr><th style="width:20%">商品コード</th><th style="width:25%">商品詳細</th><th style="width:19%">店舗</th><th style="width:12%">在庫数</th><th style="width:12%">原価</th><th style="width:12%">売価</th></tr></thead><tbody id="inventory-product-list"></tbody></table></div>
             <div class="inventory-card-list" id="inventory-card-list" aria-label="スマートフォン用商品一覧"></div>
           </section>
@@ -473,10 +485,10 @@
       zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
     const inventoryCopy = {
-      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncPrivate:'Sync from private site', syncing:'Syncing…', syncWaiting:'Waiting for collector…', syncDone:'Synced', syncFailed:'Sync failed', syncTimeout:'Still processing', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Product search', placeholder:'Search by product code, name, or specification', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Try another keyword.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
-      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncPrivate:'Segerak dari laman peribadi', syncing:'Menyegerak…', syncWaiting:'Menunggu pengumpul…', syncDone:'Selesai', syncFailed:'Penyegerakan gagal', syncTimeout:'Masih diproses', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Cari produk', placeholder:'Cari kod produk, nama atau spesifikasi', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Cuba kata kunci lain.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
-      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncPrivate:'同期は非公開版から実行', syncing:'同期中…', syncWaiting:'取得サービスの開始待ち…', syncDone:'同期完了', syncFailed:'同期に失敗', syncTimeout:'同期処理を継続中', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'商品検索', placeholder:'商品コード・商品名・仕様のキーワードを入力', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。キーワードを変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
-      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncPrivate:'请从非公开版执行同步', syncing:'同步中…', syncWaiting:'等待采集服务…', syncDone:'同步完成', syncFailed:'同步失败', syncTimeout:'仍在处理中', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'商品搜索', placeholder:'输入商品代码、名称或规格', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配的商品，请更换关键词。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
+      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncPrivate:'Sync from private site', syncing:'Syncing…', syncWaiting:'Waiting for collector…', syncDone:'Synced', syncFailed:'Sync failed', syncTimeout:'Still processing', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Keyword', placeholder:'Search by product code, name, or brand', stockRange:'Stock quantity', stockMin:'Minimum', stockMax:'Maximum', storeFilter:'Store', storePlaceholder:'Store code or name', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Change the search conditions.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
+      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncPrivate:'Segerak dari laman peribadi', syncing:'Menyegerak…', syncWaiting:'Menunggu pengumpul…', syncDone:'Selesai', syncFailed:'Penyegerakan gagal', syncTimeout:'Masih diproses', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Kata kunci', placeholder:'Cari kod, nama atau jenama produk', stockRange:'Kuantiti stok', stockMin:'Minimum', stockMax:'Maksimum', storeFilter:'Cawangan', storePlaceholder:'Kod atau nama cawangan', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Ubah syarat carian.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
+      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncPrivate:'同期は非公開版から実行', syncing:'同期中…', syncWaiting:'取得サービスの開始待ち…', syncDone:'同期完了', syncFailed:'同期に失敗', syncTimeout:'同期処理を継続中', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'キーワード', placeholder:'商品コード・商品名・ブランドを入力', stockRange:'在庫数', stockMin:'下限', stockMax:'上限', storeFilter:'店舗', storePlaceholder:'店舗コード・店舗名', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。検索条件を変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
+      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncPrivate:'请从非公开版执行同步', syncing:'同步中…', syncWaiting:'等待采集服务…', syncDone:'同步完成', syncFailed:'同步失败', syncTimeout:'仍在处理中', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'关键词', placeholder:'输入商品代码、名称或品牌', stockRange:'库存数', stockMin:'下限', stockMax:'上限', storeFilter:'门店', storePlaceholder:'门店代码或名称', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配商品，请修改搜索条件。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
     };
     const inventorySyncCopy = {
       en: {
@@ -512,6 +524,10 @@
     const inventoryGroupGrid = document.getElementById('inventory-group-grid');
     const inventoryBack = document.getElementById('inventory-back');
     const inventorySearch = document.getElementById('inventory-search');
+    const inventoryStockMin = document.getElementById('inventory-stock-min');
+    const inventoryStockMax = document.getElementById('inventory-stock-max');
+    const inventoryStoreFilter = document.getElementById('inventory-store-filter');
+    const inventoryStoreOptions = document.getElementById('inventory-store-options');
     const inventoryProductList = document.getElementById('inventory-product-list');
     const inventoryCardList = document.getElementById('inventory-card-list');
     const inventoryFilterCount = document.getElementById('inventory-filter-count');
@@ -810,8 +826,9 @@
       if (amount >= 1000) return `RM ${(amount / 1000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}K`;
       return formatInventoryMoney(amount);
     }
-    function inventoryStoreValue(value,index) {
-      const store = inventoryStores[index][0];
+    function inventoryStoreValue(value,storeOrIndex) {
+      const index = typeof storeOrIndex === 'number' ? storeOrIndex : inventoryStores.findIndex(([code]) => code === storeOrIndex);
+      const store = typeof storeOrIndex === 'string' ? storeOrIndex : inventoryStores[index]?.[0];
       if (Array.isArray(value)) return value[index] ?? value[0] ?? 0;
       if (value && typeof value === 'object') return value[store] ?? value.default ?? Object.values(value)[0] ?? 0;
       return value;
@@ -827,6 +844,17 @@
     }
     function inventoryGroupName(key) {
       return inventoryGroupNames[language]?.[key] || inventoryGroups[key]?.name || key;
+    }
+    function inventoryDisplaySpec(value) {
+      return String(value || '').split('·').map((part) => part.trim()).filter((part) => part && !/^[+-]?\d+(?:[.,]\d+)?$/.test(part)).join(' · ');
+    }
+    function renderInventoryStoreOptions() {
+      inventoryStoreOptions.innerHTML = inventoryStores.map(([code,company]) => `<option value="${escapeHtml(code)}">${escapeHtml(`${code} — ${company}`)}</option>`).join('');
+    }
+    function matchingInventoryStores(query) {
+      const normalized = query.trim().toLocaleLowerCase();
+      if (!normalized) return inventoryStores;
+      return inventoryStores.filter(([code,company]) => `${code} ${company}`.toLocaleLowerCase().includes(normalized));
     }
     function inventoryGroupIconKey(key,name) {
       const normalized = `${key} ${name}`.toLowerCase();
@@ -925,6 +953,14 @@
       document.getElementById('inventory-products-panel').setAttribute('aria-label',copy.productList);
       document.getElementById('inventory-search-label').textContent = copy.search;
       inventorySearch.placeholder = copy.placeholder;
+      document.getElementById('inventory-stock-range-label').textContent = copy.stockRange;
+      inventoryStockMin.placeholder = copy.stockMin;
+      inventoryStockMin.setAttribute('aria-label',`${copy.stockRange} ${copy.stockMin}`);
+      inventoryStockMax.placeholder = copy.stockMax;
+      inventoryStockMax.setAttribute('aria-label',`${copy.stockRange} ${copy.stockMax}`);
+      document.getElementById('inventory-store-filter-label').textContent = copy.storeFilter;
+      inventoryStoreFilter.placeholder = copy.storePlaceholder;
+      renderInventoryStoreOptions();
       inventoryGroupGrid.setAttribute('aria-label',copy.groups);
       inventoryCardList.setAttribute('aria-label',copy.mobileList);
       document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
@@ -944,11 +980,30 @@
       const copy = inventoryCopy[language];
       const group = inventoryGroups[activeInventoryGroup];
       const query = inventorySearch.value.trim().toLocaleLowerCase();
-      const matches = group.items.filter((item) => `${item[0]} ${item[1]} ${item[2]} ${item[3]}`.toLocaleLowerCase().includes(query));
-      document.getElementById('inventory-detail-title').textContent = inventoryGroupName(group.key);
+      const minimumText = inventoryStockMin.value.trim();
+      const maximumText = inventoryStockMax.value.trim();
+      const minimum = minimumText === '' ? -Infinity : Number(minimumText);
+      const maximum = maximumText === '' ? Infinity : Number(maximumText);
+      const storeQuery = inventoryStoreFilter.value.trim();
+      const selectedStores = matchingInventoryStores(storeQuery);
+      const displayStores = storeQuery ? selectedStores : inventoryStores;
+      const hasFilters = Boolean(query || minimumText || maximumText || storeQuery);
+      const quantitiesForItem = (stock,quantityByStore) => {
+        const fallback = inventoryAllocation(stock);
+        return Object.fromEntries(inventoryStores.map(([store],index) => [store,quantityByStore ? Number(quantityByStore[store]) || 0 : fallback[index]]));
+      };
+      const matches = group.items.filter(([brand,code,name,spec,stock,,,quantityByStore]) => {
+        const displaySpec = inventoryDisplaySpec(spec);
+        const keywordMatches = `${brand} ${code} ${name} ${displaySpec}`.toLocaleLowerCase().includes(query);
+        if (!keywordMatches || (storeQuery && !selectedStores.length)) return false;
+        const quantities = quantitiesForItem(stock,quantityByStore);
+        const candidates = storeQuery ? selectedStores.map(([store]) => quantities[store]) : [Object.values(quantities).reduce((sum,value) => sum + value,0)];
+        return candidates.some((value) => value >= minimum && value <= maximum);
+      });
+      document.getElementById('inventory-detail-title').textContent = group.name;
       document.getElementById('inventory-detail-subtitle').textContent = inventoryFormat(copy.byBrand,{ sku:group.sku.toLocaleString(localeByLanguage[language]) });
       document.getElementById('inventory-detail-summary').innerHTML = `<span>${escapeHtml(inventoryFormat(copy.totalStock,{ points:group.points.toLocaleString(localeByLanguage[language]) }))}</span><span>${escapeHtml(inventoryFormat(copy.stockValue,{ value:group.value }))}</span>`;
-      inventoryFilterCount.textContent = inventoryFormat(query ? copy.matches : copy.showing,{ count:matches.length.toLocaleString(localeByLanguage[language]) });
+      inventoryFilterCount.textContent = inventoryFormat(hasFilters ? copy.matches : copy.showing,{ count:matches.length.toLocaleString(localeByLanguage[language]) });
       if (!matches.length) {
         inventoryProductList.innerHTML = `<tr class="inventory-empty"><td colspan="6">${escapeHtml(copy.empty)}</td></tr>`;
         inventoryCardList.innerHTML = `<div class="inventory-card-empty">${escapeHtml(copy.empty)}</div>`;
@@ -956,25 +1011,34 @@
       }
       const grouped = Object.groupBy ? Object.groupBy(matches,(item) => item[0]) : matches.reduce((result,item) => ((result[item[0]] ||= []).push(item),result),{});
       inventoryProductList.innerHTML = Object.entries(grouped).map(([brand,items]) => `<tr class="inventory-brand-row"><td colspan="6">${escapeHtml(brand || '—')}<span>${escapeHtml(inventoryFormat(copy.productCount,{ count:items.length.toLocaleString(localeByLanguage[language]) }))}</span></td></tr>${items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
-        const allocation = quantityByStore ? inventoryStores.map(([store]) => Number(quantityByStore[store]) || 0) : inventoryAllocation(stock);
-        return inventoryStores.map(([store,company],index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${inventoryStores.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${inventoryStores.length}"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(spec)}</span></td>` : ''}<td class="inventory-store"><strong>${store}</strong><span>${escapeHtml(company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${allocation[index] < 3 ? ' low' : ''}">${allocation[index]}</span></td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(cost,index))}</td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(price,index))}</td></tr>`).join('');
+        const quantities = quantitiesForItem(stock,quantityByStore);
+        const displaySpec = inventoryDisplaySpec(spec);
+        const specHtml = displaySpec ? `<span>${escapeHtml(displaySpec)}</span>` : '';
+        return displayStores.map(([store,company],index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${displayStores.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${displayStores.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${store}</strong><span>${escapeHtml(company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${quantities[store] < 3 ? ' low' : ''}">${quantities[store]}</span></td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(cost,store))}</td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(price,store))}</td></tr>`).join('');
       }).join('')}`).join('');
       inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
-        const allocation = quantityByStore ? inventoryStores.map(([store]) => Number(quantityByStore[store]) || 0) : inventoryAllocation(stock);
-        const stores = inventoryStores.map(([store,company],index) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${store}</strong><span>${escapeHtml(company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${allocation[index] < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${allocation[index]}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(inventoryStoreValue(cost,index))}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(inventoryStoreValue(price,index))}</strong></div></div></div>`).join('');
-        return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3><p class="inventory-card-spec">${escapeHtml(spec)}</p></div><div class="inventory-card-stock">${stores}</div></article>`;
+        const quantities = quantitiesForItem(stock,quantityByStore);
+        const stores = displayStores.map(([store,company]) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${store}</strong><span>${escapeHtml(company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${quantities[store] < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${quantities[store]}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(inventoryStoreValue(cost,store))}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(inventoryStoreValue(price,store))}</strong></div></div></div>`).join('');
+        const displaySpec = inventoryDisplaySpec(spec);
+        return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3>${displaySpec ? `<p class="inventory-card-spec">${escapeHtml(displaySpec)}</p>` : ''}</div><div class="inventory-card-stock">${stores}</div></article>`;
       })).join('');
+    }
+    function resetInventoryFilters() {
+      inventorySearch.value = '';
+      inventoryStockMin.value = '';
+      inventoryStockMax.value = '';
+      inventoryStoreFilter.value = '';
     }
     function showInventoryHome() {
       activeInventoryGroup = null;
-      inventorySearch.value = '';
+      resetInventoryFilters();
       inventoryHome.hidden = false;
       inventoryDetail.hidden = true;
       window.scrollTo({ top:0, behavior:'smooth' });
     }
     function showInventoryDetail(key) {
       activeInventoryGroup = key;
-      inventorySearch.value = '';
+      resetInventoryFilters();
       inventoryHome.hidden = true;
       inventoryDetail.hidden = false;
       renderInventoryProducts();
@@ -1313,7 +1377,7 @@
       });
     });
     inventoryBack.addEventListener('click', showInventoryHome);
-    inventorySearch.addEventListener('input', renderInventoryProducts);
+    [inventorySearch,inventoryStockMin,inventoryStockMax,inventoryStoreFilter].forEach((input) => input.addEventListener('input',renderInventoryProducts));
     inventorySyncCancel.addEventListener('click', async () => {
       if (inventorySyncCancelRequested || ['completed','cancelled','failed'].includes(inventorySyncStage)) return;
       inventorySyncCancelRequested = true;
