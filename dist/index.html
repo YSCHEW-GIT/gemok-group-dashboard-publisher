@@ -106,6 +106,32 @@
     .inventory-sync { display:inline-flex; align-items:center; gap:8px; flex:0 0 auto; padding:10px 14px; border:1px solid rgba(115,168,255,.3); border-radius:9px; color:#dce9fb; background:#213753; font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
     .inventory-sync:hover,.inventory-sync:focus-visible { border-color:var(--blue); background:#29466b; }
     .inventory-sync[disabled] { opacity:.65; cursor:wait; }
+    body.inventory-sync-locked { overflow:hidden; }
+    .inventory-sync-overlay[hidden] { display:none; }
+    .inventory-sync-overlay { position:fixed; z-index:1200; inset:0; display:grid; place-items:center; padding:22px; background:rgba(5,13,26,.84); backdrop-filter:blur(7px); }
+    .inventory-sync-dialog { width:min(520px,100%); padding:26px; border:1px solid rgba(115,168,255,.34); border-radius:18px; background:linear-gradient(160deg,#162a45,#101d31); box-shadow:0 30px 90px rgba(0,0,0,.48); }
+    .inventory-sync-dialog-head { display:flex; align-items:center; gap:14px; }
+    .inventory-sync-spinner { width:40px; height:40px; flex:0 0 auto; border:3px solid rgba(115,168,255,.22); border-top-color:#7fb3ff; border-radius:50%; animation:inventory-spin .9s linear infinite; }
+    .inventory-sync-dialog[data-stage="completed"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="cancelled"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="failed"] .inventory-sync-spinner { animation:none; border-color:var(--green); }
+    .inventory-sync-dialog[data-stage="cancelled"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="failed"] .inventory-sync-spinner { border-color:var(--amber); }
+    .inventory-sync-dialog h2 { margin:0; font-size:20px; }
+    .inventory-sync-current { margin:5px 0 0; color:#a9c2e6; font-size:12px; }
+    .inventory-sync-timing { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:20px 0 17px; }
+    .inventory-sync-timing div { padding:11px 12px; border:1px solid rgba(159,192,238,.12); border-radius:10px; background:rgba(11,26,45,.56); }
+    .inventory-sync-timing small { display:block; color:#7892ba; font-size:10px; }
+    .inventory-sync-timing strong { display:block; margin-top:4px; color:#edf5ff; font-size:14px; font-variant-numeric:tabular-nums; }
+    .inventory-sync-steps { display:grid; gap:7px; margin:0; padding:0; list-style:none; }
+    .inventory-sync-steps li { display:flex; align-items:center; gap:10px; padding:9px 11px; border-radius:9px; color:#7188aa; background:rgba(21,41,66,.52); font-size:12px; }
+    .inventory-sync-steps li::before { content:""; width:9px; height:9px; flex:0 0 auto; border:2px solid #56708f; border-radius:50%; }
+    .inventory-sync-steps li.done { color:#9eb4d3; }
+    .inventory-sync-steps li.done::before { border-color:var(--green); background:var(--green); }
+    .inventory-sync-steps li.active { color:#fff; background:#213a5c; font-weight:800; }
+    .inventory-sync-steps li.active::before { border-color:#7fb3ff; background:#7fb3ff; box-shadow:0 0 0 5px rgba(115,168,255,.12); }
+    .inventory-sync-cancel-note { margin:14px 0 12px; color:#8299ba; font-size:10px; line-height:1.6; text-align:center; }
+    .inventory-sync-cancel { width:100%; padding:11px 14px; border:1px solid rgba(255,158,119,.44); border-radius:9px; color:#ffd5c5; background:#3b2530; font:inherit; font-size:12px; font-weight:900; cursor:pointer; }
+    .inventory-sync-cancel:hover,.inventory-sync-cancel:focus-visible { border-color:#ff9e77; background:#4a2c36; }
+    .inventory-sync-cancel[disabled] { opacity:.65; cursor:wait; }
+    @keyframes inventory-spin { to { transform:rotate(360deg); } }
     .inventory-tier-head { display:flex; justify-content:space-between; gap:12px; margin-bottom:12px; }
     .inventory-tier-head h2 { margin:0; font-size:16px; }
     .inventory-tier-head span { color:var(--muted); font-size:11px; }
@@ -216,7 +242,7 @@
     .save-targets:hover { filter:brightness(1.06); }
     @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
     @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; scrollbar-width:none; } .menu::-webkit-scrollbar { display:none; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } .inventory-panel { overflow:visible; border:0; background:transparent; } .inventory-product-head,.inventory-filter { border:1px solid rgba(159,192,238,.14); background:rgba(25,40,61,.94); } .inventory-product-head { border-radius:13px 13px 0 0; } .inventory-filter { position:sticky; z-index:5; top:8px; border-top:0; border-radius:0 0 13px 13px; box-shadow:0 9px 22px rgba(3,10,21,.24); } .inventory-table-wrap { display:none; } .inventory-card-list { display:grid; gap:12px; margin-top:14px; } }
-    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter { align-items:stretch; flex-direction:column; } .inventory-search-wrap { flex-basis:auto; max-width:none; } .inventory-filter-count { margin-left:0; } .inventory-sync-meta { display:none; } }
+    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter { align-items:stretch; flex-direction:column; } .inventory-search-wrap { flex-basis:auto; max-width:none; } .inventory-filter-count { margin-left:0; } .inventory-sync-meta { display:none; } .inventory-sync-dialog { padding:20px; } .inventory-sync-timing { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
@@ -355,6 +381,25 @@
       </section>
     </main>
   </div>
+
+  <div class="inventory-sync-overlay" id="inventory-sync-overlay" hidden>
+    <section class="inventory-sync-dialog" id="inventory-sync-dialog" role="dialog" aria-modal="true" aria-labelledby="inventory-sync-dialog-title" aria-describedby="inventory-sync-current">
+      <div class="inventory-sync-dialog-head">
+        <span class="inventory-sync-spinner" aria-hidden="true"></span>
+        <div>
+          <h2 id="inventory-sync-dialog-title">在庫を同期しています</h2>
+          <p class="inventory-sync-current" id="inventory-sync-current" aria-live="polite">同期要求を受付中</p>
+        </div>
+      </div>
+      <div class="inventory-sync-timing">
+        <div><small id="inventory-sync-eta-label">完了予定（目安）</small><strong id="inventory-sync-eta">--:--</strong></div>
+        <div><small id="inventory-sync-remaining-label">残り時間</small><strong id="inventory-sync-remaining">--:--</strong></div>
+      </div>
+      <ol class="inventory-sync-steps" id="inventory-sync-steps"></ol>
+      <p class="inventory-sync-cancel-note" id="inventory-sync-cancel-note">完了済みの工程は取り消せません。</p>
+      <button class="inventory-sync-cancel" id="inventory-sync-cancel" type="button">中止</button>
+    </section>
+  </div>
   <script>
     const translations = {
       en: {
@@ -426,10 +471,32 @@
       zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
     const inventoryCopy = {
-      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncing:'Syncing…', syncDone:'Synced', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Product search', placeholder:'Search by product code, name, or specification', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Try another keyword.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
-      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncing:'Menyegerak…', syncDone:'Selesai', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Cari produk', placeholder:'Cari kod produk, nama atau spesifikasi', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Cuba kata kunci lain.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
-      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncing:'同期中…', syncDone:'同期完了', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'商品検索', placeholder:'商品コード・商品名・仕様のキーワードを入力', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。キーワードを変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
-      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncing:'同步中…', syncDone:'同步完成', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'商品搜索', placeholder:'输入商品代码、名称或规格', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配的商品，请更换关键词。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
+      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncing:'Syncing…', syncWaiting:'Waiting for collector…', syncDone:'Synced', syncFailed:'Sync failed', syncTimeout:'Still processing', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Product search', placeholder:'Search by product code, name, or specification', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Try another keyword.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
+      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncing:'Menyegerak…', syncWaiting:'Menunggu pengumpul…', syncDone:'Selesai', syncFailed:'Penyegerakan gagal', syncTimeout:'Masih diproses', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Cari produk', placeholder:'Cari kod produk, nama atau spesifikasi', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Cuba kata kunci lain.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
+      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncing:'同期中…', syncWaiting:'取得サービスの開始待ち…', syncDone:'同期完了', syncFailed:'同期に失敗', syncTimeout:'同期処理を継続中', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'商品検索', placeholder:'商品コード・商品名・仕様のキーワードを入力', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。キーワードを変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
+      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncing:'同步中…', syncWaiting:'等待采集服务…', syncDone:'同步完成', syncFailed:'同步失败', syncTimeout:'仍在处理中', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'商品搜索', placeholder:'输入商品代码、名称或规格', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配的商品，请更换关键词。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
+    };
+    const inventorySyncCopy = {
+      en: {
+        title:'Synchronizing inventory', eta:'Estimated completion', remaining:'Time remaining', soon:'Almost done', cancel:'Cancel', cancelling:'Cancelling…', note:'Completed steps cannot be rolled back.',
+        current:{ queued:'Sync request received', webmax:'Fetching the latest inventory from WEBMAX', pleasanter:'Updating Pleasanter', publishing:'Publishing the latest inventory data', reloading:'Reloading the latest data', cancelling:'Stopping synchronization…', completed:'Synchronization completed', cancelled:'Synchronization stopped', failed:'Synchronization failed' },
+        stages:{ queued:'Request accepted', webmax:'Fetch WEBMAX', pleasanter:'Update Pleasanter', publishing:'Publish data', reloading:'Reload latest data' }
+      },
+      ms: {
+        title:'Menyegerakkan inventori', eta:'Anggaran siap', remaining:'Masa berbaki', soon:'Hampir selesai', cancel:'Batal', cancelling:'Membatalkan…', note:'Langkah yang telah selesai tidak boleh dibuat asal.',
+        current:{ queued:'Permintaan penyegerakan diterima', webmax:'Mengambil inventori terkini daripada WEBMAX', pleasanter:'Mengemas kini Pleasanter', publishing:'Menerbitkan data inventori terkini', reloading:'Memuat semula data terkini', cancelling:'Menghentikan penyegerakan…', completed:'Penyegerakan selesai', cancelled:'Penyegerakan dihentikan', failed:'Penyegerakan gagal' },
+        stages:{ queued:'Permintaan diterima', webmax:'Ambil WEBMAX', pleasanter:'Kemas kini Pleasanter', publishing:'Terbitkan data', reloading:'Muat semula data' }
+      },
+      ja: {
+        title:'在庫を同期しています', eta:'完了予定（目安）', remaining:'残り時間', soon:'まもなく完了', cancel:'中止', cancelling:'中止しています…', note:'完了済みの工程は取り消せません。',
+        current:{ queued:'同期要求を受付中', webmax:'WEBMAXから最新在庫を取得中', pleasanter:'Pleasanterを更新中', publishing:'最新在庫データを公開中', reloading:'最新データを再読み込み中', cancelling:'同期を中止しています…', completed:'同期が完了しました', cancelled:'同期を中止しました', failed:'同期に失敗しました' },
+        stages:{ queued:'同期要求を受付', webmax:'WEBMAX取得', pleasanter:'Pleasanter更新', publishing:'最新データ公開', reloading:'最新データ再読込' }
+      },
+      zh: {
+        title:'正在同步库存', eta:'预计完成时间', remaining:'剩余时间', soon:'即将完成', cancel:'中止', cancelling:'正在中止…', note:'已完成的步骤无法撤销。',
+        current:{ queued:'已接收同步请求', webmax:'正在从 WEBMAX 获取最新库存', pleasanter:'正在更新 Pleasanter', publishing:'正在发布最新库存数据', reloading:'正在重新加载最新数据', cancelling:'正在停止同步…', completed:'同步完成', cancelled:'同步已停止', failed:'同步失败' },
+        stages:{ queued:'接收请求', webmax:'获取 WEBMAX', pleasanter:'更新 Pleasanter', publishing:'发布数据', reloading:'重新加载数据' }
+      }
     };
     const inventoryGroupNames = {
       en: { 'passanger-tire':'Passenger Tire','4x4':'4x4','light-truck':'Light Truck','sport-rim':'Sport Rim','oil':'Engine Oil','oil-filter':'Oil Filter','absorber':'Absorber','adj-absorber':'Adjustable Absorber','spring':'Spring','brake-caliper':'Brake Caliper','brake-pad':'Brake Pad','brake-pump':'Brake Pump','parts':'Parts','battery':'Battery','repair-rim':'Rim Repair','used-sport-rim':'Used Sport Rim','used-tayar':'Used Tire','service':'Service','non-stock-item':'Non-Stock Item','miscellaneous':'Miscellaneous','tool-stationery':'Tools & Stationery' },
@@ -448,6 +515,17 @@
     const inventoryFilterCount = document.getElementById('inventory-filter-count');
     const inventorySync = document.getElementById('inventory-sync');
     const inventorySyncLabel = document.getElementById('inventory-sync-label');
+    const inventorySyncOverlay = document.getElementById('inventory-sync-overlay');
+    const inventorySyncDialog = document.getElementById('inventory-sync-dialog');
+    const inventorySyncDialogTitle = document.getElementById('inventory-sync-dialog-title');
+    const inventorySyncCurrent = document.getElementById('inventory-sync-current');
+    const inventorySyncSteps = document.getElementById('inventory-sync-steps');
+    const inventorySyncEtaLabel = document.getElementById('inventory-sync-eta-label');
+    const inventorySyncEta = document.getElementById('inventory-sync-eta');
+    const inventorySyncRemainingLabel = document.getElementById('inventory-sync-remaining-label');
+    const inventorySyncRemaining = document.getElementById('inventory-sync-remaining');
+    const inventorySyncCancelNote = document.getElementById('inventory-sync-cancel-note');
+    const inventorySyncCancel = document.getElementById('inventory-sync-cancel');
     const inventoryStores = [['SI','Chew Tayar'],['SR','Gemok Tayar'],['ST','Gemok Tayar'],['SK','G Tayar'],['KM','Bagus Tayar']];
     let inventoryGroupDefinitions = [
       ['passanger-tire','Passanger Tire',1482,18420,'RM 986K'], ['4x4','4x4',618,7840,'RM 412K'], ['light-truck','Light Truck',214,1840,'RM 286K'],
@@ -480,6 +558,14 @@
     }));
     let activeInventoryGroup = null;
     let inventorySyncState = 'syncNow';
+    let inventorySyncStage = 'queued';
+    let inventorySyncLastActiveStage = 'queued';
+    let inventorySyncRequestId = null;
+    let inventorySyncCancelRequested = false;
+    let inventorySyncEstimatedEnd = 0;
+    let inventorySyncCountdownTimer = null;
+    const inventorySyncStageOrder = ['queued','webmax','pleasanter','publishing','reloading'];
+    const inventorySyncStageEstimateSeconds = { queued:330, webmax:300, pleasanter:75, publishing:35, reloading:20, cancelling:10 };
     let inventoryCheckedAt = null;
     let inventoryLive = false;
     let inventoryDataUpdatedAt = null;
@@ -750,6 +836,63 @@
       const time = new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt);
       return inventoryFormat(copy.checked,{ time });
     }
+    function renderInventorySyncTiming() {
+      if (!inventorySyncOverlay || inventorySyncOverlay.hidden) return;
+      const copy = inventorySyncCopy[language];
+      if (['completed','cancelled','failed'].includes(inventorySyncStage)) {
+        inventorySyncEta.textContent = inventorySyncStage === 'completed' ? new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date()) : '--:--';
+        inventorySyncRemaining.textContent = inventorySyncStage === 'completed' ? '00:00' : '--:--';
+        return;
+      }
+      const remainingSeconds = Math.max(0, Math.ceil((inventorySyncEstimatedEnd - Date.now()) / 1000));
+      inventorySyncEta.textContent = inventorySyncEstimatedEnd
+        ? new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date(inventorySyncEstimatedEnd))
+        : '--:--';
+      inventorySyncRemaining.textContent = remainingSeconds > 0
+        ? `${String(Math.floor(remainingSeconds / 60)).padStart(2,'0')}:${String(remainingSeconds % 60).padStart(2,'0')}`
+        : copy.soon;
+    }
+    function renderInventorySyncOverlay() {
+      if (!inventorySyncOverlay) return;
+      const copy = inventorySyncCopy[language];
+      inventorySyncDialog.dataset.stage = inventorySyncStage;
+      inventorySyncDialogTitle.textContent = copy.title;
+      inventorySyncCurrent.textContent = copy.current[inventorySyncStage] || copy.current.queued;
+      inventorySyncEtaLabel.textContent = copy.eta;
+      inventorySyncRemainingLabel.textContent = copy.remaining;
+      inventorySyncCancelNote.textContent = copy.note;
+      inventorySyncCancel.textContent = inventorySyncCancelRequested ? copy.cancelling : copy.cancel;
+      inventorySyncCancel.disabled = inventorySyncCancelRequested || ['completed','cancelled','failed'].includes(inventorySyncStage);
+      const progressStage = ['cancelling','cancelled','failed'].includes(inventorySyncStage) ? inventorySyncLastActiveStage : inventorySyncStage;
+      const progressIndex = inventorySyncStageOrder.indexOf(progressStage);
+      inventorySyncSteps.innerHTML = inventorySyncStageOrder.map((stage,index) => {
+        const isDone = inventorySyncStage === 'completed' || index < progressIndex;
+        const isActive = inventorySyncStage !== 'completed' && index === progressIndex;
+        return `<li class="${isDone ? 'done' : isActive ? 'active' : ''}">${escapeHtml(copy.stages[stage])}</li>`;
+      }).join('');
+      renderInventorySyncTiming();
+    }
+    function setInventorySyncStage(stage, { resetEstimate = false } = {}) {
+      const nextStage = inventorySyncStageOrder.includes(stage) || ['cancelling','completed','cancelled','failed'].includes(stage) ? stage : 'queued';
+      if (inventorySyncStage !== nextStage || resetEstimate || !inventorySyncEstimatedEnd) {
+        inventorySyncStage = nextStage;
+        if (inventorySyncStageOrder.includes(nextStage)) inventorySyncLastActiveStage = nextStage;
+        const estimateSeconds = inventorySyncStageEstimateSeconds[nextStage];
+        inventorySyncEstimatedEnd = estimateSeconds ? Date.now() + estimateSeconds * 1000 : 0;
+      }
+      renderInventorySyncOverlay();
+    }
+    function setInventorySyncLocked(locked) {
+      inventorySyncOverlay.hidden = !locked;
+      document.body.classList.toggle('inventory-sync-locked',locked);
+      const app = document.querySelector('.app');
+      if (app) app.inert = locked;
+      if (inventorySyncCountdownTimer) window.clearInterval(inventorySyncCountdownTimer);
+      inventorySyncCountdownTimer = locked ? window.setInterval(renderInventorySyncTiming,1000) : null;
+      if (locked) window.setTimeout(() => inventorySyncCancel.focus(),0);
+      else inventorySync.focus();
+      renderInventorySyncOverlay();
+    }
     function renderInventoryStaticCopy() {
       const copy = inventoryCopy[language];
       document.getElementById('inventory-page-title').textContent = copy.title;
@@ -766,6 +909,7 @@
       inventoryGroupGrid.setAttribute('aria-label',copy.groups);
       inventoryCardList.setAttribute('aria-label',copy.mobileList);
       document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
+      renderInventorySyncOverlay();
     }
     function renderInventoryGroups() {
       const copy = inventoryCopy[language];
@@ -991,6 +1135,77 @@
       try { return mergeInventoryData(await fetchPublishedInventorySnapshot()); }
       catch { return false; }
     }
+    const wait = (milliseconds) => new Promise((resolve) => window.setTimeout(resolve, milliseconds));
+    const timestamp = (value) => Date.parse(value || '') || 0;
+    async function reloadPublishedInventory(expectedUpdatedAt = null) {
+      const expected = timestamp(expectedUpdatedAt);
+      for (let attempt = 0; attempt < 30; attempt += 1) {
+        try {
+          const payload = await fetchPublishedInventorySnapshot();
+          if (!expected || timestamp(payload.updatedAt) >= expected) return mergeInventoryData(payload);
+        } catch { /* The publisher can take a few seconds to expose the new snapshot. */ }
+        await wait(2000);
+      }
+      return false;
+    }
+    async function runHostedInventorySync() {
+      const response = await fetch('/api/inventory-sync', { method:'POST', cache:'no-store' });
+      if (!response.ok) throw new Error('request-failed');
+      const request = await response.json();
+      if (!request.id) throw new Error('request-failed');
+      inventorySyncRequestId = request.id;
+      if (inventorySyncCancelRequested) await requestHostedInventoryCancel();
+      for (let attempt = 0; attempt < 240; attempt += 1) {
+        const statusResponse = await fetch(`/api/inventory-sync/status?id=${encodeURIComponent(request.id)}&v=${Date.now()}`, { cache:'no-store' });
+        if (!statusResponse.ok) throw new Error('status-failed');
+        const status = await statusResponse.json();
+        inventorySyncState = status.status === 'pending' ? 'syncWaiting' : 'syncing';
+        setInventorySyncStage(status.status === 'cancel-requested' ? 'cancelling' : (status.stage || (status.status === 'pending' ? 'queued' : 'webmax')));
+        renderInventoryStaticCopy();
+        if (status.status === 'completed') {
+          setInventorySyncStage('reloading');
+          return reloadPublishedInventory(status.sourceUpdatedAt);
+        }
+        if (status.status === 'cancelled') throw new Error('sync-cancelled');
+        if (status.status === 'failed') throw new Error(status.error || 'sync-failed');
+        await wait(5000);
+      }
+      throw new Error('sync-timeout');
+    }
+    async function runLocalInventorySync() {
+      let initialSuccessfulAt = '';
+      try {
+        const initialResponse = await fetch(`${collectorUrl}/status`, { cache:'no-store' });
+        if (initialResponse.ok) initialSuccessfulAt = (await initialResponse.json()).inventoryLastSuccessfulAt || '';
+      } catch { /* The POST below reports whether the local collector is available. */ }
+      const response = await fetch(`${collectorUrl}/inventory-sync`, { method:'POST' });
+      if (!response.ok) throw new Error('request-failed');
+      for (let attempt = 0; attempt < 240; attempt += 1) {
+        const statusResponse = await fetch(`${collectorUrl}/status?v=${Date.now()}`, { cache:'no-store' });
+        if (!statusResponse.ok) throw new Error('status-failed');
+        const status = await statusResponse.json();
+        inventorySyncState = status.inventorySyncing ? 'syncing' : 'syncWaiting';
+        setInventorySyncStage(status.inventoryStage || (status.inventorySyncing ? 'webmax' : 'queued'));
+        renderInventoryStaticCopy();
+        if (!status.inventorySyncing && status.inventoryStage === 'cancelled') throw new Error('sync-cancelled');
+        if (status.inventoryError) throw new Error(status.inventoryError);
+        if (!status.inventorySyncing && timestamp(status.inventoryLastSuccessfulAt) > timestamp(initialSuccessfulAt)) {
+          setInventorySyncStage('reloading');
+          return (await loadCollectorInventoryData()) || (await reloadPublishedInventory(status.inventoryLastSuccessfulAt));
+        }
+        await wait(5000);
+      }
+      throw new Error('sync-timeout');
+    }
+    async function requestHostedInventoryCancel() {
+      if (!inventorySyncRequestId) return;
+      const response = await fetch('/api/inventory-sync/cancel', {
+        method:'POST',
+        headers:{ 'content-type':'application/json' },
+        body:JSON.stringify({ id:inventorySyncRequestId }),
+      });
+      if (!response.ok && response.status !== 409) throw new Error('cancel-failed');
+    }
     async function fetchPublishedDashboardSnapshot() {
       const sources = [
         `dashboard-data.json?v=${Date.now()}`,
@@ -1076,25 +1291,54 @@
     });
     inventoryBack.addEventListener('click', showInventoryHome);
     inventorySearch.addEventListener('input', renderInventoryProducts);
+    inventorySyncCancel.addEventListener('click', async () => {
+      if (inventorySyncCancelRequested || ['completed','cancelled','failed'].includes(inventorySyncStage)) return;
+      inventorySyncCancelRequested = true;
+      setInventorySyncStage('cancelling',{ resetEstimate:true });
+      try {
+        if (localSettingsMode) {
+          const response = await fetch(`${collectorUrl}/inventory-sync-cancel`,{ method:'POST' });
+          if (!response.ok && response.status !== 409) throw new Error('cancel-failed');
+        } else {
+          await requestHostedInventoryCancel();
+        }
+      } catch {
+        inventorySyncCancelRequested = false;
+        setInventorySyncStage(inventorySyncLastActiveStage,{ resetEstimate:true });
+      }
+    });
     inventorySync.addEventListener('click', async () => {
       inventorySync.disabled = true;
       inventorySyncState = 'syncing';
+      inventorySyncRequestId = null;
+      inventorySyncCancelRequested = false;
+      setInventorySyncStage('queued',{ resetEstimate:true });
+      setInventorySyncLocked(true);
       renderInventoryStaticCopy();
       let loaded = false;
+      let terminalDelay = 2400;
       try {
-        if (localSettingsMode) {
-          const response = await fetch(`${collectorUrl}/inventory-sync`, { method:'POST' });
-          if (!response.ok && response.status !== 409) throw new Error('Inventory sync request failed');
-          await new Promise((resolve) => window.setTimeout(resolve, 1200));
-          loaded = await loadCollectorInventoryData();
+        loaded = localSettingsMode ? await runLocalInventorySync() : await runHostedInventorySync();
+        if (!loaded) throw new Error('reload-failed');
+        inventorySyncState = loaded ? 'syncDone' : 'syncFailed';
+        setInventorySyncStage('completed');
+        terminalDelay = 1300;
+      } catch (error) {
+        if (error?.message === 'sync-cancelled') {
+          inventorySyncState = 'syncNow';
+          setInventorySyncStage('cancelled');
+          terminalDelay = 1700;
+        } else {
+          inventorySyncState = error?.message === 'sync-timeout' ? 'syncTimeout' : 'syncFailed';
+          setInventorySyncStage('failed');
         }
-        loaded = (await loadPublishedInventoryData()) || loaded;
-      } catch { /* Keep the most recent inventory snapshot when refresh fails. */ }
-      inventorySync.disabled = false;
-      inventorySyncState = loaded ? 'syncDone' : 'syncNow';
+      }
       if (loaded) inventoryCheckedAt = inventoryDataUpdatedAt || new Date();
       renderInventoryStaticCopy();
-      if (loaded) window.setTimeout(() => { inventorySyncState = 'syncNow'; renderInventoryStaticCopy(); }, 1800);
+      await wait(terminalDelay);
+      setInventorySyncLocked(false);
+      inventorySync.disabled = false;
+      window.setTimeout(() => { inventorySyncState = 'syncNow'; renderInventoryStaticCopy(); }, 3000);
     });
     targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
     targetMonth.addEventListener('change', loadTargetValues);
