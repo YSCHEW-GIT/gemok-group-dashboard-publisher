@@ -987,18 +987,19 @@
       const storeQuery = inventoryStoreFilter.value.trim();
       const selectedStores = matchingInventoryStores(storeQuery);
       const displayStores = storeQuery ? selectedStores : inventoryStores;
+      const hasStockRange = Boolean(minimumText || maximumText);
       const hasFilters = Boolean(query || minimumText || maximumText || storeQuery);
       const quantitiesForItem = (stock,quantityByStore) => {
         const fallback = inventoryAllocation(stock);
         return Object.fromEntries(inventoryStores.map(([store],index) => [store,quantityByStore ? Number(quantityByStore[store]) || 0 : fallback[index]]));
       };
+      const storesForItem = (quantities) => displayStores.filter(([store]) => !hasStockRange || (quantities[store] >= minimum && quantities[store] <= maximum));
       const matches = group.items.filter(([brand,code,name,spec,stock,,,quantityByStore]) => {
         const displaySpec = inventoryDisplaySpec(spec);
         const keywordMatches = `${brand} ${code} ${name} ${displaySpec}`.toLocaleLowerCase().includes(query);
         if (!keywordMatches || (storeQuery && !selectedStores.length)) return false;
         const quantities = quantitiesForItem(stock,quantityByStore);
-        const candidates = storeQuery ? selectedStores.map(([store]) => quantities[store]) : [Object.values(quantities).reduce((sum,value) => sum + value,0)];
-        return candidates.some((value) => value >= minimum && value <= maximum);
+        return storesForItem(quantities).length > 0;
       });
       document.getElementById('inventory-detail-title').textContent = group.name;
       document.getElementById('inventory-detail-subtitle').textContent = inventoryFormat(copy.byBrand,{ sku:group.sku.toLocaleString(localeByLanguage[language]) });
@@ -1012,13 +1013,14 @@
       const grouped = Object.groupBy ? Object.groupBy(matches,(item) => item[0]) : matches.reduce((result,item) => ((result[item[0]] ||= []).push(item),result),{});
       inventoryProductList.innerHTML = Object.entries(grouped).map(([brand,items]) => `<tr class="inventory-brand-row"><td colspan="6">${escapeHtml(brand || '—')}<span>${escapeHtml(inventoryFormat(copy.productCount,{ count:items.length.toLocaleString(localeByLanguage[language]) }))}</span></td></tr>${items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
         const quantities = quantitiesForItem(stock,quantityByStore);
+        const itemStores = storesForItem(quantities);
         const displaySpec = inventoryDisplaySpec(spec);
         const specHtml = displaySpec ? `<span>${escapeHtml(displaySpec)}</span>` : '';
-        return displayStores.map(([store,company],index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${displayStores.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${displayStores.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${store}</strong><span>${escapeHtml(company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${quantities[store] < 3 ? ' low' : ''}">${quantities[store]}</span></td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(cost,store))}</td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(price,store))}</td></tr>`).join('');
+        return itemStores.map(([store,company],index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemStores.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemStores.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${store}</strong><span>${escapeHtml(company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${quantities[store] < 3 ? ' low' : ''}">${quantities[store]}</span></td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(cost,store))}</td><td class="inventory-money">${formatInventoryMoney(inventoryStoreValue(price,store))}</td></tr>`).join('');
       }).join('')}`).join('');
       inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore]) => {
         const quantities = quantitiesForItem(stock,quantityByStore);
-        const stores = displayStores.map(([store,company]) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${store}</strong><span>${escapeHtml(company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${quantities[store] < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${quantities[store]}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(inventoryStoreValue(cost,store))}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(inventoryStoreValue(price,store))}</strong></div></div></div>`).join('');
+        const stores = storesForItem(quantities).map(([store,company]) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${store}</strong><span>${escapeHtml(company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${quantities[store] < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${quantities[store]}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(inventoryStoreValue(cost,store))}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(inventoryStoreValue(price,store))}</strong></div></div></div>`).join('');
         const displaySpec = inventoryDisplaySpec(spec);
         return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3>${displaySpec ? `<p class="inventory-card-spec">${escapeHtml(displaySpec)}</p>` : ''}</div><div class="inventory-card-stock">${stores}</div></article>`;
       })).join('');
