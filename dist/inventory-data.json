@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "WEBMAX",
-  "updatedAt": "2026-10-30T04:35:59.484Z",
+  "updatedAt": "2026-10-30T05:37:34.903Z",
   "stores": [
     {
       "code": "SI",
@@ -39,8 +39,8 @@
       "key": "battery",
       "name": "Battery",
       "sku": 52,
-      "quantity": 91,
-      "stockValue": 19706.429999999997
+      "quantity": 92,
+      "stockValue": 20384.13
     },
     {
       "key": "brake-caliper",
@@ -74,8 +74,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9044,
-      "stockValue": 56668.579999999994
+      "quantity": 9036,
+      "stockValue": 56647.399999999994
     },
     {
       "key": "non-stock-item",
@@ -88,8 +88,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2272,
-      "stockValue": 164957.03999999998
+      "quantity": 2269,
+      "stockValue": 164892.23999999996
     },
     {
       "key": "oil-filter",
@@ -108,9 +108,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 231,
-      "quantity": 2151,
-      "stockValue": 416360.39999999997
+      "sku": 234,
+      "quantity": 2194,
+      "stockValue": 426270.39999999997
     },
     {
       "key": "repair-rim",
@@ -157,9 +157,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 709,
-      "quantity": 1983,
-      "stockValue": 162850.5
+      "sku": 710,
+      "quantity": 1984,
+      "stockValue": 163050.5
     },
     {
       "key": "used-tayar",
@@ -3302,8 +3302,8 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 1,
-          "cost": 301.5,
+          "quantity": 2,
+          "cost": 489.6,
           "price": 0
         }
       }
@@ -6374,7 +6374,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 56,
+          "quantity": 55,
           "cost": 10,
           "price": 0
         },
@@ -9264,7 +9264,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 324,
+          "quantity": 318,
           "cost": 1.65,
           "price": 10
         },
@@ -9572,7 +9572,7 @@
       "stores": {
         "SK": {
           "company": "G Tayar",
-          "quantity": 21,
+          "quantity": 20,
           "cost": 1.28,
           "price": 0
         }
@@ -11748,7 +11748,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 36,
+          "quantity": 33,
           "cost": 21.6,
           "price": 0
         },
@@ -22341,6 +22341,22 @@
       }
     },
     {
+      "code": "TPAT185515AX77-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH",
+      "spec": "0",
+      "stores": {
+        "ST": {
+          "company": "Gemok Tayar",
+          "quantity": 12,
+          "cost": 133,
+          "price": 0
+        }
+      }
+    },
+    {
       "code": "TPAT185516X76-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -23975,6 +23991,22 @@
       }
     },
     {
+      "code": "TPGN185515GC5-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
+      "spec": "0",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 12,
+          "cost": 162,
+          "price": 0
+        }
+      }
+    },
+    {
       "code": "TPGN195515ALTGS5-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -24279,6 +24311,22 @@
           "quantity": 4,
           "cost": 380,
           "price": 350
+        }
+      }
+    },
+    {
+      "code": "TPMC206016P5-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "MICHELIN 205/60/16 PRIMACY 5 XL 96W CN (2026)",
+      "spec": "0",
+      "stores": {
+        "SI": {
+          "company": "Chew Tayar",
+          "quantity": 4,
+          "cost": 427,
+          "price": 410
         }
       }
     },
@@ -26002,7 +26050,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 25,
+          "quantity": 23,
           "cost": 76,
           "price": 0
         },
@@ -26114,7 +26162,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 28,
+          "quantity": 24,
           "cost": 85,
           "price": 0
         },
@@ -26236,7 +26284,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 2,
+          "quantity": 3,
           "cost": 234,
           "price": 250
         },
@@ -26280,7 +26328,7 @@
       "stores": {
         "SI": {
           "company": "Chew Tayar",
-          "quantity": 12,
+          "quantity": 32,
           "cost": 246,
           "price": 0
         },
@@ -37650,6 +37698,22 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 14X5.5JJ PCD100",
+      "spec": "",
+      "stores": {
+        "ST": {
+          "company": "Gemok Tayar",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      }
+    },
+    {
+      "code": "US26116210",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7JJ PCD 100",
       "spec": "",
       "stores": {
         "ST": {
