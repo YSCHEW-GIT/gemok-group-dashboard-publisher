@@ -42,7 +42,10 @@ jobs:
             '.inventory-filter-control > span,.inventory-stock-range legend',
             '.inventory-filter-control > span:first-child,.inventory-stock-range legend'
           );
-          fs.writeFileSync(file, html);
+          const withoutLocations = html
+            .replaceAll('<em>${escapeHtml(`${copy.location}: ${row.location || copy.noLocation}`)}</em>', '')
+            .replace('[copy.code,copy.details,copy.storeLocation,copy.stock,copy.cost,copy.price]', '[copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price]');
+          fs.writeFileSync(file, withoutLocations);
           JS
       - name: Protect historical dashboard data
         run: node site/protect-dashboard-data.mjs
