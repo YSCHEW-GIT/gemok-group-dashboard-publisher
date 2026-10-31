@@ -79,6 +79,8 @@ const recovery = JSON.parse(await fs.readFile(recoveryPath, "utf8"));
 const published = await loadPublishedSnapshot();
 
 protectHistoricalRegressions(incoming, published, malaysiaDate());
-for (const correction of recovery.corrections || []) applyCorrection(incoming, correction);
+for (const correction of recovery.corrections || []) {
+  if (correction.date?.slice(0, 7) === incoming.month) applyCorrection(incoming, correction);
+}
 
 await fs.writeFile(dashboardPath, `${JSON.stringify(incoming, null, 2)}\n`, "utf8");
