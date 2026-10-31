@@ -158,7 +158,7 @@
     .inventory-filter { display:block; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
     .inventory-filter-controls { display:grid; grid-template-columns:minmax(240px,2fr) minmax(190px,1fr) minmax(180px,1fr); gap:10px; align-items:end; }
     .inventory-filter-control,.inventory-stock-range { min-width:0; margin:0; padding:0; border:0; }
-    .inventory-filter-control > span:first-child,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
+    .inventory-filter-control > span,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
     .inventory-search-wrap { position:relative; }
     .inventory-search-wrap::before { content:"⌕"; position:absolute; top:50%; left:12px; color:#7892ba; font-size:16px; transform:translateY(-52%); }
     .inventory-search,.inventory-filter-input { width:100%; height:38px; padding:9px 11px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
@@ -966,7 +966,7 @@
       renderInventoryStoreOptions();
       inventoryGroupGrid.setAttribute('aria-label',copy.groups);
       inventoryCardList.setAttribute('aria-label',copy.mobileList);
-      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
+      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.storeLocation,copy.stock,copy.cost,copy.price][index]; });
       renderInventorySyncOverlay();
     }
     function renderInventoryGroups() {
@@ -1035,10 +1035,10 @@
         const itemRows = rowsForItem(stock,cost,price,quantityByStore,stockRows);
         const displaySpec = inventoryDisplaySpec(spec);
         const specHtml = displaySpec ? `<span>${escapeHtml(displaySpec)}</span>` : '';
-        return itemRows.map((row,index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemRows.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemRows.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${row.quantity < 3 ? ' low' : ''}">${row.quantity}</span></td><td class="inventory-money">${formatInventoryMoney(row.cost)}</td><td class="inventory-money">${formatInventoryMoney(row.price)}</td></tr>`).join('');
+        return itemRows.map((row,index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemRows.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemRows.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span><em>${escapeHtml(`${copy.location}: ${row.location || copy.noLocation}`)}</em></td><td class="inventory-stock-cell"><span class="inventory-stock${row.quantity < 3 ? ' low' : ''}">${row.quantity}</span></td><td class="inventory-money">${formatInventoryMoney(row.cost)}</td><td class="inventory-money">${formatInventoryMoney(row.price)}</td></tr>`).join('');
       }).join('')}`).join('');
       inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore,stockRows]) => {
-        const stores = rowsForItem(stock,cost,price,quantityByStore,stockRows).map((row) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${row.quantity < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${row.quantity}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(row.cost)}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(row.price)}</strong></div></div></div>`).join('');
+        const stores = rowsForItem(stock,cost,price,quantityByStore,stockRows).map((row) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span><em>${escapeHtml(`${copy.location}: ${row.location || copy.noLocation}`)}</em></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${row.quantity < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${row.quantity}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(row.cost)}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(row.price)}</strong></div></div></div>`).join('');
         const displaySpec = inventoryDisplaySpec(spec);
         return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3>${displaySpec ? `<p class="inventory-card-spec">${escapeHtml(displaySpec)}</p>` : ''}</div><div class="inventory-card-stock">${stores}</div></article>`;
       })).join('');
