@@ -1170,7 +1170,8 @@
       try {
         let payload;
         if (githubPagesMode) {
-          payload = await fetchPublishedTargets(month);
+          try { payload = (await fetchPublishedDashboardSnapshot(month)).monthlyTargets; }
+          catch { payload = { month,sourceMonth:activeMonthlyTargets?.sourceMonth || dashboardDataMeta.month,configured:false,targets:activeMonthlyTargets?.targets || { ...targetDefaults } }; }
         } else {
           payload = await requestSharedSettings('targets.get',{ month });
         }
@@ -1519,23 +1520,6 @@
       if (!snapshots.length) throw new Error('Dashboard data is unavailable');
       const snapshotTime = (payload) => Date.parse(payload?.lastSuccessfulAt || '') || Date.parse(`${payload?.latestDate || ''}T00:00:00Z`) || 0;
       return snapshots.reduce((latest, candidate) => snapshotTime(candidate) > snapshotTime(latest) ? candidate : latest);
-    }
-    async function fetchPublishedTargets(month) {
-      if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(month)) throw new Error('Invalid target month');
-      const suffix = `targets/${month}.json`;
-      const githubSource = githubDashboardDataUrl.replace(/dashboard-data\.json$/,suffix);
-      const sources = [`${suffix}?v=${Date.now()}`,`${githubSource}?v=${Date.now()}`];
-      const results = await Promise.allSettled(sources.map(async (source) => {
-        const response = await fetch(source,{ cache:'no-store' });
-        if (!response.ok) throw new Error(`Target data request failed: ${response.status}`);
-        return response.json();
-      }));
-      const targets = results
-        .filter((result) => result.status === 'fulfilled')
-        .map((result) => result.value)
-        .find((payload) => payload?.month === month && payload?.targets);
-      if (!targets) throw new Error('Published targets are unavailable');
-      return targets;
     }
     async function loadPublishedDashboardData() {
       try {
