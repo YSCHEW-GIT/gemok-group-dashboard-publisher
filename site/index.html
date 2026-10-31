@@ -37,6 +37,10 @@
     .page-head p { margin:8px 0 0; color:var(--muted); font-size:13px; }
     .data-note { flex:0 0 auto; padding:10px 13px; border:1px solid rgba(159,192,238,.15); border-radius:9px; color:var(--muted); background:var(--panel); font-size:11px; }
     .data-note strong { display:block; margin-top:3px; color:var(--text); font-size:13px; }
+    .sales-head-actions { display:flex; align-items:stretch; justify-content:flex-end; gap:10px; }
+    .sales-month-picker { display:flex; min-width:154px; flex-direction:column; justify-content:center; gap:5px; padding:8px 10px; border:1px solid rgba(159,192,238,.15); border-radius:9px; color:var(--muted); background:var(--panel); font-size:10px; font-weight:800; }
+    .sales-month-picker input { min-width:132px; padding:5px 7px; border:1px solid #3d5575; border-radius:6px; color:var(--text); background:#102038; font:inherit; font-size:12px; color-scheme:dark; }
+    .sales-month-picker input:disabled { opacity:.65; cursor:wait; }
     .dashboard-fetch-timestamp { display:none; }
     .daily { padding:17px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.92); }
     .section-head { display:flex; align-items:end; justify-content:space-between; gap:15px; margin-bottom:14px; }
@@ -93,122 +97,11 @@
     .notice { display:none; margin-bottom:18px; padding:12px 14px; border-left:3px solid var(--blue); border-radius:6px; color:#c9d9f1; background:#172945; font-size:13px; }
     .notice.show { display:block; }
     .construction { display:grid; min-height:510px; place-items:center; align-content:center; padding:56px 24px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:radial-gradient(circle at center,rgba(48,105,184,.16),transparent 48%),var(--panel); text-align:center; }
-    .construction[hidden], #sales-dashboard[hidden], .inventory-dashboard[hidden] { display:none; }
+    .construction[hidden], #sales-dashboard[hidden] { display:none; }
     .construction-icon { display:grid; width:58px; height:58px; place-items:center; border:1px solid rgba(115,168,255,.35); border-radius:17px; color:var(--blue); background:#162943; font-size:29px; }
     .construction-eyebrow { margin:18px 0 8px; color:var(--green); font-size:12px; font-weight:800; letter-spacing:.11em; }
     .construction h1 { font-size:27px; }
     .construction p:last-child { max-width:360px; margin:11px 0 0; color:var(--muted); font-size:13px; line-height:1.7; }
-    .inventory-dashboard { --inventory-accent:#73a8ff; }
-    .inventory-head,.inventory-detail-toolbar,.inventory-product-head,.inventory-filter,.inventory-group-button { display:flex; align-items:center; }
-    .inventory-head { justify-content:space-between; gap:18px; margin-bottom:18px; }
-    .inventory-head h1 { margin:0; font-size:28px; }
-    .inventory-head p { margin:8px 0 0; color:var(--muted); font-size:13px; }
-    .inventory-sync { display:inline-flex; align-items:center; gap:8px; flex:0 0 auto; padding:10px 14px; border:1px solid rgba(115,168,255,.3); border-radius:9px; color:#dce9fb; background:#213753; font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
-    .inventory-sync:hover,.inventory-sync:focus-visible { border-color:var(--blue); background:#29466b; }
-    .inventory-sync[disabled] { opacity:.65; cursor:wait; }
-    .inventory-sync.readonly[disabled] { opacity:.78; cursor:not-allowed; }
-    body.inventory-sync-locked { overflow:hidden; }
-    .inventory-sync-overlay[hidden] { display:none; }
-    .inventory-sync-overlay { position:fixed; z-index:1200; inset:0; display:grid; place-items:center; padding:22px; background:rgba(5,13,26,.84); backdrop-filter:blur(7px); }
-    .inventory-sync-dialog { width:min(520px,100%); padding:26px; border:1px solid rgba(115,168,255,.34); border-radius:18px; background:linear-gradient(160deg,#162a45,#101d31); box-shadow:0 30px 90px rgba(0,0,0,.48); }
-    .inventory-sync-dialog-head { display:flex; align-items:center; gap:14px; }
-    .inventory-sync-spinner { width:40px; height:40px; flex:0 0 auto; border:3px solid rgba(115,168,255,.22); border-top-color:#7fb3ff; border-radius:50%; animation:inventory-spin .9s linear infinite; }
-    .inventory-sync-dialog[data-stage="completed"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="cancelled"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="failed"] .inventory-sync-spinner { animation:none; border-color:var(--green); }
-    .inventory-sync-dialog[data-stage="cancelled"] .inventory-sync-spinner,.inventory-sync-dialog[data-stage="failed"] .inventory-sync-spinner { border-color:var(--amber); }
-    .inventory-sync-dialog h2 { margin:0; font-size:20px; }
-    .inventory-sync-current { margin:5px 0 0; color:#a9c2e6; font-size:12px; }
-    .inventory-sync-timing { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:20px 0 17px; }
-    .inventory-sync-timing div { padding:11px 12px; border:1px solid rgba(159,192,238,.12); border-radius:10px; background:rgba(11,26,45,.56); }
-    .inventory-sync-timing small { display:block; color:#7892ba; font-size:10px; }
-    .inventory-sync-timing strong { display:block; margin-top:4px; color:#edf5ff; font-size:14px; font-variant-numeric:tabular-nums; }
-    .inventory-sync-steps { display:grid; gap:7px; margin:0; padding:0; list-style:none; }
-    .inventory-sync-steps li { display:flex; align-items:center; gap:10px; padding:9px 11px; border-radius:9px; color:#7188aa; background:rgba(21,41,66,.52); font-size:12px; }
-    .inventory-sync-steps li::before { content:""; width:9px; height:9px; flex:0 0 auto; border:2px solid #56708f; border-radius:50%; }
-    .inventory-sync-steps li.done { color:#9eb4d3; }
-    .inventory-sync-steps li.done::before { border-color:var(--green); background:var(--green); }
-    .inventory-sync-steps li.active { color:#fff; background:#213a5c; font-weight:800; }
-    .inventory-sync-steps li.active::before { border-color:#7fb3ff; background:#7fb3ff; box-shadow:0 0 0 5px rgba(115,168,255,.12); }
-    .inventory-sync-cancel-note { margin:14px 0 12px; color:#8299ba; font-size:10px; line-height:1.6; text-align:center; }
-    .inventory-sync-cancel { width:100%; padding:11px 14px; border:1px solid rgba(255,158,119,.44); border-radius:9px; color:#ffd5c5; background:#3b2530; font:inherit; font-size:12px; font-weight:900; cursor:pointer; }
-    .inventory-sync-cancel:hover,.inventory-sync-cancel:focus-visible { border-color:#ff9e77; background:#4a2c36; }
-    .inventory-sync-cancel[disabled] { opacity:.65; cursor:wait; }
-    @keyframes inventory-spin { to { transform:rotate(360deg); } }
-    .inventory-tier-head { display:flex; justify-content:space-between; gap:12px; margin-bottom:12px; }
-    .inventory-tier-head h2 { margin:0; font-size:16px; }
-    .inventory-tier-head span { color:var(--muted); font-size:11px; }
-    .inventory-panel { overflow:hidden; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:rgba(25,40,61,.94); }
-    .inventory-groups-shell { padding:16px; }
-    .inventory-group-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:9px; }
-    .inventory-group-button { min-width:0; min-height:138px; flex-direction:column; justify-content:center; gap:9px; padding:12px 8px; border:1px solid rgba(159,192,238,.11); border-radius:11px; color:var(--text); background:var(--panel-2); font:inherit; text-align:center; cursor:pointer; transition:.16s ease; }
-    .inventory-group-button:hover,.inventory-group-button:focus-visible { border-color:rgba(115,168,255,.58); outline:0; transform:translateY(-2px); background:#1b304b; box-shadow:0 12px 24px rgba(3,10,21,.18); }
-    .inventory-group-icon { position:relative; display:grid; width:74px; height:64px; place-items:center; border-radius:16px; background:linear-gradient(145deg,#28486f,#1c3656); }
-    .inventory-group-icon img { width:56px; height:56px; object-fit:contain; filter:brightness(0) saturate(100%) invert(72%) sepia(18%) saturate(1270%) hue-rotate(182deg) brightness(110%) contrast(105%); }
-    .inventory-group-quantity { position:absolute; top:-8px; right:-11px; display:inline-flex; min-width:30px; height:24px; align-items:center; justify-content:center; padding:0 7px; border:2px solid var(--panel-2); border-radius:999px; color:#062418; background:var(--green); box-shadow:0 5px 12px rgba(3,10,21,.38); font-size:10px; font-weight:900; font-variant-numeric:tabular-nums; line-height:1; }
-    .inventory-group-button strong { max-width:100%; overflow:hidden; font-size:12px; text-overflow:ellipsis; white-space:nowrap; }
-    .inventory-group-button small { color:#819bc3; font-size:10px; }
-    .inventory-detail-toolbar { justify-content:space-between; gap:12px; margin-bottom:13px; }
-    .inventory-back { padding:9px 12px; border:1px solid rgba(115,168,255,.28); border-radius:8px; color:#dce9fb; background:#213753; font:inherit; font-size:11px; font-weight:800; cursor:pointer; }
-    .inventory-back:hover { background:#29466b; }
-    .inventory-sync-meta { color:var(--muted); font-size:11px; }
-    .inventory-product-head { align-items:flex-start; justify-content:space-between; gap:16px; padding:16px 17px; border-bottom:1px solid rgba(159,192,238,.12); }
-    .inventory-product-head h2 { margin:0; font-size:18px; }
-    .inventory-product-head p { margin:5px 0 0; color:var(--muted); font-size:11px; }
-    .inventory-product-summary { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:6px; }
-    .inventory-product-summary span { padding:5px 7px; border-radius:6px; color:#bcd0ed; background:#20344f; font-size:11px; }
-    .inventory-filter { display:block; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
-    .inventory-filter-controls { display:grid; grid-template-columns:minmax(240px,2fr) minmax(190px,1fr) minmax(180px,1fr); gap:10px; align-items:end; }
-    .inventory-filter-control,.inventory-stock-range { min-width:0; margin:0; padding:0; border:0; }
-    .inventory-filter-control > span:first-child,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
-    .inventory-search-wrap { position:relative; }
-    .inventory-search-wrap::before { content:"⌕"; position:absolute; top:50%; left:12px; color:#7892ba; font-size:16px; transform:translateY(-52%); }
-    .inventory-search,.inventory-filter-input { width:100%; height:38px; padding:9px 11px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
-    .inventory-search { padding-left:34px; }
-    .inventory-search:focus,.inventory-filter-input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(115,168,255,.12); }
-    .inventory-stock-range-inputs { display:grid; grid-template-columns:minmax(0,1fr) auto minmax(0,1fr); gap:6px; align-items:center; }
-    .inventory-stock-range-inputs span { color:#7892ba; font-size:12px; }
-    .inventory-filter-count { display:block; margin-top:8px; color:var(--muted); font-size:11px; text-align:right; }
-    .inventory-table-wrap { overflow-x:auto; }
-    .inventory-table { width:100%; min-width:760px; border-collapse:collapse; table-layout:fixed; }
-    .inventory-table th { height:38px; padding:0 10px; color:#7892ba; background:#142239; font-size:10px; text-align:left; }
-    .inventory-table th:nth-child(n+4),.inventory-stock-cell,.inventory-money { text-align:center; }
-    .inventory-table td { height:44px; padding:8px 10px; border-top:1px solid rgba(159,192,238,.09); color:#dce8f8; font-size:11px; }
-    .inventory-brand-row td { height:36px; color:#dbe9fc; background:rgba(35,58,88,.72); font-weight:900; letter-spacing:.035em; text-align:left!important; }
-    .inventory-brand-row span { margin-left:8px; color:#7892ba; font-weight:500; }
-    .inventory-code { color:#bcd0ed; font-weight:800; white-space:nowrap; }
-    .inventory-description strong { display:block; color:#fff; }
-    .inventory-description span,.inventory-store span { display:block; margin-top:3px; color:#7892ba; }
-    .inventory-store strong { color:#dce8f8; }
-    .inventory-store em { display:block; margin-top:4px; color:#73a8ff; font-size:9px; font-style:normal; font-weight:800; }
-    .inventory-stock { font-size:13px; font-weight:900; }
-    .inventory-stock.low { color:var(--amber); }
-    .inventory-money { font-variant-numeric:tabular-nums; white-space:nowrap; }
-    .inventory-empty td { height:130px; color:var(--muted); text-align:center!important; }
-    .inventory-card-list { display:none; }
-    .inventory-product-card { overflow:hidden; border:1px solid rgba(159,192,238,.14); border-radius:13px; background:#142239; box-shadow:0 9px 24px rgba(3,10,21,.15); }
-    .inventory-card-head { padding:14px; }
-    .inventory-card-kicker { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:9px; }
-    .inventory-card-brand { color:var(--blue); font-size:10px; font-weight:900; letter-spacing:.07em; }
-    .inventory-card-code { overflow:hidden; color:#9db4d7; font-size:10px; font-weight:800; text-overflow:ellipsis; white-space:nowrap; }
-    .inventory-card-head h3 { margin:0; color:#fff; font-size:15px; line-height:1.35; }
-    .inventory-card-spec { margin:4px 0 0; color:#819bc3; font-size:11px; line-height:1.45; }
-    .inventory-card-stock { padding:0 14px 5px; border-top:1px solid rgba(159,192,238,.1); }
-    .inventory-card-store { padding:12px 0; border-bottom:1px solid rgba(159,192,238,.08); }
-    .inventory-card-store:last-child { border-bottom:0; }
-    .inventory-card-store-name { display:flex; align-items:baseline; gap:8px; min-width:0; margin-bottom:8px; }
-    .inventory-card-store-name strong { flex:0 0 auto; color:#fff; font-size:12px; }
-    .inventory-card-store-name span { overflow:hidden; color:#7892ba; font-size:10px; text-overflow:ellipsis; white-space:nowrap; }
-    .inventory-card-store-name em { margin-left:auto; color:#73a8ff; font-size:9px; font-style:normal; font-weight:800; white-space:nowrap; }
-    .inventory-card-store-values { display:grid; grid-template-columns:.72fr 1fr 1fr; gap:7px; }
-    .inventory-card-store-value { min-width:0; padding:8px 9px; border-radius:8px; background:#1b304a; font-variant-numeric:tabular-nums; }
-    .inventory-card-store-value small { display:block; margin-bottom:4px; color:#7892ba; font-size:9px; font-weight:800; }
-    .inventory-card-store-value strong { display:block; overflow:hidden; color:#dce8f8; font-size:11px; text-overflow:ellipsis; white-space:nowrap; }
-    .inventory-card-quantity { background:rgba(67,223,160,.08); }
-    .inventory-card-quantity strong { color:var(--green); font-size:16px; line-height:1; }
-    .inventory-card-quantity strong span { margin-left:3px; color:#8fa8ce; font-size:9px; }
-    .inventory-card-quantity.low { background:rgba(245,189,78,.09); }
-    .inventory-card-quantity.low strong { color:var(--amber); }
-    .inventory-card-empty { padding:46px 22px; border:1px dashed rgba(159,192,238,.2); border-radius:12px; color:var(--muted); background:#142239; font-size:12px; line-height:1.7; text-align:center; }
-    .inventory-demo-note { margin:11px 2px 0; color:#7892ba; font-size:10px; text-align:right; }
     .target-dashboard[hidden] { display:none; }
     .system-dashboard[hidden] { display:none; }
     .system-panel { padding:18px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:var(--panel); }
@@ -249,9 +142,9 @@
     .target-saved { color:var(--green); font-weight:700; }
     .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
     .save-targets:hover { filter:brightness(1.06); }
-    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .inventory-filter-controls { grid-template-columns:1fr 1fr; } .inventory-filter-keyword { grid-column:1 / -1; } }
-    @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; scrollbar-width:none; } .menu::-webkit-scrollbar { display:none; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } .inventory-panel { overflow:visible; border:0; background:transparent; } .inventory-product-head,.inventory-filter { border:1px solid rgba(159,192,238,.14); background:rgba(25,40,61,.94); } .inventory-product-head { border-radius:13px 13px 0 0; } .inventory-filter { position:sticky; z-index:5; top:8px; border-top:0; border-radius:0 0 13px 13px; box-shadow:0 9px 22px rgba(3,10,21,.24); } .inventory-table-wrap { display:none; } .inventory-card-list { display:grid; gap:12px; margin-top:14px; } }
-    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .data-note { display:inline-block; margin-top:14px; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter-controls { grid-template-columns:1fr; } .inventory-filter-keyword { grid-column:auto; } .inventory-filter-count { text-align:left; } .inventory-sync-meta { display:none; } .inventory-sync-dialog { padding:20px; } .inventory-sync-timing { grid-template-columns:1fr; } }
+    @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } }
+    @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } }
+    @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions { display:block; } .sales-head-actions { display:grid; grid-template-columns:1fr; margin-top:14px; } .data-note { display:block; margin-top:0; } .sales-month-picker input { width:100%; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } }
   </style>
 </head>
 <body>
@@ -329,37 +222,6 @@
       </section>
       </div>
 
-      <section class="inventory-dashboard" id="inventory-dashboard" hidden aria-labelledby="inventory-page-title">
-        <div id="inventory-home">
-          <header class="inventory-head">
-            <div><h1 id="inventory-page-title">在庫状況</h1><p id="inventory-page-subtitle">商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。</p></div>
-            <button class="inventory-sync" id="inventory-sync" type="button"><span aria-hidden="true">↻</span><span id="inventory-sync-label">今すぐ同期</span></button>
-          </header>
-          <div class="inventory-tier-head"><h2 id="inventory-groups-title">商品グループ</h2><span id="inventory-home-meta">WEBMAX 5店舗 · プロトタイプデータ</span></div>
-          <div class="inventory-panel inventory-groups-shell">
-            <div class="inventory-group-grid" id="inventory-group-grid" aria-label="商品グループ"></div>
-          </div>
-          <p class="inventory-demo-note" id="inventory-demo-note">現在は画面確認用のサンプル在庫を表示しています。WEBMAX連携後に実データへ切り替えます。</p>
-        </div>
-
-        <div id="inventory-detail" hidden>
-          <div class="inventory-detail-toolbar"><button class="inventory-back" id="inventory-back" type="button">← 商品グループへ戻る</button><span class="inventory-sync-meta" id="inventory-detail-meta">WEBMAX 5店舗 · プロトタイプデータ</span></div>
-          <section class="inventory-panel" id="inventory-products-panel" aria-label="商品一覧">
-            <div class="inventory-product-head"><div><h2 id="inventory-detail-title"></h2><p id="inventory-detail-subtitle"></p></div><div class="inventory-product-summary" id="inventory-detail-summary"></div></div>
-            <div class="inventory-filter">
-              <div class="inventory-filter-controls">
-                <label class="inventory-filter-control inventory-filter-keyword" for="inventory-search"><span id="inventory-search-label">キーワード</span><span class="inventory-search-wrap"><input class="inventory-search" id="inventory-search" type="search" placeholder="商品コード・商品名を入力" autocomplete="off"></span></label>
-                <fieldset class="inventory-stock-range"><legend id="inventory-stock-range-label">在庫数</legend><div class="inventory-stock-range-inputs"><input class="inventory-filter-input" id="inventory-stock-min" type="number" step="any" inputmode="decimal" placeholder="下限" aria-label="在庫数の下限"><span>–</span><input class="inventory-filter-input" id="inventory-stock-max" type="number" step="any" inputmode="decimal" placeholder="上限" aria-label="在庫数の上限"></div></fieldset>
-                <label class="inventory-filter-control" for="inventory-store-filter"><span id="inventory-store-filter-label">店舗</span><input class="inventory-filter-input" id="inventory-store-filter" type="search" list="inventory-store-options" placeholder="店舗コード・店舗名" autocomplete="off"><datalist id="inventory-store-options"></datalist></label>
-              </div>
-              <span class="inventory-filter-count" id="inventory-filter-count" aria-live="polite"></span>
-            </div>
-            <div class="inventory-table-wrap"><table class="inventory-table"><thead><tr><th style="width:20%">商品コード</th><th style="width:25%">商品詳細</th><th style="width:19%">店舗</th><th style="width:12%">在庫数</th><th style="width:12%">原価</th><th style="width:12%">売価</th></tr></thead><tbody id="inventory-product-list"></tbody></table></div>
-            <div class="inventory-card-list" id="inventory-card-list" aria-label="スマートフォン用商品一覧"></div>
-          </section>
-        </div>
-      </section>
-
       <section class="construction" id="construction" hidden aria-live="polite">
         <span class="construction-icon" aria-hidden="true">⌁</span>
         <p class="construction-eyebrow" data-i18n="underConstruction">工事中</p>
@@ -387,34 +249,15 @@
               <article class="target-card"><div class="target-store"><div><strong>SK</strong><span>G Tayar Sdn Bhd</span></div><b class="target-branch">SK</b></div><label class="target-input-label" for="target-sk" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sk" data-store="SK" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
               <article class="target-card"><div class="target-store"><div><strong>KM</strong><span>Bagus Tayar Sdn Bhd</span></div><b class="target-branch">KM</b></div><label class="target-input-label" for="target-km" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-km" data-store="KM" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
             </div>
-            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">設定値はPleasanterで共有管理します。</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">目標を保存</button></div>
+            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">目標を保存</button></div>
           </section>
         </form>
       </section>
       <section class="system-dashboard" id="system-dashboard" hidden>
         <header class="page-head"><div><h1 id="system-title">システム設定</h1><p id="system-subtitle">専用ERPログインとバックグラウンド同期をこのPCに設定します。</p></div></header>
-        <form class="system-panel" id="system-form"><p class="system-status" id="system-status">ローカル取得サービスを確認中...</p><label class="interval-label" id="interval-label" for="interval-seconds">売上取得間隔（秒）</label><input class="interval-input" id="interval-seconds" type="number" min="10" value="300" required><label class="interval-label" id="inventory-interval-label" for="inventory-interval-seconds">在庫取得間隔（秒）</label><input class="interval-input" id="inventory-interval-seconds" type="number" min="300" value="3600" required><div class="system-grid" id="system-grid"></div><p class="system-note" id="system-note">パスワードはダッシュボードやクラウドへ保存されず、このPCのWindowsユーザー暗号化で保護されます。店舗ごとに対象支店に限定した専用ERPアカウントを設定してください。</p><div class="target-actions"><span></span><button class="save-targets" id="system-save" type="submit">設定を保存して同期</button></div></form>
+        <form class="system-panel" id="system-form"><p class="system-status" id="system-status">ローカル取得サービスを確認中...</p><label class="interval-label" id="interval-label" for="interval-seconds">取得間隔（秒）</label><input class="interval-input" id="interval-seconds" type="number" min="10" value="300" required><div class="system-grid" id="system-grid"></div><p class="system-note" id="system-note">パスワードはダッシュボードやクラウドへ保存されず、このPCのWindowsユーザー暗号化で保護されます。店舗ごとに対象支店に限定した専用ERPアカウントを設定してください。</p><div class="target-actions"><span></span><button class="save-targets" id="system-save" type="submit">設定を保存して同期</button></div></form>
       </section>
     </main>
-  </div>
-
-  <div class="inventory-sync-overlay" id="inventory-sync-overlay" hidden>
-    <section class="inventory-sync-dialog" id="inventory-sync-dialog" role="dialog" aria-modal="true" aria-labelledby="inventory-sync-dialog-title" aria-describedby="inventory-sync-current">
-      <div class="inventory-sync-dialog-head">
-        <span class="inventory-sync-spinner" aria-hidden="true"></span>
-        <div>
-          <h2 id="inventory-sync-dialog-title">在庫を同期しています</h2>
-          <p class="inventory-sync-current" id="inventory-sync-current" aria-live="polite">同期要求を受付中</p>
-        </div>
-      </div>
-      <div class="inventory-sync-timing">
-        <div><small id="inventory-sync-eta-label">完了予定（目安）</small><strong id="inventory-sync-eta">--:--</strong></div>
-        <div><small id="inventory-sync-remaining-label">残り時間</small><strong id="inventory-sync-remaining">--:--</strong></div>
-      </div>
-      <ol class="inventory-sync-steps" id="inventory-sync-steps"></ol>
-      <p class="inventory-sync-cancel-note" id="inventory-sync-cancel-note">完了済みの工程は取り消せません。</p>
-      <button class="inventory-sync-cancel" id="inventory-sync-cancel" type="button">中止</button>
-    </section>
   </div>
   <script>
     const translations = {
@@ -426,7 +269,7 @@
         dailySalesTitle: 'All Stores · Today’s Sales', groupTotal: 'Group total', monthlyProgress: 'This Month’s Progress', monthlyCaption: 'Cumulative sales / monthly target',
         salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Stacked daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
         documentsChartTitle: 'Daily Document Count', documentsChartSubtitle: 'Compare Cash Sales document counts by store and date', documentsAccum: 'Documents  1,284',
-        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Settings are shared through Pleasanter.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
+        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Saved values are stored in this browser. They will become shared settings after ERP and Excel integration.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
       },
       ms: {
         dashboardLabel: 'Papan Pemuka Jualan', syncStatus: 'Snapshot Cash Sales dimuatkan', administrator: 'Pentadbir', dashboards: 'PAPAN PEMUKA',
@@ -436,7 +279,7 @@
         dailySalesTitle: 'Semua Cawangan · Jualan Hari Ini', groupTotal: 'Jumlah kumpulan', monthlyProgress: 'Kemajuan Bulan Ini', monthlyCaption: 'Jualan terkumpul / sasaran bulanan',
         salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Cash Sales harian terkumpul mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
         documentsChartTitle: 'Bilangan Dokumen Harian', documentsChartSubtitle: 'Bandingkan bilangan dokumen Cash Sales mengikut cawangan dan tarikh', documentsAccum: 'Dokumen  1,284',
-        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Tetapan dikongsi melalui Pleasanter.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
+        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Nilai simpanan direkodkan dalam pelayar ini. Ia akan menjadi tetapan bersama selepas integrasi ERP dan Excel.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
       },
       ja: {
         dashboardLabel: '営業ダッシュボード', syncStatus: 'Cash Sales 実績を読み込み済み', administrator: '管理者', dashboards: 'DASHBOARDS',
@@ -446,7 +289,7 @@
         dailySalesTitle: '全店舗・本日売上', groupTotal: 'グループ合計', monthlyProgress: '今月の進捗', monthlyCaption: '累計売上 / 月間目標',
         salesChartTitle: '当月の日別売上', salesChartSubtitle: '日付ごとの店舗別Cash Salesを積み上げ表示', salesAccum: '10月売上　RM 514,800',
         documentsChartTitle: '日別伝票数', documentsChartSubtitle: '日付ごとに店舗別のCash Sales伝票数を比較', documentsAccum: '伝票　1,284件',
-        amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '設定値はPleasanterで共有管理します。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
+        amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
       },
       zh: {
         dashboardLabel: '销售仪表板', syncStatus: 'Cash Sales 数据已加载', administrator: '管理员', dashboards: '仪表板',
@@ -456,7 +299,7 @@
         dailySalesTitle: '所有门店 · 今日销售', groupTotal: '集团合计', monthlyProgress: '本月进度', monthlyCaption: '累计销售 / 月度目标',
         salesChartTitle: '本月每日销售额', salesChartSubtitle: '按日期堆叠显示各门店的 Cash Sales', salesAccum: '10月销售额  RM 514,800',
         documentsChartTitle: '每日单据数量', documentsChartSubtitle: '按日期比较各门店的 Cash Sales 单据数量', documentsAccum: '单据  1,284 张',
-        amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '设置通过Pleasanter共享管理。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
+        amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '保存的数值会记录在此浏览器中。ERP 与 Excel 对接后将切换为共享设置。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
       }
     };
     const buttons = document.querySelectorAll('.menu-button');
@@ -472,7 +315,6 @@
     const systemGrid = document.getElementById('system-grid');
     const systemStatus = document.getElementById('system-status');
     const intervalSeconds = document.getElementById('interval-seconds');
-    const inventoryIntervalSeconds = document.getElementById('inventory-interval-seconds');
     const targetForm = document.getElementById('target-form');
     const targetMonth = document.getElementById('target-month');
     const targetInputs = document.querySelectorAll('.target-input');
@@ -482,129 +324,14 @@
     const systemStores = { SI: 'Chew Tayar / SI', SR: 'Gemok Tayar / SR', ST: 'Gemok Tayar / ST', SK: 'G Tayar / SK', KM: 'Bagus Tayar / KM' };
     const latestFetchCopy = { en: 'Latest fetch: {datetime}', ms: 'Kemaskini terakhir: {datetime}', ja: '最新取得日時：{datetime}', zh: '最新获取时间：{datetime}' };
     const systemCopy = {
-      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Configure background collection on this protected administration page.', publicSubtitle: 'View the collector settings published by the administrator.', checking: 'Checking the local collection service…', publicChecking: 'Loading published settings…', salesInterval: 'Sales collection interval (seconds)', inventoryInterval: 'Inventory collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordMissing: '(not configured)', passwordManaged: 'Managed separately on the server', note: 'ERP passwords are managed separately as encrypted systemd credentials on the Ubuntu server.', publicNote: 'Read-only. Change these values from the protected local administration dashboard. ERP passwords are never published.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', published: 'Showing the latest published settings (read-only).', unavailable: 'Cannot connect to the local collection service. Open the dashboard from the collector service.', publicUnavailable: 'Published settings are not available yet.', saving: 'Saving settings…', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
-      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Konfigurasikan kutipan latar belakang pada halaman pentadbiran terlindung ini.', publicSubtitle: 'Lihat tetapan pengumpul yang diterbitkan oleh pentadbir.', checking: 'Memeriksa perkhidmatan kutipan setempat…', publicChecking: 'Memuatkan tetapan yang diterbitkan…', salesInterval: 'Selang kutipan jualan (saat)', inventoryInterval: 'Selang kutipan inventori (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordMissing: '(belum ditetapkan)', passwordManaged: 'Diuruskan secara berasingan pada pelayan', note: 'Kata laluan ERP diuruskan secara berasingan sebagai kelayakan systemd yang disulitkan pada pelayan Ubuntu.', publicNote: 'Baca sahaja. Ubah nilai ini daripada papan pemuka pentadbiran setempat yang terlindung. Kata laluan ERP tidak pernah diterbitkan.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', published: 'Menunjukkan tetapan terkini yang diterbitkan (baca sahaja).', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Buka papan pemuka daripada perkhidmatan pengumpul.', publicUnavailable: 'Tetapan yang diterbitkan belum tersedia.', saving: 'Menyimpan tetapan…', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
-      ja: { menu: 'システム設定', title: 'システム設定', subtitle: '保護された管理画面でバックグラウンド取得を設定します。', publicSubtitle: '管理者が公開した取得サービスの設定を確認できます。', checking: 'ローカル取得サービスを確認中...', publicChecking: '公開済み設定を読み込み中...', salesInterval: '売上取得間隔（秒）', inventoryInterval: '在庫取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordMissing: '（未設定）', passwordManaged: 'サーバー上で別途管理', note: 'ERPパスワードはUbuntuサーバー上の暗号化systemd Credentialとして別途管理されます。', publicNote: '参照専用です。変更は保護されたローカル管理画面から行います。ERPパスワードは公開されません。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', published: '最新の公開済み設定を表示しています（参照専用）。', unavailable: 'ローカル取得サービスに接続できません。取得サービスから管理画面を開いてください。', publicUnavailable: '公開済み設定をまだ取得できません。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
-      zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', salesInterval: '销售采集间隔（秒）', inventoryInterval: '库存采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
+      en: { menu: 'System Settings', title: 'System Settings', subtitle: 'Configure background collection on this protected administration page.', publicSubtitle: 'View the collector settings published by the administrator.', checking: 'Checking the local collection service…', publicChecking: 'Loading published settings…', interval: 'Collection interval (seconds)', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERP password', passwordSet: '(configured)', passwordMissing: '(not configured)', passwordManaged: 'Managed separately on the server', note: 'ERP passwords are managed separately as encrypted systemd credentials on the Ubuntu server.', publicNote: 'Read-only. Change these values from the protected local administration dashboard. ERP passwords are never published.', save: 'Save settings and sync', connected: 'Connected to the local collection service.', published: 'Showing the latest published settings (read-only).', unavailable: 'Cannot connect to the local collection service. Open the dashboard from the collector service.', publicUnavailable: 'Published settings are not available yet.', saving: 'Saving settings…', saved: 'Saved. The first sync has started.', saveFailed: 'Could not save settings. Check that the local collection service is running.' },
+      ms: { menu: 'Tetapan Sistem', title: 'Tetapan Sistem', subtitle: 'Konfigurasikan kutipan latar belakang pada halaman pentadbiran terlindung ini.', publicSubtitle: 'Lihat tetapan pengumpul yang diterbitkan oleh pentadbir.', checking: 'Memeriksa perkhidmatan kutipan setempat…', publicChecking: 'Memuatkan tetapan yang diterbitkan…', interval: 'Selang kutipan (saat)', url: 'URL Jualan Tunai', erpId: 'ID ERP', password: 'Kata laluan ERP', passwordSet: '(telah ditetapkan)', passwordMissing: '(belum ditetapkan)', passwordManaged: 'Diuruskan secara berasingan pada pelayan', note: 'Kata laluan ERP diuruskan secara berasingan sebagai kelayakan systemd yang disulitkan pada pelayan Ubuntu.', publicNote: 'Baca sahaja. Ubah nilai ini daripada papan pemuka pentadbiran setempat yang terlindung. Kata laluan ERP tidak pernah diterbitkan.', save: 'Simpan tetapan dan segerakkan', connected: 'Disambungkan kepada perkhidmatan kutipan setempat.', published: 'Menunjukkan tetapan terkini yang diterbitkan (baca sahaja).', unavailable: 'Tidak dapat menyambung kepada perkhidmatan kutipan setempat. Buka papan pemuka daripada perkhidmatan pengumpul.', publicUnavailable: 'Tetapan yang diterbitkan belum tersedia.', saving: 'Menyimpan tetapan…', saved: 'Disimpan. Penyegerakan pertama telah dimulakan.', saveFailed: 'Tidak dapat menyimpan tetapan. Pastikan perkhidmatan kutipan setempat sedang berjalan.' },
+      ja: { menu: 'システム設定', title: 'システム設定', subtitle: '保護された管理画面でバックグラウンド取得を設定します。', publicSubtitle: '管理者が公開した取得サービスの設定を確認できます。', checking: 'ローカル取得サービスを確認中...', publicChecking: '公開済み設定を読み込み中...', interval: '取得間隔（秒）', url: 'Cash Sales URL', erpId: 'ERP ID', password: 'ERPパスワード', passwordSet: '（設定済み）', passwordMissing: '（未設定）', passwordManaged: 'サーバー上で別途管理', note: 'ERPパスワードはUbuntuサーバー上の暗号化systemd Credentialとして別途管理されます。', publicNote: '参照専用です。変更は保護されたローカル管理画面から行います。ERPパスワードは公開されません。', save: '設定を保存して同期', connected: 'ローカル取得サービスに接続済みです。', published: '最新の公開済み設定を表示しています（参照専用）。', unavailable: 'ローカル取得サービスに接続できません。取得サービスから管理画面を開いてください。', publicUnavailable: '公開済み設定をまだ取得できません。', saving: '設定を保存中...', saved: '保存しました。初回同期を開始しました。', saveFailed: '保存できませんでした。ローカル取得サービスが起動しているか確認してください。' },
+      zh: { menu: '系统设置', title: '系统设置', subtitle: '在受保护的管理页面中配置后台采集。', publicSubtitle: '查看管理员发布的采集器设置。', checking: '正在检查本地采集服务…', publicChecking: '正在加载已发布的设置…', interval: '采集间隔（秒）', url: '现金销售 URL', erpId: 'ERP ID', password: 'ERP 密码', passwordSet: '（已设置）', passwordMissing: '（未设置）', passwordManaged: '在服务器上单独管理', note: 'ERP 密码在 Ubuntu 服务器上作为加密的 systemd 凭据单独管理。', publicNote: '仅供查看。请从受保护的本地管理仪表板更改这些值。ERP 密码绝不会发布。', save: '保存设置并同步', connected: '已连接到本地采集服务。', published: '正在显示最新发布的设置（只读）。', unavailable: '无法连接到本地采集服务。请从采集服务打开管理仪表板。', publicUnavailable: '已发布的设置尚不可用。', saving: '正在保存设置…', saved: '已保存，首次同步已开始。', saveFailed: '无法保存设置。请确认本地采集服务正在运行。' }
     };
-    const inventoryCopy = {
-      en: { title:'Inventory Status', subtitle:'Select a product group to review inventory by brand and store.', syncNow:'Sync now', syncPrivate:'Sync from private site', syncing:'Syncing…', syncWaiting:'Waiting for collector…', syncDone:'Synced', syncFailed:'Sync failed', syncTimeout:'Still processing', groups:'Product Groups', meta:'WEBMAX · 5 stores · Prototype data', checked:'WEBMAX · 5 stores · Checked {time}', liveMeta:'WEBMAX · {stores} stores · Updated {time}', showProducts:'View products', demoNote:'Sample inventory is shown until the first WEBMAX inventory collection completes.', liveNote:'Live WEBMAX inventory is published through the Gemok Collector and saved to Pleasanter.', back:'← Back to product groups', productList:'Product list', byBrand:'Products by brand · {sku} SKU', totalStock:'Total stock {points} units', stockValue:'Stock value {value}', search:'Keyword', placeholder:'Search by product code, name, brand, or location', stockRange:'Stock quantity', stockMin:'Minimum', stockMax:'Maximum', storeFilter:'Store', storePlaceholder:'Store code or name', matches:'{count} products matched', showing:'{count} products shown', empty:'No matching products. Change the search conditions.', productCount:'{count} products', code:'Product code', details:'Product details', store:'Store', storeLocation:'Store / Location', location:'Location', noLocation:'Default', stock:'Stock', cost:'Cost', price:'Selling price', mobileList:'Mobile product list', quantity:'Quantity', unit:'pcs' },
-      ms: { title:'Status Inventori', subtitle:'Pilih kumpulan produk untuk menyemak inventori mengikut jenama dan cawangan.', syncNow:'Segerak sekarang', syncPrivate:'Segerak dari laman peribadi', syncing:'Menyegerak…', syncWaiting:'Menunggu pengumpul…', syncDone:'Selesai', syncFailed:'Penyegerakan gagal', syncTimeout:'Masih diproses', groups:'Kumpulan Produk', meta:'WEBMAX · 5 cawangan · Data prototaip', checked:'WEBMAX · 5 cawangan · Disemak {time}', liveMeta:'WEBMAX · {stores} cawangan · Dikemas kini {time}', showProducts:'Lihat produk', demoNote:'Inventori sampel dipaparkan sehingga kutipan WEBMAX pertama selesai.', liveNote:'Inventori WEBMAX langsung diterbitkan melalui Gemok Collector dan disimpan dalam Pleasanter.', back:'← Kembali ke kumpulan produk', productList:'Senarai produk', byBrand:'Senarai mengikut jenama · {sku} SKU', totalStock:'Jumlah stok {points} unit', stockValue:'Nilai stok {value}', search:'Kata kunci', placeholder:'Cari kod, nama, jenama atau lokasi produk', stockRange:'Kuantiti stok', stockMin:'Minimum', stockMax:'Maksimum', storeFilter:'Cawangan', storePlaceholder:'Kod atau nama cawangan', matches:'{count} produk sepadan', showing:'{count} produk dipaparkan', empty:'Tiada produk yang sepadan. Ubah syarat carian.', productCount:'{count} produk', code:'Kod produk', details:'Butiran produk', store:'Cawangan', storeLocation:'Cawangan / Lokasi', location:'Lokasi', noLocation:'Utama', stock:'Stok', cost:'Kos', price:'Harga jual', mobileList:'Senarai produk mudah alih', quantity:'Kuantiti', unit:'unit' },
-      ja: { title:'在庫状況', subtitle:'商品グループを選択して、ブランド別・店舗別の商品在庫を確認します。', syncNow:'今すぐ同期', syncPrivate:'同期は非公開版から実行', syncing:'同期中…', syncWaiting:'取得サービスの開始待ち…', syncDone:'同期完了', syncFailed:'同期に失敗', syncTimeout:'同期処理を継続中', groups:'商品グループ', meta:'WEBMAX 5店舗 · プロトタイプデータ', checked:'WEBMAX 5店舗 · 画面確認 {time}', liveMeta:'WEBMAX {stores}店舗 · 更新 {time}', showProducts:'商品一覧を表示', demoNote:'初回のWEBMAX在庫取得が完了するまでサンプル在庫を表示します。', liveNote:'WEBMAXの実在庫をGemok Collector経由で公開し、Pleasanterにも保存しています。', back:'← 商品グループへ戻る', productList:'商品一覧', byBrand:'ブランド別商品一覧 · {sku} SKU', totalStock:'全店舗在庫 {points}点', stockValue:'在庫金額 {value}', search:'キーワード', placeholder:'商品コード・商品名・ブランド・ロケーションを入力', stockRange:'在庫数', stockMin:'下限', stockMax:'上限', storeFilter:'店舗', storePlaceholder:'店舗コード・店舗名', matches:'{count}商品が一致', showing:'{count}商品を表示', empty:'該当する商品がありません。検索条件を変更してください。', productCount:'{count}商品', code:'商品コード', details:'商品詳細', store:'店舗', storeLocation:'店舗 / ロケーション', location:'ロケーション', noLocation:'標準', stock:'在庫数', cost:'原価', price:'売価', mobileList:'スマートフォン用商品一覧', quantity:'数量', unit:'点' },
-      zh: { title:'库存状态', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncPrivate:'请从非公开版执行同步', syncing:'同步中…', syncWaiting:'等待采集服务…', syncDone:'同步完成', syncFailed:'同步失败', syncTimeout:'仍在处理中', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'关键词', placeholder:'输入商品代码、名称、品牌或库位', stockRange:'库存数', stockMin:'下限', stockMax:'上限', storeFilter:'门店', storePlaceholder:'门店代码或名称', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配商品，请修改搜索条件。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', storeLocation:'门店 / 库位', location:'库位', noLocation:'默认', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
-    };
-    const inventorySyncCopy = {
-      en: {
-        title:'Synchronizing inventory', eta:'Estimated completion', remaining:'Time remaining', soon:'Almost done', cancel:'Cancel', cancelling:'Cancelling…', note:'Completed steps cannot be rolled back.',
-        current:{ queued:'Sync request received', webmax:'Fetching the latest inventory from WEBMAX', pleasanter:'Updating Pleasanter', publishing:'Publishing the latest inventory data', reloading:'Reloading the latest data', cancelling:'Stopping synchronization…', completed:'Synchronization completed', cancelled:'Synchronization stopped', failed:'Synchronization failed' },
-        stages:{ queued:'Request accepted', webmax:'Fetch WEBMAX', pleasanter:'Update Pleasanter', publishing:'Publish data', reloading:'Reload latest data' }
-      },
-      ms: {
-        title:'Menyegerakkan inventori', eta:'Anggaran siap', remaining:'Masa berbaki', soon:'Hampir selesai', cancel:'Batal', cancelling:'Membatalkan…', note:'Langkah yang telah selesai tidak boleh dibuat asal.',
-        current:{ queued:'Permintaan penyegerakan diterima', webmax:'Mengambil inventori terkini daripada WEBMAX', pleasanter:'Mengemas kini Pleasanter', publishing:'Menerbitkan data inventori terkini', reloading:'Memuat semula data terkini', cancelling:'Menghentikan penyegerakan…', completed:'Penyegerakan selesai', cancelled:'Penyegerakan dihentikan', failed:'Penyegerakan gagal' },
-        stages:{ queued:'Permintaan diterima', webmax:'Ambil WEBMAX', pleasanter:'Kemas kini Pleasanter', publishing:'Terbitkan data', reloading:'Muat semula data' }
-      },
-      ja: {
-        title:'在庫を同期しています', eta:'完了予定（目安）', remaining:'残り時間', soon:'まもなく完了', cancel:'中止', cancelling:'中止しています…', note:'完了済みの工程は取り消せません。',
-        current:{ queued:'同期要求を受付中', webmax:'WEBMAXから最新在庫を取得中', pleasanter:'Pleasanterを更新中', publishing:'最新在庫データを公開中', reloading:'最新データを再読み込み中', cancelling:'同期を中止しています…', completed:'同期が完了しました', cancelled:'同期を中止しました', failed:'同期に失敗しました' },
-        stages:{ queued:'同期要求を受付', webmax:'WEBMAX取得', pleasanter:'Pleasanter更新', publishing:'最新データ公開', reloading:'最新データ再読込' }
-      },
-      zh: {
-        title:'正在同步库存', eta:'预计完成时间', remaining:'剩余时间', soon:'即将完成', cancel:'中止', cancelling:'正在中止…', note:'已完成的步骤无法撤销。',
-        current:{ queued:'已接收同步请求', webmax:'正在从 WEBMAX 获取最新库存', pleasanter:'正在更新 Pleasanter', publishing:'正在发布最新库存数据', reloading:'正在重新加载最新数据', cancelling:'正在停止同步…', completed:'同步完成', cancelled:'同步已停止', failed:'同步失败' },
-        stages:{ queued:'接收请求', webmax:'获取 WEBMAX', pleasanter:'更新 Pleasanter', publishing:'发布数据', reloading:'重新加载数据' }
-      }
-    };
-    const inventoryGroupNames = {
-      en: { 'passanger-tire':'Passenger Tire','passenger-tire':'Passenger Tire','4x4':'4x4','light-truck':'Light Truck','sport-rim':'Sport Rim','oil':'Engine Oil','oil-filter':'Oil Filter','absorber':'Absorber','adj-absorber':'Adjustable Absorber','spring':'Spring','brake-caliper':'Brake Caliper','brake-pad':'Brake Pad','brake-pump':'Brake Pump','parts':'Parts','battery':'Battery','flap':'Flap','tube':'Tube','repair-rim':'Rim Repair','used-sport-rim':'Used Sport Rim','used-tayar':'Used Tire','service':'Service','non-stock-item':'Non-Stock Item','miscellaneous':'Miscellaneous','tool-stationery':'Tools & Stationery','tool-and-stationery':'Tools & Stationery','ungrouped':'Ungrouped' },
-      ms: { 'passanger-tire':'Tayar Penumpang','passenger-tire':'Tayar Penumpang','4x4':'4x4','light-truck':'Lori Ringan','sport-rim':'Rim Sukan','oil':'Minyak Enjin','oil-filter':'Penapis Minyak','absorber':'Penyerap Hentak','adj-absorber':'Penyerap Hentak Boleh Laras','spring':'Spring','brake-caliper':'Angkup Brek','brake-pad':'Pad Brek','brake-pump':'Pam Brek','parts':'Alat Ganti','battery':'Bateri','flap':'Flap','tube':'Tiub','repair-rim':'Baiki Rim','used-sport-rim':'Rim Sukan Terpakai','used-tayar':'Tayar Terpakai','service':'Servis','non-stock-item':'Item Bukan Stok','miscellaneous':'Pelbagai','tool-stationery':'Alat & Alat Tulis','tool-and-stationery':'Alat & Alat Tulis','ungrouped':'Tidak Berkumpulan' },
-      ja: { 'passanger-tire':'乗用車タイヤ','passenger-tire':'乗用車タイヤ','4x4':'4x4','light-truck':'ライトトラック','sport-rim':'スポーツリム','oil':'エンジンオイル','oil-filter':'オイルフィルター','absorber':'ショックアブソーバー','adj-absorber':'調整式アブソーバー','spring':'スプリング','brake-caliper':'ブレーキキャリパー','brake-pad':'ブレーキパッド','brake-pump':'ブレーキポンプ','parts':'パーツ','battery':'バッテリー','flap':'フラップ','tube':'チューブ','repair-rim':'リム修理','used-sport-rim':'中古スポーツリム','used-tayar':'中古タイヤ','service':'サービス','non-stock-item':'非在庫品','miscellaneous':'その他','tool-stationery':'工具・文具','tool-and-stationery':'工具・文具','ungrouped':'未分類' },
-      zh: { 'passanger-tire':'乘用车轮胎','passenger-tire':'乘用车轮胎','4x4':'四驱轮胎','light-truck':'轻型卡车轮胎','sport-rim':'运动轮圈','oil':'发动机油','oil-filter':'机油滤清器','absorber':'减震器','adj-absorber':'可调减震器','spring':'弹簧','brake-caliper':'刹车卡钳','brake-pad':'刹车片','brake-pump':'刹车泵','parts':'零件','battery':'电池','flap':'垫带','tube':'内胎','repair-rim':'轮圈维修','used-sport-rim':'二手运动轮圈','used-tayar':'二手轮胎','service':'服务','non-stock-item':'非库存商品','miscellaneous':'其他','tool-stationery':'工具与文具','tool-and-stationery':'工具与文具','ungrouped':'未分组' }
-    };
-    const inventoryDashboard = document.getElementById('inventory-dashboard');
-    const inventoryHome = document.getElementById('inventory-home');
-    const inventoryDetail = document.getElementById('inventory-detail');
-    const inventoryGroupGrid = document.getElementById('inventory-group-grid');
-    const inventoryBack = document.getElementById('inventory-back');
-    const inventorySearch = document.getElementById('inventory-search');
-    const inventoryStockMin = document.getElementById('inventory-stock-min');
-    const inventoryStockMax = document.getElementById('inventory-stock-max');
-    const inventoryStoreFilter = document.getElementById('inventory-store-filter');
-    const inventoryStoreOptions = document.getElementById('inventory-store-options');
-    const inventoryProductList = document.getElementById('inventory-product-list');
-    const inventoryCardList = document.getElementById('inventory-card-list');
-    const inventoryFilterCount = document.getElementById('inventory-filter-count');
-    const inventorySync = document.getElementById('inventory-sync');
-    const inventorySyncLabel = document.getElementById('inventory-sync-label');
-    const inventorySyncOverlay = document.getElementById('inventory-sync-overlay');
-    const inventorySyncDialog = document.getElementById('inventory-sync-dialog');
-    const inventorySyncDialogTitle = document.getElementById('inventory-sync-dialog-title');
-    const inventorySyncCurrent = document.getElementById('inventory-sync-current');
-    const inventorySyncSteps = document.getElementById('inventory-sync-steps');
-    const inventorySyncEtaLabel = document.getElementById('inventory-sync-eta-label');
-    const inventorySyncEta = document.getElementById('inventory-sync-eta');
-    const inventorySyncRemainingLabel = document.getElementById('inventory-sync-remaining-label');
-    const inventorySyncRemaining = document.getElementById('inventory-sync-remaining');
-    const inventorySyncCancelNote = document.getElementById('inventory-sync-cancel-note');
-    const inventorySyncCancel = document.getElementById('inventory-sync-cancel');
-    const inventoryStores = [['SI','Chew Tayar'],['SR','Gemok Tayar'],['ST','Gemok Tayar'],['SK','G Tayar'],['KM','Bagus Tayar']];
-    const inventoryGroupOrder = ['passanger-tire','sport-rim','absorber','adj-absorber','spring','brake-caliper','brake-pad','brake-pump','oil','oil-filter','parts','battery','flap','tube','repair-rim','used-sport-rim','used-tayar','miscellaneous','non-stock-item','tool-and-stationery','ungrouped'];
-    const inventoryGroupOrderRank = new Map(inventoryGroupOrder.map((key,index) => [key,index]));
-    inventoryGroupOrderRank.set('passenger-tire',inventoryGroupOrderRank.get('passanger-tire'));
-    function sortInventoryGroupDefinitions(definitions) {
-      return definitions.map((definition,index) => ({ definition,index })).sort((a,b) => {
-        const aRank = inventoryGroupOrderRank.get(a.definition[0]) ?? inventoryGroupOrder.length;
-        const bRank = inventoryGroupOrderRank.get(b.definition[0]) ?? inventoryGroupOrder.length;
-        return aRank - bRank || (aRank === inventoryGroupOrder.length ? String(a.definition[1]).localeCompare(String(b.definition[1])) : a.index - b.index);
-      }).map(({ definition }) => definition);
-    }
-    let inventoryGroupDefinitions = [
-      ['passanger-tire','Passanger Tire',1482,18420,'RM 986K'], ['sport-rim','Sport Rim',208,846,'RM 392K'],
-      ['absorber','Absorber',84,426,'RM 92K'], ['adj-absorber','Adj Absorber',42,168,'RM 138K'], ['spring','Spring',72,284,'RM 58K'],
-      ['brake-caliper','Brake Caliper',66,214,'RM 121K'], ['brake-pad','Brake pad',126,684,'RM 76K'], ['brake-pump','Brake Pump',38,142,'RM 44K'],
-      ['oil','Oil',420,6570,'RM 166K'], ['oil-filter','Oil Filter',94,1260,'RM 31K'], ['parts','Parts',486,3420,'RM 214K'],
-      ['battery','Battery',326,4210,'RM 276K'], ['flap','Flap',0,0,'RM 0'], ['tube','Tube',0,0,'RM 0'], ['repair-rim','Repair Rim',24,96,'RM 12K'],
-      ['used-sport-rim','Used Sport Rim',74,182,'RM 48K'], ['used-tayar','Used Tayar',164,522,'RM 36K'], ['miscellaneous','Miscellaneous',318,2610,'RM 64K'],
-      ['non-stock-item','Non-Stock Item',56,74,'RM 18K'], ['tool-and-stationery','Tool&Stationery',146,1080,'RM 27K'], ['ungrouped','Ungrouped',0,0,'RM 0']
-    ];
-    const inventorySamples = {
-      'passanger-tire': [['TOYO TIRES','TYR-TY-CR1-21555R17','PROXES CR1','215/55R17 94V',21,286,390],['MICHELIN','TYR-MI-PR4-21555R17','PRIMACY 4','215/55R17 94W',32,418,560],['BRIDGESTONE','TYR-BS-EP3-19565R15','ECOPIA EP300','195/65R15 91V',84,205,285]],
-      '4x4': [['TOYO TIRES','SUV-TY-AT3-26565R17','OPEN COUNTRY A/T III','265/65R17 112T',17,468,625],['MICHELIN','SUV-MI-LTX-26565R17','LTX TRAIL','265/65R17 112T',24,558,735],['BRIDGESTONE','SUV-BS-ALN-22555R19','ALENZA 001','225/55R19 99V',12,618,810]],
-      'light-truck': [['BRIDGESTONE','LTR-BS-R623-195R15','R623 Light Truck','195R15C 106/104R',42,286,390],['TOYO TIRES','LTR-TY-H08-195R15','H08 Light Truck','195R15C 106/104S',28,272,375]],
-      'sport-rim': [['ENKEI','RIM-EN-RPF1-1775','RPF1 Sport Rim','17 × 7.5J · 5H',18,620,820],['ADVANTI','RIM-AD-ST01-1880','Storm S1','18 × 8.0J · 5H',12,780,1020]],
-      'oil': [['PETRONAS','OIL-PT-SY3-5W30-4L','Syntium 3000 E','5W-30 · Fully synthetic · 4L',74,108,158],['SHELL','OIL-SH-HU-5W40-4L','Helix Ultra','5W-40 · Fully synthetic · 4L',68,128,185]],
-      'oil-filter': [['DENSO','FLT-DN-1502002','Spin-On Oil Filter','M20 × 1.5 thread',88,18,32],['BOSCH','FLT-BO-P3318','Premium Oil Filter','Paper element · 64 mm',64,22,38]],
-      'absorber': [['KYB','ABS-KYB-EXCELG-F','Excel-G Front Absorber','Gas shock · Front axle',34,148,225],['MONROE','ABS-MO-OES-R','OESpectrum Rear','Gas shock · Rear axle',27,132,205]],
-      'adj-absorber': [['TEIN','ADJ-TEIN-SAZ-01','Street Advance Z Set','16-way adjustable · Full set',8,1780,2350],['BC RACING','ADJ-BC-BR-01','BR Series Coilover','Height adjustable · Full set',6,2240,2950]],
-      'spring': [['EIBACH','SPR-EI-PRO-KIT01','Pro-Kit Spring Set','Progressive lowering spring',14,680,890],['H&R','SPR-HR-SPORT01','Sport Spring Set','Performance lowering spring',9,760,990]],
-      'brake-caliper': [['BREMBO','CAL-BR-FR4P-RD','Front 4-Pot Caliper','Red · Left / right set',9,1120,1480],['ADVICS','CAL-AD-RR2P-BK','Rear 2-Pot Caliper','Black · Left / right set',7,760,1020]],
-      'brake-pad': [['BENDIX','PAD-BX-GCT-F01','General CT Front Pad','Ceramic compound · Front',48,86,135],['AKEBONO','PAD-AK-PRO-R01','ProACT Rear Pad','Low-dust ceramic · Rear',32,92,145]],
-      'brake-pump': [['AISIN','PMP-AI-MC-13','Brake Master Cylinder','13/16 inch bore',14,218,315],['SEIKEN','PMP-SK-WC-22','Rear Wheel Cylinder','22 mm bore',23,68,105]],
-      'battery': [['GS ASTRA','BAT-GS-DIN66L','DIN66L MF Battery','66Ah · 12V · L terminal',28,318,430],['AMARON','BAT-AM-GO55B24L','GO 55B24L','45Ah · Maintenance free',36,226,315],['BOSCH','BAT-BO-AGMLN4','S6 AGM LN4','80Ah · Start-stop',6,688,895]]
-    };
-    let inventoryGroups = Object.fromEntries(inventoryGroupDefinitions.map(([key,name,sku,points,value], groupIndex) => {
-      const fallbackCode = key.replace(/[^a-z0-9]/gi,'').slice(0,5).toUpperCase();
-      const samples = inventorySamples[key] || [['GEMOK SELECT',`${fallbackCode}-STD-01`,`${name} Standard`,`Standard specification · Grade A`,18 + groupIndex,48 + groupIndex * 3,78 + groupIndex * 4],['VALUE LINE',`${fallbackCode}-VAL-02`,`${name} Value Line`,`Workshop standard · Grade B`,11 + groupIndex,34 + groupIndex * 2,58 + groupIndex * 3]];
-      return [key,{ key,name,sku,points,value,items:samples }];
-    }));
-    let activeInventoryGroup = null;
-    let inventorySyncState = 'syncNow';
-    let inventorySyncStage = 'queued';
-    let inventorySyncLastActiveStage = 'queued';
-    let inventorySyncRequestId = null;
-    let inventorySyncCancelRequested = false;
-    let inventorySyncEstimatedEnd = 0;
-    let inventorySyncCountdownTimer = null;
-    const inventorySyncStageOrder = ['queued','webmax','pleasanter','publishing','reloading'];
-    const inventorySyncStageEstimateSeconds = { queued:330, webmax:300, pleasanter:75, publishing:35, reloading:20, cancelling:10 };
-    let inventoryCheckedAt = null;
-    let inventoryLive = false;
-    let inventoryDataUpdatedAt = null;
-    const githubPagesMode = location.hostname.toLowerCase().endsWith('github.io');
     const localSettingsMode = location.port === '47251' && location.pathname.startsWith('/dashboard');
     const collectorUrl = localSettingsMode ? location.origin : 'http://127.0.0.1:47251';
     const githubDashboardDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/dashboard-data.json';
-    const githubInventoryDataUrl = 'https://yschew-git.github.io/gemok-group-dashboard-publisher/inventory-data.json';
     const fetchTimestamp = document.getElementById('fetch-timestamp');
     const excelSnapshotFetchedAt = '2026-10-09T16:34:31.189Z';
     let latestSuccessfulAt = excelSnapshotFetchedAt;
@@ -625,6 +352,12 @@
       ja: { snapshot: 'Cash Sales 実績 · 2026年10月1日〜10日', documents: '件', pending: 'データ取得待ち', month: '10月累計', actualTotal: '今月累計合計', targetTotal: '今月目標合計', progressRate: '今月の進捗率', documentTotal: '累計伝票数' },
       zh: { snapshot: 'Cash Sales 实绩 · 2026年10月1日至10日', documents: '张', pending: '数据待获取', month: '10月累计', actualTotal: '本月累计总额', targetTotal: '本月目标总额', progressRate: '本月进度率', documentTotal: '累计单据数' }
     };
+    const salesMonthCopy = {
+      en: { picker:'Target month', lastDay:'All Stores · Last Available Day', progress:'{month} Progress', loading:'Loading {month} sales data…', unavailable:'Sales data for {month} is unavailable.', sourceCache:'Monthly cache', sourcePleasanter:'Pleasanter', sourcePublished:'Published monthly cache' },
+      ms: { picker:'Bulan sasaran', lastDay:'Semua Cawangan · Hari Terakhir Tersedia', progress:'Kemajuan {month}', loading:'Memuatkan data jualan {month}…', unavailable:'Data jualan untuk {month} tidak tersedia.', sourceCache:'Cache bulanan', sourcePleasanter:'Pleasanter', sourcePublished:'Cache bulanan diterbitkan' },
+      ja: { picker:'対象月', lastDay:'全店舗・最終取得日売上', progress:'{month}の進捗', loading:'{month}の売上データを読み込み中…', unavailable:'{month}の売上データを取得できませんでした。', sourceCache:'月別キャッシュ', sourcePleasanter:'Pleasanter', sourcePublished:'公開月別キャッシュ' },
+      zh: { picker:'目标月份', lastDay:'所有门店 · 最后获取日销售', progress:'{month}进度', loading:'正在加载{month}销售数据…', unavailable:'无法获取{month}的销售数据。', sourceCache:'月度缓存', sourcePleasanter:'Pleasanter', sourcePublished:'已发布月度缓存' }
+    };
     const cashSalesActuals = {
       SI: { company: 'Chew Tayar', sales: [20447,10769,17042,21459,6630,19940,0,20599,15008,0], documents: [29,26,38,32,19,24,0,33,31,0] },
       SR: { company: 'Gemok Tayar', sales: [4653,3467,7311.4,9659,6178,2963,5658,9822,3858,0], documents: [14,18,26,26,18,16,26,26,26,0] },
@@ -632,65 +365,25 @@
       SK: { company: 'G Tayar', sales: [3126,2136,7746,5323,3816,4688,0,4748,6603,0], documents: [10,12,15,25,17,15,0,14,19,0] }
     };
     let dashboardDataMeta = { month: '2026-10', latestDate: '2026-10-10' };
+    let selectedSalesMonth = dashboardDataMeta.month;
+    let activeMonthlyTargets = null;
+    let salesDataSource = 'published-cache';
+    let availableSalesMonths = [dashboardDataMeta.month];
+    let salesMonthLoading = false;
     const actualCodes = Object.keys(cashSalesActuals);
-    const sharedTargetMonths = new Map();
-    let targetLoadSequence = 0;
-    let targetBusy = false;
-    let systemBusy = false;
-    let targetLoadedMonth = null;
-    let systemLoaded = false;
-    const settingsEditable = !githubPagesMode;
-    const sharedCopy = {
-      ja:{note:'設定値はPleasanterで共有管理します。',publicNote:'Pleasanterの公開済み設定を表示しています。変更は非公開管理画面から行ってください。',admin:'非公開管理画面を開く',loading:'Pleasanterから読み込み中…',saving:'Pleasanterに保存中…',saved:'Pleasanterに保存しました。',failed:'Pleasanterへの保存・読み込みを確認できませんでした。設定は保存済みとして扱っていません。',own:'{month}の設定',prior:'{month}は未設定のため、{source}の設定を使用しています。',defaults:'当月・前月とも未設定です。初期値を表示しています。保存すると対象月の設定になります。',systemNote:'URL・ID・更新間隔をPleasanterで管理します。ERPパスワードはサーバー上で別途管理します。',saveSystem:'設定を保存',unavailable:'目標未取得'},
-      en:{note:'Settings are shared through Pleasanter.',publicNote:'Published Pleasanter settings. Use the private administration page to make changes.',admin:'Open private administration',loading:'Loading from Pleasanter…',saving:'Saving to Pleasanter…',saved:'Saved to Pleasanter.',failed:'Could not confirm the Pleasanter operation. The settings are not marked as saved.',own:'Settings for {month}',prior:'No settings for {month}; using {source}.',defaults:'This month and the previous month are unset. Defaults are shown until you save.',systemNote:'URLs, IDs and intervals are managed in Pleasanter. ERP passwords remain on the server.',saveSystem:'Save settings',unavailable:'Targets unavailable'},
-      ms:{note:'Tetapan dikongsi melalui Pleasanter.',publicNote:'Tetapan Pleasanter yang diterbitkan. Ubah melalui halaman pentadbiran peribadi.',admin:'Buka pentadbiran peribadi',loading:'Memuatkan dari Pleasanter…',saving:'Menyimpan ke Pleasanter…',saved:'Disimpan ke Pleasanter.',failed:'Operasi Pleasanter tidak dapat disahkan. Tetapan belum ditandakan sebagai disimpan.',own:'Tetapan {month}',prior:'Tiada tetapan {month}; menggunakan {source}.',defaults:'Bulan ini dan sebelumnya belum ditetapkan. Nilai awal dipaparkan.',systemNote:'URL, ID dan sela diurus di Pleasanter. Kata laluan ERP kekal pada pelayan.',saveSystem:'Simpan tetapan',unavailable:'Sasaran belum tersedia'},
-      zh:{note:'设置通过Pleasanter共享管理。',publicNote:'正在显示已发布的Pleasanter设置。请在非公开管理页面中修改。',admin:'打开非公开管理页面',loading:'正在从Pleasanter读取…',saving:'正在保存到Pleasanter…',saved:'已保存到Pleasanter。',failed:'无法确认Pleasanter操作，尚未标记为已保存。',own:'{month}的设置',prior:'{month}未设置，使用{source}的设置。',defaults:'本月和上月均未设置，当前显示初始值，保存后生效。',systemNote:'URL、ID及采集间隔通过Pleasanter管理，ERP密码在服务器上单独管理。',saveSystem:'保存设置',unavailable:'目标尚未获取'}
-    };
-    function businessMonth() {
-      const parts = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kuala_Lumpur',year:'numeric',month:'2-digit'}).formatToParts(new Date());
-      return `${parts.find(p=>p.type==='year').value}-${parts.find(p=>p.type==='month').value}`;
+    function currentBusinessMonth() {
+      const parts = new Intl.DateTimeFormat('en-CA', { timeZone:'Asia/Kuala_Lumpur', year:'numeric', month:'2-digit' }).formatToParts(new Date());
+      const values = Object.fromEntries(parts.filter((part) => part.type !== 'literal').map((part) => [part.type,part.value]));
+      return `${values.year}-${values.month}`;
     }
     function actualTargets() {
-      return sharedTargetMonths.get(dashboardDataMeta.month)?.targets || Object.fromEntries(Object.keys(targetDefaults).map(code=>[code,null]));
-    }
-    async function requestSharedSettings(action,input={}) {
-      if(!settingsEditable) throw new Error('Private administration required');
-      if(localSettingsMode) {
-        const isTarget=action.startsWith('targets.');
-        const save=action.endsWith('.set');
-        const url=`${collectorUrl}/${isTarget?'targets':'settings'}${!save&&isTarget?'?month='+encodeURIComponent(input.month):''}`;
-        const response=await fetch(url,{method:save?'POST':'GET',headers:save?{'content-type':'application/json'}:{},body:save?JSON.stringify(input):undefined,signal:AbortSignal.timeout(120000),cache:'no-store'});
-        if(!response.ok) throw new Error('Pleasanter request failed');
-        return response.json();
-      }
-      const response=await fetch('/api/settings/request',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action,input}),signal:AbortSignal.timeout(15000)});
-      if(!response.ok) throw new Error('Pleasanter request rejected');
-      const job=await response.json();
-      for(let attempt=0;attempt<90;attempt++) {
-        await new Promise(resolve=>setTimeout(resolve,2000));
-        const statusResponse=await fetch(`/api/settings/status?id=${encodeURIComponent(job.id)}`,{cache:'no-store',signal:AbortSignal.timeout(15000)});
-        if(!statusResponse.ok) throw new Error('Settings status unavailable');
-        const status=await statusResponse.json();
-        if(status.status==='completed') return status.result;
-        if(status.status==='failed') throw new Error('Pleasanter operation failed');
-      }
-      throw new Error('Pleasanter operation remains unconfirmed');
-    }
-    function cacheSharedTargets(payload) {
-      if(payload?.month && payload.targets) sharedTargetMonths.set(payload.month,payload);
-    }
-    function renderSharedSettingsCopy() {
-      const copy=sharedCopy[language];
-      document.querySelector('[data-i18n="targetSaveNote"]').textContent=settingsEditable?copy.note:copy.publicNote;
-      targetInputs.forEach(input=>{input.readOnly=!settingsEditable;});
-      targetForm.querySelector('[type="submit"]').hidden=!settingsEditable;
-      document.querySelectorAll('.shared-admin-link').forEach(a=>{a.textContent=copy.admin;a.hidden=settingsEditable;});
-    }
-    async function loadSalesTargets() {
-      if(!settingsEditable) return;
-      const month=dashboardDataMeta.month;
-      try {cacheSharedTargets(await requestSharedSettings('targets.get',{month}));if(dashboardDataMeta.month===month) renderSalesDashboard();}
-      catch { /* Keep a previously confirmed Pleasanter snapshot; never use browser-local targets. */ }
+      let saved = null;
+      try { saved = JSON.parse(localStorage.getItem(`gemok-monthly-targets-${dashboardDataMeta.month}`)); } catch (error) { saved = null; }
+      const shared = activeMonthlyTargets?.month === dashboardDataMeta.month ? activeMonthlyTargets.targets : null;
+      return Object.fromEntries(Object.entries(targetDefaults).map(([code, value]) => {
+        const candidate = shared?.[code] ?? saved?.[code];
+        return [code, Number.isFinite(Number(candidate)) ? Number(candidate) : value];
+      }));
     }
     function formatRM(value, compact = false) {
       const locale = localeByLanguage[language];
@@ -847,277 +540,49 @@
         });
       });
     }
+    function salesSourceLabel() {
+      const copy = salesMonthCopy[language];
+      if (salesDataSource === 'pleasanter') return copy.sourcePleasanter;
+      if (salesDataSource === 'monthly-cache') return copy.sourceCache;
+      return copy.sourcePublished;
+    }
+    function selectedMonthIsCurrent() { return dashboardDataMeta.month === currentBusinessMonth(); }
+    function salesPeriodTitle(currentValue, historicalTemplate) {
+      return selectedMonthIsCurrent() ? currentValue : historicalTemplate.replace('{month}',dashboardMonthName());
+    }
     function renderSalesDashboard() {
       const labels = { ...actualLabels[language], snapshot: dashboardSnapshot() };
+      const monthCopy = salesMonthCopy[language];
       const targets = actualTargets();
-      const todayTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.at(-1), 0);
-      const monthTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.reduce((total, value) => total + value, 0), 0);
-      const documentTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].documents.reduce((total, value) => total + value, 0), 0);
+      const todayTotal = actualCodes.reduce((sum, code) => sum + (Number(cashSalesActuals[code].sales.at(-1)) || 0), 0);
+      const monthTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].sales.reduce((total, value) => total + (Number(value) || 0), 0), 0);
+      const documentTotal = actualCodes.reduce((sum, code) => sum + cashSalesActuals[code].documents.reduce((total, value) => total + (Number(value) || 0), 0), 0);
       const monthTargetTotal = Object.values(targets).reduce((sum, value) => sum + value, 0);
       const monthProgress = monthTargetTotal ? monthTotal / monthTargetTotal : 0;
       const dailyCards = actualCodes.map((code) => {
         const store = cashSalesActuals[code];
-        return `<article class="store-tile"><div class="store-top"><span class="store-code">${code}</span><span class="company">${store.company}</span></div><div class="store-value">${formatRM(store.sales.at(-1))}</div><span class="status">${store.documents.at(-1)} ${labels.documents}</span></article>`;
+        const sales = store.sales.at(-1);
+        const documents = store.documents.at(-1);
+        const available = Number.isFinite(Number(sales)) && Number.isFinite(Number(documents));
+        return `<article class="store-tile"><div class="store-top"><span class="store-code">${code}</span><span class="company">${store.company}</span></div><div class="store-value">${available ? formatRM(sales) : '—'}</div><span class="status${available ? '' : ' warn'}">${available ? `${documents} ${labels.documents}` : labels.pending}</span></article>`;
       }).join('') + `<article class="store-tile"><div class="store-top"><span class="store-code">KM</span><span class="company">Bagus Tayar</span></div><div class="store-value">—</div><span class="status warn">${labels.pending}</span></article>`;
       const monthCards = actualCodes.map((code) => {
-        const sales = cashSalesActuals[code].sales.reduce((sum, value) => sum + value, 0);
+        const sales = cashSalesActuals[code].sales.reduce((sum, value) => sum + (Number(value) || 0), 0);
         const rate = targets[code] ? sales / targets[code] : 0;
-        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${targets[code]===null?'—':(rate * 100).toFixed(1)+'%'}</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${targets[code]===null?'—':formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
+        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${(rate * 100).toFixed(1)}%</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
       }).join('') + `<article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate warn">${labels.pending}</span></div><p class="month-value"><strong>—</strong> / ${formatRM(targets.KM, true).replace('RM ', '')}</p><div class="progress"><span class="warn" style="width:0%"></span></div></article>`;
       const legend = actualCodes.map((code) => `<span><i class="dot" style="background:var(--${code.toLowerCase()})"></i>${code}</span>`).join('') + `<span><i class="dot" style="background:var(--km)"></i>KM · ${labels.pending}</span>`;
       salesDashboard.innerHTML = `
-        <header class="page-head"><div><h1 id="page-title">${salesProgressTitle()}</h1><p>${translations[language].pageSubtitle}</p></div><div class="data-note"><span>${translations[language].displayData}</span><strong>${labels.snapshot}</strong><small class="dashboard-fetch-timestamp" id="dashboard-fetch-timestamp">${latestFetchText()}</small></div></header>
-        <section class="daily" aria-labelledby="daily-title"><div class="section-head"><div><h2 id="daily-title">${translations[language].dailySalesTitle}</h2><p>Cash Sales / RM</p></div><div class="group-total"><small>${translations[language].groupTotal}</small>${formatRM(todayTotal)}</div></div><div class="daily-row">${dailyCards}</div></section>
-        <section class="month-row" aria-labelledby="month-title"><div class="month-label"><h2 id="month-title">${translations[language].monthlyProgress}</h2><p>${translations[language].monthlyCaption}</p></div>${monthCards}</section>
-        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${sharedTargetMonths.has(dashboardDataMeta.month)?formatRM(monthTargetTotal,true):'—'}</span><span><small>${labels.progressRate}</small>${sharedTargetMonths.has(dashboardDataMeta.month)?(monthProgress*100).toFixed(1)+'%':'—'}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
+        <header class="page-head"><div><h1 id="page-title">${salesProgressTitle()}</h1><p>${translations[language].pageSubtitle}</p></div><div class="sales-head-actions"><label class="sales-month-picker"><span>${monthCopy.picker}</span><input id="sales-month" type="month" value="${selectedSalesMonth}" max="${currentBusinessMonth()}" ${salesMonthLoading ? 'disabled' : ''}></label><div class="data-note"><span>${translations[language].displayData} · ${salesSourceLabel()}</span><strong>${labels.snapshot}</strong><small class="dashboard-fetch-timestamp" id="dashboard-fetch-timestamp">${latestFetchText()}</small></div></div></header>
+        <section class="daily" aria-labelledby="daily-title"><div class="section-head"><div><h2 id="daily-title">${salesPeriodTitle(translations[language].dailySalesTitle,monthCopy.lastDay)}</h2><p>Cash Sales / RM</p></div><div class="group-total"><small>${translations[language].groupTotal}</small>${formatRM(todayTotal)}</div></div><div class="daily-row">${dailyCards}</div></section>
+        <section class="month-row" aria-labelledby="month-title"><div class="month-label"><h2 id="month-title">${salesPeriodTitle(translations[language].monthlyProgress,monthCopy.progress)}</h2><p>${translations[language].monthlyCaption}</p></div>${monthCards}</section>
+        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${formatRM(monthTargetTotal, true)}</span><span><small>${labels.progressRate}</small>${(monthProgress * 100).toFixed(1)}%</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
         <section class="chart-panel" aria-labelledby="documents-chart-title"><div class="section-head"><div><h2 id="documents-chart-title">${translations[language].documentsChartTitle}</h2><p>${translations[language].documentsChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.documentTotal}</small>${documentTotal} ${labels.documents}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('documents')}</section>`;
       title = document.getElementById('page-title');
+      document.getElementById('sales-month')?.addEventListener('change',(event) => loadSalesMonth(event.target.value));
       bindChartExpansion();
     }
-    function formatInventoryMoney(value) {
-      return `RM ${Number(value).toLocaleString('en-MY', { minimumFractionDigits:2, maximumFractionDigits:2 })}`;
-    }
-    function formatInventoryCompactMoney(value) {
-      const amount = Number(value) || 0;
-      if (amount >= 1000000) return `RM ${(amount / 1000000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}M`;
-      if (amount >= 1000) return `RM ${(amount / 1000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}K`;
-      return formatInventoryMoney(amount);
-    }
-    function inventoryStoreValue(value,storeOrIndex) {
-      const index = typeof storeOrIndex === 'number' ? storeOrIndex : inventoryStores.findIndex(([code]) => code === storeOrIndex);
-      const store = typeof storeOrIndex === 'string' ? storeOrIndex : inventoryStores[index]?.[0];
-      if (Array.isArray(value)) return value[index] ?? value[0] ?? 0;
-      if (value && typeof value === 'object') return value[store] ?? value.default ?? Object.values(value)[0] ?? 0;
-      return value;
-    }
-    function inventoryAllocation(total) {
-      const weights = [0.22,0.18,0.24,0.15];
-      const values = weights.map((weight) => Math.floor(total * weight));
-      values.push(total - values.reduce((sum,value) => sum + value,0));
-      return values;
-    }
-    function inventoryFormat(template,values = {}) {
-      return Object.entries(values).reduce((text,[key,value]) => text.replaceAll(`{${key}}`,value),template);
-    }
-    function inventoryGroupName(key) {
-      return inventoryGroupNames[language]?.[key] || inventoryGroups[key]?.name || key;
-    }
-    function inventoryDisplaySpec(value) {
-      return String(value || '').split('·').map((part) => part.trim()).filter((part) => part && !/^[+-]?\d+(?:[.,]\d+)?$/.test(part)).join(' · ');
-    }
-    function renderInventoryStoreOptions() {
-      inventoryStoreOptions.innerHTML = inventoryStores.map(([code,company]) => `<option value="${escapeHtml(code)}">${escapeHtml(`${code} — ${company}`)}</option>`).join('');
-    }
-    function matchingInventoryStores(query) {
-      const normalized = query.trim().toLocaleLowerCase();
-      if (!normalized) return inventoryStores;
-      return inventoryStores.filter(([code,company]) => `${code} ${company}`.toLocaleLowerCase().includes(normalized));
-    }
-    function inventoryGroupIconKey(key,name) {
-      const normalized = `${key} ${name}`.toLowerCase();
-      const aliases = [
-        [/passenger|passanger|tayar/, 'passanger-tire'], [/4x4|four wheel/, '4x4'], [/light truck/, 'light-truck'], [/sport rim/, 'sport-rim'],
-        [/oil filter/, 'oil-filter'], [/engine oil|\boil\b/, 'oil'], [/adjust.*absorber|adj absorber/, 'adj-absorber'], [/absorber|shock/, 'absorber'],
-        [/spring/, 'spring'], [/brake caliper/, 'brake-caliper'], [/brake pad/, 'brake-pad'], [/brake pump|master cylinder/, 'brake-pump'],
-        [/battery/, 'battery'], [/repair.*rim|rim repair/, 'repair-rim'], [/used.*rim/, 'used-sport-rim'], [/used.*tire|used.*tayar/, 'used-tayar'],
-        [/service/, 'service'], [/non.?stock/, 'non-stock-item'], [/tool|stationery/, 'tool-stationery'], [/part/, 'parts']
-      ];
-      return aliases.find(([pattern]) => pattern.test(normalized))?.[1] || 'miscellaneous';
-    }
-    function inventoryMetaText() {
-      const copy = inventoryCopy[language];
-      if (inventoryLive && inventoryDataUpdatedAt) {
-        const time = new Intl.DateTimeFormat(localeByLanguage[language],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(inventoryDataUpdatedAt);
-        return inventoryFormat(copy.liveMeta,{ stores:inventoryStores.length, time });
-      }
-      if (!inventoryCheckedAt) return copy.meta;
-      const time = new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt);
-      return inventoryFormat(copy.checked,{ time });
-    }
-    function renderInventorySyncTiming() {
-      if (!inventorySyncOverlay || inventorySyncOverlay.hidden) return;
-      const copy = inventorySyncCopy[language];
-      if (['completed','cancelled','failed'].includes(inventorySyncStage)) {
-        inventorySyncEta.textContent = inventorySyncStage === 'completed' ? new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date()) : '--:--';
-        inventorySyncRemaining.textContent = inventorySyncStage === 'completed' ? '00:00' : '--:--';
-        return;
-      }
-      const remainingSeconds = Math.max(0, Math.ceil((inventorySyncEstimatedEnd - Date.now()) / 1000));
-      inventorySyncEta.textContent = inventorySyncEstimatedEnd
-        ? new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit',second:'2-digit'}).format(new Date(inventorySyncEstimatedEnd))
-        : '--:--';
-      inventorySyncRemaining.textContent = remainingSeconds > 0
-        ? `${String(Math.floor(remainingSeconds / 60)).padStart(2,'0')}:${String(remainingSeconds % 60).padStart(2,'0')}`
-        : copy.soon;
-    }
-    function renderInventorySyncOverlay() {
-      if (!inventorySyncOverlay) return;
-      const copy = inventorySyncCopy[language];
-      inventorySyncDialog.dataset.stage = inventorySyncStage;
-      inventorySyncDialogTitle.textContent = copy.title;
-      inventorySyncCurrent.textContent = copy.current[inventorySyncStage] || copy.current.queued;
-      inventorySyncEtaLabel.textContent = copy.eta;
-      inventorySyncRemainingLabel.textContent = copy.remaining;
-      inventorySyncCancelNote.textContent = copy.note;
-      inventorySyncCancel.textContent = inventorySyncCancelRequested ? copy.cancelling : copy.cancel;
-      inventorySyncCancel.disabled = inventorySyncCancelRequested || ['completed','cancelled','failed'].includes(inventorySyncStage);
-      const progressStage = ['cancelling','cancelled','failed'].includes(inventorySyncStage) ? inventorySyncLastActiveStage : inventorySyncStage;
-      const progressIndex = inventorySyncStageOrder.indexOf(progressStage);
-      inventorySyncSteps.innerHTML = inventorySyncStageOrder.map((stage,index) => {
-        const isDone = inventorySyncStage === 'completed' || index < progressIndex;
-        const isActive = inventorySyncStage !== 'completed' && index === progressIndex;
-        return `<li class="${isDone ? 'done' : isActive ? 'active' : ''}">${escapeHtml(copy.stages[stage])}</li>`;
-      }).join('');
-      renderInventorySyncTiming();
-    }
-    function setInventorySyncStage(stage, { resetEstimate = false } = {}) {
-      const nextStage = inventorySyncStageOrder.includes(stage) || ['cancelling','completed','cancelled','failed'].includes(stage) ? stage : 'queued';
-      if (inventorySyncStage !== nextStage || resetEstimate || !inventorySyncEstimatedEnd) {
-        inventorySyncStage = nextStage;
-        if (inventorySyncStageOrder.includes(nextStage)) inventorySyncLastActiveStage = nextStage;
-        const estimateSeconds = inventorySyncStageEstimateSeconds[nextStage];
-        inventorySyncEstimatedEnd = estimateSeconds ? Date.now() + estimateSeconds * 1000 : 0;
-      }
-      renderInventorySyncOverlay();
-    }
-    function setInventorySyncLocked(locked) {
-      inventorySyncOverlay.hidden = !locked;
-      document.body.classList.toggle('inventory-sync-locked',locked);
-      const app = document.querySelector('.app');
-      if (app) app.inert = locked;
-      if (inventorySyncCountdownTimer) window.clearInterval(inventorySyncCountdownTimer);
-      inventorySyncCountdownTimer = locked ? window.setInterval(renderInventorySyncTiming,1000) : null;
-      if (locked) window.setTimeout(() => inventorySyncCancel.focus(),0);
-      else inventorySync.focus();
-      renderInventorySyncOverlay();
-    }
-    function renderInventoryStaticCopy() {
-      const copy = inventoryCopy[language];
-      document.getElementById('inventory-page-title').textContent = copy.title;
-      document.getElementById('inventory-page-subtitle').textContent = copy.subtitle;
-      inventorySyncLabel.textContent = githubPagesMode ? copy.syncPrivate : copy[inventorySyncState];
-      inventorySync.classList.toggle('readonly',githubPagesMode);
-      if (githubPagesMode) {
-        inventorySync.disabled = true;
-        inventorySync.setAttribute('aria-disabled','true');
-        inventorySync.title = copy.syncPrivate;
-      }
-      document.getElementById('inventory-groups-title').textContent = copy.groups;
-      document.getElementById('inventory-home-meta').textContent = inventoryMetaText();
-      document.getElementById('inventory-detail-meta').textContent = inventoryMetaText();
-      document.getElementById('inventory-demo-note').textContent = inventoryLive ? copy.liveNote : copy.demoNote;
-      inventoryBack.textContent = copy.back;
-      document.getElementById('inventory-products-panel').setAttribute('aria-label',copy.productList);
-      document.getElementById('inventory-search-label').textContent = copy.search;
-      inventorySearch.placeholder = copy.placeholder;
-      document.getElementById('inventory-stock-range-label').textContent = copy.stockRange;
-      inventoryStockMin.placeholder = copy.stockMin;
-      inventoryStockMin.setAttribute('aria-label',`${copy.stockRange} ${copy.stockMin}`);
-      inventoryStockMax.placeholder = copy.stockMax;
-      inventoryStockMax.setAttribute('aria-label',`${copy.stockRange} ${copy.stockMax}`);
-      document.getElementById('inventory-store-filter-label').textContent = copy.storeFilter;
-      inventoryStoreFilter.placeholder = copy.storePlaceholder;
-      renderInventoryStoreOptions();
-      inventoryGroupGrid.setAttribute('aria-label',copy.groups);
-      inventoryCardList.setAttribute('aria-label',copy.mobileList);
-      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
-      renderInventorySyncOverlay();
-    }
-    function renderInventoryGroups() {
-      const copy = inventoryCopy[language];
-      inventoryGroupGrid.innerHTML = inventoryGroupDefinitions.map(([key, name,, points]) => {
-        const quantity = Math.max(0,Number(points) || 0).toLocaleString(localeByLanguage[language]);
-        const quantityLabel = inventoryFormat(copy.totalStock,{ points:quantity });
-        return `<button class="inventory-group-button" type="button" data-inventory-group="${key}" aria-label="${escapeHtml(`${name} · ${quantityLabel}`)}"><span class="inventory-group-icon"><img src="assets/group-icons/${inventoryGroupIconKey(key,name)}.webp" alt=""><span class="inventory-group-quantity" title="${escapeHtml(quantityLabel)}">${escapeHtml(quantity)}</span></span><strong>${escapeHtml(name)}</strong><small>${escapeHtml(copy.showProducts)}</small></button>`;
-      }).join('');
-      inventoryGroupGrid.querySelectorAll('[data-inventory-group]').forEach((button) => button.addEventListener('click', () => showInventoryDetail(button.dataset.inventoryGroup)));
-    }
-    function renderInventoryProducts() {
-      if (!activeInventoryGroup) return;
-      const copy = inventoryCopy[language];
-      const group = inventoryGroups[activeInventoryGroup];
-      const query = inventorySearch.value.trim().toLocaleLowerCase();
-      const minimumText = inventoryStockMin.value.trim();
-      const maximumText = inventoryStockMax.value.trim();
-      const minimum = minimumText === '' ? -Infinity : Number(minimumText);
-      const maximum = maximumText === '' ? Infinity : Number(maximumText);
-      const storeQuery = inventoryStoreFilter.value.trim();
-      const selectedStores = matchingInventoryStores(storeQuery);
-      const hasStockRange = Boolean(minimumText || maximumText);
-      const hasFilters = Boolean(query || minimumText || maximumText || storeQuery);
-      const selectedStoreCodes = new Set((storeQuery ? selectedStores : inventoryStores).map(([store]) => store));
-      const legacyRowsForItem = (stock,cost,price,quantityByStore) => {
-        const fallback = inventoryAllocation(stock);
-        return inventoryStores.map(([store,company],index) => ({
-          store,
-          company,
-          location:'',
-          quantity:quantityByStore ? Number(quantityByStore[store]) || 0 : fallback[index],
-          cost:Number(inventoryStoreValue(cost,store)) || 0,
-          price:Number(inventoryStoreValue(price,store)) || 0,
-        }));
-      };
-      const rowsForItem = (stock,cost,price,quantityByStore,stockRows) => {
-        const rows = Array.isArray(stockRows) && stockRows.length ? stockRows : legacyRowsForItem(stock,cost,price,quantityByStore);
-        return rows.map((row) => ({
-          store:String(row.store || ''),
-          company:String(row.company || inventoryStores.find(([code]) => code === row.store)?.[1] || row.store || ''),
-          location:String(row.location || ''),
-          quantity:Number(row.quantity) || 0,
-          cost:Number(row.cost) || 0,
-          price:Number(row.price) || 0,
-        })).filter((row) => selectedStoreCodes.has(row.store) && (!hasStockRange || (row.quantity >= minimum && row.quantity <= maximum)));
-      };
-      const matches = group.items.filter(([brand,code,name,spec,stock,cost,price,quantityByStore,stockRows]) => {
-        const displaySpec = inventoryDisplaySpec(spec);
-        const locations = Array.isArray(stockRows) ? stockRows.map((row) => row.location || '').join(' ') : '';
-        const keywordMatches = `${brand} ${code} ${name} ${displaySpec} ${locations}`.toLocaleLowerCase().includes(query);
-        if (!keywordMatches || (storeQuery && !selectedStores.length)) return false;
-        return rowsForItem(stock,cost,price,quantityByStore,stockRows).length > 0;
-      });
-      document.getElementById('inventory-detail-title').textContent = group.name;
-      document.getElementById('inventory-detail-subtitle').textContent = inventoryFormat(copy.byBrand,{ sku:group.sku.toLocaleString(localeByLanguage[language]) });
-      document.getElementById('inventory-detail-summary').innerHTML = `<span>${escapeHtml(inventoryFormat(copy.totalStock,{ points:group.points.toLocaleString(localeByLanguage[language]) }))}</span><span>${escapeHtml(inventoryFormat(copy.stockValue,{ value:group.value }))}</span>`;
-      inventoryFilterCount.textContent = inventoryFormat(hasFilters ? copy.matches : copy.showing,{ count:matches.length.toLocaleString(localeByLanguage[language]) });
-      if (!matches.length) {
-        inventoryProductList.innerHTML = `<tr class="inventory-empty"><td colspan="6">${escapeHtml(copy.empty)}</td></tr>`;
-        inventoryCardList.innerHTML = `<div class="inventory-card-empty">${escapeHtml(copy.empty)}</div>`;
-        return;
-      }
-      const grouped = Object.groupBy ? Object.groupBy(matches,(item) => item[0]) : matches.reduce((result,item) => ((result[item[0]] ||= []).push(item),result),{});
-      inventoryProductList.innerHTML = Object.entries(grouped).map(([brand,items]) => `<tr class="inventory-brand-row"><td colspan="6">${escapeHtml(brand || '—')}<span>${escapeHtml(inventoryFormat(copy.productCount,{ count:items.length.toLocaleString(localeByLanguage[language]) }))}</span></td></tr>${items.map(([,code,name,spec,stock,cost,price,quantityByStore,stockRows]) => {
-        const itemRows = rowsForItem(stock,cost,price,quantityByStore,stockRows);
-        const displaySpec = inventoryDisplaySpec(spec);
-        const specHtml = displaySpec ? `<span>${escapeHtml(displaySpec)}</span>` : '';
-        return itemRows.map((row,index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemRows.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemRows.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${row.quantity < 3 ? ' low' : ''}">${row.quantity}</span></td><td class="inventory-money">${formatInventoryMoney(row.cost)}</td><td class="inventory-money">${formatInventoryMoney(row.price)}</td></tr>`).join('');
-      }).join('')}`).join('');
-      inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore,stockRows]) => {
-        const stores = rowsForItem(stock,cost,price,quantityByStore,stockRows).map((row) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${row.quantity < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${row.quantity}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(row.cost)}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(row.price)}</strong></div></div></div>`).join('');
-        const displaySpec = inventoryDisplaySpec(spec);
-        return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3>${displaySpec ? `<p class="inventory-card-spec">${escapeHtml(displaySpec)}</p>` : ''}</div><div class="inventory-card-stock">${stores}</div></article>`;
-      })).join('');
-    }
-    function resetInventoryFilters() {
-      inventorySearch.value = '';
-      inventoryStockMin.value = '';
-      inventoryStockMax.value = '';
-      inventoryStoreFilter.value = '';
-    }
-    function showInventoryHome() {
-      activeInventoryGroup = null;
-      resetInventoryFilters();
-      inventoryHome.hidden = false;
-      inventoryDetail.hidden = true;
-      window.scrollTo({ top:0, behavior:'smooth' });
-    }
-    function showInventoryDetail(key) {
-      activeInventoryGroup = key;
-      resetInventoryFilters();
-      inventoryHome.hidden = true;
-      inventoryDetail.hidden = false;
-      renderInventoryProducts();
-      window.scrollTo({ top:0, behavior:'smooth' });
-    }
+    function targetStorageKey() { return `gemok-monthly-targets-${targetMonth.value}`; }
     function formatTargetAmount(value) {
       if (value >= 1000000) return `${(value / 1000000).toLocaleString(localeByLanguage[language], { maximumFractionDigits: 2 })}M`;
       return new Intl.NumberFormat(localeByLanguage[language]).format(value);
@@ -1127,43 +592,35 @@
       targetTotalValue.textContent = `RM ${formatTargetAmount(total)}`;
     }
     async function loadTargetValues() {
-      const sequence=++targetLoadSequence, month=targetMonth.value;
-      targetLoadedMonth=null;
-      const button=targetForm.querySelector('[type="submit"]');
-      button.disabled=true;
-      targetSaved.textContent=sharedCopy[language].loading;
-      try {
-        let result;
-        if(settingsEditable) result=await requestSharedSettings('targets.get',{month});
-        else {
-          const snapshot=await fetchPublishedDashboardSnapshot();
-          cacheSharedTargets(snapshot.monthlyTargets);
-          result=sharedTargetMonths.get(month);
-          if(!result) throw new Error('No published targets for selected month');
-        }
-        if(sequence!==targetLoadSequence || month!==targetMonth.value) return;
-        cacheSharedTargets(result);
-        targetLoadedMonth=month;
-        targetInputs.forEach(input=>{input.value=result.targets[input.dataset.store];});
-        const copy=sharedCopy[language];
-        targetSaved.textContent=result.sourceMonth===month?copy.own.replace('{month}',month):result.sourceMonth?copy.prior.replace('{month}',month).replace('{source}',result.sourceMonth):copy.defaults;
-        updateTargetTotal();renderSalesDashboard();
-        button.disabled=false;
-      } catch {
-        if(sequence===targetLoadSequence) targetSaved.textContent=sharedCopy[language].failed;
+      let saved = null;
+      try { saved = JSON.parse(localStorage.getItem(targetStorageKey())); } catch (error) { saved = null; }
+      if (activeMonthlyTargets?.month === targetMonth.value) saved = activeMonthlyTargets.targets;
+      if (localSettingsMode) {
+        try {
+          const response = await fetch(`${collectorUrl}/targets?month=${encodeURIComponent(targetMonth.value)}`, { cache:'no-store' });
+          if (response.ok) {
+            const payload = await response.json();
+            if (payload?.targets) {
+              saved = payload.targets;
+              localStorage.setItem(targetStorageKey(),JSON.stringify(saved));
+              if (targetMonth.value === dashboardDataMeta.month) activeMonthlyTargets = payload;
+            }
+          }
+        } catch { /* Retain the locally saved targets when Pleasanter is unavailable. */ }
       }
+      targetInputs.forEach((input) => { input.value = saved && Number.isFinite(Number(saved[input.dataset.store])) ? saved[input.dataset.store] : targetDefaults[input.dataset.store]; });
+      targetSaved.textContent = '';
+      updateTargetTotal();
     }
     function renderActivePage() {
       const showingSales = activeKey === 'salesProgress';
-      const showingInventory = activeKey === 'inventory';
       const showingTargets = activeKey === 'targets';
       const showingSystem = activeKey === 'system';
       salesDashboard.hidden = !showingSales;
-      inventoryDashboard.hidden = !showingInventory;
       targetDashboard.hidden = !showingTargets;
       systemDashboard.hidden = !showingSystem;
-      construction.hidden = showingSales || showingInventory || showingTargets || showingSystem;
-      if (!construction.hidden) constructionTitle.textContent = translations[language][activeKey];
+      construction.hidden = showingSales || showingTargets || showingSystem;
+      constructionTitle.textContent = translations[language][activeKey];
       notice.classList.remove('show');
       notice.textContent = '';
     }
@@ -1172,15 +629,13 @@
       const copy = systemCopy[language];
       document.querySelector('[data-name-key="system"] span:last-child').textContent = copy.menu;
       document.getElementById('system-title').textContent = copy.title;
-      document.getElementById('system-subtitle').textContent = settingsEditable ? copy.subtitle : copy.publicSubtitle;
-      document.getElementById('interval-label').textContent = copy.salesInterval;
-      document.getElementById('inventory-interval-label').textContent = copy.inventoryInterval;
-      document.getElementById('system-note').textContent = settingsEditable ? sharedCopy[language].systemNote : sharedCopy[language].publicNote;
+      document.getElementById('system-subtitle').textContent = localSettingsMode ? copy.subtitle : copy.publicSubtitle;
+      document.getElementById('interval-label').textContent = copy.interval;
+      document.getElementById('system-note').textContent = localSettingsMode ? copy.note : copy.publicNote;
       const saveButton = document.getElementById('system-save');
-      saveButton.textContent = sharedCopy[language].saveSystem;
-      saveButton.hidden = !settingsEditable;
-      intervalSeconds.readOnly = !settingsEditable;
-      inventoryIntervalSeconds.readOnly = !settingsEditable;
+      saveButton.textContent = copy.save;
+      saveButton.hidden = !localSettingsMode;
+      intervalSeconds.readOnly = !localSettingsMode;
     }
     function latestFetchText() {
       if (!latestSuccessfulAt) return '';
@@ -1208,7 +663,7 @@
       }
       if (nextTime > previousTime) {
         sessionStorage.setItem(autoReloadTimestampKey, timestamp);
-        if (reloadOnChange && activeKey === 'salesProgress') {
+        if (reloadOnChange && activeKey === 'salesProgress' && selectedSalesMonth === currentBusinessMonth()) {
           window.location.reload();
           return true;
         }
@@ -1224,19 +679,9 @@
     function mergeCollectorDashboardData(payload) {
       if (!payload?.month || !/^\d{4}-\d{2}$/.test(payload.month) || !/^\d{4}-\d{2}-\d{2}$/.test(payload.latestDate || '')) return false;
       const expectedDays = Number(payload.latestDate.slice(-2));
-      const switchingMonth = payload.month !== dashboardDataMeta.month;
-      if (switchingMonth) {
-        actualCodes.forEach((code) => {
-          cashSalesActuals[code].sales = Array(expectedDays).fill(0);
-          cashSalesActuals[code].documents = Array(expectedDays).fill(0);
-        });
-      } else {
-        actualCodes.forEach((code) => {
-          while (cashSalesActuals[code].sales.length < expectedDays) cashSalesActuals[code].sales.push(0);
-          while (cashSalesActuals[code].documents.length < expectedDays) cashSalesActuals[code].documents.push(0);
-        });
-      }
       actualCodes.forEach((code) => {
+        cashSalesActuals[code].sales = Array(expectedDays).fill(null);
+        cashSalesActuals[code].documents = Array(expectedDays).fill(null);
         const source = payload.stores?.[code];
         if (!source) return;
         if (source.company) cashSalesActuals[code].company = source.company;
@@ -1247,15 +692,17 @@
           if (documents !== null && documents !== undefined && Number.isFinite(Number(documents))) cashSalesActuals[code].documents[index] = Number(documents);
         }
       });
-      cacheSharedTargets(payload.monthlyTargets);
       dashboardDataMeta = { month: payload.month, latestDate: payload.latestDate };
-      if(switchingMonth && settingsEditable) void loadSalesTargets();
+      selectedSalesMonth = payload.month;
+      salesDataSource = payload.source || 'published-cache';
+      availableSalesMonths = Array.isArray(payload.availableMonths) ? payload.availableMonths : [payload.month];
+      activeMonthlyTargets = payload.monthlyTargets?.targets ? payload.monthlyTargets : null;
       latestSuccessfulAt = payload.lastSuccessfulAt || latestSuccessfulAt || excelSnapshotFetchedAt;
       return true;
     }
     async function loadCollectorDashboardData() {
       try {
-        const response = await fetch(`${collectorUrl}/dashboard-data`);
+        const response = await fetch(`${collectorUrl}/dashboard-data?month=${encodeURIComponent(selectedSalesMonth)}`);
         if (!response.ok) throw new Error();
         const payload = await response.json();
         if (mergeCollectorDashboardData(payload)) {
@@ -1264,152 +711,46 @@
         }
       } catch { /* Keep the packaged Excel snapshot when this PC's service is unavailable. */ }
     }
-    function mergeInventoryData(payload) {
-      if (!payload || !Array.isArray(payload.groups) || !Array.isArray(payload.items) || !payload.groups.length || !payload.items.length) return false;
-      const stores = Array.isArray(payload.stores) ? payload.stores.filter((store) => store?.code) : [];
-      if (stores.length) inventoryStores.splice(0, inventoryStores.length, ...stores.map((store) => [String(store.code), String(store.company || store.code)]));
-      const itemsByGroup = new Map(payload.groups.map((group) => [String(group.key), []]));
-      payload.items.forEach((item) => {
-        const groupKey = String(item.groupKey || 'ungrouped');
-        if (!itemsByGroup.has(groupKey)) itemsByGroup.set(groupKey, []);
-        const sourceStores = item.stores && typeof item.stores === 'object' ? item.stores : {};
-        const stockRows = Array.isArray(item.stockRows) ? item.stockRows.map((row) => ({
-          rowKey:String(row?.rowKey || ''),
-          store:String(row?.store || ''),
-          company:String(row?.company || inventoryStores.find(([code]) => code === String(row?.store || ''))?.[1] || row?.store || ''),
-          location:String(row?.location || ''),
-          quantity:Number(row?.quantity) || 0,
-          cost:Number(row?.cost) || 0,
-          price:Number(row?.price) || 0,
-        })).filter((row) => row.store) : [];
-        const quantities = Object.fromEntries(inventoryStores.map(([store]) => [store, stockRows.length ? stockRows.filter((row) => row.store === store).reduce((sum,row) => sum + row.quantity,0) : Number(sourceStores[store]?.quantity) || 0]));
-        const costs = Object.fromEntries(inventoryStores.map(([store]) => [store, stockRows.find((row) => row.store === store)?.cost ?? (Number(sourceStores[store]?.cost) || 0)]));
-        const prices = Object.fromEntries(inventoryStores.map(([store]) => [store, stockRows.find((row) => row.store === store)?.price ?? (Number(sourceStores[store]?.price) || 0)]));
-        const total = Object.values(quantities).reduce((sum,value) => sum + value,0);
-        itemsByGroup.get(groupKey).push([String(item.brand || ''),String(item.code || ''),String(item.name || item.code || ''),String(item.spec || ''),total,costs,prices,quantities,stockRows]);
-      });
-      inventoryGroupDefinitions = sortInventoryGroupDefinitions(payload.groups.map((group) => [
-        String(group.key),
-        String(group.name || group.key),
-        Number(group.sku) || itemsByGroup.get(String(group.key))?.length || 0,
-        Number(group.quantity) || 0,
-        formatInventoryCompactMoney(group.stockValue),
-      ]));
-      inventoryGroups = Object.fromEntries(inventoryGroupDefinitions.map(([key,name,sku,points,value]) => [key,{ key,name,sku,points,value,items:itemsByGroup.get(key) || [] }]));
-      inventoryLive = true;
-      inventoryDataUpdatedAt = payload.updatedAt ? new Date(payload.updatedAt) : new Date();
-      inventoryCheckedAt = inventoryDataUpdatedAt;
-      if (activeInventoryGroup && !inventoryGroups[activeInventoryGroup]) showInventoryHome();
-      renderInventoryStaticCopy();
-      renderInventoryGroups();
-      if (activeInventoryGroup) renderInventoryProducts();
-      return true;
-    }
-    async function loadCollectorInventoryData() {
-      if (!localSettingsMode) return false;
+    async function loadSalesMonth(month) {
+      if (!/^\d{4}-(0[1-9]|1[0-2])$/.test(month) || month === dashboardDataMeta.month) return;
+      const previousMonth = dashboardDataMeta.month;
+      selectedSalesMonth = month;
+      salesMonthLoading = true;
+      notice.textContent = salesMonthCopy[language].loading.replace('{month}',month);
+      notice.classList.add('show');
+      renderSalesDashboard();
       try {
-        const response = await fetch(`${collectorUrl}/inventory-data`, { cache:'no-store' });
-        if (!response.ok) throw new Error();
-        return mergeInventoryData(await response.json());
-      } catch { return false; }
-    }
-    async function fetchPublishedInventorySnapshot() {
-      const sources = [`inventory-data.json?v=${Date.now()}`,`${githubInventoryDataUrl}?v=${Date.now()}`];
-      const results = await Promise.allSettled(sources.map(async (source) => {
-        const response = await fetch(source,{ cache:'no-store' });
-        if (!response.ok) throw new Error(`Inventory data request failed: ${response.status}`);
-        return await response.json();
-      }));
-      const snapshots = results.filter((result) => result.status === 'fulfilled').map((result) => result.value).filter((payload) => Array.isArray(payload?.groups) && payload.groups.length && Array.isArray(payload?.items) && payload.items.length);
-      if (!snapshots.length) throw new Error('Inventory data is unavailable');
-      return snapshots.reduce((latest,candidate) => (Date.parse(candidate.updatedAt || '') || 0) > (Date.parse(latest.updatedAt || '') || 0) ? candidate : latest);
-    }
-    async function loadPublishedInventoryData() {
-      try { return mergeInventoryData(await fetchPublishedInventorySnapshot()); }
-      catch { return false; }
-    }
-    const wait = (milliseconds) => new Promise((resolve) => window.setTimeout(resolve, milliseconds));
-    const timestamp = (value) => Date.parse(value || '') || 0;
-    async function reloadPublishedInventory(expectedUpdatedAt = null) {
-      const expected = timestamp(expectedUpdatedAt);
-      for (let attempt = 0; attempt < 30; attempt += 1) {
-        try {
-          const payload = await fetchPublishedInventorySnapshot();
-          if (!expected || timestamp(payload.updatedAt) >= expected) return mergeInventoryData(payload);
-        } catch { /* The publisher can take a few seconds to expose the new snapshot. */ }
-        await wait(2000);
-      }
-      return false;
-    }
-    async function runHostedInventorySync() {
-      const response = await fetch('/api/inventory-sync', { method:'POST', cache:'no-store' });
-      if (!response.ok) throw new Error('request-failed');
-      const request = await response.json();
-      if (!request.id) throw new Error('request-failed');
-      inventorySyncRequestId = request.id;
-      if (inventorySyncCancelRequested) await requestHostedInventoryCancel();
-      for (let attempt = 0; attempt < 240; attempt += 1) {
-        const statusResponse = await fetch(`/api/inventory-sync/status?id=${encodeURIComponent(request.id)}&v=${Date.now()}`, { cache:'no-store' });
-        if (!statusResponse.ok) throw new Error('status-failed');
-        const status = await statusResponse.json();
-        inventorySyncState = status.status === 'pending' ? 'syncWaiting' : 'syncing';
-        setInventorySyncStage(status.status === 'cancel-requested' ? 'cancelling' : (status.stage || (status.status === 'pending' ? 'queued' : 'webmax')));
-        renderInventoryStaticCopy();
-        if (status.status === 'completed') {
-          setInventorySyncStage('reloading');
-          return reloadPublishedInventory(status.sourceUpdatedAt);
+        let payload;
+        if (localSettingsMode) {
+          const response = await fetch(`${collectorUrl}/dashboard-data?month=${encodeURIComponent(month)}`, { cache:'no-store' });
+          if (!response.ok) throw new Error('month-unavailable');
+          payload = await response.json();
+        } else {
+          payload = await fetchPublishedDashboardSnapshot(month);
         }
-        if (status.status === 'cancelled') throw new Error('sync-cancelled');
-        if (status.status === 'failed') throw new Error(status.error || 'sync-failed');
-        await wait(5000);
+        if (!mergeCollectorDashboardData(payload)) throw new Error('month-unavailable');
+        notice.classList.remove('show');
+        notice.textContent = '';
+      } catch {
+        selectedSalesMonth = previousMonth;
+        notice.textContent = salesMonthCopy[language].unavailable.replace('{month}',month);
+        notice.classList.add('show');
+      } finally {
+        salesMonthLoading = false;
+        renderSalesDashboard();
+        renderLatestFetch();
       }
-      throw new Error('sync-timeout');
     }
-    async function runLocalInventorySync() {
-      let initialSuccessfulAt = '';
-      try {
-        const initialResponse = await fetch(`${collectorUrl}/status`, { cache:'no-store' });
-        if (initialResponse.ok) initialSuccessfulAt = (await initialResponse.json()).inventoryLastSuccessfulAt || '';
-      } catch { /* The POST below reports whether the local collector is available. */ }
-      const response = await fetch(`${collectorUrl}/inventory-sync`, { method:'POST' });
-      if (!response.ok) throw new Error('request-failed');
-      for (let attempt = 0; attempt < 240; attempt += 1) {
-        const statusResponse = await fetch(`${collectorUrl}/status?v=${Date.now()}`, { cache:'no-store' });
-        if (!statusResponse.ok) throw new Error('status-failed');
-        const status = await statusResponse.json();
-        inventorySyncState = status.inventorySyncing ? 'syncing' : 'syncWaiting';
-        setInventorySyncStage(status.inventoryStage || (status.inventorySyncing ? 'webmax' : 'queued'));
-        renderInventoryStaticCopy();
-        if (!status.inventorySyncing && status.inventoryStage === 'cancelled') throw new Error('sync-cancelled');
-        if (status.inventoryError) throw new Error(status.inventoryError);
-        if (!status.inventorySyncing && timestamp(status.inventoryLastSuccessfulAt) > timestamp(initialSuccessfulAt)) {
-          setInventorySyncStage('reloading');
-          return (await loadCollectorInventoryData()) || (await reloadPublishedInventory(status.inventoryLastSuccessfulAt));
-        }
-        await wait(5000);
-      }
-      throw new Error('sync-timeout');
-    }
-    async function requestHostedInventoryCancel() {
-      if (!inventorySyncRequestId) return;
-      const response = await fetch('/api/inventory-sync/cancel', {
-        method:'POST',
-        headers:{ 'content-type':'application/json' },
-        body:JSON.stringify({ id:inventorySyncRequestId }),
-      });
-      if (!response.ok && response.status !== 409) throw new Error('cancel-failed');
-    }
-    async function fetchPublishedDashboardSnapshot() {
-      const sources = [
-        `dashboard-data.json?v=${Date.now()}`,
-        `${githubDashboardDataUrl}?v=${Date.now()}`,
-      ];
+    async function fetchPublishedDashboardSnapshot(month = null) {
+      const suffix = month ? `dashboard-data/${month}.json` : 'dashboard-data.json';
+      const githubSource = month ? githubDashboardDataUrl.replace(/dashboard-data\.json$/,suffix) : githubDashboardDataUrl;
+      const sources = [`${suffix}?v=${Date.now()}`,`${githubSource}?v=${Date.now()}`];
       const results = await Promise.allSettled(sources.map(async (source) => {
           const response = await fetch(source, { cache: 'no-store' });
           if (!response.ok) throw new Error(`Dashboard data request failed: ${response.status}`);
           return await response.json();
       }));
-      const snapshots = results.filter((result) => result.status === 'fulfilled').map((result) => result.value);
+      const snapshots = results.filter((result) => result.status === 'fulfilled').map((result) => result.value).filter((payload) => !month || payload?.month === month);
       if (!snapshots.length) throw new Error('Dashboard data is unavailable');
       const snapshotTime = (payload) => Date.parse(payload?.lastSuccessfulAt || '') || Date.parse(`${payload?.latestDate || ''}T00:00:00Z`) || 0;
       return snapshots.reduce((latest, candidate) => snapshotTime(candidate) > snapshotTime(latest) ? candidate : latest);
@@ -1426,10 +767,10 @@
     async function reloadWhenPublishedDataChanges() {
       try {
         const payload = await fetchPublishedDashboardSnapshot();
-        reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
+        if (selectedSalesMonth === currentBusinessMonth()) reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
       } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
     }
-    function renderSystemStores(settings = {}, readOnly = !settingsEditable) {
+    function renderSystemStores(settings = {}, readOnly = !localSettingsMode) {
       const copy = systemCopy[language];
       systemGrid.innerHTML = Object.entries(systemStores).map(([code, name]) => {
         const store = settings.stores?.[code] || {};
@@ -1439,18 +780,14 @@
       }).join('');
     }
     async function loadSystemSettings() {
-      systemLoaded=false;
-      const button=document.getElementById('system-save');
-      button.disabled=true;systemStatus.textContent=sharedCopy[language].loading;
-      try {
-        const settings=settingsEditable?await requestSharedSettings('system.get'):(await fetchPublishedDashboardSnapshot()).systemSettings;
-        if(!settings) throw new Error('Settings unavailable');
-        intervalSeconds.value=settings.intervalSeconds;inventoryIntervalSeconds.value=settings.inventoryIntervalSeconds;
-        renderSystemStores(settings,!settingsEditable);
-        systemLoaded=true;
-        systemStatus.textContent=settingsEditable?sharedCopy[language].note:sharedCopy[language].publicNote;
-        systemStatus.className='system-status ok';button.disabled=false;
-      } catch {systemStatus.textContent=sharedCopy[language].failed;systemStatus.className='system-status';}
+      const copy = systemCopy[language]; systemStatus.textContent = localSettingsMode ? copy.checking : copy.publicChecking;
+      if (!localSettingsMode) {
+        try { const payload = await fetchPublishedDashboardSnapshot(); if (!payload.systemSettings) throw new Error(); intervalSeconds.value = payload.systemSettings.intervalSeconds || 300; renderSystemStores(payload.systemSettings, true); systemStatus.textContent = copy.published; systemStatus.className = 'system-status ok'; }
+        catch { intervalSeconds.value = 300; renderSystemStores({}, true); systemStatus.textContent = copy.publicUnavailable; systemStatus.className = 'system-status'; }
+        return;
+      }
+      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; renderSystemStores(settings, false); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
+      catch { renderSystemStores({}, false); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
     }
     function setLanguage(nextLanguage) {
       language = nextLanguage;
@@ -1465,12 +802,8 @@
       languageButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
       localStorage.setItem('gemok-language', language);
       renderSystemStaticCopy();
-      renderSharedSettingsCopy();
       renderLatestFetch();
       renderSalesDashboard();
-      renderInventoryStaticCopy();
-      renderInventoryGroups();
-      if (activeInventoryGroup) renderInventoryProducts();
       renderActivePage();
       if (activeKey === 'system') loadSystemSettings();
     }
@@ -1480,123 +813,47 @@
         button.setAttribute('aria-current', 'page');
         activeKey = button.dataset.nameKey;
         if (activeKey === 'salesProgress') renderSalesDashboard();
-        else if (activeKey === 'inventory') showInventoryHome();
         else if (activeKey !== 'system') title.textContent = translations[language][activeKey];
         renderActivePage();
         if (activeKey === 'system') loadSystemSettings();
-        if (activeKey === 'targets') loadTargetValues();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
-    });
-    inventoryBack.addEventListener('click', showInventoryHome);
-    [inventorySearch,inventoryStockMin,inventoryStockMax,inventoryStoreFilter].forEach((input) => input.addEventListener('input',renderInventoryProducts));
-    inventorySyncCancel.addEventListener('click', async () => {
-      if (inventorySyncCancelRequested || ['completed','cancelled','failed'].includes(inventorySyncStage)) return;
-      inventorySyncCancelRequested = true;
-      setInventorySyncStage('cancelling',{ resetEstimate:true });
-      try {
-        if (localSettingsMode) {
-          const response = await fetch(`${collectorUrl}/inventory-sync-cancel`,{ method:'POST' });
-          if (!response.ok && response.status !== 409) throw new Error('cancel-failed');
-        } else {
-          await requestHostedInventoryCancel();
-        }
-      } catch {
-        inventorySyncCancelRequested = false;
-        setInventorySyncStage(inventorySyncLastActiveStage,{ resetEstimate:true });
-      }
-    });
-    inventorySync.addEventListener('click', async () => {
-      if (githubPagesMode) return;
-      inventorySync.disabled = true;
-      inventorySyncState = 'syncing';
-      inventorySyncRequestId = null;
-      inventorySyncCancelRequested = false;
-      setInventorySyncStage('queued',{ resetEstimate:true });
-      setInventorySyncLocked(true);
-      renderInventoryStaticCopy();
-      let loaded = false;
-      let terminalDelay = 2400;
-      try {
-        loaded = localSettingsMode ? await runLocalInventorySync() : await runHostedInventorySync();
-        if (!loaded) throw new Error('reload-failed');
-        inventorySyncState = loaded ? 'syncDone' : 'syncFailed';
-        setInventorySyncStage('completed');
-        terminalDelay = 1300;
-      } catch (error) {
-        if (error?.message === 'sync-cancelled') {
-          inventorySyncState = 'syncNow';
-          setInventorySyncStage('cancelled');
-          terminalDelay = 1700;
-        } else {
-          inventorySyncState = error?.message === 'sync-timeout' ? 'syncTimeout' : 'syncFailed';
-          setInventorySyncStage('failed');
-        }
-      }
-      if (loaded) inventoryCheckedAt = inventoryDataUpdatedAt || new Date();
-      renderInventoryStaticCopy();
-      await wait(terminalDelay);
-      setInventorySyncLocked(false);
-      inventorySync.disabled = false;
-      window.setTimeout(() => { inventorySyncState = 'syncNow'; renderInventoryStaticCopy(); }, 3000);
     });
     targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
     targetMonth.addEventListener('change', loadTargetValues);
     targetForm.addEventListener('submit', async (event) => {
-      event.preventDefault();if(!settingsEditable || targetBusy || targetLoadedMonth!==targetMonth.value) return;
-      const month=targetMonth.value;
-      const targets=Object.fromEntries(Array.from(targetInputs,input=>[input.dataset.store,Number(input.value)]));
-      if(Object.values(targets).some(value=>!Number.isFinite(value)||value<0)) return;
-      const button=targetForm.querySelector('[type="submit"]');
-      targetBusy=true;button.disabled=true;targetMonth.disabled=true;
-      targetInputs.forEach(input=>{input.disabled=true;});
-      targetSaved.textContent=sharedCopy[language].saving;
-      try {
-        const result=await requestSharedSettings('targets.set',{month,targets});
-        if(result.saved!==true) throw new Error('Unconfirmed save');
-        cacheSharedTargets(result);
-        targetSaved.textContent=sharedCopy[language].saved;
-        if(dashboardDataMeta.month!==month) await loadSalesTargets();
-        updateTargetTotal();renderSalesDashboard();
-      } catch {targetSaved.textContent=sharedCopy[language].failed;}
-      finally {targetBusy=false;button.disabled=false;targetMonth.disabled=false;targetInputs.forEach(input=>{input.disabled=false;});}
+      event.preventDefault();
+      const targets = Object.fromEntries(Array.from(targetInputs, (input) => [input.dataset.store, Math.max(0, Number(input.value) || 0)]));
+      localStorage.setItem(targetStorageKey(), JSON.stringify(targets));
+      if (localSettingsMode) {
+        try {
+          const response = await fetch(`${collectorUrl}/targets`, { method:'POST', headers:{ 'content-type':'application/json' }, body:JSON.stringify({ month:targetMonth.value,targets }) });
+          if (!response.ok) throw new Error('target-save-failed');
+          const payload = await response.json();
+          if (targetMonth.value === dashboardDataMeta.month) activeMonthlyTargets = payload;
+        } catch { /* Keep the browser copy so the operator can retry after the service recovers. */ }
+      } else if (targetMonth.value === dashboardDataMeta.month) {
+        activeMonthlyTargets = { month:targetMonth.value, sourceMonth:targetMonth.value, configured:true, targets };
+      }
+      targetSaved.textContent = translations[language].targetSaved.replace('{month}', targetMonth.value);
+      updateTargetTotal();
+      renderSalesDashboard();
     });
     systemForm.addEventListener('submit', async (event) => {
-      event.preventDefault();if(!settingsEditable || systemBusy || !systemLoaded) return;
-      const form=new FormData(systemForm);
-      const stores=Object.fromEntries(Object.keys(systemStores).map(code=>[code,{url:String(form.get(`${code}-url`) || ''),id:String(form.get(`${code}-id`) || '')}]));
-      const button=document.getElementById('system-save');systemBusy=true;button.disabled=true;
-      systemStatus.textContent=sharedCopy[language].saving;
-      try {
-        const result=await requestSharedSettings('system.set',{intervalSeconds:Number(intervalSeconds.value),inventoryIntervalSeconds:Number(inventoryIntervalSeconds.value),stores});
-        if(result.saved!==true) throw new Error('Unconfirmed save');
-        systemStatus.textContent=sharedCopy[language].saved;systemStatus.className='system-status ok';
-      } catch {systemStatus.textContent=sharedCopy[language].failed;systemStatus.className='system-status';}
-      finally {systemBusy=false;button.disabled=false;}
+      event.preventDefault(); if (!localSettingsMode) return; const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`) }]));
+      const copy = systemCopy[language]; systemStatus.textContent = copy.saving; systemStatus.className = 'system-status';
+      try { const response = await fetch(`${collectorUrl}/settings`, { method: 'POST', headers: { 'content-type': 'text/plain;charset=UTF-8' }, body: JSON.stringify({ intervalSeconds: Number(intervalSeconds.value), stores }) }); if (!response.ok) throw new Error(); await fetch(`${collectorUrl}/sync`, { method: 'POST' }); await loadSystemSettings(); systemStatus.textContent = copy.saved; systemStatus.className = 'system-status ok'; }
+      catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
     });
     languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
-    targetMonth.value = new URLSearchParams(location.search).get('month')?.match(/^\d{4}-(0[1-9]|1[0-2])$/)?.[0] || businessMonth();
-    [targetForm,systemForm].forEach((form,index)=>{
-      const link=document.createElement('a');link.className='shared-admin-link';
-      link.href=`https://gemok-group.ai-yewsengchew.chatgpt.site?settings=${index===0?'targets':'system'}&month=${encodeURIComponent(targetMonth.value)}`;
-      link.textContent=sharedCopy[language].admin;link.hidden=settingsEditable;form.append(link);
-    });
-    renderInventoryGroups();
     renderSalesDashboard();
     loadTargetValues();
-    void loadSalesTargets();
     setLanguage(language);
     loadPublishedDashboardData();
-    loadPublishedInventoryData();
     loadCollectorStatus();
     loadCollectorDashboardData();
-    loadCollectorInventoryData();
-    const requestedPage=new URLSearchParams(location.search).get('settings');
-    if(['targets','system'].includes(requestedPage)) document.querySelector(`[data-name-key="${requestedPage}"]`)?.click();
     setInterval(() => loadCollectorStatus(true), 30000);
     setInterval(loadCollectorDashboardData, 30000);
-    setInterval(loadCollectorInventoryData, 30000);
-    setInterval(loadPublishedInventoryData, 60000);
     setInterval(reloadWhenPublishedDataChanges, 30000);
   </script>
 </body>

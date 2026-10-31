@@ -3,6 +3,48 @@
   "latestDate": "2026-10-31",
   "lastSuccessfulAt": "2026-10-31T08:28:19.897Z",
   "updatedAt": "2026-10-31T08:28:17.216Z",
+  "source": "published-cache",
+  "availableMonths": [
+    "2026-10"
+  ],
+  "systemSettings": {
+    "intervalSeconds": 300,
+    "inventoryIntervalSeconds": 3600,
+    "stores": {
+      "SI": {
+        "url": "https://webmax.com.my/emaxchewtayar/",
+        "id": "admin"
+      },
+      "SR": {
+        "url": "https://webmaxtech.com.my/eMAXGEMOKTAYAR/Login",
+        "id": "admin"
+      },
+      "ST": {
+        "url": "https://webmaxtech.com.my/eMAXGEMOKTAYAR/Login",
+        "id": "admin"
+      },
+      "SK": {
+        "url": "https://webmax.asia/eMAXGTAYAR/",
+        "id": "admin"
+      },
+      "KM": {
+        "url": "",
+        "id": ""
+      }
+    }
+  },
+  "monthlyTargets": {
+    "month": "2026-10",
+    "sourceMonth": null,
+    "configured": false,
+    "targets": {
+      "SI": 550000,
+      "SR": 300000,
+      "ST": 300000,
+      "SK": 250000,
+      "KM": 250000
+    }
+  },
   "stores": {
     "SI": {
       "company": "Chew Tayar",
@@ -279,44 +321,6 @@
         19,
         19
       ]
-    }
-  },
-  "systemSettings": {
-    "intervalSeconds": 300,
-    "inventoryIntervalSeconds": 3600,
-    "stores": {
-      "SI": {
-        "url": "https://webmax.com.my/emaxchewtayar/",
-        "id": "admin"
-      },
-      "SR": {
-        "url": "https://webmaxtech.com.my/eMAXGEMOKTAYAR/Login",
-        "id": "admin"
-      },
-      "ST": {
-        "url": "https://webmaxtech.com.my/eMAXGEMOKTAYAR/Login",
-        "id": "admin"
-      },
-      "SK": {
-        "url": "https://webmax.asia/eMAXGTAYAR/",
-        "id": "admin"
-      },
-      "KM": {
-        "url": "",
-        "id": ""
-      }
-    }
-  },
-  "monthlyTargets": {
-    "month": "2026-10",
-    "sourceMonth": null,
-    "configured": false,
-    "targets": {
-      "SI": 550000,
-      "SR": 300000,
-      "ST": 300000,
-      "SK": 250000,
-      "KM": 250000
     }
   }
 }
