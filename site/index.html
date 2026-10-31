@@ -158,7 +158,7 @@
     .inventory-filter { display:block; padding:12px 16px; border-bottom:1px solid rgba(159,192,238,.1); background:#17253a; }
     .inventory-filter-controls { display:grid; grid-template-columns:minmax(240px,2fr) minmax(190px,1fr) minmax(180px,1fr); gap:10px; align-items:end; }
     .inventory-filter-control,.inventory-stock-range { min-width:0; margin:0; padding:0; border:0; }
-    .inventory-filter-control > span,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
+    .inventory-filter-control > span:first-child,.inventory-stock-range legend { display:block; margin:0 0 5px; padding:0; color:#c6d8f1; font-size:10px; font-weight:800; }
     .inventory-search-wrap { position:relative; }
     .inventory-search-wrap::before { content:"⌕"; position:absolute; top:50%; left:12px; color:#7892ba; font-size:16px; transform:translateY(-52%); }
     .inventory-search,.inventory-filter-input { width:100%; height:38px; padding:9px 11px; border:1px solid #3d5575; border-radius:8px; outline:0; color:var(--text); background:#102038; font:inherit; font-size:12px; }
@@ -387,7 +387,7 @@
               <article class="target-card"><div class="target-store"><div><strong>SK</strong><span>G Tayar Sdn Bhd</span></div><b class="target-branch">SK</b></div><label class="target-input-label" for="target-sk" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-sk" data-store="SK" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
               <article class="target-card"><div class="target-store"><div><strong>KM</strong><span>Bagus Tayar Sdn Bhd</span></div><b class="target-branch">KM</b></div><label class="target-input-label" for="target-km" data-i18n="targetInputLabel">月間目標（RM）</label><div class="target-input-wrap"><span>RM</span><input class="target-input" id="target-km" data-store="KM" type="number" min="0" step="1000" value="250000" inputmode="numeric" required></div></article>
             </div>
-            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">目標を保存</button></div>
+            <div class="target-actions"><div><p class="target-note" data-i18n="targetSaveNote">設定値はPleasanterで共有管理します。</p><p class="target-saved" id="target-saved" aria-live="polite"></p></div><button class="save-targets" type="submit" data-i18n="saveTargets">目標を保存</button></div>
           </section>
         </form>
       </section>
@@ -426,7 +426,7 @@
         dailySalesTitle: 'All Stores · Today’s Sales', groupTotal: 'Group total', monthlyProgress: 'This Month’s Progress', monthlyCaption: 'Cumulative sales / monthly target',
         salesChartTitle: 'Daily Sales', salesChartSubtitle: 'Stacked daily Cash Sales by store', salesAccum: 'October sales  RM 514,800',
         documentsChartTitle: 'Daily Document Count', documentsChartSubtitle: 'Compare Cash Sales document counts by store and date', documentsAccum: 'Documents  1,284',
-        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Saved values are stored in this browser. They will become shared settings after ERP and Excel integration.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
+        amountAxis: 'Sales (RM)', documentAxis: 'Documents', barMetric: 'Bars', salesMetric: 'Sales (left axis)', lineMetric: 'Lines', documentMetric: 'Document count (right axis)', legend: 'Store legend', underConstruction: 'UNDER CONSTRUCTION', constructionMessage: 'This dashboard is currently being prepared.', targetPageSubtitle: 'Set the monthly sales target for each store and the selected month.', targetDataLabel: 'Setting basis', targetDataValue: 'Monthly target / RM', targetMonthTitle: 'Target month', targetMonthHint: 'Select the month to configure from the calendar.', targetMonthLabel: 'Target month', targetMonthlyTitle: 'Monthly sales target by store', targetMonthlyHint: 'Enter each store’s target amount in RM.', targetGroupLabel: 'Group monthly target', targetInputLabel: 'Monthly target (RM)', targetSaveNote: 'Settings are shared through Pleasanter.', saveTargets: 'Save targets', targetSaved: 'Targets saved for {month}.'
       },
       ms: {
         dashboardLabel: 'Papan Pemuka Jualan', syncStatus: 'Snapshot Cash Sales dimuatkan', administrator: 'Pentadbir', dashboards: 'PAPAN PEMUKA',
@@ -436,7 +436,7 @@
         dailySalesTitle: 'Semua Cawangan · Jualan Hari Ini', groupTotal: 'Jumlah kumpulan', monthlyProgress: 'Kemajuan Bulan Ini', monthlyCaption: 'Jualan terkumpul / sasaran bulanan',
         salesChartTitle: 'Jualan Harian', salesChartSubtitle: 'Cash Sales harian terkumpul mengikut cawangan', salesAccum: 'Jualan Oktober  RM 514,800',
         documentsChartTitle: 'Bilangan Dokumen Harian', documentsChartSubtitle: 'Bandingkan bilangan dokumen Cash Sales mengikut cawangan dan tarikh', documentsAccum: 'Dokumen  1,284',
-        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Nilai simpanan direkodkan dalam pelayar ini. Ia akan menjadi tetapan bersama selepas integrasi ERP dan Excel.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
+        amountAxis: 'Jualan (RM)', documentAxis: 'Dokumen', barMetric: 'Bar', salesMetric: 'Jualan (paksi kiri)', lineMetric: 'Garisan', documentMetric: 'Dokumen (paksi kanan)', legend: 'Petunjuk cawangan', underConstruction: 'DALAM PEMBINAAN', constructionMessage: 'Papan pemuka ini sedang disediakan.', targetPageSubtitle: 'Tetapkan sasaran jualan bulanan bagi setiap cawangan dan bulan yang dipilih.', targetDataLabel: 'Asas tetapan', targetDataValue: 'Sasaran bulanan / RM', targetMonthTitle: 'Bulan sasaran', targetMonthHint: 'Pilih bulan yang ingin ditetapkan daripada kalendar.', targetMonthLabel: 'Bulan sasaran', targetMonthlyTitle: 'Sasaran jualan bulanan mengikut cawangan', targetMonthlyHint: 'Masukkan amaun sasaran setiap cawangan dalam RM.', targetGroupLabel: 'Sasaran bulanan kumpulan', targetInputLabel: 'Sasaran bulanan (RM)', targetSaveNote: 'Tetapan dikongsi melalui Pleasanter.', saveTargets: 'Simpan sasaran', targetSaved: 'Sasaran untuk {month} telah disimpan.'
       },
       ja: {
         dashboardLabel: '営業ダッシュボード', syncStatus: 'Cash Sales 実績を読み込み済み', administrator: '管理者', dashboards: 'DASHBOARDS',
@@ -446,7 +446,7 @@
         dailySalesTitle: '全店舗・本日売上', groupTotal: 'グループ合計', monthlyProgress: '今月の進捗', monthlyCaption: '累計売上 / 月間目標',
         salesChartTitle: '当月の日別売上', salesChartSubtitle: '日付ごとの店舗別Cash Salesを積み上げ表示', salesAccum: '10月売上　RM 514,800',
         documentsChartTitle: '日別伝票数', documentsChartSubtitle: '日付ごとに店舗別のCash Sales伝票数を比較', documentsAccum: '伝票　1,284件',
-        amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '保存内容はこのブラウザに記録されます。ERP・Excel連携後は共通設定へ切り替わります。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
+        amountAxis: '売上（RM）', documentAxis: '伝票（件）', barMetric: '棒', salesMetric: '売上（左軸）', lineMetric: '線', documentMetric: '伝票数（右軸）', legend: '店舗の凡例', underConstruction: '工事中', constructionMessage: 'このダッシュボードは現在準備中です。', targetPageSubtitle: '対象月と店舗ごとの月間売上目標を設定します。', targetDataLabel: '設定単位', targetDataValue: '月間目標 / RM', targetMonthTitle: '対象月', targetMonthHint: 'カレンダーから設定する月を選択してください。', targetMonthLabel: '対象月', targetMonthlyTitle: '店舗別・月間売上目標', targetMonthlyHint: '各店舗の目標金額をRMで入力します。', targetGroupLabel: 'グループ月間目標', targetInputLabel: '月間目標（RM）', targetSaveNote: '設定値はPleasanterで共有管理します。', saveTargets: '目標を保存', targetSaved: '{month}の目標を保存しました。'
       },
       zh: {
         dashboardLabel: '销售仪表板', syncStatus: 'Cash Sales 数据已加载', administrator: '管理员', dashboards: '仪表板',
@@ -456,7 +456,7 @@
         dailySalesTitle: '所有门店 · 今日销售', groupTotal: '集团合计', monthlyProgress: '本月进度', monthlyCaption: '累计销售 / 月度目标',
         salesChartTitle: '本月每日销售额', salesChartSubtitle: '按日期堆叠显示各门店的 Cash Sales', salesAccum: '10月销售额  RM 514,800',
         documentsChartTitle: '每日单据数量', documentsChartSubtitle: '按日期比较各门店的 Cash Sales 单据数量', documentsAccum: '单据  1,284 张',
-        amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '保存的数值会记录在此浏览器中。ERP 与 Excel 对接后将切换为共享设置。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
+        amountAxis: '销售额（RM）', documentAxis: '单据（张）', barMetric: '柱', salesMetric: '销售额（左轴）', lineMetric: '线', documentMetric: '单据数（右轴）', legend: '门店图例', underConstruction: '施工中', constructionMessage: '此仪表板正在准备中。', targetPageSubtitle: '为所选月份设置各门店的月度销售目标。', targetDataLabel: '设置单位', targetDataValue: '月度目标 / RM', targetMonthTitle: '目标月份', targetMonthHint: '请从日历中选择要设置的月份。', targetMonthLabel: '目标月份', targetMonthlyTitle: '各门店月度销售目标', targetMonthlyHint: '以RM输入各门店的目标金额。', targetGroupLabel: '集团月度目标', targetInputLabel: '月度目标（RM）', targetSaveNote: '设置通过Pleasanter共享管理。', saveTargets: '保存目标', targetSaved: '已保存 {month} 的目标。'
       }
     };
     const buttons = document.querySelectorAll('.menu-button');
@@ -633,10 +633,64 @@
     };
     let dashboardDataMeta = { month: '2026-10', latestDate: '2026-10-10' };
     const actualCodes = Object.keys(cashSalesActuals);
+    const sharedTargetMonths = new Map();
+    let targetLoadSequence = 0;
+    let targetBusy = false;
+    let systemBusy = false;
+    let targetLoadedMonth = null;
+    let systemLoaded = false;
+    const settingsEditable = !githubPagesMode;
+    const sharedCopy = {
+      ja:{note:'設定値はPleasanterで共有管理します。',publicNote:'Pleasanterの公開済み設定を表示しています。変更は非公開管理画面から行ってください。',admin:'非公開管理画面を開く',loading:'Pleasanterから読み込み中…',saving:'Pleasanterに保存中…',saved:'Pleasanterに保存しました。',failed:'Pleasanterへの保存・読み込みを確認できませんでした。設定は保存済みとして扱っていません。',own:'{month}の設定',prior:'{month}は未設定のため、{source}の設定を使用しています。',defaults:'当月・前月とも未設定です。初期値を表示しています。保存すると対象月の設定になります。',systemNote:'URL・ID・更新間隔をPleasanterで管理します。ERPパスワードはサーバー上で別途管理します。',saveSystem:'設定を保存',unavailable:'目標未取得'},
+      en:{note:'Settings are shared through Pleasanter.',publicNote:'Published Pleasanter settings. Use the private administration page to make changes.',admin:'Open private administration',loading:'Loading from Pleasanter…',saving:'Saving to Pleasanter…',saved:'Saved to Pleasanter.',failed:'Could not confirm the Pleasanter operation. The settings are not marked as saved.',own:'Settings for {month}',prior:'No settings for {month}; using {source}.',defaults:'This month and the previous month are unset. Defaults are shown until you save.',systemNote:'URLs, IDs and intervals are managed in Pleasanter. ERP passwords remain on the server.',saveSystem:'Save settings',unavailable:'Targets unavailable'},
+      ms:{note:'Tetapan dikongsi melalui Pleasanter.',publicNote:'Tetapan Pleasanter yang diterbitkan. Ubah melalui halaman pentadbiran peribadi.',admin:'Buka pentadbiran peribadi',loading:'Memuatkan dari Pleasanter…',saving:'Menyimpan ke Pleasanter…',saved:'Disimpan ke Pleasanter.',failed:'Operasi Pleasanter tidak dapat disahkan. Tetapan belum ditandakan sebagai disimpan.',own:'Tetapan {month}',prior:'Tiada tetapan {month}; menggunakan {source}.',defaults:'Bulan ini dan sebelumnya belum ditetapkan. Nilai awal dipaparkan.',systemNote:'URL, ID dan sela diurus di Pleasanter. Kata laluan ERP kekal pada pelayan.',saveSystem:'Simpan tetapan',unavailable:'Sasaran belum tersedia'},
+      zh:{note:'设置通过Pleasanter共享管理。',publicNote:'正在显示已发布的Pleasanter设置。请在非公开管理页面中修改。',admin:'打开非公开管理页面',loading:'正在从Pleasanter读取…',saving:'正在保存到Pleasanter…',saved:'已保存到Pleasanter。',failed:'无法确认Pleasanter操作，尚未标记为已保存。',own:'{month}的设置',prior:'{month}未设置，使用{source}的设置。',defaults:'本月和上月均未设置，当前显示初始值，保存后生效。',systemNote:'URL、ID及采集间隔通过Pleasanter管理，ERP密码在服务器上单独管理。',saveSystem:'保存设置',unavailable:'目标尚未获取'}
+    };
+    function businessMonth() {
+      const parts = new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kuala_Lumpur',year:'numeric',month:'2-digit'}).formatToParts(new Date());
+      return `${parts.find(p=>p.type==='year').value}-${parts.find(p=>p.type==='month').value}`;
+    }
     function actualTargets() {
-      let saved = null;
-      try { saved = JSON.parse(localStorage.getItem('gemok-monthly-targets-2026-10')); } catch (error) { saved = null; }
-      return Object.fromEntries(Object.entries(targetDefaults).map(([code, value]) => [code, saved && Number.isFinite(Number(saved[code])) ? Number(saved[code]) : value]));
+      return sharedTargetMonths.get(dashboardDataMeta.month)?.targets || Object.fromEntries(Object.keys(targetDefaults).map(code=>[code,null]));
+    }
+    async function requestSharedSettings(action,input={}) {
+      if(!settingsEditable) throw new Error('Private administration required');
+      if(localSettingsMode) {
+        const isTarget=action.startsWith('targets.');
+        const save=action.endsWith('.set');
+        const url=`${collectorUrl}/${isTarget?'targets':'settings'}${!save&&isTarget?'?month='+encodeURIComponent(input.month):''}`;
+        const response=await fetch(url,{method:save?'POST':'GET',headers:save?{'content-type':'application/json'}:{},body:save?JSON.stringify(input):undefined,signal:AbortSignal.timeout(120000),cache:'no-store'});
+        if(!response.ok) throw new Error('Pleasanter request failed');
+        return response.json();
+      }
+      const response=await fetch('/api/settings/request',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action,input}),signal:AbortSignal.timeout(15000)});
+      if(!response.ok) throw new Error('Pleasanter request rejected');
+      const job=await response.json();
+      for(let attempt=0;attempt<90;attempt++) {
+        await new Promise(resolve=>setTimeout(resolve,2000));
+        const statusResponse=await fetch(`/api/settings/status?id=${encodeURIComponent(job.id)}`,{cache:'no-store',signal:AbortSignal.timeout(15000)});
+        if(!statusResponse.ok) throw new Error('Settings status unavailable');
+        const status=await statusResponse.json();
+        if(status.status==='completed') return status.result;
+        if(status.status==='failed') throw new Error('Pleasanter operation failed');
+      }
+      throw new Error('Pleasanter operation remains unconfirmed');
+    }
+    function cacheSharedTargets(payload) {
+      if(payload?.month && payload.targets) sharedTargetMonths.set(payload.month,payload);
+    }
+    function renderSharedSettingsCopy() {
+      const copy=sharedCopy[language];
+      document.querySelector('[data-i18n="targetSaveNote"]').textContent=settingsEditable?copy.note:copy.publicNote;
+      targetInputs.forEach(input=>{input.readOnly=!settingsEditable;});
+      targetForm.querySelector('[type="submit"]').hidden=!settingsEditable;
+      document.querySelectorAll('.shared-admin-link').forEach(a=>{a.textContent=copy.admin;a.hidden=settingsEditable;});
+    }
+    async function loadSalesTargets() {
+      if(!settingsEditable) return;
+      const month=dashboardDataMeta.month;
+      try {cacheSharedTargets(await requestSharedSettings('targets.get',{month}));if(dashboardDataMeta.month===month) renderSalesDashboard();}
+      catch { /* Keep a previously confirmed Pleasanter snapshot; never use browser-local targets. */ }
     }
     function formatRM(value, compact = false) {
       const locale = localeByLanguage[language];
@@ -808,14 +862,14 @@
       const monthCards = actualCodes.map((code) => {
         const sales = cashSalesActuals[code].sales.reduce((sum, value) => sum + value, 0);
         const rate = targets[code] ? sales / targets[code] : 0;
-        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${(rate * 100).toFixed(1)}%</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
+        return `<article class="month-tile"><div class="month-top"><strong>${code}</strong><span class="rate">${targets[code]===null?'—':(rate * 100).toFixed(1)+'%'}</span></div><p class="month-value"><strong>${formatRM(sales, true)}</strong> / ${targets[code]===null?'—':formatRM(targets[code], true).replace('RM ', '')}</p><div class="progress"><span style="width:${Math.min(rate * 100, 100)}%"></span></div></article>`;
       }).join('') + `<article class="month-tile"><div class="month-top"><strong>KM</strong><span class="rate warn">${labels.pending}</span></div><p class="month-value"><strong>—</strong> / ${formatRM(targets.KM, true).replace('RM ', '')}</p><div class="progress"><span class="warn" style="width:0%"></span></div></article>`;
       const legend = actualCodes.map((code) => `<span><i class="dot" style="background:var(--${code.toLowerCase()})"></i>${code}</span>`).join('') + `<span><i class="dot" style="background:var(--km)"></i>KM · ${labels.pending}</span>`;
       salesDashboard.innerHTML = `
         <header class="page-head"><div><h1 id="page-title">${salesProgressTitle()}</h1><p>${translations[language].pageSubtitle}</p></div><div class="data-note"><span>${translations[language].displayData}</span><strong>${labels.snapshot}</strong><small class="dashboard-fetch-timestamp" id="dashboard-fetch-timestamp">${latestFetchText()}</small></div></header>
         <section class="daily" aria-labelledby="daily-title"><div class="section-head"><div><h2 id="daily-title">${translations[language].dailySalesTitle}</h2><p>Cash Sales / RM</p></div><div class="group-total"><small>${translations[language].groupTotal}</small>${formatRM(todayTotal)}</div></div><div class="daily-row">${dailyCards}</div></section>
         <section class="month-row" aria-labelledby="month-title"><div class="month-label"><h2 id="month-title">${translations[language].monthlyProgress}</h2><p>${translations[language].monthlyCaption}</p></div>${monthCards}</section>
-        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${formatRM(monthTargetTotal, true)}</span><span><small>${labels.progressRate}</small>${(monthProgress * 100).toFixed(1)}%</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
+        <section class="chart-panel" aria-labelledby="sales-chart-title"><div class="section-head"><div><h2 id="sales-chart-title">${translations[language].salesChartTitle}</h2><p>${translations[language].salesChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.actualTotal}</small>${formatRM(monthTotal)}</span><span><small>${labels.targetTotal}</small>${sharedTargetMonths.has(dashboardDataMeta.month)?formatRM(monthTargetTotal,true):'—'}</span><span><small>${labels.progressRate}</small>${sharedTargetMonths.has(dashboardDataMeta.month)?(monthProgress*100).toFixed(1)+'%':'—'}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('sales')}</section>
         <section class="chart-panel" aria-labelledby="documents-chart-title"><div class="section-head"><div><h2 id="documents-chart-title">${translations[language].documentsChartTitle}</h2><p>${translations[language].documentsChartSubtitle}</p></div><div class="chart-meta"><span><small>${labels.documentTotal}</small>${documentTotal} ${labels.documents}</span></div></div><div class="legend" aria-label="${translations[language].legend}">${legend}</div>${chartSvg('documents')}</section>`;
       title = document.getElementById('page-title');
       bindChartExpansion();
@@ -966,7 +1020,7 @@
       renderInventoryStoreOptions();
       inventoryGroupGrid.setAttribute('aria-label',copy.groups);
       inventoryCardList.setAttribute('aria-label',copy.mobileList);
-      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.storeLocation,copy.stock,copy.cost,copy.price][index]; });
+      document.querySelectorAll('.inventory-table th').forEach((header,index) => { header.textContent = [copy.code,copy.details,copy.store,copy.stock,copy.cost,copy.price][index]; });
       renderInventorySyncOverlay();
     }
     function renderInventoryGroups() {
@@ -1035,10 +1089,10 @@
         const itemRows = rowsForItem(stock,cost,price,quantityByStore,stockRows);
         const displaySpec = inventoryDisplaySpec(spec);
         const specHtml = displaySpec ? `<span>${escapeHtml(displaySpec)}</span>` : '';
-        return itemRows.map((row,index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemRows.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemRows.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span><em>${escapeHtml(`${copy.location}: ${row.location || copy.noLocation}`)}</em></td><td class="inventory-stock-cell"><span class="inventory-stock${row.quantity < 3 ? ' low' : ''}">${row.quantity}</span></td><td class="inventory-money">${formatInventoryMoney(row.cost)}</td><td class="inventory-money">${formatInventoryMoney(row.price)}</td></tr>`).join('');
+        return itemRows.map((row,index) => `<tr>${index === 0 ? `<td class="inventory-code" rowspan="${itemRows.length}">${escapeHtml(code)}</td><td class="inventory-description" rowspan="${itemRows.length}"><strong>${escapeHtml(name)}</strong>${specHtml}</td>` : ''}<td class="inventory-store"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></td><td class="inventory-stock-cell"><span class="inventory-stock${row.quantity < 3 ? ' low' : ''}">${row.quantity}</span></td><td class="inventory-money">${formatInventoryMoney(row.cost)}</td><td class="inventory-money">${formatInventoryMoney(row.price)}</td></tr>`).join('');
       }).join('')}`).join('');
       inventoryCardList.innerHTML = Object.entries(grouped).flatMap(([brand,items]) => items.map(([,code,name,spec,stock,cost,price,quantityByStore,stockRows]) => {
-        const stores = rowsForItem(stock,cost,price,quantityByStore,stockRows).map((row) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span><em>${escapeHtml(`${copy.location}: ${row.location || copy.noLocation}`)}</em></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${row.quantity < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${row.quantity}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(row.cost)}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(row.price)}</strong></div></div></div>`).join('');
+        const stores = rowsForItem(stock,cost,price,quantityByStore,stockRows).map((row) => `<div class="inventory-card-store"><div class="inventory-card-store-name"><strong>${escapeHtml(row.store)}</strong><span>${escapeHtml(row.company)}</span></div><div class="inventory-card-store-values"><div class="inventory-card-store-value inventory-card-quantity${row.quantity < 3 ? ' low' : ''}"><small>${escapeHtml(copy.quantity)}</small><strong>${row.quantity}<span>${escapeHtml(copy.unit)}</span></strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.cost)}</small><strong>${formatInventoryMoney(row.cost)}</strong></div><div class="inventory-card-store-value"><small>${escapeHtml(copy.price)}</small><strong>${formatInventoryMoney(row.price)}</strong></div></div></div>`).join('');
         const displaySpec = inventoryDisplaySpec(spec);
         return `<article class="inventory-product-card"><div class="inventory-card-head"><div class="inventory-card-kicker"><span class="inventory-card-brand">${escapeHtml(brand)}</span><span class="inventory-card-code">${escapeHtml(code)}</span></div><h3>${escapeHtml(name)}</h3>${displaySpec ? `<p class="inventory-card-spec">${escapeHtml(displaySpec)}</p>` : ''}</div><div class="inventory-card-stock">${stores}</div></article>`;
       })).join('');
@@ -1064,7 +1118,6 @@
       renderInventoryProducts();
       window.scrollTo({ top:0, behavior:'smooth' });
     }
-    function targetStorageKey() { return `gemok-monthly-targets-${targetMonth.value}`; }
     function formatTargetAmount(value) {
       if (value >= 1000000) return `${(value / 1000000).toLocaleString(localeByLanguage[language], { maximumFractionDigits: 2 })}M`;
       return new Intl.NumberFormat(localeByLanguage[language]).format(value);
@@ -1073,12 +1126,32 @@
       const total = Array.from(targetInputs).reduce((sum, input) => sum + Math.max(0, Number(input.value) || 0), 0);
       targetTotalValue.textContent = `RM ${formatTargetAmount(total)}`;
     }
-    function loadTargetValues() {
-      let saved = null;
-      try { saved = JSON.parse(localStorage.getItem(targetStorageKey())); } catch (error) { saved = null; }
-      targetInputs.forEach((input) => { input.value = saved && Number.isFinite(Number(saved[input.dataset.store])) ? saved[input.dataset.store] : targetDefaults[input.dataset.store]; });
-      targetSaved.textContent = '';
-      updateTargetTotal();
+    async function loadTargetValues() {
+      const sequence=++targetLoadSequence, month=targetMonth.value;
+      targetLoadedMonth=null;
+      const button=targetForm.querySelector('[type="submit"]');
+      button.disabled=true;
+      targetSaved.textContent=sharedCopy[language].loading;
+      try {
+        let result;
+        if(settingsEditable) result=await requestSharedSettings('targets.get',{month});
+        else {
+          const snapshot=await fetchPublishedDashboardSnapshot();
+          cacheSharedTargets(snapshot.monthlyTargets);
+          result=sharedTargetMonths.get(month);
+          if(!result) throw new Error('No published targets for selected month');
+        }
+        if(sequence!==targetLoadSequence || month!==targetMonth.value) return;
+        cacheSharedTargets(result);
+        targetLoadedMonth=month;
+        targetInputs.forEach(input=>{input.value=result.targets[input.dataset.store];});
+        const copy=sharedCopy[language];
+        targetSaved.textContent=result.sourceMonth===month?copy.own.replace('{month}',month):result.sourceMonth?copy.prior.replace('{month}',month).replace('{source}',result.sourceMonth):copy.defaults;
+        updateTargetTotal();renderSalesDashboard();
+        button.disabled=false;
+      } catch {
+        if(sequence===targetLoadSequence) targetSaved.textContent=sharedCopy[language].failed;
+      }
     }
     function renderActivePage() {
       const showingSales = activeKey === 'salesProgress';
@@ -1099,15 +1172,15 @@
       const copy = systemCopy[language];
       document.querySelector('[data-name-key="system"] span:last-child').textContent = copy.menu;
       document.getElementById('system-title').textContent = copy.title;
-      document.getElementById('system-subtitle').textContent = localSettingsMode ? copy.subtitle : copy.publicSubtitle;
+      document.getElementById('system-subtitle').textContent = settingsEditable ? copy.subtitle : copy.publicSubtitle;
       document.getElementById('interval-label').textContent = copy.salesInterval;
       document.getElementById('inventory-interval-label').textContent = copy.inventoryInterval;
-      document.getElementById('system-note').textContent = localSettingsMode ? copy.note : copy.publicNote;
+      document.getElementById('system-note').textContent = settingsEditable ? sharedCopy[language].systemNote : sharedCopy[language].publicNote;
       const saveButton = document.getElementById('system-save');
-      saveButton.textContent = copy.save;
-      saveButton.hidden = !localSettingsMode;
-      intervalSeconds.readOnly = !localSettingsMode;
-      inventoryIntervalSeconds.readOnly = !localSettingsMode;
+      saveButton.textContent = sharedCopy[language].saveSystem;
+      saveButton.hidden = !settingsEditable;
+      intervalSeconds.readOnly = !settingsEditable;
+      inventoryIntervalSeconds.readOnly = !settingsEditable;
     }
     function latestFetchText() {
       if (!latestSuccessfulAt) return '';
@@ -1174,7 +1247,9 @@
           if (documents !== null && documents !== undefined && Number.isFinite(Number(documents))) cashSalesActuals[code].documents[index] = Number(documents);
         }
       });
+      cacheSharedTargets(payload.monthlyTargets);
       dashboardDataMeta = { month: payload.month, latestDate: payload.latestDate };
+      if(switchingMonth && settingsEditable) void loadSalesTargets();
       latestSuccessfulAt = payload.lastSuccessfulAt || latestSuccessfulAt || excelSnapshotFetchedAt;
       return true;
     }
@@ -1354,7 +1429,7 @@
         reloadForNewFetchTimestamp(payload.lastSuccessfulAt, true);
       } catch { /* Keep the current page when the published snapshot is temporarily unavailable. */ }
     }
-    function renderSystemStores(settings = {}, readOnly = !localSettingsMode) {
+    function renderSystemStores(settings = {}, readOnly = !settingsEditable) {
       const copy = systemCopy[language];
       systemGrid.innerHTML = Object.entries(systemStores).map(([code, name]) => {
         const store = settings.stores?.[code] || {};
@@ -1364,14 +1439,18 @@
       }).join('');
     }
     async function loadSystemSettings() {
-      const copy = systemCopy[language]; systemStatus.textContent = localSettingsMode ? copy.checking : copy.publicChecking;
-      if (!localSettingsMode) {
-        try { const payload = await fetchPublishedDashboardSnapshot(); if (!payload.systemSettings) throw new Error(); intervalSeconds.value = payload.systemSettings.intervalSeconds || 300; inventoryIntervalSeconds.value = payload.systemSettings.inventoryIntervalSeconds || 3600; renderSystemStores(payload.systemSettings, true); systemStatus.textContent = copy.published; systemStatus.className = 'system-status ok'; }
-        catch { intervalSeconds.value = 300; inventoryIntervalSeconds.value = 3600; renderSystemStores({}, true); systemStatus.textContent = copy.publicUnavailable; systemStatus.className = 'system-status'; }
-        return;
-      }
-      try { const response = await fetch(`${collectorUrl}/settings`); if (!response.ok) throw new Error(); const settings = await response.json(); intervalSeconds.value = settings.intervalSeconds || 300; inventoryIntervalSeconds.value = settings.inventoryIntervalSeconds || 3600; renderSystemStores(settings, false); systemStatus.textContent = copy.connected; systemStatus.className = 'system-status ok'; }
-      catch { renderSystemStores({}, false); systemStatus.textContent = copy.unavailable; systemStatus.className = 'system-status'; }
+      systemLoaded=false;
+      const button=document.getElementById('system-save');
+      button.disabled=true;systemStatus.textContent=sharedCopy[language].loading;
+      try {
+        const settings=settingsEditable?await requestSharedSettings('system.get'):(await fetchPublishedDashboardSnapshot()).systemSettings;
+        if(!settings) throw new Error('Settings unavailable');
+        intervalSeconds.value=settings.intervalSeconds;inventoryIntervalSeconds.value=settings.inventoryIntervalSeconds;
+        renderSystemStores(settings,!settingsEditable);
+        systemLoaded=true;
+        systemStatus.textContent=settingsEditable?sharedCopy[language].note:sharedCopy[language].publicNote;
+        systemStatus.className='system-status ok';button.disabled=false;
+      } catch {systemStatus.textContent=sharedCopy[language].failed;systemStatus.className='system-status';}
     }
     function setLanguage(nextLanguage) {
       language = nextLanguage;
@@ -1386,6 +1465,7 @@
       languageButtons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.language === language)));
       localStorage.setItem('gemok-language', language);
       renderSystemStaticCopy();
+      renderSharedSettingsCopy();
       renderLatestFetch();
       renderSalesDashboard();
       renderInventoryStaticCopy();
@@ -1404,6 +1484,7 @@
         else if (activeKey !== 'system') title.textContent = translations[language][activeKey];
         renderActivePage();
         if (activeKey === 'system') loadSystemSettings();
+        if (activeKey === 'targets') loadTargetValues();
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     });
@@ -1461,30 +1542,57 @@
     });
     targetInputs.forEach((input) => input.addEventListener('input', updateTargetTotal));
     targetMonth.addEventListener('change', loadTargetValues);
-    targetForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      const targets = Object.fromEntries(Array.from(targetInputs, (input) => [input.dataset.store, Math.max(0, Number(input.value) || 0)]));
-      localStorage.setItem(targetStorageKey(), JSON.stringify(targets));
-      targetSaved.textContent = translations[language].targetSaved.replace('{month}', targetMonth.value);
-      updateTargetTotal();
-      renderSalesDashboard();
+    targetForm.addEventListener('submit', async (event) => {
+      event.preventDefault();if(!settingsEditable || targetBusy || targetLoadedMonth!==targetMonth.value) return;
+      const month=targetMonth.value;
+      const targets=Object.fromEntries(Array.from(targetInputs,input=>[input.dataset.store,Number(input.value)]));
+      if(Object.values(targets).some(value=>!Number.isFinite(value)||value<0)) return;
+      const button=targetForm.querySelector('[type="submit"]');
+      targetBusy=true;button.disabled=true;targetMonth.disabled=true;
+      targetInputs.forEach(input=>{input.disabled=true;});
+      targetSaved.textContent=sharedCopy[language].saving;
+      try {
+        const result=await requestSharedSettings('targets.set',{month,targets});
+        if(result.saved!==true) throw new Error('Unconfirmed save');
+        cacheSharedTargets(result);
+        targetSaved.textContent=sharedCopy[language].saved;
+        if(dashboardDataMeta.month!==month) await loadSalesTargets();
+        updateTargetTotal();renderSalesDashboard();
+      } catch {targetSaved.textContent=sharedCopy[language].failed;}
+      finally {targetBusy=false;button.disabled=false;targetMonth.disabled=false;targetInputs.forEach(input=>{input.disabled=false;});}
     });
     systemForm.addEventListener('submit', async (event) => {
-      event.preventDefault(); if (!localSettingsMode) return; const form = new FormData(systemForm); const stores = Object.fromEntries(Object.keys(systemStores).map((code) => [code, { url: form.get(`${code}-url`), id: form.get(`${code}-id`) }]));
-      const copy = systemCopy[language]; systemStatus.textContent = copy.saving; systemStatus.className = 'system-status';
-      try { const response = await fetch(`${collectorUrl}/settings`, { method: 'POST', headers: { 'content-type': 'text/plain;charset=UTF-8' }, body: JSON.stringify({ intervalSeconds: Number(intervalSeconds.value), inventoryIntervalSeconds: Number(inventoryIntervalSeconds.value), stores }) }); if (!response.ok) throw new Error(); await fetch(`${collectorUrl}/sync`, { method: 'POST' }); await loadSystemSettings(); systemStatus.textContent = copy.saved; systemStatus.className = 'system-status ok'; }
-      catch { systemStatus.textContent = copy.saveFailed; systemStatus.className = 'system-status'; }
+      event.preventDefault();if(!settingsEditable || systemBusy || !systemLoaded) return;
+      const form=new FormData(systemForm);
+      const stores=Object.fromEntries(Object.keys(systemStores).map(code=>[code,{url:String(form.get(`${code}-url`) || ''),id:String(form.get(`${code}-id`) || '')}]));
+      const button=document.getElementById('system-save');systemBusy=true;button.disabled=true;
+      systemStatus.textContent=sharedCopy[language].saving;
+      try {
+        const result=await requestSharedSettings('system.set',{intervalSeconds:Number(intervalSeconds.value),inventoryIntervalSeconds:Number(inventoryIntervalSeconds.value),stores});
+        if(result.saved!==true) throw new Error('Unconfirmed save');
+        systemStatus.textContent=sharedCopy[language].saved;systemStatus.className='system-status ok';
+      } catch {systemStatus.textContent=sharedCopy[language].failed;systemStatus.className='system-status';}
+      finally {systemBusy=false;button.disabled=false;}
     });
     languageButtons.forEach((button) => button.addEventListener('click', () => setLanguage(button.dataset.language)));
+    targetMonth.value = new URLSearchParams(location.search).get('month')?.match(/^\d{4}-(0[1-9]|1[0-2])$/)?.[0] || businessMonth();
+    [targetForm,systemForm].forEach((form,index)=>{
+      const link=document.createElement('a');link.className='shared-admin-link';
+      link.href=`https://gemok-group.ai-yewsengchew.chatgpt.site?settings=${index===0?'targets':'system'}&month=${encodeURIComponent(targetMonth.value)}`;
+      link.textContent=sharedCopy[language].admin;link.hidden=settingsEditable;form.append(link);
+    });
     renderInventoryGroups();
     renderSalesDashboard();
     loadTargetValues();
+    void loadSalesTargets();
     setLanguage(language);
     loadPublishedDashboardData();
     loadPublishedInventoryData();
     loadCollectorStatus();
     loadCollectorDashboardData();
     loadCollectorInventoryData();
+    const requestedPage=new URLSearchParams(location.search).get('settings');
+    if(['targets','system'].includes(requestedPage)) document.querySelector(`[data-name-key="${requestedPage}"]`)?.click();
     setInterval(() => loadCollectorStatus(true), 30000);
     setInterval(loadCollectorDashboardData, 30000);
     setInterval(loadCollectorInventoryData, 30000);
