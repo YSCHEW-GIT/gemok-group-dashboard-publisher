@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-01T03:55:06.340Z",
+  "updatedAt": "2026-11-01T05:01:09.231Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 222,
-      "quantity": 2005,
-      "stockValue": 400140.08
+      "sku": 221,
+      "quantity": 1984,
+      "stockValue": 397011.08
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 353,
-      "quantity": 694,
-      "stockValue": 369309.02
+      "sku": 359,
+      "quantity": 701,
+      "stockValue": 374779.02
     },
     {
       "key": "absorber",
@@ -53,8 +53,8 @@
       "key": "spring",
       "name": "Spring",
       "sku": 50,
-      "quantity": 223,
-      "stockValue": 43025.380000000005
+      "quantity": 222,
+      "stockValue": 42805.380000000005
     },
     {
       "key": "brake-caliper",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9393,
-      "stockValue": 56052.16999999999
+      "quantity": 9371,
+      "stockValue": 55968.46999999999
     },
     {
       "key": "non-stock-item",
@@ -277,7 +277,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 133,
           "price": 0
         }
@@ -1963,25 +1963,6 @@
       ]
     },
     {
-      "code": "TPDL176514R1-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "DUNLOP 175/65/14 SP TOURING R1 79V TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 137,
-          "price": 148
-        }
-      ]
-    },
-    {
       "code": "TPDL195515BLUE-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2192,7 +2173,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 2,
           "cost": 163,
           "price": 158
         }
@@ -2352,7 +2333,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 13,
           "cost": 119,
           "price": 128
         }
@@ -2624,7 +2605,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 158,
           "price": 160
         }
@@ -2699,7 +2680,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 203,
           "price": 228
         },
@@ -2952,7 +2933,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 186,
           "price": 158
         }
@@ -3502,7 +3483,7 @@
           "location": "",
           "quantity": 1,
           "cost": 149,
-          "price": 150
+          "price": 140
         }
       ]
     },
@@ -4717,7 +4698,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 85,
           "price": 85
         },
@@ -6053,6 +6034,25 @@
           "quantity": 1,
           "cost": 750,
           "price": 588
+        }
+      ]
+    },
+    {
+      "code": "SIMPDHB1541TNP",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE TNP-7022",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 750,
+          "price": 739
         }
       ]
     },
@@ -9429,25 +9429,6 @@
       ]
     },
     {
-      "code": "SR156514ET40-BM-BC -CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 BM+BC -JW-C28",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 670,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "SR156541-BM-ADVGT",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -9710,6 +9691,25 @@
           "quantity": 1,
           "cost": 751,
           "price": 0
+        }
+      ]
+    },
+    {
+      "code": "SR156541ET40-LGM-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET40 LGM LIGHT GUNMETAL TNP-7022 (CE28)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 750,
+          "price": 488
         }
       ]
     },
@@ -10225,6 +10225,44 @@
       ]
     },
     {
+      "code": "SR157041ET35-GBML-TC4",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET35 GLOSS BLACK MACHINE LIP FF17570A16L (TC4)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 750,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR157041ET35-HB-TC105",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 4X100 ET35 HB HYPER BLACK TNP-4231 (TC105)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 740,
+          "price": 488
+        }
+      ]
+    },
+    {
       "code": "SR157041ET35-HS-ENKEI",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -10258,6 +10296,25 @@
           "location": "",
           "quantity": 1,
           "cost": 751,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR157041ET35-RGML-RGD2",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET35 RACING GOLD MACHINE LIP FF17570A57L (RGD2)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 750,
           "price": 488
         }
       ]
@@ -10312,6 +10369,25 @@
           "rowKey": "default#1",
           "store": "SK",
           "company": "G Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 700,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR157041ET38-GMBL-RG02",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET38 GMBL GLOSS BLACK JD10570A16 (RG02)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
           "location": "",
           "quantity": 1,
           "cost": 700,
@@ -11778,6 +11854,25 @@
           "location": "",
           "quantity": 1,
           "cost": 1551,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "SR188551ET38-HBML-RGD2",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 18X8.5 5X113.1 ET38 HYPER BLACK MACHINE LIP FF17885108L (RGD2)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 850,
           "price": 0
         }
       ]
@@ -15287,7 +15382,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 220,
           "price": 438
         }
@@ -49352,7 +49447,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 39,
+          "quantity": 37,
           "cost": 2.5,
           "price": 0
         },
@@ -49370,7 +49465,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 93,
+          "quantity": 91,
           "cost": 3.5,
           "price": 35
         }
@@ -50240,7 +50335,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 24,
+          "quantity": 23,
           "cost": 40,
           "price": 130
         }
@@ -52069,7 +52164,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 13,
+          "quantity": 12,
           "cost": 12,
           "price": 100
         }
@@ -53090,7 +53185,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 767,
+          "quantity": 761,
           "cost": 0.65,
           "price": 7
         }
@@ -53109,7 +53204,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 200,
+          "quantity": 196,
           "cost": 1.65,
           "price": 10
         },
@@ -53118,7 +53213,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 136,
+          "quantity": 134,
           "cost": 1.3,
           "price": 10
         },
@@ -53136,7 +53231,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 646,
+          "quantity": 642,
           "cost": 1.65,
           "price": 10
         }
