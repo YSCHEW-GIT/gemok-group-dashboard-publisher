@@ -6,6 +6,8 @@ on:
     paths:
       - "dist/**"
       - "site/index.html"
+      - "site/canonical-index.html"
+      - "site/assets/**"
       - "site/data-recovery.json"
       - "site/protect-dashboard-data.mjs"
       - ".github/workflows/deploy-pages.yml"
@@ -32,7 +34,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Apply canonical dashboard UI
-        run: cp site/index.html dist/index.html
+        run: |
+          cp site/canonical-index.html dist/index.html
+          mkdir -p dist/assets
+          cp -a site/assets/. dist/assets/
       - name: Preserve inventory keyword input alignment
         run: |
           node --input-type=module <<'JS'
