@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-01T09:22:27.385Z",
+  "updatedAt": "2026-11-01T10:31:20.723Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 222,
-      "quantity": 1994,
-      "stockValue": 396864.2
+      "sku": 221,
+      "quantity": 1984,
+      "stockValue": 393924.2
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 357,
-      "quantity": 698,
-      "stockValue": 372287.02
+      "sku": 356,
+      "quantity": 697,
+      "stockValue": 371336.02
     },
     {
       "key": "absorber",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2239,
-      "stockValue": 162561.44
+      "quantity": 2238,
+      "stockValue": 162450.44
     },
     {
       "key": "oil-filter",
@@ -95,8 +95,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 637,
-      "quantity": 2860.5,
-      "stockValue": 101064.24999999997
+      "quantity": 2859.5,
+      "stockValue": 101059.74999999997
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 723,
-      "quantity": 1997,
-      "stockValue": 166202.5
+      "sku": 724,
+      "quantity": 1998,
+      "stockValue": 166502.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9279,
-      "stockValue": 55748.169999999984
+      "quantity": 9269,
+      "stockValue": 55686.96999999999
     },
     {
       "key": "non-stock-item",
@@ -299,15 +299,6 @@
           "quantity": 4,
           "cost": 153,
           "price": 170
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 166,
-          "price": 190
         }
       ]
     },
@@ -570,7 +561,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 165,
           "price": 190
         }
@@ -1774,25 +1765,6 @@
       ]
     },
     {
-      "code": "TPCT225519UX7-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 225/55/19 ULTRA CONTACT UX7 FR 103V CN (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 517,
-          "price": 540
-        }
-      ]
-    },
-    {
       "code": "TPCT226517UX7",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2943,7 +2915,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 2,
           "cost": 186,
           "price": 158
         }
@@ -4953,15 +4925,6 @@
           "quantity": 4,
           "cost": 298.3,
           "price": 299
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 290,
-          "price": 388
         }
       ]
     },
@@ -8209,7 +8172,7 @@
           "location": "",
           "quantity": 1,
           "cost": 750,
-          "price": 0
+          "price": 588
         }
       ]
     },
@@ -11058,25 +11021,6 @@
           "quantity": 1,
           "cost": 1000,
           "price": 688
-        }
-      ]
-    },
-    {
-      "code": "SR167084ET38-PB-CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7 4X100 ET38 PRO BRONZE PROTE670A55 (CE28)",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 951,
-          "price": 0
         }
       ]
     },
@@ -18958,7 +18902,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 24,
+          "quantity": 23,
           "cost": 111,
           "price": 180
         },
@@ -29867,7 +29811,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 9,
           "cost": 4.5,
           "price": 20
         }
@@ -47353,6 +47297,25 @@
       ]
     },
     {
+      "code": "US2620585",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -50384,7 +50347,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 22,
           "cost": 40,
           "price": 130
         }
@@ -52259,7 +52222,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 10,
           "cost": 12,
           "price": 100
         }
@@ -53207,7 +53170,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 266,
+          "quantity": 262,
           "cost": 0.65,
           "price": 7
         },
@@ -53280,7 +53243,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 636,
+          "quantity": 632,
           "cost": 1.65,
           "price": 10
         }
