@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-01T03:08:28.450Z",
+  "updatedAt": "2026-11-01T03:55:06.340Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 224,
-      "quantity": 2021,
-      "stockValue": 403984.08
+      "sku": 222,
+      "quantity": 2005,
+      "stockValue": 400140.08
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 347,
-      "quantity": 688,
-      "stockValue": 362599.02
+      "sku": 353,
+      "quantity": 694,
+      "stockValue": 369309.02
     },
     {
       "key": "absorber",
@@ -46,8 +46,8 @@
       "key": "adj-absorber",
       "name": "Adj Absorber",
       "sku": 76,
-      "quantity": 157,
-      "stockValue": 116046.18
+      "quantity": 155,
+      "stockValue": 114254.18
     },
     {
       "key": "spring",
@@ -67,8 +67,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 245,
-      "stockValue": 12203.55
+      "quantity": 244,
+      "stockValue": 12171.55
     },
     {
       "key": "brake-pump",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2246,
-      "stockValue": 163432.93
+      "quantity": 2244,
+      "stockValue": 163156.88
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 211,
-      "stockValue": 1896.5
+      "quantity": 210,
+      "stockValue": 1888
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 636,
-      "quantity": 2865.5,
-      "stockValue": 101096.24999999997
+      "quantity": 2863.5,
+      "stockValue": 101084.24999999997
     },
     {
       "key": "battery",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9440,
-      "stockValue": 56161.66999999999
+      "quantity": 9393,
+      "stockValue": 56052.16999999999
     },
     {
       "key": "non-stock-item",
@@ -929,7 +929,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 256,
           "price": 0
         },
@@ -1141,25 +1141,6 @@
       ]
     },
     {
-      "code": "TPCT185515CC7",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 185/55/15 CC7 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 245,
-          "price": 220
-        }
-      ]
-    },
-    {
       "code": "TPCT185515CC7-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -1190,7 +1171,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 18,
           "cost": 233,
           "price": 220
         }
@@ -2155,7 +2136,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 25,
+          "quantity": 21,
           "cost": 166,
           "price": 138
         },
@@ -2534,25 +2515,6 @@
           "quantity": 4,
           "cost": 380,
           "price": 350
-        }
-      ]
-    },
-    {
-      "code": "TPMC206016P5-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "MICHELIN 205/60/16 PRIMACY 5 XL 96W CN (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 427,
-          "price": 410
         }
       ]
     },
@@ -4848,7 +4810,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 106,
           "price": 138
         },
@@ -7909,6 +7871,25 @@
       ]
     },
     {
+      "code": "SIMPHB1851TC105X",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 18X8.5 5X114 ET35 HYPER BLACK TC105X",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 1600,
+          "price": 1300
+        }
+      ]
+    },
+    {
       "code": "SIMPHB1851VORS",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -9296,6 +9277,25 @@
       ]
     },
     {
+      "code": "SR1541-DB-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 4X100 ET35 DARK BROWN -CE28",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 720,
+          "price": 588
+        }
+      ]
+    },
+    {
       "code": "SR1541-DHB-CE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -9406,6 +9406,25 @@
           "quantity": 1,
           "cost": 656,
           "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR15641-DB-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET35 DARK BROWN -CE28",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 720,
+          "price": 588
         }
       ]
     },
@@ -10681,6 +10700,25 @@
       ]
     },
     {
+      "code": "SR1581-SVR-ADVRC",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 8X100/114 ET38 SILVER -ADVAN RC",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 820,
+          "price": 588
+        }
+      ]
+    },
+    {
       "code": "SR158HUHBBBS",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -10752,25 +10790,6 @@
           "location": "",
           "quantity": 1,
           "cost": 900,
-          "price": 788
-        }
-      ]
-    },
-    {
-      "code": "SR1641-PB-TE37",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7 4X100 ET40 PRO BRONZE -TE37",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 950,
           "price": 788
         }
       ]
@@ -11137,6 +11156,25 @@
       ]
     },
     {
+      "code": "SR1681-CR-ADVANGT",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 16X7 8X100/114 ET40 CANDY RED -ADVAN GT",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 1000,
+          "price": 888
+        }
+      ]
+    },
+    {
       "code": "SR1741-GB-GL",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -11189,6 +11227,25 @@
           "location": "",
           "quantity": 1,
           "cost": 1244,
+          "price": 988
+        }
+      ]
+    },
+    {
+      "code": "SR1741-HB-TC105X",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 17X7.5 4X100 ET40 HYPER BLACK -TC105X",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 1200,
           "price": 988
         }
       ]
@@ -11684,6 +11741,25 @@
           "quantity": 1,
           "cost": 1700,
           "price": 1388
+        }
+      ]
+    },
+    {
+      "code": "SR1851-HB-VERZ",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 18X8.5 5X114 ET40 HYPER BLACK -VERZ",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 1600,
+          "price": 1300
         }
       ]
     },
@@ -14006,7 +14082,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 896,
           "price": 0
         }
@@ -16239,7 +16315,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 8,
           "cost": 32,
           "price": 68
         },
@@ -19028,7 +19104,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 110.05,
           "price": 0
         }
@@ -19047,7 +19123,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 55,
+          "quantity": 54,
           "cost": 166,
           "price": 0
         },
@@ -20134,7 +20210,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 16,
           "cost": 8.5,
           "price": 25
         }
@@ -21830,7 +21906,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 5.5,
           "price": 45
         }
@@ -30158,7 +30234,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 27,
+          "quantity": 26,
           "cost": 6.5,
           "price": 25
         },
@@ -49257,7 +49333,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 24,
+          "quantity": 23,
           "cost": 3.5,
           "price": 35
         }
@@ -49408,7 +49484,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 38,
+          "quantity": 36,
           "cost": 10,
           "price": 0
         }
@@ -50428,7 +50504,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 260,
+          "quantity": 240,
           "cost": 2,
           "price": 150
         }
@@ -51966,7 +52042,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 38,
+          "quantity": 34,
           "cost": 3.25,
           "price": 100
         },
@@ -53033,7 +53109,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 212,
+          "quantity": 200,
           "cost": 1.65,
           "price": 10
         },
@@ -53051,7 +53127,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 201,
+          "quantity": 197,
           "cost": 1.65,
           "price": 10
         },
@@ -53060,7 +53136,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 650,
+          "quantity": 646,
           "cost": 1.65,
           "price": 10
         }
