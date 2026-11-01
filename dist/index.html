@@ -863,7 +863,6 @@
       const axis = ticks.map((tick) => `<text x="${isSales ? 13 : 25}" y="${y(tick) + 4}">${isSales ? (tick === 0 ? '0' : formatChartThousands(tick)) : tick}</text>`).join('');
       const dayAxis = Array.from({ length: displayDays }, (_, index) => {
         const day = index + 1;
-        if (day !== 1 && day !== displayDays && day % 5 !== 0) return '';
         const label = formatChartDay(day);
         return `<text x="${x(index)}" y="207" text-anchor="middle"><tspan x="${x(index)}">${label.day}</tspan><tspan x="${x(index)}" dy="13">${label.weekday}</tspan></text>`;
       }).join('');
