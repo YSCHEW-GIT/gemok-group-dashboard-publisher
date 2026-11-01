@@ -128,6 +128,7 @@
     .roadmap-track { position:relative; display:grid; grid-template-columns:1fr; gap:16px; min-width:0; }
     .roadmap-track::before { content:""; position:absolute; z-index:0; top:28px; bottom:28px; left:-35px; width:2px; background:linear-gradient(180deg,#4f84d1 0%,var(--blue) 56%,var(--green) 100%); box-shadow:0 0 20px rgba(115,168,255,.24); }
     .roadmap-step { position:relative; z-index:1; display:block; width:100%; min-width:0; color:inherit; }
+    .roadmap-step.is-photo-expanded { z-index:1001; }
     .roadmap-marker { position:absolute; top:22px; left:-52px; display:grid; width:35px; height:35px; place-items:center; border:5px solid var(--panel); border-radius:50%; color:#07131f; background:var(--blue); box-shadow:0 0 0 2px rgba(115,168,255,.28); font-size:9px; font-weight:900; transition:.18s ease; }
     .roadmap-step.tone-company .roadmap-marker,.roadmap-step.is-current .roadmap-marker { background:var(--green); box-shadow:0 0 0 2px rgba(67,223,160,.32),0 0 22px rgba(67,223,160,.18); }
     .roadmap-step.tone-turning .roadmap-marker { background:var(--amber); box-shadow:0 0 0 2px rgba(245,189,78,.32); }
@@ -1369,6 +1370,7 @@
         button.classList.remove('is-expanded');
         button.setAttribute('aria-expanded','false');
       });
+      document.querySelectorAll('.roadmap-step.is-photo-expanded').forEach((step) => step.classList.remove('is-photo-expanded'));
       document.body.classList.remove('overview-photo-open');
     }
     function bindOverviewPhotoZoom() {
@@ -1377,6 +1379,7 @@
           const shouldExpand = !button.classList.contains('is-expanded');
           closeOverviewPhotoZoom();
           if (shouldExpand) {
+            button.closest('.roadmap-step')?.classList.add('is-photo-expanded');
             button.classList.add('is-expanded');
             button.setAttribute('aria-expanded','true');
             document.body.classList.add('overview-photo-open');
