@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-02T05:31:56.569Z",
+  "updatedAt": "2026-11-02T06:37:58.685Z",
   "stores": [
     {
       "code": "SI",
@@ -25,15 +25,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 223,
-      "quantity": 1995,
-      "stockValue": 395945.2
+      "quantity": 1993,
+      "stockValue": 395593.2
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 352,
-      "quantity": 692,
-      "stockValue": 367313.02
+      "quantity": 691,
+      "stockValue": 366563.02
     },
     {
       "key": "absorber",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2237,
-      "stockValue": 162352.29
+      "quantity": 2235,
+      "stockValue": 162241.29
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 208,
-      "stockValue": 1873
+      "quantity": 207,
+      "stockValue": 1865.5
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 637,
-      "quantity": 2859.5,
-      "stockValue": 101059.74999999997
+      "quantity": 2858.5,
+      "stockValue": 100909.74999999997
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 725,
-      "quantity": 1999,
-      "stockValue": 166802.5
+      "sku": 729,
+      "quantity": 2003,
+      "stockValue": 167653.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9174,
-      "stockValue": 55457.58999999999
+      "quantity": 9170,
+      "stockValue": 55450.98999999999
     },
     {
       "key": "non-stock-item",
@@ -3645,7 +3645,7 @@
           "location": "",
           "quantity": 7,
           "cost": 95,
-          "price": 120
+          "price": 110
         }
       ]
     },
@@ -3673,7 +3673,7 @@
           "location": "",
           "quantity": 3,
           "cost": 95,
-          "price": 120
+          "price": 128
         }
       ]
     },
@@ -4229,7 +4229,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 176,
           "price": 0
         }
@@ -10149,15 +10149,6 @@
       "name": "SPORT RIM 15X7.0 4X100 ET35 GLOSS BLACK PROTE570A16 (TE37)",
       "spec": "0",
       "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 750,
-          "price": 488
-        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -18179,7 +18170,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 27,
+          "quantity": 26,
           "cost": 28,
           "price": 0
         },
@@ -18836,7 +18827,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 83,
           "price": 140
         }
@@ -20306,7 +20297,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 7.5,
           "price": 25
         }
@@ -26967,7 +26958,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 150,
           "price": 250
         }
@@ -35740,6 +35731,25 @@
       ]
     },
     {
+      "code": "US2611695",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US2611817",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -42395,6 +42405,25 @@
       ]
     },
     {
+      "code": "US2616922",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 251,
+          "price": 251
+        }
+      ]
+    },
+    {
       "code": "US261695",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -47279,6 +47308,44 @@
     },
     {
       "code": "US2620604",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620606",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620608",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
@@ -53215,7 +53282,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 175,
+          "quantity": 171,
           "cost": 1.65,
           "price": 10
         },
