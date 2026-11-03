@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-03T05:29:32.903Z",
+  "updatedAt": "2026-11-03T06:35:17.056Z",
   "stores": [
     {
       "code": "SI",
@@ -25,15 +25,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 225,
-      "quantity": 2017,
-      "stockValue": 397946.80000000005
+      "quantity": 2042,
+      "stockValue": 402278.9200000001
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 350,
-      "quantity": 682,
-      "stockValue": 360429.02
+      "sku": 348,
+      "quantity": 680,
+      "stockValue": 358758.02
     },
     {
       "key": "absorber",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2223,
-      "stockValue": 161964.06999999998
+      "quantity": 2220,
+      "stockValue": 161880.06999999998
     },
     {
       "key": "oil-filter",
@@ -94,9 +94,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 636,
-      "quantity": 2854.5,
-      "stockValue": 100785.74999999997
+      "sku": 635,
+      "quantity": 2853.5,
+      "stockValue": 100655.74999999997
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 732,
-      "quantity": 2006,
-      "stockValue": 168202.5
+      "sku": 734,
+      "quantity": 2008,
+      "stockValue": 168802.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9025,
-      "stockValue": 55181.30999999999
+      "quantity": 8989,
+      "stockValue": 55116.30999999999
     },
     {
       "key": "non-stock-item",
@@ -268,7 +268,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 132,
           "price": 140
         }
@@ -995,7 +995,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 34,
+          "quantity": 30,
           "cost": 221.32,
           "price": 218
         }
@@ -1080,7 +1080,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 1,
+          "quantity": 6,
           "cost": 203,
           "price": 168
         },
@@ -1293,25 +1293,6 @@
       ]
     },
     {
-      "code": "TPCT195016UC7",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 195/50/16 88V XL UC7 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 305,
-          "price": 310
-        }
-      ]
-    },
-    {
       "code": "TPCT195016UC7-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -1419,6 +1400,25 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 6,
+          "cost": 269,
+          "price": 220
+        }
+      ]
+    },
+    {
+      "code": "TPCT196015CC7-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "CONTINENTAL 195/60/15 COMFORT CC7 9AV (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 4,
           "cost": 269,
           "price": 220
         }
@@ -1548,25 +1548,6 @@
       ]
     },
     {
-      "code": "TPCT205516UC7-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 205/55/16 UC7 91V FR (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 392,
-          "price": 328
-        }
-      ]
-    },
-    {
       "code": "TPCT206016UC7",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -1645,8 +1626,8 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 536,
+          "quantity": 4,
+          "cost": 470,
           "price": 538
         }
       ]
@@ -1665,7 +1646,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 448,
+          "cost": 469,
           "price": 0
         }
       ]
@@ -2109,7 +2090,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 20,
           "cost": 173,
           "price": 158
         }
@@ -2140,6 +2121,25 @@
           "quantity": 2,
           "cost": 163,
           "price": 158
+        }
+      ]
+    },
+    {
+      "code": "TPGN195515ALTGS5-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "GENERAL 195/55/15 ALTIMAX GS5 85V (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 20,
+          "cost": 171,
+          "price": 148
         }
       ]
     },
@@ -3927,7 +3927,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 51,
+          "quantity": 49,
           "cost": 136.8,
           "price": 0
         },
@@ -4979,7 +4979,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 16,
           "cost": 246,
           "price": 0
         },
@@ -9296,25 +9296,6 @@
       ]
     },
     {
-      "code": "SR1541-DB-CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7 4X100 ET35 DARK BROWN -CE28",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 720,
-          "price": 588
-        }
-      ]
-    },
-    {
       "code": "SR1541-DHB-CE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -10952,25 +10933,6 @@
           "location": "",
           "quantity": 1,
           "cost": 950,
-          "price": 688
-        }
-      ]
-    },
-    {
-      "code": "SR167041ET40-PB-TE37",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7.0 4X100 ET40 PRO BRZ PROTE670A55 (TE37)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 951,
           "price": 688
         }
       ]
@@ -18206,7 +18168,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 20,
           "cost": 28,
           "price": 0
         },
@@ -21748,25 +21710,6 @@
           "quantity": 2,
           "cost": 66,
           "price": 130
-        }
-      ]
-    },
-    {
-      "code": "PADTST1110-P",
-      "groupKey": "parts",
-      "groupName": "Parts",
-      "brand": "",
-      "name": "THUNDERSTORM BRAKE PAD FRT HD CITY T1110-P",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 130,
-          "price": 260
         }
       ]
     },
@@ -42488,6 +42431,25 @@
       ]
     },
     {
+      "code": "US2616944",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 300
+        }
+      ]
+    },
+    {
       "code": "US261695",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -47447,6 +47409,25 @@
       ]
     },
     {
+      "code": "US2620632",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -50742,7 +50723,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 240,
+          "quantity": 220,
           "cost": 2,
           "price": 150
         }
@@ -53347,7 +53328,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 118,
+          "quantity": 110,
           "cost": 1.65,
           "price": 10
         },
@@ -53356,7 +53337,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 127,
+          "quantity": 123,
           "cost": 1.3,
           "price": 10
         },
@@ -53365,7 +53346,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 165,
+          "quantity": 161,
           "cost": 1.65,
           "price": 10
         },
