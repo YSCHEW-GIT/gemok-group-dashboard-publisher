@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-03T08:46:08.000Z",
+  "updatedAt": "2026-11-03T09:51:30.136Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 227,
-      "quantity": 2043,
-      "stockValue": 404407.9200000001
+      "sku": 228,
+      "quantity": 2098,
+      "stockValue": 414174.9200000001
     },
     {
       "key": "sport-rim",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 8973,
-      "stockValue": 55075.90999999999
+      "quantity": 8964,
+      "stockValue": 55062.06
     },
     {
       "key": "non-stock-item",
@@ -271,6 +271,15 @@
           "quantity": 10,
           "cost": 132,
           "price": 140
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 8,
+          "cost": 132,
+          "price": 160
         }
       ]
     },
@@ -360,11 +369,20 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 8,
+          "cost": 145,
+          "price": 170
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 146,
+          "cost": 145,
           "price": 170
         }
       ]
@@ -439,9 +457,18 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 150,
           "price": 168
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 5,
+          "cost": 150,
+          "price": 180
         }
       ]
     },
@@ -543,7 +570,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 8,
           "cost": 165,
           "price": 190
         },
@@ -580,8 +607,27 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 165,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "code": "TPAT206016XSPT-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 205/60/16 XSPORT -86 BSW 92V (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 178,
           "price": 200
         }
       ]
@@ -857,6 +903,25 @@
           "quantity": 4,
           "cost": 215,
           "price": 230
+        }
+      ]
+    },
+    {
+      "code": "TPAT235018XS86-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 235/50/18 XSPORT-86 BSW 101W XL (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 250,
+          "price": 290
         }
       ]
     },
@@ -2005,7 +2070,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 5,
           "cost": 280,
           "price": 310
         }
@@ -2024,7 +2089,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 290,
           "price": 340
         }
@@ -2065,25 +2130,6 @@
           "quantity": 4,
           "cost": 300,
           "price": 350
-        }
-      ]
-    },
-    {
-      "code": "TPGM254520SPS-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "GRIPMAX 255/45/20 SUPERGRIP PRO SPORT 105Y XL BSW TL TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 545,
-          "price": 560
         }
       ]
     },
@@ -2757,8 +2803,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 1,
-          "cost": 203,
+          "quantity": 8,
+          "cost": 202,
           "price": 228
         },
         {
@@ -2767,7 +2813,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 203,
+          "cost": 202,
           "price": 228
         }
       ]
@@ -2954,7 +3000,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 8,
           "cost": 186,
           "price": 168
         },
@@ -3041,6 +3087,15 @@
           "quantity": 20,
           "cost": 200,
           "price": 0
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 200,
+          "price": 178
         }
       ]
     },
@@ -3236,8 +3291,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
-          "cost": 277,
+          "quantity": 8,
+          "cost": 276,
           "price": 278
         }
       ]
@@ -3262,6 +3317,25 @@
       ]
     },
     {
+      "code": "TPTY206017CR1-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "TOYO 205/60/17 PXCR1 SUV 97H M'SIA (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 348,
+          "price": 370
+        }
+      ]
+    },
+    {
       "code": "TPTY206515CR1",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -3274,8 +3348,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 237,
+          "quantity": 4,
+          "cost": 241,
           "price": 250
         }
       ]
@@ -3315,25 +3389,6 @@
           "quantity": 4,
           "cost": 343,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "TPTY215017CR1-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "TOYO 215/50/17 PROXES CR1 91V (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 342,
-          "price": 360
         }
       ]
     },
@@ -3520,8 +3575,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 329,
+          "quantity": 4,
+          "cost": 345,
           "price": 360
         }
       ]
@@ -53329,7 +53384,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 83,
+          "quantity": 82,
           "cost": 0.65,
           "price": 7
         },
@@ -53375,7 +53430,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 157,
+          "quantity": 149,
           "cost": 1.65,
           "price": 10
         },
