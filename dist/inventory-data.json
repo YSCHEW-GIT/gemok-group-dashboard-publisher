@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-03T07:40:43.135Z",
+  "updatedAt": "2026-11-03T08:46:08.000Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 226,
+      "sku": 227,
       "quantity": 2043,
-      "stockValue": 403911.9200000001
+      "stockValue": 404407.9200000001
     },
     {
       "key": "sport-rim",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2218,
-      "stockValue": 161652.02
+      "quantity": 2212,
+      "stockValue": 161336.02
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 205,
-      "stockValue": 1849.5
+      "quantity": 204,
+      "stockValue": 1840
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 635,
-      "quantity": 2853.5,
-      "stockValue": 100655.74999999997
+      "quantity": 2851.5,
+      "stockValue": 100622.54999999997
     },
     {
       "key": "battery",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 8985,
-      "stockValue": 55110.409999999996
+      "quantity": 8973,
+      "stockValue": 55075.90999999999
     },
     {
       "key": "non-stock-item",
@@ -1154,7 +1154,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 233,
           "price": 220
         }
@@ -2065,6 +2065,25 @@
           "quantity": 4,
           "cost": 300,
           "price": 350
+        }
+      ]
+    },
+    {
+      "code": "TPGM254520SPS-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "GRIPMAX 255/45/20 SUPERGRIP PRO SPORT 105Y XL BSW TL TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 545,
+          "price": 560
         }
       ]
     },
@@ -2991,8 +3010,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 201,
+          "quantity": 8,
+          "cost": 200,
           "price": 178
         },
         {
@@ -3000,7 +3019,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 200,
           "price": 178
         }
@@ -4973,15 +4992,6 @@
           "quantity": 8,
           "cost": 262,
           "price": 258
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 263,
-          "price": 268
         }
       ]
     },
@@ -18807,7 +18817,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 42,
+          "quantity": 41,
           "cost": 118,
           "price": 240
         },
@@ -19328,7 +19338,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 14,
           "cost": 56,
           "price": 120
         }
@@ -19347,7 +19357,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 22,
           "cost": 28,
           "price": 30
         }
@@ -19750,7 +19760,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 9,
           "cost": 38,
           "price": 90
         },
@@ -20163,7 +20173,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 18,
           "cost": 9.5,
           "price": 25
         }
@@ -21556,7 +21566,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 8.5,
           "price": 30
         }
@@ -31506,7 +31516,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 24.7,
           "price": 70
         }
@@ -49336,7 +49346,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 7,
           "cost": 10,
           "price": 55
         },
@@ -53328,7 +53338,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 739,
+          "quantity": 737,
           "cost": 0.65,
           "price": 7
         }
@@ -53347,7 +53357,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 108,
+          "quantity": 104,
           "cost": 1.65,
           "price": 10
         },
@@ -53365,7 +53375,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 161,
+          "quantity": 157,
           "cost": 1.65,
           "price": 10
         },
