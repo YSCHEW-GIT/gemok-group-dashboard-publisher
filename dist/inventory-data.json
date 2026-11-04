@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-04T02:20:11.833Z",
+  "updatedAt": "2026-11-04T03:25:55.928Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 228,
-      "quantity": 2130,
-      "stockValue": 416732.9200000001
+      "sku": 227,
+      "quantity": 2122,
+      "stockValue": 415535.7200000001
     },
     {
       "key": "sport-rim",
@@ -81,15 +81,15 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2212,
-      "stockValue": 161336.02
+      "quantity": 2211,
+      "stockValue": 161236.02
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 204,
-      "stockValue": 1840
+      "quantity": 203,
+      "stockValue": 1833.5
     },
     {
       "key": "parts",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 10203,
-      "stockValue": 57392.76999999999
+      "quantity": 10199,
+      "stockValue": 57386.16999999999
     },
     {
       "key": "non-stock-item",
@@ -846,25 +846,6 @@
           "quantity": 4,
           "cost": 200,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "TPAT224518XS86-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "ATLANDER 225/45/18 XSPORT-86 BSW 95W XL (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 210,
-          "price": 270
         }
       ]
     },
@@ -2362,7 +2343,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 12,
           "cost": 89.3,
           "price": 95
         }
@@ -18955,7 +18936,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 21,
           "cost": 100,
           "price": 180
         },
@@ -20520,7 +20501,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 6.5,
           "price": 30
         },
@@ -53449,7 +53430,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 147,
+          "quantity": 143,
           "cost": 1.65,
           "price": 10
         },
