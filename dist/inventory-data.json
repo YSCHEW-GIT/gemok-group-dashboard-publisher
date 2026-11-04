@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-04T03:25:55.928Z",
+  "updatedAt": "2026-11-04T04:31:40.696Z",
   "stores": [
     {
       "code": "SI",
@@ -25,8 +25,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 227,
-      "quantity": 2122,
-      "stockValue": 415535.7200000001
+      "quantity": 2120,
+      "stockValue": 415354.9200000001
     },
     {
       "key": "sport-rim",
@@ -80,16 +80,16 @@
     {
       "key": "oil",
       "name": "Oil",
-      "sku": 92,
-      "quantity": 2211,
-      "stockValue": 161236.02
+      "sku": 91,
+      "quantity": 2210,
+      "stockValue": 161136.02
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 203,
-      "stockValue": 1833.5
+      "quantity": 202,
+      "stockValue": 1826
     },
     {
       "key": "parts",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 10199,
-      "stockValue": 57386.16999999999
+      "quantity": 10197,
+      "stockValue": 57385.07
     },
     {
       "key": "non-stock-item",
@@ -3604,7 +3604,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 7,
           "cost": 90.4,
           "price": 120
         }
@@ -18120,7 +18120,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 144,
           "price": 230
         }
@@ -18936,7 +18936,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 21,
+          "quantity": 20,
           "cost": 100,
           "price": 180
         },
@@ -19574,25 +19574,6 @@
           "quantity": 82,
           "cost": 0,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "OTYTCVTFFE",
-      "groupKey": "oil",
-      "groupName": "OIL",
-      "brand": "",
-      "name": "TOYOTA AUTO OIL CVTFFE ALTIS ZRE143 2.0",
-      "spec": "51",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 144,
-          "price": 220
         }
       ]
     },
@@ -20256,7 +20237,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 19,
           "cost": 7.5,
           "price": 25
         },
@@ -48861,7 +48842,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 62,
+          "quantity": 61,
           "cost": 0.45,
           "price": 5
         }
@@ -53384,7 +53365,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 82,
+          "quantity": 81,
           "cost": 0.65,
           "price": 7
         },
