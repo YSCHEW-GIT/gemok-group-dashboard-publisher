@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-05T07:45:19.496Z",
+  "updatedAt": "2026-11-05T08:50:37.382Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 229,
-      "quantity": 2159,
-      "stockValue": 428742.6200000001
+      "sku": 228,
+      "quantity": 2153,
+      "stockValue": 426007.6200000001
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 347,
-      "quantity": 674,
-      "stockValue": 356722.02
+      "sku": 346,
+      "quantity": 673,
+      "stockValue": 355822.02
     },
     {
       "key": "absorber",
@@ -47,7 +47,7 @@
       "name": "Adj Absorber",
       "sku": 75,
       "quantity": 153,
-      "stockValue": 114100.18
+      "stockValue": 114975.18
     },
     {
       "key": "spring",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 91,
-      "quantity": 2241,
-      "stockValue": 170571.36
+      "quantity": 2240,
+      "stockValue": 170405.36
     },
     {
       "key": "oil-filter",
@@ -95,15 +95,15 @@
       "key": "parts",
       "name": "Parts",
       "sku": 639,
-      "quantity": 2886.5,
-      "stockValue": 101880.74999999999
+      "quantity": 2883.5,
+      "stockValue": 101767.74999999999
     },
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 51,
-      "quantity": 91,
-      "stockValue": 20186.7
+      "sku": 52,
+      "quantity": 92,
+      "stockValue": 20453.84
     },
     {
       "key": "flap",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 10011,
-      "stockValue": 56854.56999999999
+      "quantity": 9992,
+      "stockValue": 56825.369999999995
     },
     {
       "key": "non-stock-item",
@@ -447,7 +447,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 3,
           "cost": 150,
           "price": 180
         }
@@ -929,7 +929,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 16,
           "cost": 256,
           "price": 0
         },
@@ -1181,7 +1181,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 233,
           "price": 220
         }
@@ -1938,7 +1938,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 219,
           "price": 229
         }
@@ -1957,7 +1957,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 16,
           "cost": 169,
           "price": 179
         }
@@ -2525,25 +2525,6 @@
           "quantity": 4,
           "cost": 380,
           "price": 350
-        }
-      ]
-    },
-    {
-      "code": "TPMC234518PS5-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "MICHELIN 235/45/18 PILOT SPORT 5 98Y TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 612,
-          "price": 720
         }
       ]
     },
@@ -5008,7 +4989,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 20,
           "cost": 262,
           "price": 248
         },
@@ -5045,7 +5026,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 33,
+          "quantity": 25,
           "cost": 230,
           "price": 0
         },
@@ -5091,7 +5072,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 289.75,
           "price": 340
         },
@@ -10861,25 +10842,6 @@
       ]
     },
     {
-      "code": "SR1641-NGM-TE37",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7 4X100 ET40 NEW GUN METAL -TE37",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 900,
-          "price": 788
-        }
-      ]
-    },
-    {
       "code": "SR1670104H-HB-FF",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -13927,11 +13889,11 @@
       ]
     },
     {
-      "code": "PADHXMYVI17SF",
+      "code": "PADHXMYVI17",
       "groupKey": "adj-absorber",
       "groupName": "Adj Absorber",
       "brand": "",
-      "name": "HYPERMAX ADJ ABSORBER HILOW SOFT HARD MYVI 17/18 FRT/REAR",
+      "name": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
       "spec": "0",
       "stockRows": [
         {
@@ -13940,7 +13902,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 2,
-          "cost": 0,
+          "cost": 437.5,
           "price": 0
         }
       ]
@@ -19122,7 +19084,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 53,
+          "quantity": 52,
           "cost": 166,
           "price": 0
         },
@@ -21384,7 +21346,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 48,
           "price": 90
         }
@@ -30159,7 +30121,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 13,
           "cost": 17,
           "price": 50
         },
@@ -34079,6 +34041,25 @@
           "location": "",
           "quantity": 2,
           "cost": 268,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "BVRMFSLM42EFBR",
+      "groupKey": "battery",
+      "groupName": "Battery",
+      "brand": "",
+      "name": "VARTA SILVER EFB BATTERY MF M42 -60B20R-",
+      "spec": "79",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 267.14,
           "price": 0
         }
       ]
@@ -49722,7 +49703,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 22,
           "cost": 3.5,
           "price": 35
         }
@@ -53479,7 +53460,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 717,
+          "quantity": 713,
           "cost": 0.65,
           "price": 7
         }
@@ -53498,7 +53479,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 765,
+          "quantity": 753,
           "cost": 1.65,
           "price": 10
         },
@@ -53525,7 +53506,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 586,
+          "quantity": 584,
           "cost": 1.65,
           "price": 10
         }
