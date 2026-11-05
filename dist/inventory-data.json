@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-05T15:21:59.251Z",
+  "updatedAt": "2026-11-05T16:27:06.622Z",
   "stores": [
     {
       "code": "SI",
@@ -94,16 +94,16 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 639,
-      "quantity": 2880.5,
-      "stockValue": 101731.74999999999
+      "sku": 638,
+      "quantity": 2879.5,
+      "stockValue": 101477.94999999998
     },
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 50,
-      "quantity": 90,
-      "stockValue": 19997.7
+      "sku": 51,
+      "quantity": 91,
+      "stockValue": 20251.5
     },
     {
       "key": "flap",
@@ -20811,25 +20811,6 @@
       ]
     },
     {
-      "code": "BVMDIN45L",
-      "groupKey": "parts",
-      "groupName": "Parts",
-      "brand": "",
-      "name": "BATTERY VARTA BLUE DIN45L (54533) LN1",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 253.8,
-          "price": 390
-        }
-      ]
-    },
-    {
       "code": "BWS19MM",
       "groupKey": "parts",
       "groupName": "PARTS",
@@ -21367,7 +21348,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "DHS ABSORBER MOUNTING ALZA/MYVI FRT",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21746,7 +21727,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT HD CITY T1110-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21765,7 +21746,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT TYT ALTIS/WISH T2909-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21784,7 +21765,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT TYT VIOS NCP93 (J) T2914-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21803,7 +21784,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT TYT VIOS/NS LIVINA T6411-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21822,7 +21803,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT PRD BEZZA/AXIA/MYVI TCK028-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21841,7 +21822,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT PRO IRIZ/PERSONA/SAGA VVT TCK031-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21860,7 +21841,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT PRD MYVI 18 TCK060-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -21879,7 +21860,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "THUNDERSTORM BRAKE PAD FRT PRD ATIVA/ALZA/VELOZ TCK133-P",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -26909,7 +26890,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT HONDA ACCORD/HRV -M1106",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -26928,7 +26909,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT HD CIVIC FC/FK M1107",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -26947,7 +26928,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD RR HD CIVIC/FC M1717",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -26966,7 +26947,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT PROTON X50 M2505",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -26985,7 +26966,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD RR TYT VIOS NCP93E/NCP150/YARIS M2910",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27004,7 +26985,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT TYT VIOS NCP93J/PRD ALZA M2914",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27023,7 +27004,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD REAR PRD ATIVA/ALZA NEW/TYT AVANZA -M2929",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27042,7 +27023,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT PROTON X70 M4009",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27061,7 +27042,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD RR PROTON X50 M4015",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27080,7 +27061,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT PROTON S70 M4029",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27099,7 +27080,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD RR PROTON S70 M4030",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27118,7 +27099,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD RR TYT ALPHARD/AGH30 M5201",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27137,7 +27118,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT TYT NCP150/NCP151 M7401",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -27156,7 +27137,7 @@
       "groupName": "Parts",
       "brand": "",
       "name": "MONAER BRAKE PAD FRT PRD ATIVA/ALZA NEW -MCK133",
-      "spec": "0",
+      "spec": "79",
       "stockRows": [
         {
           "rowKey": "default#1",
@@ -33814,6 +33795,25 @@
           "quantity": 1,
           "cost": 180,
           "price": 0
+        }
+      ]
+    },
+    {
+      "code": "BVMDIN45L",
+      "groupKey": "battery",
+      "groupName": "Battery",
+      "brand": "",
+      "name": "BATTERY VARTA BLUE DIN45L (54533) LN1",
+      "spec": "79",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 253.8,
+          "price": 390
         }
       ]
     },
