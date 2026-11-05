@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-05T08:50:37.382Z",
+  "updatedAt": "2026-11-05T09:56:14.393Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 228,
-      "quantity": 2153,
-      "stockValue": 426007.6200000001
+      "sku": 229,
+      "quantity": 2160,
+      "stockValue": 427072.8200000001
     },
     {
       "key": "sport-rim",
@@ -39,8 +39,8 @@
       "key": "absorber",
       "name": "Absorber",
       "sku": 74,
-      "quantity": 124.5,
-      "stockValue": 24148.5
+      "quantity": 126.5,
+      "stockValue": 24612.6
     },
     {
       "key": "adj-absorber",
@@ -95,15 +95,15 @@
       "key": "parts",
       "name": "Parts",
       "sku": 639,
-      "quantity": 2883.5,
-      "stockValue": 101767.74999999999
+      "quantity": 2881.5,
+      "stockValue": 101737.24999999999
     },
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 52,
-      "quantity": 92,
-      "stockValue": 20453.84
+      "sku": 50,
+      "quantity": 90,
+      "stockValue": 19997.7
     },
     {
       "key": "flap",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9992,
-      "stockValue": 56825.369999999995
+      "quantity": 9991,
+      "stockValue": 56824.09
     },
     {
       "key": "non-stock-item",
@@ -929,7 +929,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 8,
           "cost": 256,
           "price": 0
         },
@@ -947,7 +947,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 12,
           "cost": 257,
           "price": 258
         }
@@ -2529,7 +2529,7 @@
       ]
     },
     {
-      "code": "TPMC235018PS5-26",
+      "code": "TPMC235018P5-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
@@ -2538,12 +2538,12 @@
       "stockRows": [
         {
           "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
+          "store": "SI",
+          "company": "Chew Tayar",
           "location": "",
           "quantity": 2,
-          "cost": 561,
-          "price": 528
+          "cost": 562,
+          "price": 0
         }
       ]
     },
@@ -4019,6 +4019,25 @@
       ]
     },
     {
+      "code": "TPWL196015Z117-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "WEST LAKE 195/60/15 ZUPER FLEX Z117 TL TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 7,
+          "cost": 149.6,
+          "price": 160
+        }
+      ]
+    },
+    {
       "code": "TPWL196016RP28",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -4989,7 +5008,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 12,
           "cost": 262,
           "price": 248
         },
@@ -5005,6 +5024,15 @@
         {
           "rowKey": "default#1",
           "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 8,
+          "cost": 263,
+          "price": 268
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 8,
@@ -12298,7 +12326,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 1,
+          "quantity": 2,
           "cost": 246.5,
           "price": 493
         }
@@ -13134,7 +13162,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 3,
           "cost": 217.6,
           "price": 435.2
         }
@@ -22567,7 +22595,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 18,
           "cost": 24,
           "price": 0
         },
@@ -30215,7 +30243,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 16,
           "cost": 6.5,
           "price": 0
         },
@@ -33885,25 +33913,6 @@
       ]
     },
     {
-      "code": "BVRMFBL46B24LS",
-      "groupKey": "battery",
-      "groupName": "Battery",
-      "brand": "",
-      "name": "BATTERY VARTA BLUE 46B24LS",
-      "spec": "51",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 189,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "BVRMFBL55B24R",
       "groupKey": "battery",
       "groupName": "Battery",
@@ -34041,25 +34050,6 @@
           "location": "",
           "quantity": 2,
           "cost": 268,
-          "price": 0
-        }
-      ]
-    },
-    {
-      "code": "BVRMFSLM42EFBR",
-      "groupKey": "battery",
-      "groupName": "Battery",
-      "brand": "",
-      "name": "VARTA SILVER EFB BATTERY MF M42 -60B20R-",
-      "spec": "79",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 267.14,
           "price": 0
         }
       ]
@@ -53856,7 +53846,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 17,
           "cost": 1.28,
           "price": 0
         }
