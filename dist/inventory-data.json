@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-05T06:39:58.011Z",
+  "updatedAt": "2026-11-05T07:45:19.496Z",
   "stores": [
     {
       "code": "SI",
@@ -25,8 +25,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 229,
-      "quantity": 2165,
-      "stockValue": 427724.6200000001
+      "quantity": 2159,
+      "stockValue": 428742.6200000001
     },
     {
       "key": "sport-rim",
@@ -45,9 +45,9 @@
     {
       "key": "adj-absorber",
       "name": "Adj Absorber",
-      "sku": 76,
-      "quantity": 155,
-      "stockValue": 114975.18
+      "sku": 75,
+      "quantity": 153,
+      "stockValue": 114100.18
     },
     {
       "key": "spring",
@@ -67,8 +67,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 74,
-      "quantity": 240,
-      "stockValue": 11984.35
+      "quantity": 239,
+      "stockValue": 11943.35
     },
     {
       "key": "brake-pump",
@@ -81,29 +81,29 @@
       "key": "oil",
       "name": "Oil",
       "sku": 91,
-      "quantity": 2243,
-      "stockValue": 170862.02
+      "quantity": 2241,
+      "stockValue": 170571.36
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 198,
-      "stockValue": 1796
+      "quantity": 197,
+      "stockValue": 1788.5
     },
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 640,
-      "quantity": 2887.5,
-      "stockValue": 102036.54999999999
+      "sku": 639,
+      "quantity": 2886.5,
+      "stockValue": 101880.74999999999
     },
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 52,
-      "quantity": 92,
-      "stockValue": 20453.84
+      "sku": 51,
+      "quantity": 91,
+      "stockValue": 20186.7
     },
     {
       "key": "flap",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 736,
-      "quantity": 2010,
-      "stockValue": 169202.5
+      "sku": 738,
+      "quantity": 2012,
+      "stockValue": 169602.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 10052,
-      "stockValue": 56937.869999999995
+      "quantity": 10011,
+      "stockValue": 56854.56999999999
     },
     {
       "key": "non-stock-item",
@@ -1957,7 +1957,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 12,
           "cost": 169,
           "price": 179
         }
@@ -2529,6 +2529,25 @@
       ]
     },
     {
+      "code": "TPMC234518PS5-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "MICHELIN 235/45/18 PILOT SPORT 5 98Y TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 612,
+          "price": 720
+        }
+      ]
+    },
+    {
       "code": "TPMC235018PS5-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2601,25 +2620,6 @@
           "quantity": 2,
           "cost": 75.46,
           "price": 95
-        }
-      ]
-    },
-    {
-      "code": "TPSQ215517990XL-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "SENTURY QIRIN 215/55/17 990 XL 98(TH)-(2026)",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 207,
-          "price": 256
         }
       ]
     },
@@ -4813,7 +4813,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 15,
           "cost": 85,
           "price": 0
         },
@@ -13927,25 +13927,6 @@
       ]
     },
     {
-      "code": "PADHXMYVI17",
-      "groupKey": "adj-absorber",
-      "groupName": "Adj Absorber",
-      "brand": "",
-      "name": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 437.5,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "PADHXMYVI17SF",
       "groupKey": "adj-absorber",
       "groupName": "Adj Absorber",
@@ -17428,7 +17409,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 41,
           "price": 140
         }
@@ -18177,7 +18158,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 125,
           "price": 220
         },
@@ -18224,7 +18205,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 20,
           "cost": 28,
           "price": 0
         },
@@ -19159,7 +19140,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 101,
+          "quantity": 100,
           "cost": 165.66,
           "price": 280
         }
@@ -19384,7 +19365,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 21,
           "cost": 28,
           "price": 30
         }
@@ -20501,7 +20482,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 7.5,
           "price": 25
         },
@@ -30753,25 +30734,6 @@
       ]
     },
     {
-      "code": "PRDLPRBZF",
-      "groupKey": "parts",
-      "groupName": "Parts",
-      "brand": "",
-      "name": "LPR DISC ROTOR MYVI LG BEST,AXIA,BEZZA-FRT (P5001V)",
-      "spec": "51",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 155.8,
-          "price": 250
-        }
-      ]
-    },
-    {
       "code": "PRDLPRSGF",
       "groupKey": "parts",
       "groupName": "Parts",
@@ -34122,25 +34084,6 @@
       ]
     },
     {
-      "code": "BVRMFSLM42EFBR",
-      "groupKey": "battery",
-      "groupName": "Battery",
-      "brand": "",
-      "name": "VARTA SILVER EFB BATTERY MF M42 -60B20R-",
-      "spec": "79",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 267.14,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "BVRSEFB13026L",
       "groupKey": "battery",
       "groupName": "Battery",
@@ -35894,6 +35837,44 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X7JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2611739S",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2611741",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6JJ PCD100",
       "spec": "",
       "stockRows": [
         {
@@ -49430,7 +49411,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 96,
+          "quantity": 92,
           "cost": 3.5,
           "price": 45
         }
@@ -49778,7 +49759,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 91,
+          "quantity": 90,
           "cost": 3.5,
           "price": 35
         }
@@ -50620,7 +50601,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 240,
+          "quantity": 220,
           "cost": 2,
           "price": 150
         }
@@ -52450,7 +52431,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 102,
+          "quantity": 98,
           "cost": 2.5,
           "price": 100
         },
@@ -53471,7 +53452,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 256,
+          "quantity": 252,
           "cost": 0.65,
           "price": 7
         },
@@ -53517,7 +53498,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 773,
+          "quantity": 765,
           "cost": 1.65,
           "price": 10
         },
