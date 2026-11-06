@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-06T04:27:31.542Z",
+  "updatedAt": "2026-11-06T05:32:31.347Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 230,
-      "quantity": 2196,
-      "stockValue": 427731.62000000005
+      "sku": 233,
+      "quantity": 2312,
+      "stockValue": 455534.62000000005
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 345,
-      "quantity": 672,
-      "stockValue": 355101.02
+      "sku": 344,
+      "quantity": 671,
+      "stockValue": 354331.02
     },
     {
       "key": "absorber",
@@ -67,8 +67,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 74,
-      "quantity": 238,
-      "stockValue": 11895.35
+      "quantity": 236,
+      "stockValue": 11812.95
     },
     {
       "key": "brake-pump",
@@ -81,15 +81,15 @@
       "key": "oil",
       "name": "Oil",
       "sku": 91,
-      "quantity": 2238,
-      "stockValue": 170117.36
+      "quantity": 2237,
+      "stockValue": 170061.36
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 197,
-      "stockValue": 1788.5
+      "quantity": 196,
+      "stockValue": 1780.5
     },
     {
       "key": "parts",
@@ -101,9 +101,9 @@
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 50,
-      "quantity": 89,
-      "stockValue": 19700.730000000003
+      "sku": 49,
+      "quantity": 88,
+      "stockValue": 19433.98
     },
     {
       "key": "flap",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9936,
-      "stockValue": 56689.189999999995
+      "quantity": 9930,
+      "stockValue": 56681.78999999999
     },
     {
       "key": "non-stock-item",
@@ -949,7 +949,7 @@
           "location": "",
           "quantity": 12,
           "cost": 257,
-          "price": 258
+          "price": 278
         }
       ]
     },
@@ -975,7 +975,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 219,
           "price": 218
         }
@@ -1247,7 +1247,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 279,
           "price": 260
         },
@@ -1294,7 +1294,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 231,
           "price": 190
         }
@@ -1316,6 +1316,25 @@
           "quantity": 4,
           "cost": 243,
           "price": 228
+        }
+      ]
+    },
+    {
+      "code": "TPCT195016UC7",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "CONTINENTAL 195/50/16 88V XL UC7 (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 8,
+          "cost": 305,
+          "price": 310
         }
       ]
     },
@@ -1360,8 +1379,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
-          "cost": 220,
+          "quantity": 58,
+          "cost": 232,
           "price": 208
         }
       ]
@@ -1543,6 +1562,15 @@
           "quantity": 4,
           "cost": 314,
           "price": 310
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 315,
+          "price": 0
         }
       ]
     },
@@ -1566,6 +1594,25 @@
       ]
     },
     {
+      "code": "TPCT205516UC7-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "CONTINENTAL 205/55/16 UC7 91V FR (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 392,
+          "price": 328
+        }
+      ]
+    },
+    {
       "code": "TPCT206016UC7",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -1581,6 +1628,25 @@
           "quantity": 2,
           "cost": 369,
           "price": 390
+        }
+      ]
+    },
+    {
+      "code": "TPCT214517UC7-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "CONTINENTAL 215/45/17 UC7 ULTRACON -(2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 393,
+          "price": 428
         }
       ]
     },
@@ -1625,8 +1691,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 1,
-          "cost": 382,
+          "quantity": 4,
+          "cost": 370,
           "price": 390
         }
       ]
@@ -2165,8 +2231,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 14,
-          "cost": 163,
+          "quantity": 24,
+          "cost": 173,
           "price": 158
         }
       ]
@@ -2203,8 +2269,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
-          "cost": 160,
+          "quantity": 33,
+          "cost": 171,
           "price": 148
         },
         {
@@ -2213,7 +2279,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 160,
+          "cost": 171,
           "price": 148
         }
       ]
@@ -4720,7 +4786,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 30,
+          "quantity": 28,
           "cost": 76,
           "price": 88
         },
@@ -10162,25 +10228,6 @@
           "quantity": 1,
           "cost": 793,
           "price": 588
-        }
-      ]
-    },
-    {
-      "code": "SR157041ET28-PB-TE37",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7.0 4X100 ET28 PRO BRONZE PROTE570A55 (TE37)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 770,
-          "price": 488
         }
       ]
     },
@@ -16323,7 +16370,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 28,
           "price": 130
         }
@@ -16729,7 +16776,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 54.4,
           "price": 120
         }
@@ -18373,7 +18420,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 56,
           "price": 100
         }
@@ -20302,7 +20349,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 8,
           "price": 25
         }
@@ -33594,25 +33641,6 @@
       "groupName": "Battery",
       "brand": "",
       "name": "CWORKS BATTERY EFB M42L 60B20L",
-      "spec": "79",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 266.75,
-          "price": 0
-        }
-      ]
-    },
-    {
-      "code": "BCWM42R",
-      "groupKey": "battery",
-      "groupName": "Battery",
-      "brand": "",
-      "name": "CWORKS BATTERY EFB M42R 60B20R",
       "spec": "79",
       "stockRows": [
         {
@@ -53488,7 +53516,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 374,
+          "quantity": 372,
           "cost": 0.4,
           "price": 10
         },
@@ -53552,7 +53580,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 578,
+          "quantity": 574,
           "cost": 1.65,
           "price": 10
         }
