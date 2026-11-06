@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-06T05:32:31.347Z",
+  "updatedAt": "2026-11-06T06:37:59.994Z",
   "stores": [
     {
       "code": "SI",
@@ -25,15 +25,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 233,
-      "quantity": 2312,
-      "stockValue": 455534.62000000005
+      "quantity": 2316,
+      "stockValue": 458697.04000000004
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 344,
-      "quantity": 671,
-      "stockValue": 354331.02
+      "sku": 343,
+      "quantity": 667,
+      "stockValue": 350531.02
     },
     {
       "key": "absorber",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9930,
-      "stockValue": 56681.78999999999
+      "quantity": 9885,
+      "stockValue": 56594.79
     },
     {
       "key": "non-stock-item",
@@ -299,25 +299,6 @@
           "quantity": 3,
           "cost": 153,
           "price": 170
-        }
-      ]
-    },
-    {
-      "code": "TPAT195016X86-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "ATLANDER 195/50/16 XSPORT-86 BSW 84V TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 165,
-          "price": 0
         }
       ]
     },
@@ -1163,7 +1144,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 230,
           "price": 210
         },
@@ -1296,7 +1277,7 @@
           "location": "",
           "quantity": 4,
           "cost": 231,
-          "price": 190
+          "price": 220
         }
       ]
     },
@@ -1445,7 +1426,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 269,
           "price": 220
         }
@@ -1505,6 +1486,25 @@
           "quantity": 4,
           "cost": 341,
           "price": 0
+        }
+      ]
+    },
+    {
+      "code": "TPCT205017PCC-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "CONTINENTAL 205/50/17 PREMIUMCONTACT C (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 351.82,
+          "price": 370
         }
       ]
     },
@@ -1570,7 +1570,7 @@
           "location": "",
           "quantity": 4,
           "cost": 315,
-          "price": 0
+          "price": 290
         }
       ]
     },
@@ -2212,7 +2212,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 16,
           "cost": 173,
           "price": 158
         }
@@ -2595,6 +2595,25 @@
       ]
     },
     {
+      "code": "TPMC205517PS5-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "MICHELIN 215/55/17 PRIMACY 5 95W (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 519.4,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "TPMX195515I-PRO",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2607,7 +2626,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 17,
           "cost": 155,
           "price": 148
         }
@@ -3286,25 +3305,6 @@
           "quantity": 4,
           "cost": 276,
           "price": 278
-        }
-      ]
-    },
-    {
-      "code": "TPTY205516CR1-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "TOYO 205/55/16 PXCR1 94V (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 276,
-          "price": 0
         }
       ]
     },
@@ -5193,7 +5193,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 24,
           "cost": 247,
           "price": 208
         }
@@ -5228,6 +5228,15 @@
         {
           "rowKey": "default#1",
           "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 290,
+          "price": 328
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
@@ -5603,25 +5612,6 @@
           "quantity": 1,
           "cost": 750,
           "price": 488
-        }
-      ]
-    },
-    {
-      "code": "SIMPB2T1681CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7 8X100/114.3 ET40 PRO BRONZE CE28",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 950,
-          "price": 788
         }
       ]
     },
@@ -50854,7 +50844,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 260,
+          "quantity": 240,
           "cost": 2,
           "price": 150
         },
@@ -52513,7 +52503,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 10,
           "cost": 12,
           "price": 100
         }
@@ -52532,7 +52522,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 120,
+          "quantity": 116,
           "cost": 3,
           "price": 100
         },
@@ -53516,7 +53506,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 372,
+          "quantity": 364,
           "cost": 0.4,
           "price": 10
         },
@@ -53553,7 +53543,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 728,
+          "quantity": 720,
           "cost": 1.65,
           "price": 10
         },
@@ -53580,7 +53570,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 574,
+          "quantity": 570,
           "cost": 1.65,
           "price": 10
         }
