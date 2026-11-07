@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-07T08:55:35.469Z",
+  "updatedAt": "2026-11-07T10:01:15.539Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 241,
-      "quantity": 2387,
-      "stockValue": 477665.02
+      "sku": 239,
+      "quantity": 2359,
+      "stockValue": 472300.10000000003
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 343,
-      "quantity": 666,
-      "stockValue": 352404.02
+      "sku": 341,
+      "quantity": 664,
+      "stockValue": 350633.02
     },
     {
       "key": "absorber",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2250,
-      "stockValue": 170282.96
+      "quantity": 2249,
+      "stockValue": 170182.96
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 190,
-      "stockValue": 1731.5
+      "quantity": 189,
+      "stockValue": 1724
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 638,
-      "quantity": 2987.5,
-      "stockValue": 102261.65
+      "quantity": 2986.5,
+      "stockValue": 102182.65
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 745,
-      "quantity": 2016,
-      "stockValue": 171304.5
+      "sku": 747,
+      "quantity": 2018,
+      "stockValue": 171804.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9635,
-      "stockValue": 56022.91999999999
+      "quantity": 9567,
+      "stockValue": 55893.81999999999
     },
     {
       "key": "non-stock-item",
@@ -260,18 +260,9 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
+      "name": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH",
       "spec": "0",
       "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 132,
-          "price": 140
-        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -485,7 +476,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 150,
           "price": 0
         }
@@ -1369,7 +1360,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 304,
           "price": 310
         }
@@ -1435,7 +1426,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 267,
           "price": 258
         }
@@ -2792,25 +2783,6 @@
       ]
     },
     {
-      "code": "TPPT165514X66-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "POWERTRAC 165/55/14 ECOCOMFORT X66 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 75.46,
-          "price": 95
-        }
-      ]
-    },
-    {
       "code": "TPTY165015TR1-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2897,7 +2869,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 196,
           "price": 179
         }
@@ -3591,25 +3563,6 @@
       ]
     },
     {
-      "code": "TPTY215517CR1-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "TOYO 215/55/17 PXCR1 94V MSIA (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 288,
-          "price": 310
-        }
-      ]
-    },
-    {
       "code": "TPTY216016CR1-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -3906,7 +3859,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 92,
           "price": 0
         }
@@ -4274,7 +4227,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 98,
           "price": 119
         }
@@ -5354,7 +5307,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 13,
           "cost": 230,
           "price": 0
         },
@@ -5373,15 +5326,6 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 10,
-          "cost": 231,
-          "price": 208
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
           "cost": 231,
           "price": 208
         }
@@ -5895,25 +5839,6 @@
           "quantity": 4,
           "cost": 512.5,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "SIMPBK1581CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 BLACK CE28",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 650,
-          "price": 488
         }
       ]
     },
@@ -7091,25 +7016,6 @@
           "quantity": 1,
           "cost": 792,
           "price": 788
-        }
-      ]
-    },
-    {
-      "code": "SIMPGB1751CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 17X8 5X114 ET35 GLOSS BLACK CE28",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 1121,
-          "price": 0
         }
       ]
     },
@@ -19311,7 +19217,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 9,
           "cost": 100,
           "price": 180
         }
@@ -20604,15 +20510,6 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 19,
-          "cost": 7.5,
-          "price": 25
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
           "cost": 7.5,
           "price": 25
         }
@@ -29889,7 +29786,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 79,
           "price": 160
         }
@@ -48077,6 +47974,44 @@
       ]
     },
     {
+      "code": "US2620742",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 5X114",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620747",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -51099,7 +51034,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 484,
+          "quantity": 464,
           "cost": 2,
           "price": 150
         },
@@ -51372,7 +51307,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 280,
+          "quantity": 260,
           "cost": 2,
           "price": 150
         }
@@ -53273,7 +53208,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 24,
           "cost": 3,
           "price": 100
         },
@@ -53940,7 +53875,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 356,
+          "quantity": 354,
           "cost": 0.4,
           "price": 10
         },
@@ -53977,7 +53912,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 642,
+          "quantity": 626,
           "cost": 1.65,
           "price": 10
         },
@@ -54004,7 +53939,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 533,
+          "quantity": 527,
           "cost": 1.65,
           "price": 10
         }
