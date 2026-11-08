@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-08T01:11:33.009Z",
+  "updatedAt": "2026-11-08T02:16:25.224Z",
   "stores": [
     {
       "code": "SI",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2249,
-      "stockValue": 170182.96
+      "quantity": 2248,
+      "stockValue": 170082.96
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 189,
-      "stockValue": 1724
+      "quantity": 188,
+      "stockValue": 1717.5
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 638,
-      "quantity": 2986.5,
-      "stockValue": 102182.65
+      "quantity": 2984.5,
+      "stockValue": 102147.65
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 747,
-      "quantity": 2018,
-      "stockValue": 171804.5
+      "sku": 748,
+      "quantity": 2019,
+      "stockValue": 172004.5
     },
     {
       "key": "used-tayar",
@@ -19217,7 +19217,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 8,
           "cost": 100,
           "price": 180
         }
@@ -20641,7 +20641,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 18,
           "cost": 6.5,
           "price": 25
         }
@@ -21959,7 +21959,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 25,
           "price": 55
         }
@@ -23083,7 +23083,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 10,
           "price": 30
         }
@@ -36099,6 +36099,25 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X6JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2611749",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 18X8.5JJ PCD100",
       "spec": "",
       "stockRows": [
         {
