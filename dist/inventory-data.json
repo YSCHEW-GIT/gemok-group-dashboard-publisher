@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-08T06:36:21.301Z",
+  "updatedAt": "2026-11-08T07:41:24.955Z",
   "stores": [
     {
       "code": "SI",
@@ -24,23 +24,23 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 236,
-      "quantity": 2287,
-      "stockValue": 456840.46
+      "sku": 235,
+      "quantity": 2277,
+      "stockValue": 453730.46
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 339,
-      "quantity": 660,
-      "stockValue": 347649.02
+      "sku": 338,
+      "quantity": 659,
+      "stockValue": 347119.02
     },
     {
       "key": "absorber",
       "name": "Absorber",
       "sku": 79,
-      "quantity": 138.5,
-      "stockValue": 25622.399999999998
+      "quantity": 136.5,
+      "stockValue": 25500
     },
     {
       "key": "adj-absorber",
@@ -95,8 +95,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 638,
-      "quantity": 2985.5,
-      "stockValue": 102062.15
+      "quantity": 2983.5,
+      "stockValue": 101986.15
     },
     {
       "key": "battery",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 751,
-      "quantity": 2022,
-      "stockValue": 172605.5
+      "sku": 752,
+      "quantity": 2023,
+      "stockValue": 172805.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9470,
-      "stockValue": 55616.31999999999
+      "quantity": 9462,
+      "stockValue": 55599.41999999999
     },
     {
       "key": "non-stock-item",
@@ -589,7 +589,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 165,
           "price": 0
         },
@@ -994,7 +994,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 219,
           "price": 218
         }
@@ -1628,25 +1628,6 @@
           "quantity": 4,
           "cost": 393,
           "price": 428
-        }
-      ]
-    },
-    {
-      "code": "TPCT215017UC7-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 215/50/17 UC7 91W (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 476,
-          "price": 435
         }
       ]
     },
@@ -6372,25 +6353,6 @@
           "quantity": 1,
           "cost": 750,
           "price": 488
-        }
-      ]
-    },
-    {
-      "code": "SIMPDMGM1541RPF1",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7 4X100 ET35 DMGM AF-RPF1",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 530,
-          "price": 639
         }
       ]
     },
@@ -12191,7 +12153,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 61.2,
           "price": 140
         }
@@ -19070,7 +19032,7 @@
           "location": "",
           "quantity": 22,
           "cost": 111,
-          "price": 180
+          "price": 190
         },
         {
           "rowKey": "default#1",
@@ -19191,7 +19153,7 @@
           "location": "",
           "quantity": 6,
           "cost": 189,
-          "price": 268
+          "price": 260
         },
         {
           "rowKey": "default#1",
@@ -19293,7 +19255,7 @@
           "location": "",
           "quantity": 25,
           "cost": 186,
-          "price": 288
+          "price": 300
         },
         {
           "rowKey": "default#1",
@@ -21107,7 +21069,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 19,
           "cost": 40,
           "price": 130
         }
@@ -27029,7 +26991,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 36,
           "price": 100
         }
@@ -36021,6 +35983,25 @@
     },
     {
       "code": "US2611758",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X5JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2611810",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
@@ -50118,7 +50099,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 76,
+          "quantity": 74,
           "cost": 3.5,
           "price": 35
         }
@@ -53857,7 +53838,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 614,
+          "quantity": 612,
           "cost": 1.65,
           "price": 10
         },
@@ -53884,7 +53865,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 513,
+          "quantity": 509,
           "cost": 1.65,
           "price": 10
         }
