@@ -799,7 +799,7 @@
       zh:{ back:'返回销售', title:'门店销售与毛利', today:'今日', month:'本月累计', sales:'销售额', grossProfit:'毛利额', margin:'毛利率', quantity:'数量', loading:'正在加载销售明细…', empty:'销售明细尚未同步。现有销售页面仍可继续使用。', private:'毛利明细受保护，请在非公开Site中查看。', open:'打开非公开Site', items:'商品明细', itemCode:'商品代码', itemName:'商品名', updated:'更新', categories:{passenger_tire:'乘用车轮胎',sport_rim:'运动轮圈',foreman_item:'Foreman商品',other:'其他'}}
     };
     const storeFocusColors = { passenger_tire:'#43dfa0', sport_rim:'#73a8ff', foreman_item:'#f5bd4e', other:'#a78bfa' };
-    let storeFocusState = { store:'SI', period:'today', data:null, loading:false, error:null, selectedCategory:null, items:[] };
+    let storeFocusState = { store:'SI', period:'today', data:null, loading:false, error:null, selectedCategory:null, items:[], publishedItems:[] };
     const actualLabels = {
       en: { snapshot: 'Cash Sales actuals · 1–10 Oct 2026', documents: 'documents', pending: 'Data pending', month: 'October MTD', actualTotal: 'MTD total', targetTotal: 'Monthly target', progressRate: 'Progress rate', documentTotal: 'Total documents' },
       ms: { snapshot: 'Cash Sales sebenar · 1–10 Okt 2026', documents: 'dokumen', pending: 'Menunggu data', month: 'Oktober terkumpul', actualTotal: 'Jumlah terkumpul', targetTotal: 'Sasaran bulanan', progressRate: 'Kadar kemajuan', documentTotal: 'Jumlah dokumen' },
@@ -1023,12 +1023,37 @@
       const state = { ...storeFocusState, ...extra };
       return `store=${encodeURIComponent(state.store)}&period=${encodeURIComponent(state.period)}&month=${encodeURIComponent(dashboardDataMeta.month)}&date=${encodeURIComponent(dashboardDataMeta.latestDate)}`;
     }
-    function storeFocusPrivateUrl() {
-      const url = new URL(privateSiteUrl);
-      url.searchParams.set('view','store-focus');
-      url.searchParams.set('store',storeFocusState.store);
-      url.searchParams.set('period',storeFocusState.period);
-      return url.toString();
+    function summarizePublishedSalesBreakdown(payload) {
+      const storeData = payload?.stores?.[storeFocusState.store];
+      if (!storeData) throw new Error('Store sales breakdown is unavailable');
+      const categories = Object.keys(storeFocusColors).map((key) => ({ key, sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null }));
+      const totals = { sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null };
+      const items = new Map();
+      let documents = 0;
+      for (const [day,value] of Object.entries(storeData.days || {})) {
+        if (storeFocusState.period === 'today' && day !== dashboardDataMeta.latestDate) continue;
+        documents += Number(value.documents) || 0;
+        for (const row of value.categories || []) {
+          const target = categories.find((category) => category.key === row.key);
+          if (!target) continue;
+          for (const field of ['sales','cost','grossProfit','quantity']) target[field] += Number(row[field]) || 0;
+        }
+        for (const row of value.items || []) {
+          const key = `${row.category}|${row.itemCode}`;
+          const target = items.get(key) || { ...row, quantity:0, sales:0, cost:0, grossProfit:0 };
+          for (const field of ['quantity','sales','cost','grossProfit']) target[field] += Number(row[field]) || 0;
+          items.set(key,target);
+        }
+      }
+      for (const row of categories) {
+        row.grossMarginRate = row.sales ? row.grossProfit / row.sales : null;
+        for (const field of ['sales','cost','grossProfit','quantity']) totals[field] += row[field];
+      }
+      totals.grossMarginRate = totals.sales ? totals.grossProfit / totals.sales : null;
+      return {
+        data:{ schemaVersion:1, store:storeFocusState.store, period:storeFocusState.period, month:payload.month, date:dashboardDataMeta.latestDate, updatedAt:payload.updatedAt, documents, totals, categories },
+        items:[...items.values()].sort((a,b) => b.sales - a.sales),
+      };
     }
     function renderStoreFocus() {
       const copy = storeFocusCopy[language];
@@ -1036,9 +1061,7 @@
       const tabs = inventoryStores.map(([code,name]) => `<button type="button" data-focus-store="${code}" aria-pressed="${storeFocusState.store === code}">${code}<span class="sr-only"> ${escapeHtml(name)}</span></button>`).join('');
       const periods = ['today','month'].map((period) => `<button type="button" data-focus-period="${period}" aria-pressed="${storeFocusState.period === period}">${copy[period]}</button>`).join('');
       let body;
-      if (githubPagesMode) {
-        body = `<div class="store-focus-state"><div>${escapeHtml(copy.private)}<br><a class="store-focus-back" href="${escapeHtml(storeFocusPrivateUrl())}">${escapeHtml(copy.open)} →</a></div></div>`;
-      } else if (storeFocusState.loading) {
+      if (storeFocusState.loading) {
         body = `<div class="store-focus-state">${escapeHtml(copy.loading)}</div>`;
       } else if (!storeFocusState.data) {
         body = `<div class="store-focus-state">${escapeHtml(copy.empty)}${storeFocusState.error ? `<br><small>${escapeHtml(storeFocusState.error)}</small>` : ''}</div>`;
@@ -1060,19 +1083,30 @@
     }
     async function loadStoreFocus() {
       renderStoreFocus();
-      if (githubPagesMode) return;
-      storeFocusState.loading = true; storeFocusState.error = null; storeFocusState.data = null; storeFocusState.selectedCategory = null; storeFocusState.items = [];
+      storeFocusState.loading = true; storeFocusState.error = null; storeFocusState.data = null; storeFocusState.selectedCategory = null; storeFocusState.items = []; storeFocusState.publishedItems = [];
       renderStoreFocus();
       try {
-        const source = localSettingsMode ? `${collectorUrl}/sales-breakdown?${storeFocusQuery()}` : `/api/sales-breakdown?${storeFocusQuery()}`;
+        const source = githubPagesMode
+          ? `./sales-breakdown/v1/${encodeURIComponent(dashboardDataMeta.month)}.json`
+          : localSettingsMode ? `${collectorUrl}/sales-breakdown?${storeFocusQuery()}` : `/api/sales-breakdown?${storeFocusQuery()}`;
         const response = await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(15000)});
         if (!response.ok) throw new Error(response.status === 404 ? '' : `HTTP ${response.status}`);
-        storeFocusState.data = await response.json();
+        const payload = await response.json();
+        if (githubPagesMode) {
+          const published = summarizePublishedSalesBreakdown(payload);
+          storeFocusState.data = published.data;
+          storeFocusState.publishedItems = published.items;
+        } else storeFocusState.data = payload;
       } catch (error) { storeFocusState.error = error.message || null; }
       finally { storeFocusState.loading = false; renderStoreFocus(); }
     }
     async function loadStoreFocusItems(category) {
       storeFocusState.selectedCategory = category; storeFocusState.items = []; renderStoreFocus();
+      if (githubPagesMode) {
+        storeFocusState.items = storeFocusState.publishedItems.filter((item) => item.category === category);
+        renderStoreFocus();
+        return;
+      }
       try {
         const source = localSettingsMode ? `${collectorUrl}/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(category)}` : `/api/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(category)}`;
         const response = await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(15000)});

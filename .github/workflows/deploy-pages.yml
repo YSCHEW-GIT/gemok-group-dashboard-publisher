@@ -10,6 +10,7 @@ on:
       - "site/assets/**"
       - "site/data-recovery.json"
       - "site/protect-dashboard-data.mjs"
+      - "site/test-sales-breakdown.mjs"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -54,6 +55,8 @@ jobs:
           JS
       - name: Protect historical dashboard data
         run: node site/protect-dashboard-data.mjs
+      - name: Validate direct sales breakdown
+        run: node site/test-sales-breakdown.mjs
       - name: Upload dashboard files
         uses: actions/upload-pages-artifact@v3
         with:
