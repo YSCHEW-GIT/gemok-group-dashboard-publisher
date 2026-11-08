@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-08T10:13:05.318Z",
+  "updatedAt": "2026-11-08T11:17:38.175Z",
   "stores": [
     {
       "code": "SI",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 753,
-      "quantity": 2024,
-      "stockValue": 173005.5
+      "sku": 755,
+      "quantity": 2026,
+      "stockValue": 173405.5
     },
     {
       "key": "used-tayar",
@@ -47877,6 +47877,44 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X7 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620767",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620769",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
       "spec": "",
       "stockRows": [
         {
