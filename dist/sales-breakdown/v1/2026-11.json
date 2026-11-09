@@ -3139,14 +3139,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 9,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2170,
-              "cost": 1989.2,
-              "grossProfit": 180.8,
-              "quantity": 14
+              "sales": 2962,
+              "cost": 2913.2,
+              "grossProfit": 48.8,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -3164,30 +3164,39 @@
             },
             {
               "key": "other",
-              "sales": 1415.04,
-              "cost": 897.8,
-              "grossProfit": 517.24,
-              "quantity": 36
+              "sales": 1579.86,
+              "cost": 906.05,
+              "grossProfit": 673.81,
+              "quantity": 47
             }
           ],
           "items": [
             {
               "category": "other",
+              "itemCode": "UT195515",
+              "itemName": "USED TIRE 195/55/15",
+              "quantity": 1,
+              "sales": 50,
+              "cost": 0,
+              "grossProfit": 50
+            },
+            {
+              "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 27.78,
+              "quantity": 5,
+              "sales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 0,
+              "quantity": 18,
+              "sales": 37.04,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -3242,6 +3251,15 @@
               "sales": 662,
               "cost": 680,
               "grossProfit": -18
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "cost": 924,
+              "grossProfit": -132
             },
             {
               "category": "foreman_item",
@@ -3328,10 +3346,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 13,
+              "sales": 130,
+              "cost": 21.45,
+              "grossProfit": 108.55
             },
             {
               "category": "other",
@@ -3346,7 +3364,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:49:42.388Z"
+      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
     },
     "SR": {
       "days": {
@@ -6115,7 +6133,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:49:42.388Z"
+      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
     },
     "ST": {
       "days": {
@@ -9317,7 +9335,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:49:42.388Z"
+      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
     },
     "SK": {
       "days": {
@@ -10917,8 +10935,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:49:42.388Z"
+      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
     }
   },
-  "updatedAt": "2026-11-09T05:49:42.388Z"
+  "updatedAt": "2026-11-09T05:55:14.961Z"
 }
