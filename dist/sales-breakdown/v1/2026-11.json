@@ -10513,11 +10513,55 @@
               "grossProfit": 157.6
             }
           ]
+        },
+        "2026-11-09": {
+          "documents": 1,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 230,
+              "cost": 280,
+              "grossProfit": -50,
+              "quantity": 1
+            },
+            {
+              "key": "other",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            }
+          ],
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "BAMGMF60R",
+              "itemName": "AMARON GO BATTERY (NS60R ST) 55B24R",
+              "quantity": 1,
+              "sales": 230,
+              "cost": 280,
+              "grossProfit": -50
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-08T15:57:59.663Z"
+      "lastCollectedAt": "2026-11-09T01:48:56.968Z"
     }
   },
-  "updatedAt": "2026-11-08T15:57:59.663Z"
+  "updatedAt": "2026-11-09T01:48:56.968Z"
 }
