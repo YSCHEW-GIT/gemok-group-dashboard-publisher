@@ -3688,7 +3688,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
+      "lastCollectedAt": "2026-11-09T04:20:34.238Z"
     },
     "SR": {
       "days": {
@@ -6241,14 +6241,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2342,
-              "cost": 2044,
-              "grossProfit": 298,
-              "quantity": 17
+              "sales": 2518,
+              "cost": 2214,
+              "grossProfit": 304,
+              "quantity": 19
             },
             {
               "key": "sport_rim",
@@ -6266,10 +6266,10 @@
             },
             {
               "key": "other",
-              "sales": 545,
+              "sales": 565,
               "cost": 67.85,
-              "grossProfit": 477.15,
-              "quantity": 49
+              "grossProfit": 497.15,
+              "quantity": 51
             }
           ],
           "items": [
@@ -6286,10 +6286,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 190,
+              "quantity": 26,
+              "sales": 210,
               "cost": 0,
-              "grossProfit": 190
+              "grossProfit": 210
             },
             {
               "category": "foreman_item",
@@ -6331,10 +6331,10 @@
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
-              "quantity": 3,
-              "sales": 324,
-              "cost": 258,
-              "grossProfit": 66
+              "quantity": 5,
+              "sales": 500,
+              "cost": 428,
+              "grossProfit": 72
             },
             {
               "category": "passenger_tire",
@@ -6439,7 +6439,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
+      "lastCollectedAt": "2026-11-09T04:20:34.238Z"
     },
     "ST": {
       "days": {
@@ -9605,7 +9605,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
+      "lastCollectedAt": "2026-11-09T04:20:34.238Z"
     },
     "SK": {
       "days": {
@@ -11070,7 +11070,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11095,10 +11095,10 @@
             },
             {
               "key": "other",
-              "sales": 60,
+              "sales": 90,
               "cost": 82.1,
-              "grossProfit": -22.1,
-              "quantity": 8
+              "grossProfit": 7.9,
+              "quantity": 9
             }
           ],
           "items": [
@@ -11133,6 +11133,15 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
               "quantity": 1,
               "sales": 30,
               "cost": 0,
@@ -11214,8 +11223,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
+      "lastCollectedAt": "2026-11-09T04:20:34.238Z"
     }
   },
-  "updatedAt": "2026-11-09T04:15:01.895Z"
+  "updatedAt": "2026-11-09T04:20:34.238Z"
 }
