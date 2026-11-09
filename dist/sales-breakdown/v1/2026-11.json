@@ -3517,7 +3517,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3536,9 +3536,9 @@
             {
               "key": "foreman_item",
               "sales": 1850,
-              "cost": 1028,
-              "grossProfit": 822,
-              "quantity": 9
+              "cost": 1298,
+              "grossProfit": 552,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -3597,7 +3597,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 1,
               "sales": 90,
               "cost": 28,
@@ -3640,6 +3640,24 @@
               "grossProfit": -40
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKRACKEND",
+              "itemName": "JP RACK END HD CIVIC",
+              "quantity": 2,
+              "sales": 0,
+              "cost": 110,
+              "grossProfit": -110
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKTIERODEND",
+              "itemName": "555 TIE ROD END HD CIVIC",
+              "quantity": 1,
+              "sales": 0,
+              "cost": 160,
+              "grossProfit": -160
+            },
+            {
               "category": "other",
               "itemCode": "MNC019",
               "itemName": "CAMBER NUT PERODUA/PROTON",
@@ -3670,7 +3688,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
+      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
     },
     "SR": {
       "days": {
@@ -6227,9 +6245,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1932,
+              "sales": 1982,
               "cost": 1714,
-              "grossProfit": 218,
+              "grossProfit": 268,
               "quantity": 15
             },
             {
@@ -6248,9 +6266,9 @@
             },
             {
               "key": "other",
-              "sales": 545,
+              "sales": 495,
               "cost": 67.85,
-              "grossProfit": 477.15,
+              "grossProfit": 427.15,
               "quantity": 46
             }
           ],
@@ -6260,18 +6278,18 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 190,
+              "sales": 170,
               "cost": 0,
-              "grossProfit": 190
+              "grossProfit": 170
             },
             {
               "category": "foreman_item",
@@ -6332,9 +6350,9 @@
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
               "quantity": 2,
-              "sales": 238,
+              "sales": 288,
               "cost": 196,
-              "grossProfit": 42
+              "grossProfit": 92
             },
             {
               "category": "passenger_tire",
@@ -6394,7 +6412,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
+      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
     },
     "ST": {
       "days": {
@@ -9375,9 +9393,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3520,
+              "sales": 3590,
               "cost": 3176,
-              "grossProfit": 344,
+              "grossProfit": 414,
               "quantity": 20
             },
             {
@@ -9396,9 +9414,9 @@
             },
             {
               "key": "other",
-              "sales": 471,
+              "sales": 401,
               "cost": 53.4,
-              "grossProfit": 417.6,
+              "grossProfit": 347.6,
               "quantity": 46
             }
           ],
@@ -9408,18 +9426,18 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 60,
+              "sales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 20,
-              "sales": 80,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -9462,9 +9480,9 @@
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 592,
+              "sales": 662,
               "cost": 684,
-              "grossProfit": -92
+              "grossProfit": -22
             },
             {
               "category": "passenger_tire",
@@ -9560,7 +9578,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
+      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
     },
     "SK": {
       "days": {
@@ -11043,10 +11061,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 575,
-              "cost": 506.5,
-              "grossProfit": 68.5,
-              "quantity": 5
+              "sales": 665,
+              "cost": 534.5,
+              "grossProfit": 130.5,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -11130,6 +11148,15 @@
               "grossProfit": 71
             },
             {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
@@ -11151,8 +11178,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
+      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
     }
   },
-  "updatedAt": "2026-11-09T04:03:55.751Z"
+  "updatedAt": "2026-11-09T04:09:29.558Z"
 }
