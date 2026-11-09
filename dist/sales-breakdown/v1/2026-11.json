@@ -3409,7 +3409,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
+      "lastCollectedAt": "2026-11-09T07:16:33.157Z"
     },
     "SR": {
       "days": {
@@ -5987,10 +5987,10 @@
             },
             {
               "key": "other",
-              "sales": 690,
-              "cost": 72.5,
-              "grossProfit": 617.5,
-              "quantity": 75
+              "sales": 718,
+              "cost": 75.1,
+              "grossProfit": 642.9,
+              "quantity": 79
             }
           ],
           "items": [
@@ -6184,6 +6184,15 @@
               "grossProfit": 100.2
             },
             {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 4,
+              "sales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            },
+            {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
@@ -6205,7 +6214,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
+      "lastCollectedAt": "2026-11-09T07:16:33.157Z"
     },
     "ST": {
       "days": {
@@ -9416,7 +9425,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
+      "lastCollectedAt": "2026-11-09T07:16:33.157Z"
     },
     "SK": {
       "days": {
@@ -10858,9 +10867,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1480,
+              "sales": 1530,
               "cost": 1343.84,
-              "grossProfit": 136.16,
+              "grossProfit": 186.16,
               "quantity": 8
             },
             {
@@ -10879,9 +10888,9 @@
             },
             {
               "key": "other",
-              "sales": 260,
+              "sales": 210,
               "cost": 3.7,
-              "grossProfit": 256.3,
+              "grossProfit": 206.3,
               "quantity": 28
             }
           ],
@@ -10909,9 +10918,9 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 60,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -10927,9 +10936,9 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 90,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -10954,9 +10963,9 @@
               "itemCode": "TPGN185515ALTGC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GS5 85V (2026)",
               "quantity": 2,
-              "sales": 316,
+              "sales": 366,
               "cost": 346,
-              "grossProfit": -30
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -11034,8 +11043,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
+      "lastCollectedAt": "2026-11-09T07:16:33.157Z"
     }
   },
-  "updatedAt": "2026-11-09T07:11:02.540Z"
+  "updatedAt": "2026-11-09T07:16:33.157Z"
 }
