@@ -3517,14 +3517,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2000,
-              "cost": 1989.2,
-              "grossProfit": 10.8,
-              "quantity": 14
+              "sales": 3200,
+              "cost": 3185.2,
+              "grossProfit": 14.8,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -3620,6 +3620,15 @@
               "sales": 592,
               "cost": 680,
               "grossProfit": -88
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT205516CC7-26",
+              "itemName": "CONTINENTAL 205/55/16 COMFORT CONTACT CC7 91V CN (2026)",
+              "quantity": 4,
+              "sales": 1200,
+              "cost": 1196,
+              "grossProfit": 4
             },
             {
               "category": "foreman_item",
@@ -3724,7 +3733,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:10:38.181Z"
+      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
     },
     "SR": {
       "days": {
@@ -6475,7 +6484,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:10:38.181Z"
+      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
     },
     "ST": {
       "days": {
@@ -9704,7 +9713,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:10:38.181Z"
+      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
     },
     "SK": {
       "days": {
@@ -11173,9 +11182,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 618,
+              "sales": 678,
               "cost": 555.2,
-              "grossProfit": 62.8,
+              "grossProfit": 122.8,
               "quantity": 4
             },
             {
@@ -11194,9 +11203,9 @@
             },
             {
               "key": "other",
-              "sales": 250,
+              "sales": 190,
               "cost": 322.9,
-              "grossProfit": -72.9,
+              "grossProfit": -132.9,
               "quantity": 20
             }
           ],
@@ -11224,9 +11233,9 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 60,
+              "sales": 40,
               "cost": 320,
-              "grossProfit": -260
+              "grossProfit": -280
             },
             {
               "category": "foreman_item",
@@ -11242,18 +11251,18 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 100,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TH (2026)",
               "quantity": 2,
-              "sales": 238,
+              "sales": 298,
               "cost": 256,
-              "grossProfit": -18
+              "grossProfit": 42
             },
             {
               "category": "passenger_tire",
@@ -11331,8 +11340,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:10:38.181Z"
+      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
     }
   },
-  "updatedAt": "2026-11-09T05:10:38.181Z"
+  "updatedAt": "2026-11-09T05:16:07.910Z"
 }
