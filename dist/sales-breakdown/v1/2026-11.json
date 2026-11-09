@@ -6071,14 +6071,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1342,
-              "cost": 1174,
-              "grossProfit": 168,
-              "quantity": 9
+              "sales": 1580,
+              "cost": 1370,
+              "grossProfit": 210,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -6096,10 +6096,10 @@
             },
             {
               "key": "other",
-              "sales": 305,
-              "cost": 57.95,
-              "grossProfit": 247.05,
-              "quantity": 26
+              "sales": 375,
+              "cost": 61.25,
+              "grossProfit": 313.75,
+              "quantity": 31
             }
           ],
           "items": [
@@ -6107,19 +6107,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
+              "quantity": 5,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 110,
+              "quantity": 16,
+              "sales": 130,
               "cost": 0,
-              "grossProfit": 110
+              "grossProfit": 130
             },
             {
               "category": "foreman_item",
@@ -6156,6 +6156,15 @@
               "sales": 324,
               "cost": 258,
               "grossProfit": 66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117-26",
+              "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
+              "quantity": 2,
+              "sales": 238,
+              "cost": 196,
+              "grossProfit": 42
             },
             {
               "category": "passenger_tire",
@@ -6197,10 +6206,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 4,
-              "sales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 6,
+              "sales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
             },
             {
               "category": "foreman_item",
@@ -6215,7 +6224,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:06:42.530Z"
+      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
     },
     "ST": {
       "days": {
@@ -9192,7 +9201,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9210,10 +9219,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 258,
-              "cost": 68,
-              "grossProfit": 190,
-              "quantity": 3
+              "sales": 356,
+              "cost": 100,
+              "grossProfit": 256,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -9331,12 +9340,21 @@
               "sales": 68,
               "cost": 28,
               "grossProfit": 40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC0046FPLT",
+              "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
+              "quantity": 1,
+              "sales": 98,
+              "cost": 32,
+              "grossProfit": 66
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:06:42.530Z"
+      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
     },
     "SK": {
       "days": {
@@ -10900,8 +10918,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:06:42.530Z"
+      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
     }
   },
-  "updatedAt": "2026-11-09T03:06:42.530Z"
+  "updatedAt": "2026-11-09T03:16:09.980Z"
 }
