@@ -3517,14 +3517,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1360,
-              "cost": 1397.2,
-              "grossProfit": -37.2,
-              "quantity": 10
+              "sales": 2144,
+              "cost": 1989.2,
+              "grossProfit": 154.8,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -3542,10 +3542,10 @@
             },
             {
               "key": "other",
-              "sales": 1451.86,
-              "cost": 895.2,
-              "grossProfit": 556.66,
-              "quantity": 27
+              "sales": 1553.94,
+              "cost": 897.8,
+              "grossProfit": 656.14,
+              "quantity": 36
             }
           ],
           "items": [
@@ -3562,10 +3562,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 37.04,
+              "quantity": 14,
+              "sales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -3575,6 +3575,15 @@
               "sales": 9.26,
               "cost": 0,
               "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -3593,6 +3602,15 @@
               "sales": 542,
               "cost": 547.2,
               "grossProfit": -5.2
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGT165R13C-26",
+              "itemName": "GITI 165 R13C 600A 94/93S (8PR) (2026)",
+              "quantity": 4,
+              "sales": 784,
+              "cost": 592,
+              "grossProfit": 192
             },
             {
               "category": "passenger_tire",
@@ -3677,6 +3695,15 @@
             },
             {
               "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 4,
+              "sales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 8,
@@ -3697,7 +3724,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
+      "lastCollectedAt": "2026-11-09T04:54:05.924Z"
     },
     "SR": {
       "days": {
@@ -6250,7 +6277,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6275,10 +6302,10 @@
             },
             {
               "key": "other",
-              "sales": 525,
-              "cost": 67.85,
-              "grossProfit": 457.15,
-              "quantity": 51
+              "sales": 595,
+              "cost": 70.55,
+              "grossProfit": 524.45,
+              "quantity": 55
             }
           ],
           "items": [
@@ -6403,19 +6430,19 @@
               "category": "other",
               "itemCode": "MDT042",
               "itemName": "DURA TUBE PATCHES 42MM (CIRCLE)",
-              "quantity": 1,
-              "sales": 10,
-              "cost": 0.35,
-              "grossProfit": 9.65
+              "quantity": 3,
+              "sales": 30,
+              "cost": 1.05,
+              "grossProfit": 28.95
             },
             {
               "category": "other",
               "itemCode": "MTT060",
               "itemName": "TIRE PATCHES TIPTOP 60MM (CIRCLE)",
-              "quantity": 1,
-              "sales": 25,
-              "cost": 1,
-              "grossProfit": 24
+              "quantity": 3,
+              "sales": 75,
+              "cost": 3,
+              "grossProfit": 72
             },
             {
               "category": "other",
@@ -6448,7 +6475,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
+      "lastCollectedAt": "2026-11-09T04:54:05.924Z"
     },
     "ST": {
       "days": {
@@ -9450,10 +9477,10 @@
             },
             {
               "key": "other",
-              "sales": 401,
-              "cost": 53.4,
+              "sales": 451,
+              "cost": 103.4,
               "grossProfit": 347.6,
-              "quantity": 46
+              "quantity": 48
             }
           ],
           "items": [
@@ -9483,6 +9510,15 @@
               "sales": 60,
               "cost": 0,
               "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 50,
+              "cost": 50,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -9668,7 +9704,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
+      "lastCollectedAt": "2026-11-09T04:54:05.924Z"
     },
     "SK": {
       "days": {
@@ -11295,8 +11331,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
+      "lastCollectedAt": "2026-11-09T04:54:05.924Z"
     }
   },
-  "updatedAt": "2026-11-09T04:48:36.070Z"
+  "updatedAt": "2026-11-09T04:54:05.924Z"
 }
