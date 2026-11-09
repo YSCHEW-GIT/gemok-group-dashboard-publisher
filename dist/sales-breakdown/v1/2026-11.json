@@ -3364,7 +3364,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:22:48.951Z"
+      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
     },
     "SR": {
       "days": {
@@ -6133,7 +6133,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:22:48.951Z"
+      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
     },
     "ST": {
       "days": {
@@ -9065,14 +9065,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5332,
-              "cost": 4610,
-              "grossProfit": 722,
-              "quantity": 26
+              "sales": 5924,
+              "cost": 5294,
+              "grossProfit": 630,
+              "quantity": 30
             },
             {
               "key": "sport_rim",
@@ -9090,10 +9090,10 @@
             },
             {
               "key": "other",
-              "sales": 491,
-              "cost": 113.3,
-              "grossProfit": 377.7,
-              "quantity": 62
+              "sales": 601,
+              "cost": 119.9,
+              "grossProfit": 481.1,
+              "quantity": 71
             }
           ],
           "items": [
@@ -9101,19 +9101,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 30,
+              "quantity": 9,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 20,
+              "quantity": 30,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -9173,10 +9173,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
-              "quantity": 4,
-              "sales": 662,
-              "cost": 684,
-              "grossProfit": -22
+              "quantity": 8,
+              "sales": 1254,
+              "cost": 1368,
+              "grossProfit": -114
             },
             {
               "category": "passenger_tire",
@@ -9272,10 +9272,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 14,
-              "sales": 140,
-              "cost": 23.1,
-              "grossProfit": 116.9
+              "quantity": 18,
+              "sales": 180,
+              "cost": 29.7,
+              "grossProfit": 150.3
             },
             {
               "category": "other",
@@ -9335,7 +9335,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:22:48.951Z"
+      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
     },
     "SK": {
       "days": {
@@ -10773,14 +10773,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1114,
-              "cost": 997.84,
-              "grossProfit": 116.16,
-              "quantity": 6
+              "sales": 1430,
+              "cost": 1343.84,
+              "grossProfit": 86.16,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -10798,10 +10798,10 @@
             },
             {
               "key": "other",
-              "sales": 240,
-              "cost": 402.9,
-              "grossProfit": -162.9,
-              "quantity": 23
+              "sales": 310,
+              "cost": 483.7,
+              "grossProfit": -173.7,
+              "quantity": 28
             }
           ],
           "items": [
@@ -10827,10 +10827,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 60,
-              "cost": 400,
-              "grossProfit": -340
+              "quantity": 12,
+              "sales": 80,
+              "cost": 480,
+              "grossProfit": -400
             },
             {
               "category": "foreman_item",
@@ -10845,10 +10845,10 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
+              "quantity": 5,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "passenger_tire",
@@ -10867,6 +10867,15 @@
               "sales": 380,
               "cost": 299.2,
               "grossProfit": 80.8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN185515ALTGC5-26",
+              "itemName": "GENERAL 185/55/15 ALTIMAX GS5 85V (2026)",
+              "quantity": 2,
+              "sales": 316,
+              "cost": 346,
+              "grossProfit": -30
             },
             {
               "category": "passenger_tire",
@@ -10917,10 +10926,10 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 40,
-              "cost": 1.6,
-              "grossProfit": 38.4
+              "quantity": 6,
+              "sales": 60,
+              "cost": 2.4,
+              "grossProfit": 57.6
             },
             {
               "category": "other",
@@ -10944,8 +10953,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:22:48.951Z"
+      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
     }
   },
-  "updatedAt": "2026-11-09T06:22:48.951Z"
+  "updatedAt": "2026-11-09T06:28:19.539Z"
 }
