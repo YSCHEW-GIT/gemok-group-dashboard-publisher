@@ -120,7 +120,7 @@
     .store-focus-donut-center { position:relative; z-index:1; display:grid; width:58%; gap:4px; text-align:center; }
     .store-focus-donut-center small { color:var(--muted); font-size:10px; }
     .store-focus-donut-center strong { overflow-wrap:anywhere; font-size:clamp(14px,1.55vw,20px); line-height:1.15; }
-    .store-focus-donut-label { position:absolute; z-index:2; min-width:24px; padding:2px 3px; border-radius:5px; color:#fff; background:rgba(7,18,31,.72); font-size:10px; font-weight:900; line-height:1.2; text-align:center; text-shadow:0 1px 3px rgba(0,0,0,.9); transform:translate(-50%,-50%); }
+    .store-focus-donut-label { position:absolute; z-index:2; min-width:24px; padding:2px 3px; border-radius:5px; color:#fff; background:transparent; font-size:10px; font-weight:900; line-height:1.2; text-align:center; text-shadow:0 1px 3px rgba(0,0,0,.9); transform:translate(-50%,-50%); }
     .store-focus-kpis { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin-bottom:14px; }
     .store-focus-kpi { padding:12px; border-radius:10px; background:var(--panel-2); }
     .store-focus-kpi small { display:block; color:var(--muted); font-size:9px; }
@@ -1129,7 +1129,8 @@
           position += ratio * 100;
           const midAngle = (start + position) / 2 * 3.6 - 90;
           const angle = midAngle * Math.PI / 180;
-          donutLabels.push(`<span class="store-focus-donut-label" style="left:${50 + Math.cos(angle) * 27}%;top:${50 + Math.sin(angle) * 27}%">${Math.round(ratio * 100)}%</span>`);
+          const percentage = total ? Math.round(ratio * 100) : 0;
+          if (percentage > 0) donutLabels.push(`<span class="store-focus-donut-label" style="left:${50 + Math.cos(angle) * 27}%;top:${50 + Math.sin(angle) * 27}%">${percentage}%</span>`);
           return `${storeFocusColors[row.key]} ${start}% ${position}%`;
         }).join(',');
         const categoryCards = data.categories.map((row) => `<button class="store-focus-category" type="button" data-focus-category="${row.key}"><i style="background:${storeFocusColors[row.key]}"></i><span><strong>${escapeHtml(copy.categories[row.key])}</strong><small>${copy.quantity} ${Number(row.quantity || 0).toLocaleString(localeByLanguage[language])}</small></span><b>${focusMoney(row.sales)}<small>${copy.grossProfit} ${focusMoney(row.grossProfit)}</small></b><span class="store-focus-category-margin"><small>${copy.margin}</small><strong>${focusRate(row.grossMarginRate)}</strong></span></button>`).join('');
