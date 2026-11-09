@@ -3669,7 +3669,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
               "sales": 40,
               "cost": 6.6,
@@ -3688,7 +3688,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
+      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
     },
     "SR": {
       "days": {
@@ -6241,14 +6241,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 10,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1982,
-              "cost": 1714,
-              "grossProfit": 268,
-              "quantity": 15
+              "sales": 2342,
+              "cost": 2044,
+              "grossProfit": 298,
+              "quantity": 17
             },
             {
               "key": "sport_rim",
@@ -6259,17 +6259,17 @@
             },
             {
               "key": "foreman_item",
-              "sales": 420,
-              "cost": 57,
-              "grossProfit": 363,
-              "quantity": 5
+              "sales": 870,
+              "cost": 381.7,
+              "grossProfit": 488.3,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 495,
+              "sales": 545,
               "cost": 67.85,
-              "grossProfit": 427.15,
-              "quantity": 46
+              "grossProfit": 477.15,
+              "quantity": 49
             }
           ],
           "items": [
@@ -6277,19 +6277,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 90,
+              "quantity": 7,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
-              "sales": 170,
+              "quantity": 24,
+              "sales": 190,
               "cost": 0,
-              "grossProfit": 170
+              "grossProfit": 190
             },
             {
               "category": "foreman_item",
@@ -6356,12 +6356,30 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWL185516Z117",
+              "itemName": "WEST LAKE 185/55/16 83V ZUPER FLEX Z-117 (2026)",
+              "quantity": 2,
+              "sales": 360,
+              "cost": 330,
+              "grossProfit": 30
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPTY185516CR1",
               "itemName": "TOYO 185/55/16 PXCR1 M'SIA (2026)",
               "quantity": 2,
               "sales": 506,
               "cost": 404,
               "grossProfit": 102
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PSPNGKLKR6C",
+              "itemName": "NGK SPARK PLUG LKR6C AXIA 1.0 BEZZA 1.0 SPX",
+              "quantity": 1,
+              "sales": 70,
+              "cost": 24.7,
+              "grossProfit": 45.3
             },
             {
               "category": "foreman_item",
@@ -6393,7 +6411,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 10,
               "sales": 100,
               "cost": 16.5,
@@ -6407,12 +6425,21 @@
               "sales": 5,
               "cost": 1,
               "grossProfit": 4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PABVKCTTMORR",
+              "itemName": "VERKE ABSORBER HONDA CITY TMO 08-14 VR01 8046 348021M (RR)",
+              "quantity": 1,
+              "sales": 380,
+              "cost": 300,
+              "grossProfit": 80
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
+      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
     },
     "ST": {
       "days": {
@@ -9514,7 +9541,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 8,
               "sales": 80,
               "cost": 13.2,
@@ -9578,7 +9605,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
+      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
     },
     "SK": {
       "days": {
@@ -11043,7 +11070,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11068,10 +11095,10 @@
             },
             {
               "key": "other",
-              "sales": 40,
-              "cost": 80.8,
-              "grossProfit": -40.8,
-              "quantity": 7
+              "sales": 60,
+              "cost": 82.1,
+              "grossProfit": -22.1,
+              "quantity": 8
             }
           ],
           "items": [
@@ -11166,6 +11193,15 @@
               "grossProfit": 19.2
             },
             {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 1,
+              "sales": 20,
+              "cost": 1.3,
+              "grossProfit": 18.7
+            },
+            {
               "category": "foreman_item",
               "itemCode": "BAMGMF60R",
               "itemName": "AMARON GO BATTERY (NS60R ST) 55B24R",
@@ -11178,8 +11214,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:09:29.558Z"
+      "lastCollectedAt": "2026-11-09T04:15:01.895Z"
     }
   },
-  "updatedAt": "2026-11-09T04:09:29.558Z"
+  "updatedAt": "2026-11-09T04:15:01.895Z"
 }
