@@ -2717,10 +2717,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1850,
-              "cost": 1298,
-              "grossProfit": 552,
-              "quantity": 12
+              "sales": 2080,
+              "cost": 1378.8,
+              "grossProfit": 701.2,
+              "quantity": 14
             },
             {
               "key": "other",
@@ -2850,12 +2850,21 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PBBPIRIZ6900C",
+              "itemName": "PLATINUM BRAKE PAD IRIZ/PERSONA FRT 6900C",
+              "quantity": 1,
+              "sales": 140,
+              "cost": 52.8,
+              "grossProfit": 87.2
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "cost": 28,
-              "grossProfit": 62
+              "quantity": 2,
+              "sales": 180,
+              "cost": 56,
+              "grossProfit": 124
             },
             {
               "category": "foreman_item",
@@ -3400,7 +3409,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
+      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
     },
     "SR": {
       "days": {
@@ -5953,14 +5962,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3128,
-              "cost": 2544,
-              "grossProfit": 584,
-              "quantity": 21
+              "sales": 3524,
+              "cost": 3014.4,
+              "grossProfit": 509.6,
+              "quantity": 25
             },
             {
               "key": "sport_rim",
@@ -5978,10 +5987,10 @@
             },
             {
               "key": "other",
-              "sales": 620,
+              "sales": 690,
               "cost": 72.5,
-              "grossProfit": 547.5,
-              "quantity": 70
+              "grossProfit": 617.5,
+              "quantity": 75
             }
           ],
           "items": [
@@ -5989,19 +5998,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 150,
+              "quantity": 12,
+              "sales": 180,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 180
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
-              "sales": 150,
+              "quantity": 38,
+              "sales": 190,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 190
             },
             {
               "category": "foreman_item",
@@ -6083,6 +6092,15 @@
               "sales": 410,
               "cost": 330,
               "grossProfit": 80
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL165514RP18-26",
+              "itemName": "WEST LAKE 165/55/14 RP18 72V TH (2026)",
+              "quantity": 4,
+              "sales": 396,
+              "cost": 470.4,
+              "grossProfit": -74.4
             },
             {
               "category": "passenger_tire",
@@ -6187,7 +6205,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
+      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
     },
     "ST": {
       "days": {
@@ -9144,10 +9162,10 @@
             },
             {
               "key": "other",
-              "sales": 699,
-              "cost": 122.5,
-              "grossProfit": 576.5,
-              "quantity": 80
+              "sales": 744,
+              "cost": 132.5,
+              "grossProfit": 611.5,
+              "quantity": 81
             }
           ],
           "items": [
@@ -9362,10 +9380,10 @@
               "category": "other",
               "itemCode": "MNCHDCT",
               "itemName": "CAMBER NUT HONDA CITY 1.5 (22mm)/ JAZZ (NEW)",
-              "quantity": 1,
-              "sales": 45,
-              "cost": 10,
-              "grossProfit": 35
+              "quantity": 2,
+              "sales": 90,
+              "cost": 20,
+              "grossProfit": 70
             },
             {
               "category": "foreman_item",
@@ -9398,7 +9416,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
+      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
     },
     "SK": {
       "days": {
@@ -10840,9 +10858,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1430,
+              "sales": 1480,
               "cost": 1343.84,
-              "grossProfit": 86.16,
+              "grossProfit": 136.16,
               "quantity": 8
             },
             {
@@ -10861,9 +10879,9 @@
             },
             {
               "key": "other",
-              "sales": 310,
+              "sales": 260,
               "cost": 3.7,
-              "grossProfit": 306.3,
+              "grossProfit": 256.3,
               "quantity": 28
             }
           ],
@@ -10891,9 +10909,9 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 80,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -10909,9 +10927,9 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 120,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "passenger_tire",
@@ -10945,9 +10963,9 @@
               "itemCode": "TPBS195515RE005-26",
               "itemName": "BRIDGESTONE 195/55/15 RE005 (2026)",
               "quantity": 2,
-              "sales": 436,
+              "sales": 486,
               "cost": 442.64,
-              "grossProfit": -6.64
+              "grossProfit": 43.36
             },
             {
               "category": "foreman_item",
@@ -11016,8 +11034,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
+      "lastCollectedAt": "2026-11-09T07:11:02.540Z"
     }
   },
-  "updatedAt": "2026-11-09T07:05:30.050Z"
+  "updatedAt": "2026-11-09T07:11:02.540Z"
 }
