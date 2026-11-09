@@ -3733,7 +3733,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:32:40.536Z"
+      "lastCollectedAt": "2026-11-09T05:38:11.555Z"
     },
     "SR": {
       "days": {
@@ -6286,7 +6286,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 16,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6311,10 +6311,10 @@
             },
             {
               "key": "other",
-              "sales": 460,
-              "cost": 69.2,
-              "grossProfit": 390.8,
-              "quantity": 55
+              "sales": 590,
+              "cost": 72.5,
+              "grossProfit": 517.5,
+              "quantity": 66
             }
           ],
           "items": [
@@ -6322,19 +6322,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 90,
+              "quantity": 9,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 90,
+              "quantity": 32,
+              "sales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "foreman_item",
@@ -6367,10 +6367,10 @@
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
-              "quantity": 4,
-              "sales": 40,
+              "quantity": 6,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -6466,10 +6466,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 10,
-              "sales": 100,
-              "cost": 16.5,
-              "grossProfit": 83.5
+              "quantity": 12,
+              "sales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "foreman_item",
@@ -6493,7 +6493,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:32:40.536Z"
+      "lastCollectedAt": "2026-11-09T05:38:11.555Z"
     },
     "ST": {
       "days": {
@@ -9470,14 +9470,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4986,
-              "cost": 4376,
-              "grossProfit": 610,
-              "quantity": 24
+              "sales": 5332,
+              "cost": 4610,
+              "grossProfit": 722,
+              "quantity": 26
             },
             {
               "key": "sport_rim",
@@ -9496,9 +9496,9 @@
             {
               "key": "other",
               "sales": 491,
-              "cost": 110,
-              "grossProfit": 381,
-              "quantity": 57
+              "cost": 113.3,
+              "grossProfit": 377.7,
+              "quantity": 62
             }
           ],
           "items": [
@@ -9506,7 +9506,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
+              "quantity": 8,
               "sales": 30,
               "cost": 0,
               "grossProfit": 30
@@ -9515,10 +9515,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 40,
+              "quantity": 26,
+              "sales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -9558,12 +9558,21 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWR204517R330-26",
+              "itemName": "WINRUN 205/45/17 R330 88W XL TL (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "cost": 234,
+              "grossProfit": 42
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPLF185515TL",
               "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
               "quantity": 4,
-              "sales": 552,
+              "sales": 622,
               "cost": 480,
-              "grossProfit": 72
+              "grossProfit": 142
             },
             {
               "category": "passenger_tire",
@@ -9668,10 +9677,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 12,
-              "sales": 120,
-              "cost": 19.8,
-              "grossProfit": 100.2
+              "quantity": 14,
+              "sales": 140,
+              "cost": 23.1,
+              "grossProfit": 116.9
             },
             {
               "category": "other",
@@ -9731,7 +9740,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:32:40.536Z"
+      "lastCollectedAt": "2026-11-09T05:38:11.555Z"
     },
     "SK": {
       "days": {
@@ -11358,8 +11367,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:32:40.536Z"
+      "lastCollectedAt": "2026-11-09T05:38:11.555Z"
     }
   },
-  "updatedAt": "2026-11-09T05:32:40.536Z"
+  "updatedAt": "2026-11-09T05:38:11.555Z"
 }
