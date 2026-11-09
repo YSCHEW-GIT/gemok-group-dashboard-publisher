@@ -2703,9 +2703,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5244,
+              "sales": 5314,
               "cost": 5061.2,
-              "grossProfit": 182.8,
+              "grossProfit": 252.8,
               "quantity": 29
             },
             {
@@ -2724,9 +2724,9 @@
             },
             {
               "key": "other",
-              "sales": 1913.58,
+              "sales": 1848.76,
               "cost": 942.55,
-              "grossProfit": 971.03,
+              "grossProfit": 906.21,
               "quantity": 85
             }
           ],
@@ -2745,18 +2745,18 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 55.56,
+              "sales": 27.78,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 27.78
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 28,
-              "sales": 129.64,
+              "sales": 92.6,
               "cost": 0,
-              "grossProfit": 129.64
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -2779,7 +2779,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 6,
               "sales": 578,
               "cost": 510,
@@ -2824,11 +2824,11 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
-              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
-              "sales": 792,
+              "sales": 862,
               "cost": 924,
-              "grossProfit": -132
+              "grossProfit": -62
             },
             {
               "category": "passenger_tire",
@@ -3391,7 +3391,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:49:16.093Z"
+      "lastCollectedAt": "2026-11-09T06:54:28.248Z"
     },
     "SR": {
       "days": {
@@ -5944,7 +5944,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5962,10 +5962,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 870,
-              "cost": 381.7,
-              "grossProfit": 488.3,
-              "quantity": 7
+              "sales": 1050,
+              "cost": 489.2,
+              "grossProfit": 560.8,
+              "quantity": 9
             },
             {
               "key": "other",
@@ -6015,7 +6015,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 2,
               "sales": 60,
               "cost": 50,
@@ -6042,7 +6042,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 5,
               "sales": 520,
               "cost": 428,
@@ -6051,7 +6051,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
               "sales": 422,
               "cost": 344,
@@ -6104,8 +6104,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFPRKN",
+              "itemName": "OIL FILTER PERODUA 00R01",
+              "quantity": 1,
+              "sales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 180,
+              "cost": 100,
+              "grossProfit": 80
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OPRCLRSR",
-              "itemName": "SARAMOLY PRE-MIXED COOLANT RED",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
               "quantity": 1,
               "sales": 100,
               "cost": 56,
@@ -6160,7 +6178,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:49:16.093Z"
+      "lastCollectedAt": "2026-11-09T06:54:28.248Z"
     },
     "ST": {
       "days": {
@@ -9154,7 +9172,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 2,
               "sales": 50,
               "cost": 50,
@@ -9163,7 +9181,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 7,
               "sales": 761,
               "cost": 602,
@@ -9172,7 +9190,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 1,
               "sales": 113,
               "cost": 86,
@@ -9362,7 +9380,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:49:16.093Z"
+      "lastCollectedAt": "2026-11-09T06:54:28.248Z"
     },
     "SK": {
       "days": {
@@ -10980,8 +10998,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:49:16.093Z"
+      "lastCollectedAt": "2026-11-09T06:54:28.248Z"
     }
   },
-  "updatedAt": "2026-11-09T06:49:16.093Z"
+  "updatedAt": "2026-11-09T06:54:28.248Z"
 }
