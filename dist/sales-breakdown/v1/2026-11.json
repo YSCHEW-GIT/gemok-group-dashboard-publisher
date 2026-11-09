@@ -2699,14 +2699,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3364,
-              "cost": 3253.2,
-              "grossProfit": 110.8,
-              "quantity": 23
+              "sales": 3864,
+              "cost": 3733.2,
+              "grossProfit": 130.8,
+              "quantity": 25
             },
             {
               "key": "sport_rim",
@@ -2724,10 +2724,10 @@
             },
             {
               "key": "other",
-              "sales": 1643.94,
-              "cost": 912.65,
-              "grossProfit": 731.29,
-              "quantity": 55
+              "sales": 1719.5,
+              "cost": 915.95,
+              "grossProfit": 803.55,
+              "quantity": 60
             }
           ],
           "items": [
@@ -2753,10 +2753,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
-              "sales": 74.08,
+              "quantity": 24,
+              "sales": 92.6,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -2771,10 +2771,10 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 37.04,
+              "quantity": 3,
+              "sales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "passenger_tire",
@@ -2811,6 +2811,15 @@
               "sales": 662,
               "cost": 680,
               "grossProfit": -18
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN206515GS6-26",
+              "itemName": "GENERAL 205/65/15 ALTIMAX GS6 94V CN (2026)",
+              "quantity": 2,
+              "sales": 500,
+              "cost": 480,
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -2906,10 +2915,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 17,
-              "sales": 170,
-              "cost": 28.05,
-              "grossProfit": 141.95
+              "quantity": 19,
+              "sales": 190,
+              "cost": 31.35,
+              "grossProfit": 158.65
             },
             {
               "category": "other",
@@ -3364,7 +3373,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
+      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
     },
     "SR": {
       "days": {
@@ -6133,7 +6142,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
+      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
     },
     "ST": {
       "days": {
@@ -9335,7 +9344,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
+      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
     },
     "SK": {
       "days": {
@@ -10953,8 +10962,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:28:19.539Z"
+      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
     }
   },
-  "updatedAt": "2026-11-09T06:28:19.539Z"
+  "updatedAt": "2026-11-09T06:33:50.580Z"
 }
