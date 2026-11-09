@@ -113,46 +113,29 @@
     .store-focus-stamp { color:var(--muted); font-size:10px; text-align:right; }
     .store-focus-layout { display:grid; grid-template-columns:minmax(290px,.8fr) minmax(0,1.6fr); gap:15px; margin-top:15px; }
     .store-focus-panel { padding:20px; border:1px solid rgba(159,192,238,.14); border-radius:15px; background:var(--panel); }
-    .store-focus-donut-wrap { display:grid; place-items:center; min-height:340px; overflow:hidden; }
-    .store-focus-donut-stage { position:relative; width:min(100%,330px); aspect-ratio:1; }
-    .store-focus-donut { position:absolute; inset:17%; display:grid; place-items:center; border-radius:50%; background:conic-gradient(var(--green) 0 25%,var(--blue) 25% 50%,var(--amber) 50% 75%,#a78bfa 75% 100%); box-shadow:0 20px 55px rgba(0,0,0,.3); }
+    .store-focus-donut-wrap { display:grid; place-items:center; min-height:300px; }
+    .store-focus-donut { position:relative; display:grid; width:220px; aspect-ratio:1; place-items:center; border-radius:50%; background:conic-gradient(var(--green) 0 25%,var(--blue) 25% 50%,var(--amber) 50% 75%,#a78bfa 75% 100%); box-shadow:0 20px 55px rgba(0,0,0,.3); }
     .store-focus-donut::after { content:""; position:absolute; width:62%; aspect-ratio:1; border-radius:50%; background:#142239; }
-    .store-focus-donut-center { position:relative; z-index:1; display:grid; width:58%; gap:4px; text-align:center; }
+    .store-focus-donut-center { position:relative; z-index:1; display:grid; gap:4px; text-align:center; }
     .store-focus-donut-center small { color:var(--muted); font-size:10px; }
-    .store-focus-donut-center strong { overflow-wrap:anywhere; font-size:clamp(14px,1.55vw,20px); line-height:1.15; }
-    .store-focus-donut-label { position:absolute; z-index:2; min-width:24px; padding:2px 3px; border-radius:5px; color:#fff; background:transparent; font-size:10px; font-weight:900; line-height:1.2; text-align:center; text-shadow:0 1px 3px rgba(0,0,0,.9); transform:translate(-50%,-50%); }
+    .store-focus-donut-center strong { font-size:22px; }
     .store-focus-kpis { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin-bottom:14px; }
     .store-focus-kpi { padding:12px; border-radius:10px; background:var(--panel-2); }
     .store-focus-kpi small { display:block; color:var(--muted); font-size:9px; }
     .store-focus-kpi strong { display:block; margin-top:5px; font-size:16px; }
     .store-focus-categories { display:grid; gap:8px; }
-    .store-focus-category { display:grid; grid-template-columns:12px minmax(0,1fr) minmax(120px,auto) minmax(68px,auto); gap:10px; align-items:center; width:100%; padding:13px; border:1px solid transparent; border-radius:11px; color:inherit; background:var(--panel-2); text-align:left; font:inherit; cursor:pointer; }
+    .store-focus-category { display:grid; grid-template-columns:12px minmax(0,1fr) auto; gap:10px; align-items:center; width:100%; padding:13px; border:1px solid transparent; border-radius:11px; color:inherit; background:var(--panel-2); text-align:left; font:inherit; cursor:pointer; }
     .store-focus-category:hover { border-color:rgba(115,168,255,.35); transform:translateY(-1px); }
     .store-focus-category i { width:9px; height:9px; border-radius:3px; }
     .store-focus-category span { display:grid; gap:3px; }
     .store-focus-category small { color:var(--muted); font-size:9px; }
     .store-focus-category b { font-size:12px; text-align:right; }
     .store-focus-category b small { display:block; margin-top:3px; }
-    .store-focus-category-margin { display:grid; gap:4px; padding-left:10px; border-left:1px solid rgba(159,192,238,.14); text-align:right; }
-    .store-focus-category-margin small { font-size:9px; }
-    .store-focus-category-margin strong { font-size:12px; }
     .store-focus-state { grid-column:1/-1; min-height:300px; display:grid; place-items:center; padding:40px; color:var(--muted); border:1px dashed rgba(159,192,238,.2); border-radius:15px; background:rgba(25,40,61,.7); text-align:center; line-height:1.8; }
-    .store-focus-items { grid-column:1/-1; min-width:0; }
-    .store-focus-item-tools { display:flex; align-items:end; justify-content:space-between; gap:12px; margin:12px 0; }
-    .store-focus-search { display:grid; width:min(100%,430px); gap:5px; color:var(--muted); font-size:10px; font-weight:800; }
-    .store-focus-search input { width:100%; padding:10px 12px; border:1px solid rgba(159,192,238,.2); border-radius:9px; color:var(--text); background:#112139; font:inherit; outline:0; }
-    .store-focus-search input:focus { border-color:var(--blue); box-shadow:0 0 0 3px rgba(115,168,255,.12); }
-    .store-focus-item-count { color:var(--muted); font-size:10px; white-space:nowrap; }
-    .store-focus-table-wrap { width:100%; overflow:auto; border:1px solid rgba(159,192,238,.1); border-radius:10px; }
-    .store-focus-items table { width:100%; min-width:760px; border-collapse:collapse; font-size:11px; }
+    .store-focus-items { grid-column:1/-1; }
+    .store-focus-items table { width:100%; border-collapse:collapse; font-size:11px; }
     .store-focus-items th,.store-focus-items td { padding:10px; border-bottom:1px solid rgba(159,192,238,.12); text-align:right; }
     .store-focus-items th:first-child,.store-focus-items td:first-child,.store-focus-items th:nth-child(2),.store-focus-items td:nth-child(2) { text-align:left; }
-    .store-focus-sort { display:inline-flex; align-items:center; gap:4px; padding:0; border:0; color:#cfe1ff; background:transparent; font:inherit; font-weight:800; cursor:pointer; white-space:nowrap; }
-    .store-focus-sort::after { content:"\2195"; color:#7188aa; font-size:10px; }
-    th[aria-sort="ascending"] .store-focus-sort::after { content:"\2191"; color:var(--green); }
-    th[aria-sort="descending"] .store-focus-sort::after { content:"\2193"; color:var(--green); }
-    .store-focus-item-negative td { color:#ff7b7b; font-weight:800; background:rgba(255,77,77,.055); }
-    .store-focus-items-empty { padding:24px; color:var(--muted); text-align:center; }
     .construction-icon { display:grid; width:58px; height:58px; place-items:center; border:1px solid rgba(115,168,255,.35); border-radius:17px; color:var(--blue); background:#162943; font-size:29px; }
     .construction-eyebrow { margin:18px 0 8px; color:var(--green); font-size:12px; font-weight:800; letter-spacing:.11em; }
     .construction h1 { font-size:27px; }
@@ -372,8 +355,7 @@
     .target-saved { color:var(--green); font-weight:700; }
     .save-targets { flex:0 0 auto; padding:11px 16px; border:0; border-radius:8px; color:#07131f; background:var(--green); font:inherit; font-size:12px; font-weight:800; cursor:pointer; }
     .save-targets:hover { filter:brightness(1.06); }
-    @media (max-width:760px) { .store-focus-toolbar,.store-focus-hero { display:block; } .store-focus-tabs,.store-focus-periods { margin-top:12px; } .store-focus-layout { grid-template-columns:1fr; } .store-focus-stamp { margin-top:12px; text-align:left; } .store-focus-item-tools { display:grid; } .store-focus-search { width:100%; } .store-focus-item-count { white-space:normal; } }
-    @media (max-width:520px) { .store-focus-panel { padding:14px; } .store-focus-donut-wrap { min-height:300px; } .store-focus-donut-stage { width:290px; max-width:100%; } .store-focus-kpis { grid-template-columns:1fr; } .store-focus-category { grid-template-columns:10px minmax(0,1fr) auto; gap:8px; } .store-focus-category > b { font-size:11px; } .store-focus-category-margin { grid-column:2/-1; display:flex; justify-content:flex-end; gap:8px; padding-top:7px; padding-left:0; border-top:1px solid rgba(159,192,238,.14); border-left:0; } }
+    @media (max-width:760px) { .store-focus-toolbar,.store-focus-hero { display:block; } .store-focus-tabs,.store-focus-periods { margin-top:12px; } .store-focus-layout { grid-template-columns:1fr; } .store-focus-stamp { margin-top:12px; text-align:left; } .store-focus-items { overflow:auto; } }
     @media (max-width:1000px) { .daily-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-row { grid-template-columns:repeat(3,minmax(0,1fr)); } .month-label { grid-column:span 3; padding:0; } .target-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .system-grid { grid-template-columns:1fr; } .inventory-group-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .inventory-filter-controls { grid-template-columns:1fr 1fr; } .inventory-filter-keyword { grid-column:1 / -1; } }
     @media (max-width:720px) { .app { grid-template-columns:minmax(0,1fr); grid-template-rows:86px auto minmax(0,1fr); } .topbar { grid-column:auto; min-width:0; gap:8px; padding:0 12px; } .brand { min-width:0; flex:1 1 auto; gap:7px; overflow:hidden; } .brand-mark { flex:0 0 auto; width:50px; height:60px; } .brand-name { min-width:0; overflow:hidden; font-size:13px; line-height:1.15; text-overflow:ellipsis; white-space:nowrap; } .topbar-right { flex:0 0 auto; min-width:0; gap:0; } .language-switcher { gap:2px; padding:2px; } .language-switcher button { min-width:27px; padding:5px 4px; } .sidebar { grid-row:auto; border-right:0; border-bottom:1px solid var(--line); padding:12px 14px; } .menu-label,.menu-divider,.sidebar-note { display:none; } .menu { display:flex; gap:7px; overflow:auto; scrollbar-width:none; } .menu::-webkit-scrollbar { display:none; } .menu-button { flex:0 0 auto; width:auto; padding:9px 11px; font-size:12px; } .content { padding:20px 16px; } .brand-sub,.topbar-right > .live,.topbar-right > .user-name,.topbar-right > .fetch-timestamp { display:none; } .dashboard-fetch-timestamp { display:block; margin-top:6px; color:#9fc0ee; font-size:10px; line-height:1.45; } .chart-expand-trigger { cursor:zoom-in; } .chart-panel::after { content:"Tap chart to expand"; display:block; margin-top:2px; color:#7892ba; font-size:10px; text-align:right; } body.chart-fullscreen-open { overflow:hidden; } .inventory-panel { overflow:visible; border:0; background:transparent; } .inventory-product-head,.inventory-filter { border:1px solid rgba(159,192,238,.14); background:rgba(25,40,61,.94); } .inventory-product-head { border-radius:13px 13px 0 0; } .inventory-filter { position:sticky; z-index:5; top:8px; border-top:0; border-radius:0 0 13px 13px; box-shadow:0 9px 22px rgba(3,10,21,.24); } .inventory-table-wrap { display:none; } .inventory-card-list { display:grid; gap:12px; margin-top:14px; } }
     @media (max-width:520px) { .page-head,.target-toolbar,.target-summary,.target-actions,.inventory-head,.inventory-product-head { display:block; } .sales-head-actions { display:grid; grid-template-columns:1fr; margin-top:14px; } .data-note { display:block; margin-top:0; } .sales-month-picker input { width:100%; } .daily-row,.month-row,.target-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .daily-row .store-tile:last-child { grid-column:span 2; } .month-label { grid-column:span 2; } .section-head { display:block; } .group-total { display:block; margin-top:8px; } .month-picker { margin-top:14px; } .target-total { margin-top:13px; } .target-actions > * + * { margin-top:12px; } .save-targets { width:100%; } svg { height:190px; } .inventory-sync { width:100%; justify-content:center; margin-top:14px; } .inventory-tier-head { display:block; } .inventory-tier-head span { display:block; margin-top:6px; } .inventory-group-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .inventory-group-button { min-height:126px; } .inventory-product-summary { justify-content:flex-start; margin-top:10px; } .inventory-filter-controls { grid-template-columns:1fr; } .inventory-filter-keyword { grid-column:auto; } .inventory-filter-count { text-align:left; } .inventory-sync-meta { display:none; } .inventory-sync-dialog { padding:20px; } .inventory-sync-timing { grid-template-columns:1fr; } }
@@ -811,13 +793,13 @@
     };
     const localeByLanguage = { en: 'en-MY', ms: 'ms-MY', ja: 'ja-JP', zh: 'zh-CN' };
     const storeFocusCopy = {
-      en:{ back:'Back to sales', title:'Sales details & gross profit', today:'Today', month:'Month to date', sales:'Sales', salesRM:'Sales (RM)', grossProfit:'Gross profit', margin:'Gross margin', quantity:'Qty', loading:'Loading sales details…', empty:'Sales details are not available yet. The existing sales dashboard remains available.', private:'Gross-profit details are protected. Open the private Site to view them.', open:'Open private Site', items:'Item details', itemCode:'Item code', itemName:'Item', updated:'Updated', search:'Product keyword', searchPlaceholder:'Search item code or product name', results:'{count} items', noMatches:'No products match the keyword.', categories:{passenger_tire:'Passenger Tire',sport_rim:'Sport Rim',foreman_item:'Foreman Item',other:'Other'}},
-      ms:{ back:'Kembali ke jualan', title:'Butiran jualan & untung kasar', today:'Hari ini', month:'Terkumpul bulan', sales:'Jualan', salesRM:'Jualan (RM)', grossProfit:'Untung kasar', margin:'Margin kasar', quantity:'Kuantiti', loading:'Memuatkan butiran jualan…', empty:'Butiran jualan belum tersedia. Papan pemuka jualan sedia ada kekal tersedia.', private:'Butiran untung kasar dilindungi. Buka Site peribadi untuk melihatnya.', open:'Buka Site peribadi', items:'Butiran item', itemCode:'Kod item', itemName:'Item', updated:'Dikemas kini', search:'Kata kunci produk', searchPlaceholder:'Cari kod item atau nama produk', results:'{count} item', noMatches:'Tiada produk yang sepadan dengan kata kunci.', categories:{passenger_tire:'Tayar Penumpang',sport_rim:'Rim Sukan',foreman_item:'Item Foreman',other:'Lain-lain'}},
-      ja:{ back:'売上へ戻る', title:'売上詳細＆粗利', today:'本日', month:'月累積', sales:'売上額', salesRM:'売上額（RM）', grossProfit:'粗利額', margin:'粗利率', quantity:'数量', loading:'売上明細を読み込み中…', empty:'売上明細はまだ連携されていません。既存の売上画面は引き続き利用できます。', private:'粗利明細は保護されています。非公開Siteで確認してください。', open:'非公開Siteを開く', items:'商品明細', itemCode:'商品コード', itemName:'商品名', updated:'更新', search:'商品キーワード', searchPlaceholder:'商品コードまたは商品名を検索', results:'{count}商品', noMatches:'キーワードに一致する商品はありません。', categories:{passenger_tire:'Passanger Tire',sport_rim:'Sport Rim',foreman_item:'Foreman Item',other:'その他'}},
-      zh:{ back:'返回销售', title:'销售明细与毛利', today:'今日', month:'本月累计', sales:'销售额', salesRM:'销售额（RM）', grossProfit:'毛利额', margin:'毛利率', quantity:'数量', loading:'正在加载销售明细…', empty:'销售明细尚未同步。现有销售页面仍可继续使用。', private:'毛利明细受保护，请在非公开Site中查看。', open:'打开非公开Site', items:'商品明细', itemCode:'商品代码', itemName:'商品名', updated:'更新', search:'商品关键词', searchPlaceholder:'搜索商品代码或商品名称', results:'{count}件商品', noMatches:'没有符合关键词的商品。', categories:{passenger_tire:'乘用车轮胎',sport_rim:'运动轮圈',foreman_item:'Foreman商品',other:'其他'}}
+      en:{ back:'Back to sales', title:'Store sales & gross profit', today:'Today', month:'Month to date', sales:'Sales', grossProfit:'Gross profit', margin:'Gross margin', quantity:'Qty', loading:'Loading sales details…', empty:'Sales details are not available yet. The existing sales dashboard remains available.', private:'Gross-profit details are protected. Open the private Site to view them.', open:'Open private Site', items:'Item details', itemCode:'Item code', itemName:'Item', updated:'Updated', categories:{passenger_tire:'Passenger Tire',sport_rim:'Sport Rim',foreman_item:'Foreman Item',other:'Other'}},
+      ms:{ back:'Kembali ke jualan', title:'Jualan & untung kasar cawangan', today:'Hari ini', month:'Terkumpul bulan', sales:'Jualan', grossProfit:'Untung kasar', margin:'Margin kasar', quantity:'Kuantiti', loading:'Memuatkan butiran jualan…', empty:'Butiran jualan belum tersedia. Papan pemuka jualan sedia ada kekal tersedia.', private:'Butiran untung kasar dilindungi. Buka Site peribadi untuk melihatnya.', open:'Buka Site peribadi', items:'Butiran item', itemCode:'Kod item', itemName:'Item', updated:'Dikemas kini', categories:{passenger_tire:'Tayar Penumpang',sport_rim:'Rim Sukan',foreman_item:'Item Foreman',other:'Lain-lain'}},
+      ja:{ back:'売上へ戻る', title:'店舗別 売上・粗利', today:'本日', month:'月累積', sales:'売上額', grossProfit:'粗利額', margin:'粗利率', quantity:'数量', loading:'売上明細を読み込み中…', empty:'売上明細はまだ連携されていません。既存の売上画面は引き続き利用できます。', private:'粗利明細は保護されています。非公開Siteで確認してください。', open:'非公開Siteを開く', items:'商品明細', itemCode:'商品コード', itemName:'商品名', updated:'更新', categories:{passenger_tire:'Passanger Tire',sport_rim:'Sport Rim',foreman_item:'ForemanItem',other:'その他'}},
+      zh:{ back:'返回销售', title:'门店销售与毛利', today:'今日', month:'本月累计', sales:'销售额', grossProfit:'毛利额', margin:'毛利率', quantity:'数量', loading:'正在加载销售明细…', empty:'销售明细尚未同步。现有销售页面仍可继续使用。', private:'毛利明细受保护，请在非公开Site中查看。', open:'打开非公开Site', items:'商品明细', itemCode:'商品代码', itemName:'商品名', updated:'更新', categories:{passenger_tire:'乘用车轮胎',sport_rim:'运动轮圈',foreman_item:'Foreman商品',other:'其他'}}
     };
     const storeFocusColors = { passenger_tire:'#43dfa0', sport_rim:'#73a8ff', foreman_item:'#f5bd4e', other:'#a78bfa' };
-    let storeFocusState = { store:'SI', period:'today', data:null, loading:false, error:null, selectedCategory:null, items:[], publishedItems:[], itemSearch:'', itemSort:{ key:'sales', direction:'desc' } };
+    let storeFocusState = { store:'SI', period:'today', data:null, loading:false, error:null, selectedCategory:null, items:[] };
     const actualLabels = {
       en: { snapshot: 'Cash Sales actuals · 1–10 Oct 2026', documents: 'documents', pending: 'Data pending', month: 'October MTD', actualTotal: 'MTD total', targetTotal: 'Monthly target', progressRate: 'Progress rate', documentTotal: 'Total documents' },
       ms: { snapshot: 'Cash Sales sebenar · 1–10 Okt 2026', documents: 'dokumen', pending: 'Menunggu data', month: 'Oktober terkumpul', actualTotal: 'Jumlah terkumpul', targetTotal: 'Sasaran bulanan', progressRate: 'Kadar kemajuan', documentTotal: 'Jumlah dokumen' },
@@ -1040,76 +1022,16 @@
       return selectedMonthIsCurrent() ? currentValue : historicalTemplate.replace('{month}',dashboardMonthName());
     }
     function focusMoney(value) { return `RM ${Number(value || 0).toLocaleString(localeByLanguage[language],{minimumFractionDigits:2,maximumFractionDigits:2})}`; }
-    function focusAmount(value) { return Number(value || 0).toLocaleString(localeByLanguage[language],{minimumFractionDigits:2,maximumFractionDigits:2}); }
-    function focusRate(value) { return value == null || !Number.isFinite(Number(value)) ? '—' : `${(Number(value) * 100).toFixed(1)}%`; }
-    function storeFocusItemMargin(row) { return Number(row.sales) ? Number(row.grossProfit || 0) / Number(row.sales) : null; }
-    function storeFocusVisibleItems() {
-      const keyword = storeFocusState.itemSearch.trim().toLocaleLowerCase(localeByLanguage[language]);
-      const items = storeFocusState.items.filter((row) => !keyword || `${row.itemCode || ''} ${row.itemName || ''}`.toLocaleLowerCase(localeByLanguage[language]).includes(keyword));
-      const { key, direction } = storeFocusState.itemSort;
-      const factor = direction === 'asc' ? 1 : -1;
-      return [...items].sort((a,b) => {
-        if (key === 'itemName') return factor * String(a.itemName || '').localeCompare(String(b.itemName || ''),localeByLanguage[language],{numeric:true,sensitivity:'base'});
-        const value = (row) => key === 'margin' ? storeFocusItemMargin(row) : Number(row[key] || 0);
-        return factor * (value(a) - value(b)) || String(a.itemCode || '').localeCompare(String(b.itemCode || ''),localeByLanguage[language],{numeric:true});
-      });
-    }
-    function storeFocusSortHeader(key,label) {
-      const active = storeFocusState.itemSort.key === key;
-      const ariaSort = active ? (storeFocusState.itemSort.direction === 'asc' ? 'ascending' : 'descending') : 'none';
-      return `<th aria-sort="${ariaSort}"><button class="store-focus-sort" type="button" data-focus-sort="${key}">${escapeHtml(label)}</button></th>`;
-    }
-    function storeFocusItemRows() {
-      const copy = storeFocusCopy[language];
-      const items = storeFocusVisibleItems();
-      if (!items.length) return `<tr><td class="store-focus-items-empty" colspan="6">${escapeHtml(copy.noMatches)}</td></tr>`;
-      return items.map((row) => {
-        const margin = storeFocusItemMargin(row);
-        const negative = Number(row.grossProfit || 0) < 0 || (margin != null && margin < 0);
-        return `<tr class="${negative ? 'store-focus-item-negative' : ''}"><td>${escapeHtml(row.itemCode)}</td><td>${escapeHtml(row.itemName)}</td><td>${Number(row.quantity || 0).toLocaleString(localeByLanguage[language])}</td><td>${focusMoney(row.sales)}</td><td>${focusMoney(row.grossProfit)}</td><td>${focusRate(margin)}</td></tr>`;
-      }).join('');
-    }
-    function updateStoreFocusItemRows() {
-      const body = document.getElementById('store-focus-item-body');
-      const count = document.getElementById('store-focus-item-count');
-      if (body) body.innerHTML = storeFocusItemRows();
-      if (count) count.textContent = storeFocusCopy[language].results.replace('{count}',storeFocusVisibleItems().length.toLocaleString(localeByLanguage[language]));
-    }
     function storeFocusQuery(extra = {}) {
       const state = { ...storeFocusState, ...extra };
       return `store=${encodeURIComponent(state.store)}&period=${encodeURIComponent(state.period)}&month=${encodeURIComponent(dashboardDataMeta.month)}&date=${encodeURIComponent(dashboardDataMeta.latestDate)}`;
     }
-    function summarizePublishedSalesBreakdown(payload) {
-      const storeData = payload?.stores?.[storeFocusState.store];
-      if (!storeData) throw new Error('Store sales breakdown is unavailable');
-      const categories = Object.keys(storeFocusColors).map((key) => ({ key, sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null }));
-      const totals = { sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null };
-      const items = new Map();
-      let documents = 0;
-      for (const [day,value] of Object.entries(storeData.days || {})) {
-        if (storeFocusState.period === 'today' && day !== dashboardDataMeta.latestDate) continue;
-        documents += Number(value.documents) || 0;
-        for (const row of value.categories || []) {
-          const target = categories.find((category) => category.key === row.key);
-          if (!target) continue;
-          for (const field of ['sales','cost','grossProfit','quantity']) target[field] += Number(row[field]) || 0;
-        }
-        for (const row of value.items || []) {
-          const key = `${row.category}|${row.itemCode}`;
-          const target = items.get(key) || { ...row, quantity:0, sales:0, cost:0, grossProfit:0 };
-          for (const field of ['quantity','sales','cost','grossProfit']) target[field] += Number(row[field]) || 0;
-          items.set(key,target);
-        }
-      }
-      for (const row of categories) {
-        row.grossMarginRate = row.sales ? row.grossProfit / row.sales : null;
-        for (const field of ['sales','cost','grossProfit','quantity']) totals[field] += row[field];
-      }
-      totals.grossMarginRate = totals.sales ? totals.grossProfit / totals.sales : null;
-      return {
-        data:{ schemaVersion:1, store:storeFocusState.store, period:storeFocusState.period, month:payload.month, date:dashboardDataMeta.latestDate, updatedAt:payload.updatedAt, documents, totals, categories },
-        items:[...items.values()].sort((a,b) => b.sales - a.sales),
-      };
+    function storeFocusPrivateUrl() {
+      const url = new URL(privateSiteUrl);
+      url.searchParams.set('view','store-focus');
+      url.searchParams.set('store',storeFocusState.store);
+      url.searchParams.set('period',storeFocusState.period);
+      return url.toString();
     }
     function renderStoreFocus() {
       const copy = storeFocusCopy[language];
@@ -1117,7 +1039,9 @@
       const tabs = inventoryStores.map(([code,name]) => `<button type="button" data-focus-store="${code}" aria-pressed="${storeFocusState.store === code}">${code}<span class="sr-only"> ${escapeHtml(name)}</span></button>`).join('');
       const periods = ['today','month'].map((period) => `<button type="button" data-focus-period="${period}" aria-pressed="${storeFocusState.period === period}">${copy[period]}</button>`).join('');
       let body;
-      if (storeFocusState.loading) {
+      if (githubPagesMode) {
+        body = `<div class="store-focus-state"><div>${escapeHtml(copy.private)}<br><a class="store-focus-back" href="${escapeHtml(storeFocusPrivateUrl())}">${escapeHtml(copy.open)} →</a></div></div>`;
+      } else if (storeFocusState.loading) {
         body = `<div class="store-focus-state">${escapeHtml(copy.loading)}</div>`;
       } else if (!storeFocusState.data) {
         body = `<div class="store-focus-state">${escapeHtml(copy.empty)}${storeFocusState.error ? `<br><small>${escapeHtml(storeFocusState.error)}</small>` : ''}</div>`;
@@ -1125,59 +1049,33 @@
         const data = storeFocusState.data;
         const total = Number(data.totals.sales) || 0;
         let position = 0;
-        const donutLabels = [];
-        const stops = data.categories.map((row) => {
-          const ratio = total ? Number(row.sales || 0) / total : .25;
-          const start = position;
-          position += ratio * 100;
-          const midAngle = (start + position) / 2 * 3.6 - 90;
-          const angle = midAngle * Math.PI / 180;
-          const percentage = total ? Math.round(ratio * 100) : 0;
-          if (percentage > 0) donutLabels.push(`<span class="store-focus-donut-label" style="left:${50 + Math.cos(angle) * 27}%;top:${50 + Math.sin(angle) * 27}%">${percentage}%</span>`);
-          return `${storeFocusColors[row.key]} ${start}% ${position}%`;
-        }).join(',');
-        const categoryCards = data.categories.map((row) => `<button class="store-focus-category" type="button" data-focus-category="${row.key}"><i style="background:${storeFocusColors[row.key]}"></i><span><strong>${escapeHtml(copy.categories[row.key])}</strong><small>${copy.quantity} ${Number(row.quantity || 0).toLocaleString(localeByLanguage[language])}</small></span><b>${focusMoney(row.sales)}<small>${copy.grossProfit} ${focusMoney(row.grossProfit)}</small></b><span class="store-focus-category-margin"><small>${copy.margin}</small><strong>${focusRate(row.grossMarginRate)}</strong></span></button>`).join('');
-        const itemPanel = storeFocusState.selectedCategory ? `<section class="store-focus-panel store-focus-items"><div class="section-head"><div><h2>${escapeHtml(copy.items)} · ${escapeHtml(copy.categories[storeFocusState.selectedCategory])}</h2></div></div><div class="store-focus-item-tools"><label class="store-focus-search"><span>${escapeHtml(copy.search)}</span><input id="store-focus-item-search" type="search" value="${escapeHtml(storeFocusState.itemSearch)}" placeholder="${escapeHtml(copy.searchPlaceholder)}" autocomplete="off"></label><span class="store-focus-item-count" id="store-focus-item-count">${copy.results.replace('{count}',storeFocusVisibleItems().length.toLocaleString(localeByLanguage[language]))}</span></div><div class="store-focus-table-wrap"><table><thead><tr><th>${copy.itemCode}</th>${storeFocusSortHeader('itemName',copy.itemName)}${storeFocusSortHeader('quantity',copy.quantity)}${storeFocusSortHeader('sales',copy.sales)}${storeFocusSortHeader('grossProfit',copy.grossProfit)}${storeFocusSortHeader('margin',copy.margin)}</tr></thead><tbody id="store-focus-item-body">${storeFocusItemRows()}</tbody></table></div></section>` : '';
-        body = `<div class="store-focus-layout"><section class="store-focus-panel store-focus-donut-wrap"><div class="store-focus-donut-stage"><div class="store-focus-donut" style="background:conic-gradient(${stops})"><span class="store-focus-donut-center"><small>${copy.salesRM}</small><strong>${focusAmount(data.totals.sales)}</strong></span></div>${donutLabels.join('')}</div></section><section class="store-focus-panel"><div class="store-focus-kpis"><span class="store-focus-kpi"><small>${copy.sales}</small><strong>${focusMoney(data.totals.sales)}</strong></span><span class="store-focus-kpi"><small>${copy.grossProfit}</small><strong>${focusMoney(data.totals.grossProfit)}</strong></span><span class="store-focus-kpi"><small>${copy.margin}</small><strong>${focusRate(data.totals.grossMarginRate)}</strong></span></div><div class="store-focus-categories">${categoryCards}</div></section>${itemPanel}</div>`;
+        const stops = data.categories.map((row) => { const start = position; position += total ? Number(row.sales || 0) / total * 100 : 25; return `${storeFocusColors[row.key]} ${start}% ${position}%`; }).join(',');
+        const categoryCards = data.categories.map((row) => `<button class="store-focus-category" type="button" data-focus-category="${row.key}"><i style="background:${storeFocusColors[row.key]}"></i><span><strong>${escapeHtml(copy.categories[row.key])}</strong><small>${copy.quantity} ${Number(row.quantity || 0).toLocaleString(localeByLanguage[language])}</small></span><b>${focusMoney(row.sales)}<small>${copy.grossProfit} ${focusMoney(row.grossProfit)}</small></b></button>`).join('');
+        const itemRows = storeFocusState.items.map((row) => `<tr><td>${escapeHtml(row.itemCode)}</td><td>${escapeHtml(row.itemName)}</td><td>${Number(row.quantity || 0).toLocaleString(localeByLanguage[language])}</td><td>${focusMoney(row.sales)}</td><td>${focusMoney(row.grossProfit)}</td></tr>`).join('');
+        const itemPanel = storeFocusState.selectedCategory ? `<section class="store-focus-panel store-focus-items"><div class="section-head"><div><h2>${escapeHtml(copy.items)} · ${escapeHtml(copy.categories[storeFocusState.selectedCategory])}</h2></div></div>${itemRows ? `<table><thead><tr><th>${copy.itemCode}</th><th>${copy.itemName}</th><th>${copy.quantity}</th><th>${copy.sales}</th><th>${copy.grossProfit}</th></tr></thead><tbody>${itemRows}</tbody></table>` : `<p>${escapeHtml(copy.empty)}</p>`}</section>` : '';
+        body = `<div class="store-focus-layout"><section class="store-focus-panel store-focus-donut-wrap"><div class="store-focus-donut" style="background:conic-gradient(${stops})"><span class="store-focus-donut-center"><small>${copy.sales}</small><strong>${focusMoney(data.totals.sales)}</strong></span></div></section><section class="store-focus-panel"><div class="store-focus-kpis"><span class="store-focus-kpi"><small>${copy.sales}</small><strong>${focusMoney(data.totals.sales)}</strong></span><span class="store-focus-kpi"><small>${copy.grossProfit}</small><strong>${focusMoney(data.totals.grossProfit)}</strong></span><span class="store-focus-kpi"><small>${copy.margin}</small><strong>${data.totals.grossMarginRate == null ? '—' : `${(data.totals.grossMarginRate * 100).toFixed(1)}%`}</strong></span></div><div class="store-focus-categories">${categoryCards}</div></section>${itemPanel}</div>`;
       }
-      storeFocus.innerHTML = `<div class="store-focus-toolbar"><button class="store-focus-back" id="store-focus-back" type="button">← ${escapeHtml(copy.back)}</button><div class="store-focus-tabs">${tabs}</div><div class="store-focus-periods">${periods}</div></div><header class="store-focus-hero"><div><p class="store-focus-kicker">STORE FOCUS · ${storeFocusState.store}</p><h1 id="store-focus-title">${escapeHtml(copy.title)}</h1><p>${escapeHtml(company)} · ${escapeHtml(copy[storeFocusState.period])}</p></div><span class="store-focus-stamp">${latestSuccessfulAt ? `${copy.updated} ${new Date(latestSuccessfulAt).toLocaleString(localeByLanguage[language])}` : ''}</span></header>${body}`;
+      storeFocus.innerHTML = `<div class="store-focus-toolbar"><button class="store-focus-back" id="store-focus-back" type="button">← ${escapeHtml(copy.back)}</button><div class="store-focus-tabs">${tabs}</div><div class="store-focus-periods">${periods}</div></div><header class="store-focus-hero"><div><p class="store-focus-kicker">STORE FOCUS · ${storeFocusState.store}</p><h1 id="store-focus-title">${escapeHtml(copy.title)}</h1><p>${escapeHtml(company)} · ${escapeHtml(copy[storeFocusState.period])}</p></div><span class="store-focus-stamp">${storeFocusState.data?.updatedAt ? `${copy.updated} ${new Date(storeFocusState.data.updatedAt).toLocaleString(localeByLanguage[language])}` : ''}</span></header>${body}`;
       document.getElementById('store-focus-back')?.addEventListener('click',closeStoreFocus);
       storeFocus.querySelectorAll('[data-focus-store]').forEach((button) => button.addEventListener('click',() => openStoreFocus(button.dataset.focusStore,storeFocusState.period,true)));
       storeFocus.querySelectorAll('[data-focus-period]').forEach((button) => button.addEventListener('click',() => openStoreFocus(storeFocusState.store,button.dataset.focusPeriod,true)));
       storeFocus.querySelectorAll('[data-focus-category]').forEach((button) => button.addEventListener('click',() => loadStoreFocusItems(button.dataset.focusCategory)));
-      document.getElementById('store-focus-item-search')?.addEventListener('input',(event) => { storeFocusState.itemSearch = event.target.value; updateStoreFocusItemRows(); });
-      storeFocus.querySelectorAll('[data-focus-sort]').forEach((button) => button.addEventListener('click',() => {
-        const key = button.dataset.focusSort;
-        storeFocusState.itemSort = storeFocusState.itemSort.key === key ? { key, direction:storeFocusState.itemSort.direction === 'asc' ? 'desc' : 'asc' } : { key, direction:key === 'itemName' ? 'asc' : 'desc' };
-        renderStoreFocus();
-      }));
     }
     async function loadStoreFocus() {
       renderStoreFocus();
-      storeFocusState.loading = true; storeFocusState.error = null; storeFocusState.data = null; storeFocusState.selectedCategory = null; storeFocusState.items = []; storeFocusState.publishedItems = []; storeFocusState.itemSearch = ''; storeFocusState.itemSort = { key:'sales', direction:'desc' };
+      if (githubPagesMode) return;
+      storeFocusState.loading = true; storeFocusState.error = null; storeFocusState.data = null; storeFocusState.selectedCategory = null; storeFocusState.items = [];
       renderStoreFocus();
       try {
-        const source = githubPagesMode
-          ? `./sales-breakdown/v1/${encodeURIComponent(dashboardDataMeta.month)}.json`
-          : localSettingsMode ? `${collectorUrl}/sales-breakdown?${storeFocusQuery()}` : `/api/sales-breakdown?${storeFocusQuery()}`;
+        const source = localSettingsMode ? `${collectorUrl}/sales-breakdown?${storeFocusQuery()}` : `/api/sales-breakdown?${storeFocusQuery()}`;
         const response = await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(15000)});
         if (!response.ok) throw new Error(response.status === 404 ? '' : `HTTP ${response.status}`);
-        const payload = await response.json();
-        if (githubPagesMode) {
-          const published = summarizePublishedSalesBreakdown(payload);
-          storeFocusState.data = published.data;
-          storeFocusState.publishedItems = published.items;
-        } else storeFocusState.data = payload;
+        storeFocusState.data = await response.json();
       } catch (error) { storeFocusState.error = error.message || null; }
       finally { storeFocusState.loading = false; renderStoreFocus(); }
     }
     async function loadStoreFocusItems(category) {
-      storeFocusState.selectedCategory = category; storeFocusState.items = []; storeFocusState.itemSearch = ''; storeFocusState.itemSort = { key:'sales', direction:'desc' }; renderStoreFocus();
-      if (githubPagesMode) {
-        storeFocusState.items = storeFocusState.publishedItems.filter((item) => item.category === category);
-        renderStoreFocus();
-        return;
-      }
+      storeFocusState.selectedCategory = category; storeFocusState.items = []; renderStoreFocus();
       try {
         const source = localSettingsMode ? `${collectorUrl}/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(category)}` : `/api/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(category)}`;
         const response = await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(15000)});
@@ -1998,7 +1896,6 @@
       renderInventoryStaticCopy();
       renderInventoryGroups();
       if (activeInventoryGroup) renderInventoryProducts();
-      if (activeKey === 'storeFocus') renderStoreFocus();
       renderActivePage();
       if (activeKey === 'system') loadSystemSettings();
     }
