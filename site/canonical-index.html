@@ -822,6 +822,7 @@
     };
     const storeFocusColors = { passenger_tire:'#43dfa0', sport_rim:'#73a8ff', foreman_item:'#f5bd4e', other:'#a78bfa' };
     let storeFocusState = { store:'SI', period:'today', data:null, loading:false, error:null, selectedCategory:null, items:[], publishedItems:[], itemSearch:'', itemSort:{ key:'sales', direction:'desc' } };
+    let storeFocusRefreshInFlight = false;
     const actualLabels = {
       en: { snapshot: 'Cash Sales actuals · 1–10 Oct 2026', documents: 'documents', pending: 'Data pending', month: 'October MTD', actualTotal: 'MTD total', targetTotal: 'Monthly target', progressRate: 'Progress rate', documentTotal: 'Total documents' },
       ms: { snapshot: 'Cash Sales sebenar · 1–10 Okt 2026', documents: 'dokumen', pending: 'Menunggu data', month: 'Oktober terkumpul', actualTotal: 'Jumlah terkumpul', targetTotal: 'Sasaran bulanan', progressRate: 'Kadar kemajuan', documentTotal: 'Jumlah dokumen' },
@@ -1203,6 +1204,48 @@
         storeFocusState.items = (await response.json()).items || [];
       } catch { storeFocusState.items = []; }
       renderStoreFocus();
+    }
+
+    async function refreshStoreFocusWhenUpdated() {
+      if (activeKey !== 'storeFocus' || storeFocusState.loading || storeFocusRefreshInFlight || !storeFocusState.data) return false;
+      const context = { store:storeFocusState.store, period:storeFocusState.period, category:storeFocusState.selectedCategory };
+      const search = document.getElementById('store-focus-item-search');
+      const restoreSearchFocus = document.activeElement === search;
+      const selection = restoreSearchFocus ? [search.selectionStart,search.selectionEnd] : null;
+      storeFocusRefreshInFlight = true;
+      try {
+        const source = githubPagesMode
+          ? `./sales-breakdown/v1/${encodeURIComponent(dashboardDataMeta.month)}.json?v=${Date.now()}`
+          : localSettingsMode ? `${collectorUrl}/sales-breakdown?${storeFocusQuery()}` : `/api/sales-breakdown?${storeFocusQuery()}`;
+        const response = await fetch(source,{cache:'no-store',signal:AbortSignal.timeout(15000)});
+        if (!response.ok) return false;
+        const payload = await response.json();
+        if (activeKey !== 'storeFocus' || storeFocusState.store !== context.store || storeFocusState.period !== context.period) return false;
+        const published = githubPagesMode ? summarizePublishedSalesBreakdown(payload) : null;
+        const nextData = published?.data || payload;
+        if ((Date.parse(nextData.updatedAt || '') || 0) <= (Date.parse(storeFocusState.data?.updatedAt || '') || 0)) return false;
+        let nextItems = storeFocusState.items;
+        if (githubPagesMode) {
+          if (context.category) nextItems = published.items.filter((item) => item.category === context.category);
+        } else if (context.category) {
+          const itemSource = localSettingsMode ? `${collectorUrl}/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(context.category)}` : `/api/sales-breakdown/items?${storeFocusQuery()}&category=${encodeURIComponent(context.category)}`;
+          const itemResponse = await fetch(itemSource,{cache:'no-store',signal:AbortSignal.timeout(15000)});
+          if (itemResponse.ok) nextItems = (await itemResponse.json()).items || [];
+        }
+        if (activeKey !== 'storeFocus' || storeFocusState.store !== context.store || storeFocusState.period !== context.period || storeFocusState.selectedCategory !== context.category) return false;
+        storeFocusState.data = nextData;
+        if (published) storeFocusState.publishedItems = published.items;
+        storeFocusState.items = nextItems;
+        storeFocusState.error = null;
+        renderStoreFocus();
+        if (restoreSearchFocus) {
+          const nextSearch = document.getElementById('store-focus-item-search');
+          nextSearch?.focus();
+          if (nextSearch && selection.every(Number.isInteger)) nextSearch.setSelectionRange(...selection);
+        }
+        return true;
+      } catch { return false; }
+      finally { storeFocusRefreshInFlight = false; }
     }
     function openStoreFocus(store,period,push = true) {
       storeFocusState.store = /^(SI|SR|ST|SK|KM)$/.test(store) ? store : 'SI';
@@ -2125,6 +2168,7 @@
     setInterval(loadCollectorInventoryData, 30000);
     setInterval(loadPublishedInventoryData, 60000);
     setInterval(reloadWhenPublishedDataChanges, 30000);
+    setInterval(refreshStoreFocusWhenUpdated, 30000);
   </script>
 </body>
 </html>
