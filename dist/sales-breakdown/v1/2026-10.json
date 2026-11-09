@@ -5,14 +5,14 @@
     "SI": {
       "days": {
         "2026-10-02": {
-          "documents": 30,
+          "documents": 26,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 28722,
-              "cost": 27848,
-              "grossProfit": 874,
-              "quantity": 116
+              "sales": 6428,
+              "cost": 5632,
+              "grossProfit": 796,
+              "quantity": 38
             },
             {
               "key": "sport_rim",
@@ -30,10 +30,10 @@
             },
             {
               "key": "other",
-              "sales": 1515.09,
-              "cost": 435,
-              "grossProfit": 1080.09,
-              "quantity": 125
+              "sales": 1392.35,
+              "cost": 315,
+              "grossProfit": 1077.35,
+              "quantity": 114
             }
           ],
           "items": [
@@ -75,15 +75,6 @@
             },
             {
               "category": "other",
-              "itemCode": "SRVCHG",
-              "itemName": "SERVICE CHARGE",
-              "quantity": 0,
-              "sales": 0,
-              "cost": 0,
-              "grossProfit": 0
-            },
-            {
-              "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 16,
@@ -117,6 +108,15 @@
               "sales": 0,
               "cost": 0,
               "grossProfit": 0
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
             },
             {
               "category": "other",
@@ -192,48 +192,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY165015TR1-26",
-              "itemName": "TOYO 165/50/15 PXTR1 (2026)",
-              "quantity": 8,
-              "sales": 1408,
-              "cost": 1400,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPMC216016XM2-26",
               "itemName": "MICHELIN 215/60/16 ENERGY XM2+ 95H (2026)",
               "quantity": 2,
               "sales": 760,
               "cost": 714,
               "grossProfit": 46
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC195515XM2-26",
-              "itemName": "MICHELIN 195/55/15 ENERGY XM2+ 85V (2026)",
-              "quantity": 2,
-              "sales": 562,
-              "cost": 560,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC215518P5-26",
-              "itemName": "MICHELIN 215/55/18 PRIMACY 5 99V XL TH (2026)",
-              "quantity": 4,
-              "sales": 1888,
-              "cost": 1884,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC235018P5-26",
-              "itemName": "MICHELIN 235/50/18 PRIMACY 5 97W (2026)",
-              "quantity": 2,
-              "sales": 1122,
-              "cost": 1120,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -248,10 +212,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 22,
-              "sales": 3766,
-              "cost": 3732,
-              "grossProfit": 34
+              "quantity": 2,
+              "sales": 346,
+              "cost": 332,
+              "grossProfit": 14
             },
             {
               "category": "passenger_tire",
@@ -261,123 +225,6 @@
               "sales": 892,
               "cost": 924,
               "grossProfit": -32
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185515CC7-26",
-              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
-              "quantity": 2,
-              "sales": 490,
-              "cost": 488,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT186014CC7-26",
-              "itemName": "CONTINENTAL 185/60/14 COMFORT CONTACT CC7 82H TH (2026)",
-              "quantity": 2,
-              "sales": 464,
-              "cost": 462,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT186015CC7-26",
-              "itemName": "CONTINENTAL 185/60/15 COMFORT CONTACT CC7 84H TH (2026)",
-              "quantity": 4,
-              "sales": 924,
-              "cost": 920,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195015CC7-26",
-              "itemName": "CONTINENTAL 195/50/15 COMFORT CONTACT CC7 82V CN (2026)",
-              "quantity": 2,
-              "sales": 486,
-              "cost": 484,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195016UC7-26",
-              "itemName": "CONTINENTAL 195/50/16 ULTRA CONTACT UC7 88V TH (2026)",
-              "quantity": 8,
-              "sales": 2440,
-              "cost": 2432,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT196015CC7",
-              "itemName": "CONTINENTAL 195/60/15 CC7 (2026)",
-              "quantity": 1,
-              "sales": 269,
-              "cost": 268,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT205516UC7",
-              "itemName": "CONTINENTAL 205/55/16 UC7 91V FR (2026)",
-              "quantity": 4,
-              "sales": 1568,
-              "cost": 1564,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT206016UC7-26",
-              "itemName": "CONTINENTAL 205/60/16 ULTRA CONTACT UC7 96V CN (2026)",
-              "quantity": 4,
-              "sales": 1604,
-              "cost": 1600,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT215517UC7-26",
-              "itemName": "CONTINENTAL 215/55/17 ULTRA CONTACT UC7 94W FR (2026)",
-              "quantity": 2,
-              "sales": 764,
-              "cost": 762,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT216016UC7-26",
-              "itemName": "CONTINENTAL 215/60/16 ULTRACON UC7 87V (2026)",
-              "quantity": 4,
-              "sales": 1544,
-              "cost": 1540,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT225519UC6-26",
-              "itemName": "CONTINENTAL 225/55/19 ULTRA CONTACT UC6 SUV 99V CN (2026)",
-              "quantity": 4,
-              "sales": 2272,
-              "cost": 2268,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT235018UC7-26",
-              "itemName": "CONTINENTAL 235/50/18 ULTRA CONTACT UC7 101W CN (2026)",
-              "quantity": 1,
-              "sales": 537,
-              "cost": 536,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPAT175015X76-26",
-              "itemName": "ATLANDER 175/50/15 XSPORT-76 75V TL TH (2026)",
-              "quantity": 4,
-              "sales": 532,
-              "cost": 528,
-              "grossProfit": 4
             },
             {
               "category": "foreman_item",
@@ -542,15 +389,6 @@
               "grossProfit": 166
             },
             {
-              "category": "other",
-              "itemCode": "MNCTYTVS",
-              "itemName": "CAMBER NUT TYT VIOS NEW",
-              "quantity": 12,
-              "sales": 132,
-              "cost": 120,
-              "grossProfit": 12
-            },
-            {
               "category": "foreman_item",
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
@@ -571,14 +409,14 @@
           ]
         },
         "2026-10-03": {
-          "documents": 42,
+          "documents": 38,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 24980,
-              "cost": 24160.28,
-              "grossProfit": 819.72,
-              "quantity": 117
+              "sales": 10254,
+              "cost": 9455,
+              "grossProfit": 799,
+              "quantity": 55
             },
             {
               "key": "sport_rim",
@@ -767,24 +605,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH195016V701",
-              "itemName": "YOKOHAMA 195/50/16 ADVAN FLEVA V701 84V JP (2026)",
-              "quantity": 2,
-              "sales": 526,
-              "cost": 564,
-              "grossProfit": -38
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195016V701-26",
-              "itemName": "YOKOHAMA 195/50/16 ADVAN FLEVA V701 JP (2026)",
-              "quantity": 6,
-              "sales": 1578,
-              "cost": 1572,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 2,
@@ -848,15 +668,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY195016CR1",
-              "itemName": "TOYO 195/50/16 PXCR1 84V M'SIA (2026)",
-              "quantity": 2,
-              "sales": 518,
-              "cost": 516,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPLS195515RS009-26",
               "itemName": "LANDSAIL 195/55/15 RS009 85V TH (2026)",
               "quantity": 4,
@@ -886,19 +697,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 12,
-              "sales": 2246,
-              "cost": 2208,
-              "grossProfit": 38
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN176514GC5-26",
-              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
-              "quantity": 10,
-              "sales": 1450,
-              "cost": 1440,
-              "grossProfit": 10
+              "quantity": 2,
+              "sales": 366,
+              "cost": 338,
+              "grossProfit": 28
             },
             {
               "category": "passenger_tire",
@@ -917,78 +719,6 @@
               "sales": 1310,
               "cost": 1216,
               "grossProfit": 94
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT216017UX7-26",
-              "itemName": "CONTINENTAL 215/60/17 ULTRA CONTACT UX7 96H FR CN (2026)",
-              "quantity": 4,
-              "sales": 1792,
-              "cost": 1788,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT176514CC7",
-              "itemName": "CONTINENTAL 175/65/14 CC7 82H (2026)",
-              "quantity": 6,
-              "sales": 1218,
-              "cost": 1212,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185516UC7-26",
-              "itemName": "CONTINENTAL 185/55/16 83V UC7 (2026)",
-              "quantity": 2,
-              "sales": 558,
-              "cost": 556,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195515CC7",
-              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 6,
-              "sales": 1392,
-              "cost": 1386,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT196015CC7",
-              "itemName": "CONTINENTAL 195/60/15 CC7 (2026)",
-              "quantity": 2,
-              "sales": 538,
-              "cost": 536,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS195016RE005-26",
-              "itemName": "BRIDGESTONE 195/50/16 85W POTENZA RE005 88W TH (2026)",
-              "quantity": 4,
-              "sales": 1028,
-              "cost": 1024,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS195515RE005-26",
-              "itemName": "BRIDGESTONE 195/55/15 RE005 (2026)",
-              "quantity": 4,
-              "sales": 888,
-              "cost": 885.28,
-              "grossProfit": 2.72
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS205516RE005-26",
-              "itemName": "BRIDGESTONE 205/55/16 POTENZA RE005 91W TH (2026)",
-              "quantity": 4,
-              "sales": 1360,
-              "cost": 1356,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -1146,14 +876,14 @@
           ]
         },
         "2026-10-04": {
-          "documents": 34,
+          "documents": 32,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 17464,
-              "cost": 16211.36,
-              "grossProfit": 1252.64,
-              "quantity": 81
+              "sales": 13008,
+              "cost": 11775.36,
+              "grossProfit": 1232.64,
+              "quantity": 61
             },
             {
               "key": "sport_rim",
@@ -1416,19 +1146,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 8,
-              "sales": 1344,
-              "cost": 1346,
-              "grossProfit": -2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN195515GS5-26",
-              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 12,
-              "sales": 1920,
-              "cost": 1908,
-              "grossProfit": 12
+              "quantity": 2,
+              "sales": 366,
+              "cost": 374,
+              "grossProfit": -8
             },
             {
               "category": "passenger_tire",
@@ -1447,15 +1168,6 @@
               "sales": 466,
               "cost": 462,
               "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT224519MC7-26",
-              "itemName": "CONTINENTAL 225/45/19 MAXCONTACT MC7 (2026)",
-              "quantity": 2,
-              "sales": 1558,
-              "cost": 1556,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -1712,14 +1424,14 @@
           ]
         },
         "2026-10-08": {
-          "documents": 37,
+          "documents": 33,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 36263,
-              "cost": 34850.3,
-              "grossProfit": 1412.7,
-              "quantity": 162
+              "sales": 11730,
+              "cost": 10413.6,
+              "grossProfit": 1316.4,
+              "quantity": 55
             },
             {
               "key": "sport_rim",
@@ -1881,24 +1593,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 40,
-              "sales": 9880,
-              "cost": 9840,
-              "grossProfit": 40
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH235518V61-26",
-              "itemName": "YOKOHAMA 235/55/18 ADVAN V61 104V (2026)",
-              "quantity": 2,
-              "sales": 898,
-              "cost": 896,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
@@ -1919,19 +1613,10 @@
               "category": "passenger_tire",
               "itemCode": "TPWL165514Z117-26",
               "itemName": "WEST LAKE 165/55/14 ZUPER FLEX Z-117 (2026)",
-              "quantity": 24,
-              "sales": 2770,
-              "cost": 2649.6,
-              "grossProfit": 120.4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL196016RP28",
-              "itemName": "WESTLAKE 195/60 R16 89H RP28 (2025)",
-              "quantity": 3,
-              "sales": 477,
-              "cost": 476.7,
-              "grossProfit": 0.3
+              "quantity": 4,
+              "sales": 550,
+              "cost": 441.6,
+              "grossProfit": 108.4
             },
             {
               "category": "passenger_tire",
@@ -1980,24 +1665,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPGN176514GC5-26",
-              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
-              "quantity": 10,
-              "sales": 1670,
-              "cost": 1660,
-              "grossProfit": 10
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN215516GS6-26",
-              "itemName": "GENERAL 215/55/16 ALTIMAX GS6 97W (2026)",
-              "quantity": 4,
-              "sales": 1172,
-              "cost": 1168,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPDR177013HG918-26",
               "itemName": "DURUN 175/70/13 HG918 82T CN (2026)",
               "quantity": 2,
@@ -2031,42 +1698,6 @@
               "sales": 862,
               "cost": 924,
               "grossProfit": -62
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185515CC7-26",
-              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
-              "quantity": 16,
-              "sales": 3920,
-              "cost": 3904,
-              "grossProfit": 16
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195015CC7-26",
-              "itemName": "CONTINENTAL 195/50/15 COMFORT CONTACT CC7 82V CN (2026)",
-              "quantity": 2,
-              "sales": 486,
-              "cost": 484,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT196015CC7",
-              "itemName": "CONTINENTAL 195/60/15 CC7 (2026)",
-              "quantity": 6,
-              "sales": 1614,
-              "cost": 1608,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT226018UX7-26",
-              "itemName": "CONTINENTAL 225/60/18 ULTRA CONTACT UX7 104V FR (2026)",
-              "quantity": 4,
-              "sales": 2196,
-              "cost": 2192,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -2377,14 +2008,14 @@
           ]
         },
         "2026-10-09": {
-          "documents": 32,
+          "documents": 31,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 10556,
-              "cost": 9718,
-              "grossProfit": 838,
-              "quantity": 57
+              "sales": 9556,
+              "cost": 8722,
+              "grossProfit": 834,
+              "quantity": 53
             },
             {
               "key": "sport_rim",
@@ -2564,17 +2195,8 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPMC176514XM2+-26",
-              "itemName": "MICHELIN 175/65/14 ENERGY XM2+ 82H CN (2026)",
-              "quantity": 4,
-              "sales": 1000,
-              "cost": 996,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGM224518SPS-26",
-              "itemName": "GRIPMAX 225/45/18 SUREGRIP PRO SPORT 95Y XL THAI",
+              "itemName": "GRIPMAX 225/45/18 SUPERGRIP PRO SPORT 95 XL TH (2026)",
               "quantity": 1,
               "sales": 340,
               "cost": 281,
@@ -2844,14 +2466,14 @@
           ]
         },
         "2026-10-10": {
-          "documents": 31,
+          "documents": 30,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 14112,
-              "cost": 11946.64,
-              "grossProfit": 2165.36,
-              "quantity": 54
+              "sales": 13072,
+              "cost": 10910.64,
+              "grossProfit": 2161.36,
+              "quantity": 50
             },
             {
               "key": "sport_rim",
@@ -3064,15 +2686,6 @@
               "sales": 910,
               "cost": 796,
               "grossProfit": 114
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC185515XM2+-26",
-              "itemName": "MICHELIN 185/55/15 ENERGY XM2+ 86V CN (YR2026)",
-              "quantity": 4,
-              "sales": 1040,
-              "cost": 1036,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -3356,14 +2969,14 @@
           ]
         },
         "2026-10-12": {
-          "documents": 26,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13694,
-              "cost": 13918,
-              "grossProfit": -224,
-              "quantity": 49
+              "sales": 2376,
+              "cost": 2408,
+              "grossProfit": -32,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -3498,84 +3111,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH195015V701-26",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026",
-              "quantity": 1,
-              "sales": 0,
-              "cost": 234,
-              "grossProfit": -234
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 20,
-              "sales": 4940,
-              "cost": 4920,
-              "grossProfit": 20
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195016CR1-26",
-              "itemName": "TOYO 195/50/16 PROXES CR1 84V MY (2026)",
-              "quantity": 4,
-              "sales": 1016,
-              "cost": 1012,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195515TR1-26",
-              "itemName": "TOYO 195/55/15 PXTR1 (2026)",
-              "quantity": 6,
-              "sales": 1206,
-              "cost": 1200,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY196016CR1-26",
-              "itemName": "TOYO 195/60/16 PXCR1 89H M'SIA (2026)",
-              "quantity": 4,
-              "sales": 1040,
-              "cost": 1036,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY225018CR1D-26",
-              "itemName": "TOYO 225/50/18 PROXES CR1D 95V (2026)",
-              "quantity": 4,
-              "sales": 1772,
-              "cost": 1768,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPMC225518P5-26",
               "itemName": "MICHELIN 225/55/18 PRIMACY 5 XL 102V CN (2026)",
               "quantity": 2,
               "sales": 1360,
               "cost": 1348,
               "grossProfit": 12
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC215518P5-26",
-              "itemName": "MICHELIN 215/55/18 PRIMACY 5 99V XL TH (2026)",
-              "quantity": 2,
-              "sales": 944,
-              "cost": 942,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGT207015T20-26",
-              "itemName": "GITI 205/70/15 COMFORT T20 96T XL CN (2026)",
-              "quantity": 2,
-              "sales": 400,
-              "cost": 398,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -4119,14 +3660,14 @@
           ]
         },
         "2026-10-16": {
-          "documents": 20,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11460,
-              "cost": 11002.4,
-              "grossProfit": 457.6,
-              "quantity": 65
+              "sales": 5112,
+              "cost": 4689.6,
+              "grossProfit": 422.4,
+              "quantity": 28
             },
             {
               "key": "sport_rim",
@@ -4144,10 +3685,10 @@
             },
             {
               "key": "other",
-              "sales": 5286.71,
-              "cost": 4495.23,
-              "grossProfit": 791.48,
-              "quantity": 85
+              "sales": 843.71,
+              "cost": 57.23,
+              "grossProfit": 786.48,
+              "quantity": 80
             }
           ],
           "items": [
@@ -4168,15 +3709,6 @@
               "sales": 100,
               "cost": 0,
               "grossProfit": 100
-            },
-            {
-              "category": "other",
-              "itemCode": "SSD2S18",
-              "itemName": "D2 SPRING SAGA 2018 FLX, VVT",
-              "quantity": 1,
-              "sales": 239,
-              "cost": 238,
-              "grossProfit": 1
             },
             {
               "category": "other",
@@ -4252,33 +3784,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPWL175015RP26-26",
-              "itemName": "WEST LAKE 175/50/15 RP26 75V TL CN (2026)",
-              "quantity": 1,
-              "sales": 144,
-              "cost": 143.2,
-              "grossProfit": 0.8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL205016RP218-26",
-              "itemName": "WEST LAKE 205/50/16 FORAY RP218 87V TL TH (2026)",
-              "quantity": 4,
-              "sales": 660,
-              "cost": 656,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL206515Z117-26",
-              "itemName": "WEST LAKE 205/65/15 ZUPER FLEX Z-117 94H TL TH (2026)",
-              "quantity": 2,
-              "sales": 354,
-              "cost": 353.6,
-              "grossProfit": 0.4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPTY205016TR1",
               "itemName": "TOYO 205/50/16 PXTR1 MALAYSIA 87W (2025)",
               "quantity": 1,
@@ -4312,15 +3817,6 @@
               "sales": 336,
               "cost": 332,
               "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN185515GC5-26",
-              "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 30,
-              "sales": 5190,
-              "cost": 5160,
-              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -4411,54 +3907,18 @@
               "sales": 450,
               "cost": 385.87,
               "grossProfit": 64.13
-            },
-            {
-              "category": "other",
-              "itemCode": "PADHRBEZZA",
-              "itemName": "HYPER RACING ADJ ABSORBER PRD BEZZA F/R",
-              "quantity": 1,
-              "sales": 601,
-              "cost": 600,
-              "grossProfit": 1
-            },
-            {
-              "category": "other",
-              "itemCode": "PADHRHDCITY08",
-              "itemName": "HYPER RACING ADJ ABSORBER HD CITY 08 F/R",
-              "quantity": 1,
-              "sales": 1001,
-              "cost": 1000,
-              "grossProfit": 1
-            },
-            {
-              "category": "other",
-              "itemCode": "PADJD2VS08",
-              "itemName": "D2 ADJUSTABLE TYT VIOS 2008 NCP93 FRT/REAR BODY SHIFT",
-              "quantity": 1,
-              "sales": 1301,
-              "cost": 1300,
-              "grossProfit": 1
-            },
-            {
-              "category": "other",
-              "itemCode": "PADJD2VS13",
-              "itemName": "D2 ADJUSTABLE TYT VIOS 2013 FRT/REAR BODY SHIFT",
-              "quantity": 1,
-              "sales": 1301,
-              "cost": 1300,
-              "grossProfit": 1
             }
           ]
         },
         "2026-10-17": {
-          "documents": 31,
+          "documents": 28,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 14225,
-              "cost": 13540.88,
-              "grossProfit": 684.12,
-              "quantity": 59
+              "sales": 10464,
+              "cost": 9786.88,
+              "grossProfit": 677.12,
+              "quantity": 52
             },
             {
               "key": "sport_rim",
@@ -4476,10 +3936,10 @@
             },
             {
               "key": "other",
-              "sales": 764.06,
+              "sales": 1247.06,
               "cost": -483.94,
-              "grossProfit": 1248,
-              "quantity": 248
+              "grossProfit": 1731,
+              "quantity": 249
             }
           ],
           "items": [
@@ -4665,15 +4125,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH224018V701-26",
-              "itemName": "YOKOHAMA 225/40/18 ADVAN FLEVA V701 92W PH (2026)",
-              "quantity": 4,
-              "sales": 2052,
-              "cost": 2048,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 10,
@@ -4746,15 +4197,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPCT244020MC7-26",
-              "itemName": "CONTINENTAL 245/40/20 MAX CONTACT MC7 (2026)",
-              "quantity": 1,
-              "sales": 901,
-              "cost": 900,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPBS195515RE005-26",
               "itemName": "BRIDGESTONE 195/55/15 RE005 (2026)",
               "quantity": 4,
@@ -4770,15 +4212,6 @@
               "sales": 1142,
               "cost": 1024,
               "grossProfit": 118
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS215518HL001-26",
-              "itemName": "BRIDGESTONE 215/55/18 ECOPIA H/L 001 99V TH (2026)",
-              "quantity": 2,
-              "sales": 808,
-              "cost": 806,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -5013,27 +4446,18 @@
               "sales": 250,
               "cost": 234.65,
               "grossProfit": 15.35
-            },
-            {
-              "category": "other",
-              "itemCode": "DISC REC",
-              "itemName": "DISCOUNT RECEIVE",
-              "quantity": -1,
-              "sales": -483,
-              "cost": 0,
-              "grossProfit": -483
             }
           ]
         },
         "2026-10-19": {
-          "documents": 33,
+          "documents": 30,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 20626.64,
-              "cost": 19845.64,
-              "grossProfit": 781,
-              "quantity": 85
+              "sales": 9654,
+              "cost": 8918,
+              "grossProfit": 736,
+              "quantity": 40
             },
             {
               "key": "sport_rim",
@@ -5204,24 +4628,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH205016V701-26",
-              "itemName": "YOKOHAMA 205/50/16 ADVAN FLEVA V701 87V (JP) (2026)",
-              "quantity": 1,
-              "sales": 308.8,
-              "cost": 307.8,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 8,
-              "sales": 1976,
-              "cost": 1968,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
@@ -5237,15 +4643,6 @@
               "sales": 452,
               "cost": 334,
               "grossProfit": 118
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY204517CR1-26",
-              "itemName": "TOYO 205/45/17 PXCR1 88W (2026)",
-              "quantity": 4,
-              "sales": 1212,
-              "cost": 1208,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -5285,57 +4682,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPDL235018BLUE-26",
-              "itemName": "DUNLOP 235/50/18 BLUE RESPONSE TG J 97V JP (2026)",
-              "quantity": 4,
-              "sales": 1316,
-              "cost": 1312,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPCT195515CC7CS-26",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 CS 85V FR CN (2026)",
               "quantity": 4,
               "sales": 1102,
               "cost": 1068,
               "grossProfit": 34
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT176514CC7",
-              "itemName": "CONTINENTAL 175/65/14 CC7 82H (2026)",
-              "quantity": 11,
-              "sales": 2233,
-              "cost": 2222,
-              "grossProfit": 11
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185515CC7-26",
-              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
-              "quantity": 4,
-              "sales": 980,
-              "cost": 976,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185516UC7-26",
-              "itemName": "CONTINENTAL 185/55/16 83V UC7 (2026)",
-              "quantity": 1,
-              "sales": 279,
-              "cost": 278,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS195515RE005-26",
-              "itemName": "BRIDGESTONE 195/55/15 RE005 (2026)",
-              "quantity": 12,
-              "sales": 2667.84,
-              "cost": 2655.84,
-              "grossProfit": 12
             },
             {
               "category": "passenger_tire",
@@ -5511,14 +4863,14 @@
           ]
         },
         "2026-10-20": {
-          "documents": 31,
+          "documents": 28,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 15373,
-              "cost": 14496,
-              "grossProfit": 877,
-              "quantity": 63
+              "sales": 10622,
+              "cost": 9764,
+              "grossProfit": 858,
+              "quantity": 44
             },
             {
               "key": "sport_rim",
@@ -5536,10 +4888,10 @@
             },
             {
               "key": "other",
-              "sales": 152.85,
+              "sales": 871.89,
               "cost": -1013.76,
-              "grossProfit": 1166.61,
-              "quantity": 224
+              "grossProfit": 1885.65,
+              "quantity": 226
             }
           ],
           "items": [
@@ -5662,15 +5014,6 @@
             },
             {
               "category": "other",
-              "itemCode": "ALGNFB",
-              "itemName": "Alignment (Front & Back)",
-              "quantity": 4,
-              "sales": 92.6,
-              "cost": 0,
-              "grossProfit": 92.6
-            },
-            {
-              "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 14,
@@ -5683,6 +5026,15 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 58,
+              "sales": 129.64,
+              "cost": 0,
+              "grossProfit": 129.64
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 5,
               "sales": 129.64,
               "cost": 0,
               "grossProfit": 129.64
@@ -5743,15 +5095,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH247016AT4-26",
-              "itemName": "YOKOHAMA 245/70/16 GEOLANDAR AT/4 G018A 111T TH (2026)",
-              "quantity": 2,
-              "sales": 924,
-              "cost": 922,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 2,
@@ -5767,42 +5110,6 @@
               "sales": 1860,
               "cost": 1764,
               "grossProfit": 96
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY185515CR1-26",
-              "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
-              "quantity": 6,
-              "sales": 1176,
-              "cost": 1170,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195015TR1",
-              "itemName": "TOYO TIRES 195/50/15 82V TR1 (2026)",
-              "quantity": 2,
-              "sales": 392,
-              "cost": 390,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195515CR1-26",
-              "itemName": "TOYO 195/55/15 PROXES CR1 85V MY (2026)",
-              "quantity": 4,
-              "sales": 748,
-              "cost": 744,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY196016CR1-26",
-              "itemName": "TOYO 195/60/16 PXCR1 89H M'SIA (2026)",
-              "quantity": 4,
-              "sales": 1040,
-              "cost": 1036,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -5866,15 +5173,6 @@
               "sales": 1140,
               "cost": 966,
               "grossProfit": 174
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT215017MC7-26",
-              "itemName": "CONTINENTAL 215/50/17 MAX CONTACT MC7 95W TH (2026)",
-              "quantity": 1,
-              "sales": 471,
-              "cost": 470,
-              "grossProfit": 1
             },
             {
               "category": "passenger_tire",
@@ -6064,27 +5362,18 @@
               "sales": 100,
               "cost": 12,
               "grossProfit": 88
-            },
-            {
-              "category": "other",
-              "itemCode": "DISC REC",
-              "itemName": "DISCOUNT RECEIVE",
-              "quantity": -1,
-              "sales": -682,
-              "cost": 0,
-              "grossProfit": -682
             }
           ]
         },
         "2026-10-22": {
-          "documents": 28,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9229,
-              "cost": 8779.6,
-              "grossProfit": 449.4,
-              "quantity": 43
+              "sales": 5810,
+              "cost": 5371.6,
+              "grossProfit": 438.4,
+              "quantity": 32
             },
             {
               "key": "sport_rim",
@@ -6273,15 +5562,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH205516ES32-26",
-              "itemName": "YOKOHAMA 205/55/16 BLUEARTH-ES32 91V (2026)",
-              "quantity": 1,
-              "sales": 257,
-              "cost": 256,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 8,
@@ -6318,15 +5598,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY186015-26",
-              "itemName": "TOYO 185/60/15 PROXES CR1 84H MY (2026)",
-              "quantity": 4,
-              "sales": 728,
-              "cost": 724,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGY196016MAX-26",
               "itemName": "GOODYEAR 195/60/16 ASSURANCE MAXGUARD 89V ID (2026)",
               "quantity": 2,
@@ -6351,24 +5622,6 @@
               "sales": 346,
               "cost": 340,
               "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT186515CC7-26",
-              "itemName": "CONTINENTAL 185/65/15 COMFORT CONTACT CC7 88V CN (2026)",
-              "quantity": 2,
-              "sales": 506,
-              "cost": 504,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT235018UC7-26",
-              "itemName": "CONTINENTAL 235/50/18 ULTRA CONTACT UC7 101W CN (2026)",
-              "quantity": 4,
-              "sales": 1928,
-              "cost": 1924,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -6526,14 +5779,14 @@
           ]
         },
         "2026-10-23": {
-          "documents": 27,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 24362,
-              "cost": 23537.8,
-              "grossProfit": 824.2,
-              "quantity": 105
+              "sales": 7304,
+              "cost": 6553.8,
+              "grossProfit": 750.2,
+              "quantity": 31
             },
             {
               "key": "sport_rim",
@@ -6650,24 +5903,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH195015V701-26",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026",
-              "quantity": 1,
-              "sales": 235,
-              "cost": 234,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 20,
-              "sales": 4940,
-              "cost": 4920,
-              "grossProfit": 20
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR205516R330-26",
               "itemName": "WINRUN 205/55/16 R330 91V TL CN (2026)",
               "quantity": 4,
@@ -6713,44 +5948,8 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY185515CR1-26",
-              "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
-              "quantity": 4,
-              "sales": 784,
-              "cost": 780,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY185516CR1-26",
-              "itemName": "TOYO 185/55/16 PROXES CR1 89H MY (2026)",
-              "quantity": 4,
-              "sales": 812,
-              "cost": 808,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195016CR1-26",
-              "itemName": "TOYO 195/50/16 PROXES CR1 84V MY (2026)",
-              "quantity": 4,
-              "sales": 1016,
-              "cost": 1012,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195515CR1-26",
-              "itemName": "TOYO 195/55/15 PROXES CR1 85V MY (2026)",
-              "quantity": 6,
-              "sales": 1122,
-              "cost": 1116,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGM243519SPS-26",
-              "itemName": "GRIPMAX 245/35/19 SUREGRIP PRO SPORT 93Y XL THAI (2026)",
+              "itemName": "GRIPMAX 245/35/19 SUPERGRIP PRO SPORT 93Y XL THAI (2026)",
               "quantity": 4,
               "sales": 1520,
               "cost": 1364,
@@ -6769,10 +5968,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 14,
-              "sales": 2286,
-              "cost": 2226,
-              "grossProfit": 60
+              "quantity": 2,
+              "sales": 366,
+              "cost": 318,
+              "grossProfit": 48
             },
             {
               "category": "passenger_tire",
@@ -6787,37 +5986,10 @@
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 14,
-              "sales": 3062,
-              "cost": 3114,
-              "grossProfit": -52
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT176514CC7",
-              "itemName": "CONTINENTAL 175/65/14 CC7 82H (2026)",
-              "quantity": 1,
-              "sales": 193,
-              "cost": 192,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185515CC7-26",
-              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
-              "quantity": 8,
-              "sales": 1864,
-              "cost": 1856,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS256517HT-26",
-              "itemName": "BRIDGESTONE 255/65/17 DUELER H/T 684III TH (2026)",
               "quantity": 4,
-              "sales": 1972,
-              "cost": 1968,
-              "grossProfit": 4
+              "sales": 862,
+              "cost": 924,
+              "grossProfit": -62
             },
             {
               "category": "passenger_tire",
@@ -7047,14 +6219,14 @@
           ]
         },
         "2026-10-24": {
-          "documents": 31,
+          "documents": 26,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 20389,
-              "cost": 19431.88,
-              "grossProfit": 957.12,
-              "quantity": 96
+              "sales": 11282,
+              "cost": 10362.88,
+              "grossProfit": 919.12,
+              "quantity": 58
             },
             {
               "key": "sport_rim",
@@ -7065,10 +6237,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 5426.97,
-              "cost": 4697.21,
-              "grossProfit": 729.76,
-              "quantity": 48
+              "sales": 1262.97,
+              "cost": 567.61,
+              "grossProfit": 695.36,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -7297,21 +6469,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPGT205516F22-26",
-              "itemName": "GITI 205/55/16 COMFORT F22 94V CN (2026)",
-              "quantity": 4,
-              "sales": 756,
-              "cost": 752,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 5,
-              "sales": 875,
-              "cost": 860,
-              "grossProfit": 15
+              "quantity": 4,
+              "sales": 702,
+              "cost": 688,
+              "grossProfit": 14
             },
             {
               "category": "passenger_tire",
@@ -7321,24 +6484,6 @@
               "sales": 2320,
               "cost": 2140,
               "grossProfit": 180
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN176514GC5-26",
-              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
-              "quantity": 12,
-              "sales": 2004,
-              "cost": 1992,
-              "grossProfit": 12
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN195515GS5-26",
-              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 4,
-              "sales": 640,
-              "cost": 636,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -7357,42 +6502,6 @@
               "sales": 400,
               "cost": 358,
               "grossProfit": 42
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT186515CC7-26",
-              "itemName": "CONTINENTAL 185/65/15 COMFORT CONTACT CC7 88V CN (2026)",
-              "quantity": 4,
-              "sales": 1012,
-              "cost": 1008,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT235018UC7-26",
-              "itemName": "CONTINENTAL 235/50/18 ULTRA CONTACT UC7 101W CN (2026)",
-              "quantity": 5,
-              "sales": 2410,
-              "cost": 2405,
-              "grossProfit": 5
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195515CC7",
-              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 4,
-              "sales": 880,
-              "cost": 876,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT205516CC7-26",
-              "itemName": "CONTINENTAL 205/55/16 COMFORT CONTACT CC7 91V CN (2026)",
-              "quantity": 4,
-              "sales": 1232,
-              "cost": 1228,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -7429,33 +6538,6 @@
               "sales": 300,
               "cost": 169,
               "grossProfit": 131
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "OETL10W30Q5000",
-              "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 12,
-              "sales": 996,
-              "cost": 984,
-              "grossProfit": 12
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "OETL15W40Q5000",
-              "itemName": "TOTAL 15W40 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 8,
-              "sales": 640,
-              "cost": 632,
-              "grossProfit": 8
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "OEHX10W40Q7000",
-              "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
-              "quantity": 16,
-              "sales": 2528,
-              "cost": 2513.6,
-              "grossProfit": 14.4
             },
             {
               "category": "foreman_item",
@@ -7550,14 +6632,14 @@
           ]
         },
         "2026-10-26": {
-          "documents": 28,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 18796,
-              "cost": 18482.8,
-              "grossProfit": 313.2,
-              "quantity": 70
+              "sales": 8350,
+              "cost": 8072.8,
+              "grossProfit": 277.2,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
@@ -7712,28 +6794,10 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 24,
-              "sales": 5802,
-              "cost": 5904,
-              "grossProfit": -102
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH247016AT4-26",
-              "itemName": "YOKOHAMA 245/70/16 GEOLANDAR AT/4 G018A 111T TH (2026)",
               "quantity": 4,
-              "sales": 1848,
-              "cost": 1844,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195015V701-26",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026",
-              "quantity": 1,
-              "sales": 234,
-              "cost": 234,
-              "grossProfit": 0
+              "sales": 862,
+              "cost": 984,
+              "grossProfit": -122
             },
             {
               "category": "passenger_tire",
@@ -7784,19 +6848,10 @@
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 13,
-              "sales": 2124,
-              "cost": 2106,
-              "grossProfit": 18
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN216017HT6-26",
-              "itemName": "GENERAL 215/60/17 GRABBER HT6 96H FR (2026)",
-              "quantity": 4,
-              "sales": 1468,
-              "cost": 1468,
-              "grossProfit": 0
+              "quantity": 1,
+              "sales": 168,
+              "cost": 162,
+              "grossProfit": 6
             },
             {
               "category": "passenger_tire",
@@ -8430,14 +7485,14 @@
           ]
         },
         "2026-10-29": {
-          "documents": 34,
+          "documents": 30,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 14162,
-              "cost": 13348.64,
-              "grossProfit": 813.36,
-              "quantity": 68
+              "sales": 10376,
+              "cost": 9574.64,
+              "grossProfit": 801.36,
+              "quantity": 56
             },
             {
               "key": "sport_rim",
@@ -8626,15 +7681,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH215017V701-26",
-              "itemName": "YOKOHAMA 215/50/17 ADVAN FLEVA V701 (JP)-(2026)",
-              "quantity": 2,
-              "sales": 860,
-              "cost": 858,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 7,
@@ -8671,39 +7717,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY205516CR1-26",
-              "itemName": "TOYO 205/55/16 PXCR1 94V (2026)",
-              "quantity": 2,
-              "sales": 554,
-              "cost": 552,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC195016XM+-26",
-              "itemName": "MICHELIN 195/50/16 EXTRA LOAD ENERGY XM+ 88V CN (2026)",
-              "quantity": 4,
-              "sales": 1156,
-              "cost": 1152,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPLS195515RS009-26",
               "itemName": "LANDSAIL 195/55/15 RS009 85V TH (2026)",
               "quantity": 4,
               "sales": 690,
               "cost": 540,
               "grossProfit": 150
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGY206017MAX-26",
-              "itemName": "GOODYEAR 205/60/17 ASSURANCE MAXGUARD 94V ID (2026)",
-              "quantity": 4,
-              "sales": 1216,
-              "cost": 1212,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -9005,14 +8024,14 @@
           ]
         },
         "2026-10-30": {
-          "documents": 27,
+          "documents": 24,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 22652,
-              "cost": 21680.88,
-              "grossProfit": 971.12,
-              "quantity": 119
+              "sales": 10522,
+              "cost": 9616.88,
+              "grossProfit": 905.12,
+              "quantity": 53
             },
             {
               "key": "sport_rim",
@@ -9111,15 +8130,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH195016V701-26",
-              "itemName": "YOKOHAMA 195/50/16 ADVAN FLEVA V701 JP (2026)",
-              "quantity": 4,
-              "sales": 1052,
-              "cost": 1048,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 14,
@@ -9138,84 +8148,12 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY176514CR1",
-              "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
-              "quantity": 4,
-              "sales": 632,
-              "cost": 628,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY185515CR1-26",
-              "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
-              "quantity": 9,
-              "sales": 1764,
-              "cost": 1755,
-              "grossProfit": 9
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195015TR1",
-              "itemName": "TOYO TIRES 195/50/15 82V TR1 (2026)",
-              "quantity": 2,
-              "sales": 392,
-              "cost": 390,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195016CR1-26",
-              "itemName": "TOYO 195/50/16 PROXES CR1 84V MY (2026)",
-              "quantity": 1,
-              "sales": 254,
-              "cost": 253,
-              "grossProfit": 1
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195515CR1-26",
-              "itemName": "TOYO 195/55/15 PROXES CR1 85V MY (2026)",
-              "quantity": 8,
-              "sales": 1496,
-              "cost": 1488,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY196016CR1-26",
-              "itemName": "TOYO 195/60/16 PXCR1 89H M'SIA (2026)",
-              "quantity": 4,
-              "sales": 1040,
-              "cost": 1036,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGY216017MAX-26",
-              "itemName": "GOODYEAR 215/60/17 ASSURANCE MAXGUARD SUV 96H (2026)",
-              "quantity": 2,
-              "sales": 674,
-              "cost": 672,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 18,
-              "sales": 3034,
-              "cost": 2916,
-              "grossProfit": 118
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN195515GS5-26",
-              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 10,
-              "sales": 1600,
-              "cost": 1590,
-              "grossProfit": 10
+              "quantity": 8,
+              "sales": 1404,
+              "cost": 1296,
+              "grossProfit": 108
             },
             {
               "category": "passenger_tire",
@@ -9261,15 +8199,6 @@
               "sales": 660,
               "cost": 540,
               "grossProfit": 120
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPAT185515AX77-26",
-              "itemName": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
-              "quantity": 12,
-              "sales": 1596,
-              "cost": 1584,
-              "grossProfit": 12
             },
             {
               "category": "foreman_item",
@@ -9454,14 +8383,14 @@
           ]
         },
         "2026-10-01": {
-          "documents": 32,
+          "documents": 29,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 21957,
-              "cost": 20644.9,
-              "grossProfit": 1312.1,
-              "quantity": 109
+              "sales": 11360,
+              "cost": 10089.6,
+              "grossProfit": 1270.4,
+              "quantity": 56
             },
             {
               "key": "sport_rim",
@@ -9589,10 +8518,10 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 24,
-              "sales": 5802,
-              "cost": 5904,
-              "grossProfit": -102
+              "quantity": 4,
+              "sales": 862,
+              "cost": 984,
+              "grossProfit": -122
             },
             {
               "category": "passenger_tire",
@@ -9620,60 +8549,6 @@
               "sales": 472,
               "cost": 379.6,
               "grossProfit": 92.4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL177013Z108-26",
-              "itemName": "WEST LAKE 175/70/13 ZUPER FLEX Z-117 82H TH (2026)",
-              "quantity": 5,
-              "sales": 475,
-              "cost": 474.5,
-              "grossProfit": 0.5
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL186014Z108-26",
-              "itemName": "WEST LAKE 185/60/14 Z108 82H TL CN (2026)",
-              "quantity": 8,
-              "sales": 1048,
-              "cost": 1043.2,
-              "grossProfit": 4.8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL187014Z117-26",
-              "itemName": "WEST LAKE 185/70/14 ZUPER FLEX Z-117 88T TH (2026)",
-              "quantity": 2,
-              "sales": 310,
-              "cost": 308,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL196015Z117-26",
-              "itemName": "WEST LAKE 195/60/15 ZUPER FLEX Z117 TL TH (2026)",
-              "quantity": 6,
-              "sales": 900,
-              "cost": 897.6,
-              "grossProfit": 2.4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL204517Z108-26",
-              "itemName": "WEST LAKE 205/45/17 ZUPER Z-108 88W CN (2026)",
-              "quantity": 5,
-              "sales": 865,
-              "cost": 860,
-              "grossProfit": 5
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL224518Z117-26",
-              "itemName": "WEST LAKE 225/45/18 ZUPER FLEX Z-117 95W TL TH (2026)",
-              "quantity": 3,
-              "sales": 627,
-              "cost": 624,
-              "grossProfit": 3
             },
             {
               "category": "passenger_tire",
@@ -9710,15 +8585,6 @@
               "sales": 796,
               "cost": 696,
               "grossProfit": 100
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC216016XM2-26",
-              "itemName": "MICHELIN 215/60/16 ENERGY XM2+ 95H (2026)",
-              "quantity": 4,
-              "sales": 1432,
-              "cost": 1428,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -10029,14 +8895,14 @@
           ]
         },
         "2026-10-06": {
-          "documents": 32,
+          "documents": 24,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 53819,
-              "cost": 52978.4,
-              "grossProfit": 840.6,
-              "quantity": 253
+              "sales": 13260,
+              "cost": 12618.4,
+              "grossProfit": 641.6,
+              "quantity": 54
             },
             {
               "key": "sport_rim",
@@ -10137,10 +9003,10 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 16,
-              "sales": 3634,
-              "cost": 3680,
-              "grossProfit": -46
+              "quantity": 4,
+              "sales": 862,
+              "cost": 920,
+              "grossProfit": -58
             },
             {
               "category": "passenger_tire",
@@ -10182,37 +9048,10 @@
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
-              "quantity": 10,
-              "sales": 1660,
-              "cost": 1520,
-              "grossProfit": 140
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY185515CR1-26",
-              "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
-              "quantity": 6,
-              "sales": 1146,
-              "cost": 1140,
-              "grossProfit": 6
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY195016CR1-26",
-              "itemName": "TOYO 195/50/16 PROXES CR1 84V MY (2026)",
               "quantity": 4,
-              "sales": 996,
-              "cost": 992,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPTY196016CR1-26",
-              "itemName": "TOYO 195/60/16 PXCR1 89H M'SIA (2026)",
-              "quantity": 2,
-              "sales": 520,
-              "cost": 518,
-              "grossProfit": 2
+              "sales": 742,
+              "cost": 608,
+              "grossProfit": 134
             },
             {
               "category": "passenger_tire",
@@ -10261,33 +9100,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPGY215517MAX-26",
-              "itemName": "GOODYEAR 215/55/17 ASSURANCE MAXGUARD 94V (ID) (2026)",
-              "quantity": 2,
-              "sales": 594,
-              "cost": 592,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN185515GC5-26",
-              "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
-              "quantity": 50,
-              "sales": 8650,
-              "cost": 8600,
-              "grossProfit": 50
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN195515GS5-26",
-              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 60,
-              "sales": 10260,
-              "cost": 10200,
-              "grossProfit": 60
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPCT186015CC7-26",
               "itemName": "CONTINENTAL 185/60/15 COMFORT CONTACT CC7 84H TH (2026)",
               "quantity": 4,
@@ -10308,55 +9120,10 @@
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 36,
-              "sales": 8336,
-              "cost": 8316,
-              "grossProfit": 20
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT225018UC7-26",
-              "itemName": "CONTINENTAL 225/50/18 ULTRA CONTACT UC7 95V FR (2026)",
-              "quantity": 2,
-              "sales": 1012,
-              "cost": 1010,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT235018UC7-26",
-              "itemName": "CONTINENTAL 235/50/18 ULTRA CONTACT UC7 101W CN (2026)",
-              "quantity": 3,
-              "sales": 1611,
-              "cost": 1608,
-              "grossProfit": 3
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT176514CC7",
-              "itemName": "CONTINENTAL 175/65/14 CC7 82H (2026)",
-              "quantity": 10,
-              "sales": 2030,
-              "cost": 2020,
-              "grossProfit": 10
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT185515CC7-26",
-              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
-              "quantity": 8,
-              "sales": 1960,
-              "cost": 1952,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS204516RE005-26",
-              "itemName": "BRIDGESTONE 205/45/6 POTENZA RE005 87W TH (2026)",
-              "quantity": 2,
-              "sales": 666,
-              "cost": 664,
-              "grossProfit": 2
+              "quantity": 4,
+              "sales": 912,
+              "cost": 924,
+              "grossProfit": -12
             },
             {
               "category": "passenger_tire",
@@ -10568,14 +9335,14 @@
           ]
         },
         "2026-10-11": {
-          "documents": 39,
+          "documents": 37,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 21682,
-              "cost": 20731,
-              "grossProfit": 951,
-              "quantity": 81
+              "sales": 19550,
+              "cost": 18605,
+              "grossProfit": 945,
+              "quantity": 75
             },
             {
               "key": "sport_rim",
@@ -10836,15 +9603,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPMC195016XM+-26",
-              "itemName": "MICHELIN 195/50/16 EXTRA LOAD ENERGY XM+ 88V CN (2026)",
-              "quantity": 4,
-              "sales": 1156,
-              "cost": 1152,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPLS195515RS009-26",
               "itemName": "LANDSAIL 195/55/15 RS009 85V TH (2026)",
               "quantity": 4,
@@ -10905,15 +9663,6 @@
               "sales": 466,
               "cost": 462,
               "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT224518UC7-26",
-              "itemName": "CONTINENTAL 225/45/18 UC7 ULTRACON (2026)",
-              "quantity": 2,
-              "sales": 976,
-              "cost": 974,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -11089,14 +9838,14 @@
           ]
         },
         "2026-10-15": {
-          "documents": 28,
+          "documents": 24,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 15016,
-              "cost": 14220,
-              "grossProfit": 796,
-              "quantity": 52
+              "sales": 11040,
+              "cost": 10254,
+              "grossProfit": 786,
+              "quantity": 42
             },
             {
               "key": "sport_rim",
@@ -11114,10 +9863,10 @@
             },
             {
               "key": "other",
-              "sales": 715.06,
-              "cost": -315.95,
-              "grossProfit": 1031.01,
-              "quantity": 154
+              "sales": 727.06,
+              "cost": -309.35,
+              "grossProfit": 1036.41,
+              "quantity": 158
             }
           ],
           "items": [
@@ -11213,15 +9962,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPYH196015ES32-26",
-              "itemName": "YOKOHAMA 195/60/15 BLUEARTH ES-ES32 88H PH (2026)",
-              "quantity": 4,
-              "sales": 840,
-              "cost": 836,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
@@ -11249,15 +9989,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPMC266018P5-26",
-              "itemName": "MICHELIN 265/60/18 PRIMACY 5 110H CN (2026)",
-              "quantity": 4,
-              "sales": 2860,
-              "cost": 2856,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPLS195515RK0-26",
               "itemName": "LANDSAIL 195/55/15 REX-KING RK-ZERO 85V TH (2026)",
               "quantity": 4,
@@ -11282,15 +10013,6 @@
               "sales": 1330,
               "cost": 1212,
               "grossProfit": 118
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGT186014T20-26",
-              "itemName": "GITI 185/60/14 COMFORT T20 82H (2026)",
-              "quantity": 2,
-              "sales": 276,
-              "cost": 274,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -11521,10 +10243,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 29,
-              "sales": 308,
-              "cost": 47.85,
-              "grossProfit": 260.15
+              "quantity": 33,
+              "sales": 320,
+              "cost": 54.45,
+              "grossProfit": 265.55
             },
             {
               "category": "other",
@@ -11574,14 +10296,14 @@
           ]
         },
         "2026-10-18": {
-          "documents": 32,
+          "documents": 29,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13910,
-              "cost": 13311.4,
-              "grossProfit": 598.6,
-              "quantity": 50
+              "sales": 8980,
+              "cost": 8393.4,
+              "grossProfit": 586.6,
+              "quantity": 38
             },
             {
               "key": "sport_rim",
@@ -11806,15 +10528,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPTY196016CR1-26",
-              "itemName": "TOYO 195/60/16 PXCR1 89H M'SIA (2026)",
-              "quantity": 4,
-              "sales": 1040,
-              "cost": 1036,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPMC195515XM2-26",
               "itemName": "MICHELIN 195/55/15 ENERGY XM2+ 85V (2026)",
               "quantity": 4,
@@ -11839,33 +10552,6 @@
               "sales": 1780,
               "cost": 1312,
               "grossProfit": 468
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT224518MC7-26",
-              "itemName": "CONTINENTAL 225/45/18 MAX CONTACT MC7 (2026)",
-              "quantity": 2,
-              "sales": 928,
-              "cost": 926,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT244018MC7-26",
-              "itemName": "CONTINENTAL 245/40/18 MAX CONTACT MC7 (2026)",
-              "quantity": 2,
-              "sales": 1530,
-              "cost": 1528,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT205017PCC-26",
-              "itemName": "CONTINENTAL 205/50/17 PREMIUM CONTACT C 89V CN (2026)",
-              "quantity": 4,
-              "sales": 1432,
-              "cost": 1428,
-              "grossProfit": 4
             },
             {
               "category": "foreman_item",
@@ -12122,14 +10808,14 @@
           ]
         },
         "2026-10-25": {
-          "documents": 41,
+          "documents": 38,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 16973.99,
-              "cost": 16071.04,
-              "grossProfit": 902.95,
-              "quantity": 73
+              "sales": 13215.99,
+              "cost": 12319.04,
+              "grossProfit": 896.95,
+              "quantity": 67
             },
             {
               "key": "sport_rim",
@@ -12327,15 +11013,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPMC235018P5-26",
-              "itemName": "MICHELIN 235/50/18 PRIMACY 5 97W (2026)",
-              "quantity": 2,
-              "sales": 1122,
-              "cost": 1120,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPLS195515RS009-26",
               "itemName": "LANDSAIL 195/55/15 RS009 85V TH (2026)",
               "quantity": 2,
@@ -12390,15 +11067,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPGN235519HT6-26",
-              "itemName": "GENERAL 235/55/19 GRABBER HT6 105V XL CN (2026)",
-              "quantity": 2,
-              "sales": 1104,
-              "cost": 1102,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPDL176514R1-26",
               "itemName": "DUNLOP 175/65/14 SP TOURING R1 79V TH (2026)",
               "quantity": 2,
@@ -12423,15 +11091,6 @@
               "sales": 2586,
               "cost": 2628,
               "grossProfit": -42
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT224019MC7-26",
-              "itemName": "CONTINENTAL 225/40/19 MAX CONTACT MC7 93Y TH (2026)",
-              "quantity": 2,
-              "sales": 1532,
-              "cost": 1530,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -12580,14 +11239,14 @@
           ]
         },
         "2026-10-31": {
-          "documents": 42,
+          "documents": 37,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 35476,
-              "cost": 34602.2,
-              "grossProfit": 873.8,
-              "quantity": 143
+              "sales": 13756,
+              "cost": 12951.2,
+              "grossProfit": 804.8,
+              "quantity": 71
             },
             {
               "key": "sport_rim",
@@ -12778,28 +11437,10 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
-              "quantity": 24,
-              "sales": 5802,
-              "cost": 5904,
-              "grossProfit": -102
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195016V701-26",
-              "itemName": "YOKOHAMA 195/50/16 ADVAN FLEVA V701 JP (2026)",
-              "quantity": 8,
-              "sales": 2104,
-              "cost": 2096,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH205016V701-26",
-              "itemName": "YOKOHAMA 205/50/16 ADVAN FLEVA V701 87V (JP) (2026)",
               "quantity": 4,
-              "sales": 1160,
-              "cost": 1159,
-              "grossProfit": 1
+              "sales": 862,
+              "cost": 984,
+              "grossProfit": -122
             },
             {
               "category": "passenger_tire",
@@ -12884,15 +11525,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPGT236018F50-26",
-              "itemName": "GITI 235/60/18 COMFORT F50 103H CN (2026)",
-              "quantity": 2,
-              "sales": 700,
-              "cost": 698,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
               "quantity": 4,
@@ -12944,51 +11576,6 @@
               "sales": 446,
               "cost": 438,
               "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT244019MC7-26",
-              "itemName": "CONTINENTAL 245/40/19 MAX CONTACT MC7 98Y TH (2026)",
-              "quantity": 4,
-              "sales": 3360,
-              "cost": 3356,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT253519MC7-26",
-              "itemName": "CONTINENTAL MAXCON MC7 -(2026)",
-              "quantity": 2,
-              "sales": 1696,
-              "cost": 1694,
-              "grossProfit": 2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS195016RE005-26",
-              "itemName": "BRIDGESTONE 195/50/16 85W POTENZA RE005 88W TH (2026)",
-              "quantity": 8,
-              "sales": 2056,
-              "cost": 2048,
-              "grossProfit": 8
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS195515RE005-26",
-              "itemName": "BRIDGESTONE 195/55/15 RE005 (2026)",
-              "quantity": 20,
-              "sales": 4380,
-              "cost": 4360,
-              "grossProfit": 20
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPBS205016RE005-26",
-              "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
-              "quantity": 4,
-              "sales": 1324,
-              "cost": 1320,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -13379,8 +11966,8 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T04:43:13.388Z",
-      "lastCollectedAt": "2026-11-09T04:43:13.388Z"
+      "backfillCompletedAt": "2026-11-09T05:41:28.728Z",
+      "lastCollectedAt": "2026-11-09T05:41:28.728Z"
     },
     "SR": {
       "days": {
@@ -14013,14 +12600,14 @@
           ]
         },
         "2026-10-05": {
-          "documents": 19,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3682,
-              "cost": 3468,
-              "grossProfit": 214,
-              "quantity": 22
+              "sales": 3330,
+              "cost": 3124,
+              "grossProfit": 206,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -14038,10 +12625,10 @@
             },
             {
               "key": "other",
-              "sales": 488,
-              "cost": -91.43,
-              "grossProfit": 579.43,
-              "quantity": 62
+              "sales": 308,
+              "cost": -148.03,
+              "grossProfit": 456.03,
+              "quantity": 51
             }
           ],
           "items": [
@@ -14103,28 +12690,19 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
-              "sales": 40,
+              "quantity": 18,
+              "sales": 0,
               "cost": 0,
-              "grossProfit": 40
-            },
-            {
-              "category": "other",
-              "itemCode": "ALGNFB",
-              "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 8,
-              "sales": 240,
-              "cost": 200,
-              "grossProfit": 40
+              "quantity": 6,
+              "sales": 180,
+              "cost": 150,
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -14148,10 +12726,10 @@
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
-              "quantity": 6,
-              "sales": 563,
-              "cost": 516,
-              "grossProfit": 47
+              "quantity": 2,
+              "sales": 211,
+              "cost": 172,
+              "grossProfit": 39
             },
             {
               "category": "passenger_tire",
@@ -14247,10 +12825,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 4,
+              "sales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         },
@@ -19548,7 +18126,7 @@
           ]
         },
         "2026-10-25": {
-          "documents": 33,
+          "documents": 32,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19573,10 +18151,10 @@
             },
             {
               "key": "other",
-              "sales": 568,
+              "sales": 1048,
               "cost": 925.12,
-              "grossProfit": -357.12,
-              "quantity": 105
+              "grossProfit": 122.88,
+              "quantity": 106
             }
           ],
           "items": [
@@ -19939,15 +18517,6 @@
               "sales": 960,
               "cost": 900,
               "grossProfit": 60
-            },
-            {
-              "category": "other",
-              "itemCode": "DISC REC",
-              "itemName": "DISCOUNT RECEIVE",
-              "quantity": -1,
-              "sales": -480,
-              "cost": 0,
-              "grossProfit": -480
             },
             {
               "category": "other",
@@ -21889,14 +20458,14 @@
           ]
         },
         "2026-10-15": {
-          "documents": 19,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4368,
-              "cost": 4138,
-              "grossProfit": 230,
-              "quantity": 14
+              "sales": 2168,
+              "cost": 1990,
+              "grossProfit": 178,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -21907,17 +20476,17 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2820,
-              "cost": 2046.55,
-              "grossProfit": 773.45,
-              "quantity": 13
+              "sales": 860,
+              "cost": 506.55,
+              "grossProfit": 353.45,
+              "quantity": 9
             },
             {
               "key": "other",
-              "sales": 659,
-              "cost": 130.27,
-              "grossProfit": 528.73,
-              "quantity": 54
+              "sales": 619,
+              "cost": 123.67,
+              "grossProfit": 495.33,
+              "quantity": 45
             }
           ],
           "items": [
@@ -21925,7 +20494,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
+              "quantity": 18,
               "sales": 80,
               "cost": 0,
               "grossProfit": 80
@@ -21934,7 +20503,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
+              "quantity": 9,
               "sales": 150,
               "cost": 0,
               "grossProfit": 150
@@ -22004,15 +20573,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPCT235018UC7-26",
-              "itemName": "CONTINENTAL 235/50/18 ULTRA CONTACT UC7 101W CN (2026)",
-              "quantity": 4,
-              "sales": 2200,
-              "cost": 2148,
-              "grossProfit": 52
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPAT215017XSPT",
               "itemName": "ATLANDER 215/50/17 X SPORT 86W 95W XL (2026)",
               "quantity": 2,
@@ -22075,24 +20635,6 @@
               "grossProfit": 44
             },
             {
-              "category": "foreman_item",
-              "itemCode": "NSR26100042",
-              "itemName": "ABSORBER FRT RH/LH ALPHARD ANH20, AGH30, ESTIMA SCR50 (G-SUSA)",
-              "quantity": 2,
-              "sales": 1360,
-              "cost": 1180,
-              "grossProfit": 180
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSR26100043",
-              "itemName": "ABSORBER RR ALPHARD AGH30 G (SUSA)",
-              "quantity": 2,
-              "sales": 600,
-              "cost": 360,
-              "grossProfit": 240
-            },
-            {
               "category": "other",
               "itemCode": "MNRYSN15S",
               "itemName": "RAYS RACING STEEL N 103G NUT 1.50 20' SHORT",
@@ -22123,10 +20665,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 4,
+              "sales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             },
             {
               "category": "other",
@@ -22687,8 +21229,8 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T04:43:13.388Z",
-      "lastCollectedAt": "2026-11-09T04:43:13.388Z"
+      "backfillCompletedAt": "2026-11-09T05:41:28.728Z",
+      "lastCollectedAt": "2026-11-09T05:41:28.728Z"
     },
     "ST": {
       "days": {
@@ -24102,7 +22644,7 @@
           ]
         },
         "2026-10-08": {
-          "documents": 16,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -24127,10 +22669,10 @@
             },
             {
               "key": "other",
-              "sales": 304,
+              "sales": 244,
               "cost": -136.6,
-              "grossProfit": 440.6,
-              "quantity": 88
+              "grossProfit": 380.6,
+              "quantity": 86
             }
           ],
           "items": [
@@ -24156,10 +22698,10 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 14,
-              "sales": 150,
+              "quantity": 12,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -24326,14 +22868,14 @@
           ]
         },
         "2026-10-10": {
-          "documents": 24,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 10720,
-              "cost": 10528,
-              "grossProfit": 192,
-              "quantity": 54
+              "sales": 10252,
+              "cost": 10062,
+              "grossProfit": 190,
+              "quantity": 52
             },
             {
               "key": "sport_rim",
@@ -24465,15 +23007,6 @@
               "sales": 2200,
               "cost": 2470,
               "grossProfit": -270
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPYH195015V701-26",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026",
-              "quantity": 2,
-              "sales": 468,
-              "cost": 466,
-              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -25026,7 +23559,7 @@
           ]
         },
         "2026-10-12": {
-          "documents": 17,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -25051,10 +23584,10 @@
             },
             {
               "key": "other",
-              "sales": 522,
+              "sales": 482,
               "cost": -113.1,
-              "grossProfit": 635.1,
-              "quantity": 73
+              "grossProfit": 595.1,
+              "quantity": 72
             }
           ],
           "items": [
@@ -25107,10 +23640,10 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 80,
+              "quantity": 1,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -25277,14 +23810,14 @@
           ]
         },
         "2026-10-18": {
-          "documents": 26,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 15232,
-              "cost": 13751,
-              "grossProfit": 1481,
-              "quantity": 57
+              "sales": 13340,
+              "cost": 11863,
+              "grossProfit": 1477,
+              "quantity": 53
             },
             {
               "key": "sport_rim",
@@ -25443,15 +23976,6 @@
               "sales": 1142,
               "cost": 800,
               "grossProfit": 342
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPMC215518PS5-26",
-              "itemName": "MICHELIN 215/55/18 PRIMACY 5 (2026)",
-              "quantity": 4,
-              "sales": 1892,
-              "cost": 1888,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -25636,7 +24160,7 @@
           ]
         },
         "2026-10-19": {
-          "documents": 21,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
@@ -25661,10 +24185,10 @@
             },
             {
               "key": "other",
-              "sales": 884,
-              "cost": 163.85,
-              "grossProfit": 720.15,
-              "quantity": 83
+              "sales": 622,
+              "cost": -56.15,
+              "grossProfit": 678.15,
+              "quantity": 81
             }
           ],
           "items": [
@@ -25676,15 +24200,6 @@
               "sales": -200,
               "cost": -200,
               "grossProfit": 0
-            },
-            {
-              "category": "other",
-              "itemCode": "SSD2BEZA",
-              "itemName": "D2 SPORT SPRING BEZZA",
-              "quantity": 1,
-              "sales": 222,
-              "cost": 220,
-              "grossProfit": 2
             },
             {
               "category": "sport_rim",
@@ -25726,10 +24241,10 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 4,
-              "sales": 80,
+              "quantity": 3,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -25878,14 +24393,14 @@
           ]
         },
         "2026-10-20": {
-          "documents": 17,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4878,
-              "cost": 4842.64,
-              "grossProfit": 35.36,
-              "quantity": 20
+              "sales": 3750,
+              "cost": 3718.64,
+              "grossProfit": 31.36,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -26020,15 +24535,6 @@
             },
             {
               "category": "passenger_tire",
-              "itemCode": "TPMC195515XM2-26",
-              "itemName": "MICHELIN 195/55/15 ENERGY XM2+ 85V (2026)",
-              "quantity": 4,
-              "sales": 1128,
-              "cost": 1124,
-              "grossProfit": 4
-            },
-            {
-              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 2,
@@ -26129,21 +24635,21 @@
           ]
         },
         "2026-10-24": {
-          "documents": 32,
+          "documents": 29,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 16894,
-              "cost": 15698,
-              "grossProfit": 1196,
-              "quantity": 70
+              "sales": 15502,
+              "cost": 14322,
+              "grossProfit": 1180,
+              "quantity": 54
             },
             {
               "key": "sport_rim",
-              "sales": 2815,
-              "cost": 2729,
-              "grossProfit": 86,
-              "quantity": 3
+              "sales": 2064,
+              "cost": 1979,
+              "grossProfit": 85,
+              "quantity": 2
             },
             {
               "key": "foreman_item",
@@ -26214,15 +24720,6 @@
               "sales": -200,
               "cost": -200,
               "grossProfit": 0
-            },
-            {
-              "category": "sport_rim",
-              "itemCode": "SR157041ET35-HBM-RGD2",
-              "itemName": "SPORT RIM 15X7.0 4X100 ET35 HYPER BLACK MACHINE FF17570A08L -ADVAN RACING (RGD2)",
-              "quantity": 1,
-              "sales": 751,
-              "cost": 750,
-              "grossProfit": 1
             },
             {
               "category": "other",
@@ -26300,10 +24797,10 @@
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
-              "quantity": 18,
-              "sales": 1618,
-              "cost": 1548,
-              "grossProfit": 70
+              "quantity": 2,
+              "sales": 226,
+              "cost": 172,
+              "grossProfit": 54
             },
             {
               "category": "passenger_tire",
@@ -26838,7 +25335,7 @@
           ]
         },
         "2026-10-26": {
-          "documents": 17,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -26863,10 +25360,10 @@
             },
             {
               "key": "other",
-              "sales": 549,
+              "sales": 449,
               "cost": -78.8,
-              "grossProfit": 627.8,
-              "quantity": 86
+              "grossProfit": 527.8,
+              "quantity": 80
             }
           ],
           "items": [
@@ -26901,19 +25398,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 15,
-              "sales": 210,
+              "quantity": 13,
+              "sales": 150,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 39,
-              "sales": 80,
+              "quantity": 35,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -27394,7 +25891,7 @@
           ]
         },
         "2026-10-29": {
-          "documents": 24,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -27419,10 +25916,10 @@
             },
             {
               "key": "other",
-              "sales": 2938,
-              "cost": 6409.65,
-              "grossProfit": -3471.65,
-              "quantity": 156
+              "sales": 2798,
+              "cost": 6359.65,
+              "grossProfit": -3561.65,
+              "quantity": 151
             }
           ],
           "items": [
@@ -27736,10 +26233,10 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 19,
-              "sales": 240,
+              "quantity": 16,
+              "sales": 150,
               "cost": 0,
-              "grossProfit": 240
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -27763,9 +26260,9 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 4,
-              "sales": 100,
-              "cost": 100,
+              "quantity": 2,
+              "sales": 50,
+              "cost": 50,
               "grossProfit": 0
             },
             {
@@ -28391,7 +26888,7 @@
           ]
         },
         "2026-10-31": {
-          "documents": 24,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
@@ -28416,10 +26913,10 @@
             },
             {
               "key": "other",
-              "sales": 667,
-              "cost": -109.1,
-              "grossProfit": 776.1,
-              "quantity": 132
+              "sales": 537,
+              "cost": -229.1,
+              "grossProfit": 766.1,
+              "quantity": 122
             }
           ],
           "items": [
@@ -28778,10 +27275,10 @@
               "category": "other",
               "itemCode": "MRC7354",
               "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
-              "quantity": 11,
-              "sales": 230,
-              "cost": 132,
-              "grossProfit": 98
+              "quantity": 1,
+              "sales": 100,
+              "cost": 12,
+              "grossProfit": 88
             }
           ]
         },
@@ -29441,7 +27938,7 @@
           ]
         },
         "2026-10-06": {
-          "documents": 17,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -29466,10 +27963,10 @@
             },
             {
               "key": "other",
-              "sales": 628,
-              "cost": 103.6,
-              "grossProfit": 524.4,
-              "quantity": 110
+              "sales": 548,
+              "cost": 53.6,
+              "grossProfit": 494.4,
+              "quantity": 107
             }
           ],
           "items": [
@@ -29477,10 +27974,10 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 14,
-              "sales": 120,
+              "quantity": 13,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -29499,15 +27996,6 @@
               "sales": 20,
               "cost": 0,
               "grossProfit": 20
-            },
-            {
-              "category": "other",
-              "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
-              "quantity": 2,
-              "sales": 50,
-              "cost": 50,
-              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -30077,7 +28565,7 @@
           ]
         },
         "2026-10-16": {
-          "documents": 15,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -30102,10 +28590,10 @@
             },
             {
               "key": "other",
-              "sales": 1734,
-              "cost": 1116.1,
-              "grossProfit": 617.9,
-              "quantity": 47
+              "sales": 1654,
+              "cost": 1066.1,
+              "grossProfit": 587.9,
+              "quantity": 44
             }
           ],
           "items": [
@@ -30113,10 +28601,10 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 12,
-              "sales": 210,
+              "quantity": 11,
+              "sales": 180,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 180
             },
             {
               "category": "other",
@@ -30140,9 +28628,9 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 4,
-              "sales": 100,
-              "cost": 100,
+              "quantity": 2,
+              "sales": 50,
+              "cost": 50,
               "grossProfit": 0
             },
             {
@@ -30543,7 +29031,7 @@
           ]
         },
         "2026-10-22": {
-          "documents": 18,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -30568,10 +29056,10 @@
             },
             {
               "key": "other",
-              "sales": 2111,
+              "sales": 1991,
               "cost": 1336.65,
-              "grossProfit": 774.35,
-              "quantity": 71
+              "grossProfit": 654.35,
+              "quantity": 66
             }
           ],
           "items": [
@@ -30579,28 +29067,28 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 12,
-              "sales": 210,
+              "quantity": 10,
+              "sales": 150,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 32,
-              "sales": 160,
+              "quantity": 30,
+              "sales": 140,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 140
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 80,
+              "quantity": 1,
+              "sales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -30946,8 +29434,8 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T04:43:13.388Z",
-      "lastCollectedAt": "2026-11-09T04:43:13.388Z"
+      "backfillCompletedAt": "2026-11-09T05:41:28.728Z",
+      "lastCollectedAt": "2026-11-09T05:41:28.728Z"
     },
     "SK": {
       "days": {
@@ -32556,14 +31044,14 @@
           ]
         },
         "2026-10-09": {
-          "documents": 20,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6228,
-              "cost": 5587.52,
-              "grossProfit": 640.48,
-              "quantity": 24
+              "sales": 5064,
+              "cost": 4427.52,
+              "grossProfit": 636.48,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -32686,15 +31174,6 @@
               "sales": 582,
               "cost": 512,
               "grossProfit": 70
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGM234018SPS",
-              "itemName": "GRIPMAX 235/40/18 SUREGRIP PRO SPORT 95Y XL THAI (2026)",
-              "quantity": 4,
-              "sales": 1164,
-              "cost": 1160,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -33936,14 +32415,14 @@
           ]
         },
         "2026-10-23": {
-          "documents": 17,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2690,
-              "cost": 2499.08,
-              "grossProfit": 190.92,
-              "quantity": 12
+              "sales": 1326,
+              "cost": 1139.08,
+              "grossProfit": 186.92,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -34039,15 +32518,6 @@
               "sales": 580,
               "cost": 437.08,
               "grossProfit": 142.92
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGM243519SPS-26",
-              "itemName": "GRIPMAX 245/35/19 SUREGRIP PRO SPORT 93Y XL THAI (2026)",
-              "quantity": 4,
-              "sales": 1364,
-              "cost": 1360,
-              "grossProfit": 4
             },
             {
               "category": "foreman_item",
@@ -35487,14 +33957,14 @@
           ]
         },
         "2026-10-05": {
-          "documents": 18,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3600,
-              "cost": 3094.36,
-              "grossProfit": 505.64,
-              "quantity": 18
+              "sales": 2476,
+              "cost": 1974.36,
+              "grossProfit": 501.64,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -35599,15 +34069,6 @@
               "sales": 580,
               "cost": 374.36,
               "grossProfit": 205.64
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGM224518SPS-26",
-              "itemName": "GRIPMAX 225/45/18 SUREGRIP PRO SPORT 95Y XL THAI",
-              "quantity": 4,
-              "sales": 1124,
-              "cost": 1120,
-              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -37153,9 +35614,9 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T04:43:13.388Z",
-      "lastCollectedAt": "2026-11-09T04:43:13.388Z"
+      "backfillCompletedAt": "2026-11-09T05:41:28.728Z",
+      "lastCollectedAt": "2026-11-09T05:41:28.728Z"
     }
   },
-  "updatedAt": "2026-11-09T04:43:13.388Z"
+  "updatedAt": "2026-11-09T05:41:28.728Z"
 }
