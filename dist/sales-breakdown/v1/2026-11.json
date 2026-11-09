@@ -3003,10 +3003,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5746,
-              "netSales": 5746,
+              "sales": 5806,
+              "netSales": 5806,
               "cost": 5401.2,
-              "grossProfit": 344.8,
+              "grossProfit": 404.8,
               "quantity": 33
             },
             {
@@ -3027,10 +3027,10 @@
             },
             {
               "key": "other",
-              "sales": 1938,
-              "netSales": 1916.54,
+              "sales": 1878,
+              "netSales": 1860.98,
               "cost": 949.15,
-              "grossProfit": 967.39,
+              "grossProfit": 911.83,
               "quantity": 95
             }
           ],
@@ -3060,10 +3060,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 32,
-              "sales": 100,
-              "netSales": 92.6,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -3080,15 +3080,15 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 5,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 74.08
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 6,
               "sales": 658,
               "netSales": 658,
@@ -3140,10 +3140,10 @@
               "itemCode": "TPGN206515GS6-26",
               "itemName": "GENERAL 205/65/15 ALTIMAX GS6 94V CN (2026)",
               "quantity": 2,
-              "sales": 500,
-              "netSales": 500,
+              "sales": 560,
+              "netSales": 560,
               "cost": 480,
-              "grossProfit": 20
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
@@ -3788,7 +3788,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:38:33.490Z"
+      "lastCollectedAt": "2026-11-09T07:44:04.658Z"
     },
     "SR": {
       "days": {
@@ -6734,7 +6734,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 5,
               "sales": 520,
               "netSales": 520,
@@ -6905,7 +6905,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:38:33.490Z"
+      "lastCollectedAt": "2026-11-09T07:44:04.658Z"
     },
     "ST": {
       "days": {
@@ -10242,7 +10242,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 7,
               "sales": 761,
               "netSales": 761,
@@ -10473,7 +10473,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:38:33.490Z"
+      "lastCollectedAt": "2026-11-09T07:44:04.658Z"
     },
     "SK": {
       "days": {
@@ -12071,15 +12071,15 @@
           ]
         },
         "2026-11-09": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1530,
-              "netSales": 1530,
-              "cost": 1343.84,
-              "grossProfit": 186.16,
-              "quantity": 8
+              "sales": 1688,
+              "netSales": 1688,
+              "cost": 1513.84,
+              "grossProfit": 174.16,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -12091,19 +12091,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 665,
-              "netSales": 665,
+              "sales": 725,
+              "netSales": 725,
               "cost": 534.5,
-              "grossProfit": 130.5,
-              "quantity": 6
+              "grossProfit": 190.5,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 210,
-              "netSales": 210,
+              "sales": 260,
+              "netSales": 260,
               "cost": 3.7,
-              "grossProfit": 206.3,
-              "quantity": 28
+              "grossProfit": 256.3,
+              "quantity": 31
             }
           ],
           "items": [
@@ -12131,31 +12131,31 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 14,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 6,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "passenger_tire",
@@ -12166,6 +12166,16 @@
               "netSales": 298,
               "cost": 256,
               "grossProfit": 42
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "quantity": 2,
+              "sales": 158,
+              "netSales": 158,
+              "cost": 170,
+              "grossProfit": -12
             },
             {
               "category": "passenger_tire",
@@ -12271,8 +12281,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:38:33.490Z"
+      "lastCollectedAt": "2026-11-09T07:44:04.658Z"
     }
   },
-  "updatedAt": "2026-11-09T07:38:33.490Z"
+  "updatedAt": "2026-11-09T07:44:04.658Z"
 }
