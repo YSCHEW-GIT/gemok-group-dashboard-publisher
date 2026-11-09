@@ -3733,7 +3733,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
+      "lastCollectedAt": "2026-11-09T05:27:09.294Z"
     },
     "SR": {
       "days": {
@@ -6286,7 +6286,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6311,10 +6311,10 @@
             },
             {
               "key": "other",
-              "sales": 450,
+              "sales": 460,
               "cost": 69.2,
-              "grossProfit": 380.8,
-              "quantity": 54
+              "grossProfit": 390.8,
+              "quantity": 55
             }
           ],
           "items": [
@@ -6344,6 +6344,15 @@
               "sales": 315,
               "cost": 0,
               "grossProfit": 315
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -6484,7 +6493,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
+      "lastCollectedAt": "2026-11-09T05:27:09.294Z"
     },
     "ST": {
       "days": {
@@ -9722,7 +9731,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
+      "lastCollectedAt": "2026-11-09T05:27:09.294Z"
     },
     "SK": {
       "days": {
@@ -11349,8 +11358,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
+      "lastCollectedAt": "2026-11-09T05:27:09.294Z"
     }
   },
-  "updatedAt": "2026-11-09T05:21:38.397Z"
+  "updatedAt": "2026-11-09T05:27:09.294Z"
 }
