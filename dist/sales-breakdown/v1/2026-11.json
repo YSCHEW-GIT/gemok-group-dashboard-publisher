@@ -6071,14 +6071,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1580,
-              "cost": 1370,
-              "grossProfit": 210,
-              "quantity": 11
+              "sales": 1932,
+              "cost": 1714,
+              "grossProfit": 218,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
@@ -6096,10 +6096,10 @@
             },
             {
               "key": "other",
-              "sales": 375,
-              "cost": 61.25,
-              "grossProfit": 313.75,
-              "quantity": 31
+              "sales": 545,
+              "cost": 67.85,
+              "grossProfit": 477.15,
+              "quantity": 46
             }
           ],
           "items": [
@@ -6107,19 +6107,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 90,
+              "quantity": 6,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 130,
+              "quantity": 22,
+              "sales": 190,
               "cost": 0,
-              "grossProfit": 130
+              "grossProfit": 190
             },
             {
               "category": "foreman_item",
@@ -6140,6 +6140,15 @@
               "grossProfit": 10
             },
             {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 4,
+              "sales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL THAI (2026)",
@@ -6156,6 +6165,15 @@
               "sales": 324,
               "cost": 258,
               "grossProfit": 66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "cost": 344,
+              "grossProfit": 8
             },
             {
               "category": "passenger_tire",
@@ -6206,10 +6224,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 6,
-              "sales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 10,
+              "sales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             },
             {
               "category": "foreman_item",
@@ -6224,7 +6242,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
+      "lastCollectedAt": "2026-11-09T03:25:22.902Z"
     },
     "ST": {
       "days": {
@@ -9354,7 +9372,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
+      "lastCollectedAt": "2026-11-09T03:25:22.902Z"
     },
     "SK": {
       "days": {
@@ -10823,9 +10841,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 320,
+              "sales": 380,
               "cost": 299.2,
-              "grossProfit": 20.8,
+              "grossProfit": 80.8,
               "quantity": 2
             },
             {
@@ -10844,9 +10862,9 @@
             },
             {
               "key": "other",
-              "sales": 100,
+              "sales": 40,
               "cost": 80.8,
-              "grossProfit": 19.2,
+              "grossProfit": -40.8,
               "quantity": 7
             }
           ],
@@ -10865,18 +10883,18 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 40,
+              "sales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 2,
-              "sales": 20,
+              "sales": 0,
               "cost": 80,
-              "grossProfit": -60
+              "grossProfit": -80
             },
             {
               "category": "foreman_item",
@@ -10892,9 +10910,9 @@
               "itemCode": "TPWL196015Z117",
               "itemName": "WEST LAKE 195/60/15 88V ZUPER FLEX Z117 (2026)",
               "quantity": 2,
-              "sales": 320,
+              "sales": 380,
               "cost": 299.2,
-              "grossProfit": 20.8
+              "grossProfit": 80.8
             },
             {
               "category": "other",
@@ -10918,8 +10936,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:16:09.980Z"
+      "lastCollectedAt": "2026-11-09T03:25:22.902Z"
     }
   },
-  "updatedAt": "2026-11-09T03:16:09.980Z"
+  "updatedAt": "2026-11-09T03:25:22.902Z"
 }
