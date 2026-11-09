@@ -3003,10 +3003,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7406,
-              "netSales": 7406,
+              "sales": 7456,
+              "netSales": 7456,
               "cost": 6829.2,
-              "grossProfit": 576.8,
+              "grossProfit": 626.8,
               "quantity": 43
             },
             {
@@ -3027,10 +3027,10 @@
             },
             {
               "key": "other",
-              "sales": 1848,
-              "netSales": 1834.68,
+              "sales": 1798,
+              "netSales": 1788.38,
               "cost": 952.45,
-              "grossProfit": 882.23,
+              "grossProfit": 835.93,
               "quantity": 108
             }
           ],
@@ -3050,20 +3050,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 9,
-              "sales": 90,
-              "netSales": 83.34,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 38,
-              "sales": 20,
-              "netSales": 18.52,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -3090,10 +3090,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 2,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 446,
+              "netSales": 446,
               "cost": 460,
-              "grossProfit": -64
+              "grossProfit": -14
             },
             {
               "category": "passenger_tire",
@@ -3818,7 +3818,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T10:04:55.735Z"
+      "lastCollectedAt": "2026-11-09T10:16:18.125Z"
     },
     "SR": {
       "days": {
@@ -6945,7 +6945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T10:04:55.735Z"
+      "lastCollectedAt": "2026-11-09T10:16:18.125Z"
     },
     "ST": {
       "days": {
@@ -10203,7 +10203,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 15,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10225,17 +10225,17 @@
               "key": "foreman_item",
               "sales": 2544,
               "netSales": 2544,
-              "cost": 997.2,
-              "grossProfit": 1546.8,
-              "quantity": 15
+              "cost": 1115.2,
+              "grossProfit": 1428.8,
+              "quantity": 20
             },
             {
               "key": "other",
-              "sales": 787,
-              "netSales": 787,
+              "sales": 797,
+              "netSales": 797,
               "cost": 188.6,
-              "grossProfit": 598.4,
-              "quantity": 96
+              "grossProfit": 608.4,
+              "quantity": 97
             }
           ],
           "items": [
@@ -10268,6 +10268,16 @@
               "netSales": 60,
               "cost": 0,
               "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -10440,6 +10450,36 @@
               "grossProfit": 540
             },
             {
+              "category": "foreman_item",
+              "itemCode": "OPRCLRSR",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
+              "quantity": 2,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 112,
+              "grossProfit": -112
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26725",
+              "itemName": "HOSE CLIP 50-70mm",
+              "quantity": 2,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 4,
+              "grossProfit": -4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK38925",
+              "itemName": "HOSE CLIP 12-20MM",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 2,
+              "grossProfit": -2
+            },
+            {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
@@ -10533,7 +10573,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T10:04:55.735Z"
+      "lastCollectedAt": "2026-11-09T10:16:18.125Z"
     },
     "SK": {
       "days": {
@@ -12361,8 +12401,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T10:04:55.735Z"
+      "lastCollectedAt": "2026-11-09T10:16:18.125Z"
     }
   },
-  "updatedAt": "2026-11-09T10:04:55.735Z"
+  "updatedAt": "2026-11-09T10:16:18.125Z"
 }
