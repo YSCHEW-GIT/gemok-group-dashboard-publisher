@@ -3521,9 +3521,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1290,
+              "sales": 1360,
               "cost": 1397.2,
-              "grossProfit": -107.2,
+              "grossProfit": -37.2,
               "quantity": 10
             },
             {
@@ -3542,9 +3542,9 @@
             },
             {
               "key": "other",
-              "sales": 1516.68,
+              "sales": 1451.86,
               "cost": 895.2,
-              "grossProfit": 621.48,
+              "grossProfit": 556.66,
               "quantity": 27
             }
           ],
@@ -3554,18 +3554,18 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 83.34,
+              "sales": 55.56,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 74.08,
+              "sales": 37.04,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -3590,9 +3590,9 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 472,
+              "sales": 542,
               "cost": 547.2,
-              "grossProfit": -75.2
+              "grossProfit": -5.2
             },
             {
               "category": "passenger_tire",
@@ -3697,7 +3697,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:37:07.655Z"
+      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
     },
     "SR": {
       "days": {
@@ -6254,9 +6254,9 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2518,
+              "sales": 2558,
               "cost": 2214,
-              "grossProfit": 304,
+              "grossProfit": 344,
               "quantity": 19
             },
             {
@@ -6275,9 +6275,9 @@
             },
             {
               "key": "other",
-              "sales": 565,
+              "sales": 525,
               "cost": 67.85,
-              "grossProfit": 497.15,
+              "grossProfit": 457.15,
               "quantity": 51
             }
           ],
@@ -6296,9 +6296,9 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 26,
-              "sales": 210,
+              "sales": 170,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 170
             },
             {
               "category": "foreman_item",
@@ -6332,9 +6332,9 @@
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL THAI (2026)",
               "quantity": 4,
-              "sales": 512,
+              "sales": 552,
               "cost": 512,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -6448,7 +6448,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:37:07.655Z"
+      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
     },
     "ST": {
       "days": {
@@ -9443,10 +9443,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 496,
-              "cost": 154.4,
-              "grossProfit": 341.6,
-              "quantity": 5
+              "sales": 2446,
+              "cost": 944.4,
+              "grossProfit": 1501.6,
+              "quantity": 14
             },
             {
               "key": "other",
@@ -9539,6 +9539,60 @@
               "grossProfit": 90
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRDCF",
+              "itemName": "ABSR COVER BUSH FRT",
+              "quantity": 2,
+              "sales": 70,
+              "cost": 40,
+              "grossProfit": 30
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRFLH",
+              "itemName": "ABSR F/LH GAS",
+              "quantity": 1,
+              "sales": 250,
+              "cost": 160,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRFRH",
+              "itemName": "ABSR F/RH GAS",
+              "quantity": 1,
+              "sales": 250,
+              "cost": 160,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRMTG",
+              "itemName": "ABSR MTG FRT",
+              "quantity": 2,
+              "sales": 240,
+              "cost": 100,
+              "grossProfit": 140
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSLH",
+              "itemName": "L.ARM ASSY LH",
+              "quantity": 1,
+              "sales": 380,
+              "cost": 110,
+              "grossProfit": 270
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSRH",
+              "itemName": "L. ARM ASSY RH",
+              "quantity": 2,
+              "sales": 760,
+              "cost": 220,
+              "grossProfit": 540
+            },
+            {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
@@ -9614,7 +9668,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:37:07.655Z"
+      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
     },
     "SK": {
       "days": {
@@ -11079,14 +11133,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 380,
-              "cost": 299.2,
-              "grossProfit": 80.8,
-              "quantity": 2
+              "sales": 618,
+              "cost": 555.2,
+              "grossProfit": 62.8,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -11104,10 +11158,10 @@
             },
             {
               "key": "other",
-              "sales": 160,
-              "cost": 242.1,
-              "grossProfit": -82.1,
-              "quantity": 14
+              "sales": 240,
+              "cost": 322.9,
+              "grossProfit": -82.9,
+              "quantity": 19
             }
           ],
           "items": [
@@ -11133,10 +11187,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 40,
-              "cost": 240,
-              "grossProfit": -200
+              "quantity": 8,
+              "sales": 60,
+              "cost": 320,
+              "grossProfit": -260
             },
             {
               "category": "foreman_item",
@@ -11151,10 +11205,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
+              "quantity": 3,
+              "sales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TH (2026)",
+              "quantity": 2,
+              "sales": 238,
+              "cost": 256,
+              "grossProfit": -18
             },
             {
               "category": "passenger_tire",
@@ -11205,10 +11268,10 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 2,
-              "sales": 20,
-              "cost": 0.8,
-              "grossProfit": 19.2
+              "quantity": 4,
+              "sales": 40,
+              "cost": 1.6,
+              "grossProfit": 38.4
             },
             {
               "category": "other",
@@ -11232,8 +11295,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:37:07.655Z"
+      "lastCollectedAt": "2026-11-09T04:48:36.070Z"
     }
   },
-  "updatedAt": "2026-11-09T04:37:07.655Z"
+  "updatedAt": "2026-11-09T04:48:36.070Z"
 }
