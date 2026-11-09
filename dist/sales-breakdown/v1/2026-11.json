@@ -3733,7 +3733,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
+      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
     },
     "SR": {
       "days": {
@@ -6484,7 +6484,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
+      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
     },
     "ST": {
       "days": {
@@ -9461,14 +9461,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3590,
-              "cost": 3176,
-              "grossProfit": 414,
-              "quantity": 20
+              "sales": 4986,
+              "cost": 4376,
+              "grossProfit": 610,
+              "quantity": 24
             },
             {
               "key": "sport_rim",
@@ -9486,10 +9486,10 @@
             },
             {
               "key": "other",
-              "sales": 451,
-              "cost": 103.4,
-              "grossProfit": 347.6,
-              "quantity": 48
+              "sales": 491,
+              "cost": 110,
+              "grossProfit": 381,
+              "quantity": 57
             }
           ],
           "items": [
@@ -9497,7 +9497,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
+              "quantity": 7,
               "sales": 30,
               "cost": 0,
               "grossProfit": 30
@@ -9506,7 +9506,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
+              "quantity": 24,
               "sales": 40,
               "cost": 0,
               "grossProfit": 40
@@ -9564,6 +9564,15 @@
               "sales": 662,
               "cost": 684,
               "grossProfit": -22
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT205516CC7-26",
+              "itemName": "CONTINENTAL 205/55/16 COMFORT CONTACT CC7 91V CN (2026)",
+              "quantity": 4,
+              "sales": 1396,
+              "cost": 1200,
+              "grossProfit": 196
             },
             {
               "category": "passenger_tire",
@@ -9650,10 +9659,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 12,
+              "sales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "other",
@@ -9713,7 +9722,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
+      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
     },
     "SK": {
       "days": {
@@ -11340,8 +11349,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T05:16:07.910Z"
+      "lastCollectedAt": "2026-11-09T05:21:38.397Z"
     }
   },
-  "updatedAt": "2026-11-09T05:16:07.910Z"
+  "updatedAt": "2026-11-09T05:21:38.397Z"
 }
