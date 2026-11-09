@@ -6069,10 +6069,126 @@
               "grossProfit": 30
             }
           ]
+        },
+        "2026-11-09": {
+          "documents": 5,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 780,
+              "cost": 662,
+              "grossProfit": 118,
+              "quantity": 5
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 140,
+              "cost": 57,
+              "grossProfit": 83,
+              "quantity": 3
+            },
+            {
+              "key": "other",
+              "sales": 185,
+              "cost": 1.35,
+              "grossProfit": 183.65,
+              "quantity": 15
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 3,
+              "sales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 10,
+              "sales": 90,
+              "cost": 0,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 35,
+              "cost": 0,
+              "grossProfit": 35
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 3,
+              "sales": 324,
+              "cost": 258,
+              "grossProfit": 66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY185516CR1",
+              "itemName": "TOYO 185/55/16 PXCR1 M'SIA (2026)",
+              "quantity": 2,
+              "sales": 456,
+              "cost": 404,
+              "grossProfit": 52
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OPRCLRSR",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
+              "quantity": 1,
+              "sales": 100,
+              "cost": 56,
+              "grossProfit": 44
+            },
+            {
+              "category": "other",
+              "itemCode": "MDT042",
+              "itemName": "DURA TUBE PATCHES 42MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 10,
+              "cost": 0.35,
+              "grossProfit": 9.65
+            },
+            {
+              "category": "other",
+              "itemCode": "MTT060",
+              "itemName": "TIRE PATCHES TIPTOP 60MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 25,
+              "cost": 1,
+              "grossProfit": 24
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "MISWHM12A",
+              "itemName": "ALUMINIUM WASHER M12A",
+              "quantity": 1,
+              "sales": 5,
+              "cost": 1,
+              "grossProfit": 4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-08T15:57:59.663Z"
+      "lastCollectedAt": "2026-11-09T02:28:04.982Z"
     },
     "ST": {
       "days": {
@@ -9148,7 +9264,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:22:34.367Z"
+      "lastCollectedAt": "2026-11-09T02:28:04.982Z"
     },
     "SK": {
       "days": {
@@ -10667,8 +10783,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:22:34.367Z"
+      "lastCollectedAt": "2026-11-09T02:28:04.982Z"
     }
   },
-  "updatedAt": "2026-11-09T02:22:34.367Z"
+  "updatedAt": "2026-11-09T02:28:04.982Z"
 }
