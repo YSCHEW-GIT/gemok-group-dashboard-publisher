@@ -2999,7 +2999,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3027,11 +3027,11 @@
             },
             {
               "key": "other",
-              "sales": 1918,
-              "netSales": 1898.02,
+              "sales": 1928,
+              "netSales": 1907.28,
               "cost": 949.15,
-              "grossProfit": 948.87,
-              "quantity": 102
+              "grossProfit": 958.13,
+              "quantity": 103
             }
           ],
           "items": [
@@ -3069,11 +3069,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -3808,7 +3808,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T09:17:40.789Z"
+      "lastCollectedAt": "2026-11-09T09:23:10.735Z"
     },
     "SR": {
       "days": {
@@ -6935,7 +6935,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T09:17:40.789Z"
+      "lastCollectedAt": "2026-11-09T09:23:10.735Z"
     },
     "ST": {
       "days": {
@@ -10523,7 +10523,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T09:17:40.789Z"
+      "lastCollectedAt": "2026-11-09T09:23:10.735Z"
     },
     "SK": {
       "days": {
@@ -12125,10 +12125,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2074,
-              "netSales": 2074,
+              "sales": 2124,
+              "netSales": 2124,
               "cost": 1885.84,
-              "grossProfit": 188.16,
+              "grossProfit": 238.16,
               "quantity": 12
             },
             {
@@ -12149,10 +12149,10 @@
             },
             {
               "key": "other",
-              "sales": 310,
-              "netSales": 310,
+              "sales": 260,
+              "netSales": 260,
               "cost": 4.5,
-              "grossProfit": 305.5,
+              "grossProfit": 255.5,
               "quantity": 39
             }
           ],
@@ -12182,10 +12182,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -12202,10 +12202,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -12242,10 +12242,10 @@
               "itemCode": "TPTY195515CR1",
               "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
               "quantity": 2,
-              "sales": 336,
-              "netSales": 336,
+              "sales": 386,
+              "netSales": 386,
               "cost": 372,
-              "grossProfit": -36
+              "grossProfit": 14
             },
             {
               "category": "passenger_tire",
@@ -12351,8 +12351,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T09:17:40.789Z"
+      "lastCollectedAt": "2026-11-09T09:23:10.735Z"
     }
   },
-  "updatedAt": "2026-11-09T09:17:40.789Z"
+  "updatedAt": "2026-11-09T09:23:10.735Z"
 }
