@@ -2699,14 +2699,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3864,
-              "cost": 3733.2,
-              "grossProfit": 130.8,
-              "quantity": 25
+              "sales": 5244,
+              "cost": 5061.2,
+              "grossProfit": 182.8,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
@@ -2724,10 +2724,10 @@
             },
             {
               "key": "other",
-              "sales": 1719.5,
-              "cost": 915.95,
-              "grossProfit": 803.55,
-              "quantity": 60
+              "sales": 1833.58,
+              "cost": 922.55,
+              "grossProfit": 911.03,
+              "quantity": 69
             }
           ],
           "items": [
@@ -2753,10 +2753,10 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 92.6,
+              "quantity": 28,
+              "sales": 129.64,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -2771,10 +2771,10 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 3,
-              "sales": 74.08,
+              "quantity": 4,
+              "sales": 111.12,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 111.12
             },
             {
               "category": "passenger_tire",
@@ -2829,6 +2829,15 @@
               "sales": 792,
               "cost": 924,
               "grossProfit": -132
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS204516RE005-26",
+              "itemName": "BRIDGESTONE 205/45/16 POTENZA RE005 87W TH (2026)",
+              "quantity": 4,
+              "sales": 1380,
+              "cost": 1328,
+              "grossProfit": 52
             },
             {
               "category": "foreman_item",
@@ -2915,10 +2924,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 19,
-              "sales": 190,
-              "cost": 31.35,
-              "grossProfit": 158.65
+              "quantity": 23,
+              "sales": 230,
+              "cost": 37.95,
+              "grossProfit": 192.05
             },
             {
               "category": "other",
@@ -3373,7 +3382,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
+      "lastCollectedAt": "2026-11-09T06:39:20.830Z"
     },
     "SR": {
       "days": {
@@ -6142,7 +6151,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
+      "lastCollectedAt": "2026-11-09T06:39:20.830Z"
     },
     "ST": {
       "days": {
@@ -9344,7 +9353,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
+      "lastCollectedAt": "2026-11-09T06:39:20.830Z"
     },
     "SK": {
       "days": {
@@ -10962,8 +10971,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
-      "lastCollectedAt": "2026-11-09T06:33:50.580Z"
+      "lastCollectedAt": "2026-11-09T06:39:20.830Z"
     }
   },
-  "updatedAt": "2026-11-09T06:33:50.580Z"
+  "updatedAt": "2026-11-09T06:39:20.830Z"
 }
