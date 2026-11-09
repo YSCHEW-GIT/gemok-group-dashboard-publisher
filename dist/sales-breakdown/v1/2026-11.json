@@ -3517,14 +3517,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 698,
-              "cost": 717.2,
-              "grossProfit": -19.2,
-              "quantity": 6
+              "sales": 1290,
+              "cost": 1397.2,
+              "grossProfit": -107.2,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -3542,10 +3542,10 @@
             },
             {
               "key": "other",
-              "sales": 1411.86,
-              "cost": 888.6,
-              "grossProfit": 523.26,
-              "quantity": 18
+              "sales": 1516.68,
+              "cost": 895.2,
+              "grossProfit": 621.48,
+              "quantity": 27
             }
           ],
           "items": [
@@ -3553,19 +3553,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 55.56,
+              "quantity": 4,
+              "sales": 83.34,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 37.04,
+              "quantity": 10,
+              "sales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -3593,6 +3593,15 @@
               "sales": 472,
               "cost": 547.2,
               "grossProfit": -75.2
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5-26",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
+              "quantity": 4,
+              "sales": 592,
+              "cost": 680,
+              "grossProfit": -88
             },
             {
               "category": "foreman_item",
@@ -3670,10 +3679,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 8,
+              "sales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
             },
             {
               "category": "other",
@@ -3688,7 +3697,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:26:05.755Z"
+      "lastCollectedAt": "2026-11-09T04:31:36.104Z"
     },
     "SR": {
       "days": {
@@ -6439,7 +6448,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:26:05.755Z"
+      "lastCollectedAt": "2026-11-09T04:31:36.104Z"
     },
     "ST": {
       "days": {
@@ -9605,7 +9614,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:26:05.755Z"
+      "lastCollectedAt": "2026-11-09T04:31:36.104Z"
     },
     "SK": {
       "days": {
@@ -11223,8 +11232,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T04:26:05.755Z"
+      "lastCollectedAt": "2026-11-09T04:31:36.104Z"
     }
   },
-  "updatedAt": "2026-11-09T04:26:05.755Z"
+  "updatedAt": "2026-11-09T04:31:36.104Z"
 }
