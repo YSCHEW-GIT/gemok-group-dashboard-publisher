@@ -1058,7 +1058,7 @@
         : language === 'ja' ? `${format(start)}〜${format(latest)}` : language === 'zh' ? `${format(start)}至${format(latest)}` : `${format(start)}–${format(latest)}`;
       return `<span>${escapeHtml(copy.month)}</span><small>${escapeHtml(range)}</small>`;
     }
-    function storeFocusItemMargin(row) { return Number(row.sales) ? Number(row.grossProfit || 0) / Number(row.sales) : null; }
+    function storeFocusItemMargin(row) { const base = Number(row.netSales ?? row.sales); return base ? Number(row.grossProfit || 0) / base : null; }
     function storeFocusVisibleItems() {
       const keyword = storeFocusState.itemSearch.trim().toLocaleLowerCase(localeByLanguage[language]);
       const items = storeFocusState.items.filter((row) => !keyword || `${row.itemCode || ''} ${row.itemName || ''}`.toLocaleLowerCase(localeByLanguage[language]).includes(keyword));
@@ -1098,8 +1098,8 @@
     function summarizePublishedSalesBreakdown(payload) {
       const storeData = payload?.stores?.[storeFocusState.store];
       if (!storeData) throw new Error('Store sales breakdown is unavailable');
-      const categories = Object.keys(storeFocusColors).map((key) => ({ key, sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null }));
-      const totals = { sales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null };
+      const categories = Object.keys(storeFocusColors).map((key) => ({ key, sales:0, netSales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null }));
+      const totals = { sales:0, netSales:0, cost:0, grossProfit:0, quantity:0, grossMarginRate:null };
       const items = new Map();
       let documents = 0;
       for (const [day,value] of Object.entries(storeData.days || {})) {
@@ -1109,19 +1109,21 @@
           const target = categories.find((category) => category.key === row.key);
           if (!target) continue;
           for (const field of ['sales','cost','grossProfit','quantity']) target[field] += Number(row[field]) || 0;
+          target.netSales += Number(row.netSales ?? row.sales) || 0;
         }
         for (const row of value.items || []) {
           const key = `${row.category}|${row.itemCode}`;
-          const target = items.get(key) || { ...row, quantity:0, sales:0, cost:0, grossProfit:0 };
+          const target = items.get(key) || { ...row, quantity:0, sales:0, netSales:0, cost:0, grossProfit:0 };
           for (const field of ['quantity','sales','cost','grossProfit']) target[field] += Number(row[field]) || 0;
+          target.netSales += Number(row.netSales ?? row.sales) || 0;
           items.set(key,target);
         }
       }
       for (const row of categories) {
-        row.grossMarginRate = row.sales ? row.grossProfit / row.sales : null;
-        for (const field of ['sales','cost','grossProfit','quantity']) totals[field] += row[field];
+        row.grossMarginRate = row.netSales ? row.grossProfit / row.netSales : null;
+        for (const field of ['sales','netSales','cost','grossProfit','quantity']) totals[field] += row[field];
       }
-      totals.grossMarginRate = totals.sales ? totals.grossProfit / totals.sales : null;
+      totals.grossMarginRate = totals.netSales ? totals.grossProfit / totals.netSales : null;
       return {
         data:{ schemaVersion:1, store:storeFocusState.store, period:storeFocusState.period, month:payload.month, date:dashboardDataMeta.latestDate, updatedAt:payload.updatedAt, documents, totals, categories },
         items:[...items.values()].sort((a,b) => b.sales - a.sales),
