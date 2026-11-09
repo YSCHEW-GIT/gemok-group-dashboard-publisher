@@ -2699,14 +2699,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5314,
-              "cost": 5061.2,
-              "grossProfit": 252.8,
-              "quantity": 29
+              "sales": 5666,
+              "cost": 5401.2,
+              "grossProfit": 264.8,
+              "quantity": 33
             },
             {
               "key": "sport_rim",
@@ -2724,10 +2724,10 @@
             },
             {
               "key": "other",
-              "sales": 1848.76,
-              "cost": 942.55,
-              "grossProfit": 906.21,
-              "quantity": 85
+              "sales": 1953.58,
+              "cost": 949.15,
+              "grossProfit": 1004.43,
+              "quantity": 94
             }
           ],
           "items": [
@@ -2744,19 +2744,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 27.78,
+              "quantity": 6,
+              "sales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 28,
-              "sales": 92.6,
+              "quantity": 32,
+              "sales": 129.64,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -2784,6 +2784,15 @@
               "sales": 578,
               "cost": 510,
               "grossProfit": 68
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "cost": 340,
+              "grossProfit": 12
             },
             {
               "category": "passenger_tire",
@@ -2924,10 +2933,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 23,
-              "sales": 230,
-              "cost": 37.95,
-              "grossProfit": 192.05
+              "quantity": 27,
+              "sales": 270,
+              "cost": 44.55,
+              "grossProfit": 225.45
             },
             {
               "category": "other",
@@ -3391,7 +3400,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:59:58.141Z"
+      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
     },
     "SR": {
       "days": {
@@ -6178,7 +6187,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:59:58.141Z"
+      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
     },
     "ST": {
       "days": {
@@ -9110,14 +9119,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5924,
-              "cost": 5294,
-              "grossProfit": 630,
-              "quantity": 30
+              "sales": 6476,
+              "cost": 5962,
+              "grossProfit": 514,
+              "quantity": 34
             },
             {
               "key": "sport_rim",
@@ -9135,10 +9144,10 @@
             },
             {
               "key": "other",
-              "sales": 601,
-              "cost": 119.9,
-              "grossProfit": 481.1,
-              "quantity": 71
+              "sales": 699,
+              "cost": 122.5,
+              "grossProfit": 576.5,
+              "quantity": 80
             }
           ],
           "items": [
@@ -9146,19 +9155,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 60,
+              "quantity": 10,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 60,
+              "quantity": 34,
+              "sales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "foreman_item",
@@ -9222,6 +9231,15 @@
               "sales": 1254,
               "cost": 1368,
               "grossProfit": -114
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN176514GC5-26",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "cost": 668,
+              "grossProfit": -116
             },
             {
               "category": "passenger_tire",
@@ -9326,10 +9344,10 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 8,
-              "sales": 56,
-              "cost": 5.2,
-              "grossProfit": 50.8
+              "quantity": 12,
+              "sales": 84,
+              "cost": 7.8,
+              "grossProfit": 76.2
             },
             {
               "category": "other",
@@ -9380,7 +9398,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:59:58.141Z"
+      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
     },
     "SK": {
       "days": {
@@ -10998,8 +11016,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T06:49:16.093Z",
-      "lastCollectedAt": "2026-11-09T06:59:58.141Z"
+      "lastCollectedAt": "2026-11-09T07:05:30.050Z"
     }
   },
-  "updatedAt": "2026-11-09T06:59:58.141Z"
+  "updatedAt": "2026-11-09T07:05:30.050Z"
 }
