@@ -25,6 +25,12 @@ assert.match(html, /id="store-focus-item-search"/, "Item details must provide ke
 for (const key of ['itemName','quantity','sales','grossProfit','margin']) assert.ok(html.includes(`storeFocusSortHeader('${key}'`), `Item details must be sortable by ${key}`);
 assert.match(html, /store-focus-item-negative/, "Negative gross profit or margin rows must be highlighted");
 assert.match(html, /store-focus-table-wrap/, "Item table must have a responsive scroll container");
+assert.match(html, /function storeFocusPeriodLabel\(period\)/, "Store focus periods must include date labels");
+assert.match(html, /`\$\{format\(start\)\}〜本日まで`/, "Current Japanese month range must run from month start through today");
+assert.match(html, /storeFocusPeriodLabel\(period\)/, "Period buttons must render their corresponding dates");
+assert.match(html, /Number\(row\.grossMarginRate\) < 0 \? 'store-focus-negative'/, "Negative category gross margins must be red");
+assert.match(html, /Number\(data\.totals\.grossMarginRate\) < 0 \? 'store-focus-negative'/, "Negative total gross margin must be red");
+assert.match(html, /\.store-focus-search \{[^}]*grid-template-columns:max-content minmax\(0,1fr\)/, "Product keyword label and input must be side by side");
 
 const directory = "dist/sales-breakdown/v1";
 const files = fs.readdirSync(directory).filter((file) => /^\d{4}-\d{2}\.json$/.test(file)).sort();
