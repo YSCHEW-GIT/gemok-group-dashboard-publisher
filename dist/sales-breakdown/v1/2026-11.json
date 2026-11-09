@@ -3515,10 +3515,162 @@
               "grossProfit": 329
             }
           ]
+        },
+        "2026-11-09": {
+          "documents": 6,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 698,
+              "cost": 717.2,
+              "grossProfit": -19.2,
+              "quantity": 6
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 1850,
+              "cost": 1028,
+              "grossProfit": 822,
+              "quantity": 9
+            },
+            {
+              "key": "other",
+              "sales": 1411.86,
+              "cost": 888.6,
+              "grossProfit": 523.26,
+              "quantity": 18
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 3,
+              "sales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 226,
+              "cost": 170,
+              "grossProfit": 56
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117",
+              "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
+              "quantity": 4,
+              "sales": 472,
+              "cost": 547.2,
+              "grossProfit": -75.2
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKBRAKEPADHD",
+              "itemName": "ICER BRAKE PAD FRT VW ARTEON",
+              "quantity": 2,
+              "sales": 780,
+              "cost": 560,
+              "grossProfit": 220
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDISCROTOR",
+              "itemName": "ICER DISC ROTOR REAR VW ARTEON",
+              "quantity": 2,
+              "sales": 780,
+              "cost": 400,
+              "grossProfit": 380
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKSKIMDISC",
+              "itemName": "SKIM DISC / LABOUR CHARGE",
+              "quantity": 2,
+              "sales": 200,
+              "cost": 0,
+              "grossProfit": 200
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKHOSEBYPASS",
+              "itemName": "THROTHLE BODY HOSE HD CR-V",
+              "quantity": 2,
+              "sales": 0,
+              "cost": 40,
+              "grossProfit": -40
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 90,
+              "cost": 7,
+              "grossProfit": 83
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "other",
+              "itemCode": "PADHXMYVI17",
+              "itemName": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
+              "quantity": 2,
+              "sales": 1180,
+              "cost": 875,
+              "grossProfit": 305
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-08T15:57:59.663Z"
+      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
     },
     "SR": {
       "days": {
@@ -6242,7 +6394,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:47:30.082Z"
+      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
     },
     "ST": {
       "days": {
@@ -9219,14 +9371,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2798,
-              "cost": 2696,
-              "grossProfit": 102,
-              "quantity": 16
+              "sales": 3520,
+              "cost": 3176,
+              "grossProfit": 344,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -9244,10 +9396,10 @@
             },
             {
               "key": "other",
-              "sales": 531,
-              "cost": 46.8,
-              "grossProfit": 484.2,
-              "quantity": 37
+              "sales": 471,
+              "cost": 53.4,
+              "grossProfit": 417.6,
+              "quantity": 46
             }
           ],
           "items": [
@@ -9255,19 +9407,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 120,
+              "quantity": 6,
+              "sales": 60,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 120,
+              "quantity": 20,
+              "sales": 80,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -9283,18 +9435,27 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 7,
-              "sales": 686,
+              "sales": 761,
               "cost": 602,
-              "grossProfit": 84
+              "grossProfit": 159
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 1,
-              "sales": 88,
+              "sales": 113,
               "cost": 86,
-              "grossProfit": 2
+              "grossProfit": 27
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF185515TL",
+              "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "cost": 480,
+              "grossProfit": 72
             },
             {
               "category": "passenger_tire",
@@ -9310,9 +9471,9 @@
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W (2026)",
               "quantity": 4,
-              "sales": 1432,
+              "sales": 1502,
               "cost": 1324,
-              "grossProfit": 108
+              "grossProfit": 178
             },
             {
               "category": "foreman_item",
@@ -9336,10 +9497,10 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 4,
-              "sales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 8,
+              "sales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
             },
             {
               "category": "other",
@@ -9399,7 +9560,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:47:30.082Z"
+      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
     },
     "SK": {
       "days": {
@@ -10990,8 +11151,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:47:30.082Z"
+      "lastCollectedAt": "2026-11-09T04:03:55.751Z"
     }
   },
-  "updatedAt": "2026-11-09T03:47:30.082Z"
+  "updatedAt": "2026-11-09T04:03:55.751Z"
 }
