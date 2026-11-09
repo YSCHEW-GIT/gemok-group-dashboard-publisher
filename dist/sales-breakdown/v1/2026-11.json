@@ -6215,7 +6215,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:55:41.789Z"
+      "lastCollectedAt": "2026-11-09T03:01:11.982Z"
     },
     "ST": {
       "days": {
@@ -9192,14 +9192,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2030,
-              "cost": 1840,
-              "grossProfit": 190,
-              "quantity": 10
+              "sales": 2206,
+              "cost": 2012,
+              "grossProfit": 194,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -9217,10 +9217,10 @@
             },
             {
               "key": "other",
-              "sales": 279,
-              "cost": 29.4,
-              "grossProfit": 249.6,
-              "quantity": 21
+              "sales": 343,
+              "cost": 30.7,
+              "grossProfit": 312.3,
+              "quantity": 26
             }
           ],
           "items": [
@@ -9228,19 +9228,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 60,
+              "quantity": 4,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 60,
+              "quantity": 12,
+              "sales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -9255,10 +9255,19 @@
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
-              "quantity": 6,
-              "sales": 598,
-              "cost": 516,
-              "grossProfit": 82
+              "quantity": 7,
+              "sales": 686,
+              "cost": 602,
+              "grossProfit": 84
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 1,
+              "sales": 88,
+              "cost": 86,
+              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -9300,10 +9309,10 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 2,
-              "sales": 14,
-              "cost": 1.3,
-              "grossProfit": 12.7
+              "quantity": 4,
+              "sales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
             },
             {
               "category": "other",
@@ -9327,7 +9336,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:55:41.789Z"
+      "lastCollectedAt": "2026-11-09T03:01:11.982Z"
     },
     "SK": {
       "days": {
@@ -10891,8 +10900,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:55:41.789Z"
+      "lastCollectedAt": "2026-11-09T03:01:11.982Z"
     }
   },
-  "updatedAt": "2026-11-09T02:55:41.789Z"
+  "updatedAt": "2026-11-09T03:01:11.982Z"
 }
