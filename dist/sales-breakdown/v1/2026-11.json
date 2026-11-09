@@ -9047,10 +9047,90 @@
               "grossProfit": 83.5
             }
           ]
+        },
+        "2026-11-09": {
+          "documents": 2,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 528,
+              "cost": 516,
+              "grossProfit": 12,
+              "quantity": 6
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 60,
+              "cost": 0,
+              "grossProfit": 60,
+              "quantity": 1
+            },
+            {
+              "key": "other",
+              "sales": 160,
+              "cost": 6.6,
+              "grossProfit": 153.4,
+              "quantity": 12
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 6,
+              "sales": 528,
+              "cost": 516,
+              "grossProfit": 12
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-08T15:57:59.663Z"
+      "lastCollectedAt": "2026-11-09T02:06:30.320Z"
     },
     "SK": {
       "days": {
@@ -10560,8 +10640,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:00:59.485Z"
+      "lastCollectedAt": "2026-11-09T02:06:30.320Z"
     }
   },
-  "updatedAt": "2026-11-09T02:00:59.485Z"
+  "updatedAt": "2026-11-09T02:06:30.320Z"
 }
