@@ -6188,7 +6188,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:33:36.929Z"
+      "lastCollectedAt": "2026-11-09T02:39:08.584Z"
     },
     "ST": {
       "days": {
@@ -9165,14 +9165,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 528,
-              "cost": 516,
-              "grossProfit": 12,
-              "quantity": 6
+              "sales": 1960,
+              "cost": 1840,
+              "grossProfit": 120,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -9183,17 +9183,17 @@
             },
             {
               "key": "foreman_item",
-              "sales": 128,
-              "cost": 28,
-              "grossProfit": 100,
-              "quantity": 2
+              "sales": 258,
+              "cost": 68,
+              "grossProfit": 190,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 219,
-              "cost": 11.4,
-              "grossProfit": 207.6,
-              "quantity": 15
+              "sales": 349,
+              "cost": 29.4,
+              "grossProfit": 319.6,
+              "quantity": 21
             }
           ],
           "items": [
@@ -9201,19 +9201,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
+              "quantity": 3,
+              "sales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 60,
+              "quantity": 10,
+              "sales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "foreman_item",
@@ -9232,6 +9232,24 @@
               "sales": 528,
               "cost": 516,
               "grossProfit": 12
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS205016RE005-26",
+              "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W (2026)",
+              "quantity": 4,
+              "sales": 1432,
+              "cost": 1324,
+              "grossProfit": 108
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "MNRWRY150TIBLUE",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 TI-BLUE",
+              "quantity": 1,
+              "sales": 130,
+              "cost": 40,
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -9254,11 +9272,20 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 2,
               "sales": 14,
               "cost": 1.3,
               "grossProfit": 12.7
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTLC",
+              "itemName": "COLOR STEEL VALVE",
+              "quantity": 1,
+              "sales": 60,
+              "cost": 18,
+              "grossProfit": 42
             },
             {
               "category": "foreman_item",
@@ -9273,7 +9300,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:33:36.929Z"
+      "lastCollectedAt": "2026-11-09T02:39:08.584Z"
     },
     "SK": {
       "days": {
@@ -10738,14 +10765,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 320,
+              "cost": 299.2,
+              "grossProfit": 20.8,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -10763,10 +10790,10 @@
             },
             {
               "key": "other",
-              "sales": 20,
-              "cost": 0,
-              "grossProfit": 20,
-              "quantity": 2
+              "sales": 90,
+              "cost": 80.8,
+              "grossProfit": 9.2,
+              "quantity": 7
             }
           ],
           "items": [
@@ -10778,6 +10805,42 @@
               "sales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "cost": 80,
+              "grossProfit": -60
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL196015Z117",
+              "itemName": "WEST LAKE 195/60/15 88V ZUPER FLEX Z117 (2026)",
+              "quantity": 2,
+              "sales": 320,
+              "cost": 299.2,
+              "grossProfit": 20.8
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 2,
+              "sales": 20,
+              "cost": 0.8,
+              "grossProfit": 19.2
             },
             {
               "category": "foreman_item",
@@ -10792,8 +10855,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T02:33:36.929Z"
+      "lastCollectedAt": "2026-11-09T02:39:08.584Z"
     }
   },
-  "updatedAt": "2026-11-09T02:33:36.929Z"
+  "updatedAt": "2026-11-09T02:39:08.584Z"
 }
