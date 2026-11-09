@@ -2999,7 +2999,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3027,11 +3027,11 @@
             },
             {
               "key": "other",
-              "sales": 1898,
-              "netSales": 1879.5,
+              "sales": 1938,
+              "netSales": 1916.54,
               "cost": 949.15,
-              "grossProfit": 930.35,
-              "quantity": 94
+              "grossProfit": 967.39,
+              "quantity": 95
             }
           ],
           "items": [
@@ -3079,16 +3079,16 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 4,
-              "sales": 80,
-              "netSales": 74.08,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 111.12
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 6,
               "sales": 658,
               "netSales": 658,
@@ -3098,7 +3098,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
               "sales": 352,
               "netSales": 352,
@@ -3148,7 +3148,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
-              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
               "sales": 862,
               "netSales": 862,
@@ -3788,7 +3788,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:29:00.812Z"
+      "lastCollectedAt": "2026-11-09T07:33:03.097Z"
     },
     "SR": {
       "days": {
@@ -6625,7 +6625,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6653,11 +6653,11 @@
             },
             {
               "key": "other",
-              "sales": 718,
-              "netSales": 718,
+              "sales": 778,
+              "netSales": 778,
               "cost": 75.1,
-              "grossProfit": 642.9,
-              "quantity": 79
+              "grossProfit": 702.9,
+              "quantity": 85
             }
           ],
           "items": [
@@ -6675,11 +6675,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 38,
-              "sales": 190,
-              "netSales": 190,
+              "quantity": 42,
+              "sales": 230,
+              "netSales": 230,
               "cost": 0,
-              "grossProfit": 190
+              "grossProfit": 230
             },
             {
               "category": "foreman_item",
@@ -6704,7 +6704,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 2,
               "sales": 60,
               "netSales": 60,
@@ -6715,11 +6715,11 @@
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
@@ -6734,7 +6734,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 5,
               "sales": 520,
               "netSales": 520,
@@ -6744,7 +6744,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
               "sales": 422,
               "netSales": 422,
@@ -6834,7 +6834,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OPRCLRSR",
-              "itemName": "SARAMOLY PRE-MIXED COOLANT RED",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
               "quantity": 1,
               "sales": 100,
               "netSales": 100,
@@ -6905,7 +6905,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:29:00.812Z"
+      "lastCollectedAt": "2026-11-09T07:33:03.097Z"
     },
     "ST": {
       "days": {
@@ -10167,11 +10167,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6546,
-              "netSales": 6546,
-              "cost": 5962,
-              "grossProfit": 584,
-              "quantity": 34
+              "sales": 6270,
+              "netSales": 6270,
+              "cost": 5628,
+              "grossProfit": 642,
+              "quantity": 32
             },
             {
               "key": "sport_rim",
@@ -10191,11 +10191,11 @@
             },
             {
               "key": "other",
-              "sales": 674,
-              "netSales": 674,
-              "cost": 132.5,
-              "grossProfit": 541.5,
-              "quantity": 81
+              "sales": 640,
+              "netSales": 640,
+              "cost": 131.2,
+              "grossProfit": 508.8,
+              "quantity": 77
             }
           ],
           "items": [
@@ -10213,11 +10213,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 32,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -10232,7 +10232,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 2,
               "sales": 50,
               "netSales": 50,
@@ -10242,7 +10242,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 7,
               "sales": 761,
               "netSales": 761,
@@ -10252,7 +10252,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 1,
               "sales": 113,
               "netSales": 113,
@@ -10293,11 +10293,11 @@
               "category": "passenger_tire",
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
-              "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
-              "cost": 668,
-              "grossProfit": -116
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 334,
+              "grossProfit": -58
             },
             {
               "category": "passenger_tire",
@@ -10413,11 +10413,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 12,
-              "sales": 84,
-              "netSales": 84,
-              "cost": 7.8,
-              "grossProfit": 76.2
+              "quantity": 10,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 6.5,
+              "grossProfit": 63.5
             },
             {
               "category": "other",
@@ -10473,7 +10473,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:29:00.812Z"
+      "lastCollectedAt": "2026-11-09T07:33:03.097Z"
     },
     "SK": {
       "days": {
@@ -12271,8 +12271,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T07:29:00.812Z"
+      "lastCollectedAt": "2026-11-09T07:33:03.097Z"
     }
   },
-  "updatedAt": "2026-11-09T07:29:00.812Z"
+  "updatedAt": "2026-11-09T07:33:03.097Z"
 }
