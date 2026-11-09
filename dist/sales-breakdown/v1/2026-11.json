@@ -9,17 +9,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8936,
+              "sales": 9336,
               "cost": 7839.4,
-              "grossProfit": 1096.6,
-              "quantity": 43
+              "grossProfit": 1496.6,
+              "quantity": 47
             },
             {
               "key": "sport_rim",
-              "sales": 3592,
-              "cost": 3303,
+              "sales": 2692,
+              "cost": 2403,
               "grossProfit": 289,
-              "quantity": 4
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -30,15 +30,15 @@
             },
             {
               "key": "other",
-              "sales": 1709.13,
-              "cost": -8.13,
-              "grossProfit": 1717.26,
+              "sales": 2209.13,
+              "cost": 891.87,
+              "grossProfit": 1317.26,
               "quantity": 176
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT185516",
               "itemName": "USED TIRE 185/55/16",
               "quantity": 4,
@@ -47,7 +47,7 @@
               "grossProfit": 400
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620597",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -56,7 +56,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620604",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -65,7 +65,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620606",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -74,7 +74,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620608",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -422,17 +422,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 12746,
+              "sales": 12846,
               "cost": 11986.8,
-              "grossProfit": 759.2,
-              "quantity": 47
+              "grossProfit": 859.2,
+              "quantity": 49
             },
             {
               "key": "sport_rim",
-              "sales": 3768,
-              "cost": 6084,
+              "sales": 2868,
+              "cost": 5184,
               "grossProfit": -2316,
-              "quantity": 9
+              "quantity": 6
             },
             {
               "key": "foreman_item",
@@ -443,15 +443,15 @@
             },
             {
               "key": "other",
-              "sales": 228.12,
-              "cost": -688.3,
-              "grossProfit": 916.42,
-              "quantity": 167
+              "sales": 1028.12,
+              "cost": 211.7,
+              "grossProfit": 816.42,
+              "quantity": 168
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT176015",
               "itemName": "USED TIRE 175/60/15",
               "quantity": 1,
@@ -460,7 +460,7 @@
               "grossProfit": 50
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT195515",
               "itemName": "USED TIRE 195/55/15",
               "quantity": 1,
@@ -469,7 +469,7 @@
               "grossProfit": 50
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620630",
               "itemName": "USED SPORT RIM 18X8.5 5X114",
               "quantity": -1,
@@ -478,7 +478,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620632",
               "itemName": "USED SPORT RIM 16X7 8X100",
               "quantity": -1,
@@ -487,7 +487,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620639",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -808,17 +808,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 16308,
+              "sales": 16508,
               "cost": 15526,
-              "grossProfit": 782,
-              "quantity": 59
+              "grossProfit": 982,
+              "quantity": 63
             },
             {
               "key": "sport_rim",
-              "sales": 1946,
-              "cost": 1550,
+              "sales": 1546,
+              "cost": 1150,
               "grossProfit": 396,
-              "quantity": 5
+              "quantity": 3
             },
             {
               "key": "foreman_item",
@@ -829,15 +829,15 @@
             },
             {
               "key": "other",
-              "sales": 3674.87,
-              "cost": -135.9,
-              "grossProfit": 3810.77,
-              "quantity": 222
+              "sales": 3874.87,
+              "cost": 264.1,
+              "grossProfit": 3610.77,
+              "quantity": 220
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT185515",
               "itemName": "USED TIRE 185/55/15",
               "quantity": 2,
@@ -846,7 +846,7 @@
               "grossProfit": 100
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT195515",
               "itemName": "USED TIRE 195/55/15",
               "quantity": 2,
@@ -855,7 +855,7 @@
               "grossProfit": 100
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620657",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -864,7 +864,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620664",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -1320,17 +1320,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 16508,
+              "sales": 16998,
               "cost": 15063.6,
-              "grossProfit": 1444.4,
-              "quantity": 73
+              "grossProfit": 1934.4,
+              "quantity": 83
             },
             {
               "key": "sport_rim",
-              "sales": 988,
-              "cost": 3800,
-              "grossProfit": -2812,
-              "quantity": 4
+              "sales": 928,
+              "cost": 3700,
+              "grossProfit": -2772,
+              "quantity": 7
             },
             {
               "key": "foreman_item",
@@ -1341,15 +1341,15 @@
             },
             {
               "key": "other",
-              "sales": 1187.82,
-              "cost": 37.05,
-              "grossProfit": 1150.77,
-              "quantity": 183
+              "sales": 757.82,
+              "cost": 137.05,
+              "grossProfit": 620.77,
+              "quantity": 170
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT185515",
               "itemName": "USED TIRE 185/55/15",
               "quantity": 1,
@@ -1358,7 +1358,7 @@
               "grossProfit": 50
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT195515",
               "itemName": "USED TIRE 195/55/15",
               "quantity": 8,
@@ -1367,7 +1367,7 @@
               "grossProfit": 400
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT176514",
               "itemName": "USED TIRE 175/65/14",
               "quantity": 1,
@@ -1376,7 +1376,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US259555",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": 4,
@@ -1385,7 +1385,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620698",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -1760,17 +1760,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 22326,
+              "sales": 22466,
               "cost": 21094.92,
-              "grossProfit": 1231.08,
-              "quantity": 90
+              "grossProfit": 1371.08,
+              "quantity": 92
             },
             {
               "key": "sport_rim",
-              "sales": 4232,
-              "cost": 4159,
+              "sales": 3232,
+              "cost": 3159,
               "grossProfit": 73,
-              "quantity": 8
+              "quantity": 4
             },
             {
               "key": "foreman_item",
@@ -1781,15 +1781,15 @@
             },
             {
               "key": "other",
-              "sales": 564.46,
-              "cost": -738.95,
-              "grossProfit": 1303.41,
-              "quantity": 271
+              "sales": 1424.46,
+              "cost": 261.05,
+              "grossProfit": 1163.41,
+              "quantity": 273
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT195015",
               "itemName": "USED TIRE 195/50/15",
               "quantity": 2,
@@ -1798,7 +1798,7 @@
               "grossProfit": 140
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620724",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -1807,7 +1807,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620725",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -1816,7 +1816,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620742",
               "itemName": "USED SPORT RIM 16X7 5X114",
               "quantity": -1,
@@ -1825,7 +1825,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620747",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -2362,17 +2362,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5222,
+              "sales": 5322,
               "cost": 4932,
-              "grossProfit": 290,
-              "quantity": 22
+              "grossProfit": 390,
+              "quantity": 24
             },
             {
               "key": "sport_rim",
-              "sales": 2574,
-              "cost": 2250,
+              "sales": 1974,
+              "cost": 1650,
               "grossProfit": 324,
-              "quantity": 3
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -2383,15 +2383,15 @@
             },
             {
               "key": "other",
-              "sales": 417.05,
-              "cost": -447.1,
-              "grossProfit": 864.15,
-              "quantity": 136
+              "sales": 917.05,
+              "cost": 152.9,
+              "grossProfit": 764.15,
+              "quantity": 137
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT176514",
               "itemName": "USED TIRE 175/65/14",
               "quantity": 2,
@@ -2400,7 +2400,7 @@
               "grossProfit": 100
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620757",
               "itemName": "USED SPORT RIM 15X7 8X100",
               "quantity": -1,
@@ -2409,7 +2409,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620767",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -2418,7 +2418,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620769",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -2698,6 +2698,230 @@
             }
           ]
         },
+        "2026-11-09": {
+          "documents": 12,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 3364,
+              "cost": 3253.2,
+              "grossProfit": 110.8,
+              "quantity": 23
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 1850,
+              "cost": 1298,
+              "grossProfit": 552,
+              "quantity": 12
+            },
+            {
+              "key": "other",
+              "sales": 1643.94,
+              "cost": 912.65,
+              "grossProfit": 731.29,
+              "quantity": 55
+            }
+          ],
+          "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "UT195515",
+              "itemName": "USED TIRE 195/55/15",
+              "quantity": 1,
+              "sales": 50,
+              "cost": 0,
+              "grossProfit": 50
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 5,
+              "sales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 22,
+              "sales": 74.08,
+              "cost": 0,
+              "grossProfit": 74.08
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 2,
+              "sales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "quantity": 6,
+              "sales": 578,
+              "cost": 510,
+              "grossProfit": 68
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117",
+              "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
+              "quantity": 4,
+              "sales": 542,
+              "cost": 547.2,
+              "grossProfit": -5.2
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGT165R13C-26",
+              "itemName": "GITI 165 R13C 600A 94/93S (8PR) (2026)",
+              "quantity": 4,
+              "sales": 740,
+              "cost": 592,
+              "grossProfit": 148
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5-26",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
+              "quantity": 4,
+              "sales": 662,
+              "cost": 680,
+              "grossProfit": -18
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "cost": 924,
+              "grossProfit": -132
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKBRAKEPADHD",
+              "itemName": "ICER BRAKE PAD FRT VW ARTEON",
+              "quantity": 2,
+              "sales": 780,
+              "cost": 560,
+              "grossProfit": 220
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDISCROTOR",
+              "itemName": "ICER DISC ROTOR REAR VW ARTEON",
+              "quantity": 2,
+              "sales": 780,
+              "cost": 400,
+              "grossProfit": 380
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKSKIMDISC",
+              "itemName": "SKIM DISC / LABOUR CHARGE",
+              "quantity": 2,
+              "sales": 200,
+              "cost": 0,
+              "grossProfit": 200
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKHOSEBYPASS",
+              "itemName": "THROTHLE BODY HOSE HD CR-V",
+              "quantity": 2,
+              "sales": 0,
+              "cost": 40,
+              "grossProfit": -40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKRACKEND",
+              "itemName": "JP RACK END HD CIVIC",
+              "quantity": 2,
+              "sales": 0,
+              "cost": 110,
+              "grossProfit": -110
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKTIERODEND",
+              "itemName": "555 TIE ROD END HD CIVIC",
+              "quantity": 1,
+              "sales": 0,
+              "cost": 160,
+              "grossProfit": -160
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 90,
+              "cost": 7,
+              "grossProfit": 83
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 4,
+              "sales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 17,
+              "sales": 170,
+              "cost": 28.05,
+              "grossProfit": 141.95
+            },
+            {
+              "category": "other",
+              "itemCode": "PADHXMYVI17",
+              "itemName": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
+              "quantity": 2,
+              "sales": 1180,
+              "cost": 875,
+              "grossProfit": 305
+            }
+          ]
+        },
         "2026-11-01": {
           "documents": 34,
           "categories": [
@@ -2710,10 +2934,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 2176,
-              "cost": 1900,
+              "sales": 1576,
+              "cost": 1300,
               "grossProfit": 276,
-              "quantity": 2
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -2724,15 +2948,15 @@
             },
             {
               "key": "other",
-              "sales": 2677.14,
-              "cost": 1015.2,
+              "sales": 3277.14,
+              "cost": 1615.2,
               "grossProfit": 1661.94,
-              "quantity": 197
+              "quantity": 199
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620570",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -2741,7 +2965,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2620585",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -3137,234 +3361,10 @@
               "grossProfit": 329
             }
           ]
-        },
-        "2026-11-09": {
-          "documents": 11,
-          "categories": [
-            {
-              "key": "passenger_tire",
-              "sales": 2962,
-              "cost": 2913.2,
-              "grossProfit": 48.8,
-              "quantity": 18
-            },
-            {
-              "key": "sport_rim",
-              "sales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
-            },
-            {
-              "key": "foreman_item",
-              "sales": 1850,
-              "cost": 1298,
-              "grossProfit": 552,
-              "quantity": 12
-            },
-            {
-              "key": "other",
-              "sales": 1579.86,
-              "cost": 906.05,
-              "grossProfit": 673.81,
-              "quantity": 47
-            }
-          ],
-          "items": [
-            {
-              "category": "other",
-              "itemCode": "UT195515",
-              "itemName": "USED TIRE 195/55/15",
-              "quantity": 1,
-              "sales": 50,
-              "cost": 0,
-              "grossProfit": 50
-            },
-            {
-              "category": "other",
-              "itemCode": "ALGNF",
-              "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 55.56,
-              "cost": 0,
-              "grossProfit": 55.56
-            },
-            {
-              "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 37.04,
-              "cost": 0,
-              "grossProfit": 37.04
-            },
-            {
-              "category": "other",
-              "itemCode": "PATCH",
-              "itemName": "Patching",
-              "quantity": 1,
-              "sales": 9.26,
-              "cost": 0,
-              "grossProfit": 9.26
-            },
-            {
-              "category": "other",
-              "itemCode": "ALGNFB",
-              "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 0,
-              "cost": 0,
-              "grossProfit": 0
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
-              "quantity": 2,
-              "sales": 226,
-              "cost": 170,
-              "grossProfit": 56
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPWL195515Z117",
-              "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
-              "quantity": 4,
-              "sales": 542,
-              "cost": 547.2,
-              "grossProfit": -5.2
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGT165R13C-26",
-              "itemName": "GITI 165 R13C 600A 94/93S (8PR) (2026)",
-              "quantity": 4,
-              "sales": 740,
-              "cost": 592,
-              "grossProfit": 148
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPGN195515GS5-26",
-              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
-              "quantity": 4,
-              "sales": 662,
-              "cost": 680,
-              "grossProfit": -18
-            },
-            {
-              "category": "passenger_tire",
-              "itemCode": "TPCT195515CC7",
-              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
-              "quantity": 4,
-              "sales": 792,
-              "cost": 924,
-              "grossProfit": -132
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "cost": 28,
-              "grossProfit": 62
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKBRAKEPADHD",
-              "itemName": "ICER BRAKE PAD FRT VW ARTEON",
-              "quantity": 2,
-              "sales": 780,
-              "cost": 560,
-              "grossProfit": 220
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKDISCROTOR",
-              "itemName": "ICER DISC ROTOR REAR VW ARTEON",
-              "quantity": 2,
-              "sales": 780,
-              "cost": 400,
-              "grossProfit": 380
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKSKIMDISC",
-              "itemName": "SKIM DISC / LABOUR CHARGE",
-              "quantity": 2,
-              "sales": 200,
-              "cost": 0,
-              "grossProfit": 200
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKHOSEBYPASS",
-              "itemName": "THROTHLE BODY HOSE HD CR-V",
-              "quantity": 2,
-              "sales": 0,
-              "cost": 40,
-              "grossProfit": -40
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKRACKEND",
-              "itemName": "JP RACK END HD CIVIC",
-              "quantity": 2,
-              "sales": 0,
-              "cost": 110,
-              "grossProfit": -110
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "NSKTIERODEND",
-              "itemName": "555 TIE ROD END HD CIVIC",
-              "quantity": 1,
-              "sales": 0,
-              "cost": 160,
-              "grossProfit": -160
-            },
-            {
-              "category": "other",
-              "itemCode": "MNC019",
-              "itemName": "CAMBER NUT PERODUA/PROTON",
-              "quantity": 2,
-              "sales": 90,
-              "cost": 7,
-              "grossProfit": 83
-            },
-            {
-              "category": "other",
-              "itemCode": "MVLRUB",
-              "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
-            },
-            {
-              "category": "other",
-              "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
-              "quantity": 13,
-              "sales": 130,
-              "cost": 21.45,
-              "grossProfit": 108.55
-            },
-            {
-              "category": "other",
-              "itemCode": "PADHXMYVI17",
-              "itemName": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
-              "quantity": 2,
-              "sales": 1180,
-              "cost": 875,
-              "grossProfit": 305
-            }
-          ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
+      "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
+      "lastCollectedAt": "2026-11-09T05:59:16.580Z"
     },
     "SR": {
       "days": {
@@ -3373,17 +3373,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6554,
+              "sales": 6594,
               "cost": 5875,
-              "grossProfit": 679,
-              "quantity": 33
+              "grossProfit": 719,
+              "quantity": 34
             },
             {
               "key": "sport_rim",
-              "sales": 1610,
-              "cost": 1550,
-              "grossProfit": 60,
-              "quantity": 2
+              "sales": 1408,
+              "cost": 1198,
+              "grossProfit": 210,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -3394,15 +3394,15 @@
             },
             {
               "key": "other",
-              "sales": 1075,
-              "cost": 179.3,
-              "grossProfit": 895.7,
+              "sales": 1237,
+              "cost": 531.3,
+              "grossProfit": 705.7,
               "quantity": 112
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR186015",
               "itemName": "USED TAYAR 185/60/15-911",
               "quantity": 1,
@@ -3411,7 +3411,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616516",
               "itemName": "USED SPORT RIM 14X5 4X100 (US2616516)",
               "quantity": 1,
@@ -3420,7 +3420,7 @@
               "grossProfit": 150
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616903",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -3429,7 +3429,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616911",
               "itemName": "USED SPORT RIM 15X6 4X100",
               "quantity": -1,
@@ -3696,17 +3696,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5066,
+              "sales": 5106,
               "cost": 4816,
-              "grossProfit": 250,
-              "quantity": 20
+              "grossProfit": 290,
+              "quantity": 21
             },
             {
               "key": "sport_rim",
-              "sales": 988,
-              "cost": 951,
-              "grossProfit": 37,
-              "quantity": 1
+              "sales": 1098,
+              "cost": 801,
+              "grossProfit": 297,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -3717,15 +3717,15 @@
             },
             {
               "key": "other",
-              "sales": 915,
-              "cost": -48.05,
-              "grossProfit": 963.05,
+              "sales": 765,
+              "cost": 101.95,
+              "grossProfit": 663.05,
               "quantity": 77
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR185515",
               "itemName": "USED TAYAR 185/55/15 -911",
               "quantity": 1,
@@ -3734,7 +3734,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2614587",
               "itemName": "USED SPORT RIM 17X7.5 5X114.3 (US2614587)",
               "quantity": 1,
@@ -3743,7 +3743,7 @@
               "grossProfit": 260
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616939",
               "itemName": "USED SPORT RIM 15X6.5 5X114.3",
               "quantity": -1,
@@ -3752,7 +3752,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616944",
               "itemName": "USED SPORT RIM 16X7 4X100",
               "quantity": -1,
@@ -4073,10 +4073,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3922,
+              "sales": 4072,
               "cost": 3475.6,
-              "grossProfit": 446.4,
-              "quantity": 17
+              "grossProfit": 596.4,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -4094,15 +4094,15 @@
             },
             {
               "key": "other",
-              "sales": 777,
+              "sales": 627,
               "cost": 189.4,
-              "grossProfit": 587.6,
-              "quantity": 58
+              "grossProfit": 437.6,
+              "quantity": 55
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR195515",
               "itemName": "USED TAYAR 195/55/15 -911",
               "quantity": 2,
@@ -4111,7 +4111,7 @@
               "grossProfit": 100
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR205516",
               "itemName": "USED TAYAR 205/55/16 911",
               "quantity": 1,
@@ -4378,17 +4378,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5532,
+              "sales": 5792,
               "cost": 5258.4,
-              "grossProfit": 273.6,
-              "quantity": 23
+              "grossProfit": 533.6,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
-              "sales": 779,
-              "cost": 718,
+              "sales": 528,
+              "cost": 467,
               "grossProfit": 61,
-              "quantity": 1
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -4399,15 +4399,15 @@
             },
             {
               "key": "other",
-              "sales": 1274,
-              "cost": 77.17,
-              "grossProfit": 1196.83,
-              "quantity": 94
+              "sales": 1265,
+              "cost": 328.17,
+              "grossProfit": 936.83,
+              "quantity": 89
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR195016",
               "itemName": "USED TAYAR 195/50/16-911",
               "quantity": 4,
@@ -4416,7 +4416,7 @@
               "grossProfit": 180
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR196015",
               "itemName": "USED TAYAR 195/60/15 911",
               "quantity": 1,
@@ -4425,7 +4425,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSR195515",
               "itemName": "USED TAYAR 195/55/15 -911",
               "quantity": 1,
@@ -4434,7 +4434,7 @@
               "grossProfit": 40
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2617031",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -4726,10 +4726,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 809,
-              "cost": 750,
-              "grossProfit": 59,
-              "quantity": 1
+              "sales": 764,
+              "cost": 600,
+              "grossProfit": 164,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -4740,15 +4740,15 @@
             },
             {
               "key": "other",
-              "sales": 571,
-              "cost": 2.35,
-              "grossProfit": 568.65,
-              "quantity": 62
+              "sales": 616,
+              "cost": 152.35,
+              "grossProfit": 463.65,
+              "quantity": 63
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616922",
               "itemName": "USED SPORT RIM 15X7 4X100",
               "quantity": -1,
@@ -4757,7 +4757,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616287",
               "itemName": "USED SPORT RIM 15X5 4X100 (US2616287)",
               "quantity": 1,
@@ -4766,7 +4766,7 @@
               "grossProfit": 107
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2616928",
               "itemName": "USED SPORT RIM 14X5 4X100",
               "quantity": -1,
@@ -4986,10 +4986,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 805,
-              "cost": 730,
+              "sales": 554,
+              "cost": 479,
               "grossProfit": 75,
-              "quantity": 1
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -5000,15 +5000,15 @@
             },
             {
               "key": "other",
-              "sales": 979,
-              "cost": 43.07,
+              "sales": 1230,
+              "cost": 294.07,
               "grossProfit": 935.93,
-              "quantity": 101
+              "quantity": 102
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2617042",
               "itemName": "USED SPORT RIM 15X7 8H",
               "quantity": -1,
@@ -5372,10 +5372,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 2438,
-              "cost": 2399,
-              "grossProfit": 39,
-              "quantity": 3
+              "sales": 2029,
+              "cost": 1998,
+              "grossProfit": 31,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -5386,15 +5386,15 @@
             },
             {
               "key": "other",
-              "sales": 315,
-              "cost": -320.2,
-              "grossProfit": 635.2,
-              "quantity": 64
+              "sales": 724,
+              "cost": 80.8,
+              "grossProfit": 643.2,
+              "quantity": 66
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2617065",
               "itemName": "USED SPORT RIM 15X6.5 8H",
               "quantity": -1,
@@ -5403,7 +5403,7 @@
               "grossProfit": -8
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2617069",
               "itemName": "USED SPORT RIM 14X5 4X100",
               "quantity": -1,
@@ -5988,7 +5988,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 60,
               "cost": 50,
@@ -6015,7 +6015,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 5,
               "sales": 520,
               "cost": 428,
@@ -6024,7 +6024,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
               "sales": 422,
               "cost": 344,
@@ -6078,7 +6078,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OPRCLRSR",
-              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED",
               "quantity": 1,
               "sales": 100,
               "cost": 56,
@@ -6132,8 +6132,8 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
+      "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
+      "lastCollectedAt": "2026-11-09T05:59:16.580Z"
     },
     "ST": {
       "days": {
@@ -6142,17 +6142,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5962,
+              "sales": 6362,
               "cost": 5582,
-              "grossProfit": 380,
-              "quantity": 30
+              "grossProfit": 780,
+              "quantity": 34
             },
             {
               "key": "sport_rim",
               "sales": 1576,
-              "cost": 1491,
-              "grossProfit": 85,
-              "quantity": 2
+              "cost": 1291,
+              "grossProfit": 285,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -6163,15 +6163,15 @@
             },
             {
               "key": "other",
-              "sales": 1184,
-              "cost": -103.9,
-              "grossProfit": 1287.9,
-              "quantity": 99
+              "sales": 784,
+              "cost": 96.1,
+              "grossProfit": 687.9,
+              "quantity": 96
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK1061024",
               "itemName": "USED TAYAR 175/65/14",
               "quantity": 4,
@@ -6180,7 +6180,7 @@
               "grossProfit": 400
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611674",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
               "quantity": 1,
@@ -6189,7 +6189,7 @@
               "grossProfit": 200
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611695",
               "itemName": "USED SPORT RIM 16X7JJ PCD100",
               "quantity": -1,
@@ -6198,7 +6198,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611701S",
               "itemName": "USED SPORT RIM 15X7JJ PCD100",
               "quantity": -1,
@@ -6447,17 +6447,17 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11010,
+              "sales": 11060,
               "cost": 10711,
-              "grossProfit": 299,
-              "quantity": 49
+              "grossProfit": 349,
+              "quantity": 50
             },
             {
               "key": "sport_rim",
-              "sales": 1576,
-              "cost": 1491,
+              "sales": 976,
+              "cost": 891,
               "grossProfit": 85,
-              "quantity": 2
+              "quantity": -1
             },
             {
               "key": "foreman_item",
@@ -6468,15 +6468,15 @@
             },
             {
               "key": "other",
-              "sales": 3892,
-              "cost": 2318,
-              "grossProfit": 1574,
-              "quantity": 133
+              "sales": 4442,
+              "cost": 2918,
+              "grossProfit": 1524,
+              "quantity": 135
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK1061024",
               "itemName": "USED TAYAR 175/65/14",
               "quantity": 1,
@@ -6485,7 +6485,7 @@
               "grossProfit": 50
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611749",
               "itemName": "USED SPORT RIM 18X8.5JJ PCD100",
               "quantity": -1,
@@ -6494,7 +6494,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611753",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
               "quantity": -1,
@@ -6503,7 +6503,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611758",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
               "quantity": -1,
@@ -6885,10 +6885,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 1576,
-              "cost": 1621,
+              "sales": 1176,
+              "cost": 1221,
               "grossProfit": -45,
-              "quantity": 2
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -6899,15 +6899,15 @@
             },
             {
               "key": "other",
-              "sales": 1400,
-              "cost": 199,
+              "sales": 1800,
+              "cost": 599,
               "grossProfit": 1201,
-              "quantity": 119
+              "quantity": 121
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611674",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
               "quantity": -1,
@@ -6916,7 +6916,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611688",
               "itemName": "USED SPORT RIM 17X7JJ PCD100",
               "quantity": -1,
@@ -7253,10 +7253,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 1376,
-              "cost": 1386,
+              "sales": 976,
+              "cost": 986,
               "grossProfit": -10,
-              "quantity": 2
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -7267,15 +7267,15 @@
             },
             {
               "key": "other",
-              "sales": 525,
-              "cost": -214.6,
+              "sales": 925,
+              "cost": 185.4,
               "grossProfit": 739.6,
-              "quantity": 107
+              "quantity": 109
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611739S",
               "itemName": "USED SPORT RIM 15X6JJ PCD100",
               "quantity": -1,
@@ -7284,7 +7284,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611741",
               "itemName": "USED SPORT RIM 15X6JJ PCD100",
               "quantity": -1,
@@ -7675,10 +7675,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 1476,
-              "cost": 1190,
+              "sales": 1076,
+              "cost": 790,
               "grossProfit": 286,
-              "quantity": 2
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -7689,15 +7689,15 @@
             },
             {
               "key": "other",
-              "sales": 752,
-              "cost": -181.9,
+              "sales": 1152,
+              "cost": 218.1,
               "grossProfit": 933.9,
-              "quantity": 113
+              "quantity": 115
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611810",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
               "quantity": -1,
@@ -7706,7 +7706,7 @@
               "grossProfit": 0
             },
             {
-              "category": "other",
+              "category": "sport_rim",
               "itemCode": "US2611815",
               "itemName": "USED SPORT RIM 15X7JJ PCD100",
               "quantity": -1,
@@ -9127,7 +9127,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 50,
               "cost": 50,
@@ -9136,7 +9136,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 7,
               "sales": 761,
               "cost": 602,
@@ -9145,7 +9145,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
-              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 1,
               "sales": 113,
               "cost": 86,
@@ -9334,8 +9334,8 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
+      "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
+      "lastCollectedAt": "2026-11-09T05:59:16.580Z"
     },
     "SK": {
       "days": {
@@ -9344,10 +9344,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2120,
+              "sales": 2260,
               "cost": 1932.48,
-              "grossProfit": 187.52,
-              "quantity": 10
+              "grossProfit": 327.52,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -9365,15 +9365,15 @@
             },
             {
               "key": "other",
-              "sales": 660,
+              "sales": 520,
               "cost": 610.7,
-              "grossProfit": 49.3,
-              "quantity": 45
+              "grossProfit": -90.7,
+              "quantity": 43
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT214517",
               "itemName": "USED TIRE 215/45/17",
               "quantity": 1,
@@ -9382,7 +9382,7 @@
               "grossProfit": 60
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK195515",
               "itemName": "USED TAYAR 195/55/15 911",
               "quantity": 1,
@@ -9523,10 +9523,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1050,
+              "sales": 1130,
               "cost": 856.8,
-              "grossProfit": 193.2,
-              "quantity": 8
+              "grossProfit": 273.2,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
@@ -9544,15 +9544,15 @@
             },
             {
               "key": "other",
-              "sales": 705,
+              "sales": 625,
               "cost": 339.48,
-              "grossProfit": 365.52,
-              "quantity": 39
+              "grossProfit": 285.52,
+              "quantity": 38
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "UT165514",
               "itemName": "USED TIRE 165/55/14",
               "quantity": 1,
@@ -9675,10 +9675,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2264,
+              "sales": 2324,
               "cost": 2103.28,
-              "grossProfit": 160.72,
-              "quantity": 10
+              "grossProfit": 220.72,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -9696,15 +9696,15 @@
             },
             {
               "key": "other",
-              "sales": 555,
+              "sales": 495,
               "cost": 620.7,
-              "grossProfit": -65.7,
-              "quantity": 43
+              "grossProfit": -125.7,
+              "quantity": 42
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK176514",
               "itemName": "USED TAYAR 175/65/14",
               "quantity": 1,
@@ -9854,10 +9854,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1902,
+              "sales": 2102,
               "cost": 1882,
-              "grossProfit": 20,
-              "quantity": 12
+              "grossProfit": 220,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
@@ -9875,15 +9875,15 @@
             },
             {
               "key": "other",
-              "sales": 668,
+              "sales": 468,
               "cost": 547.76,
-              "grossProfit": 120.24,
-              "quantity": 41
+              "grossProfit": -79.76,
+              "quantity": 38
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK185515",
               "itemName": "USED TAYAR 185/55/15 911",
               "quantity": 1,
@@ -9892,7 +9892,7 @@
               "grossProfit": 60
             },
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK195015",
               "itemName": "USED TAYAR 195/50/15",
               "quantity": 2,
@@ -10024,10 +10024,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3186,
+              "sales": 3256,
               "cost": 2829.32,
-              "grossProfit": 356.68,
-              "quantity": 19
+              "grossProfit": 426.68,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -10045,15 +10045,15 @@
             },
             {
               "key": "other",
-              "sales": 1408,
+              "sales": 1338,
               "cost": 1476.68,
-              "grossProfit": -68.68,
-              "quantity": 59
+              "grossProfit": -138.68,
+              "quantity": 58
             }
           ],
           "items": [
             {
-              "category": "other",
+              "category": "passenger_tire",
               "itemCode": "NSK195515",
               "itemName": "USED TAYAR 195/55/15 911",
               "quantity": 1,
@@ -10934,9 +10934,9 @@
           ]
         }
       },
-      "backfillCompletedAt": "2026-11-09T05:48:00.554Z",
-      "lastCollectedAt": "2026-11-09T05:55:14.961Z"
+      "backfillCompletedAt": "2026-11-09T05:59:16.580Z",
+      "lastCollectedAt": "2026-11-09T05:59:16.580Z"
     }
   },
-  "updatedAt": "2026-11-09T05:55:14.961Z"
+  "updatedAt": "2026-11-09T05:59:16.580Z"
 }
