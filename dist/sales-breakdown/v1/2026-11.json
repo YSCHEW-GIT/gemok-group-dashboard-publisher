@@ -6242,7 +6242,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:30:53.075Z"
+      "lastCollectedAt": "2026-11-09T03:36:23.835Z"
     },
     "ST": {
       "days": {
@@ -9219,14 +9219,14 @@
           ]
         },
         "2026-11-09": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2206,
-              "cost": 2012,
-              "grossProfit": 194,
-              "quantity": 12
+              "sales": 2798,
+              "cost": 2696,
+              "grossProfit": 102,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -9237,17 +9237,17 @@
             },
             {
               "key": "foreman_item",
-              "sales": 356,
-              "cost": 100,
-              "grossProfit": 256,
-              "quantity": 4
+              "sales": 496,
+              "cost": 154.4,
+              "grossProfit": 341.6,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 343,
-              "cost": 30.7,
-              "grossProfit": 312.3,
-              "quantity": 26
+              "sales": 486,
+              "cost": 36.8,
+              "grossProfit": 449.2,
+              "quantity": 36
             }
           ],
           "items": [
@@ -9255,19 +9255,19 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
+              "quantity": 5,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 80,
+              "quantity": 16,
+              "sales": 120,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -9298,6 +9298,15 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 4,
+              "sales": 592,
+              "cost": 684,
+              "grossProfit": -92
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W (2026)",
               "quantity": 4,
@@ -9318,10 +9327,10 @@
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
-              "quantity": 1,
-              "sales": 45,
-              "cost": 3.5,
-              "grossProfit": 41.5
+              "quantity": 2,
+              "sales": 90,
+              "cost": 7,
+              "grossProfit": 83
             },
             {
               "category": "other",
@@ -9336,10 +9345,10 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 8,
+              "sales": 56,
+              "cost": 5.2,
+              "grossProfit": 50.8
             },
             {
               "category": "other",
@@ -9367,12 +9376,21 @@
               "sales": 98,
               "cost": 32,
               "grossProfit": 66
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC5168PLT",
+              "itemName": "BRAKE PAD BNC HONDA CITY 2.0(06-19)N TMO T9A JAZZ CD5168",
+              "quantity": 1,
+              "sales": 140,
+              "cost": 54.4,
+              "grossProfit": 85.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:30:53.075Z"
+      "lastCollectedAt": "2026-11-09T03:36:23.835Z"
     },
     "SK": {
       "days": {
@@ -10837,7 +10855,7 @@
           ]
         },
         "2026-11-09": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10855,10 +10873,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 260,
-              "cost": 280,
-              "grossProfit": -20,
-              "quantity": 2
+              "sales": 575,
+              "cost": 506.5,
+              "grossProfit": 68.5,
+              "quantity": 5
             },
             {
               "key": "other",
@@ -10915,6 +10933,33 @@
               "grossProfit": 80.8
             },
             {
+              "category": "foreman_item",
+              "itemCode": "POFCMHD",
+              "itemName": "HONDA OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAFCMHDJZZ",
+              "itemName": "AIR FILTER HONDA HYBIRD T7A 2014-2019 JAZZ T5A CITY T9A GM7 17220-SR0-008",
+              "quantity": 1,
+              "sales": 55,
+              "cost": 29,
+              "grossProfit": 26
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 260,
+              "cost": 189,
+              "grossProfit": 71
+            },
+            {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
@@ -10936,8 +10981,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-08T14:21:09.387Z",
-      "lastCollectedAt": "2026-11-09T03:30:53.075Z"
+      "lastCollectedAt": "2026-11-09T03:36:23.835Z"
     }
   },
-  "updatedAt": "2026-11-09T03:30:53.075Z"
+  "updatedAt": "2026-11-09T03:36:23.835Z"
 }
