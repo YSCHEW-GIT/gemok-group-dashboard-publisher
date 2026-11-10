@@ -4187,7 +4187,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
+      "lastCollectedAt": "2026-11-10T08:25:48.620Z"
     },
     "SR": {
       "days": {
@@ -7313,7 +7313,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7341,11 +7341,11 @@
             },
             {
               "key": "other",
-              "sales": 398,
-              "netSales": 398,
+              "sales": 468,
+              "netSales": 468,
               "cost": 19.5,
-              "grossProfit": 378.5,
-              "quantity": 45
+              "grossProfit": 448.5,
+              "quantity": 50
             }
           ],
           "items": [
@@ -7353,21 +7353,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 8,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 22,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -7663,7 +7663,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
+      "lastCollectedAt": "2026-11-10T08:25:48.620Z"
     },
     "ST": {
       "days": {
@@ -11314,9 +11314,9 @@
               "key": "sport_rim",
               "sales": 588,
               "netSales": 588,
-              "cost": 701,
-              "grossProfit": -113,
-              "quantity": 1
+              "cost": 501,
+              "grossProfit": 87,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -11328,23 +11328,33 @@
             },
             {
               "key": "other",
-              "sales": 447,
-              "netSales": 447,
-              "cost": 73.8,
-              "grossProfit": 373.2,
-              "quantity": 48
+              "sales": 487,
+              "netSales": 487,
+              "cost": 80.4,
+              "grossProfit": 406.6,
+              "quantity": 52
             }
           ],
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2611853",
+              "itemName": "USED SPORT RIM 15X 7JJ PCD 100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR157041ET38-HB-ADVGT",
               "itemName": "SPORT RIM 15X7.0 4HX100 ET 38 HYPER BLACK JD10570A08 (ADVGT)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 701,
-              "grossProfit": -113
+              "grossProfit": 87
             },
             {
               "category": "other",
@@ -11510,11 +11520,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             },
             {
               "category": "other",
@@ -11550,7 +11560,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
+      "lastCollectedAt": "2026-11-10T08:25:48.620Z"
     },
     "SK": {
       "days": {
@@ -13587,8 +13597,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
+      "lastCollectedAt": "2026-11-10T08:25:48.620Z"
     }
   },
-  "updatedAt": "2026-11-10T08:20:17.837Z"
+  "updatedAt": "2026-11-10T08:25:48.620Z"
 }
