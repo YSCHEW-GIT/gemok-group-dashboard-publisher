@@ -6948,10 +6948,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 678,
-              "netSales": 678,
+              "sales": 728,
+              "netSales": 728,
               "cost": 596,
-              "grossProfit": 82,
+              "grossProfit": 132,
               "quantity": 6
             },
             {
@@ -6972,10 +6972,10 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 200,
+              "netSales": 200,
               "cost": 16.9,
-              "grossProfit": 233.1,
+              "grossProfit": 183.1,
               "quantity": 21
             }
           ],
@@ -6985,20 +6985,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -7025,10 +7025,10 @@
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 2,
-              "sales": 256,
-              "netSales": 256,
+              "sales": 306,
+              "netSales": 306,
               "cost": 256,
-              "grossProfit": 0
+              "grossProfit": 50
             },
             {
               "category": "foreman_item",
@@ -7124,7 +7124,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T02:46:19.935Z"
+      "lastCollectedAt": "2026-11-10T02:58:14.986Z"
     },
     "ST": {
       "days": {
@@ -12593,5 +12593,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T02:46:19.935Z"
+  "updatedAt": "2026-11-10T02:58:14.986Z"
 }
