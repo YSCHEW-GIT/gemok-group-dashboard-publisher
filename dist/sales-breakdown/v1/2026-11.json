@@ -4127,7 +4127,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:45:44.843Z"
+      "lastCollectedAt": "2026-11-10T06:51:16.877Z"
     },
     "SR": {
       "days": {
@@ -7533,7 +7533,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:45:44.843Z"
+      "lastCollectedAt": "2026-11-10T06:51:16.877Z"
     },
     "ST": {
       "days": {
@@ -11170,7 +11170,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11190,11 +11190,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 600,
-              "netSales": 600,
-              "cost": 378,
-              "grossProfit": 222,
-              "quantity": 4
+              "sales": 788,
+              "netSales": 788,
+              "cost": 460.4,
+              "grossProfit": 327.6,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -11290,11 +11290,11 @@
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 28,
-              "grossProfit": 62
+              "quantity": 2,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 56,
+              "grossProfit": 124
             },
             {
               "category": "foreman_item",
@@ -11335,12 +11335,22 @@
               "netSales": 28,
               "cost": 2.6,
               "grossProfit": 25.4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC5168PLT",
+              "itemName": "BRAKE PAD BNC HONDA CITY 2.0(06-19)N TMO T9A JAZZ CD5168",
+              "quantity": 1,
+              "sales": 98,
+              "netSales": 98,
+              "cost": 54.4,
+              "grossProfit": 43.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:45:44.843Z"
+      "lastCollectedAt": "2026-11-10T06:51:16.877Z"
     },
     "SK": {
       "days": {
@@ -13357,8 +13367,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:45:44.843Z"
+      "lastCollectedAt": "2026-11-10T06:51:16.877Z"
     }
   },
-  "updatedAt": "2026-11-10T06:45:44.843Z"
+  "updatedAt": "2026-11-10T06:51:16.877Z"
 }
