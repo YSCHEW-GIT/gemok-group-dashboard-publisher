@@ -3817,7 +3817,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3845,11 +3845,11 @@
             },
             {
               "key": "other",
-              "sales": 950,
-              "netSales": 921.88,
-              "cost": 96.2,
-              "grossProfit": 825.68,
-              "quantity": 98
+              "sales": 1420,
+              "netSales": 1389.66,
+              "cost": 321.2,
+              "grossProfit": 1068.46,
+              "quantity": 105
             }
           ],
           "items": [
@@ -3862,6 +3862,16 @@
               "netSales": 80,
               "cost": 0,
               "grossProfit": 80
+            },
+            {
+              "category": "other",
+              "itemCode": "SSD2AXIA",
+              "itemName": "D2 SPORT SPRING AXIA",
+              "quantity": 4,
+              "sales": 350,
+              "netSales": 350,
+              "cost": 218,
+              "grossProfit": 132
             },
             {
               "category": "sport_rim",
@@ -3887,11 +3897,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 150,
-              "netSales": 138.9,
+              "quantity": 11,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -4162,12 +4172,22 @@
               "netSales": 100,
               "cost": 10,
               "grossProfit": 90
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
+      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
     },
     "SR": {
       "days": {
@@ -7643,7 +7663,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
+      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
     },
     "ST": {
       "days": {
@@ -11280,15 +11300,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1214,
-              "netSales": 1214,
-              "cost": 1190,
-              "grossProfit": 24,
-              "quantity": 8
+              "sales": 3214,
+              "netSales": 3214,
+              "cost": 3054,
+              "grossProfit": 160,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -11312,7 +11332,7 @@
               "netSales": 447,
               "cost": 73.8,
               "grossProfit": 373.2,
-              "quantity": 43
+              "quantity": 48
             }
           ],
           "items": [
@@ -11330,7 +11350,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
+              "quantity": 22,
               "sales": 100,
               "netSales": 100,
               "cost": 0,
@@ -11340,7 +11360,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
+              "quantity": 8,
               "sales": 120,
               "netSales": 120,
               "cost": 0,
@@ -11395,6 +11415,16 @@
               "netSales": 326,
               "cost": 334,
               "grossProfit": -8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS235018TURANZA-26",
+              "itemName": "BRIDGESTONE 235/50/18 TURANZA 6 101W JP (2026)",
+              "quantity": 4,
+              "sales": 2000,
+              "netSales": 2000,
+              "cost": 1864,
+              "grossProfit": 136
             },
             {
               "category": "foreman_item",
@@ -11520,7 +11550,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
+      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
     },
     "SK": {
       "days": {
@@ -13557,8 +13587,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
+      "lastCollectedAt": "2026-11-10T08:20:17.837Z"
     }
   },
-  "updatedAt": "2026-11-10T08:08:52.006Z"
+  "updatedAt": "2026-11-10T08:20:17.837Z"
 }
