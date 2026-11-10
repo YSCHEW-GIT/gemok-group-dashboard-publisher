@@ -3815,10 +3815,129 @@
               "grossProfit": 329
             }
           ]
+        },
+        "2026-11-10": {
+          "documents": 3,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 276,
+              "netSales": 276,
+              "cost": 332,
+              "grossProfit": -56,
+              "quantity": 2
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 230,
+              "netSales": 230,
+              "cost": 70,
+              "grossProfit": 160,
+              "quantity": 3
+            },
+            {
+              "key": "other",
+              "sales": 80,
+              "netSales": 75.56,
+              "cost": 3.3,
+              "grossProfit": 72.26,
+              "quantity": 6
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
+              "cost": 0,
+              "grossProfit": 18.52
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN176514GC5-26",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 332,
+              "grossProfit": -56
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBP154TRWR",
+              "itemName": "TRW BRAKE PUMP AXIA/MYVI/VIOS REAR/LH",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 21,
+              "grossProfit": 49
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBP155TRWR",
+              "itemName": "TRW BRAKE PUMP AXIA/MYVI/VIOS REAR/RH",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 21,
+              "grossProfit": 49
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T15:59:40.874Z"
+      "lastCollectedAt": "2026-11-10T03:08:45.601Z"
     },
     "SR": {
       "days": {
@@ -6964,11 +7083,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1228,
-              "netSales": 1228,
-              "cost": 625.9,
-              "grossProfit": 602.1,
-              "quantity": 11
+              "sales": 1318,
+              "netSales": 1318,
+              "cost": 653.9,
+              "grossProfit": 664.1,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -7062,6 +7181,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PAOFP2D3GR",
               "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
               "quantity": 4,
@@ -7124,7 +7253,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T02:58:14.986Z"
+      "lastCollectedAt": "2026-11-10T03:08:45.601Z"
     },
     "ST": {
       "days": {
@@ -12593,5 +12722,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T02:58:14.986Z"
+  "updatedAt": "2026-11-10T03:08:45.601Z"
 }
