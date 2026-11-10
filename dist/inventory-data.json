@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-10T08:33:36.586Z",
+  "updatedAt": "2026-11-10T09:40:04.541Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 235,
-      "quantity": 2307,
-      "stockValue": 451407.38000000006
+      "sku": 233,
+      "quantity": 2290,
+      "stockValue": 448449.98000000004
     },
     {
       "key": "sport-rim",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 756,
-      "quantity": 2027,
-      "stockValue": 173605.5
+      "sku": 758,
+      "quantity": 2029,
+      "stockValue": 174005.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9886,
-      "stockValue": 57918.14999999999
+      "quantity": 9872,
+      "stockValue": 57895.04999999999
     },
     {
       "key": "non-stock-item",
@@ -652,7 +652,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 2,
           "cost": 190,
           "price": 200
         }
@@ -1936,7 +1936,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 169,
           "price": 179
         }
@@ -2630,25 +2630,6 @@
       ]
     },
     {
-      "code": "TPMX195515I-PRO",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "MAXXIS 195/55/15 TL I-PRO (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 3,
-          "cost": 155,
-          "price": 148
-        }
-      ]
-    },
-    {
       "code": "TPMX195515IPRO-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -3315,25 +3296,6 @@
       ]
     },
     {
-      "code": "TPTY205017CR1E-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "TOYO 205/50/17 PROXES CR1E 89V (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 293,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "TPTY205516CR1",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -3715,7 +3677,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 117.6,
           "price": 99
         }
@@ -47831,6 +47793,44 @@
       ]
     },
     {
+      "code": "US2620811",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620812",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -53740,7 +53740,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 543,
+          "quantity": 537,
           "cost": 1.65,
           "price": 10
         },
@@ -53758,7 +53758,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 375,
+          "quantity": 371,
           "cost": 1.65,
           "price": 10
         },
@@ -53767,7 +53767,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 471,
+          "quantity": 467,
           "cost": 1.65,
           "price": 10
         }
