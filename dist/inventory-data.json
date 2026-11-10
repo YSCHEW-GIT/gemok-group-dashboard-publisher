@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-10T02:00:52.982Z",
+  "updatedAt": "2026-11-10T03:07:09.125Z",
   "stores": [
     {
       "code": "SI",
@@ -25,8 +25,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 235,
-      "quantity": 2300,
-      "stockValue": 450396.38000000006
+      "quantity": 2290,
+      "stockValue": 449298.38000000006
     },
     {
       "key": "sport-rim",
@@ -67,8 +67,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 74,
-      "quantity": 256,
-      "stockValue": 12710.55
+      "quantity": 255,
+      "stockValue": 12678.55
     },
     {
       "key": "brake-pump",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2245,
-      "stockValue": 169575.55999999997
+      "quantity": 2238,
+      "stockValue": 169275.15999999997
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 183,
-      "stockValue": 1677
+      "quantity": 182,
+      "stockValue": 1669.5
     },
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 636,
-      "quantity": 2978.5,
-      "stockValue": 101831.14999999997
+      "sku": 635,
+      "quantity": 2975.5,
+      "stockValue": 101767.14999999997
     },
     {
       "key": "battery",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9957,
-      "stockValue": 58050.44999999999
+      "quantity": 9945,
+      "stockValue": 58034.44999999999
     },
     {
       "key": "non-stock-item",
@@ -2078,7 +2078,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 15,
           "cost": 166,
           "price": 138
         },
@@ -2473,7 +2473,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 18,
           "cost": 128,
           "price": 128
         },
@@ -4849,7 +4849,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 20,
           "cost": 85,
           "price": 85
         },
@@ -4951,7 +4951,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 26,
+          "quantity": 22,
           "cost": 85,
           "price": 85
         },
@@ -16349,7 +16349,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 32,
           "price": 68
         },
@@ -18258,7 +18258,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 28,
           "price": 0
         },
@@ -18276,7 +18276,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 61,
+          "quantity": 60,
           "cost": 28,
           "price": 100
         },
@@ -18692,7 +18692,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 158,
           "price": 180
         },
@@ -19893,15 +19893,6 @@
       "stockRows": [
         {
           "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 21.6,
-          "price": 70
-        },
-        {
-          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -20366,7 +20357,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 14,
           "cost": 7.5,
           "price": 25
         },
@@ -21447,7 +21438,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 22,
           "price": 70
         }
@@ -24360,7 +24351,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 21,
           "price": 0
         },
@@ -24371,25 +24362,6 @@
           "location": "",
           "quantity": 1,
           "cost": 19,
-          "price": 0
-        }
-      ]
-    },
-    {
-      "code": "PBP155TRWR",
-      "groupKey": "parts",
-      "groupName": "Parts",
-      "brand": "",
-      "name": "TRW BRAKE PUMP AXIA/MYVI/VIOS REAR/RH",
-      "spec": "79",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 21,
           "price": 0
         }
       ]
@@ -50003,7 +49975,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 73,
+          "quantity": 71,
           "cost": 3.5,
           "price": 35
         },
@@ -53723,7 +53695,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 338,
+          "quantity": 332,
           "cost": 0.4,
           "price": 10
         },
@@ -53760,7 +53732,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 571,
+          "quantity": 569,
           "cost": 1.65,
           "price": 10
         },
@@ -53778,7 +53750,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 377,
+          "quantity": 375,
           "cost": 1.65,
           "price": 10
         },
