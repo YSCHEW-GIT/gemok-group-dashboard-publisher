@@ -3817,15 +3817,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 356,
-              "netSales": 356,
-              "cost": 332,
-              "grossProfit": 24,
-              "quantity": 4
+              "sales": 532,
+              "netSales": 532,
+              "cost": 502,
+              "grossProfit": 30,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -3845,11 +3845,11 @@
             },
             {
               "key": "other",
-              "sales": 90,
-              "netSales": 84.82,
-              "cost": 3.3,
-              "grossProfit": 81.52,
-              "quantity": 7
+              "sales": 160,
+              "netSales": 151.12,
+              "cost": 6.6,
+              "grossProfit": 144.52,
+              "quantity": 12
             }
           ],
           "items": [
@@ -3867,21 +3867,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -3892,6 +3892,16 @@
               "netSales": 18.52,
               "cost": 0,
               "grossProfit": 18.52
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 176,
+              "netSales": 176,
+              "cost": 170,
+              "grossProfit": 6
             },
             {
               "category": "passenger_tire",
@@ -3947,17 +3957,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:36:19.989Z"
+      "lastCollectedAt": "2026-11-10T03:41:50.480Z"
     },
     "SR": {
       "days": {
@@ -7083,15 +7093,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 728,
-              "netSales": 728,
-              "cost": 596,
-              "grossProfit": 132,
-              "quantity": 6
+              "sales": 1068,
+              "netSales": 1068,
+              "cost": 886,
+              "grossProfit": 182,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -7111,11 +7121,11 @@
             },
             {
               "key": "other",
-              "sales": 230,
-              "netSales": 230,
+              "sales": 250,
+              "netSales": 250,
               "cost": 16.9,
-              "grossProfit": 213.1,
-              "quantity": 22
+              "grossProfit": 233.1,
+              "quantity": 24
             }
           ],
           "items": [
@@ -7133,11 +7143,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 12,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -7167,6 +7177,16 @@
               "sales": 306,
               "netSales": 306,
               "cost": 256,
+              "grossProfit": 50
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT196015AX77",
+              "itemName": "ATLANDER 195/60/15 AX77 BSW 88V (2026)",
+              "quantity": 2,
+              "sales": 340,
+              "netSales": 340,
+              "cost": 290,
               "grossProfit": 50
             },
             {
@@ -7273,7 +7293,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:36:19.989Z"
+      "lastCollectedAt": "2026-11-10T03:41:50.480Z"
     },
     "ST": {
       "days": {
@@ -10908,10 +10928,89 @@
               "grossProfit": 45.2
             }
           ]
+        },
+        "2026-11-10": {
+          "documents": 4,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 100,
+              "grossProfit": -100,
+              "quantity": 1
+            },
+            {
+              "key": "other",
+              "sales": 170,
+              "netSales": 170,
+              "cost": 50,
+              "grossProfit": 120,
+              "quantity": 10
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 50,
+              "grossProfit": 0
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK101224",
+              "itemName": "CRK OIL SEAL (TIMING)",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 100,
+              "grossProfit": -100
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T11:43:55.752Z"
+      "lastCollectedAt": "2026-11-10T03:41:50.480Z"
     },
     "SK": {
       "days": {
@@ -12742,5 +12841,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T03:36:19.989Z"
+  "updatedAt": "2026-11-10T03:41:50.480Z"
 }
