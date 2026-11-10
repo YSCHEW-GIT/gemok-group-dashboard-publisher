@@ -4247,7 +4247,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:04:22.803Z"
+      "lastCollectedAt": "2026-11-10T10:09:55.661Z"
     },
     "SR": {
       "days": {
@@ -7373,7 +7373,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7401,11 +7401,11 @@
             },
             {
               "key": "other",
-              "sales": 643,
-              "netSales": 643,
+              "sales": 673,
+              "netSales": 673,
               "cost": 27.45,
-              "grossProfit": 615.55,
-              "quantity": 68
+              "grossProfit": 645.55,
+              "quantity": 69
             }
           ],
           "items": [
@@ -7453,11 +7453,11 @@
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
-              "quantity": 7,
-              "sales": 70,
-              "netSales": 70,
+              "quantity": 8,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 100
             },
             {
               "category": "passenger_tire",
@@ -7763,7 +7763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:04:22.803Z"
+      "lastCollectedAt": "2026-11-10T10:09:55.661Z"
     },
     "ST": {
       "days": {
@@ -11670,7 +11670,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:04:22.803Z"
+      "lastCollectedAt": "2026-11-10T10:09:55.661Z"
     },
     "SK": {
       "days": {
@@ -13501,10 +13501,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1990,
-              "netSales": 1990,
+              "sales": 2060,
+              "netSales": 2060,
               "cost": 1900,
-              "grossProfit": 90,
+              "grossProfit": 160,
               "quantity": 14
             },
             {
@@ -13525,10 +13525,10 @@
             },
             {
               "key": "other",
-              "sales": 220,
-              "netSales": 220,
+              "sales": 150,
+              "netSales": 150,
               "cost": 12.4,
-              "grossProfit": 207.6,
+              "grossProfit": 137.6,
               "quantity": 34
             }
           ],
@@ -13538,20 +13538,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -13588,10 +13588,10 @@
               "itemCode": "TPGN195515ALTGS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 684,
-              "grossProfit": -92
+              "grossProfit": -22
             },
             {
               "category": "passenger_tire",
@@ -13717,8 +13717,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:04:22.803Z"
+      "lastCollectedAt": "2026-11-10T10:09:55.661Z"
     }
   },
-  "updatedAt": "2026-11-10T10:04:22.803Z"
+  "updatedAt": "2026-11-10T10:09:55.661Z"
 }
