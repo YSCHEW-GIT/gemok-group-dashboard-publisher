@@ -4167,7 +4167,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:46:14.078Z"
+      "lastCollectedAt": "2026-11-10T07:51:50.905Z"
     },
     "SR": {
       "days": {
@@ -7293,7 +7293,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7321,10 +7321,10 @@
             },
             {
               "key": "other",
-              "sales": 418,
-              "netSales": 418,
+              "sales": 398,
+              "netSales": 398,
               "cost": 19.5,
-              "grossProfit": 398.5,
+              "grossProfit": 378.5,
               "quantity": 45
             }
           ],
@@ -7333,11 +7333,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 7,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -7358,6 +7358,16 @@
               "netSales": 205,
               "cost": 0,
               "grossProfit": 205
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -7603,7 +7613,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:46:14.078Z"
+      "lastCollectedAt": "2026-11-10T07:51:50.905Z"
     },
     "ST": {
       "days": {
@@ -11244,10 +11254,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1164,
-              "netSales": 1164,
+              "sales": 1214,
+              "netSales": 1214,
               "cost": 1190,
-              "grossProfit": -26,
+              "grossProfit": 24,
               "quantity": 8
             },
             {
@@ -11268,10 +11278,10 @@
             },
             {
               "key": "other",
-              "sales": 497,
-              "netSales": 497,
+              "sales": 447,
+              "netSales": 447,
               "cost": 73.8,
-              "grossProfit": 423.2,
+              "grossProfit": 373.2,
               "quantity": 43
             }
           ],
@@ -11291,20 +11301,20 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 18,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 100
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -11351,10 +11361,10 @@
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
               "quantity": 2,
-              "sales": 276,
-              "netSales": 276,
+              "sales": 326,
+              "netSales": 326,
               "cost": 334,
-              "grossProfit": -58
+              "grossProfit": -8
             },
             {
               "category": "foreman_item",
@@ -11480,7 +11490,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:46:14.078Z"
+      "lastCollectedAt": "2026-11-10T07:51:50.905Z"
     },
     "SK": {
       "days": {
@@ -13507,8 +13517,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:46:14.078Z"
+      "lastCollectedAt": "2026-11-10T07:51:50.905Z"
     }
   },
-  "updatedAt": "2026-11-10T07:46:14.078Z"
+  "updatedAt": "2026-11-10T07:51:50.905Z"
 }
