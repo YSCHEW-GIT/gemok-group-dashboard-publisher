@@ -4006,7 +4006,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPGN176514GC5-26",
-              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
               "quantity": 2,
               "sales": 326,
               "netSales": 326,
@@ -4167,7 +4167,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:35:07.887Z"
+      "lastCollectedAt": "2026-11-10T07:40:42.626Z"
     },
     "SR": {
       "days": {
@@ -7293,7 +7293,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7321,11 +7321,11 @@
             },
             {
               "key": "other",
-              "sales": 358,
-              "netSales": 358,
+              "sales": 418,
+              "netSales": 418,
               "cost": 19.5,
-              "grossProfit": 338.5,
-              "quantity": 43
+              "grossProfit": 398.5,
+              "quantity": 45
             }
           ],
           "items": [
@@ -7333,11 +7333,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 8,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -7603,7 +7603,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:35:07.887Z"
+      "lastCollectedAt": "2026-11-10T07:40:42.626Z"
     },
     "ST": {
       "days": {
@@ -11240,15 +11240,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 888,
-              "netSales": 888,
-              "cost": 856,
-              "grossProfit": 32,
-              "quantity": 6
+              "sales": 1164,
+              "netSales": 1164,
+              "cost": 1190,
+              "grossProfit": -26,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -11268,11 +11268,11 @@
             },
             {
               "key": "other",
-              "sales": 433,
-              "netSales": 433,
-              "cost": 72.5,
-              "grossProfit": 360.5,
-              "quantity": 38
+              "sales": 497,
+              "netSales": 497,
+              "cost": 73.8,
+              "grossProfit": 423.2,
+              "quantity": 43
             }
           ],
           "items": [
@@ -11290,21 +11290,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 18,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 7,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -11345,6 +11345,16 @@
               "netSales": 662,
               "cost": 684,
               "grossProfit": -22
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN176514GC5-26",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 334,
+              "grossProfit": -58
             },
             {
               "category": "foreman_item",
@@ -11450,11 +11460,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 6,
+              "sales": 42,
+              "netSales": 42,
+              "cost": 3.9,
+              "grossProfit": 38.1
             },
             {
               "category": "foreman_item",
@@ -11470,7 +11480,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:35:07.887Z"
+      "lastCollectedAt": "2026-11-10T07:40:42.626Z"
     },
     "SK": {
       "days": {
@@ -13497,8 +13507,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:35:07.887Z"
+      "lastCollectedAt": "2026-11-10T07:40:42.626Z"
     }
   },
-  "updatedAt": "2026-11-10T07:35:07.887Z"
+  "updatedAt": "2026-11-10T07:40:42.626Z"
 }
