@@ -4247,7 +4247,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T09:47:45.996Z"
+      "lastCollectedAt": "2026-11-10T09:53:19.396Z"
     },
     "SR": {
       "days": {
@@ -7373,7 +7373,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7401,11 +7401,11 @@
             },
             {
               "key": "other",
-              "sales": 608,
-              "netSales": 608,
-              "cost": 26.1,
-              "grossProfit": 581.9,
-              "quantity": 66
+              "sales": 643,
+              "netSales": 643,
+              "cost": 27.45,
+              "grossProfit": 615.55,
+              "quantity": 68
             }
           ],
           "items": [
@@ -7730,6 +7730,26 @@
               "grossProfit": 25.4
             },
             {
+              "category": "other",
+              "itemCode": "MDT042",
+              "itemName": "DURA TUBE PATCHES 42MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0.35,
+              "grossProfit": 9.65
+            },
+            {
+              "category": "other",
+              "itemCode": "MTT060",
+              "itemName": "TIRE PATCHES TIPTOP 60MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 25,
+              "netSales": 25,
+              "cost": 1,
+              "grossProfit": 24
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPBNC0046FPLT",
               "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
@@ -7743,7 +7763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T09:47:45.996Z"
+      "lastCollectedAt": "2026-11-10T09:53:19.396Z"
     },
     "ST": {
       "days": {
@@ -11650,7 +11670,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T09:47:45.996Z"
+      "lastCollectedAt": "2026-11-10T09:53:19.396Z"
     },
     "SK": {
       "days": {
@@ -13687,8 +13707,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T09:47:45.996Z"
+      "lastCollectedAt": "2026-11-10T09:53:19.396Z"
     }
   },
-  "updatedAt": "2026-11-10T09:47:45.996Z"
+  "updatedAt": "2026-11-10T09:53:19.396Z"
 }
