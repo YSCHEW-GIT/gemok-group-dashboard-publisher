@@ -3817,7 +3817,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 12,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3837,19 +3837,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1555,
-              "netSales": 1555,
-              "cost": 1069.8,
-              "grossProfit": 485.2,
-              "quantity": 9
+              "sales": 1745,
+              "netSales": 1745,
+              "cost": 1175.3,
+              "grossProfit": 569.7,
+              "quantity": 11
             },
             {
               "key": "other",
-              "sales": 130,
-              "netSales": 127.78,
-              "cost": 16.5,
-              "grossProfit": 111.28,
-              "quantity": 26
+              "sales": 220,
+              "netSales": 217.78,
+              "cost": 36.5,
+              "grossProfit": 181.28,
+              "quantity": 28
             }
           ],
           "items": [
@@ -3965,13 +3965,23 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFFLPRO",
+              "itemName": "OIL FILTER PROTON PC121102",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 6.5,
+              "grossProfit": -6.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 1,
-              "sales": 165,
-              "netSales": 165,
-              "cost": 99,
-              "grossProfit": 66
+              "quantity": 2,
+              "sales": 355,
+              "netSales": 355,
+              "cost": 198,
+              "grossProfit": 157
             },
             {
               "category": "foreman_item",
@@ -4032,12 +4042,22 @@
               "netSales": 100,
               "cost": 16.5,
               "grossProfit": 83.5
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCTYTVS",
+              "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 20,
+              "grossProfit": 70
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
+      "lastCollectedAt": "2026-11-10T05:36:06.894Z"
     },
     "SR": {
       "days": {
@@ -7163,14 +7183,14 @@
           ]
         },
         "2026-11-10": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1550.75,
-              "netSales": 1550.75,
+              "sales": 1568,
+              "netSales": 1568,
               "cost": 1326,
-              "grossProfit": 224.75,
+              "grossProfit": 242,
               "quantity": 12
             },
             {
@@ -7183,18 +7203,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1720.86,
-              "netSales": 1720.86,
+              "sales": 1740,
+              "netSales": 1740,
               "cost": 822.8,
-              "grossProfit": 898.06,
+              "grossProfit": 917.2,
               "quantity": 20
             },
             {
               "key": "other",
-              "sales": 324.39,
-              "netSales": 324.39,
+              "sales": 328,
+              "netSales": 328,
               "cost": 19.5,
-              "grossProfit": 304.89,
+              "grossProfit": 308.5,
               "quantity": 39
             }
           ],
@@ -7204,90 +7224,90 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 59.34,
-              "netSales": 59.34,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 59.34
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 39.56,
-              "netSales": 39.56,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 39.56
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 3,
-              "sales": 202.74,
-              "netSales": 202.74,
+              "sales": 205,
+              "netSales": 205,
               "cost": 0,
-              "grossProfit": 202.74
+              "grossProfit": 205
             },
             {
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 7,
-              "sales": 69.23,
-              "netSales": 69.23,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 69.23
+              "grossProfit": 70
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 4,
-              "sales": 417.36,
-              "netSales": 417.36,
+              "sales": 422,
+              "netSales": 422,
               "cost": 340,
-              "grossProfit": 77.36
+              "grossProfit": 82
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 2,
-              "sales": 302.63,
-              "netSales": 302.63,
+              "sales": 306,
+              "netSales": 306,
               "cost": 256,
-              "grossProfit": 46.63
+              "grossProfit": 50
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF756514LH41",
               "itemName": "LAUFENN 175/65/14 LH41 82H (2026)",
               "quantity": 4,
-              "sales": 474.72,
-              "netSales": 474.72,
+              "sales": 480,
+              "netSales": 480,
               "cost": 440,
-              "grossProfit": 34.72
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT196015AX77",
               "itemName": "ATLANDER 195/60/15 AX77 BSW 88V (2026)",
               "quantity": 2,
-              "sales": 356.04,
-              "netSales": 356.04,
+              "sales": 360,
+              "netSales": 360,
               "cost": 290,
-              "grossProfit": 66.04
+              "grossProfit": 70
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSBMYV",
               "itemName": "BNC ABSORBER BOOT FRT MYVI VIVA ALZA BZ020",
               "quantity": 1,
-              "sales": 69.23,
-              "netSales": 69.23,
+              "sales": 70,
+              "netSales": 70,
               "cost": 22,
-              "grossProfit": 47.23
+              "grossProfit": 48
             },
             {
               "category": "foreman_item",
@@ -7304,126 +7324,126 @@
               "itemCode": "POFFLPRO",
               "itemName": "OIL FILTER PROTON PC121102",
               "quantity": 1,
-              "sales": 14.83,
-              "netSales": 14.83,
+              "sales": 15,
+              "netSales": 15,
               "cost": 7.5,
-              "grossProfit": 7.33
+              "grossProfit": 7.5
             },
             {
               "category": "foreman_item",
               "itemCode": "OEHX10W40Q7000",
               "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
               "quantity": 1,
-              "sales": 178.02,
-              "netSales": 178.02,
+              "sales": 180,
+              "netSales": 180,
               "cost": 158,
-              "grossProfit": 20.02
+              "grossProfit": 22
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
-              "sales": 89.01,
-              "netSales": 89.01,
+              "sales": 90,
+              "netSales": 90,
               "cost": 28,
-              "grossProfit": 61.01
+              "grossProfit": 62
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOPRSP3",
               "itemName": "PROTON SPIII AUTO OIL 1LT MS991159-25K",
               "quantity": 4,
-              "sales": 237.36,
-              "netSales": 237.36,
+              "sales": 240,
+              "netSales": 240,
               "cost": 86.4,
-              "grossProfit": 150.96
+              "grossProfit": 153.6
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFP2D3GR",
               "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
               "quantity": 4,
-              "sales": 237.36,
-              "netSales": 237.36,
+              "sales": 240,
+              "netSales": 240,
               "cost": 86.4,
-              "grossProfit": 150.96
+              "grossProfit": 153.6
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110026",
               "itemName": "MK AUTO FILTER KIT BEZZA, MYVI LG BEST, MYVI 18y, AXIA, ALZA 1.5 (SUSA)",
               "quantity": 1,
-              "sales": 110.77,
-              "netSales": 110.77,
+              "sales": 112,
+              "netSales": 112,
               "cost": 25,
-              "grossProfit": 85.77
+              "grossProfit": 87
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110025",
               "itemName": "DENKI ALTERNATOR ASSY 12V80A 6PK 3 PIN (PREMIUM) ALZA D46T (SAHA)",
               "quantity": 1,
-              "sales": 395.6,
-              "netSales": 395.6,
+              "sales": 400,
+              "netSales": 400,
               "cost": 295,
-              "grossProfit": 100.6
+              "grossProfit": 105
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110027",
               "itemName": "FBK BRAKE PAD FRT NISSAN LATIO, LIVINA 1.6/1.8, ALMERA, VIOS NGC100/102 (SUSA)",
               "quantity": 1,
-              "sales": 118.68,
-              "netSales": 118.68,
+              "sales": 120,
+              "netSales": 120,
               "cost": 75,
-              "grossProfit": 43.68
+              "grossProfit": 45
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 6,
-              "sales": 59.34,
-              "netSales": 59.34,
+              "sales": 60,
+              "netSales": 60,
               "cost": 9.9,
-              "grossProfit": 49.44
+              "grossProfit": 50.1
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 69.23,
-              "netSales": 69.23,
+              "sales": 70,
+              "netSales": 70,
               "cost": 7,
-              "grossProfit": 62.23
+              "grossProfit": 63
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 27.69,
-              "netSales": 27.69,
+              "sales": 28,
+              "netSales": 28,
               "cost": 2.6,
-              "grossProfit": 25.09
+              "grossProfit": 25.4
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPBNC0046FPLT",
               "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
               "quantity": 1,
-              "sales": 67.26,
-              "netSales": 67.26,
+              "sales": 68,
+              "netSales": 68,
               "cost": 32,
-              "grossProfit": 35.26
+              "grossProfit": 36
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
+      "lastCollectedAt": "2026-11-10T05:36:06.894Z"
     },
     "ST": {
       "days": {
@@ -11190,7 +11210,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
+      "lastCollectedAt": "2026-11-10T05:36:06.894Z"
     },
     "SK": {
       "days": {
@@ -13021,10 +13041,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1288,
-              "netSales": 1288,
+              "sales": 1338,
+              "netSales": 1338,
               "cost": 1216,
-              "grossProfit": 72,
+              "grossProfit": 122,
               "quantity": 10
             },
             {
@@ -13045,10 +13065,10 @@
             },
             {
               "key": "other",
-              "sales": 210,
-              "netSales": 210,
+              "sales": 160,
+              "netSales": 160,
               "cost": 5.8,
-              "grossProfit": 204.2,
+              "grossProfit": 154.2,
               "quantity": 24
             }
           ],
@@ -13058,20 +13078,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -13108,10 +13128,10 @@
               "itemCode": "TPAT204516XS86-26",
               "itemName": "ATLANDER 205/45/16 XSPORT 86 BSW 87W (2026)",
               "quantity": 2,
-              "sales": 336,
-              "netSales": 336,
+              "sales": 386,
+              "netSales": 386,
               "cost": 300,
-              "grossProfit": 36
+              "grossProfit": 86
             },
             {
               "category": "foreman_item",
@@ -13187,8 +13207,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
+      "lastCollectedAt": "2026-11-10T05:36:06.894Z"
     }
   },
-  "updatedAt": "2026-11-10T05:30:35.598Z"
+  "updatedAt": "2026-11-10T05:36:06.894Z"
 }
