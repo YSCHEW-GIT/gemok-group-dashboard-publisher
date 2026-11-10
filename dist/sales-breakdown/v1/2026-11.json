@@ -3846,9 +3846,9 @@
             {
               "key": "other",
               "sales": 920,
-              "netSales": 889.66,
-              "cost": 86.3,
-              "grossProfit": 803.36,
+              "netSales": 891.14,
+              "cost": 89.6,
+              "grossProfit": 801.54,
               "quantity": 86
             }
           ],
@@ -3897,11 +3897,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 200,
-              "netSales": 185.2,
+              "quantity": 28,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 185.2
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -4117,11 +4117,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 22,
-              "sales": 220,
-              "netSales": 220,
-              "cost": 36.3,
-              "grossProfit": 183.7
+              "quantity": 24,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 39.6,
+              "grossProfit": 200.4
             },
             {
               "category": "other",
@@ -4147,7 +4147,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:02:21.799Z"
+      "lastCollectedAt": "2026-11-10T07:07:55.089Z"
     },
     "SR": {
       "days": {
@@ -7553,7 +7553,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:02:21.799Z"
+      "lastCollectedAt": "2026-11-10T07:07:55.089Z"
     },
     "ST": {
       "days": {
@@ -11210,11 +11210,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 788,
-              "netSales": 788,
-              "cost": 460.4,
-              "grossProfit": 327.6,
-              "quantity": 6
+              "sales": 1068,
+              "netSales": 1068,
+              "cost": 578.95,
+              "grossProfit": 489.05,
+              "quantity": 8
             },
             {
               "key": "other",
@@ -11308,6 +11308,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMHD",
+              "itemName": "HONDA OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q8000",
+              "itemName": "TOTAL 5W40 QUARTZ 8000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 110.05,
+              "grossProfit": 169.95
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 2,
@@ -11370,7 +11390,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:02:21.799Z"
+      "lastCollectedAt": "2026-11-10T07:07:55.089Z"
     },
     "SK": {
       "days": {
@@ -13397,8 +13417,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:02:21.799Z"
+      "lastCollectedAt": "2026-11-10T07:07:55.089Z"
     }
   },
-  "updatedAt": "2026-11-10T07:02:21.799Z"
+  "updatedAt": "2026-11-10T07:07:55.089Z"
 }
