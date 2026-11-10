@@ -3817,7 +3817,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3837,19 +3837,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 395,
-              "netSales": 395,
-              "cost": 169,
-              "grossProfit": 226,
-              "quantity": 4
+              "sales": 1555,
+              "netSales": 1555,
+              "cost": 1069.8,
+              "grossProfit": 485.2,
+              "quantity": 9
             },
             {
               "key": "other",
-              "sales": 170,
-              "netSales": 163.34,
+              "sales": 180,
+              "netSales": 172.6,
               "cost": 13.2,
-              "grossProfit": 150.14,
-              "quantity": 21
+              "grossProfit": 159.4,
+              "quantity": 22
             }
           ],
           "items": [
@@ -3887,11 +3887,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "passenger_tire",
@@ -3955,6 +3955,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OEHX5W40Q9000",
+              "itemName": "HELIX ULTRA 4X4L SP A3/B4 5W40 9000 FULLY SYTHENTIC ENG OIL",
+              "quantity": 2,
+              "sales": 540,
+              "netSales": 540,
+              "cost": 480.8,
+              "grossProfit": 59.2
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
@@ -3962,6 +3972,36 @@
               "netSales": 90,
               "cost": 28,
               "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKAUTOOIL",
+              "itemName": "OG AUTO OIL MITSUBISHI",
+              "quantity": 1,
+              "sales": 320,
+              "netSales": 320,
+              "cost": 220,
+              "grossProfit": 100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKGEARBOX",
+              "itemName": "OG GEAR OIL LSD MITSUBISHI 4L CT9A",
+              "quantity": 1,
+              "sales": 300,
+              "netSales": 300,
+              "cost": 180,
+              "grossProfit": 120
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKOILFILTER",
+              "itemName": "OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 20,
+              "grossProfit": -20
             },
             {
               "category": "other",
@@ -3977,7 +4017,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T04:25:30.883Z"
+      "lastCollectedAt": "2026-11-10T04:31:01.141Z"
     },
     "SR": {
       "days": {
@@ -7343,7 +7383,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T04:25:30.883Z"
+      "lastCollectedAt": "2026-11-10T04:31:01.141Z"
     },
     "ST": {
       "days": {
@@ -11070,7 +11110,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T04:25:30.883Z"
+      "lastCollectedAt": "2026-11-10T04:31:01.141Z"
     },
     "SK": {
       "days": {
@@ -12901,5 +12941,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T04:25:30.883Z"
+  "updatedAt": "2026-11-10T04:31:01.141Z"
 }
