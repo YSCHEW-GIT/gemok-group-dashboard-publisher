@@ -4267,7 +4267,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:26:35.921Z"
+      "lastCollectedAt": "2026-11-10T10:32:06.461Z"
     },
     "SR": {
       "days": {
@@ -7393,15 +7393,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 24,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3130,
-              "netSales": 3130,
+              "sales": 3170,
+              "netSales": 3170,
               "cost": 2728.4,
-              "grossProfit": 401.6,
-              "quantity": 22
+              "grossProfit": 441.6,
+              "quantity": 23
             },
             {
               "key": "sport_rim",
@@ -7413,22 +7413,32 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2390,
-              "netSales": 2390,
-              "cost": 1167.3,
-              "grossProfit": 1222.7,
-              "quantity": 27
+              "sales": 2570,
+              "netSales": 2570,
+              "cost": 1275.3,
+              "grossProfit": 1294.7,
+              "quantity": 29
             },
             {
               "key": "other",
-              "sales": 613,
-              "netSales": 613,
+              "sales": 623,
+              "netSales": 623,
               "cost": 29.1,
-              "grossProfit": 583.9,
-              "quantity": 70
+              "grossProfit": 593.9,
+              "quantity": 71
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR195515",
+              "itemName": "USED TAYAR 195/55/15 -911",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -7443,11 +7453,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 31,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 90
             },
             {
               "category": "foreman_item",
@@ -7601,13 +7611,23 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFKIAY500",
+              "itemName": "OIL FILTER KIA HYUNDAI MOBIS 2Y500",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8,
+              "grossProfit": -8
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
-              "cost": 100,
-              "grossProfit": 80
+              "quantity": 2,
+              "sales": 360,
+              "netSales": 360,
+              "cost": 200,
+              "grossProfit": 160
             },
             {
               "category": "foreman_item",
@@ -7783,7 +7803,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:26:35.921Z"
+      "lastCollectedAt": "2026-11-10T10:32:06.461Z"
     },
     "ST": {
       "days": {
@@ -11424,10 +11444,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4813,
-              "netSales": 4813,
+              "sales": 4883,
+              "netSales": 4883,
               "cost": 4606,
-              "grossProfit": 207,
+              "grossProfit": 277,
               "quantity": 20
             },
             {
@@ -11448,10 +11468,10 @@
             },
             {
               "key": "other",
-              "sales": 635,
-              "netSales": 635,
+              "sales": 565,
+              "netSales": 565,
               "cost": 89.6,
-              "grossProfit": 545.4,
+              "grossProfit": 475.4,
               "quantity": 71
             }
           ],
@@ -11481,20 +11501,20 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 30,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 100
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -11561,10 +11581,10 @@
               "itemCode": "TPCT185515CC7-26",
               "itemName": "CONTINENTAL 185/55/15 COMFORT CONTACT CC7 82V CN (2026)",
               "quantity": 4,
-              "sales": 880,
-              "netSales": 880,
+              "sales": 950,
+              "netSales": 950,
               "cost": 932,
-              "grossProfit": -52
+              "grossProfit": 18
             },
             {
               "category": "passenger_tire",
@@ -11700,7 +11720,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:26:35.921Z"
+      "lastCollectedAt": "2026-11-10T10:32:06.461Z"
     },
     "SK": {
       "days": {
@@ -13757,8 +13777,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T10:26:35.921Z"
+      "lastCollectedAt": "2026-11-10T10:32:06.461Z"
     }
   },
-  "updatedAt": "2026-11-10T10:26:35.921Z"
+  "updatedAt": "2026-11-10T10:32:06.461Z"
 }
