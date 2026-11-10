@@ -3817,15 +3817,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4824,
-              "netSales": 4824,
-              "cost": 4920,
-              "grossProfit": -96,
-              "quantity": 31
+              "sales": 5220,
+              "netSales": 5220,
+              "cost": 5288,
+              "grossProfit": -68,
+              "quantity": 35
             },
             {
               "key": "sport_rim",
@@ -3845,11 +3845,11 @@
             },
             {
               "key": "other",
-              "sales": 920,
-              "netSales": 891.14,
+              "sales": 990,
+              "netSales": 955.96,
               "cost": 89.6,
-              "grossProfit": 801.54,
-              "quantity": 86
+              "grossProfit": 866.36,
+              "quantity": 91
             }
           ],
           "items": [
@@ -3887,21 +3887,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 180,
-              "netSales": 166.68,
+              "quantity": 10,
+              "sales": 210,
+              "netSales": 194.46,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 194.46
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 28,
-              "sales": 180,
-              "netSales": 166.68,
+              "quantity": 32,
+              "sales": 220,
+              "netSales": 203.72,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 203.72
             },
             {
               "category": "other",
@@ -3952,6 +3952,16 @@
               "netSales": 792,
               "cost": 752,
               "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL176514Z108-26",
+              "itemName": "WEST LAKE 175/65/14 Z-108 82H TL (2026)",
+              "quantity": 4,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 368,
+              "grossProfit": 28
             },
             {
               "category": "passenger_tire",
@@ -4147,7 +4157,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:19:00.093Z"
+      "lastCollectedAt": "2026-11-10T07:29:36.991Z"
     },
     "SR": {
       "days": {
@@ -7273,7 +7283,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7293,11 +7303,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1990,
-              "netSales": 1990,
-              "cost": 972.8,
-              "grossProfit": 1017.2,
-              "quantity": 21
+              "sales": 2205,
+              "netSales": 2205,
+              "cost": 1106.3,
+              "grossProfit": 1098.7,
+              "quantity": 24
             },
             {
               "key": "other",
@@ -7401,6 +7411,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PAFCNSED500",
+              "itemName": "AIR FILTER NISSAN ALMERA LATIO,LIVINA ED500",
+              "quantity": 1,
+              "sales": 35,
+              "netSales": 35,
+              "cost": 25,
+              "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PABSBMYV",
               "itemName": "BNC ABSORBER BOOT FRT MYVI VIVA ALZA BZ020",
               "quantity": 1,
@@ -7428,6 +7448,26 @@
               "netSales": 15,
               "cost": 7.5,
               "grossProfit": 7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFNS65F00",
+              "itemName": "OIL FILTER GNT NISSAN 15208-65F00",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 100,
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -7553,7 +7593,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:19:00.093Z"
+      "lastCollectedAt": "2026-11-10T07:29:36.991Z"
     },
     "ST": {
       "days": {
@@ -11194,117 +11234,137 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 888,
-              "netSales": 888,
+              "sales": 723.89,
+              "netSales": 723.89,
               "cost": 856,
-              "grossProfit": 32,
+              "grossProfit": -132.11,
               "quantity": 6
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 479.34,
+              "netSales": 479.34,
+              "cost": 701,
+              "grossProfit": -221.66,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 1068,
-              "netSales": 1068,
-              "cost": 578.95,
-              "grossProfit": 489.05,
-              "quantity": 8
+              "sales": 1522.78,
+              "netSales": 1522.78,
+              "cost": 1068.95,
+              "grossProfit": 453.83,
+              "quantity": 11
             },
             {
               "key": "other",
-              "sales": 323,
-              "netSales": 323,
-              "cost": 65.9,
-              "grossProfit": 257.1,
-              "quantity": 29
+              "sales": 352.99,
+              "netSales": 352.99,
+              "cost": 72.5,
+              "grossProfit": 280.49,
+              "quantity": 38
             }
           ],
           "items": [
             {
+              "category": "sport_rim",
+              "itemCode": "SR157041ET38-HB-ADVGT",
+              "itemName": "SPORT RIM 15X7.0 4HX100 ET 38 HYPER BLACK JD10570A08 (ADVGT)",
+              "quantity": 1,
+              "sales": 479.34,
+              "netSales": 479.34,
+              "cost": 701,
+              "grossProfit": -221.66
+            },
+            {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 16,
+              "sales": 81.52,
+              "netSales": 81.52,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 81.52
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 6,
+              "sales": 97.84,
+              "netSales": 97.84,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 97.84
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 24.45,
+              "netSales": 24.45,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 24.45
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 50,
-              "netSales": 50,
+              "sales": 40.76,
+              "netSales": 40.76,
               "cost": 50,
-              "grossProfit": 0
+              "grossProfit": -9.24
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
+              "sales": 184.23,
+              "netSales": 184.23,
               "cost": 172,
-              "grossProfit": 54
+              "grossProfit": 12.23
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 662,
-              "netSales": 662,
+              "sales": 539.66,
+              "netSales": 539.66,
               "cost": 684,
-              "grossProfit": -22
+              "grossProfit": -144.34
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKAIRCOND",
               "itemName": "Aircond ND 10SA13C",
               "quantity": 1,
-              "sales": 280,
-              "netSales": 280,
+              "sales": 228.26,
+              "netSales": 228.26,
               "cost": 110,
-              "grossProfit": 170
+              "grossProfit": 118.26
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKMSTRPMTANK",
               "itemName": "BRAKE MASTER PUM TANK",
               "quantity": 1,
-              "sales": 230,
-              "netSales": 230,
+              "sales": 187.5,
+              "netSales": 187.5,
               "cost": 140,
-              "grossProfit": 90
+              "grossProfit": 47.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK40225",
+              "itemName": "DISC ROTOR FRT",
+              "quantity": 2,
+              "sales": 326.08,
+              "netSales": 326.08,
+              "cost": 240,
+              "grossProfit": 86.08
             },
             {
               "category": "foreman_item",
@@ -11321,20 +11381,20 @@
               "itemCode": "OETL5W40Q8000",
               "itemName": "TOTAL 5W40 QUARTZ 8000 FULLY SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 280,
-              "netSales": 280,
+              "sales": 228.26,
+              "netSales": 228.26,
               "cost": 110.05,
-              "grossProfit": 169.95
+              "grossProfit": 118.21
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 2,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 146.74,
+              "netSales": 146.74,
               "cost": 56,
-              "grossProfit": 124
+              "grossProfit": 90.74
             },
             {
               "category": "foreman_item",
@@ -11347,50 +11407,60 @@
               "grossProfit": -100
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK10825",
+              "itemName": "STARTER (8T) A/T MYVI 1.3, AVANZA",
+              "quantity": 1,
+              "sales": 326.08,
+              "netSales": 326.08,
+              "cost": 250,
+              "grossProfit": 76.08
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 6,
+              "sales": 48.91,
+              "netSales": 48.91,
+              "cost": 9.9,
+              "grossProfit": 39.01
             },
             {
               "category": "other",
               "itemCode": "MNCHDCT",
               "itemName": "CAMBER NUT HONDA CITY 1.5 (22mm)/ JAZZ (NEW)",
               "quantity": 1,
-              "sales": 45,
-              "netSales": 45,
+              "sales": 36.68,
+              "netSales": 36.68,
               "cost": 10,
-              "grossProfit": 35
+              "grossProfit": 26.68
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
+              "sales": 22.83,
+              "netSales": 22.83,
               "cost": 2.6,
-              "grossProfit": 25.4
+              "grossProfit": 20.23
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPBNC5168PLT",
               "itemName": "BRAKE PAD BNC HONDA CITY 2.0(06-19)N TMO T9A JAZZ CD5168",
               "quantity": 1,
-              "sales": 98,
-              "netSales": 98,
+              "sales": 79.86,
+              "netSales": 79.86,
               "cost": 54.4,
-              "grossProfit": 43.6
+              "grossProfit": 25.46
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:19:00.093Z"
+      "lastCollectedAt": "2026-11-10T07:29:36.991Z"
     },
     "SK": {
       "days": {
@@ -13417,8 +13487,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T07:19:00.093Z"
+      "lastCollectedAt": "2026-11-10T07:29:36.991Z"
     }
   },
-  "updatedAt": "2026-11-10T07:19:00.093Z"
+  "updatedAt": "2026-11-10T07:29:36.991Z"
 }
