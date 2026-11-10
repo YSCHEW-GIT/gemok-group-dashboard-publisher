@@ -3821,10 +3821,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 532,
-              "netSales": 532,
+              "sales": 582,
+              "netSales": 582,
               "cost": 502,
-              "grossProfit": 30,
+              "grossProfit": 80,
               "quantity": 6
             },
             {
@@ -3845,10 +3845,10 @@
             },
             {
               "key": "other",
-              "sales": 160,
-              "netSales": 151.12,
+              "sales": 110,
+              "netSales": 104.82,
               "cost": 6.6,
-              "grossProfit": 144.52,
+              "grossProfit": 98.22,
               "quantity": 12
             }
           ],
@@ -3868,20 +3868,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 55.56,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 27.78
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 18.52
             },
             {
               "category": "other",
@@ -3908,10 +3908,10 @@
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
               "quantity": 2,
-              "sales": 276,
-              "netSales": 276,
+              "sales": 326,
+              "netSales": 326,
               "cost": 332,
-              "grossProfit": -56
+              "grossProfit": -6
             },
             {
               "category": "foreman_item",
@@ -3967,7 +3967,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:52:51.538Z"
+      "lastCollectedAt": "2026-11-10T03:58:24.779Z"
     },
     "SR": {
       "days": {
@@ -7113,10 +7113,10 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1310,
-              "netSales": 1310,
+              "sales": 1260,
+              "netSales": 1260,
               "cost": 653.9,
-              "grossProfit": 656.1,
+              "grossProfit": 606.1,
               "quantity": 12
             },
             {
@@ -7154,10 +7154,10 @@
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 100
             },
             {
               "category": "passenger_tire",
@@ -7293,7 +7293,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:52:51.538Z"
+      "lastCollectedAt": "2026-11-10T03:58:24.779Z"
     },
     "ST": {
       "days": {
@@ -10930,7 +10930,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10958,10 +10958,10 @@
             },
             {
               "key": "other",
-              "sales": 170,
-              "netSales": 170,
+              "sales": 200,
+              "netSales": 200,
               "cost": 50,
-              "grossProfit": 120,
+              "grossProfit": 150,
               "quantity": 11
             }
           ],
@@ -10971,30 +10971,30 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 6,
-              "sales": 51,
-              "netSales": 51,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 51
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 76.5,
-              "netSales": 76.5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 76.5
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 42.5,
-              "netSales": 42.5,
+              "sales": 50,
+              "netSales": 50,
               "cost": 50,
-              "grossProfit": -7.5
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -11010,7 +11010,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:52:51.538Z"
+      "lastCollectedAt": "2026-11-10T03:58:24.779Z"
     },
     "SK": {
       "days": {
@@ -12841,5 +12841,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T03:52:51.538Z"
+  "updatedAt": "2026-11-10T03:58:24.779Z"
 }
