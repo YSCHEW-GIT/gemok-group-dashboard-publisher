@@ -3817,7 +3817,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 23,
+          "documents": 24,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3837,19 +3837,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1905,
-              "netSales": 1905,
-              "cost": 1216.3,
-              "grossProfit": 688.7,
-              "quantity": 12
+              "sales": 2465,
+              "netSales": 2465,
+              "cost": 1496.3,
+              "grossProfit": 968.7,
+              "quantity": 14
             },
             {
               "key": "other",
-              "sales": 1420,
-              "netSales": 1389.66,
+              "sales": 1500,
+              "netSales": 1463.74,
               "cost": 321.2,
-              "grossProfit": 1068.46,
-              "quantity": 105
+              "grossProfit": 1142.54,
+              "quantity": 110
             }
           ],
           "items": [
@@ -3907,11 +3907,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 32,
-              "sales": 140,
-              "netSales": 129.64,
+              "quantity": 36,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 129.64
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -3932,6 +3932,16 @@
               "netSales": 46.3,
               "cost": 0,
               "grossProfit": 46.3
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -4144,6 +4154,16 @@
               "grossProfit": -20
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKBRAKEPADRR",
+              "itemName": "GAMA BRAKE PAD RR CX5",
+              "quantity": 2,
+              "sales": 560,
+              "netSales": 560,
+              "cost": 280,
+              "grossProfit": 280
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
@@ -4187,7 +4207,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:57:26.401Z"
+      "lastCollectedAt": "2026-11-10T09:02:58.996Z"
     },
     "SR": {
       "days": {
@@ -7663,7 +7683,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:57:26.401Z"
+      "lastCollectedAt": "2026-11-10T09:02:58.996Z"
     },
     "ST": {
       "days": {
@@ -11560,7 +11580,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:57:26.401Z"
+      "lastCollectedAt": "2026-11-10T09:02:58.996Z"
     },
     "SK": {
       "days": {
@@ -13597,8 +13617,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:57:26.401Z"
+      "lastCollectedAt": "2026-11-10T09:02:58.996Z"
     }
   },
-  "updatedAt": "2026-11-10T08:57:26.401Z"
+  "updatedAt": "2026-11-10T09:02:58.996Z"
 }
