@@ -4037,7 +4037,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:19:32.686Z"
+      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
     },
     "SR": {
       "days": {
@@ -7423,7 +7423,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:19:32.686Z"
+      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
     },
     "ST": {
       "days": {
@@ -11060,15 +11060,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 592,
-              "netSales": 592,
-              "cost": 684,
-              "grossProfit": -92,
-              "quantity": 4
+              "sales": 768,
+              "netSales": 768,
+              "cost": 856,
+              "grossProfit": -88,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -11138,6 +11138,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
+              "quantity": 2,
+              "sales": 176,
+              "netSales": 176,
+              "cost": 172,
+              "grossProfit": 4
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
@@ -11180,7 +11190,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:19:32.686Z"
+      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
     },
     "SK": {
       "days": {
@@ -13157,8 +13167,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:19:32.686Z"
+      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
     }
   },
-  "updatedAt": "2026-11-10T05:19:32.686Z"
+  "updatedAt": "2026-11-10T05:25:03.831Z"
 }
