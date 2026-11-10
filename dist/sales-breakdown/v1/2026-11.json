@@ -4057,7 +4057,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
+      "lastCollectedAt": "2026-11-10T05:52:41.353Z"
     },
     "SR": {
       "days": {
@@ -7443,7 +7443,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
+      "lastCollectedAt": "2026-11-10T05:52:41.353Z"
     },
     "ST": {
       "days": {
@@ -11084,10 +11084,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 768,
-              "netSales": 768,
+              "sales": 738.98,
+              "netSales": 738.98,
               "cost": 856,
-              "grossProfit": -88,
+              "grossProfit": -117.02,
               "quantity": 6
             },
             {
@@ -11108,11 +11108,11 @@
             },
             {
               "key": "other",
-              "sales": 378,
-              "netSales": 378,
-              "cost": 55.9,
-              "grossProfit": 322.1,
-              "quantity": 26
+              "sales": 407.02,
+              "netSales": 407.02,
+              "cost": 65.9,
+              "grossProfit": 341.12,
+              "quantity": 27
             }
           ],
           "items": [
@@ -11121,60 +11121,60 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 115.46,
+              "netSales": 115.46,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 115.46
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 144.35,
+              "netSales": 144.35,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 144.35
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.62,
+              "netSales": 9.62,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.62
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 50,
-              "netSales": 50,
+              "sales": 48.11,
+              "netSales": 48.11,
               "cost": 50,
-              "grossProfit": 0
+              "grossProfit": -1.89
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 2,
-              "sales": 176,
-              "netSales": 176,
+              "sales": 169.35,
+              "netSales": 169.35,
               "cost": 172,
-              "grossProfit": 4
+              "grossProfit": -2.65
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 569.63,
+              "netSales": 569.63,
               "cost": 684,
-              "grossProfit": -92
+              "grossProfit": -114.37
             },
             {
               "category": "foreman_item",
@@ -11191,26 +11191,36 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 19.24,
+              "netSales": 19.24,
               "cost": 3.3,
-              "grossProfit": 16.7
+              "grossProfit": 15.94
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCHDCT",
+              "itemName": "CAMBER NUT HONDA CITY 1.5 (22mm)/ JAZZ (NEW)",
+              "quantity": 1,
+              "sales": 43.3,
+              "netSales": 43.3,
+              "cost": 10,
+              "grossProfit": 33.3
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
+              "sales": 26.94,
+              "netSales": 26.94,
               "cost": 2.6,
-              "grossProfit": 25.4
+              "grossProfit": 24.34
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
+      "lastCollectedAt": "2026-11-10T05:52:41.353Z"
     },
     "SK": {
       "days": {
@@ -13227,8 +13237,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
+      "lastCollectedAt": "2026-11-10T05:52:41.353Z"
     }
   },
-  "updatedAt": "2026-11-10T05:47:08.786Z"
+  "updatedAt": "2026-11-10T05:52:41.353Z"
 }
