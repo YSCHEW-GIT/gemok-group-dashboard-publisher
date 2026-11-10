@@ -3821,10 +3821,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5220,
-              "netSales": 5220,
+              "sales": 5360,
+              "netSales": 5360,
               "cost": 5288,
-              "grossProfit": -68,
+              "grossProfit": 72,
               "quantity": 35
             },
             {
@@ -3845,10 +3845,10 @@
             },
             {
               "key": "other",
-              "sales": 1090,
-              "netSales": 1051.52,
+              "sales": 950,
+              "netSales": 921.88,
               "cost": 96.2,
-              "grossProfit": 955.32,
+              "grossProfit": 825.68,
               "quantity": 98
             }
           ],
@@ -3888,20 +3888,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 210,
-              "netSales": 194.46,
+              "sales": 150,
+              "netSales": 138.9,
               "cost": 0,
-              "grossProfit": 194.46
+              "grossProfit": 138.9
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 32,
-              "sales": 220,
-              "netSales": 203.72,
+              "sales": 140,
+              "netSales": 129.64,
               "cost": 0,
-              "grossProfit": 203.72
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -3928,10 +3928,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 8,
-              "sales": 1584,
-              "netSales": 1584,
+              "sales": 1654,
+              "netSales": 1654,
               "cost": 1840,
-              "grossProfit": -256
+              "grossProfit": -186
             },
             {
               "category": "passenger_tire",
@@ -3968,10 +3968,10 @@
               "itemCode": "TPWL176514Z108-26",
               "itemName": "WEST LAKE 175/65/14 Z-108 82H TL (2026)",
               "quantity": 4,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 466,
+              "netSales": 466,
               "cost": 368,
-              "grossProfit": 28
+              "grossProfit": 98
             },
             {
               "category": "passenger_tire",
@@ -4167,7 +4167,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:03:20.285Z"
+      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
     },
     "SR": {
       "days": {
@@ -7313,11 +7313,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2205,
-              "netSales": 2205,
-              "cost": 1106.3,
-              "grossProfit": 1098.7,
-              "quantity": 24
+              "sales": 2390,
+              "netSales": 2390,
+              "cost": 1167.3,
+              "grossProfit": 1222.7,
+              "quantity": 27
             },
             {
               "key": "other",
@@ -7570,6 +7570,36 @@
               "grossProfit": 100
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSR26110029",
+              "itemName": "DRIVE SHAFT BOOT OUT ALMERA N17 (SUSA)",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 40,
+              "grossProfit": 100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110030",
+              "itemName": "DRIVE SHAFT CLIP (SET) (SUSA)",
+              "quantity": 1,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 8,
+              "grossProfit": 12
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110031",
+              "itemName": "DRIVE SHAFT GREASE 400G (GSP-SUSA)",
+              "quantity": 1,
+              "sales": 25,
+              "netSales": 25,
+              "cost": 13,
+              "grossProfit": 12
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
@@ -7613,7 +7643,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:03:20.285Z"
+      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
     },
     "ST": {
       "days": {
@@ -11490,7 +11520,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:03:20.285Z"
+      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
     },
     "SK": {
       "days": {
@@ -13337,11 +13367,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1010,
-              "netSales": 1010,
-              "cost": 563,
-              "grossProfit": 447,
-              "quantity": 8
+              "sales": 1380,
+              "netSales": 1380,
+              "cost": 913,
+              "grossProfit": 467,
+              "quantity": 9
             },
             {
               "key": "other",
@@ -13512,13 +13542,23 @@
               "netSales": 20,
               "cost": 2.6,
               "grossProfit": 17.4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "BAMGODIN55R",
+              "itemName": "AMARON GO DIN55R",
+              "quantity": 1,
+              "sales": 370,
+              "netSales": 370,
+              "cost": 350,
+              "grossProfit": 20
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T08:03:20.285Z"
+      "lastCollectedAt": "2026-11-10T08:08:52.006Z"
     }
   },
-  "updatedAt": "2026-11-10T08:03:20.285Z"
+  "updatedAt": "2026-11-10T08:08:52.006Z"
 }
