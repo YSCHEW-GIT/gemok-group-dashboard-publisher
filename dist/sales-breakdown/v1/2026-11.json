@@ -3817,15 +3817,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2592,
-              "netSales": 2592,
-              "cost": 2598,
-              "grossProfit": -6,
-              "quantity": 17
+              "sales": 2944,
+              "netSales": 2944,
+              "cost": 2938,
+              "grossProfit": 6,
+              "quantity": 21
             },
             {
               "key": "sport_rim",
@@ -3845,11 +3845,11 @@
             },
             {
               "key": "other",
-              "sales": 360,
-              "netSales": 350.38,
+              "sales": 430,
+              "netSales": 415.2,
               "cost": 43.1,
-              "grossProfit": 307.28,
-              "quantity": 38
+              "grossProfit": 372.1,
+              "quantity": 43
             }
           ],
           "items": [
@@ -3867,21 +3867,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 55.56,
+              "quantity": 6,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 18,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -3912,6 +3912,16 @@
               "netSales": 226,
               "cost": 170,
               "grossProfit": 56
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 340,
+              "grossProfit": 12
             },
             {
               "category": "passenger_tire",
@@ -4067,7 +4077,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:03:43.072Z"
+      "lastCollectedAt": "2026-11-10T06:15:05.712Z"
     },
     "SR": {
       "days": {
@@ -7197,10 +7207,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1744,
-              "netSales": 1744,
+              "sales": 1794,
+              "netSales": 1794,
               "cost": 1498,
-              "grossProfit": 246,
+              "grossProfit": 296,
               "quantity": 14
             },
             {
@@ -7221,10 +7231,10 @@
             },
             {
               "key": "other",
-              "sales": 408,
-              "netSales": 408,
+              "sales": 358,
+              "netSales": 358,
               "cost": 19.5,
-              "grossProfit": 388.5,
+              "grossProfit": 338.5,
               "quantity": 43
             }
           ],
@@ -7234,20 +7244,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 18,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -7284,10 +7294,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 176,
-              "netSales": 176,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": 4
+              "grossProfit": 54
             },
             {
               "category": "passenger_tire",
@@ -7473,7 +7483,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:03:43.072Z"
+      "lastCollectedAt": "2026-11-10T06:15:05.712Z"
     },
     "ST": {
       "days": {
@@ -11130,11 +11140,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 100,
-              "grossProfit": -100,
-              "quantity": 1
+              "sales": 330,
+              "netSales": 330,
+              "cost": 268,
+              "grossProfit": 62,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -11208,6 +11218,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKMSTRPMTANK",
+              "itemName": "BRAKE MASTER PUM TANK",
+              "quantity": 1,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 140,
+              "grossProfit": 100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSK101224",
               "itemName": "CRK OIL SEAL (TIMING)",
               "quantity": 1,
@@ -11250,7 +11280,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:03:43.072Z"
+      "lastCollectedAt": "2026-11-10T06:15:05.712Z"
     },
     "SK": {
       "days": {
@@ -13267,8 +13297,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:03:43.072Z"
+      "lastCollectedAt": "2026-11-10T06:15:05.712Z"
     }
   },
-  "updatedAt": "2026-11-10T06:03:43.072Z"
+  "updatedAt": "2026-11-10T06:15:05.712Z"
 }
