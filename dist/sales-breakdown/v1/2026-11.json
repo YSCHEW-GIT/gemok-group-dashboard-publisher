@@ -6942,10 +6942,149 @@
               "grossProfit": 80
             }
           ]
+        },
+        "2026-11-10": {
+          "documents": 2,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 352,
+              "netSales": 352,
+              "cost": 340,
+              "grossProfit": 12,
+              "quantity": 4
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 640,
+              "netSales": 640,
+              "cost": 273.9,
+              "grossProfit": 366.1,
+              "quantity": 8
+            },
+            {
+              "key": "other",
+              "sales": 250,
+              "netSales": 250,
+              "cost": 13.6,
+              "grossProfit": 236.4,
+              "quantity": 16
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 0,
+              "grossProfit": 80
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 0,
+              "grossProfit": 150
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 340,
+              "grossProfit": 12
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PABSBMYV",
+              "itemName": "BNC ABSORBER BOOT FRT MYVI VIVA ALZA BZ020",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 22,
+              "grossProfit": 48
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFPRKN",
+              "itemName": "OIL FILTER PERODUA 00R01",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OEHX10W40Q7000",
+              "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 158,
+              "grossProfit": 22
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAOFP2D3GR",
+              "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
+              "quantity": 4,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 86.4,
+              "grossProfit": 153.6
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-09T11:43:55.752Z"
+      "lastCollectedAt": "2026-11-10T02:03:36.178Z"
     },
     "ST": {
       "days": {
@@ -12414,5 +12553,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-09T15:59:40.874Z"
+  "updatedAt": "2026-11-10T02:03:36.178Z"
 }
