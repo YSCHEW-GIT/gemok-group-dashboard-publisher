@@ -4057,7 +4057,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:41:37.416Z"
+      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
     },
     "SR": {
       "days": {
@@ -7183,7 +7183,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7211,11 +7211,11 @@
             },
             {
               "key": "other",
-              "sales": 328,
-              "netSales": 328,
+              "sales": 358,
+              "netSales": 358,
               "cost": 19.5,
-              "grossProfit": 308.5,
-              "quantity": 39
+              "grossProfit": 338.5,
+              "quantity": 40
             }
           ],
           "items": [
@@ -7223,11 +7223,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -7443,7 +7443,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:41:37.416Z"
+      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
     },
     "ST": {
       "days": {
@@ -11210,7 +11210,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:41:37.416Z"
+      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
     },
     "SK": {
       "days": {
@@ -13037,7 +13037,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -13057,11 +13057,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 750,
-              "netSales": 750,
-              "cost": 365.5,
-              "grossProfit": 384.5,
-              "quantity": 6
+              "sales": 1010,
+              "netSales": 1010,
+              "cost": 563,
+              "grossProfit": 447,
+              "quantity": 8
             },
             {
               "key": "other",
@@ -13135,6 +13135,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMHD",
+              "itemName": "HONDA OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "POFCMPRT",
               "itemName": "OIL FILTER PROTON SAGA 12V WIRA",
               "quantity": 1,
@@ -13152,6 +13162,16 @@
               "netSales": 190,
               "cost": 111,
               "grossProfit": 79
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 189,
+              "grossProfit": 71
             },
             {
               "category": "foreman_item",
@@ -13207,8 +13227,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:41:37.416Z"
+      "lastCollectedAt": "2026-11-10T05:47:08.786Z"
     }
   },
-  "updatedAt": "2026-11-10T05:41:37.416Z"
+  "updatedAt": "2026-11-10T05:47:08.786Z"
 }
