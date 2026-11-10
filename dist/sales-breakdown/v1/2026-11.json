@@ -3817,7 +3817,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -3837,11 +3837,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 230,
-              "netSales": 230,
-              "cost": 70,
-              "grossProfit": 160,
-              "quantity": 3
+              "sales": 395,
+              "netSales": 395,
+              "cost": 169,
+              "grossProfit": 226,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -3925,6 +3925,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 165,
+              "netSales": 165,
+              "cost": 99,
+              "grossProfit": 66
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
@@ -3947,7 +3957,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:30:50.073Z"
+      "lastCollectedAt": "2026-11-10T03:36:19.989Z"
     },
     "SR": {
       "days": {
@@ -7263,7 +7273,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T03:30:50.073Z"
+      "lastCollectedAt": "2026-11-10T03:36:19.989Z"
     },
     "ST": {
       "days": {
@@ -12732,5 +12742,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T03:30:50.073Z"
+  "updatedAt": "2026-11-10T03:36:19.989Z"
 }
