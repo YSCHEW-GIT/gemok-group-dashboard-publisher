@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-10T05:17:43.964Z",
+  "updatedAt": "2026-11-10T06:22:09.638Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 235,
-      "quantity": 2267,
-      "stockValue": 445826.38000000006
+      "sku": 236,
+      "quantity": 2259,
+      "stockValue": 445045.38000000006
     },
     {
       "key": "sport-rim",
@@ -67,8 +67,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 74,
-      "quantity": 254,
-      "stockValue": 12620.55
+      "quantity": 255,
+      "stockValue": 12678.55
     },
     {
       "key": "brake-pump",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2231,
-      "stockValue": 168608.96
+      "quantity": 2228,
+      "stockValue": 168209.96
     },
     {
       "key": "oil-filter",
@@ -95,8 +95,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 635,
-      "quantity": 2975.5,
-      "stockValue": 101767.14999999997
+      "quantity": 2972.5,
+      "stockValue": 101747.64999999997
     },
     {
       "key": "battery",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 257,
-      "quantity": 9923,
-      "stockValue": 58009.34999999999
+      "quantity": 9917,
+      "stockValue": 57982.74999999999
     },
     {
       "key": "non-stock-item",
@@ -2812,7 +2812,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 6,
-          "cost": 202,
+          "cost": 203,
           "price": 228
         },
         {
@@ -3046,7 +3046,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 8,
-          "cost": 186,
+          "cost": 187,
           "price": 168
         }
       ]
@@ -3084,7 +3084,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 14,
-          "cost": 200,
+          "cost": 201,
           "price": 178
         }
       ]
@@ -3293,6 +3293,25 @@
           "quantity": 4,
           "cost": 293,
           "price": 310
+        }
+      ]
+    },
+    {
+      "code": "TPTY205017CR1E-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "TOYO 205/50/17 PROXES CR1E 89V (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 293,
+          "price": 0
         }
       ]
     },
@@ -4840,7 +4859,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 51,
+          "quantity": 47,
           "cost": 85,
           "price": 0
         },
@@ -4858,7 +4877,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 26,
+          "quantity": 24,
           "cost": 86,
           "price": 88
         },
@@ -4961,7 +4980,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 33,
-          "cost": 85,
+          "cost": 86,
           "price": 88
         }
       ]
@@ -5073,7 +5092,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 116,
+          "cost": 117,
           "price": 148
         },
         {
@@ -5174,7 +5193,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 7,
           "cost": 230,
           "price": 0
         },
@@ -17025,6 +17044,15 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 58,
+          "price": 160
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -18934,7 +18962,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 27,
           "cost": 99,
           "price": 0
         },
@@ -18943,7 +18971,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 21,
           "cost": 111,
           "price": 190
         },
@@ -19064,7 +19092,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 189,
           "price": 260
         },
@@ -29758,7 +29786,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 14,
           "cost": 8.5,
           "price": 0
         }
@@ -29796,7 +29824,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 29,
+          "quantity": 28,
           "cost": 4.5,
           "price": 20
         }
@@ -29834,7 +29862,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 21,
+          "quantity": 20,
           "cost": 6.5,
           "price": 25
         }
@@ -50164,7 +50192,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 48,
+          "quantity": 46,
           "cost": 10,
           "price": 0
         },
@@ -53723,7 +53751,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 561,
+          "quantity": 557,
           "cost": 1.65,
           "price": 10
         },
