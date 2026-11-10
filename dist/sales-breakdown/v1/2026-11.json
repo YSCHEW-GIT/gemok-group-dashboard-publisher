@@ -6944,15 +6944,15 @@
           ]
         },
         "2026-11-10": {
-          "documents": 2,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 352,
-              "netSales": 352,
-              "cost": 340,
+              "sales": 608,
+              "netSales": 608,
+              "cost": 596,
               "grossProfit": 12,
-              "quantity": 4
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -6972,11 +6972,11 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 300,
+              "netSales": 300,
               "cost": 13.6,
-              "grossProfit": 236.4,
-              "quantity": 16
+              "grossProfit": 286.4,
+              "quantity": 19
             }
           ],
           "items": [
@@ -6984,21 +6984,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 100
             },
             {
               "category": "foreman_item",
@@ -7019,6 +7019,16 @@
               "netSales": 352,
               "cost": 340,
               "grossProfit": 12
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF195515LH41-26",
+              "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
+              "quantity": 2,
+              "sales": 256,
+              "netSales": 256,
+              "cost": 256,
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -7084,7 +7094,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T02:03:36.178Z"
+      "lastCollectedAt": "2026-11-10T02:10:15.279Z"
     },
     "ST": {
       "days": {
@@ -12553,5 +12563,5 @@
       "lastCollectedAt": "2026-11-09T15:59:40.874Z"
     }
   },
-  "updatedAt": "2026-11-10T02:03:36.178Z"
+  "updatedAt": "2026-11-10T02:10:15.279Z"
 }
