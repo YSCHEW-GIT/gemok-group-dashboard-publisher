@@ -4077,7 +4077,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:29:09.233Z"
+      "lastCollectedAt": "2026-11-10T06:34:40.062Z"
     },
     "SR": {
       "days": {
@@ -7483,7 +7483,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:29:09.233Z"
+      "lastCollectedAt": "2026-11-10T06:34:40.062Z"
     },
     "ST": {
       "days": {
@@ -11140,11 +11140,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 320,
-              "netSales": 320,
-              "cost": 268,
-              "grossProfit": 52,
-              "quantity": 3
+              "sales": 600,
+              "netSales": 600,
+              "cost": 378,
+              "grossProfit": 222,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -11218,6 +11218,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKAIRCOND",
+              "itemName": "Aircond ND 10SA13C",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 110,
+              "grossProfit": 170
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSKMSTRPMTANK",
               "itemName": "BRAKE MASTER PUM TANK",
               "quantity": 1,
@@ -11280,7 +11290,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:29:09.233Z"
+      "lastCollectedAt": "2026-11-10T06:34:40.062Z"
     },
     "SK": {
       "days": {
@@ -13297,8 +13307,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T06:29:09.233Z"
+      "lastCollectedAt": "2026-11-10T06:34:40.062Z"
     }
   },
-  "updatedAt": "2026-11-10T06:29:09.233Z"
+  "updatedAt": "2026-11-10T06:34:40.062Z"
 }
