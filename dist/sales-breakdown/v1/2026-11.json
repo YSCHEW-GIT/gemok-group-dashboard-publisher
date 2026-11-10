@@ -3821,10 +3821,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1780,
-              "netSales": 1780,
+              "sales": 1800,
+              "netSales": 1800,
               "cost": 1678,
-              "grossProfit": 102,
+              "grossProfit": 122,
               "quantity": 13
             },
             {
@@ -3845,10 +3845,10 @@
             },
             {
               "key": "other",
-              "sales": 150,
-              "netSales": 146.3,
+              "sales": 130,
+              "netSales": 127.78,
               "cost": 16.5,
-              "grossProfit": 129.8,
+              "grossProfit": 111.28,
               "quantity": 26
             }
           ],
@@ -3878,10 +3878,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 20,
-              "netSales": 18.52,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -3908,10 +3908,10 @@
               "itemCode": "TPTY195515TR1-26",
               "itemName": "TOYO 195/55/15 PXTR1 (2026)",
               "quantity": 2,
-              "sales": 356,
-              "netSales": 356,
+              "sales": 376,
+              "netSales": 376,
               "cost": 400,
-              "grossProfit": -44
+              "grossProfit": -24
             },
             {
               "category": "passenger_tire",
@@ -4037,7 +4037,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
+      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
     },
     "SR": {
       "days": {
@@ -7167,10 +7167,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1568,
-              "netSales": 1568,
+              "sales": 1550.75,
+              "netSales": 1550.75,
               "cost": 1326,
-              "grossProfit": 242,
+              "grossProfit": 224.75,
               "quantity": 12
             },
             {
@@ -7183,18 +7183,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1700,
-              "netSales": 1700,
-              "cost": 805.8,
-              "grossProfit": 894.2,
-              "quantity": 19
+              "sales": 1720.86,
+              "netSales": 1720.86,
+              "cost": 822.8,
+              "grossProfit": 898.06,
+              "quantity": 20
             },
             {
               "key": "other",
-              "sales": 328,
-              "netSales": 328,
+              "sales": 324.39,
+              "netSales": 324.39,
               "cost": 19.5,
-              "grossProfit": 308.5,
+              "grossProfit": 304.89,
               "quantity": 39
             }
           ],
@@ -7204,90 +7204,90 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.34,
+              "netSales": 59.34,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 59.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.56,
+              "netSales": 39.56,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 39.56
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 2,
-              "sales": 165,
-              "netSales": 165,
+              "quantity": 3,
+              "sales": 202.74,
+              "netSales": 202.74,
               "cost": 0,
-              "grossProfit": 165
+              "grossProfit": 202.74
             },
             {
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 7,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 69.23,
+              "netSales": 69.23,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 69.23
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 4,
-              "sales": 422,
-              "netSales": 422,
+              "sales": 417.36,
+              "netSales": 417.36,
               "cost": 340,
-              "grossProfit": 82
+              "grossProfit": 77.36
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 2,
-              "sales": 306,
-              "netSales": 306,
+              "sales": 302.63,
+              "netSales": 302.63,
               "cost": 256,
-              "grossProfit": 50
+              "grossProfit": 46.63
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF756514LH41",
               "itemName": "LAUFENN 175/65/14 LH41 82H (2026)",
               "quantity": 4,
-              "sales": 480,
-              "netSales": 480,
+              "sales": 474.72,
+              "netSales": 474.72,
               "cost": 440,
-              "grossProfit": 40
+              "grossProfit": 34.72
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT196015AX77",
               "itemName": "ATLANDER 195/60/15 AX77 BSW 88V (2026)",
               "quantity": 2,
-              "sales": 360,
-              "netSales": 360,
+              "sales": 356.04,
+              "netSales": 356.04,
               "cost": 290,
-              "grossProfit": 70
+              "grossProfit": 66.04
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSBMYV",
               "itemName": "BNC ABSORBER BOOT FRT MYVI VIVA ALZA BZ020",
               "quantity": 1,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 69.23,
+              "netSales": 69.23,
               "cost": 22,
-              "grossProfit": 48
+              "grossProfit": 47.23
             },
             {
               "category": "foreman_item",
@@ -7304,126 +7304,126 @@
               "itemCode": "POFFLPRO",
               "itemName": "OIL FILTER PROTON PC121102",
               "quantity": 1,
-              "sales": 15,
-              "netSales": 15,
+              "sales": 14.83,
+              "netSales": 14.83,
               "cost": 7.5,
-              "grossProfit": 7.5
+              "grossProfit": 7.33
             },
             {
               "category": "foreman_item",
               "itemCode": "OEHX10W40Q7000",
               "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
               "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 178.02,
+              "netSales": 178.02,
               "cost": 158,
-              "grossProfit": 22
+              "grossProfit": 20.02
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 89.01,
+              "netSales": 89.01,
               "cost": 28,
-              "grossProfit": 62
+              "grossProfit": 61.01
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOPRSP3",
               "itemName": "PROTON SPIII AUTO OIL 1LT MS991159-25K",
               "quantity": 4,
-              "sales": 240,
-              "netSales": 240,
+              "sales": 237.36,
+              "netSales": 237.36,
               "cost": 86.4,
-              "grossProfit": 153.6
+              "grossProfit": 150.96
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFP2D3GR",
               "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
               "quantity": 4,
-              "sales": 240,
-              "netSales": 240,
+              "sales": 237.36,
+              "netSales": 237.36,
               "cost": 86.4,
-              "grossProfit": 153.6
+              "grossProfit": 150.96
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110026",
               "itemName": "MK AUTO FILTER KIT BEZZA, MYVI LG BEST, MYVI 18y, AXIA, ALZA 1.5 (SUSA)",
               "quantity": 1,
-              "sales": 112,
-              "netSales": 112,
+              "sales": 110.77,
+              "netSales": 110.77,
               "cost": 25,
-              "grossProfit": 87
+              "grossProfit": 85.77
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110025",
               "itemName": "DENKI ALTERNATOR ASSY 12V80A 6PK 3 PIN (PREMIUM) ALZA D46T (SAHA)",
               "quantity": 1,
-              "sales": 400,
-              "netSales": 400,
+              "sales": 395.6,
+              "netSales": 395.6,
               "cost": 295,
-              "grossProfit": 105
+              "grossProfit": 100.6
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110027",
+              "itemName": "FBK BRAKE PAD FRT NISSAN LATIO, LIVINA 1.6/1.8, ALMERA, VIOS NGC100/102 (SUSA)",
+              "quantity": 1,
+              "sales": 118.68,
+              "netSales": 118.68,
+              "cost": 75,
+              "grossProfit": 43.68
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.34,
+              "netSales": 59.34,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 49.44
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 69.23,
+              "netSales": 69.23,
               "cost": 7,
-              "grossProfit": 63
+              "grossProfit": 62.23
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
+              "sales": 27.69,
+              "netSales": 27.69,
               "cost": 2.6,
-              "grossProfit": 25.4
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "PBPJW1250MF",
-              "itemName": "JAWASUKI BRAKE PAD LATIO SYLPHY LIVINA -PS1250M-01 FRT",
-              "quantity": 1,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 58,
-              "grossProfit": 62
+              "grossProfit": 25.09
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPBNC0046FPLT",
               "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
               "quantity": 1,
-              "sales": 68,
-              "netSales": 68,
+              "sales": 67.26,
+              "netSales": 67.26,
               "cost": 32,
-              "grossProfit": 36
+              "grossProfit": 35.26
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
+      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
     },
     "ST": {
       "days": {
@@ -11190,7 +11190,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
+      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
     },
     "SK": {
       "days": {
@@ -13017,7 +13017,7 @@
           ]
         },
         "2026-11-10": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -13037,11 +13037,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 560,
-              "netSales": 560,
-              "cost": 250,
-              "grossProfit": 310,
-              "quantity": 4
+              "sales": 750,
+              "netSales": 750,
+              "cost": 365.5,
+              "grossProfit": 384.5,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -13115,6 +13115,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMPRT",
+              "itemName": "OIL FILTER PROTON SAGA 12V WIRA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 4.5,
+              "grossProfit": -4.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 111,
+              "grossProfit": 79
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSK26110012",
               "itemName": "LOWER ARM F/LH WIRA 1.6",
               "quantity": 1,
@@ -13167,8 +13187,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T05:25:03.831Z"
+      "lastCollectedAt": "2026-11-10T05:30:35.598Z"
     }
   },
-  "updatedAt": "2026-11-10T05:25:03.831Z"
+  "updatedAt": "2026-11-10T05:30:35.598Z"
 }
