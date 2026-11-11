@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-11T09:40:57.044Z",
+  "updatedAt": "2026-11-11T10:46:36.364Z",
   "stores": [
     {
       "code": "SI",
@@ -25,8 +25,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 232,
-      "quantity": 2259,
-      "stockValue": 443192.38
+      "quantity": 2253,
+      "stockValue": 440800.38
     },
     {
       "key": "sport-rim",
@@ -131,7 +131,7 @@
       "name": "Used Sport Rim",
       "sku": 759,
       "quantity": 2030,
-      "stockValue": 174156.5
+      "stockValue": 174105.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 10120,
-      "stockValue": 58574.41999999999
+      "quantity": 10116,
+      "stockValue": 58567.81999999999
     },
     {
       "key": "non-stock-item",
@@ -1784,7 +1784,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 5,
           "cost": 482,
           "price": 428
         }
@@ -4603,7 +4603,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 1,
           "cost": 232,
           "price": 260
         }
@@ -42616,25 +42616,6 @@
       ]
     },
     {
-      "code": "US2617065",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6.5 8H",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 251,
-          "price": 251
-        }
-      ]
-    },
-    {
       "code": "US2617069",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -42782,6 +42763,25 @@
           "location": "",
           "quantity": 4,
           "cost": 62.5,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2617156",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
           "price": 0
         }
       ]
@@ -53768,7 +53768,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 362,
+          "quantity": 358,
           "cost": 1.65,
           "price": 10
         },
