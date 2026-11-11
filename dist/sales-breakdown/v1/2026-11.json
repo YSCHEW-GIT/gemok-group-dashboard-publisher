@@ -7812,7 +7812,7 @@
           ]
         },
         "2026-11-11": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 260,
-              "netSales": 260,
+              "sales": 300,
+              "netSales": 300,
               "cost": 62,
-              "grossProfit": 198,
-              "quantity": 12
+              "grossProfit": 238,
+              "quantity": 16
             }
           ],
           "items": [
@@ -7882,11 +7882,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 7,
-              "sales": 70,
-              "netSales": 70,
+              "quantity": 11,
+              "sales": 110,
+              "netSales": 110,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 110
             },
             {
               "category": "other",
@@ -7972,7 +7972,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T04:00:24.209Z"
+      "lastCollectedAt": "2026-11-11T04:07:25.563Z"
     },
     "ST": {
       "days": {
@@ -13989,5 +13989,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T04:00:24.209Z"
+  "updatedAt": "2026-11-11T04:07:25.563Z"
 }
