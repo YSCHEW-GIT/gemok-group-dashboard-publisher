@@ -7812,7 +7812,7 @@
           ]
         },
         "2026-11-11": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 545,
-              "netSales": 545,
-              "cost": 153.7,
-              "grossProfit": 391.3,
-              "quantity": 53
+              "sales": 580,
+              "netSales": 580,
+              "cost": 154.05,
+              "grossProfit": 425.95,
+              "quantity": 54
             }
           ],
           "items": [
@@ -8099,6 +8099,16 @@
               "grossProfit": 66.8
             },
             {
+              "category": "other",
+              "itemCode": "MDT042",
+              "itemName": "DURA TUBE PATCHES 42MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 35,
+              "netSales": 35,
+              "cost": 0.35,
+              "grossProfit": 34.65
+            },
+            {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
@@ -8122,7 +8132,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T08:03:44.312Z"
+      "lastCollectedAt": "2026-11-11T08:10:51.145Z"
     },
     "ST": {
       "days": {
@@ -14139,5 +14149,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T08:03:44.312Z"
+  "updatedAt": "2026-11-11T08:10:51.145Z"
 }
