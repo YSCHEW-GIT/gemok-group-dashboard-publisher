@@ -7812,15 +7812,15 @@
           ]
         },
         "2026-11-11": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 50,
-              "netSales": 50,
-              "cost": 0,
+              "sales": 434,
+              "netSales": 434,
+              "cost": 384,
               "grossProfit": 50,
-              "quantity": 1
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
+              "sales": 260,
+              "netSales": 260,
               "cost": 62,
-              "grossProfit": 138,
-              "quantity": 8
+              "grossProfit": 198,
+              "quantity": 12
             }
           ],
           "items": [
@@ -7872,21 +7872,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 7,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -7897,6 +7897,16 @@
               "netSales": 60,
               "cost": 50,
               "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
+              "quantity": 3,
+              "sales": 384,
+              "netSales": 384,
+              "cost": 384,
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -7962,7 +7972,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T03:53:23.293Z"
+      "lastCollectedAt": "2026-11-11T04:00:24.209Z"
     },
     "ST": {
       "days": {
@@ -13979,5 +13989,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T03:53:23.293Z"
+  "updatedAt": "2026-11-11T04:00:24.209Z"
 }
