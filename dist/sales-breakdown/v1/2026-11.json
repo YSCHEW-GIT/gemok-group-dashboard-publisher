@@ -7812,7 +7812,7 @@
           ]
         },
         "2026-11-11": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 140,
-              "netSales": 140,
-              "cost": 12,
-              "grossProfit": 128,
-              "quantity": 6
+              "sales": 200,
+              "netSales": 200,
+              "cost": 62,
+              "grossProfit": 138,
+              "quantity": 8
             }
           ],
           "items": [
@@ -7887,6 +7887,16 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 50,
+              "grossProfit": 10
             },
             {
               "category": "foreman_item",
@@ -7942,7 +7952,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T03:11:32.892Z"
+      "lastCollectedAt": "2026-11-11T03:18:33.303Z"
     },
     "ST": {
       "days": {
@@ -13959,5 +13969,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T03:11:32.892Z"
+  "updatedAt": "2026-11-11T03:18:33.303Z"
 }
