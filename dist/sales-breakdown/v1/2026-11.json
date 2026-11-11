@@ -7816,35 +7816,35 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1016,
-              "netSales": 1016,
+              "sales": 710.4,
+              "netSales": 710.4,
               "cost": 898,
-              "grossProfit": 118,
+              "grossProfit": -187.6,
               "quantity": 8
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 559.13,
+              "netSales": 559.13,
+              "cost": 855,
+              "grossProfit": -295.87,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 335,
-              "netSales": 335,
+              "sales": 223.26,
+              "netSales": 223.26,
               "cost": 174,
-              "grossProfit": 161,
+              "grossProfit": 49.26,
               "quantity": 6
             },
             {
               "key": "other",
-              "sales": 465,
-              "netSales": 465,
+              "sales": 323.21,
+              "netSales": 323.21,
               "cost": 122.5,
-              "grossProfit": 342.5,
-              "quantity": 28
+              "grossProfit": 200.71,
+              "quantity": 33
             }
           ],
           "items": [
@@ -7853,100 +7853,110 @@
               "itemCode": "NSK1041024",
               "itemName": "USED TAYAR 195/60/15 -911",
               "quantity": 1,
-              "sales": 50,
-              "netSales": 50,
+              "sales": 33.32,
+              "netSales": 33.32,
               "cost": 0,
-              "grossProfit": 50
+              "grossProfit": 33.32
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SIMPB2T1541TE37",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 BRONZE 2 TON TE37(VLF66-LSZ56TSZ57)",
+              "quantity": 1,
+              "sales": 559.13,
+              "netSales": 559.13,
+              "cost": 855,
+              "grossProfit": -295.87
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 19.99,
+              "netSales": 19.99,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 19.99
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 5,
+              "sales": 39.98,
+              "netSales": 39.98,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 39.98
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 15,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 19,
+              "sales": 79.98,
+              "netSales": 79.98,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 79.98
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 6.66,
+              "netSales": 6.66,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 6.66
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 79.97,
+              "netSales": 79.97,
               "cost": 100,
-              "grossProfit": 20
+              "grossProfit": -20.03
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
               "quantity": 3,
-              "sales": 444,
-              "netSales": 444,
+              "sales": 295.89,
+              "netSales": 295.89,
               "cost": 384,
-              "grossProfit": 60
+              "grossProfit": -88.11
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
+              "sales": 150.61,
+              "netSales": 150.61,
               "cost": 172,
-              "grossProfit": 54
+              "grossProfit": -21.39
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 2,
-              "sales": 296,
-              "netSales": 296,
+              "sales": 230.58,
+              "netSales": 230.58,
               "cost": 342,
-              "grossProfit": -46
+              "grossProfit": -111.42
             },
             {
               "category": "foreman_item",
               "itemCode": "POFCMAXIA",
               "itemName": "OIL FILTER AXIA BEZZA P2A12",
               "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 13.33,
+              "netSales": 13.33,
               "cost": 9.5,
-              "grossProfit": 10.5
+              "grossProfit": 3.83
             },
             {
               "category": "foreman_item",
@@ -7963,66 +7973,66 @@
               "itemCode": "OEAQ10W304LT",
               "itemName": "AUSQUE 5000 SEMI SYNTHETIC OIL 10W30 4LT SM/CF",
               "quantity": 1,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 66.64,
+              "netSales": 66.64,
               "cost": 56,
-              "grossProfit": 44
+              "grossProfit": 10.64
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110032",
               "itemName": "FAN BELT VV S70",
               "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 119.96,
+              "netSales": 119.96,
               "cost": 100,
-              "grossProfit": 80
+              "grossProfit": 19.96
             },
             {
               "category": "other",
               "itemCode": "MRC7354",
               "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
               "quantity": 1,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 46.65,
+              "netSales": 46.65,
               "cost": 12,
-              "grossProfit": 58
+              "grossProfit": 34.65
             },
             {
               "category": "other",
               "itemCode": "MNCPR12V",
               "itemName": "CAMBER NUT PROTON",
               "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 46.65,
+              "netSales": 46.65,
               "cost": 7,
-              "grossProfit": 63
+              "grossProfit": 39.65
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 1,
-              "sales": 35,
-              "netSales": 35,
+              "sales": 23.32,
+              "netSales": 23.32,
               "cost": 3.5,
-              "grossProfit": 31.5
+              "grossProfit": 19.82
             },
             {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
               "quantity": 1,
-              "sales": 5,
-              "netSales": 5,
+              "sales": 3.34,
+              "netSales": 3.34,
               "cost": 1,
-              "grossProfit": 4
+              "grossProfit": 2.34
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T05:43:28.766Z"
+      "lastCollectedAt": "2026-11-11T05:50:28.464Z"
     },
     "ST": {
       "days": {
@@ -14039,5 +14049,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T05:43:28.766Z"
+  "updatedAt": "2026-11-11T05:50:28.464Z"
 }
