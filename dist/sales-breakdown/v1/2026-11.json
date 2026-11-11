@@ -7816,10 +7816,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 670,
-              "netSales": 670,
+              "sales": 720,
+              "netSales": 720,
               "cost": 556,
-              "grossProfit": 114,
+              "grossProfit": 164,
               "quantity": 6
             },
             {
@@ -7840,10 +7840,10 @@
             },
             {
               "key": "other",
-              "sales": 390,
-              "netSales": 390,
+              "sales": 340,
+              "netSales": 340,
               "cost": 94,
-              "grossProfit": 296,
+              "grossProfit": 246,
               "quantity": 22
             }
           ],
@@ -7873,20 +7873,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 13,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -7913,10 +7913,10 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 176,
-              "netSales": 176,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": 4
+              "grossProfit": 54
             },
             {
               "category": "foreman_item",
@@ -7992,7 +7992,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T04:52:21.423Z"
+      "lastCollectedAt": "2026-11-11T04:59:21.771Z"
     },
     "ST": {
       "days": {
@@ -14009,5 +14009,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T04:52:21.423Z"
+  "updatedAt": "2026-11-11T04:59:21.771Z"
 }
