@@ -7812,15 +7812,15 @@
           ]
         },
         "2026-11-11": {
-          "documents": 19,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2796,
-              "netSales": 2796,
+              "sales": 2846,
+              "netSales": 2846,
               "cost": 2301.6,
-              "grossProfit": 494.4,
-              "quantity": 16
+              "grossProfit": 544.4,
+              "quantity": 17
             },
             {
               "key": "sport_rim",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 600,
-              "netSales": 600,
+              "sales": 630,
+              "netSales": 630,
               "cost": 154.05,
-              "grossProfit": 445.95,
-              "quantity": 56
+              "grossProfit": 475.95,
+              "quantity": 58
             }
           ],
           "items": [
@@ -7852,6 +7852,16 @@
               "category": "passenger_tire",
               "itemCode": "NSK1041024",
               "itemName": "USED TAYAR 195/60/15 -911",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 0,
+              "grossProfit": 50
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR176015",
+              "itemName": "USED TAYAR 175/60/15 911",
               "quantity": 1,
               "sales": 50,
               "netSales": 50,
@@ -7912,17 +7922,17 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 8,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 28,
+              "quantity": 29,
               "sales": 90,
               "netSales": 90,
               "cost": 0,
@@ -8132,7 +8142,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T08:47:02.042Z"
+      "lastCollectedAt": "2026-11-11T09:00:57.715Z"
     },
     "ST": {
       "days": {
@@ -14149,5 +14159,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T08:47:02.042Z"
+  "updatedAt": "2026-11-11T09:00:57.715Z"
 }
