@@ -7812,14 +7812,14 @@
           ]
         },
         "2026-11-11": {
-          "documents": 1,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 14.71,
-              "netSales": 14.71,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 14.71,
+              "grossProfit": 50,
               "quantity": 1
             },
             {
@@ -7832,18 +7832,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 14.71,
-              "netSales": 14.71,
+              "sales": 50,
+              "netSales": 50,
               "cost": 9.5,
-              "grossProfit": 5.21,
+              "grossProfit": 40.5,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 20.58,
-              "netSales": 20.58,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 20.58,
+              "grossProfit": 70,
               "quantity": 5
             }
           ],
@@ -7853,56 +7853,56 @@
               "itemCode": "NSK1041024",
               "itemName": "USED TAYAR 195/60/15 -911",
               "quantity": 1,
-              "sales": 14.71,
-              "netSales": 14.71,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 14.71
+              "grossProfit": 50
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 8.82,
-              "netSales": 8.82,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 8.82
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 8.82,
-              "netSales": 8.82,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 8.82
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 11.76,
-              "netSales": 11.76,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 11.76
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
               "itemCode": "POFCMAXIA",
               "itemName": "OIL FILTER AXIA BEZZA P2A12",
               "quantity": 1,
-              "sales": 5.89,
-              "netSales": 5.89,
+              "sales": 20,
+              "netSales": 20,
               "cost": 9.5,
-              "grossProfit": -3.61
+              "grossProfit": 10.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T02:42:27.710Z"
+      "lastCollectedAt": "2026-11-11T02:49:28.102Z"
     },
     "ST": {
       "days": {
@@ -13919,5 +13919,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T02:42:27.710Z"
+  "updatedAt": "2026-11-11T02:49:28.102Z"
 }
