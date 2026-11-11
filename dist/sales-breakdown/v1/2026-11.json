@@ -7816,10 +7816,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 34.62,
-              "netSales": 34.62,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 34.62,
+              "grossProfit": 50,
               "quantity": 1
             },
             {
@@ -7832,18 +7832,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 231.92,
-              "netSales": 231.92,
+              "sales": 335,
+              "netSales": 335,
               "cost": 174,
-              "grossProfit": 57.92,
+              "grossProfit": 161,
               "quantity": 6
             },
             {
               "key": "other",
-              "sales": 138.46,
-              "netSales": 138.46,
+              "sales": 200,
+              "netSales": 200,
               "cost": 62,
-              "grossProfit": 76.46,
+              "grossProfit": 138,
               "quantity": 8
             }
           ],
@@ -7853,60 +7853,60 @@
               "itemCode": "NSK1041024",
               "itemName": "USED TAYAR 195/60/15 -911",
               "quantity": 1,
-              "sales": 34.62,
-              "netSales": 34.62,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 34.62
+              "grossProfit": 50
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 20.77,
-              "netSales": 20.77,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20.77
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 20.77,
-              "netSales": 20.77,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20.77
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 27.69,
-              "netSales": 27.69,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 27.69
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 41.54,
-              "netSales": 41.54,
+              "sales": 60,
+              "netSales": 60,
               "cost": 50,
-              "grossProfit": -8.46
+              "grossProfit": 10
             },
             {
               "category": "foreman_item",
               "itemCode": "POFCMAXIA",
               "itemName": "OIL FILTER AXIA BEZZA P2A12",
               "quantity": 1,
-              "sales": 13.85,
-              "netSales": 13.85,
+              "sales": 20,
+              "netSales": 20,
               "cost": 9.5,
-              "grossProfit": 4.35
+              "grossProfit": 10.5
             },
             {
               "category": "foreman_item",
@@ -7923,46 +7923,46 @@
               "itemCode": "OEAQ10W304LT",
               "itemName": "AUSQUE 5000 SEMI SYNTHETIC OIL 10W30 4LT SM/CF",
               "quantity": 1,
-              "sales": 69.23,
-              "netSales": 69.23,
+              "sales": 100,
+              "netSales": 100,
               "cost": 56,
-              "grossProfit": 13.23
+              "grossProfit": 44
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110032",
               "itemName": "FAN BELT VV S70",
               "quantity": 1,
-              "sales": 124.62,
-              "netSales": 124.62,
+              "sales": 180,
+              "netSales": 180,
               "cost": 100,
-              "grossProfit": 24.62
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "MRC7354",
               "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
               "quantity": 1,
-              "sales": 48.46,
-              "netSales": 48.46,
+              "sales": 70,
+              "netSales": 70,
               "cost": 12,
-              "grossProfit": 36.46
+              "grossProfit": 58
             },
             {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
               "quantity": 1,
-              "sales": 3.45,
-              "netSales": 3.45,
+              "sales": 5,
+              "netSales": 5,
               "cost": 1,
-              "grossProfit": 2.45
+              "grossProfit": 4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T03:39:32.692Z"
+      "lastCollectedAt": "2026-11-11T03:53:23.293Z"
     },
     "ST": {
       "days": {
@@ -13979,5 +13979,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T03:39:32.692Z"
+  "updatedAt": "2026-11-11T03:53:23.293Z"
 }
