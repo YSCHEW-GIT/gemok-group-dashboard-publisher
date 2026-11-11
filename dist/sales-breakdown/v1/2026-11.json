@@ -7812,15 +7812,15 @@
           ]
         },
         "2026-11-11": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 434,
-              "netSales": 434,
-              "cost": 384,
-              "grossProfit": 50,
-              "quantity": 4
+              "sales": 670,
+              "netSales": 670,
+              "cost": 556,
+              "grossProfit": 114,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -7840,11 +7840,11 @@
             },
             {
               "key": "other",
-              "sales": 330,
-              "netSales": 330,
-              "cost": 87,
-              "grossProfit": 243,
-              "quantity": 17
+              "sales": 390,
+              "netSales": 390,
+              "cost": 94,
+              "grossProfit": 296,
+              "quantity": 22
             }
           ],
           "items": [
@@ -7872,7 +7872,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
+              "quantity": 3,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -7882,11 +7882,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 11,
-              "sales": 110,
-              "netSales": 110,
+              "quantity": 13,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 110
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -7903,10 +7903,20 @@
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
               "quantity": 3,
-              "sales": 384,
-              "netSales": 384,
+              "sales": 444,
+              "netSales": 444,
               "cost": 384,
-              "grossProfit": 0
+              "grossProfit": 60
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 176,
+              "netSales": 176,
+              "cost": 172,
+              "grossProfit": 4
             },
             {
               "category": "foreman_item",
@@ -7959,6 +7969,16 @@
               "grossProfit": 58
             },
             {
+              "category": "other",
+              "itemCode": "MNCPR12V",
+              "itemName": "CAMBER NUT PROTON",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
+            },
+            {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
@@ -7972,7 +7992,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-11T04:24:25.353Z"
+      "lastCollectedAt": "2026-11-11T04:38:19.544Z"
     },
     "ST": {
       "days": {
@@ -13989,5 +14009,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T04:24:25.353Z"
+  "updatedAt": "2026-11-11T04:38:19.544Z"
 }
