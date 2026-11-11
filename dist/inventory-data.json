@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-11T06:25:30.885Z",
+  "updatedAt": "2026-11-11T07:31:58.335Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 233,
-      "quantity": 2265,
-      "stockValue": 444296.78
+      "sku": 232,
+      "quantity": 2259,
+      "stockValue": 443192.38
     },
     {
       "key": "sport-rim",
@@ -131,7 +131,7 @@
       "name": "Used Sport Rim",
       "sku": 759,
       "quantity": 2030,
-      "stockValue": 174256.5
+      "stockValue": 174156.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 10127,
-      "stockValue": 58584.67
+      "quantity": 10121,
+      "stockValue": 58574.77
     },
     {
       "key": "non-stock-item",
@@ -549,7 +549,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 165,
           "price": 190
         },
@@ -4454,25 +4454,6 @@
           "quantity": 4,
           "cost": 228,
           "price": 240
-        }
-      ]
-    },
-    {
-      "code": "TPWL215517Z117",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "WEST LAKE 215/55/17 98W XUPER FLEX Z-117 TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 193.6,
-          "price": 220
         }
       ]
     },
@@ -35372,25 +35353,6 @@
       ]
     },
     {
-      "code": "US2611422",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 17X7 5X114.3",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 350,
-          "price": 350
-        }
-      ]
-    },
-    {
       "code": "US2611437",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -42763,6 +42725,25 @@
           "location": "",
           "quantity": 1,
           "cost": 251,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2617146",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 5X114.3",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 250,
           "price": 0
         }
       ]
@@ -53787,7 +53768,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 368,
+          "quantity": 362,
           "cost": 1.65,
           "price": 10
         },
