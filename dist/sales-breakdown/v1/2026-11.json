@@ -4276,15 +4276,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1200,
-              "netSales": 1200,
-              "cost": 1084,
-              "grossProfit": 116,
-              "quantity": 4
+              "sales": 2672,
+              "netSales": 2672,
+              "cost": 2424,
+              "grossProfit": 248,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 450,
-              "netSales": 419.66,
-              "cost": 6.6,
-              "grossProfit": 413.06,
-              "quantity": 28
+              "sales": 550,
+              "netSales": 515.22,
+              "cost": 13.2,
+              "grossProfit": 502.02,
+              "quantity": 42
             }
           ],
           "items": [
@@ -4317,20 +4317,20 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 3,
-              "sales": 140,
-              "netSales": 129.64,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 129.64
+              "grossProfit": 92.6
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 160,
-              "netSales": 148.16,
+              "quantity": 24,
+              "sales": 200,
+              "netSales": 185.2,
               "cost": 0,
-              "grossProfit": 148.16
+              "grossProfit": 185.2
             },
             {
               "category": "other",
@@ -4356,11 +4356,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 83.34
             },
             {
               "category": "other",
@@ -4374,13 +4374,33 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 312,
+              "netSales": 312,
+              "cost": 304,
+              "grossProfit": 8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY196016CR1-26",
+              "itemName": "TOYO 195/60/16 PROXES CR1 89H MY (2026)",
+              "quantity": 4,
+              "sales": 1080,
+              "netSales": 1080,
+              "cost": 1036,
+              "grossProfit": 44
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGM22401892Y",
               "itemName": "GRIPMAX 225/40/18 SUPERGRIP PRO SPORT 92Y XL TH (2026)",
               "quantity": 4,
-              "sales": 1200,
-              "netSales": 1200,
+              "sales": 1280,
+              "netSales": 1280,
               "cost": 1084,
-              "grossProfit": 116
+              "grossProfit": 196
             },
             {
               "category": "foreman_item",
@@ -4396,17 +4416,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T04:55:10.429Z"
+      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
     },
     "SR": {
       "days": {
@@ -8650,7 +8670,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T04:55:10.429Z"
+      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
     },
     "ST": {
       "days": {
@@ -12596,14 +12616,14 @@
           ]
         },
         "2026-11-12": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 707.43,
-              "netSales": 707.43,
+              "sales": 1194,
+              "netSales": 1194,
               "cost": 1196,
-              "grossProfit": -488.57,
+              "grossProfit": -2,
               "quantity": 8
             },
             {
@@ -12616,18 +12636,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 142.2,
-              "netSales": 142.2,
+              "sales": 240,
+              "netSales": 240,
               "cost": 132.5,
-              "grossProfit": 9.7,
+              "grossProfit": 107.5,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 223.37,
-              "netSales": 223.37,
+              "sales": 377,
+              "netSales": 377,
               "cost": 10.7,
-              "grossProfit": 212.67,
+              "grossProfit": 366.3,
               "quantity": 26
             }
           ],
@@ -12637,50 +12657,50 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 88.85,
-              "netSales": 88.85,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 88.85
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 71.1,
-              "netSales": 71.1,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 71.1
+              "grossProfit": 120
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 104.28,
-              "netSales": 104.28,
+              "sales": 176,
+              "netSales": 176,
               "cost": 172,
-              "grossProfit": -67.72
+              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 2,
-              "sales": 223.96,
-              "netSales": 223.96,
+              "sales": 378,
+              "netSales": 378,
               "cost": 392,
-              "grossProfit": -168.04
+              "grossProfit": -14
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
               "quantity": 4,
-              "sales": 379.19,
-              "netSales": 379.19,
+              "sales": 640,
+              "netSales": 640,
               "cost": 632,
-              "grossProfit": -252.81
+              "grossProfit": 8
             },
             {
               "category": "foreman_item",
@@ -12697,46 +12717,46 @@
               "itemCode": "OEHX0W20HX8",
               "itemName": "HELIX HX8 SN 0W20 4X4L 10000 FULLY SYTHENTIC ENG OIL",
               "quantity": 1,
-              "sales": 142.2,
-              "netSales": 142.2,
+              "sales": 240,
+              "netSales": 240,
               "cost": 125,
-              "grossProfit": 17.2
+              "grossProfit": 115
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 1,
-              "sales": 26.66,
-              "netSales": 26.66,
+              "sales": 45,
+              "netSales": 45,
               "cost": 3.5,
-              "grossProfit": 23.16
+              "grossProfit": 41.5
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 6,
-              "sales": 24.91,
-              "netSales": 24.91,
+              "sales": 42,
+              "netSales": 42,
               "cost": 3.9,
-              "grossProfit": 21.01
+              "grossProfit": 38.1
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
-              "sales": 11.85,
-              "netSales": 11.85,
+              "sales": 20,
+              "netSales": 20,
               "cost": 3.3,
-              "grossProfit": 8.55
+              "grossProfit": 16.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T04:55:10.429Z"
+      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
     },
     "SK": {
       "days": {
@@ -14982,8 +15002,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T04:55:10.429Z"
+      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
     }
   },
-  "updatedAt": "2026-11-12T04:55:10.429Z"
+  "updatedAt": "2026-11-12T05:00:41.301Z"
 }
