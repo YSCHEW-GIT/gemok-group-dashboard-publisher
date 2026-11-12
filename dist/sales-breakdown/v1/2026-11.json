@@ -4280,10 +4280,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3802,
-              "netSales": 3802,
+              "sales": 3872,
+              "netSales": 3872,
               "cost": 3624,
-              "grossProfit": 178,
+              "grossProfit": 248,
               "quantity": 14
             },
             {
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 640,
-              "netSales": 601.52,
-              "cost": 19.8,
-              "grossProfit": 581.72,
-              "quantity": 47
+              "sales": 660,
+              "netSales": 626.7,
+              "cost": 26.8,
+              "grossProfit": 599.9,
+              "quantity": 49
             }
           ],
           "items": [
@@ -4317,20 +4317,20 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 4,
-              "sales": 150,
-              "netSales": 138.9,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 92.6
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 24,
-              "sales": 200,
-              "netSales": 185.2,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 185.2
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -4397,10 +4397,10 @@
               "itemCode": "TPMC224018PS5-26",
               "itemName": "MICHELIN 225/40/18 PILOT SPORT 5 92Y TH (2026)",
               "quantity": 2,
-              "sales": 1130,
-              "netSales": 1130,
+              "sales": 1200,
+              "netSales": 1200,
               "cost": 1200,
-              "grossProfit": -70
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -4431,12 +4431,22 @@
               "netSales": 120,
               "cost": 19.8,
               "grossProfit": 100.2
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:27:46.739Z"
+      "lastCollectedAt": "2026-11-12T05:33:17.304Z"
     },
     "SR": {
       "days": {
@@ -8690,7 +8700,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:27:46.739Z"
+      "lastCollectedAt": "2026-11-12T05:33:17.304Z"
     },
     "ST": {
       "days": {
@@ -12776,7 +12786,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:27:46.739Z"
+      "lastCollectedAt": "2026-11-12T05:33:17.304Z"
     },
     "SK": {
       "days": {
@@ -14862,11 +14872,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 260,
-              "netSales": 260,
+              "sales": 360,
+              "netSales": 360,
               "cost": 197.5,
-              "grossProfit": 62.5,
-              "quantity": 2
+              "grossProfit": 162.5,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -14927,6 +14937,16 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 0,
+              "grossProfit": 100
             },
             {
               "category": "passenger_tire",
@@ -15022,8 +15042,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:27:46.739Z"
+      "lastCollectedAt": "2026-11-12T05:33:17.304Z"
     }
   },
-  "updatedAt": "2026-11-12T05:27:46.739Z"
+  "updatedAt": "2026-11-12T05:33:17.304Z"
 }
