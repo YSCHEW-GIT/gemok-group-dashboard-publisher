@@ -4276,15 +4276,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5701,
-              "netSales": 5701,
-              "cost": 5196,
-              "grossProfit": 505,
-              "quantity": 26
+              "sales": 6173,
+              "netSales": 6173,
+              "cost": 5743.2,
+              "grossProfit": 429.8,
+              "quantity": 30
             },
             {
               "key": "sport_rim",
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 704,
-              "netSales": 672.92,
+              "sales": 774,
+              "netSales": 737.74,
               "cost": 38,
-              "grossProfit": 634.92,
-              "quantity": 72
+              "grossProfit": 699.74,
+              "quantity": 77
             }
           ],
           "items": [
@@ -4336,11 +4336,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
-              "sales": 140,
-              "netSales": 129.64,
+              "quantity": 38,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 129.64
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -4366,11 +4366,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 8,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -4421,6 +4421,16 @@
               "netSales": 176,
               "cost": 170,
               "grossProfit": 6
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117",
+              "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
+              "quantity": 4,
+              "sales": 472,
+              "netSales": 472,
+              "cost": 547.2,
+              "grossProfit": -75.2
             },
             {
               "category": "passenger_tire",
@@ -4546,7 +4556,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
+      "lastCollectedAt": "2026-11-12T09:54:26.828Z"
     },
     "SR": {
       "days": {
@@ -8870,7 +8880,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
+      "lastCollectedAt": "2026-11-12T09:54:26.828Z"
     },
     "ST": {
       "days": {
@@ -13046,7 +13056,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
+      "lastCollectedAt": "2026-11-12T09:54:26.828Z"
     },
     "SK": {
       "days": {
@@ -15342,8 +15352,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
+      "lastCollectedAt": "2026-11-12T09:54:26.828Z"
     }
   },
-  "updatedAt": "2026-11-12T09:37:35.485Z"
+  "updatedAt": "2026-11-12T09:54:26.828Z"
 }
