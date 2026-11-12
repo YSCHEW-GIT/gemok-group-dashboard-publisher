@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-12T05:20:34.495Z",
+  "updatedAt": "2026-11-12T06:27:07.188Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 232,
-      "quantity": 2205,
-      "stockValue": 434819.48
+      "sku": 233,
+      "quantity": 2257,
+      "stockValue": 447345.48
     },
     {
       "key": "sport-rim",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 10046,
-      "stockValue": 58356.06999999999
+      "quantity": 10044,
+      "stockValue": 58349.06999999999
     },
     {
       "key": "non-stock-item",
@@ -1012,9 +1012,18 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "BRIDGESTONE 205/50/16 RE005 (2026)",
+      "name": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 8,
+          "cost": 330,
+          "price": 0
+        },
         {
           "rowKey": "default#1",
           "store": "SK",
@@ -3779,6 +3788,25 @@
       ]
     },
     {
+      "code": "TPWL177013Z108-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "WEST LAKE 175/70/13 ZUPER FLEX Z-117 82H TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 116.8,
+          "price": 108
+        }
+      ]
+    },
+    {
       "code": "TPWL177013Z117",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -4216,8 +4244,8 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 260,
+          "quantity": 4,
+          "cost": 280,
           "price": 0
         }
       ]
@@ -4292,7 +4320,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 187.2,
           "price": 0
         }
@@ -4509,7 +4537,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 1,
+          "quantity": 4,
           "cost": 220,
           "price": 0
         }
@@ -4718,8 +4746,8 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 315.4,
+          "quantity": 4,
+          "cost": 332,
           "price": 0
         }
       ]
@@ -5043,8 +5071,8 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 3,
-          "cost": 234,
+          "quantity": 4,
+          "cost": 222.3,
           "price": 250
         },
         {
@@ -5117,7 +5145,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 33,
           "cost": 230,
           "price": 0
         },
@@ -6882,7 +6910,7 @@
           "location": "",
           "quantity": 1,
           "cost": 1170,
-          "price": 0
+          "price": 888
         }
       ]
     },
@@ -49742,7 +49770,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 88,
+          "quantity": 86,
           "cost": 3.5,
           "price": 45
         }
