@@ -4506,7 +4506,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
+      "lastCollectedAt": "2026-11-12T08:03:12.999Z"
     },
     "SR": {
       "days": {
@@ -8420,7 +8420,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 18,
+          "documents": 20,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8448,11 +8448,11 @@
             },
             {
               "key": "other",
-              "sales": 2032,
-              "netSales": 2032,
-              "cost": 1064.6,
-              "grossProfit": 967.4,
-              "quantity": 96
+              "sales": 2172,
+              "netSales": 2172,
+              "cost": 1114.6,
+              "grossProfit": 1057.4,
+              "quantity": 102
             }
           ],
           "items": [
@@ -8570,21 +8570,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 13,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 42,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 44,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 120
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 50,
+              "grossProfit": 10
             },
             {
               "category": "passenger_tire",
@@ -8800,7 +8810,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
+      "lastCollectedAt": "2026-11-12T08:03:12.999Z"
     },
     "ST": {
       "days": {
@@ -12946,7 +12956,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
+      "lastCollectedAt": "2026-11-12T08:03:12.999Z"
     },
     "SK": {
       "days": {
@@ -15222,8 +15232,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
+      "lastCollectedAt": "2026-11-12T08:03:12.999Z"
     }
   },
-  "updatedAt": "2026-11-12T07:57:42.030Z"
+  "updatedAt": "2026-11-12T08:03:12.999Z"
 }
