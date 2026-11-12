@@ -4276,15 +4276,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4092,
-              "netSales": 4092,
-              "cost": 3624,
-              "grossProfit": 468,
-              "quantity": 16
+              "sales": 4462,
+              "netSales": 4462,
+              "cost": 3954,
+              "grossProfit": 508,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 520,
-              "netSales": 497.06,
-              "cost": 26.8,
-              "grossProfit": 470.26,
-              "quantity": 49
+              "sales": 590,
+              "netSales": 563.36,
+              "cost": 30.1,
+              "grossProfit": 533.26,
+              "quantity": 54
             }
           ],
           "items": [
@@ -4336,11 +4336,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 26,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -4366,11 +4366,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 4,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
@@ -4423,6 +4423,16 @@
               "grossProfit": 196
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPAT205516XS86-26",
+              "itemName": "ATLANDER 205/55/16 XSPORT-86 BSW 91W (2026)",
+              "quantity": 2,
+              "sales": 370,
+              "netSales": 370,
+              "cost": 330,
+              "grossProfit": 40
+            },
+            {
               "category": "foreman_item",
               "itemCode": "NSKBRAKEPUMP",
               "itemName": "TW BRAKE PUMP VIVA",
@@ -4436,11 +4446,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 19.8,
-              "grossProfit": 100.2
+              "quantity": 14,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 23.1,
+              "grossProfit": 116.9
             },
             {
               "category": "other",
@@ -4456,7 +4466,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:17:04.346Z"
+      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
     },
     "SR": {
       "days": {
@@ -8398,11 +8408,11 @@
             },
             {
               "key": "other",
-              "sales": 2075,
-              "netSales": 2075,
-              "cost": 1063.95,
-              "grossProfit": 1011.05,
-              "quantity": 88
+              "sales": 2082,
+              "netSales": 2082,
+              "cost": 1064.6,
+              "grossProfit": 1017.4,
+              "quantity": 89
             }
           ],
           "items": [
@@ -8697,6 +8707,16 @@
               "grossProfit": 22
             },
             {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 1,
+              "sales": 7,
+              "netSales": 7,
+              "cost": 0.65,
+              "grossProfit": 6.35
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPJW5198MF",
               "itemName": "JAWASUKI BRAKE PAD HONDA FB BRV FRONT",
@@ -8730,7 +8750,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:17:04.346Z"
+      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
     },
     "ST": {
       "days": {
@@ -12676,15 +12696,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2498,
-              "netSales": 2498,
-              "cost": 2355,
-              "grossProfit": 143,
-              "quantity": 13
+              "sales": 2970,
+              "netSales": 2970,
+              "cost": 2795,
+              "grossProfit": 175,
+              "quantity": 17
             },
             {
               "key": "sport_rim",
@@ -12704,11 +12724,11 @@
             },
             {
               "key": "other",
-              "sales": 412,
-              "netSales": 412,
-              "cost": 42.3,
-              "grossProfit": 369.7,
-              "quantity": 37
+              "sales": 522,
+              "netSales": 522,
+              "cost": 48.9,
+              "grossProfit": 473.1,
+              "quantity": 46
             }
           ],
           "items": [
@@ -12716,21 +12736,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 7,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 17,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 21,
+              "sales": 160,
+              "netSales": 160,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 160
             },
             {
               "category": "other",
@@ -12781,6 +12801,16 @@
               "netSales": 448,
               "cost": 375,
               "grossProfit": 73
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF756514LH41",
+              "itemName": "LAUFENN 175/65/14 LH41 82H (2026)",
+              "quantity": 4,
+              "sales": 472,
+              "netSales": 472,
+              "cost": 440,
+              "grossProfit": 32
             },
             {
               "category": "foreman_item",
@@ -12836,17 +12866,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:17:04.346Z"
+      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
     },
     "SK": {
       "days": {
@@ -15122,8 +15152,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:17:04.346Z"
+      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
     }
   },
-  "updatedAt": "2026-11-12T07:17:04.346Z"
+  "updatedAt": "2026-11-12T07:22:35.466Z"
 }
