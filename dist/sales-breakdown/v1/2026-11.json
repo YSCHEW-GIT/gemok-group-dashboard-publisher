@@ -4456,7 +4456,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:06:23.145Z"
+      "lastCollectedAt": "2026-11-12T06:11:54.075Z"
     },
     "SR": {
       "days": {
@@ -8710,7 +8710,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:06:23.145Z"
+      "lastCollectedAt": "2026-11-12T06:11:54.075Z"
     },
     "ST": {
       "days": {
@@ -12656,15 +12656,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1294,
-              "netSales": 1294,
-              "cost": 1196,
-              "grossProfit": 98,
-              "quantity": 8
+              "sales": 1742,
+              "netSales": 1742,
+              "cost": 1571,
+              "grossProfit": 171,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
@@ -12688,7 +12688,7 @@
               "netSales": 277,
               "cost": 10.7,
               "grossProfit": 266.3,
-              "quantity": 26
+              "quantity": 27
             }
           ],
           "items": [
@@ -12706,7 +12706,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
+              "quantity": 13,
               "sales": 80,
               "netSales": 80,
               "cost": 0,
@@ -12741,6 +12741,16 @@
               "netSales": 640,
               "cost": 632,
               "grossProfit": 8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY225517CRI-26",
+              "itemName": "TOYO 225/55/17 PROXES CR1 97W MY (2026)",
+              "quantity": 1,
+              "sales": 448,
+              "netSales": 448,
+              "cost": 375,
+              "grossProfit": 73
             },
             {
               "category": "foreman_item",
@@ -12806,7 +12816,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:06:23.145Z"
+      "lastCollectedAt": "2026-11-12T06:11:54.075Z"
     },
     "SK": {
       "days": {
@@ -15082,8 +15092,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:06:23.145Z"
+      "lastCollectedAt": "2026-11-12T06:11:54.075Z"
     }
   },
-  "updatedAt": "2026-11-12T06:06:23.145Z"
+  "updatedAt": "2026-11-12T06:11:54.075Z"
 }
