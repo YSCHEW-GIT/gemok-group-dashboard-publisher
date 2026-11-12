@@ -4506,7 +4506,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
+      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
     },
     "SR": {
       "days": {
@@ -8420,7 +8420,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8448,11 +8448,11 @@
             },
             {
               "key": "other",
-              "sales": 1962,
-              "netSales": 1962,
+              "sales": 2032,
+              "netSales": 2032,
               "cost": 1064.6,
-              "grossProfit": 897.4,
-              "quantity": 91
+              "grossProfit": 967.4,
+              "quantity": 96
             }
           ],
           "items": [
@@ -8570,21 +8570,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 11,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 38,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 42,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "passenger_tire",
@@ -8800,7 +8800,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
+      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
     },
     "ST": {
       "days": {
@@ -12750,10 +12750,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4930,
-              "netSales": 4930,
+              "sales": 5000,
+              "netSales": 5000,
               "cost": 4407,
-              "grossProfit": 523,
+              "grossProfit": 593,
               "quantity": 21
             },
             {
@@ -12774,10 +12774,10 @@
             },
             {
               "key": "other",
-              "sales": 450,
-              "netSales": 450,
+              "sales": 380,
+              "netSales": 380,
               "cost": 51.5,
-              "grossProfit": 398.5,
+              "grossProfit": 328.5,
               "quantity": 56
             }
           ],
@@ -12787,20 +12787,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 25,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -12867,10 +12867,10 @@
               "itemCode": "TPLF756514LH41",
               "itemName": "LAUFENN 175/65/14 LH41 82H (2026)",
               "quantity": 4,
-              "sales": 472,
-              "netSales": 472,
+              "sales": 542,
+              "netSales": 542,
               "cost": 440,
-              "grossProfit": 32
+              "grossProfit": 102
             },
             {
               "category": "passenger_tire",
@@ -12946,7 +12946,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
+      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
     },
     "SK": {
       "days": {
@@ -15222,8 +15222,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
+      "lastCollectedAt": "2026-11-12T07:57:42.030Z"
     }
   },
-  "updatedAt": "2026-11-12T07:52:10.883Z"
+  "updatedAt": "2026-11-12T07:57:42.030Z"
 }
