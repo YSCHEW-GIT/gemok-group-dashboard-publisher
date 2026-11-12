@@ -4506,7 +4506,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
+      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
     },
     "SR": {
       "days": {
@@ -8800,7 +8800,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
+      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
     },
     "ST": {
       "days": {
@@ -12746,15 +12746,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3110,
-              "netSales": 3110,
-              "cost": 2795,
-              "grossProfit": 315,
-              "quantity": 17
+              "sales": 4930,
+              "netSales": 4930,
+              "cost": 4407,
+              "grossProfit": 523,
+              "quantity": 21
             },
             {
               "key": "sport_rim",
@@ -12774,11 +12774,11 @@
             },
             {
               "key": "other",
-              "sales": 422,
-              "netSales": 422,
-              "cost": 48.9,
-              "grossProfit": 373.1,
-              "quantity": 47
+              "sales": 450,
+              "netSales": 450,
+              "cost": 51.5,
+              "grossProfit": 398.5,
+              "quantity": 56
             }
           ],
           "items": [
@@ -12786,7 +12786,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
+              "quantity": 8,
               "sales": 90,
               "netSales": 90,
               "cost": 0,
@@ -12796,7 +12796,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 21,
+              "quantity": 25,
               "sales": 80,
               "netSales": 80,
               "cost": 0,
@@ -12873,6 +12873,16 @@
               "grossProfit": 32
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPGN225518HT6-26",
+              "itemName": "GENERAL 225/55/18 GRABBER HT6 CN (2026)",
+              "quantity": 4,
+              "sales": 1820,
+              "netSales": 1820,
+              "cost": 1612,
+              "grossProfit": 208
+            },
+            {
               "category": "foreman_item",
               "itemCode": "POFPRKN",
               "itemName": "OIL FILTER PERODUA 00R01",
@@ -12916,11 +12926,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 6,
-              "sales": 42,
-              "netSales": 42,
-              "cost": 3.9,
-              "grossProfit": 38.1
+              "quantity": 10,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 6.5,
+              "grossProfit": 63.5
             },
             {
               "category": "other",
@@ -12936,7 +12946,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
+      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
     },
     "SK": {
       "days": {
@@ -15006,11 +15016,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1818,
-              "netSales": 1818,
-              "cost": 1502,
-              "grossProfit": 316,
-              "quantity": 14
+              "sales": 2154,
+              "netSales": 2154,
+              "cost": 1802,
+              "grossProfit": 352,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -15030,10 +15040,10 @@
             },
             {
               "key": "other",
-              "sales": 810,
-              "netSales": 810,
+              "sales": 808,
+              "netSales": 808,
               "cost": 29.7,
-              "grossProfit": 780.3,
+              "grossProfit": 778.3,
               "quantity": 53
             }
           ],
@@ -15132,11 +15142,11 @@
               "category": "passenger_tire",
               "itemCode": "TPAT204516XS86-26",
               "itemName": "ATLANDER 205/45/16 XSPORT 86 BSW 87W (2026)",
-              "quantity": 2,
-              "sales": 336,
-              "netSales": 336,
-              "cost": 300,
-              "grossProfit": 36
+              "quantity": 4,
+              "sales": 672,
+              "netSales": 672,
+              "cost": 600,
+              "grossProfit": 72
             },
             {
               "category": "foreman_item",
@@ -15183,10 +15193,10 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 38,
+              "netSales": 38,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 31.4
             },
             {
               "category": "other",
@@ -15212,8 +15222,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
+      "lastCollectedAt": "2026-11-12T07:52:10.883Z"
     }
   },
-  "updatedAt": "2026-11-12T07:46:39.477Z"
+  "updatedAt": "2026-11-12T07:52:10.883Z"
 }
