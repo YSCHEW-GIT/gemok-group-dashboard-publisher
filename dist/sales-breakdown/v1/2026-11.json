@@ -4396,7 +4396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:56:02.621Z"
+      "lastCollectedAt": "2026-11-12T04:01:33.728Z"
     },
     "SR": {
       "days": {
@@ -8310,15 +8310,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2592,
-              "netSales": 2592,
-              "cost": 2405.6,
-              "grossProfit": 186.4,
-              "quantity": 15
+              "sales": 2888,
+              "netSales": 2888,
+              "cost": 2666.9,
+              "grossProfit": 221.1,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -8338,11 +8338,11 @@
             },
             {
               "key": "other",
-              "sales": 675,
-              "netSales": 675,
+              "sales": 725,
+              "netSales": 725,
               "cost": 74.75,
-              "grossProfit": 600.25,
-              "quantity": 48
+              "grossProfit": 650.25,
+              "quantity": 51
             }
           ],
           "items": [
@@ -8400,31 +8400,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 0,
-              "grossProfit": 90
-            },
-            {
-              "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
+              "quantity": 6,
               "sales": 120,
               "netSales": 120,
               "cost": 0,
               "grossProfit": 120
             },
             {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 20,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 0,
+              "grossProfit": 140
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
-              "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
-              "cost": 172,
-              "grossProfit": 54
+              "quantity": 4,
+              "sales": 402,
+              "netSales": 402,
+              "cost": 344,
+              "grossProfit": 58
             },
             {
               "category": "passenger_tire",
@@ -8465,6 +8465,16 @@
               "netSales": 942,
               "cost": 876,
               "grossProfit": 66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPHX165015CL01-26",
+              "itemName": "HANMIX 165/50/15 CLASSIC CL01 72H CN (2026)",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 89.3,
+              "grossProfit": 30.7
             },
             {
               "category": "foreman_item",
@@ -8560,7 +8570,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:56:02.621Z"
+      "lastCollectedAt": "2026-11-12T04:01:33.728Z"
     },
     "ST": {
       "days": {
@@ -14577,5 +14587,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-12T03:56:02.621Z"
+  "updatedAt": "2026-11-12T04:01:33.728Z"
 }
