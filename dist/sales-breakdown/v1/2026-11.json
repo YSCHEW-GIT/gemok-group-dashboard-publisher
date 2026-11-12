@@ -4556,7 +4556,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:05:29.153Z"
+      "lastCollectedAt": "2026-11-12T10:11:00.494Z"
     },
     "SR": {
       "days": {
@@ -8470,15 +8470,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 25,
+          "documents": 26,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6220,
-              "netSales": 6220,
-              "cost": 5745.5,
-              "grossProfit": 474.5,
-              "quantity": 36
+              "sales": 6350,
+              "netSales": 6350,
+              "cost": 5835.9,
+              "grossProfit": 514.1,
+              "quantity": 37
             },
             {
               "key": "sport_rim",
@@ -8688,6 +8688,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWL157012H550",
+              "itemName": "WEST LAKE 155/70/12 H550 73Q (2026)",
+              "quantity": 1,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 90.4,
+              "grossProfit": 39.6
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 4,
@@ -8880,7 +8890,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:05:29.153Z"
+      "lastCollectedAt": "2026-11-12T10:11:00.494Z"
     },
     "ST": {
       "days": {
@@ -12826,7 +12836,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12854,11 +12864,11 @@
             },
             {
               "key": "other",
-              "sales": 532,
-              "netSales": 532,
+              "sales": 562,
+              "netSales": 562,
               "cost": 55.4,
-              "grossProfit": 476.6,
-              "quantity": 76
+              "grossProfit": 506.6,
+              "quantity": 77
             }
           ],
           "items": [
@@ -12866,11 +12876,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 12,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -13056,7 +13066,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:05:29.153Z"
+      "lastCollectedAt": "2026-11-12T10:11:00.494Z"
     },
     "SK": {
       "days": {
@@ -15352,8 +15362,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:05:29.153Z"
+      "lastCollectedAt": "2026-11-12T10:11:00.494Z"
     }
   },
-  "updatedAt": "2026-11-12T10:05:29.153Z"
+  "updatedAt": "2026-11-12T10:11:00.494Z"
 }
