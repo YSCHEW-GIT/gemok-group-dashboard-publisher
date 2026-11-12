@@ -4274,10 +4274,109 @@
               "grossProfit": 34.99
             }
           ]
+        },
+        "2026-11-12": {
+          "documents": 5,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 150,
+              "grossProfit": -150,
+              "quantity": 1
+            },
+            {
+              "key": "other",
+              "sales": 280,
+              "netSales": 259.28,
+              "cost": 0,
+              "grossProfit": 259.28,
+              "quantity": 17
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 2,
+              "sales": 100,
+              "netSales": 92.6,
+              "cost": 0,
+              "grossProfit": 92.6
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 111.12,
+              "cost": 0,
+              "grossProfit": 111.12
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 20,
+              "netSales": 18.52,
+              "cost": 0,
+              "grossProfit": 18.52
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKBRAKEPUMP",
+              "itemName": "TW BRAKE PUMP VIVA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 150,
+              "grossProfit": -150
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-10T15:59:16.271Z"
+      "lastCollectedAt": "2026-11-12T03:27:59.888Z"
     },
     "SR": {
       "days": {
@@ -14209,5 +14308,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-11T15:56:02.970Z"
+  "updatedAt": "2026-11-12T03:27:59.888Z"
 }
