@@ -4546,7 +4546,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
+      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
     },
     "SR": {
       "days": {
@@ -8870,7 +8870,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
+      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
     },
     "ST": {
       "days": {
@@ -12816,15 +12816,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5422,
-              "netSales": 5422,
-              "cost": 4751,
-              "grossProfit": 671,
-              "quantity": 25
+              "sales": 5712,
+              "netSales": 5712,
+              "cost": 4943,
+              "grossProfit": 769,
+              "quantity": 27
             },
             {
               "key": "sport_rim",
@@ -12844,11 +12844,11 @@
             },
             {
               "key": "other",
-              "sales": 488,
-              "netSales": 488,
-              "cost": 54.1,
-              "grossProfit": 433.9,
-              "quantity": 71
+              "sales": 532,
+              "netSales": 532,
+              "cost": 55.4,
+              "grossProfit": 476.6,
+              "quantity": 76
             }
           ],
           "items": [
@@ -12856,17 +12856,17 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 11,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 33,
+              "quantity": 35,
               "sales": 80,
               "netSales": 80,
               "cost": 0,
@@ -12954,6 +12954,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPDR166014HG918-26",
+              "itemName": "DURUN 165/60/14 HG918 75H-(2026)",
+              "quantity": 2,
+              "sales": 290,
+              "netSales": 290,
+              "cost": 192,
+              "grossProfit": 98
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN225518HT6-26",
               "itemName": "GENERAL 225/55/18 GRABBER HT6 CN (2026)",
               "quantity": 4,
@@ -13016,11 +13026,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 14,
-              "sales": 98,
-              "netSales": 98,
-              "cost": 9.1,
-              "grossProfit": 88.9
+              "quantity": 16,
+              "sales": 112,
+              "netSales": 112,
+              "cost": 10.4,
+              "grossProfit": 101.6
             },
             {
               "category": "other",
@@ -13036,7 +13046,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
+      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
     },
     "SK": {
       "days": {
@@ -15332,8 +15342,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
+      "lastCollectedAt": "2026-11-12T09:37:35.485Z"
     }
   },
-  "updatedAt": "2026-11-12T09:32:04.301Z"
+  "updatedAt": "2026-11-12T09:37:35.485Z"
 }
