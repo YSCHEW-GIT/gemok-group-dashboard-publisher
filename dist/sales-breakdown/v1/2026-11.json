@@ -4296,11 +4296,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 150,
-              "grossProfit": -150,
-              "quantity": 1
+              "sales": 315,
+              "netSales": 315,
+              "cost": 407.4,
+              "grossProfit": -92.4,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -4434,6 +4434,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFTYTA6",
+              "itemName": "TOYOTA ALTIS OIL FILTER YZZA6",
+              "quantity": 1,
+              "sales": 25,
+              "netSales": 25,
+              "cost": 17,
+              "grossProfit": 8
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OEHX5W40Q9000",
+              "itemName": "HELIX ULTRA 4X4L SP A3/B4 5W40 9000 FULLY SYTHENTIC ENG OIL",
+              "quantity": 1,
+              "sales": 290,
+              "netSales": 290,
+              "cost": 240.4,
+              "grossProfit": 49.6
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSKBRAKEPUMP",
               "itemName": "TW BRAKE PUMP VIVA",
               "quantity": 1,
@@ -4466,7 +4486,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
+      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
     },
     "SR": {
       "days": {
@@ -8750,7 +8770,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
+      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
     },
     "ST": {
       "days": {
@@ -12696,14 +12716,14 @@
           ]
         },
         "2026-11-12": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2970,
-              "netSales": 2970,
+              "sales": 3110,
+              "netSales": 3110,
               "cost": 2795,
-              "grossProfit": 175,
+              "grossProfit": 315,
               "quantity": 17
             },
             {
@@ -12724,11 +12744,11 @@
             },
             {
               "key": "other",
-              "sales": 522,
-              "netSales": 522,
+              "sales": 422,
+              "netSales": 422,
               "cost": 48.9,
-              "grossProfit": 473.1,
-              "quantity": 46
+              "grossProfit": 373.1,
+              "quantity": 47
             }
           ],
           "items": [
@@ -12737,20 +12757,30 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 21,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 80
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -12777,20 +12807,20 @@
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 6,
-              "sales": 1184,
-              "netSales": 1184,
+              "sales": 1254,
+              "netSales": 1254,
               "cost": 1176,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
               "quantity": 4,
-              "sales": 640,
-              "netSales": 640,
+              "sales": 710,
+              "netSales": 710,
               "cost": 632,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
@@ -12876,7 +12906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
+      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
     },
     "SK": {
       "days": {
@@ -15152,8 +15182,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:22:35.466Z"
+      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
     }
   },
-  "updatedAt": "2026-11-12T07:22:35.466Z"
+  "updatedAt": "2026-11-12T07:28:06.195Z"
 }
