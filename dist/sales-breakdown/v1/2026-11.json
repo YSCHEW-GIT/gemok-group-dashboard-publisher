@@ -4396,7 +4396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:44:59.665Z"
+      "lastCollectedAt": "2026-11-12T03:50:32.039Z"
     },
     "SR": {
       "days": {
@@ -8310,39 +8310,39 @@
           ]
         },
         "2026-11-12": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1880,
-              "netSales": 1880,
-              "cost": 1621.6,
-              "grossProfit": 258.4,
-              "quantity": 11
+              "sales": 2592,
+              "netSales": 2592,
+              "cost": 2405.6,
+              "grossProfit": 186.4,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
-              "sales": 88,
-              "netSales": 88,
-              "cost": 51,
-              "grossProfit": 37,
-              "quantity": 0
-            },
-            {
-              "key": "foreman_item",
-              "sales": 130,
-              "netSales": 130,
-              "cost": 83,
-              "grossProfit": 47,
+              "sales": 827,
+              "netSales": 827,
+              "cost": 801,
+              "grossProfit": 26,
               "quantity": 1
             },
             {
+              "key": "foreman_item",
+              "sales": 550,
+              "netSales": 550,
+              "cost": 351.5,
+              "grossProfit": 198.5,
+              "quantity": 3
+            },
+            {
               "key": "other",
-              "sales": 495,
-              "netSales": 495,
-              "cost": 61.15,
-              "grossProfit": 433.85,
-              "quantity": 37
+              "sales": 675,
+              "netSales": 675,
+              "cost": 74.75,
+              "grossProfit": 600.25,
+              "quantity": 48
             }
           ],
           "items": [
@@ -8367,6 +8367,16 @@
               "grossProfit": 0
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SIMPDHB1541TNP",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE TNP-7022 (CE28)",
+              "quantity": 1,
+              "sales": 739,
+              "netSales": 739,
+              "cost": 750,
+              "grossProfit": -11
+            },
+            {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
@@ -8380,21 +8390,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 18,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 120
             },
             {
               "category": "passenger_tire",
@@ -8428,6 +8438,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1",
+              "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
+              "quantity": 4,
+              "sales": 712,
+              "netSales": 712,
+              "cost": 784,
+              "grossProfit": -72
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 4,
@@ -8435,6 +8455,16 @@
               "netSales": 942,
               "cost": 876,
               "grossProfit": 66
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PABSBMYV",
+              "itemName": "BNC ABSORBER BOOT FRT MYVI VIVA ALZA BZ020",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 22,
+              "grossProfit": 18
             },
             {
               "category": "other",
@@ -8450,11 +8480,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 19.8,
-              "grossProfit": 100.2
+              "quantity": 16,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 26.4,
+              "grossProfit": 133.6
             },
             {
               "category": "other",
@@ -8487,6 +8517,16 @@
               "grossProfit": 90
             },
             {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPJW5198MF",
               "itemName": "JAWASUKI BRAKE PAD HONDA FB BRV FRONT",
@@ -8495,12 +8535,22 @@
               "netSales": 130,
               "cost": 83,
               "grossProfit": 47
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PABSAXFRT",
+              "itemName": "GNT ABSORBER AXIA 1.0 BEZZA GAS-FRT (BZ370/BZD30)",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 246.5,
+              "grossProfit": 133.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:44:59.665Z"
+      "lastCollectedAt": "2026-11-12T03:50:32.039Z"
     },
     "ST": {
       "days": {
@@ -14517,5 +14567,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-12T03:44:59.665Z"
+  "updatedAt": "2026-11-12T03:50:32.039Z"
 }
