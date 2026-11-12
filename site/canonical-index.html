@@ -521,7 +521,7 @@
             <div class="inventory-value-panel-head"><div><h2 id="inventory-value-panel-title">在庫総額の内訳</h2><p id="inventory-value-panel-description">店舗を選択すると商品グループ別の在庫金額を確認できます。</p></div><button class="inventory-value-close" id="inventory-value-close" type="button" aria-label="閉じる">×</button></div>
             <div class="inventory-value-stores" id="inventory-value-stores" aria-label="店舗"></div>
             <div class="inventory-value-layout">
-              <section class="inventory-value-chart-card"><div class="inventory-value-card-title"><h3 id="inventory-value-chart-title">商品グループ別構成</h3><span id="inventory-value-chart-note">上位7分類＋その他</span></div><div class="inventory-value-chart" id="inventory-value-chart"></div><p class="inventory-value-negative-note" id="inventory-value-negative-note" hidden></p></section>
+              <section class="inventory-value-chart-card"><div class="inventory-value-card-title"><h3 id="inventory-value-chart-title">商品グループ別構成</h3><span id="inventory-value-chart-note">固定順7分類＋その他</span></div><div class="inventory-value-chart" id="inventory-value-chart"></div><p class="inventory-value-negative-note" id="inventory-value-negative-note" hidden></p></section>
               <section class="inventory-value-list-card"><div class="inventory-value-card-title"><h3 id="inventory-value-list-title">商品グループ内訳</h3><span id="inventory-value-list-hint">選択して商品明細を表示</span></div><div class="inventory-value-groups" id="inventory-value-groups"></div></section>
             </div>
           </section>
@@ -743,10 +743,10 @@
       zh: { title:'库存', subtitle:'选择商品组，查看按品牌与门店分类的商品库存。', syncNow:'立即同步', syncPrivate:'请从非公开版执行同步', syncing:'同步中…', syncWaiting:'等待采集服务…', syncDone:'同步完成', syncFailed:'同步失败', syncTimeout:'仍在处理中', groups:'商品组', meta:'WEBMAX · 5家门店 · 原型数据', checked:'WEBMAX · 5家门店 · 页面确认 {time}', liveMeta:'WEBMAX · {stores}家门店 · 更新 {time}', showProducts:'查看商品', demoNote:'首次完成WEBMAX库存采集前显示示例库存。', liveNote:'WEBMAX实时库存通过Gemok Collector发布，并同时保存到Pleasanter。', back:'← 返回商品组', productList:'商品列表', byBrand:'品牌商品列表 · {sku} SKU', totalStock:'全门店库存 {points}件', stockValue:'库存金额 {value}', search:'关键词', placeholder:'输入商品代码、名称、品牌或库位', stockRange:'库存数', stockMin:'下限', stockMax:'上限', storeFilter:'门店', storePlaceholder:'门店代码或名称', matches:'找到 {count} 件商品', showing:'显示 {count} 件商品', empty:'没有匹配商品，请修改搜索条件。', productCount:'{count}件商品', code:'商品代码', details:'商品详情', store:'门店', storeLocation:'门店 / 库位', location:'库位', noLocation:'默认', stock:'库存数', cost:'成本价', price:'售价', mobileList:'手机商品列表', quantity:'数量', unit:'件' }
     };
     const inventoryValueCopy = {
-      en: { total:'Inventory total', open:'View store and product breakdown', title:'Inventory value breakdown', description:'Select a store to review inventory value by product group.', close:'Close', stores:'Stores', allStores:'All stores', noData:'No data', share:'{percent}% of total', chart:'By product group', chartNote:'Top 7 + Other', list:'Product group breakdown', listHint:'Select to view product details', other:'Other', empty:'No positive inventory value to chart.', negative:'Negative inventory adjustments are included in the total and shown in red.', detail:'View product details', selectedTotal:'{store} inventory total' },
-      ms: { total:'Jumlah nilai inventori', open:'Lihat pecahan cawangan dan produk', title:'Pecahan nilai inventori', description:'Pilih cawangan untuk menyemak nilai inventori mengikut kumpulan produk.', close:'Tutup', stores:'Cawangan', allStores:'Semua cawangan', noData:'Tiada data', share:'{percent}% daripada jumlah', chart:'Mengikut kumpulan produk', chartNote:'7 teratas + Lain-lain', list:'Pecahan kumpulan produk', listHint:'Pilih untuk melihat butiran produk', other:'Lain-lain', empty:'Tiada nilai inventori positif untuk carta.', negative:'Pelarasan inventori negatif termasuk dalam jumlah dan ditunjukkan dengan warna merah.', detail:'Lihat butiran produk', selectedTotal:'Jumlah inventori {store}' },
-      ja: { total:'在庫総額', open:'店舗別・商品別の内訳を見る', title:'在庫総額の内訳', description:'店舗を選択すると商品グループ別の在庫金額を確認できます。', close:'閉じる', stores:'店舗', allStores:'全店舗', noData:'データなし', share:'全体の{percent}%', chart:'商品グループ別構成', chartNote:'上位7分類＋その他', list:'商品グループ内訳', listHint:'選択して商品明細を表示', other:'その他', empty:'円グラフに表示できるプラスの在庫金額がありません。', negative:'マイナス在庫調整は総額に含め、内訳一覧では赤字で表示しています。', detail:'商品明細を表示', selectedTotal:'{store}の在庫総額' },
-      zh: { total:'库存总额', open:'查看门店和商品明细', title:'库存总额明细', description:'选择门店，查看按商品组分类的库存金额。', close:'关闭', stores:'门店', allStores:'全部门店', noData:'无数据', share:'占总额 {percent}%', chart:'按商品组构成', chartNote:'前7类＋其他', list:'商品组明细', listHint:'选择后查看商品明细', other:'其他', empty:'没有可用于圆形图的正库存金额。', negative:'负库存调整已计入总额，并在明细中以红色显示。', detail:'查看商品明细', selectedTotal:'{store}库存总额' }
+      en: { total:'Inventory total', open:'View store and product breakdown', title:'Inventory value breakdown', description:'Select a store to review inventory value by product group.', close:'Close', stores:'Stores', allStores:'All stores', noData:'No data', share:'{percent}% of total', chart:'By product group', chartNote:'First 7 in fixed order + Other', list:'Product group breakdown', listHint:'Select to view product details', other:'Other', empty:'No positive inventory value to chart.', negative:'Negative inventory adjustments are included in the total and shown in red.', detail:'View product details', selectedTotal:'{store} inventory total' },
+      ms: { total:'Jumlah nilai inventori', open:'Lihat pecahan cawangan dan produk', title:'Pecahan nilai inventori', description:'Pilih cawangan untuk menyemak nilai inventori mengikut kumpulan produk.', close:'Tutup', stores:'Cawangan', allStores:'Semua cawangan', noData:'Tiada data', share:'{percent}% daripada jumlah', chart:'Mengikut kumpulan produk', chartNote:'7 kumpulan pertama mengikut susunan tetap + Lain-lain', list:'Pecahan kumpulan produk', listHint:'Pilih untuk melihat butiran produk', other:'Lain-lain', empty:'Tiada nilai inventori positif untuk carta.', negative:'Pelarasan inventori negatif termasuk dalam jumlah dan ditunjukkan dengan warna merah.', detail:'Lihat butiran produk', selectedTotal:'Jumlah inventori {store}' },
+      ja: { total:'在庫総額', open:'店舗別・商品別の内訳を見る', title:'在庫総額の内訳', description:'店舗を選択すると商品グループ別の在庫金額を確認できます。', close:'閉じる', stores:'店舗', allStores:'全店舗', noData:'データなし', share:'全体の{percent}%', chart:'商品グループ別構成', chartNote:'固定順7分類＋その他', list:'商品グループ内訳', listHint:'選択して商品明細を表示', other:'その他', empty:'円グラフに表示できるプラスの在庫金額がありません。', negative:'マイナス在庫調整は総額に含め、内訳一覧では赤字で表示しています。', detail:'商品明細を表示', selectedTotal:'{store}の在庫総額' },
+      zh: { total:'库存总额', open:'查看门店和商品明细', title:'库存总额明细', description:'选择门店，查看按商品组分类的库存金额。', close:'关闭', stores:'门店', allStores:'全部门店', noData:'无数据', share:'占总额 {percent}%', chart:'按商品组构成', chartNote:'固定顺序前7类＋其他', list:'商品组明细', listHint:'选择后查看商品明细', other:'其他', empty:'没有可用于圆形图的正库存金额。', negative:'负库存调整已计入总额，并在明细中以红色显示。', detail:'查看商品明细', selectedTotal:'{store}库存总额' }
     };
     const inventorySyncCopy = {
       en: {
@@ -811,10 +811,18 @@
     const inventoryValueNegativeNote = document.getElementById('inventory-value-negative-note');
     const inventoryStores = [['SI','Chew Tayar'],['SR','Gemok Tayar'],['ST','Gemok Tayar'],['SK','G Tayar'],['KM','Bagus Tayar']];
     const inventoryValueStoreOrder = [['SI','Chew Tayar'],['SR','Gemok Tayar'],['ST','Gemok Tayar'],['SK','G Tayar'],['KM','Bagus Tayar']];
-    const inventoryValueColors = ['#43dfa0','#73a8ff','#f5bd4e','#a78bfa','#ff8e72','#4fd1c5','#f472b6','#94a3b8'];
+    const inventoryValueColors = ['#43dfa0','#73a8ff','#f5bd4e','#a78bfa','#ff8e72','#4fd1c5','#f472b6','#60a5fa','#f59e0b','#34d399','#c084fc','#fb7185','#2dd4bf','#818cf8','#facc15','#22c55e','#e879f9','#38bdf8','#fb923c','#a3e635','#f87171'];
+    const inventoryValueOtherColor = '#94a3b8';
     const inventoryGroupOrder = ['passanger-tire','sport-rim','absorber','adj-absorber','spring','brake-caliper','brake-pad','brake-pump','oil','oil-filter','parts','battery','flap','tube','repair-rim','used-sport-rim','used-tayar','miscellaneous','non-stock-item','tool-and-stationery','ungrouped'];
     const inventoryGroupOrderRank = new Map(inventoryGroupOrder.map((key,index) => [key,index]));
     inventoryGroupOrderRank.set('passenger-tire',inventoryGroupOrderRank.get('passanger-tire'));
+    function inventoryValueGroupColor(key) {
+      const normalizedKey = key === 'passenger-tire' ? 'passanger-tire' : key;
+      const knownIndex = inventoryGroupOrder.indexOf(normalizedKey);
+      if (knownIndex >= 0) return inventoryValueColors[knownIndex % inventoryValueColors.length];
+      const hash = [...String(normalizedKey)].reduce((value,character) => ((value * 31) + character.charCodeAt(0)) >>> 0,0);
+      return `hsl(${hash % 360} 68% 62%)`;
+    }
     function sortInventoryGroupDefinitions(definitions) {
       return definitions.map((definition,index) => ({ definition,index })).sort((a,b) => {
         const aRank = inventoryGroupOrderRank.get(a.definition[0]) ?? inventoryGroupOrder.length;
@@ -1370,9 +1378,9 @@
     }
     function formatInventoryCompactMoney(value) {
       const amount = Number(value) || 0;
-      if (amount >= 1000000) return `RM ${(amount / 1000000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}M`;
-      if (amount >= 1000) return `RM ${(amount / 1000).toLocaleString('en-MY',{ maximumFractionDigits:1 })}K`;
-      return formatInventoryMoney(amount);
+      if (Math.abs(amount) >= 1000000) return `RM${(amount / 1000000).toLocaleString('en-MY',{ minimumFractionDigits:2, maximumFractionDigits:2 })}M`;
+      if (Math.abs(amount) >= 1000) return `RM${(amount / 1000).toLocaleString('en-MY',{ minimumFractionDigits:2, maximumFractionDigits:2 })}K`;
+      return `RM${amount.toLocaleString('en-MY',{ minimumFractionDigits:2, maximumFractionDigits:2 })}`;
     }
     function inventoryStoreValue(value,storeOrIndex) {
       const index = typeof storeOrIndex === 'number' ? storeOrIndex : inventoryStores.findIndex(([code]) => code === storeOrIndex);
@@ -1391,7 +1399,7 @@
       return Object.entries(values).reduce((text,[key,value]) => text.replaceAll(`{${key}}`,value),template);
     }
     function inventoryGroupName(key) {
-      return inventoryGroupNames[language]?.[key] || inventoryGroups[key]?.name || key;
+      return inventoryGroups[key]?.name || key;
     }
     function inventoryDisplaySpec(value) {
       return String(value || '').split('·').map((part) => part.trim()).filter((part) => part && !/^[+-]?\d+(?:[.,]\d+)?$/.test(part)).join(' · ');
@@ -1474,13 +1482,12 @@
         key:group.key,
         name:group.name,
         value:activeInventoryValueStore === 'all' ? group.value : group.stores[activeInventoryValueStore]?.value || 0,
-      })).filter((group) => group.value !== 0).sort((a,b) => b.value - a.value);
+      })).filter((group) => group.value !== 0);
       const positiveGroups = selectedGroups.filter((group) => group.value > 0);
       const positiveTotal = positiveGroups.reduce((sum,group) => sum + group.value,0);
-      const groupColors = new Map(positiveGroups.map((group,index) => [group.key,inventoryValueColors[index % (inventoryValueColors.length - 1)]]));
-      const chartGroups = positiveGroups.slice(0,7).map((group) => ({ ...group, color:groupColors.get(group.key) }));
+      const chartGroups = positiveGroups.slice(0,7).map((group) => ({ ...group, color:inventoryValueGroupColor(group.key) }));
       const remainingValue = positiveGroups.slice(7).reduce((sum,group) => sum + group.value,0);
-      if (remainingValue > 0) chartGroups.push({ key:'__other__', name:copy.other, value:remainingValue, color:inventoryValueColors.at(-1) });
+      if (remainingValue > 0) chartGroups.push({ key:'__other__', name:copy.other, value:remainingValue, color:inventoryValueOtherColor });
       if (!chartGroups.length || positiveTotal <= 0) {
         inventoryValueChart.innerHTML = `<p class="inventory-value-empty">${escapeHtml(copy.empty)}</p>`;
       } else {
@@ -1503,7 +1510,7 @@
       }
       inventoryValueGroups.innerHTML = selectedGroups.length ? selectedGroups.map((group) => {
         const percent = positiveTotal ? Math.abs(group.value / positiveTotal) * 100 : 0;
-        const color = group.value > 0 ? groupColors.get(group.key) : '#ff6b6b';
+        const color = group.value > 0 ? inventoryValueGroupColor(group.key) : '#ff6b6b';
         return `<button class="inventory-value-group${group.value < 0 ? ' negative' : ''}" type="button" data-value-group="${escapeHtml(group.key)}" aria-label="${escapeHtml(`${group.name} ${formatInventoryMoney(group.value)} ${copy.detail}`)}"><span class="inventory-value-group-name"><i style="background:${color}"></i><span>${escapeHtml(group.name)}</span></span><strong class="inventory-value-group-amount">${escapeHtml(formatInventoryMoney(group.value))}</strong><span class="inventory-value-group-share">${percent.toLocaleString(localeByLanguage[language],{ maximumFractionDigits:1 })}%</span></button>`;
       }).join('') : `<p class="inventory-value-empty">${escapeHtml(copy.empty)}</p>`;
       inventoryValueGroups.querySelectorAll('[data-value-group]').forEach((button) => button.addEventListener('click',() => openInventoryGroupFromValue(button.dataset.valueGroup)));
