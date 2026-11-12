@@ -4456,7 +4456,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:17:25.266Z"
+      "lastCollectedAt": "2026-11-12T06:35:44.991Z"
     },
     "SR": {
       "days": {
@@ -8370,7 +8370,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8398,11 +8398,11 @@
             },
             {
               "key": "other",
-              "sales": 1885,
-              "netSales": 1885,
+              "sales": 1895,
+              "netSales": 1895,
               "cost": 1057.35,
-              "grossProfit": 827.65,
-              "quantity": 73
+              "grossProfit": 837.65,
+              "quantity": 74
             }
           ],
           "items": [
@@ -8490,11 +8490,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -8710,7 +8710,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:17:25.266Z"
+      "lastCollectedAt": "2026-11-12T06:35:44.991Z"
     },
     "ST": {
       "days": {
@@ -12656,15 +12656,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1742,
-              "netSales": 1742,
-              "cost": 1571,
-              "grossProfit": 171,
-              "quantity": 9
+              "sales": 2498,
+              "netSales": 2498,
+              "cost": 2355,
+              "grossProfit": 143,
+              "quantity": 13
             },
             {
               "key": "sport_rim",
@@ -12684,11 +12684,11 @@
             },
             {
               "key": "other",
-              "sales": 277,
-              "netSales": 277,
-              "cost": 10.7,
-              "grossProfit": 266.3,
-              "quantity": 27
+              "sales": 387,
+              "netSales": 387,
+              "cost": 17.3,
+              "grossProfit": 369.7,
+              "quantity": 36
             }
           ],
           "items": [
@@ -12696,21 +12696,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 6,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 13,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 17,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 120
             },
             {
               "category": "passenger_tire",
@@ -12726,11 +12726,11 @@
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
-              "quantity": 2,
-              "sales": 428,
-              "netSales": 428,
-              "cost": 392,
-              "grossProfit": 36
+              "quantity": 6,
+              "sales": 1184,
+              "netSales": 1184,
+              "cost": 1176,
+              "grossProfit": 8
             },
             {
               "category": "passenger_tire",
@@ -12806,17 +12806,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:17:25.266Z"
+      "lastCollectedAt": "2026-11-12T06:35:44.991Z"
     },
     "SK": {
       "days": {
@@ -14882,7 +14882,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -14910,11 +14910,11 @@
             },
             {
               "key": "other",
-              "sales": 740,
-              "netSales": 740,
+              "sales": 780,
+              "netSales": 780,
               "cost": 31.5,
-              "grossProfit": 708.5,
-              "quantity": 48
+              "grossProfit": 748.5,
+              "quantity": 49
             }
           ],
           "items": [
@@ -14952,11 +14952,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 2,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -15092,8 +15092,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T06:17:25.266Z"
+      "lastCollectedAt": "2026-11-12T06:35:44.991Z"
     }
   },
-  "updatedAt": "2026-11-12T06:17:25.266Z"
+  "updatedAt": "2026-11-12T06:35:44.991Z"
 }
