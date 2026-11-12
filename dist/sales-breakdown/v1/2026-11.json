@@ -4546,7 +4546,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:26:31.897Z"
+      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
     },
     "SR": {
       "days": {
@@ -8870,7 +8870,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:26:31.897Z"
+      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
     },
     "ST": {
       "days": {
@@ -12816,7 +12816,7 @@
           ]
         },
         "2026-11-12": {
-          "documents": 13,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12836,19 +12836,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 330,
-              "netSales": 330,
-              "cost": 160.5,
-              "grossProfit": 169.5,
-              "quantity": 3
+              "sales": 570,
+              "netSales": 570,
+              "cost": 286,
+              "grossProfit": 284,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 478,
-              "netSales": 478,
+              "sales": 488,
+              "netSales": 488,
               "cost": 54.1,
-              "grossProfit": 423.9,
-              "quantity": 70
+              "grossProfit": 433.9,
+              "quantity": 71
             }
           ],
           "items": [
@@ -12881,6 +12881,16 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -12956,11 +12966,21 @@
               "category": "foreman_item",
               "itemCode": "POFPRKN",
               "itemName": "OIL FILTER PERODUA 00R01",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 0,
               "netSales": 0,
-              "cost": 7.5,
-              "grossProfit": -7.5
+              "cost": 15,
+              "grossProfit": -15
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL0W20Q9000",
+              "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT ENG OIL",
+              "quantity": 1,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 118,
+              "grossProfit": 122
             },
             {
               "category": "foreman_item",
@@ -13016,7 +13036,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:26:31.897Z"
+      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
     },
     "SK": {
       "days": {
@@ -15312,8 +15332,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T09:26:31.897Z"
+      "lastCollectedAt": "2026-11-12T09:32:04.301Z"
     }
   },
-  "updatedAt": "2026-11-12T09:26:31.897Z"
+  "updatedAt": "2026-11-12T09:32:04.301Z"
 }
