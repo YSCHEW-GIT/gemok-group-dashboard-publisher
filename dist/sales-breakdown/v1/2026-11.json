@@ -4280,10 +4280,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4462,
-              "netSales": 4462,
+              "sales": 4457,
+              "netSales": 4457,
               "cost": 3954,
-              "grossProfit": 508,
+              "grossProfit": 503,
               "quantity": 18
             },
             {
@@ -4296,11 +4296,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 315,
-              "netSales": 315,
-              "cost": 407.4,
-              "grossProfit": -92.4,
-              "quantity": 3
+              "sales": 435,
+              "netSales": 435,
+              "cost": 440.4,
+              "grossProfit": -5.4,
+              "quantity": 5
             },
             {
               "key": "other",
@@ -4427,10 +4427,30 @@
               "itemCode": "TPAT205516XS86-26",
               "itemName": "ATLANDER 205/55/16 XSPORT-86 BSW 91W (2026)",
               "quantity": 2,
-              "sales": 370,
-              "netSales": 370,
+              "sales": 365,
+              "netSales": 365,
               "cost": 330,
-              "grossProfit": 40
+              "grossProfit": 35
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAFTYTNCP93",
+              "itemName": "TOYOTA AIR FILTER VIOS NCP93 (21050)",
+              "quantity": 1,
+              "sales": 65,
+              "netSales": 65,
+              "cost": 16,
+              "grossProfit": 49
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAFCTYTNCP93",
+              "itemName": "CABIN AIRCOND FILTER TYT VIOS NCP93 / CAMRY (87139-30040)",
+              "quantity": 1,
+              "sales": 55,
+              "netSales": 55,
+              "cost": 17,
+              "grossProfit": 38
             },
             {
               "category": "foreman_item",
@@ -4486,7 +4506,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:41:08.435Z"
+      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
     },
     "SR": {
       "days": {
@@ -8404,10 +8424,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5008,
-              "netSales": 5008,
+              "sales": 5078,
+              "netSales": 5078,
               "cost": 4638.9,
-              "grossProfit": 369.1,
+              "grossProfit": 439.1,
               "quantity": 30
             },
             {
@@ -8428,10 +8448,10 @@
             },
             {
               "key": "other",
-              "sales": 2032,
-              "netSales": 2032,
+              "sales": 1962,
+              "netSales": 1962,
               "cost": 1064.6,
-              "grossProfit": 967.4,
+              "grossProfit": 897.4,
               "quantity": 91
             }
           ],
@@ -8551,30 +8571,30 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 38,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 832,
-              "netSales": 832,
+              "sales": 902,
+              "netSales": 902,
               "cost": 924,
-              "grossProfit": -92
+              "grossProfit": -22
             },
             {
               "category": "passenger_tire",
@@ -8780,7 +8800,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:41:08.435Z"
+      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
     },
     "ST": {
       "days": {
@@ -12916,7 +12936,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:41:08.435Z"
+      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
     },
     "SK": {
       "days": {
@@ -15192,8 +15212,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:41:08.435Z"
+      "lastCollectedAt": "2026-11-12T07:46:39.477Z"
     }
   },
-  "updatedAt": "2026-11-12T07:41:08.435Z"
+  "updatedAt": "2026-11-12T07:46:39.477Z"
 }
