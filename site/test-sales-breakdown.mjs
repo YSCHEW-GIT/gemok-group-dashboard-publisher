@@ -18,7 +18,7 @@ assert.match(html, /\.store-focus-donut-label \{[^}]*background:transparent;/, "
 assert.match(html, /const percentage = total \? Math\.round\(ratio \* 100\) : 0;/, "Donut percentage labels must calculate a zero value when sales are zero");
 assert.match(html, /if \(percentage > 0\) donutLabels\.push/, "Zero-percent donut labels must not be rendered");
 assert.match(html, /const midAngle = \(start \+ position\) \/ 2 \* 3\.6 - 90/, "Each percentage label must convert its category midpoint from percent to degrees");
-assert.match(html, /Math\.cos\(angle\) \* 27/, "Percentage labels must sit inside the donut on each segment's radial center line");
+assert.match(html, /Math\.cos\(angle\) \* 27/, "Percentage labels must sit inside the enlarged donut on each segment's radial center line");
 assert.match(html, /<small>\$\{copy\.salesRM\}<\/small><strong>\$\{focusAmount\(data\.totals\.sales\)\}/, "Donut center must show RM in the label and omit it from the amount");
 assert.match(html, /store-focus-category-margin/, "Category cards must display gross margin");
 assert.match(html, /id="store-focus-item-search"/, "Item details must provide keyword search");
