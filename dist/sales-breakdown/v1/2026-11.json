@@ -4486,7 +4486,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
+      "lastCollectedAt": "2026-11-12T07:35:37.417Z"
     },
     "SR": {
       "days": {
@@ -8400,15 +8400,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4908,
-              "netSales": 4908,
+              "sales": 5008,
+              "netSales": 5008,
               "cost": 4638.9,
-              "grossProfit": 269.1,
-              "quantity": 28
+              "grossProfit": 369.1,
+              "quantity": 30
             },
             {
               "key": "sport_rim",
@@ -8428,14 +8428,24 @@
             },
             {
               "key": "other",
-              "sales": 2082,
-              "netSales": 2082,
+              "sales": 2102,
+              "netSales": 2102,
               "cost": 1064.6,
-              "grossProfit": 1017.4,
-              "quantity": 89
+              "grossProfit": 1037.4,
+              "quantity": 91
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR176514",
+              "itemName": "USED TAYAR 175/65/14 911",
+              "quantity": 2,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 0,
+              "grossProfit": 100
+            },
             {
               "category": "sport_rim",
               "itemCode": "US2616514",
@@ -8550,11 +8560,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 36,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 38,
+              "sales": 140,
+              "netSales": 140,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 140
             },
             {
               "category": "passenger_tire",
@@ -8770,7 +8780,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
+      "lastCollectedAt": "2026-11-12T07:35:37.417Z"
     },
     "ST": {
       "days": {
@@ -12906,7 +12916,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
+      "lastCollectedAt": "2026-11-12T07:35:37.417Z"
     },
     "SK": {
       "days": {
@@ -15182,8 +15192,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T07:28:06.195Z"
+      "lastCollectedAt": "2026-11-12T07:35:37.417Z"
     }
   },
-  "updatedAt": "2026-11-12T07:28:06.195Z"
+  "updatedAt": "2026-11-12T07:35:37.417Z"
 }
