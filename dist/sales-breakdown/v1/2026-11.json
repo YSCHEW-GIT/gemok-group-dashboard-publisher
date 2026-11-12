@@ -4276,15 +4276,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2672,
-              "netSales": 2672,
-              "cost": 2424,
-              "grossProfit": 248,
-              "quantity": 12
+              "sales": 3802,
+              "netSales": 3802,
+              "cost": 3624,
+              "grossProfit": 178,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 550,
-              "netSales": 515.22,
-              "cost": 13.2,
-              "grossProfit": 502.02,
-              "quantity": 42
+              "sales": 640,
+              "netSales": 601.52,
+              "cost": 19.8,
+              "grossProfit": 581.72,
+              "quantity": 47
             }
           ],
           "items": [
@@ -4316,11 +4316,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 3,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 4,
+              "sales": 150,
+              "netSales": 138.9,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 138.9
             },
             {
               "category": "other",
@@ -4394,6 +4394,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPMC224018PS5-26",
+              "itemName": "MICHELIN 225/40/18 PILOT SPORT 5 92Y TH (2026)",
+              "quantity": 2,
+              "sales": 1130,
+              "netSales": 1130,
+              "cost": 1200,
+              "grossProfit": -70
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGM22401892Y",
               "itemName": "GRIPMAX 225/40/18 SUPERGRIP PRO SPORT 92Y XL TH (2026)",
               "quantity": 4,
@@ -4416,17 +4426,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
+      "lastCollectedAt": "2026-11-12T05:06:11.973Z"
     },
     "SR": {
       "days": {
@@ -8670,7 +8680,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
+      "lastCollectedAt": "2026-11-12T05:06:11.973Z"
     },
     "ST": {
       "days": {
@@ -12620,10 +12630,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1194,
-              "netSales": 1194,
+              "sales": 1294,
+              "netSales": 1294,
               "cost": 1196,
-              "grossProfit": -2,
+              "grossProfit": 98,
               "quantity": 8
             },
             {
@@ -12644,10 +12654,10 @@
             },
             {
               "key": "other",
-              "sales": 377,
-              "netSales": 377,
+              "sales": 277,
+              "netSales": 277,
               "cost": 10.7,
-              "grossProfit": 366.3,
+              "grossProfit": 266.3,
               "quantity": 26
             }
           ],
@@ -12657,40 +12667,40 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 176,
-              "netSales": 176,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": 4
+              "grossProfit": 54
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 2,
-              "sales": 378,
-              "netSales": 378,
+              "sales": 428,
+              "netSales": 428,
               "cost": 392,
-              "grossProfit": -14
+              "grossProfit": 36
             },
             {
               "category": "passenger_tire",
@@ -12756,7 +12766,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
+      "lastCollectedAt": "2026-11-12T05:06:11.973Z"
     },
     "SK": {
       "days": {
@@ -15002,8 +15012,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T05:00:41.301Z"
+      "lastCollectedAt": "2026-11-12T05:06:11.973Z"
     }
   },
-  "updatedAt": "2026-11-12T05:00:41.301Z"
+  "updatedAt": "2026-11-12T05:06:11.973Z"
 }
