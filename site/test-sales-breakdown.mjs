@@ -32,11 +32,11 @@ assert.match(html, /Number\(row\.grossMarginRate\) < 0 \? 'store-focus-negative'
 assert.match(html, /Number\(data\.totals\.grossMarginRate\) < 0 \? 'store-focus-negative'/, "Negative total gross margin must be red");
 assert.match(html, /\.store-focus-search \{[^}]*grid-template-columns:max-content minmax\(0,1fr\)/, "Product keyword label and input must be side by side");
 
-assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \\}\\)\\}M/, "Inventory million totals must use two decimal places");
-assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \\}\\)\\}K/, "Inventory thousand totals must use two decimal places");
-assert.match(html, /return inventoryGroups\\[key\\]\\?\\.name \\|\\| key;/, "Inventory breakdown names must use the WEBMAX product group name");
-assert.doesNotMatch(html, /filter\\(\\(group\\) => group\\.value !== 0\\)\\.sort\\(\\(a,b\\) => b\\.value - a\\.value\\)/, "Inventory breakdown must not sort groups by value");
-assert.match(html, /inventoryValueGroupColor\\(group\\.key\\)/, "Inventory breakdown colors must be fixed by product group key");
+assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \}\)\}M/, "Inventory million totals must use two decimal places");
+assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \}\)\}K/, "Inventory thousand totals must use two decimal places");
+assert.match(html, /return inventoryGroups\[key\]\?\.name \|\| key;/, "Inventory breakdown names must use the WEBMAX product group name");
+assert.doesNotMatch(html, /filter\(\(group\) => group\.value !== 0\)\.sort\(\(a,b\) => b\.value - a\.value\)/, "Inventory breakdown must not sort groups by value");
+assert.match(html, /inventoryValueGroupColor\(group\.key\)/, "Inventory breakdown colors must be fixed by product group key");
 assert.match(html, /const inventoryValueOtherColor = '#94a3b8';/, "Aggregated Other must retain a dedicated color");
 
 const directory = "dist/sales-breakdown/v1";
