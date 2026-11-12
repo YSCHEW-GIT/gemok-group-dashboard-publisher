@@ -4396,7 +4396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:50:32.039Z"
+      "lastCollectedAt": "2026-11-12T03:56:02.621Z"
     },
     "SR": {
       "days": {
@@ -8322,11 +8322,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 827,
-              "netSales": 827,
-              "cost": 801,
+              "sales": 576,
+              "netSales": 576,
+              "cost": 550,
               "grossProfit": 26,
-              "quantity": 1
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -8364,6 +8364,16 @@
               "sales": -200,
               "netSales": -200,
               "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617164",
+              "itemName": "USED SPORT RIM 15X6.5 4X100",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": -251,
               "grossProfit": 0
             },
             {
@@ -8550,7 +8560,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T03:50:32.039Z"
+      "lastCollectedAt": "2026-11-12T03:56:02.621Z"
     },
     "ST": {
       "days": {
@@ -14567,5 +14577,5 @@
       "lastCollectedAt": "2026-11-10T15:53:44.600Z"
     }
   },
-  "updatedAt": "2026-11-12T03:50:32.039Z"
+  "updatedAt": "2026-11-12T03:56:02.621Z"
 }
