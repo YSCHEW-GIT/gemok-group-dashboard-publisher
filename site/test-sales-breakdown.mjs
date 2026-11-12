@@ -35,7 +35,8 @@ assert.match(html, /\.store-focus-search \{[^}]*grid-template-columns:max-conten
 assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \}\)\}M/, "Inventory million totals must use two decimal places");
 assert.match(html, /minimumFractionDigits:2, maximumFractionDigits:2 \}\)\}K/, "Inventory thousand totals must use two decimal places");
 assert.match(html, /return inventoryGroups\[key\]\?\.name \|\| key;/, "Inventory breakdown names must use the WEBMAX product group name");
-assert.match(html, /filter\(\(group\) => group\.value !== 0\)\.sort\(\(a,b\) => b\.value - a\.value\)/, "Inventory breakdown must sort groups by descending value");
+assert.match(html, /sort\(\(a,b\) => \(Number\(b\.value\) \|\| 0\) - \(Number\(a\.value\) \|\| 0\)/, "Inventory breakdown must sort groups by descending numeric value");
+assert.match(html, /inventoryValueGroups\.scrollTop = 0;/, "Store changes must reset the breakdown list to its highest-value row");
 assert.match(html, /positiveGroups\.slice\(0,8\)/, "Inventory donut must display the eight highest-value groups");
 assert.match(html, /positiveGroups\.slice\(8\)/, "Inventory donut must aggregate groups after the top eight into Other");
 assert.match(html, /inventoryValueGroupColor\(group\.key\)/, "Inventory breakdown colors must be fixed by product group key");
