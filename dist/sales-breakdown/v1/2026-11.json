@@ -4276,15 +4276,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4507,
-              "netSales": 4507,
-              "cost": 3954,
-              "grossProfit": 553,
-              "quantity": 18
+              "sales": 5299,
+              "netSales": 5299,
+              "cost": 4874,
+              "grossProfit": 425,
+              "quantity": 22
             },
             {
               "key": "sport_rim",
@@ -4304,11 +4304,11 @@
             },
             {
               "key": "other",
-              "sales": 540,
-              "netSales": 517.06,
-              "cost": 30.1,
-              "grossProfit": 486.96,
-              "quantity": 54
+              "sales": 650,
+              "netSales": 621.88,
+              "cost": 36.7,
+              "grossProfit": 585.18,
+              "quantity": 63
             }
           ],
           "items": [
@@ -4336,11 +4336,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 30,
+              "sales": 140,
+              "netSales": 129.64,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -4366,11 +4366,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 5,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
@@ -4381,6 +4381,16 @@
               "netSales": 46.3,
               "cost": 0,
               "grossProfit": 46.3
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 920,
+              "grossProfit": -128
             },
             {
               "category": "passenger_tire",
@@ -4486,11 +4496,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 14,
-              "sales": 140,
-              "netSales": 140,
-              "cost": 23.1,
-              "grossProfit": 116.9
+              "quantity": 18,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 29.7,
+              "grossProfit": 150.3
             },
             {
               "category": "other",
@@ -4506,7 +4516,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T08:08:44.118Z"
+      "lastCollectedAt": "2026-11-12T08:14:15.601Z"
     },
     "SR": {
       "days": {
@@ -8810,7 +8820,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T08:08:44.118Z"
+      "lastCollectedAt": "2026-11-12T08:14:15.601Z"
     },
     "ST": {
       "days": {
@@ -12956,7 +12966,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T08:08:44.118Z"
+      "lastCollectedAt": "2026-11-12T08:14:15.601Z"
     },
     "SK": {
       "days": {
@@ -15232,8 +15242,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T08:08:44.118Z"
+      "lastCollectedAt": "2026-11-12T08:14:15.601Z"
     }
   },
-  "updatedAt": "2026-11-12T08:08:44.118Z"
+  "updatedAt": "2026-11-12T08:14:15.601Z"
 }
