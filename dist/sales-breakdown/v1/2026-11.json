@@ -4280,10 +4280,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6293,
-              "netSales": 6293,
+              "sales": 6343,
+              "netSales": 6343,
               "cost": 5743.2,
-              "grossProfit": 549.8,
+              "grossProfit": 599.8,
               "quantity": 30
             },
             {
@@ -4304,10 +4304,10 @@
             },
             {
               "key": "other",
-              "sales": 654,
-              "netSales": 626.62,
+              "sales": 604,
+              "netSales": 580.32,
               "cost": 38,
-              "grossProfit": 588.62,
+              "grossProfit": 542.32,
               "quantity": 77
             }
           ],
@@ -4337,10 +4337,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 38,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -4367,10 +4367,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 60,
-              "netSales": 55.56,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -4407,10 +4407,10 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 6,
-              "sales": 538,
-              "netSales": 538,
+              "sales": 588,
+              "netSales": 588,
               "cost": 456,
-              "grossProfit": 82
+              "grossProfit": 132
             },
             {
               "category": "passenger_tire",
@@ -4556,7 +4556,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:27:33.141Z"
+      "lastCollectedAt": "2026-11-12T10:33:03.803Z"
     },
     "SR": {
       "days": {
@@ -8470,15 +8470,15 @@
           ]
         },
         "2026-11-12": {
-          "documents": 26,
+          "documents": 27,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6350,
-              "netSales": 6350,
-              "cost": 5835.9,
-              "grossProfit": 514.1,
-              "quantity": 37
+              "sales": 6766,
+              "netSales": 6766,
+              "cost": 6297.9,
+              "grossProfit": 468.1,
+              "quantity": 39
             },
             {
               "key": "sport_rim",
@@ -8498,11 +8498,11 @@
             },
             {
               "key": "other",
-              "sales": 2272,
-              "netSales": 2272,
+              "sales": 2292,
+              "netSales": 2292,
               "cost": 1121.2,
-              "grossProfit": 1150.8,
-              "quantity": 118
+              "grossProfit": 1170.8,
+              "quantity": 120
             }
           ],
           "items": [
@@ -8620,11 +8620,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 52,
-              "sales": 180,
-              "netSales": 180,
+              "quantity": 54,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -8650,11 +8650,11 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
-              "quantity": 4,
-              "sales": 902,
-              "netSales": 902,
-              "cost": 924,
-              "grossProfit": -22
+              "quantity": 6,
+              "sales": 1318,
+              "netSales": 1318,
+              "cost": 1386,
+              "grossProfit": -68
             },
             {
               "category": "passenger_tire",
@@ -8890,7 +8890,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:27:33.141Z"
+      "lastCollectedAt": "2026-11-12T10:33:03.803Z"
     },
     "ST": {
       "days": {
@@ -13066,7 +13066,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:27:33.141Z"
+      "lastCollectedAt": "2026-11-12T10:33:03.803Z"
     },
     "SK": {
       "days": {
@@ -15362,8 +15362,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T10:27:33.141Z"
+      "lastCollectedAt": "2026-11-12T10:33:03.803Z"
     }
   },
-  "updatedAt": "2026-11-12T10:27:33.141Z"
+  "updatedAt": "2026-11-12T10:33:03.803Z"
 }
