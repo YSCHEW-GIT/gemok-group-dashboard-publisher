@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-12T08:40:08.292Z",
+  "updatedAt": "2026-11-12T09:46:04.132Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 233,
-      "quantity": 2299,
-      "stockValue": 455721.88
+      "sku": 234,
+      "quantity": 2326,
+      "stockValue": 460627.88
     },
     {
       "key": "sport-rim",
@@ -45,9 +45,9 @@
     {
       "key": "adj-absorber",
       "name": "Adj Absorber",
-      "sku": 74,
-      "quantity": 151,
-      "stockValue": 113500.18
+      "sku": 75,
+      "quantity": 155,
+      "stockValue": 116146.18
     },
     {
       "key": "spring",
@@ -81,22 +81,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2218,
-      "stockValue": 167205.50999999998
+      "quantity": 2216,
+      "stockValue": 166901.50999999998
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 175,
-      "stockValue": 1612.5
+      "quantity": 174,
+      "stockValue": 1605
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 635,
-      "quantity": 2948.5,
-      "stockValue": 101580.14999999997
+      "quantity": 2947.5,
+      "stockValue": 101575.64999999997
     },
     {
       "key": "battery",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 10009,
-      "stockValue": 58301.41999999999
+      "quantity": 10003,
+      "stockValue": 58297.51999999999
     },
     {
       "key": "non-stock-item",
@@ -267,9 +267,18 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH",
+      "name": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 10,
+          "cost": 132,
+          "price": 140
+        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -278,6 +287,25 @@
           "quantity": 8,
           "cost": 132,
           "price": 160
+        }
+      ]
+    },
+    {
+      "code": "TPAT185516X76-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 185/55/16 XSPORT-76 83V TL TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 153,
+          "price": 170
         }
       ]
     },
@@ -379,7 +407,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 145,
           "price": 0
         }
@@ -455,7 +483,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 1,
+          "quantity": 4,
           "cost": 150,
           "price": 0
         }
@@ -563,6 +591,15 @@
       "name": "ATLANDER 205/55/16 XSPORT-86 BSW 91W (2026)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 165,
+          "price": 0
+        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -2671,7 +2708,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 12,
           "cost": 157,
           "price": 0
         },
@@ -3083,7 +3120,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 14,
           "cost": 200,
           "price": 0
         },
@@ -3300,7 +3337,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 276,
           "price": 0
         }
@@ -4793,7 +4830,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 47,
+          "quantity": 45,
           "cost": 85,
           "price": 0
         },
@@ -4820,7 +4857,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 11,
           "cost": 86,
           "price": 88
         }
@@ -5063,7 +5100,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 235,
+          "cost": 223,
           "price": 268
         }
       ]
@@ -13999,6 +14036,25 @@
       ]
     },
     {
+      "code": "PADHXMYVI17",
+      "groupKey": "adj-absorber",
+      "groupName": "Adj Absorber",
+      "brand": "",
+      "name": "HYPERMAX ADJ ABSORBER MYVI 17/18 HILOW BODY SHIFT F/R",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 917,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "PADHXPERSONA",
       "groupKey": "adj-absorber",
       "groupName": "Adj Absorber",
@@ -14163,7 +14219,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 406,
           "price": 0
         }
@@ -18897,7 +18953,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 10,
           "cost": 118,
           "price": 240
         }
@@ -19185,7 +19241,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 25,
+          "quantity": 24,
           "cost": 186,
           "price": 300
         },
@@ -20376,7 +20432,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 7.5,
           "price": 25
         }
@@ -29806,7 +29862,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 27,
           "cost": 4.5,
           "price": 20
         }
@@ -53857,7 +53913,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 629,
+          "quantity": 623,
           "cost": 0.65,
           "price": 7
         }
