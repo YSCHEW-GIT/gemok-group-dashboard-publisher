@@ -4555,14 +4555,14 @@
           ]
         },
         "2026-11-13": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1788.05,
-              "netSales": 1788.05,
+              "sales": 2160.66,
+              "netSales": 2160.66,
               "cost": 2354,
-              "grossProfit": -565.95,
+              "grossProfit": -193.34,
               "quantity": 14
             },
             {
@@ -4575,19 +4575,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 431.78,
-              "netSales": 431.78,
-              "cost": 378.35,
-              "grossProfit": 53.43,
-              "quantity": 5
+              "sales": 604.6,
+              "netSales": 604.6,
+              "cost": 406.35,
+              "grossProfit": 198.25,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 350.17,
-              "netSales": 330.19,
-              "cost": 23.1,
-              "grossProfit": 307.09,
-              "quantity": 33
+              "sales": 459.74,
+              "netSales": 443.46,
+              "cost": 33.1,
+              "grossProfit": 410.36,
+              "quantity": 37
             }
           ],
           "items": [
@@ -4596,60 +4596,60 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 102.96,
-              "netSales": 94.08,
+              "sales": 89.94,
+              "netSales": 83.28,
               "cost": 0,
-              "grossProfit": 94.08
+              "grossProfit": 83.28
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 120.12,
-              "netSales": 109.76,
+              "sales": 119.94,
+              "netSales": 111.06,
               "cost": 0,
-              "grossProfit": 109.76
+              "grossProfit": 111.06
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 8.58,
-              "netSales": 7.84,
+              "sales": 9.99,
+              "netSales": 9.25,
               "cost": 0,
-              "grossProfit": 7.84
+              "grossProfit": 9.25
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 4,
-              "sales": 670.52,
-              "netSales": 670.52,
+              "sales": 791.51,
+              "netSales": 791.51,
               "cost": 920,
-              "grossProfit": -249.48
+              "grossProfit": -128.49
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 6,
-              "sales": 447.01,
-              "netSales": 447.01,
+              "sales": 577.64,
+              "netSales": 577.64,
               "cost": 510,
-              "grossProfit": -62.99
+              "grossProfit": 67.64
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
-              "sales": 670.52,
-              "netSales": 670.52,
+              "sales": 791.51,
+              "netSales": 791.51,
               "cost": 924,
-              "grossProfit": -253.48
+              "grossProfit": -132.49
             },
             {
               "category": "foreman_item",
@@ -4666,56 +4666,76 @@
               "itemCode": "PAFBEZZA1.3",
               "itemName": "AIR FILTER BEZZA/MYVI 1.3 17801-BZ130",
               "quantity": 1,
-              "sales": 46.56,
-              "netSales": 46.56,
+              "sales": 49.97,
+              "netSales": 49.97,
               "cost": 13,
-              "grossProfit": 33.56
+              "grossProfit": 36.97
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCMYVI",
               "itemName": "CABIN AIRCOND FILTER ALZA/AXIA/MYVI LAGI BEST",
               "quantity": 1,
-              "sales": 38.1,
-              "netSales": 38.1,
+              "sales": 44.97,
+              "netSales": 44.97,
               "cost": 5.5,
-              "grossProfit": 32.6
+              "grossProfit": 39.47
             },
             {
               "category": "foreman_item",
               "itemCode": "OEHX10W40Q7000",
               "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
               "quantity": 1,
-              "sales": 160.86,
-              "netSales": 160.86,
+              "sales": 199.88,
+              "netSales": 199.88,
               "cost": 157.1,
-              "grossProfit": 3.76
+              "grossProfit": 42.78
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 89.94,
+              "netSales": 89.94,
+              "cost": 28,
+              "grossProfit": 61.94
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 14,
-              "sales": 118.51,
-              "netSales": 118.51,
+              "sales": 139.93,
+              "netSales": 139.93,
               "cost": 23.1,
-              "grossProfit": 95.41
+              "grossProfit": 116.83
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 4,
+              "sales": 99.94,
+              "netSales": 99.94,
+              "cost": 10,
+              "grossProfit": 89.94
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 186.26,
-              "netSales": 186.26,
+              "sales": 219.84,
+              "netSales": 219.84,
               "cost": 196.25,
-              "grossProfit": -9.99
+              "grossProfit": 23.59
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:32:50.066Z"
+      "lastCollectedAt": "2026-11-13T02:38:20.607Z"
     },
     "SR": {
       "days": {
@@ -9148,7 +9168,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:32:50.066Z"
+      "lastCollectedAt": "2026-11-13T02:38:20.607Z"
     },
     "ST": {
       "days": {
@@ -15623,5 +15643,5 @@
       "lastCollectedAt": "2026-11-12T15:58:19.577Z"
     }
   },
-  "updatedAt": "2026-11-13T02:32:50.066Z"
+  "updatedAt": "2026-11-13T02:38:20.607Z"
 }
