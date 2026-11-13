@@ -4945,7 +4945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:07:43.541Z"
+      "lastCollectedAt": "2026-11-13T08:13:13.945Z"
     },
     "SR": {
       "days": {
@@ -9278,7 +9278,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 9,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9306,11 +9306,11 @@
             },
             {
               "key": "other",
-              "sales": 450,
-              "netSales": 450,
+              "sales": 490,
+              "netSales": 490,
               "cost": 131.6,
-              "grossProfit": 318.4,
-              "quantity": 30
+              "grossProfit": 358.4,
+              "quantity": 32
             }
           ],
           "items": [
@@ -9318,11 +9318,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 7,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 180
             },
             {
               "category": "other",
@@ -9343,6 +9343,16 @@
               "netSales": 240,
               "cost": 0,
               "grossProfit": 240
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -9418,7 +9428,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:07:43.541Z"
+      "lastCollectedAt": "2026-11-13T08:13:13.945Z"
     },
     "ST": {
       "days": {
@@ -13593,15 +13603,15 @@
           ]
         },
         "2026-11-13": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3468,
-              "netSales": 3468,
-              "cost": 3420,
-              "grossProfit": 48,
-              "quantity": 18
+              "sales": 3780,
+              "netSales": 3780,
+              "cost": 3728,
+              "grossProfit": 52,
+              "quantity": 22
             },
             {
               "key": "sport_rim",
@@ -13621,11 +13631,11 @@
             },
             {
               "key": "other",
-              "sales": 1882,
-              "netSales": 1882,
-              "cost": 686.4,
-              "grossProfit": 1195.6,
-              "quantity": 51
+              "sales": 1980,
+              "netSales": 1980,
+              "cost": 689,
+              "grossProfit": 1291,
+              "quantity": 60
             }
           ],
           "items": [
@@ -13643,21 +13653,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 6,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 180
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 160,
-              "netSales": 160,
+              "quantity": 22,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -13697,6 +13707,16 @@
               "sales": 176,
               "netSales": 176,
               "cost": 172,
+              "grossProfit": 4
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 312,
+              "netSales": 312,
+              "cost": 308,
               "grossProfit": 4
             },
             {
@@ -13793,11 +13813,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 6,
-              "sales": 42,
-              "netSales": 42,
-              "cost": 3.9,
-              "grossProfit": 38.1
+              "quantity": 10,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 6.5,
+              "grossProfit": 63.5
             },
             {
               "category": "other",
@@ -13843,7 +13863,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:07:43.541Z"
+      "lastCollectedAt": "2026-11-13T08:13:13.945Z"
     },
     "SK": {
       "days": {
@@ -16338,8 +16358,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:07:43.541Z"
+      "lastCollectedAt": "2026-11-13T08:13:13.945Z"
     }
   },
-  "updatedAt": "2026-11-13T08:07:43.541Z"
+  "updatedAt": "2026-11-13T08:13:13.945Z"
 }
