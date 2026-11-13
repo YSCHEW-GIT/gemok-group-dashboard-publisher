@@ -4555,14 +4555,14 @@
           ]
         },
         "2026-11-13": {
-          "documents": 25,
+          "documents": 26,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9907.85,
-              "netSales": 9907.85,
+              "sales": 9907.88,
+              "netSales": 9907.88,
               "cost": 9354,
-              "grossProfit": 553.85,
+              "grossProfit": 553.88,
               "quantity": 56
             },
             {
@@ -4575,19 +4575,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2897.66,
-              "netSales": 2897.66,
+              "sales": 2897.64,
+              "netSales": 2897.64,
               "cost": 1575.35,
-              "grossProfit": 1322.31,
+              "grossProfit": 1322.29,
               "quantity": 23
             },
             {
               "key": "other",
-              "sales": 1138.07,
-              "netSales": 1128.52,
+              "sales": 1148.06,
+              "netSales": 1137.77,
               "cost": 184.28,
-              "grossProfit": 944.24,
-              "quantity": 182
+              "grossProfit": 953.49,
+              "quantity": 183
             }
           ],
           "items": [
@@ -4645,11 +4645,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 4,
-              "sales": 39.96,
-              "netSales": 37,
+              "quantity": 5,
+              "sales": 49.95,
+              "netSales": 46.25,
               "cost": 0,
-              "grossProfit": 37
+              "grossProfit": 46.25
             },
             {
               "category": "other",
@@ -4686,10 +4686,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 16,
-              "sales": 1604.67,
-              "netSales": 1604.67,
+              "sales": 1604.69,
+              "netSales": 1604.69,
               "cost": 1360,
-              "grossProfit": 244.67
+              "grossProfit": 244.69
             },
             {
               "category": "passenger_tire",
@@ -4706,10 +4706,10 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 225.81,
-              "netSales": 225.81,
+              "sales": 225.82,
+              "netSales": 225.82,
               "cost": 170,
-              "grossProfit": 55.81
+              "grossProfit": 55.82
             },
             {
               "category": "passenger_tire",
@@ -4976,16 +4976,16 @@
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.86,
-              "netSales": 219.86,
+              "sales": 219.84,
+              "netSales": 219.84,
               "cost": 196.25,
-              "grossProfit": 23.61
+              "grossProfit": 23.59
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:41:14.085Z"
+      "lastCollectedAt": "2026-11-13T10:51:43.926Z"
     },
     "SR": {
       "days": {
@@ -9478,7 +9478,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:41:14.085Z"
+      "lastCollectedAt": "2026-11-13T10:51:43.926Z"
     },
     "ST": {
       "days": {
@@ -13681,11 +13681,11 @@
             },
             {
               "key": "other",
-              "sales": 1600,
-              "netSales": 1600,
+              "sales": 1590,
+              "netSales": 1590,
               "cost": 689,
-              "grossProfit": 911,
-              "quantity": 61
+              "grossProfit": 901,
+              "quantity": 60
             }
           ],
           "items": [
@@ -13743,11 +13743,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -13933,7 +13933,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:41:14.085Z"
+      "lastCollectedAt": "2026-11-13T10:51:43.926Z"
     },
     "SK": {
       "days": {
@@ -16438,8 +16438,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:41:14.085Z"
+      "lastCollectedAt": "2026-11-13T10:51:43.926Z"
     }
   },
-  "updatedAt": "2026-11-13T10:41:14.085Z"
+  "updatedAt": "2026-11-13T10:51:43.926Z"
 }
