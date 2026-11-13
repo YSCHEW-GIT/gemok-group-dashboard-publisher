@@ -4945,7 +4945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T07:56:40.737Z"
+      "lastCollectedAt": "2026-11-13T08:02:12.150Z"
     },
     "SR": {
       "days": {
@@ -9418,7 +9418,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T07:56:40.737Z"
+      "lastCollectedAt": "2026-11-13T08:02:12.150Z"
     },
     "ST": {
       "days": {
@@ -13843,7 +13843,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T07:56:40.737Z"
+      "lastCollectedAt": "2026-11-13T08:02:12.150Z"
     },
     "SK": {
       "days": {
@@ -16158,11 +16158,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 360,
-              "netSales": 360,
-              "cost": 0,
-              "grossProfit": 360,
-              "quantity": 3
+              "sales": 600,
+              "netSales": 600,
+              "cost": 235,
+              "grossProfit": 365,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -16265,6 +16265,36 @@
               "grossProfit": 4
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK26110015",
+              "itemName": "LABOUR PUMP BEARING/BUSH",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 35,
+              "grossProfit": -35
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110016",
+              "itemName": "LABOUR PUMP",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 55,
+              "grossProfit": -55
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110017",
+              "itemName": "HONDA CVTF GEAR OIL",
+              "quantity": 1,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 145,
+              "grossProfit": 95
+            },
+            {
               "category": "other",
               "itemCode": "MNCPR12V",
               "itemName": "CAMBER NUT PROTON (17MM)",
@@ -16308,8 +16338,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T07:56:40.737Z"
+      "lastCollectedAt": "2026-11-13T08:02:12.150Z"
     }
   },
-  "updatedAt": "2026-11-13T07:56:40.737Z"
+  "updatedAt": "2026-11-13T08:02:12.150Z"
 }
