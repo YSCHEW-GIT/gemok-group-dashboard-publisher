@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-13T09:44:30.319Z",
+  "updatedAt": "2026-11-13T10:50:13.471Z",
   "stores": [
     {
       "code": "SI",
@@ -25,15 +25,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 235,
-      "quantity": 2253,
-      "stockValue": 449234.78
+      "quantity": 2251,
+      "stockValue": 448862.78
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 338,
-      "quantity": 654,
-      "stockValue": 347837.02
+      "sku": 341,
+      "quantity": 660,
+      "stockValue": 352837.02
     },
     {
       "key": "absorber",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 9862,
-      "stockValue": 58001.240000000005
+      "quantity": 9860,
+      "stockValue": 57997.94
     },
     {
       "key": "non-stock-item",
@@ -343,7 +343,7 @@
           "location": "",
           "quantity": 4,
           "cost": 138,
-          "price": 0
+          "price": 150
         }
       ]
     },
@@ -3101,7 +3101,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 8,
           "cost": 186,
           "price": 158
         }
@@ -9506,6 +9506,25 @@
       ]
     },
     {
+      "code": "SR1541-DG-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 4X100 ET40 DARK GOLD -TE37",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 820,
+          "price": 588
+        }
+      ]
+    },
+    {
       "code": "SR1541-DHB-CE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -9539,6 +9558,25 @@
           "location": "",
           "quantity": 1,
           "cost": 750,
+          "price": 588
+        }
+      ]
+    },
+    {
+      "code": "SR1541ET28-DG-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 4X100 ET28 DARK GOLD -TE37",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 860,
           "price": 588
         }
       ]
@@ -10821,6 +10859,25 @@
           "location": "",
           "quantity": 1,
           "cost": 720,
+          "price": 588
+        }
+      ]
+    },
+    {
+      "code": "SR1581-DG-RE30",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7 8X100/114 ET35 DARK GOLD RX-RE30",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 820,
           "price": 588
         }
       ]
@@ -54026,7 +54083,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 465,
+          "quantity": 463,
           "cost": 1.65,
           "price": 10
         },
