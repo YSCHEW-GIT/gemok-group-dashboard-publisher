@@ -4905,7 +4905,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:35:22.694Z"
+      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
     },
     "SR": {
       "days": {
@@ -9238,7 +9238,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9266,11 +9266,11 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 320,
+              "netSales": 320,
               "cost": 81.6,
-              "grossProfit": 168.4,
-              "quantity": 18
+              "grossProfit": 238.4,
+              "quantity": 23
             }
           ],
           "items": [
@@ -9278,21 +9278,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 10,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -9368,7 +9368,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:35:22.694Z"
+      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
     },
     "ST": {
       "days": {
@@ -13743,7 +13743,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:35:22.694Z"
+      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
     },
     "SK": {
       "days": {
@@ -16188,8 +16188,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:35:22.694Z"
+      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
     }
   },
-  "updatedAt": "2026-11-13T06:35:22.694Z"
+  "updatedAt": "2026-11-13T06:40:53.798Z"
 }
