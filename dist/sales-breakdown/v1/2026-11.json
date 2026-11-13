@@ -4559,10 +4559,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8943.36,
-              "netSales": 8943.36,
+              "sales": 9013.31,
+              "netSales": 9013.31,
               "cost": 8642,
-              "grossProfit": 301.36,
+              "grossProfit": 371.31,
               "quantity": 50
             },
             {
@@ -4575,19 +4575,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2897.83,
-              "netSales": 2897.83,
+              "sales": 2897.85,
+              "netSales": 2897.85,
               "cost": 1575.35,
-              "grossProfit": 1322.48,
+              "grossProfit": 1322.5,
               "quantity": 23
             },
             {
               "key": "other",
-              "sales": 1438.98,
-              "netSales": 1405.68,
+              "sales": 1388.01,
+              "netSales": 1358.48,
               "cost": 180.98,
-              "grossProfit": 1224.7,
-              "quantity": 176
+              "grossProfit": 1177.5,
+              "quantity": 177
             }
           ],
           "items": [
@@ -4626,10 +4626,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 58,
-              "sales": 199.86,
-              "netSales": 185.06,
+              "sales": 179.87,
+              "netSales": 166.55,
               "cost": 0,
-              "grossProfit": 185.06
+              "grossProfit": 166.55
             },
             {
               "category": "other",
@@ -4646,10 +4646,20 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 89.94,
-              "netSales": 83.28,
+              "sales": 39.97,
+              "netSales": 37.01,
               "cost": 0,
-              "grossProfit": 83.28
+              "grossProfit": 37.01
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 18.99,
+              "netSales": 17.58,
+              "cost": 0,
+              "grossProfit": 17.58
             },
             {
               "category": "passenger_tire",
@@ -4706,10 +4716,10 @@
               "itemCode": "TPTY235018CR1-26",
               "itemName": "TOYO 235/50/18 PROXES CR1 101W MY (2026)",
               "quantity": 2,
-              "sales": 899.33,
-              "netSales": 899.33,
+              "sales": 969.28,
+              "netSales": 969.28,
               "cost": 886,
-              "grossProfit": 13.33
+              "grossProfit": 83.28
             },
             {
               "category": "passenger_tire",
@@ -4856,10 +4866,10 @@
               "itemCode": "NSKABSKYB",
               "itemName": "KYB RS ULTRA ABSORBER PRD MYVI 18 FRT LH/RH",
               "quantity": 2,
-              "sales": 599.55,
-              "netSales": 599.55,
+              "sales": 599.56,
+              "netSales": 599.56,
               "cost": 370,
-              "grossProfit": 229.55
+              "grossProfit": 229.56
             },
             {
               "category": "foreman_item",
@@ -4956,16 +4966,16 @@
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.83,
-              "netSales": 219.83,
+              "sales": 219.84,
+              "netSales": 219.84,
               "cost": 196.25,
-              "grossProfit": 23.58
+              "grossProfit": 23.59
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:18:55.123Z"
+      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
     },
     "SR": {
       "days": {
@@ -9448,7 +9458,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:18:55.123Z"
+      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
     },
     "ST": {
       "days": {
@@ -13903,7 +13913,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:18:55.123Z"
+      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
     },
     "SK": {
       "days": {
@@ -16398,8 +16408,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:18:55.123Z"
+      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
     }
   },
-  "updatedAt": "2026-11-13T09:18:55.123Z"
+  "updatedAt": "2026-11-13T09:24:25.568Z"
 }
