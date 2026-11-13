@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-13T08:38:51.862Z",
+  "updatedAt": "2026-11-13T09:44:30.319Z",
   "stores": [
     {
       "code": "SI",
@@ -25,15 +25,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 235,
-      "quantity": 2257,
-      "stockValue": 449574.78
+      "quantity": 2253,
+      "stockValue": 449234.78
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 339,
-      "quantity": 658,
-      "stockValue": 348527.02
+      "sku": 338,
+      "quantity": 654,
+      "stockValue": 347837.02
     },
     {
       "key": "absorber",
@@ -129,9 +129,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 763,
-      "quantity": 2036,
-      "stockValue": 174756.5
+      "sku": 764,
+      "quantity": 2037,
+      "stockValue": 175056.5
     },
     {
       "key": "used-tayar",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 9868,
-      "stockValue": 58011.14000000001
+      "quantity": 9862,
+      "stockValue": 58001.240000000005
     },
     {
       "key": "non-stock-item",
@@ -4867,7 +4867,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 85,
           "price": 0
         },
@@ -8837,25 +8837,6 @@
           "quantity": 1,
           "cost": 720,
           "price": 588
-        }
-      ]
-    },
-    {
-      "code": "SIMPPB1541SSRC",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 4X100 ET40 PIANO BLACK SSRC",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 172.5,
-          "price": 0
         }
       ]
     },
@@ -48098,6 +48079,25 @@
       ]
     },
     {
+      "code": "US2620862",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -54026,7 +54026,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 471,
+          "quantity": 465,
           "cost": 1.65,
           "price": 10
         },
