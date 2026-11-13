@@ -4945,7 +4945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
+      "lastCollectedAt": "2026-11-13T08:40:17.439Z"
     },
     "SR": {
       "days": {
@@ -9428,7 +9428,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
+      "lastCollectedAt": "2026-11-13T08:40:17.439Z"
     },
     "ST": {
       "days": {
@@ -13623,11 +13623,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 925,
-              "netSales": 925,
-              "cost": 375.5,
-              "grossProfit": 549.5,
-              "quantity": 9
+              "sales": 993,
+              "netSales": 993,
+              "cost": 407.5,
+              "grossProfit": 585.5,
+              "quantity": 10
             },
             {
               "key": "other",
@@ -13860,6 +13860,16 @@
               "grossProfit": 88
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC0046FPLT",
+              "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
+              "quantity": 1,
+              "sales": 68,
+              "netSales": 68,
+              "cost": 32,
+              "grossProfit": 36
+            },
+            {
               "category": "other",
               "itemCode": "HPRCADJMYVI",
               "itemName": "D2 ADJUSTABLE MYVI 2018 BODY SHIFT FRT/REAR",
@@ -13873,7 +13883,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
+      "lastCollectedAt": "2026-11-13T08:40:17.439Z"
     },
     "SK": {
       "days": {
@@ -16168,15 +16178,15 @@
           ]
         },
         "2026-11-13": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1356,
-              "netSales": 1356,
-              "cost": 1217.6,
-              "grossProfit": 138.4,
-              "quantity": 9
+              "sales": 1652,
+              "netSales": 1652,
+              "cost": 1559.6,
+              "grossProfit": 92.4,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -16196,11 +16206,11 @@
             },
             {
               "key": "other",
-              "sales": 495,
-              "netSales": 495,
-              "cost": 13.1,
-              "grossProfit": 481.9,
-              "quantity": 34
+              "sales": 615,
+              "netSales": 615,
+              "cost": 16.4,
+              "grossProfit": 598.6,
+              "quantity": 41
             }
           ],
           "items": [
@@ -16218,31 +16228,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 8,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 14,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 4,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 6,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 150
             },
             {
               "category": "foreman_item",
@@ -16288,11 +16298,11 @@
               "category": "passenger_tire",
               "itemCode": "TPGN195515ALTGS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V (2026)",
-              "quantity": 2,
-              "sales": 346,
-              "netSales": 346,
-              "cost": 342,
-              "grossProfit": 4
+              "quantity": 4,
+              "sales": 642,
+              "netSales": 642,
+              "cost": 684,
+              "grossProfit": -42
             },
             {
               "category": "foreman_item",
@@ -16348,11 +16358,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             },
             {
               "category": "other",
@@ -16368,8 +16378,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
+      "lastCollectedAt": "2026-11-13T08:40:17.439Z"
     }
   },
-  "updatedAt": "2026-11-13T08:29:46.849Z"
+  "updatedAt": "2026-11-13T08:40:17.439Z"
 }
