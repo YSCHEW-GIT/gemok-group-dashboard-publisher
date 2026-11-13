@@ -4885,7 +4885,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:46:53.461Z"
+      "lastCollectedAt": "2026-11-13T04:52:23.424Z"
     },
     "SR": {
       "days": {
@@ -9218,7 +9218,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9238,11 +9238,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 280,
-              "netSales": 280,
+              "sales": 340,
+              "netSales": 340,
               "cost": 35,
-              "grossProfit": 245,
-              "quantity": 3
+              "grossProfit": 305,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -9278,16 +9278,16 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 2,
-              "sales": 180,
-              "netSales": 180,
+              "quantity": 3,
+              "sales": 240,
+              "netSales": 240,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 240
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 3,
               "sales": 90,
               "netSales": 90,
@@ -9358,7 +9358,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:46:53.461Z"
+      "lastCollectedAt": "2026-11-13T04:52:23.424Z"
     },
     "ST": {
       "days": {
@@ -13682,7 +13682,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
               "sales": 28,
               "netSales": 28,
@@ -13723,7 +13723,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:46:53.461Z"
+      "lastCollectedAt": "2026-11-13T04:52:23.424Z"
     },
     "SK": {
       "days": {
@@ -16018,7 +16018,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16046,11 +16046,11 @@
             },
             {
               "key": "other",
-              "sales": 260,
-              "netSales": 260,
-              "cost": 6.8,
-              "grossProfit": 253.2,
-              "quantity": 15
+              "sales": 305,
+              "netSales": 305,
+              "cost": 9,
+              "grossProfit": 296,
+              "quantity": 16
             }
           ],
           "items": [
@@ -16133,13 +16133,23 @@
               "netSales": 40,
               "cost": 1.6,
               "grossProfit": 38.4
+            },
+            {
+              "category": "other",
+              "itemCode": "XLPTBP00",
+              "itemName": "LMS BP-00 TIRE PATCHES",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 2.2,
+              "grossProfit": 42.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:41:15.826Z"
+      "lastCollectedAt": "2026-11-13T04:52:23.424Z"
     }
   },
-  "updatedAt": "2026-11-13T04:46:53.461Z"
+  "updatedAt": "2026-11-13T04:52:23.424Z"
 }
