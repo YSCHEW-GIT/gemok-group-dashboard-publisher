@@ -4985,7 +4985,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:02:32.048Z"
+      "lastCollectedAt": "2026-11-13T10:08:04.599Z"
     },
     "SR": {
       "days": {
@@ -9478,7 +9478,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:02:32.048Z"
+      "lastCollectedAt": "2026-11-13T10:08:04.599Z"
     },
     "ST": {
       "days": {
@@ -13933,7 +13933,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:02:32.048Z"
+      "lastCollectedAt": "2026-11-13T10:08:04.599Z"
     },
     "SK": {
       "days": {
@@ -16228,7 +16228,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16256,11 +16256,11 @@
             },
             {
               "key": "other",
-              "sales": 515,
-              "netSales": 515,
+              "sales": 525,
+              "netSales": 525,
               "cost": 16.4,
-              "grossProfit": 498.6,
-              "quantity": 41
+              "grossProfit": 508.6,
+              "quantity": 42
             }
           ],
           "items": [
@@ -16313,6 +16313,16 @@
               "netSales": 360,
               "cost": 0,
               "grossProfit": 360
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "passenger_tire",
@@ -16428,8 +16438,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T10:02:32.048Z"
+      "lastCollectedAt": "2026-11-13T10:08:04.599Z"
     }
   },
-  "updatedAt": "2026-11-13T10:02:32.048Z"
+  "updatedAt": "2026-11-13T10:08:04.599Z"
 }
