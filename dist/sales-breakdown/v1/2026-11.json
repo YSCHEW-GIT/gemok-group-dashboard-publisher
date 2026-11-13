@@ -4555,7 +4555,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -4567,10 +4567,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 979.01,
-              "netSales": 979.01,
+              "sales": 979.02,
+              "netSales": 979.02,
               "cost": 750,
-              "grossProfit": 229.01,
+              "grossProfit": 229.02,
               "quantity": 1
             },
             {
@@ -4583,11 +4583,11 @@
             },
             {
               "key": "other",
-              "sales": 989.01,
-              "netSales": 977.17,
+              "sales": 999,
+              "netSales": 986.42,
               "cost": 154.58,
-              "grossProfit": 822.59,
-              "quantity": 131
+              "grossProfit": 831.84,
+              "quantity": 132
             }
           ],
           "items": [
@@ -4596,10 +4596,10 @@
               "itemCode": "SIMPCR1541TE37",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 CANDY RED-TE37",
               "quantity": 1,
-              "sales": 979.01,
-              "netSales": 979.01,
+              "sales": 979.02,
+              "netSales": 979.02,
               "cost": 750,
-              "grossProfit": 229.01
+              "grossProfit": 229.02
             },
             {
               "category": "other",
@@ -4625,11 +4625,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 19.98,
-              "netSales": 18.5,
+              "quantity": 3,
+              "sales": 29.97,
+              "netSales": 27.75,
               "cost": 0,
-              "grossProfit": 18.5
+              "grossProfit": 27.75
             },
             {
               "category": "passenger_tire",
@@ -4905,7 +4905,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
+      "lastCollectedAt": "2026-11-13T06:46:24.515Z"
     },
     "SR": {
       "days": {
@@ -9368,7 +9368,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
+      "lastCollectedAt": "2026-11-13T06:46:24.515Z"
     },
     "ST": {
       "days": {
@@ -13743,7 +13743,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
+      "lastCollectedAt": "2026-11-13T06:46:24.515Z"
     },
     "SK": {
       "days": {
@@ -16188,8 +16188,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T06:40:53.798Z"
+      "lastCollectedAt": "2026-11-13T06:46:24.515Z"
     }
   },
-  "updatedAt": "2026-11-13T06:40:53.798Z"
+  "updatedAt": "2026-11-13T06:46:24.515Z"
 }
