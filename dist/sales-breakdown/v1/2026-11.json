@@ -4745,7 +4745,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:54:54.498Z"
+      "lastCollectedAt": "2026-11-13T03:00:24.890Z"
     },
     "SR": {
       "days": {
@@ -9188,7 +9188,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:54:54.498Z"
+      "lastCollectedAt": "2026-11-13T03:00:24.890Z"
     },
     "ST": {
       "days": {
@@ -13363,14 +13363,14 @@
           ]
         },
         "2026-11-13": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1283.19,
-              "netSales": 1283.19,
+              "sales": 1304,
+              "netSales": 1304,
               "cost": 1400,
-              "grossProfit": -116.81,
+              "grossProfit": -96,
               "quantity": 8
             },
             {
@@ -13383,18 +13383,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 44.28,
-              "netSales": 44.28,
+              "sales": 45,
+              "netSales": 45,
               "cost": 5.5,
-              "grossProfit": 38.78,
+              "grossProfit": 39.5,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 1139.53,
-              "netSales": 1139.53,
+              "sales": 1158,
+              "netSales": 1158,
               "cost": 609.2,
-              "grossProfit": 530.33,
+              "grossProfit": 548.8,
               "quantity": 20
             }
           ],
@@ -13404,96 +13404,96 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 59.04,
-              "netSales": 59.04,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 59.04
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 78.72,
-              "netSales": 78.72,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 78.72
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 39.36,
-              "netSales": 39.36,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 39.36
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 779.36,
-              "netSales": 779.36,
+              "sales": 792,
+              "netSales": 792,
               "cost": 924,
-              "grossProfit": -144.64
+              "grossProfit": -132
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF185515TL",
               "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
               "quantity": 4,
-              "sales": 503.83,
-              "netSales": 503.83,
+              "sales": 512,
+              "netSales": 512,
               "cost": 476,
-              "grossProfit": 27.83
+              "grossProfit": 36
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCBALZA",
               "itemName": "CABIN AIR COND FILTER ALZA/BEZZA/AXIA /ARUZ CFP001",
               "quantity": 1,
-              "sales": 44.28,
-              "netSales": 44.28,
+              "sales": 45,
+              "netSales": 45,
               "cost": 5.5,
-              "grossProfit": 38.78
+              "grossProfit": 39.5
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 4,
-              "sales": 27.55,
-              "netSales": 27.55,
+              "sales": 28,
+              "netSales": 28,
               "cost": 2.6,
-              "grossProfit": 24.95
+              "grossProfit": 25.4
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 39.36,
-              "netSales": 39.36,
+              "sales": 40,
+              "netSales": 40,
               "cost": 6.6,
-              "grossProfit": 32.76
+              "grossProfit": 33.4
             },
             {
               "category": "other",
               "itemCode": "HPRCADJMYVI",
               "itemName": "HYPER RACING ADJ ABSORBER MYVI 18 F/R",
               "quantity": 1,
-              "sales": 895.5,
-              "netSales": 895.5,
+              "sales": 910,
+              "netSales": 910,
               "cost": 600,
-              "grossProfit": 295.5
+              "grossProfit": 310
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:54:54.498Z"
+      "lastCollectedAt": "2026-11-13T03:00:24.890Z"
     },
     "SK": {
       "days": {
@@ -15792,5 +15792,5 @@
       "lastCollectedAt": "2026-11-12T15:58:19.577Z"
     }
   },
-  "updatedAt": "2026-11-13T02:54:54.498Z"
+  "updatedAt": "2026-11-13T03:00:24.890Z"
 }
