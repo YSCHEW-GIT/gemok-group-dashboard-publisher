@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-13T06:27:49.669Z",
+  "updatedAt": "2026-11-13T07:33:00.450Z",
   "stores": [
     {
       "code": "SI",
@@ -24,16 +24,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 234,
-      "quantity": 2249,
-      "stockValue": 449169.38000000006
+      "sku": 235,
+      "quantity": 2247,
+      "stockValue": 448407.38000000006
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 339,
-      "quantity": 656,
-      "stockValue": 347083.02
+      "quantity": 658,
+      "stockValue": 348527.02
     },
     {
       "key": "absorber",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2212,
-      "stockValue": 166578.40999999997
+      "quantity": 2211,
+      "stockValue": 166550.40999999997
     },
     {
       "key": "oil-filter",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 9896,
-      "stockValue": 58103.74
+      "quantity": 9880,
+      "stockValue": 58030.64
     },
     {
       "key": "non-stock-item",
@@ -329,6 +329,25 @@
       ]
     },
     {
+      "code": "TPAT195015AX77-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 195/50/15 AX77 BSW 82V(2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 138,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "TPAT195016X86-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -456,9 +475,18 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "ATLANDER 205/45/16 XSPORT-86 BSW 87W XL (2026)",
+      "name": "ATLANDER 205/45/16 XSPORT 86 BSW 87W (2026)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 150,
+          "price": 168
+        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -744,25 +772,6 @@
       ]
     },
     {
-      "code": "TPAT216016X86-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "ATLANDER 215/60/16 XSPOR-86 BSW 95V (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 198,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "TPAT216016XS86-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -995,15 +1004,6 @@
           "quantity": 14,
           "cost": 219,
           "price": 218
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 219,
-          "price": 218
         }
       ]
     },
@@ -1142,7 +1142,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 18,
           "cost": 244,
           "price": 220
         },
@@ -1952,6 +1952,25 @@
       ]
     },
     {
+      "code": "TPDL176514R1-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "DUNLOP 175/65/14 SP TOURING R1 79V TH (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 6,
+          "cost": 137,
+          "price": 148
+        }
+      ]
+    },
+    {
       "code": "TPDL195016BLUE-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2482,7 +2501,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 119,
           "price": 128
         }
@@ -4941,7 +4960,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 32,
+          "quantity": 30,
           "cost": 85,
           "price": 0
         },
@@ -4968,7 +4987,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 26,
           "cost": 86,
           "price": 88
         }
@@ -10193,8 +10212,8 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 720,
+          "quantity": 4,
+          "cost": 721,
           "price": 0
         }
       ]
@@ -18305,7 +18324,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 13,
           "cost": 28,
           "price": 0
         },
@@ -51073,7 +51092,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 40,
           "price": 130
         }
@@ -52976,7 +52995,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 12,
           "price": 100
         }
@@ -53951,7 +53970,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 619,
+          "quantity": 617,
           "cost": 0.65,
           "price": 7
         }
@@ -53970,7 +53989,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 481,
+          "quantity": 473,
           "cost": 1.65,
           "price": 10
         },
@@ -53997,7 +54016,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 451,
+          "quantity": 447,
           "cost": 1.65,
           "price": 10
         }
