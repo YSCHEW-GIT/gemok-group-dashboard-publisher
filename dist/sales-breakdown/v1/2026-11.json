@@ -4624,7 +4624,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
               "sales": 791.51,
               "netSales": 791.51,
@@ -4735,7 +4735,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:43:50.962Z"
+      "lastCollectedAt": "2026-11-13T02:49:23.078Z"
     },
     "SR": {
       "days": {
@@ -9072,10 +9072,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 396,
-              "netSales": 396,
+              "sales": 466,
+              "netSales": 466,
               "cost": 470.4,
-              "grossProfit": -74.4,
+              "grossProfit": -4.4,
               "quantity": 4
             },
             {
@@ -9096,10 +9096,10 @@
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
+              "sales": 130,
+              "netSales": 130,
               "cost": 56.6,
-              "grossProfit": 143.4,
+              "grossProfit": 73.4,
               "quantity": 12
             }
           ],
@@ -9109,20 +9109,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -9149,10 +9149,10 @@
               "itemCode": "TPWL165514RP18-26",
               "itemName": "WEST LAKE 165/55/14 RP18 72V TH (2026)",
               "quantity": 4,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 466,
+              "netSales": 466,
               "cost": 470.4,
-              "grossProfit": -74.4
+              "grossProfit": -4.4
             },
             {
               "category": "foreman_item",
@@ -9178,7 +9178,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T02:43:50.962Z"
+      "lastCollectedAt": "2026-11-13T02:49:23.078Z"
     },
     "ST": {
       "days": {
@@ -13351,10 +13351,129 @@
               "grossProfit": 83.5
             }
           ]
+        },
+        "2026-11-13": {
+          "documents": 2,
+          "categories": [
+            {
+              "key": "passenger_tire",
+              "sales": 1304,
+              "netSales": 1304,
+              "cost": 1400,
+              "grossProfit": -96,
+              "quantity": 8
+            },
+            {
+              "key": "sport_rim",
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0,
+              "quantity": 0
+            },
+            {
+              "key": "foreman_item",
+              "sales": 45,
+              "netSales": 45,
+              "cost": 5.5,
+              "grossProfit": 39.5,
+              "quantity": 1
+            },
+            {
+              "key": "other",
+              "sales": 1118,
+              "netSales": 1118,
+              "cost": 609.2,
+              "grossProfit": 508.8,
+              "quantity": 19
+            }
+          ],
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 0,
+              "grossProfit": 80
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 924,
+              "grossProfit": -132
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF185515TL",
+              "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 476,
+              "grossProfit": 36
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAFCBALZA",
+              "itemName": "CABIN AIR COND FILTER ALZA/BEZZA/AXIA /ARUZ CFP001",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 5.5,
+              "grossProfit": 39.5
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "other",
+              "itemCode": "HPRCADJMYVI",
+              "itemName": "HYPER RACING ADJ ABSORBER MYVI 18 F/R",
+              "quantity": 1,
+              "sales": 910,
+              "netSales": 910,
+              "cost": 600,
+              "grossProfit": 310
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-12T13:58:29.374Z"
+      "lastCollectedAt": "2026-11-13T02:49:23.078Z"
     },
     "SK": {
       "days": {
@@ -15653,5 +15772,5 @@
       "lastCollectedAt": "2026-11-12T15:58:19.577Z"
     }
   },
-  "updatedAt": "2026-11-13T02:43:50.962Z"
+  "updatedAt": "2026-11-13T02:49:23.078Z"
 }
