@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-13T05:21:44.619Z",
+  "updatedAt": "2026-11-13T06:27:49.669Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 235,
-      "quantity": 2257,
-      "stockValue": 450989.38000000006
+      "sku": 234,
+      "quantity": 2249,
+      "stockValue": 449169.38000000006
     },
     {
       "key": "sport-rim",
@@ -81,8 +81,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 92,
-      "quantity": 2213,
-      "stockValue": 166634.40999999997
+      "quantity": 2212,
+      "stockValue": 166578.40999999997
     },
     {
       "key": "oil-filter",
@@ -101,9 +101,9 @@
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 50,
-      "quantity": 85,
-      "stockValue": 18733.78
+      "sku": 51,
+      "quantity": 87,
+      "stockValue": 19293.78
     },
     {
       "key": "flap",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 9904,
-      "stockValue": 58114.44
+      "quantity": 9896,
+      "stockValue": 58103.74
     },
     {
       "key": "non-stock-item",
@@ -2191,7 +2191,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 171,
           "price": 148
         }
@@ -2410,25 +2410,6 @@
           "quantity": 4,
           "cost": 450,
           "price": 450
-        }
-      ]
-    },
-    {
-      "code": "TPGY215017ID-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "GOODYEAR 215/50/17 ASSURANCE MAXGUARD SUV 95H (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 367,
-          "price": 420
         }
       ]
     },
@@ -3092,7 +3073,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 10,
           "cost": 186,
           "price": 158
         }
@@ -19429,7 +19410,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 10,
           "cost": 56,
           "price": 0
         },
@@ -33192,6 +33173,25 @@
           "company": "G Tayar",
           "location": "",
           "quantity": 3,
+          "cost": 280,
+          "price": 230
+        }
+      ]
+    },
+    {
+      "code": "BAMGMF60R",
+      "groupKey": "battery",
+      "groupName": "Battery",
+      "brand": "",
+      "name": "AMARON GO BATTERY (NS60R ST) 55B24R",
+      "spec": "52",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SK",
+          "company": "G Tayar",
+          "location": "",
+          "quantity": 2,
           "cost": 280,
           "price": 230
         }
@@ -53933,7 +53933,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 316,
+          "quantity": 314,
           "cost": 0.4,
           "price": 10
         },
@@ -53970,7 +53970,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 485,
+          "quantity": 481,
           "cost": 1.65,
           "price": 10
         },
@@ -53997,7 +53997,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 453,
+          "quantity": 451,
           "cost": 1.65,
           "price": 10
         }
