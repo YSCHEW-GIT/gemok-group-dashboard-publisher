@@ -4555,14 +4555,14 @@
           ]
         },
         "2026-11-13": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5181.17,
-              "netSales": 5181.17,
+              "sales": 5371,
+              "netSales": 5371,
               "cost": 5392,
-              "grossProfit": -210.83,
+              "grossProfit": -21,
               "quantity": 34
             },
             {
@@ -4575,19 +4575,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2337.83,
-              "netSales": 2337.83,
+              "sales": 2337.84,
+              "netSales": 2337.84,
               "cost": 1296.35,
-              "grossProfit": 1041.48,
+              "grossProfit": 1041.49,
               "quantity": 18
             },
             {
               "key": "other",
-              "sales": 1178.91,
-              "netSales": 1150.05,
+              "sales": 999.07,
+              "netSales": 983.53,
               "cost": 147.98,
-              "grossProfit": 1002.07,
-              "quantity": 121
+              "grossProfit": 835.55,
+              "quantity": 122
             }
           ],
           "items": [
@@ -4606,40 +4606,40 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 179.82,
-              "netSales": 166.5,
+              "sales": 89.91,
+              "netSales": 83.25,
               "cost": 0,
-              "grossProfit": 166.5
+              "grossProfit": 83.25
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 34,
-              "sales": 199.84,
-              "netSales": 185.04,
+              "sales": 99.92,
+              "netSales": 92.52,
               "cost": 0,
-              "grossProfit": 185.04
+              "grossProfit": 92.52
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 9.99,
-              "netSales": 9.25,
+              "quantity": 2,
+              "sales": 19.98,
+              "netSales": 18.5,
               "cost": 0,
-              "grossProfit": 9.25
+              "grossProfit": 18.5
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 12,
-              "sales": 2513.66,
-              "netSales": 2513.66,
+              "sales": 2583.6,
+              "netSales": 2583.6,
               "cost": 2760,
-              "grossProfit": -246.34
+              "grossProfit": -176.4
             },
             {
               "category": "passenger_tire",
@@ -4656,10 +4656,10 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 311.71,
-              "netSales": 311.71,
+              "sales": 381.64,
+              "netSales": 381.64,
               "cost": 304,
-              "grossProfit": 7.71
+              "grossProfit": 77.64
             },
             {
               "category": "passenger_tire",
@@ -4686,10 +4686,10 @@
               "itemCode": "TPAT185515AX77-26",
               "itemName": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
               "quantity": 2,
-              "sales": 255.76,
-              "netSales": 255.76,
+              "sales": 305.72,
+              "netSales": 305.72,
               "cost": 264,
-              "grossProfit": -8.24
+              "grossProfit": 41.72
             },
             {
               "category": "foreman_item",
@@ -4866,16 +4866,16 @@
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.8,
-              "netSales": 219.8,
+              "sales": 219.81,
+              "netSales": 219.81,
               "cost": 196.25,
-              "grossProfit": 23.55
+              "grossProfit": 23.56
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:24:07.045Z"
+      "lastCollectedAt": "2026-11-13T04:29:47.869Z"
     },
     "SR": {
       "days": {
@@ -9208,15 +9208,15 @@
           ]
         },
         "2026-11-13": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 466,
-              "netSales": 466,
-              "cost": 470.4,
-              "grossProfit": -4.4,
-              "quantity": 4
+              "sales": 1536,
+              "netSales": 1536,
+              "cost": 1421.4,
+              "grossProfit": 114.6,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
@@ -9236,11 +9236,11 @@
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
+              "sales": 270,
+              "netSales": 270,
               "cost": 81.6,
-              "grossProfit": 118.4,
-              "quantity": 15
+              "grossProfit": 188.4,
+              "quantity": 20
             }
           ],
           "items": [
@@ -9248,21 +9248,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 4,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 8,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -9305,6 +9305,26 @@
               "grossProfit": -4.4
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPLF185515TL",
+              "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
+              "quantity": 1,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 119,
+              "grossProfit": 31
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT215517XS86-26",
+              "itemName": "ATLANDER 215/55/17 XSPORT-86 BSW 98W XL (2026)",
+              "quantity": 4,
+              "sales": 920,
+              "netSales": 920,
+              "cost": 832,
+              "grossProfit": 88
+            },
+            {
               "category": "foreman_item",
               "itemCode": "NSR26110034",
               "itemName": "ASAHI TIE ROD END OUT R/L KANCIL.KENARI, KELISA, VIVA (SUSA)",
@@ -9328,7 +9348,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:24:07.045Z"
+      "lastCollectedAt": "2026-11-13T04:29:47.869Z"
     },
     "ST": {
       "days": {
@@ -13693,7 +13713,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:24:07.045Z"
+      "lastCollectedAt": "2026-11-13T04:29:47.869Z"
     },
     "SK": {
       "days": {
@@ -16108,8 +16128,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T04:24:07.045Z"
+      "lastCollectedAt": "2026-11-13T04:29:47.869Z"
     }
   },
-  "updatedAt": "2026-11-13T04:24:07.045Z"
+  "updatedAt": "2026-11-13T04:29:47.869Z"
 }
