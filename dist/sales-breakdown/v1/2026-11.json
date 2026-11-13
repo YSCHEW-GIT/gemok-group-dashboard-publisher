@@ -4945,7 +4945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:24:15.402Z"
+      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
     },
     "SR": {
       "days": {
@@ -9428,7 +9428,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:24:15.402Z"
+      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
     },
     "ST": {
       "days": {
@@ -13607,19 +13607,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4030,
-              "netSales": 4030,
+              "sales": 4100,
+              "netSales": 4100,
               "cost": 3728,
-              "grossProfit": 302,
+              "grossProfit": 372,
               "quantity": 22
             },
             {
               "key": "sport_rim",
               "sales": 588,
               "netSales": 588,
-              "cost": 721,
-              "grossProfit": -133,
-              "quantity": 1
+              "cost": 521,
+              "grossProfit": 67,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -13631,43 +13631,53 @@
             },
             {
               "key": "other",
-              "sales": 1730,
-              "netSales": 1730,
+              "sales": 1660,
+              "netSales": 1660,
               "cost": 689,
-              "grossProfit": 1041,
+              "grossProfit": 971,
               "quantity": 60
             }
           ],
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2611887",
+              "itemName": "USED SPORT RIM 15X7JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR157041-DHB-RE30",
               "itemName": "SPORT RIM 15X7.0 4X100 ET28 DARK HYPER BRONZE (RE30)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 721,
-              "grossProfit": -133
+              "grossProfit": 67
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -13744,10 +13754,10 @@
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 4,
-              "sales": 872,
-              "netSales": 872,
+              "sales": 942,
+              "netSales": 942,
               "cost": 876,
-              "grossProfit": -4
+              "grossProfit": 66
             },
             {
               "category": "foreman_item",
@@ -13863,7 +13873,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:24:15.402Z"
+      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
     },
     "SK": {
       "days": {
@@ -16358,8 +16368,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T08:24:15.402Z"
+      "lastCollectedAt": "2026-11-13T08:29:46.849Z"
     }
   },
-  "updatedAt": "2026-11-13T08:24:15.402Z"
+  "updatedAt": "2026-11-13T08:29:46.849Z"
 }
