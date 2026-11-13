@@ -4555,39 +4555,39 @@
           ]
         },
         "2026-11-13": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4303.31,
-              "netSales": 4303.31,
-              "cost": 4534,
-              "grossProfit": -230.69,
-              "quantity": 26
+              "sales": 4723.66,
+              "netSales": 4723.66,
+              "cost": 5128,
+              "grossProfit": -404.34,
+              "quantity": 32
             },
             {
               "key": "sport_rim",
-              "sales": 978.94,
-              "netSales": 978.94,
+              "sales": 938.99,
+              "netSales": 938.99,
               "cost": 750,
-              "grossProfit": 228.94,
+              "grossProfit": 188.99,
               "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 2122.69,
-              "netSales": 2122.69,
-              "cost": 1202.35,
-              "grossProfit": 920.34,
-              "quantity": 15
+              "sales": 2242.07,
+              "netSales": 2242.07,
+              "cost": 1296.35,
+              "grossProfit": 945.72,
+              "quantity": 18
             },
             {
               "key": "other",
-              "sales": 889.06,
-              "netSales": 872.78,
-              "cost": 128.18,
-              "grossProfit": 744.6,
-              "quantity": 98
+              "sales": 1026.28,
+              "netSales": 1001.12,
+              "cost": 138.08,
+              "grossProfit": 863.04,
+              "quantity": 112
             }
           ],
           "items": [
@@ -4596,246 +4596,276 @@
               "itemCode": "SIMPCR1541TE37",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 CANDY RED-TE37",
               "quantity": 1,
-              "sales": 978.94,
-              "netSales": 978.94,
+              "sales": 938.99,
+              "netSales": 938.99,
               "cost": 750,
-              "grossProfit": 228.94
+              "grossProfit": 188.99
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 89.91,
-              "netSales": 83.25,
+              "quantity": 9,
+              "sales": 144.2,
+              "netSales": 133.1,
               "cost": 0,
-              "grossProfit": 83.25
+              "grossProfit": 133.1
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 119.88,
-              "netSales": 111,
+              "quantity": 32,
+              "sales": 173.02,
+              "netSales": 159.7,
               "cost": 0,
-              "grossProfit": 111
+              "grossProfit": 159.7
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.99,
-              "netSales": 9.25,
+              "sales": 9.61,
+              "netSales": 8.87,
               "cost": 0,
-              "grossProfit": 9.25
+              "grossProfit": 8.87
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 12,
-              "sales": 2513.26,
-              "netSales": 2513.26,
+              "sales": 2410.69,
+              "netSales": 2410.69,
               "cost": 2760,
-              "grossProfit": -246.74
+              "grossProfit": -349.31
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 10,
-              "sales": 998.91,
-              "netSales": 998.91,
+              "sales": 958.15,
+              "netSales": 958.15,
               "cost": 850,
-              "grossProfit": 148.91
+              "grossProfit": 108.15
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 298.94,
+              "netSales": 298.94,
+              "cost": 304,
+              "grossProfit": -5.06
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
-              "sales": 791.14,
-              "netSales": 791.14,
+              "sales": 758.85,
+              "netSales": 758.85,
               "cost": 924,
-              "grossProfit": -132.86
+              "grossProfit": -165.15
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT196015AX77-26",
+              "itemName": "ATLANDER 195/60/15 AX77 BSW 88V TH (2026)",
+              "quantity": 2,
+              "sales": 297.03,
+              "netSales": 297.03,
+              "cost": 290,
+              "grossProfit": 7.03
             },
             {
               "category": "foreman_item",
               "itemCode": "PADTSTCK060-P",
               "itemName": "THUNDERSTORM BRAKE PAD FRT PRD MYVI 18 TCK060-P",
               "quantity": 1,
-              "sales": 239.74,
-              "netSales": 239.74,
+              "sales": 229.96,
+              "netSales": 229.96,
               "cost": 120,
-              "grossProfit": 119.74
+              "grossProfit": 109.96
             },
             {
               "category": "foreman_item",
               "itemCode": "POFPRKN",
               "itemName": "PERODUA OIL FILTER",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 0,
               "netSales": 0,
-              "cost": 6.5,
-              "grossProfit": -6.5
+              "cost": 13,
+              "grossProfit": -13
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFBEZZA1.3",
               "itemName": "AIR FILTER BEZZA/MYVI 1.3 17801-BZ130",
               "quantity": 1,
-              "sales": 49.95,
-              "netSales": 49.95,
+              "sales": 47.91,
+              "netSales": 47.91,
               "cost": 13,
-              "grossProfit": 36.95
+              "grossProfit": 34.91
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCMYVI",
               "itemName": "CABIN AIRCOND FILTER ALZA/AXIA/MYVI LAGI BEST",
+              "quantity": 2,
+              "sales": 86.24,
+              "netSales": 86.24,
+              "cost": 11,
+              "grossProfit": 75.24
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W30Q5000",
+              "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 44.95,
-              "netSales": 44.95,
-              "cost": 5.5,
-              "grossProfit": 39.45
+              "sales": 162.89,
+              "netSales": 162.89,
+              "cost": 82,
+              "grossProfit": 80.89
             },
             {
               "category": "foreman_item",
               "itemCode": "OEHX10W40Q7000",
               "itemName": "HELIX HX7 4X4L 10W40 7000 SEMI SYTHENTIC ENG OIL",
               "quantity": 1,
-              "sales": 199.78,
-              "netSales": 199.78,
+              "sales": 191.63,
+              "netSales": 191.63,
               "cost": 157.1,
-              "grossProfit": 42.68
+              "grossProfit": 34.53
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
-              "sales": 89.9,
-              "netSales": 89.9,
+              "sales": 86.23,
+              "netSales": 86.23,
               "cost": 28,
-              "grossProfit": 61.9
+              "grossProfit": 58.23
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKABSCOVER",
               "itemName": "ABSORBER COVER FRT",
               "quantity": 2,
-              "sales": 99.89,
-              "netSales": 99.89,
+              "sales": 95.81,
+              "netSales": 95.81,
               "cost": 36,
-              "grossProfit": 63.89
+              "grossProfit": 59.81
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKABSKYB",
               "itemName": "KYB RS ULTRA ABSORBER PRD MYVI 18 FRT LH/RH",
               "quantity": 2,
-              "sales": 599.35,
-              "netSales": 599.35,
+              "sales": 574.89,
+              "netSales": 574.89,
               "cost": 370,
-              "grossProfit": 229.35
+              "grossProfit": 204.89
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKABSLINK",
               "itemName": "OEM ABS LINK FRT MYVI 18",
               "quantity": 2,
-              "sales": 179.8,
-              "netSales": 179.8,
+              "sales": 172.47,
+              "netSales": 172.47,
               "cost": 70,
-              "grossProfit": 109.8
+              "grossProfit": 102.47
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKLOWERARM",
               "itemName": "OSK LOWER ARM FRT LH/RH MYVI 18",
               "quantity": 2,
-              "sales": 399.57,
-              "netSales": 399.57,
+              "sales": 383.26,
+              "netSales": 383.26,
               "cost": 200,
-              "grossProfit": 199.57
+              "grossProfit": 183.26
             },
             {
               "category": "other",
               "itemCode": "MNRWRY150SVR",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 SILVER",
               "quantity": 20,
-              "sales": 119.87,
-              "netSales": 119.87,
+              "sales": 114.98,
+              "netSales": 114.98,
               "cost": 40,
-              "grossProfit": 79.87
+              "grossProfit": 74.98
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 18,
-              "sales": 179.82,
-              "netSales": 179.82,
-              "cost": 29.7,
-              "grossProfit": 150.12
+              "quantity": 24,
+              "sales": 229.97,
+              "netSales": 229.97,
+              "cost": 39.6,
+              "grossProfit": 190.37
             },
             {
               "category": "other",
               "itemCode": "MNCTYTALT",
               "itemName": "CAMBER NUT - TOYOTA ALTIS / VIOS / WISH NEW",
               "quantity": 2,
-              "sales": 89.9,
-              "netSales": 89.9,
+              "sales": 86.23,
+              "netSales": 86.23,
               "cost": 20,
-              "grossProfit": 69.9
+              "grossProfit": 66.23
             },
             {
               "category": "other",
               "itemCode": "MRC7354",
               "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
               "quantity": 4,
-              "sales": 99.89,
-              "netSales": 99.89,
+              "sales": 95.81,
+              "netSales": 95.81,
               "cost": 10,
-              "grossProfit": 89.89
+              "grossProfit": 85.81
             },
             {
               "category": "other",
               "itemCode": "MNWSH150",
               "itemName": "WHEEL NUT SMALL HEAD 1.50 CHROME",
               "quantity": 16,
-              "sales": 79.91,
-              "netSales": 79.91,
+              "sales": 76.65,
+              "netSales": 76.65,
               "cost": 16.48,
-              "grossProfit": 63.43
+              "grossProfit": 60.17
             },
             {
               "category": "other",
               "itemCode": "MRC7356",
               "itemName": "RINGCONE 7356(CH4) - SAGA BLM WIRA HONDA FIT CIVIC JAZZ PUTRA",
               "quantity": 4,
-              "sales": 99.89,
-              "netSales": 99.89,
+              "sales": 95.81,
+              "netSales": 95.81,
               "cost": 12,
-              "grossProfit": 87.89
+              "grossProfit": 83.81
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.76,
-              "netSales": 219.76,
+              "sales": 210.78,
+              "netSales": 210.78,
               "cost": 196.25,
-              "grossProfit": 23.51
+              "grossProfit": 14.53
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T03:41:24.617Z"
+      "lastCollectedAt": "2026-11-13T03:46:55.956Z"
     },
     "SR": {
       "days": {
@@ -9288,7 +9318,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T03:41:24.617Z"
+      "lastCollectedAt": "2026-11-13T03:46:55.956Z"
     },
     "ST": {
       "days": {
@@ -13633,7 +13663,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T03:41:24.617Z"
+      "lastCollectedAt": "2026-11-13T03:46:55.956Z"
     },
     "SK": {
       "days": {
@@ -15932,5 +15962,5 @@
       "lastCollectedAt": "2026-11-12T15:58:19.577Z"
     }
   },
-  "updatedAt": "2026-11-13T03:41:24.617Z"
+  "updatedAt": "2026-11-13T03:46:55.956Z"
 }
