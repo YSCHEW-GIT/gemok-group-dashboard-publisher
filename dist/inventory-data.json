@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-13T04:16:43.492Z",
+  "updatedAt": "2026-11-13T05:21:44.619Z",
   "stores": [
     {
       "code": "SI",
@@ -24,9 +24,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 234,
-      "quantity": 2260,
-      "stockValue": 450714.38000000006
+      "sku": 235,
+      "quantity": 2257,
+      "stockValue": 450989.38000000006
     },
     {
       "key": "sport-rim",
@@ -101,9 +101,9 @@
     {
       "key": "battery",
       "name": "Battery",
-      "sku": 48,
-      "quantity": 83,
-      "stockValue": 18270.12
+      "sku": 50,
+      "quantity": 85,
+      "stockValue": 18733.78
     },
     {
       "key": "flap",
@@ -144,8 +144,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 258,
-      "quantity": 9909,
-      "stockValue": 58126.939999999995
+      "quantity": 9904,
+      "stockValue": 58114.44
     },
     {
       "key": "non-stock-item",
@@ -2414,6 +2414,25 @@
       ]
     },
     {
+      "code": "TPGY215017ID-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "GOODYEAR 215/50/17 ASSURANCE MAXGUARD SUV 95H (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 367,
+          "price": 420
+        }
+      ]
+    },
+    {
       "code": "TPHK195515K435",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -2473,7 +2492,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 22,
           "cost": 119,
           "price": 128
         },
@@ -4830,7 +4849,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 10,
           "cost": 85,
           "price": 0
         },
@@ -33540,6 +33559,25 @@
       ]
     },
     {
+      "code": "BCWM42R",
+      "groupKey": "battery",
+      "groupName": "Battery",
+      "brand": "",
+      "name": "CWORKS BATTERY EFB M42R 60B20R",
+      "spec": "79",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 266.75,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "BCWNS40ZL",
       "groupKey": "battery",
       "groupName": "Battery",
@@ -33583,6 +33621,25 @@
       "groupName": "Battery",
       "brand": "",
       "name": "CWORKS BATTERY NS60LST 55B24L",
+      "spec": "79",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 196.91,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "BCWNS60RS",
+      "groupKey": "battery",
+      "groupName": "Battery",
+      "brand": "",
+      "name": "CWORKS BATTERY NS60RS 55B24RS",
       "spec": "79",
       "stockRows": [
         {
@@ -50146,7 +50203,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 69,
+          "quantity": 67,
           "cost": 3.5,
           "price": 35
         }
@@ -53913,7 +53970,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 487,
+          "quantity": 485,
           "cost": 1.65,
           "price": 10
         },
@@ -54290,7 +54347,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 40,
+          "quantity": 39,
           "cost": 2.2,
           "price": 0
         }
