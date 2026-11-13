@@ -4559,10 +4559,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9093.25,
-              "netSales": 9093.25,
+              "sales": 9143.21,
+              "netSales": 9143.21,
               "cost": 8642,
-              "grossProfit": 451.25,
+              "grossProfit": 501.21,
               "quantity": 50
             },
             {
@@ -4575,18 +4575,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2897.85,
-              "netSales": 2897.85,
+              "sales": 2897.86,
+              "netSales": 2897.86,
               "cost": 1575.35,
-              "grossProfit": 1322.5,
+              "grossProfit": 1322.51,
               "quantity": 23
             },
             {
               "key": "other",
-              "sales": 1308.07,
-              "netSales": 1284.46,
+              "sales": 1258.1,
+              "netSales": 1238.19,
               "cost": 180.98,
-              "grossProfit": 1103.48,
+              "grossProfit": 1057.21,
               "quantity": 177
             }
           ],
@@ -4616,20 +4616,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 16,
-              "sales": 119.92,
-              "netSales": 111.04,
+              "sales": 89.94,
+              "netSales": 83.28,
               "cost": 0,
-              "grossProfit": 111.04
+              "grossProfit": 83.28
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 58,
-              "sales": 139.9,
-              "netSales": 129.54,
+              "sales": 119.91,
+              "netSales": 111.03,
               "cost": 0,
-              "grossProfit": 129.54
+              "grossProfit": 111.03
             },
             {
               "category": "other",
@@ -4676,10 +4676,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 12,
-              "sales": 1175.13,
-              "netSales": 1175.13,
+              "sales": 1225.09,
+              "netSales": 1225.09,
               "cost": 1020,
-              "grossProfit": 155.13
+              "grossProfit": 205.09
             },
             {
               "category": "passenger_tire",
@@ -4966,16 +4966,16 @@
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.84,
-              "netSales": 219.84,
+              "sales": 219.85,
+              "netSales": 219.85,
               "cost": 196.25,
-              "grossProfit": 23.59
+              "grossProfit": 23.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
+      "lastCollectedAt": "2026-11-13T09:35:28.608Z"
     },
     "SR": {
       "days": {
@@ -9308,7 +9308,7 @@
           ]
         },
         "2026-11-13": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9336,11 +9336,11 @@
             },
             {
               "key": "other",
-              "sales": 540,
-              "netSales": 540,
+              "sales": 550,
+              "netSales": 550,
               "cost": 156.6,
-              "grossProfit": 383.4,
-              "quantity": 35
+              "grossProfit": 393.4,
+              "quantity": 36
             }
           ],
           "items": [
@@ -9388,11 +9388,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -9468,7 +9468,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
+      "lastCollectedAt": "2026-11-13T09:35:28.608Z"
     },
     "ST": {
       "days": {
@@ -13923,7 +13923,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
+      "lastCollectedAt": "2026-11-13T09:35:28.608Z"
     },
     "SK": {
       "days": {
@@ -16418,8 +16418,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
+      "lastCollectedAt": "2026-11-13T09:35:28.608Z"
     }
   },
-  "updatedAt": "2026-11-13T09:29:56.891Z"
+  "updatedAt": "2026-11-13T09:35:28.608Z"
 }
