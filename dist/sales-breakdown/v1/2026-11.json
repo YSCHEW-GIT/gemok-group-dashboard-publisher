@@ -4559,10 +4559,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9013.31,
-              "netSales": 9013.31,
+              "sales": 9093.25,
+              "netSales": 9093.25,
               "cost": 8642,
-              "grossProfit": 371.31,
+              "grossProfit": 451.25,
               "quantity": 50
             },
             {
@@ -4583,10 +4583,10 @@
             },
             {
               "key": "other",
-              "sales": 1388.01,
-              "netSales": 1358.48,
+              "sales": 1308.07,
+              "netSales": 1284.46,
               "cost": 180.98,
-              "grossProfit": 1177.5,
+              "grossProfit": 1103.48,
               "quantity": 177
             }
           ],
@@ -4626,10 +4626,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 58,
-              "sales": 179.87,
-              "netSales": 166.55,
+              "sales": 139.9,
+              "netSales": 129.54,
               "cost": 0,
-              "grossProfit": 166.55
+              "grossProfit": 129.54
             },
             {
               "category": "other",
@@ -4646,10 +4646,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 39.97,
-              "netSales": 37.01,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 37.01
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -4766,10 +4766,10 @@
               "itemCode": "TPAT216016X86-26",
               "itemName": "ATLANDER 215/60/16 XSPOR-86 BSW 95V (2026)",
               "quantity": 4,
-              "sales": 919.32,
-              "netSales": 919.32,
+              "sales": 999.26,
+              "netSales": 999.26,
               "cost": 792,
-              "grossProfit": 127.32
+              "grossProfit": 207.26
             },
             {
               "category": "foreman_item",
@@ -4975,7 +4975,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
+      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
     },
     "SR": {
       "days": {
@@ -9308,15 +9308,15 @@
           ]
         },
         "2026-11-13": {
-          "documents": 11,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 616,
-              "netSales": 616,
+              "sales": 656,
+              "netSales": 656,
               "cost": 589.4,
-              "grossProfit": 26.6,
-              "quantity": 5
+              "grossProfit": 66.6,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -9336,14 +9336,24 @@
             },
             {
               "key": "other",
-              "sales": 530,
-              "netSales": 530,
+              "sales": 540,
+              "netSales": 540,
               "cost": 156.6,
-              "grossProfit": 373.4,
-              "quantity": 34
+              "grossProfit": 383.4,
+              "quantity": 35
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR185515",
+              "itemName": "USED TAYAR 185/55/15 -911",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -9378,11 +9388,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -9458,7 +9468,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
+      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
     },
     "ST": {
       "days": {
@@ -13913,7 +13923,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
+      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
     },
     "SK": {
       "days": {
@@ -16408,8 +16418,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-13T09:24:25.568Z"
+      "lastCollectedAt": "2026-11-13T09:29:56.891Z"
     }
   },
-  "updatedAt": "2026-11-13T09:24:25.568Z"
+  "updatedAt": "2026-11-13T09:29:56.891Z"
 }
