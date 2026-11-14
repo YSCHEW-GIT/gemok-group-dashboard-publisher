@@ -5144,7 +5144,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:41:32.909Z"
+      "lastCollectedAt": "2026-11-14T03:47:39.230Z"
     },
     "SR": {
       "days": {
@@ -9806,7 +9806,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:41:32.909Z"
+      "lastCollectedAt": "2026-11-14T03:47:39.230Z"
     },
     "ST": {
       "days": {
@@ -12744,7 +12744,7 @@
           ]
         },
         "2026-11-14": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12764,11 +12764,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 966,
-              "netSales": 966,
-              "cost": 438,
-              "grossProfit": 528,
-              "quantity": 7
+              "sales": 2986,
+              "netSales": 2986,
+              "cost": 1648,
+              "grossProfit": 1338,
+              "quantity": 9
             },
             {
               "key": "other",
@@ -12882,6 +12882,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKTRED",
+              "itemName": "TIE ROD END",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 110,
+              "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "POFTYTE2",
               "itemName": "OIL FILTER YZZE2 TOYOTA AE101",
               "quantity": 1,
@@ -12909,6 +12919,16 @@
               "netSales": 90,
               "cost": 28,
               "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK4326",
+              "itemName": "S.RACK (NEW) (ELEC)",
+              "quantity": 1,
+              "sales": 1900,
+              "netSales": 1900,
+              "cost": 1100,
+              "grossProfit": 800
             },
             {
               "category": "other",
@@ -14490,7 +14510,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:41:32.909Z"
+      "lastCollectedAt": "2026-11-14T03:47:39.230Z"
     },
     "SK": {
       "days": {
@@ -17134,7 +17154,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:41:32.909Z"
+      "lastCollectedAt": "2026-11-14T03:47:39.230Z"
     },
     "KM": {
       "days": {
@@ -17178,8 +17198,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:41:32.909Z"
+      "lastCollectedAt": "2026-11-14T03:47:39.230Z"
     }
   },
-  "updatedAt": "2026-11-14T03:41:32.909Z"
+  "updatedAt": "2026-11-14T03:47:39.230Z"
 }
