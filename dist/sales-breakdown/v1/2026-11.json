@@ -9477,15 +9477,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1092,
-              "netSales": 1092,
-              "cost": 1102,
-              "grossProfit": -10,
-              "quantity": 8
+              "sales": 1452,
+              "netSales": 1452,
+              "cost": 1426.8,
+              "grossProfit": 25.2,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -9505,11 +9505,11 @@
             },
             {
               "key": "other",
-              "sales": 260,
-              "netSales": 260,
-              "cost": 33.25,
-              "grossProfit": 226.75,
-              "quantity": 18
+              "sales": 310,
+              "netSales": 310,
+              "cost": 43.25,
+              "grossProfit": 266.75,
+              "quantity": 19
             }
           ],
           "items": [
@@ -9585,6 +9585,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWL205516Z117-26",
+              "itemName": "WEST LAKE 205/55/16 Z-117 94W TL XL TH (2026)",
+              "quantity": 2,
+              "sales": 360,
+              "netSales": 360,
+              "cost": 324.8,
+              "grossProfit": 35.2
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPCT196015CC7",
               "itemName": "CONTINENTAL 195/60/15 CC7 (2026)",
               "quantity": 2,
@@ -9602,12 +9612,22 @@
               "netSales": 50,
               "cost": 8.25,
               "grossProfit": 41.75
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCNSLVN",
+              "itemName": "CAMBER NUT NISSAN LIVINA",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 10,
+              "grossProfit": 40
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-14T02:54:17.782Z"
+      "lastCollectedAt": "2026-11-14T03:00:30.152Z"
     },
     "ST": {
       "days": {
@@ -14251,7 +14271,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-09T07:29:00.812Z",
-      "lastCollectedAt": "2026-11-14T02:54:17.782Z"
+      "lastCollectedAt": "2026-11-14T03:00:30.152Z"
     },
     "SK": {
       "days": {
@@ -16759,5 +16779,5 @@
       "lastCollectedAt": "2026-11-13T15:52:08.848Z"
     }
   },
-  "updatedAt": "2026-11-14T02:54:17.782Z"
+  "updatedAt": "2026-11-14T03:00:30.152Z"
 }
