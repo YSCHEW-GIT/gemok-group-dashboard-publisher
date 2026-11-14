@@ -5244,7 +5244,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T04:38:23.199Z"
+      "lastCollectedAt": "2026-11-14T04:44:29.189Z"
     },
     "SR": {
       "days": {
@@ -9736,15 +9736,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3508,
-              "netSales": 3508,
-              "cost": 3198.8,
-              "grossProfit": 309.2,
-              "quantity": 22
+              "sales": 3724,
+              "netSales": 3724,
+              "cost": 3386.8,
+              "grossProfit": 337.2,
+              "quantity": 24
             },
             {
               "key": "sport_rim",
@@ -9764,11 +9764,11 @@
             },
             {
               "key": "other",
-              "sales": 388,
-              "netSales": 388,
+              "sales": 408,
+              "netSales": 408,
               "cost": 145.45,
-              "grossProfit": 242.55,
-              "quantity": 51
+              "grossProfit": 262.55,
+              "quantity": 53
             }
           ],
           "items": [
@@ -9816,11 +9816,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 24,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -9913,6 +9913,16 @@
               "grossProfit": -48
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195015R330-26",
+              "itemName": "WINRUN 195/50/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 216,
+              "netSales": 216,
+              "cost": 188,
+              "grossProfit": 28
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
@@ -9956,7 +9966,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T04:38:23.199Z"
+      "lastCollectedAt": "2026-11-14T04:44:29.189Z"
     },
     "ST": {
       "days": {
@@ -14670,7 +14680,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T04:38:23.199Z"
+      "lastCollectedAt": "2026-11-14T04:44:29.189Z"
     },
     "SK": {
       "days": {
@@ -17334,7 +17344,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T04:38:23.199Z"
+      "lastCollectedAt": "2026-11-14T04:44:29.189Z"
     },
     "KM": {
       "days": {
@@ -17378,8 +17388,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T04:38:23.199Z"
+      "lastCollectedAt": "2026-11-14T04:44:29.189Z"
     }
   },
-  "updatedAt": "2026-11-14T04:38:23.199Z"
+  "updatedAt": "2026-11-14T04:44:29.189Z"
 }
