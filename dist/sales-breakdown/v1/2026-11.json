@@ -5354,7 +5354,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:19:20.692Z"
+      "lastCollectedAt": "2026-11-14T06:25:27.751Z"
     },
     "SR": {
       "days": {
@@ -9846,15 +9846,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4296,
-              "netSales": 4296,
-              "cost": 4070.8,
-              "grossProfit": 225.2,
-              "quantity": 28
+              "sales": 4816,
+              "netSales": 4816,
+              "cost": 4478.8,
+              "grossProfit": 337.2,
+              "quantity": 30
             },
             {
               "key": "sport_rim",
@@ -9874,11 +9874,11 @@
             },
             {
               "key": "other",
-              "sales": 718,
-              "netSales": 718,
+              "sales": 768,
+              "netSales": 768,
               "cost": 227.45,
-              "grossProfit": 490.55,
-              "quantity": 66
+              "grossProfit": 540.55,
+              "quantity": 69
             }
           ],
           "items": [
@@ -9916,21 +9916,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 12,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 28,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 30,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -10001,6 +10001,16 @@
               "netSales": 410,
               "cost": 324.8,
               "grossProfit": 85.2
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL206017RP76",
+              "itemName": "WEST LAKE 205/60/17 97H RP76 CN (2026)",
+              "quantity": 2,
+              "sales": 520,
+              "netSales": 520,
+              "cost": 408,
+              "grossProfit": 112
             },
             {
               "category": "passenger_tire",
@@ -10106,7 +10116,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:19:20.692Z"
+      "lastCollectedAt": "2026-11-14T06:25:27.751Z"
     },
     "ST": {
       "days": {
@@ -14880,7 +14890,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:19:20.692Z"
+      "lastCollectedAt": "2026-11-14T06:25:27.751Z"
     },
     "SK": {
       "days": {
@@ -17574,7 +17584,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:19:20.692Z"
+      "lastCollectedAt": "2026-11-14T06:25:27.751Z"
     },
     "KM": {
       "days": {
@@ -17618,8 +17628,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:19:20.692Z"
+      "lastCollectedAt": "2026-11-14T06:25:27.751Z"
     }
   },
-  "updatedAt": "2026-11-14T06:19:20.692Z"
+  "updatedAt": "2026-11-14T06:25:27.751Z"
 }
