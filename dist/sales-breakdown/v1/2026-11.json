@@ -4090,10 +4090,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5960.25,
-              "netSales": 5960.25,
+              "sales": 6000.16,
+              "netSales": 6000.16,
               "cost": 5648,
-              "grossProfit": 312.25,
+              "grossProfit": 352.16,
               "quantity": 24
             },
             {
@@ -4106,19 +4106,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 229.56,
-              "netSales": 226.6,
+              "sales": 229.55,
+              "netSales": 226.59,
               "cost": 71.3,
-              "grossProfit": 155.3,
+              "grossProfit": 155.29,
               "quantity": 5
             },
             {
               "key": "other",
-              "sales": 1318.45,
-              "netSales": 1279.45,
+              "sales": 1268.55,
+              "netSales": 1233.25,
               "cost": 134.68,
-              "grossProfit": 1144.77,
-              "quantity": 135
+              "grossProfit": 1098.57,
+              "quantity": 134
             }
           ],
           "items": [
@@ -4226,11 +4226,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 5,
-              "sales": 129.77,
-              "netSales": 120.15,
+              "quantity": 4,
+              "sales": 79.86,
+              "netSales": 73.94,
               "cost": 0,
-              "grossProfit": 120.15
+              "grossProfit": 73.94
             },
             {
               "category": "other",
@@ -4337,10 +4337,10 @@
               "itemCode": "TPCT234518UC7-26",
               "itemName": "CONTINENTAL 235/45/18 ULTRA CONTACT UC7 98Y TH (2026)",
               "quantity": 2,
-              "sales": 1137.76,
-              "netSales": 1137.76,
+              "sales": 1177.68,
+              "netSales": 1177.68,
               "cost": 1064,
-              "grossProfit": 73.76
+              "grossProfit": 113.68
             },
             {
               "category": "passenger_tire",
@@ -4357,10 +4357,10 @@
               "itemCode": "TPAT224517XSPT",
               "itemName": "ATLANDER 225/45/17 94W XL XSPORT-86",
               "quantity": 2,
-              "sales": 499.02,
-              "netSales": 499.02,
+              "sales": 499.01,
+              "netSales": 499.01,
               "cost": 400,
-              "grossProfit": 99.02
+              "grossProfit": 99.01
             },
             {
               "category": "foreman_item",
@@ -4377,10 +4377,10 @@
               "itemCode": "PAOFD3RED",
               "itemName": "ATF OIL PERODUA SP3 (RED)",
               "quantity": 3,
-              "sales": 164.68,
-              "netSales": 164.68,
+              "sales": 164.67,
+              "netSales": 164.67,
               "cost": 64.8,
-              "grossProfit": 99.88
+              "grossProfit": 99.87
             },
             {
               "category": "other",
@@ -4397,10 +4397,10 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 28,
-              "sales": 279.41,
-              "netSales": 279.41,
+              "sales": 279.42,
+              "netSales": 279.42,
               "cost": 46.2,
-              "grossProfit": 233.21
+              "grossProfit": 233.22
             },
             {
               "category": "other",
@@ -5354,7 +5354,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
+      "lastCollectedAt": "2026-11-14T06:53:48.143Z"
     },
     "SR": {
       "days": {
@@ -9846,7 +9846,7 @@
           ]
         },
         "2026-11-14": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9866,11 +9866,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 260,
-              "netSales": 260,
+              "sales": 320,
+              "netSales": 320,
               "cost": 64,
-              "grossProfit": 196,
-              "quantity": 3
+              "grossProfit": 256,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -9946,11 +9946,11 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 2,
-              "sales": 140,
-              "netSales": 140,
+              "quantity": 3,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -10146,7 +10146,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
+      "lastCollectedAt": "2026-11-14T06:53:48.143Z"
     },
     "ST": {
       "days": {
@@ -14920,7 +14920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
+      "lastCollectedAt": "2026-11-14T06:53:48.143Z"
     },
     "SK": {
       "days": {
@@ -17624,7 +17624,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
+      "lastCollectedAt": "2026-11-14T06:53:48.143Z"
     },
     "KM": {
       "days": {
@@ -17668,8 +17668,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
+      "lastCollectedAt": "2026-11-14T06:53:48.143Z"
     }
   },
-  "updatedAt": "2026-11-14T06:47:42.047Z"
+  "updatedAt": "2026-11-14T06:53:48.143Z"
 }
