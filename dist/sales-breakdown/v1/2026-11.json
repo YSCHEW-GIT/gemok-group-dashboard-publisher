@@ -4086,22 +4086,22 @@
           ]
         },
         "2026-11-14": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3857.65,
-              "netSales": 3857.65,
+              "sales": 3857.73,
+              "netSales": 3857.73,
               "cost": 3536,
-              "grossProfit": 321.65,
+              "grossProfit": 321.73,
               "quantity": 14
             },
             {
               "key": "sport_rim",
-              "sales": 585.35,
-              "netSales": 585.35,
+              "sales": 585.38,
+              "netSales": 585.38,
               "cost": 550,
-              "grossProfit": 35.35,
+              "grossProfit": 35.38,
               "quantity": 0
             },
             {
@@ -4114,11 +4114,11 @@
             },
             {
               "key": "other",
-              "sales": 385,
-              "netSales": 375.97,
+              "sales": 424.89,
+              "netSales": 412.9,
               "cost": 36.38,
-              "grossProfit": 339.59,
-              "quantity": 39
+              "grossProfit": 376.52,
+              "quantity": 40
             }
           ],
           "items": [
@@ -4127,20 +4127,20 @@
               "itemCode": "US2620872",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
-              "sales": -200.54,
-              "netSales": -200.54,
+              "sales": -200.53,
+              "netSales": -200.53,
               "cost": -200,
-              "grossProfit": -0.54
+              "grossProfit": -0.53
             },
             {
               "category": "sport_rim",
               "itemCode": "SIMPGB1541TE37L",
               "itemName": "SPORT RIM 15X7 4X100 ET35 GLOSS BLACK TE37",
               "quantity": 1,
-              "sales": 785.89,
-              "netSales": 785.89,
+              "sales": 785.91,
+              "netSales": 785.91,
               "cost": 750,
-              "grossProfit": 35.89
+              "grossProfit": 35.91
             },
             {
               "category": "other",
@@ -4176,11 +4176,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 49.88,
-              "netSales": 46.18,
+              "quantity": 3,
+              "sales": 89.78,
+              "netSales": 83.12,
               "cost": 0,
-              "grossProfit": 46.18
+              "grossProfit": 83.12
             },
             {
               "category": "other",
@@ -4197,60 +4197,60 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 339.09,
-              "netSales": 339.09,
+              "sales": 339.1,
+              "netSales": 339.1,
               "cost": 340,
-              "grossProfit": -0.91
+              "grossProfit": -0.9
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 420.87,
-              "netSales": 420.87,
+              "sales": 420.88,
+              "netSales": 420.88,
               "cost": 340,
-              "grossProfit": 80.87
+              "grossProfit": 80.88
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
               "quantity": 2,
-              "sales": 365.02,
-              "netSales": 365.02,
+              "sales": 365.03,
+              "netSales": 365.03,
               "cost": 344,
-              "grossProfit": 21.02
+              "grossProfit": 21.03
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT235019UX7-26",
               "itemName": "CONTINENTAL 235/50/19 ULTRACONTACT UX7 99V FR (2026)",
               "quantity": 2,
-              "sales": 1595.72,
-              "netSales": 1595.72,
+              "sales": 1595.75,
+              "netSales": 1595.75,
               "cost": 1448,
-              "grossProfit": 147.72
+              "grossProfit": 147.75
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT234518UC7-26",
               "itemName": "CONTINENTAL 235/45/18 ULTRA CONTACT UC7 98Y TH (2026)",
               "quantity": 2,
-              "sales": 1136.95,
-              "netSales": 1136.95,
+              "sales": 1136.97,
+              "netSales": 1136.97,
               "cost": 1064,
-              "grossProfit": 72.95
+              "grossProfit": 72.97
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
-              "sales": 59.84,
-              "netSales": 59.84,
+              "sales": 59.83,
+              "netSales": 59.83,
               "cost": 9.9,
-              "grossProfit": 49.94
+              "grossProfit": 49.93
             },
             {
               "category": "other",
@@ -5194,7 +5194,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
+      "lastCollectedAt": "2026-11-14T04:05:57.035Z"
     },
     "SR": {
       "days": {
@@ -9906,7 +9906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
+      "lastCollectedAt": "2026-11-14T04:05:57.035Z"
     },
     "ST": {
       "days": {
@@ -12872,11 +12872,11 @@
             },
             {
               "key": "other",
-              "sales": 872,
-              "netSales": 872,
-              "cost": 276.1,
-              "grossProfit": 595.9,
-              "quantity": 40
+              "sales": 1002,
+              "netSales": 1002,
+              "cost": 316.1,
+              "grossProfit": 685.9,
+              "quantity": 41
             }
           ],
           "items": [
@@ -13029,6 +13029,16 @@
               "netSales": 1900,
               "cost": 1100,
               "grossProfit": 800
+            },
+            {
+              "category": "other",
+              "itemCode": "MNRWRY150BLK",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
+              "quantity": 1,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 40,
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -14610,7 +14620,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
+      "lastCollectedAt": "2026-11-14T04:05:57.035Z"
     },
     "SK": {
       "days": {
@@ -17114,7 +17124,7 @@
           ]
         },
         "2026-11-14": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17142,11 +17152,11 @@
             },
             {
               "key": "other",
-              "sales": 150,
-              "netSales": 150,
+              "sales": 220,
+              "netSales": 220,
               "cost": 8.6,
-              "grossProfit": 141.4,
-              "quantity": 13
+              "grossProfit": 211.4,
+              "quantity": 18
             }
           ],
           "items": [
@@ -17154,21 +17164,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 8,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -17254,7 +17264,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
+      "lastCollectedAt": "2026-11-14T04:05:57.035Z"
     },
     "KM": {
       "days": {
@@ -17298,8 +17308,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
+      "lastCollectedAt": "2026-11-14T04:05:57.035Z"
     }
   },
-  "updatedAt": "2026-11-14T03:59:50.408Z"
+  "updatedAt": "2026-11-14T04:05:57.035Z"
 }
