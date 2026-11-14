@@ -5354,7 +5354,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:07:09.779Z"
+      "lastCollectedAt": "2026-11-14T06:13:15.370Z"
     },
     "SR": {
       "days": {
@@ -9846,15 +9846,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 12,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3744,
-              "netSales": 3744,
-              "cost": 3386.8,
-              "grossProfit": 357.2,
-              "quantity": 24
+              "sales": 4296,
+              "netSales": 4296,
+              "cost": 4070.8,
+              "grossProfit": 225.2,
+              "quantity": 28
             },
             {
               "key": "sport_rim",
@@ -9866,19 +9866,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 40,
-              "netSales": 40,
+              "sales": 140,
+              "netSales": 140,
               "cost": 0,
-              "grossProfit": 40,
-              "quantity": 1
+              "grossProfit": 140,
+              "quantity": 2
             },
             {
               "key": "other",
-              "sales": 528,
-              "netSales": 528,
-              "cost": 165.45,
-              "grossProfit": 362.55,
-              "quantity": 56
+              "sales": 718,
+              "netSales": 718,
+              "cost": 227.45,
+              "grossProfit": 490.55,
+              "quantity": 66
             }
           ],
           "items": [
@@ -9916,41 +9916,41 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 11,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0
-            },
-            {
-              "category": "foreman_item",
-              "itemCode": "PWMSHP",
-              "itemName": "WORKMANSHIP",
-              "quantity": 1,
+              "quantity": 28,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 2,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 0,
+              "grossProfit": 140
+            },
+            {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 100,
-              "grossProfit": 20
+              "quantity": 6,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 150,
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -10011,6 +10011,16 @@
               "netSales": 742,
               "cost": 748,
               "grossProfit": -6
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "netSales": 552,
+              "cost": 684,
+              "grossProfit": -132
             },
             {
               "category": "passenger_tire",
@@ -10081,12 +10091,22 @@
               "netSales": 110,
               "cost": 20,
               "grossProfit": 90
+            },
+            {
+              "category": "other",
+              "itemCode": "MSP4MM",
+              "itemName": "WHEEL SPACER 4MM",
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 12,
+              "grossProfit": 18
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:07:09.779Z"
+      "lastCollectedAt": "2026-11-14T06:13:15.370Z"
     },
     "ST": {
       "days": {
@@ -13024,15 +13044,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2420,
-              "netSales": 2420,
-              "cost": 2254,
-              "grossProfit": 166,
-              "quantity": 14
+              "sales": 2758,
+              "netSales": 2758,
+              "cost": 2628,
+              "grossProfit": 130,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -13052,11 +13072,11 @@
             },
             {
               "key": "other",
-              "sales": 902,
-              "netSales": 902,
+              "sales": 962,
+              "netSales": 962,
               "cost": 336.1,
-              "grossProfit": 565.9,
-              "quantity": 42
+              "grossProfit": 625.9,
+              "quantity": 45
             }
           ],
           "items": [
@@ -13104,11 +13124,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 16,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -13141,6 +13161,16 @@
               "grossProfit": 50
             },
             {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
@@ -13159,6 +13189,16 @@
               "netSales": 1652,
               "cost": 1568,
               "grossProfit": 84
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY195515CR1",
+              "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
+              "quantity": 2,
+              "sales": 338,
+              "netSales": 338,
+              "cost": 374,
+              "grossProfit": -36
             },
             {
               "category": "passenger_tire",
@@ -14840,7 +14880,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:07:09.779Z"
+      "lastCollectedAt": "2026-11-14T06:13:15.370Z"
     },
     "SK": {
       "days": {
@@ -17372,11 +17412,11 @@
             },
             {
               "key": "other",
-              "sales": 550,
-              "netSales": 550,
-              "cost": 16,
-              "grossProfit": 534,
-              "quantity": 39
+              "sales": 640,
+              "netSales": 640,
+              "cost": 23,
+              "grossProfit": 617,
+              "quantity": 41
             }
           ],
           "items": [
@@ -17494,11 +17534,11 @@
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
-              "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 7,
-              "grossProfit": 83
+              "quantity": 4,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 14,
+              "grossProfit": 166
             },
             {
               "category": "other",
@@ -17524,7 +17564,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:07:09.779Z"
+      "lastCollectedAt": "2026-11-14T06:13:15.370Z"
     },
     "KM": {
       "days": {
@@ -17568,8 +17608,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:07:09.779Z"
+      "lastCollectedAt": "2026-11-14T06:13:15.370Z"
     }
   },
-  "updatedAt": "2026-11-14T06:07:09.779Z"
+  "updatedAt": "2026-11-14T06:13:15.370Z"
 }
