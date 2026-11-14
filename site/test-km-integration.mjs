@@ -1,1 +1,18 @@
-จฅyÛhrทต๋-ญๆฆ}ำฉzถญ็ขฺ^ฎhญต็Ej)^vฺญๆญzหkyฉt๊^ญซbขy่ถ—ซ+myัZWถ+yซ^ฒฺÞjgÝ:—ซjุจz-ฅ๊ๆÛ^uฅตมฝษะ…ออ•ษะษฝด€นฝ‘”้…ออ•ษะฝอัษฅะ์)ฅตมฝษะฬษฝด€นฝ‘”้ฬ์()ฝนอะกัตฐ€๔ฬนษ•…‘ฅฑ•Mๅน อฅั”ฝ…นฝนฅ…ฐตฅน‘•เนกัตฐฐ€ีัเค์)ฝนอะอษฅมัฬ€๔lธธนกัตฐนต…ักฑฐ ผ๑อษฅมะ๘กmqอqMtจüค๑pฝอษฅมะ๘ฝฅtนต…ภ กต…ั ค€๔๘ต…ักlลtค์()…ออ•ษะนฝฌกอษฅมัฬนฑ•นั ฐ€‘…อกฝ…ษฅนฑฅน”อษฅมะฅฬตฅออฅนค์)ฝศ€กฝนอะอษฅมะฝอษฅมัฬคน•Üีนัฅฝธกอษฅมะค์()…ออ•ษะนต…ั กกัตฐฐ€ฝ-4้qฬฉq์ฝตม…นไ่€	…ีฬQ…ๅ…ศฐอ…ฑ•ฬ่ษษ…ๅp ฤมpฅpนฅฑฑpกนีฑฑpคผค์)…ออ•ษะนต…ั กกัตฐฐ€ฝฝนอะฝฑฝษฬ€๔qlู…ษp ดตอฅpคฐ€ู…ษp ดตอษpคฐ€ู…ษp ดตอัpคฐ€ู…ษp ดตอญpคฐ€ู…ษp ดตญตpคqtผค์)…ออ•ษะนต…ั กกัตฐฐ€ฝั…ษ•ั5ฝนักpนู…ฑี”€๔ีษษ•นั	ีอฅน•ออ5ฝนักpกpคผค์)…ออ•ษะน‘ฝ•อ9ฝั5…ั กกัตฐฐ€ฝฅ๔ั…ษ•ะตตฝนั mx๙tฉู…ฑี”๔ศภศุดฤภผค์)…ออ•ษะน‘ฝ•อ9ฝั5…ั กกัตฐฐ€ฝฉฝฅนp pคpฌ€๑…ษัฅฑ”ฑ…อฬ๔อัฝษ”ตัฅฑ”mytจ๑อม…ธฑ…อฬ๔อัฝษ”ตฝ‘”๙-4๑pฝอม…ธ๘ผค์)…ออ•ษะนต…ั กกัตฐฐ€ฝฝนอะ…ู…ฅฑ…ฑ”€๔อ…ฑ•ฬ€๔๔นีฑฐ€อ…ฑ•ฬ€๔๔ีน‘•ฅน•€‘ฝีต•นัฬ€๔๔นีฑฐ€‘ฝีต•นัฬ€๔๔ีน‘•ฅน•ผค์)…ออ•ษะน‘ฝ•อ9ฝั5…ั กกัตฐฐ€ฝ-4ฅฬÝ…ฅัฅนฝศฅัฬฝนน•ัฅฝธอฝีษ•๑-7ฟ:—ฺk–#–๚ผค์()ฝนอฝฑ”นฑฝ -4‘…อกฝ…ษฅนั•ษ…ัฅฝธ…นีษษ•นะั…ษ•ะตตฝนั ฅนฅัฅ…ฑฅ้…ัฅฝธู…ฑฅ‘…ั•ค์(
+import assert from "node:assert/strict";
+import fs from "node:fs";
+
+const html = fs.readFileSync("site/canonical-index.html", "utf8");
+const scripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map((match) => match[1]);
+
+assert.ok(scripts.length, "dashboard inline script is missing");
+for (const script of scripts) new Function(script);
+
+assert.match(html, /KM:\s*\{ company: 'Bagus Tayar', sales: Array\(10\)\.fill\(null\)/);
+assert.match(html, /const colors = \['var\(--si\)', 'var\(--sr\)', 'var\(--st\)', 'var\(--sk\)', 'var\(--km\)'\]/);
+assert.match(html, /targetMonth\.value = currentBusinessMonth\(\)/);
+assert.doesNotMatch(html, /id="target-month"[^>]*value="2026-10"/);
+assert.doesNotMatch(html, /join\(''\) \+ `<article class="store-tile"[^`]*<span class="store-code">KM<\/span>/);
+assert.match(html, /const available = sales !== null && sales !== undefined && documents !== null && documents !== undefined/);
+assert.doesNotMatch(html, /KM is waiting for its connection source|KMใฏๆฅ็ถๅ…ๅพ…ใก/);
+
+console.log("KM dashboard integration and current target-month initialization validated");
