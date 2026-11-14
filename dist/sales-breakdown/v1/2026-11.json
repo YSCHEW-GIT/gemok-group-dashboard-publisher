@@ -4090,10 +4090,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8881.38,
-              "netSales": 8881.38,
+              "sales": 8961.26,
+              "netSales": 8961.26,
               "cost": 8362,
-              "grossProfit": 519.38,
+              "grossProfit": 599.26,
               "quantity": 34
             },
             {
@@ -4114,10 +4114,10 @@
             },
             {
               "key": "other",
-              "sales": 1782.55,
-              "netSales": 1735.4,
+              "sales": 1702.67,
+              "netSales": 1661.44,
               "cost": 205.78,
-              "grossProfit": 1529.62,
+              "grossProfit": 1455.66,
               "quantity": 195
             }
           ],
@@ -4217,10 +4217,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 50,
-              "sales": 179.77,
-              "netSales": 166.45,
+              "sales": 139.82,
+              "netSales": 129.46,
               "cost": 0,
-              "grossProfit": 166.45
+              "grossProfit": 129.46
             },
             {
               "category": "other",
@@ -4237,10 +4237,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 6,
-              "sales": 119.85,
-              "netSales": 110.97,
+              "sales": 79.9,
+              "netSales": 73.98,
               "cost": 0,
-              "grossProfit": 110.97
+              "grossProfit": 73.98
             },
             {
               "category": "other",
@@ -4357,10 +4357,10 @@
               "itemCode": "TPGN224518GS6-26",
               "itemName": "GENERAL 225/45/18 ALTIMAX GS6 95W (2026)",
               "quantity": 4,
-              "sales": 1517.85,
-              "netSales": 1517.85,
+              "sales": 1597.73,
+              "netSales": 1597.73,
               "cost": 1468,
-              "grossProfit": 49.85
+              "grossProfit": 129.73
             },
             {
               "category": "passenger_tire",
@@ -4477,10 +4477,10 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 40,
-              "sales": 399.42,
-              "netSales": 399.42,
+              "sales": 399.44,
+              "netSales": 399.44,
               "cost": 66,
-              "grossProfit": 333.42
+              "grossProfit": 333.44
             },
             {
               "category": "other",
@@ -5444,7 +5444,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T08:23:50.370Z"
+      "lastCollectedAt": "2026-11-14T08:29:57.276Z"
     },
     "SR": {
       "days": {
@@ -9936,15 +9936,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4906,
-              "netSales": 4906,
-              "cost": 4478.8,
-              "grossProfit": 427.2,
-              "quantity": 30
+              "sales": 5104,
+              "netSales": 5104,
+              "cost": 4714,
+              "grossProfit": 390,
+              "quantity": 32
             },
             {
               "key": "sport_rim",
@@ -9964,11 +9964,11 @@
             },
             {
               "key": "other",
-              "sales": 1237,
-              "netSales": 1237,
+              "sales": 1257,
+              "netSales": 1257,
               "cost": 509,
-              "grossProfit": 728,
-              "quantity": 87
+              "grossProfit": 748,
+              "quantity": 89
             }
           ],
           "items": [
@@ -10046,11 +10046,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 36,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -10131,6 +10131,16 @@
               "netSales": 570,
               "cost": 408,
               "grossProfit": 162
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL165514RP18-26",
+              "itemName": "WESTLAKE 165/55/14 72V RP18 (2026)",
+              "quantity": 2,
+              "sales": 198,
+              "netSales": 198,
+              "cost": 235.2,
+              "grossProfit": -37.2
             },
             {
               "category": "passenger_tire",
@@ -10286,7 +10296,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T08:23:50.370Z"
+      "lastCollectedAt": "2026-11-14T08:29:57.276Z"
     },
     "ST": {
       "days": {
@@ -15090,7 +15100,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T08:23:50.370Z"
+      "lastCollectedAt": "2026-11-14T08:29:57.276Z"
     },
     "SK": {
       "days": {
@@ -17854,7 +17864,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T08:23:50.370Z"
+      "lastCollectedAt": "2026-11-14T08:29:57.276Z"
     },
     "KM": {
       "days": {
@@ -17898,8 +17908,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T08:23:50.370Z"
+      "lastCollectedAt": "2026-11-14T08:29:57.276Z"
     }
   },
-  "updatedAt": "2026-11-14T08:23:50.370Z"
+  "updatedAt": "2026-11-14T08:29:57.276Z"
 }
