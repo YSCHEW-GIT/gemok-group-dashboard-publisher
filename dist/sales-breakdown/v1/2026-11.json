@@ -5354,7 +5354,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:31:35.151Z"
+      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
     },
     "SR": {
       "days": {
@@ -9846,14 +9846,14 @@
           ]
         },
         "2026-11-14": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4816,
-              "netSales": 4816,
+              "sales": 4856,
+              "netSales": 4856,
               "cost": 4478.8,
-              "grossProfit": 337.2,
+              "grossProfit": 377.2,
               "quantity": 30
             },
             {
@@ -9866,19 +9866,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 140,
-              "netSales": 140,
-              "cost": 0,
-              "grossProfit": 140,
-              "quantity": 2
+              "sales": 260,
+              "netSales": 260,
+              "cost": 64,
+              "grossProfit": 196,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 738,
-              "netSales": 738,
-              "cost": 227.45,
-              "grossProfit": 510.55,
-              "quantity": 68
+              "sales": 1162,
+              "netSales": 1162,
+              "cost": 475.75,
+              "grossProfit": 686.25,
+              "quantity": 74
             }
           ],
           "items": [
@@ -9891,6 +9891,16 @@
               "netSales": -251,
               "cost": -251,
               "grossProfit": 0
+            },
+            {
+              "category": "other",
+              "itemCode": "SSD2AXIA23",
+              "itemName": "D2 SPORT SPRING PERODUA AXIA 23",
+              "quantity": 1,
+              "sales": 350,
+              "netSales": 350,
+              "cost": 240,
+              "grossProfit": 110
             },
             {
               "category": "sport_rim",
@@ -9916,21 +9926,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 12,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 30,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -10027,10 +10037,10 @@
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
+              "sales": 592,
+              "netSales": 592,
               "cost": 684,
-              "grossProfit": -132
+              "grossProfit": -92
             },
             {
               "category": "passenger_tire",
@@ -10076,11 +10086,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 6,
+              "sales": 42,
+              "netSales": 42,
+              "cost": 3.9,
+              "grossProfit": 38.1
             },
             {
               "category": "other",
@@ -10111,12 +10121,32 @@
               "netSales": 30,
               "cost": 12,
               "grossProfit": 18
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNCD0103FPLT",
+              "itemName": "BNC BRAKE PAD ATIVA, ALZA 22y-D27A, VELOS CD0103M FRT-PLT",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 64,
+              "grossProfit": 56
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:31:35.151Z"
+      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
     },
     "ST": {
       "days": {
@@ -14890,7 +14920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:31:35.151Z"
+      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
     },
     "SK": {
       "days": {
@@ -17394,15 +17424,15 @@
           ]
         },
         "2026-11-14": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1830,
-              "netSales": 1830,
-              "cost": 1838.48,
-              "grossProfit": -8.48,
-              "quantity": 10
+              "sales": 2106,
+              "netSales": 2106,
+              "cost": 2142.48,
+              "grossProfit": -36.48,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -17414,19 +17444,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 490,
-              "netSales": 490,
+              "sales": 535,
+              "netSales": 535,
               "cost": 227.5,
-              "grossProfit": 262.5,
-              "quantity": 7
+              "grossProfit": 307.5,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 640,
-              "netSales": 640,
-              "cost": 23,
-              "grossProfit": 617,
-              "quantity": 41
+              "sales": 760,
+              "netSales": 760,
+              "cost": 24.6,
+              "grossProfit": 735.4,
+              "quantity": 50
             }
           ],
           "items": [
@@ -17434,21 +17464,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 130,
-              "netSales": 130,
+              "quantity": 6,
+              "sales": 170,
+              "netSales": 170,
               "cost": 0,
-              "grossProfit": 130
+              "grossProfit": 170
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 160,
-              "netSales": 160,
+              "quantity": 22,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -17464,11 +17494,11 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 2,
+              "sales": 65,
+              "netSales": 65,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 65
             },
             {
               "category": "other",
@@ -17479,6 +17509,16 @@
               "netSales": 50,
               "cost": 0,
               "grossProfit": 50
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 304,
+              "grossProfit": -28
             },
             {
               "category": "passenger_tire",
@@ -17564,11 +17604,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 2.4,
-              "grossProfit": 57.6
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 4,
+              "grossProfit": 96
             },
             {
               "category": "other",
@@ -17584,7 +17624,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:31:35.151Z"
+      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
     },
     "KM": {
       "days": {
@@ -17628,8 +17668,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T06:31:35.151Z"
+      "lastCollectedAt": "2026-11-14T06:47:42.047Z"
     }
   },
-  "updatedAt": "2026-11-14T06:31:35.151Z"
+  "updatedAt": "2026-11-14T06:47:42.047Z"
 }
