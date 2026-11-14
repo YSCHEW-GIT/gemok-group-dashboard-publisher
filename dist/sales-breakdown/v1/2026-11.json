@@ -5194,7 +5194,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:53:44.899Z"
+      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
     },
     "SR": {
       "days": {
@@ -9690,19 +9690,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3318,
-              "netSales": 3318,
+              "sales": 3438,
+              "netSales": 3438,
               "cost": 3198.8,
-              "grossProfit": 119.2,
+              "grossProfit": 239.2,
               "quantity": 22
             },
             {
               "key": "sport_rim",
-              "sales": 739,
-              "netSales": 739,
-              "cost": 709,
-              "grossProfit": 30,
-              "quantity": 1
+              "sales": 478,
+              "netSales": 478,
+              "cost": 458,
+              "grossProfit": 20,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -9714,23 +9714,33 @@
             },
             {
               "key": "other",
-              "sales": 588,
-              "netSales": 588,
+              "sales": 468,
+              "netSales": 468,
               "cost": 95.45,
-              "grossProfit": 492.55,
+              "grossProfit": 372.55,
               "quantity": 49
             }
           ],
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2617208",
+              "itemName": "USED SPORT RIM 15X7 8H",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": -251,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR154HUHBTE37",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 ULTRA HYPER BLACK 657B-04887 TE37",
               "quantity": 1,
-              "sales": 739,
-              "netSales": 739,
+              "sales": 729,
+              "netSales": 729,
               "cost": 709,
-              "grossProfit": 30
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -9747,20 +9757,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -9787,10 +9797,10 @@
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL THAI (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 582,
+              "netSales": 582,
               "cost": 512,
-              "grossProfit": 0
+              "grossProfit": 70
             },
             {
               "category": "passenger_tire",
@@ -9827,10 +9837,10 @@
               "itemCode": "TPWL205516Z117-26",
               "itemName": "WEST LAKE 205/55/16 Z-117 94W TL XL TH (2026)",
               "quantity": 2,
-              "sales": 360,
-              "netSales": 360,
+              "sales": 410,
+              "netSales": 410,
               "cost": 324.8,
-              "grossProfit": 35.2
+              "grossProfit": 85.2
             },
             {
               "category": "passenger_tire",
@@ -9896,7 +9906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:53:44.899Z"
+      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
     },
     "ST": {
       "days": {
@@ -14600,7 +14610,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:53:44.899Z"
+      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
     },
     "SK": {
       "days": {
@@ -17108,10 +17118,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 552,
-              "netSales": 552,
+              "sales": 622,
+              "netSales": 622,
               "cost": 547.2,
-              "grossProfit": 4.8,
+              "grossProfit": 74.8,
               "quantity": 4
             },
             {
@@ -17132,10 +17142,10 @@
             },
             {
               "key": "other",
-              "sales": 220,
-              "netSales": 220,
+              "sales": 150,
+              "netSales": 150,
               "cost": 8.6,
-              "grossProfit": 211.4,
+              "grossProfit": 141.4,
               "quantity": 13
             }
           ],
@@ -17145,20 +17155,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -17185,10 +17195,10 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 85V ZUPER FLEX Z-117 (2026)",
               "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
+              "sales": 622,
+              "netSales": 622,
               "cost": 547.2,
-              "grossProfit": 4.8
+              "grossProfit": 74.8
             },
             {
               "category": "foreman_item",
@@ -17244,7 +17254,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:53:44.899Z"
+      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
     },
     "KM": {
       "days": {
@@ -17288,8 +17298,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:53:44.899Z"
+      "lastCollectedAt": "2026-11-14T03:59:50.408Z"
     }
   },
-  "updatedAt": "2026-11-14T03:53:44.899Z"
+  "updatedAt": "2026-11-14T03:59:50.408Z"
 }
