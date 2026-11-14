@@ -4090,10 +4090,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3386.5,
-              "netSales": 3386.5,
+              "sales": 3436.37,
+              "netSales": 3436.37,
               "cost": 3196,
-              "grossProfit": 190.5,
+              "grossProfit": 240.37,
               "quantity": 10
             },
             {
@@ -4114,10 +4114,10 @@
             },
             {
               "key": "other",
-              "sales": 191.5,
-              "netSales": 178.77,
+              "sales": 141.63,
+              "netSales": 132.6,
               "cost": 3.3,
-              "grossProfit": 175.47,
+              "grossProfit": 129.3,
               "quantity": 10
             }
           ],
@@ -4157,10 +4157,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 99.74,
-              "netSales": 92.34,
+              "sales": 49.87,
+              "netSales": 46.17,
               "cost": 0,
-              "grossProfit": 92.34
+              "grossProfit": 46.17
             },
             {
               "category": "other",
@@ -4197,10 +4197,10 @@
               "itemCode": "TPCT235019UX7-26",
               "itemName": "CONTINENTAL 235/50/19 ULTRACONTACT UX7 99V FR (2026)",
               "quantity": 2,
-              "sales": 1545.66,
-              "netSales": 1545.66,
+              "sales": 1595.53,
+              "netSales": 1595.53,
               "cost": 1448,
-              "grossProfit": 97.66
+              "grossProfit": 147.53
             },
             {
               "category": "passenger_tire",
@@ -5144,7 +5144,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:29:22.024Z"
+      "lastCollectedAt": "2026-11-14T03:35:27.798Z"
     },
     "SR": {
       "days": {
@@ -9636,7 +9636,7 @@
           ]
         },
         "2026-11-14": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -9664,11 +9664,11 @@
             },
             {
               "key": "other",
-              "sales": 318,
-              "netSales": 318,
+              "sales": 358,
+              "netSales": 358,
               "cost": 70.85,
-              "grossProfit": 247.15,
-              "quantity": 32
+              "grossProfit": 287.15,
+              "quantity": 34
             }
           ],
           "items": [
@@ -9676,21 +9676,21 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 6,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -9806,7 +9806,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:23:13.730Z"
+      "lastCollectedAt": "2026-11-14T03:35:27.798Z"
     },
     "ST": {
       "days": {
@@ -14490,7 +14490,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:29:22.024Z"
+      "lastCollectedAt": "2026-11-14T03:35:27.798Z"
     },
     "SK": {
       "days": {
@@ -16994,7 +16994,7 @@
           ]
         },
         "2026-11-14": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17014,19 +17014,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 110,
-              "netSales": 110,
-              "cost": 28,
-              "grossProfit": 82,
-              "quantity": 2
+              "sales": 300,
+              "netSales": 300,
+              "cost": 143.5,
+              "grossProfit": 156.5,
+              "quantity": 4
             },
             {
               "key": "other",
-              "sales": 130,
-              "netSales": 130,
-              "cost": 1.6,
-              "grossProfit": 128.4,
-              "quantity": 11
+              "sales": 220,
+              "netSales": 220,
+              "cost": 8.6,
+              "grossProfit": 211.4,
+              "quantity": 13
             }
           ],
           "items": [
@@ -17082,6 +17082,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMPRT",
+              "itemName": "OIL FILTER PROTON SAGA 12V WIRA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 4.5,
+              "grossProfit": -4.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 111,
+              "grossProfit": 79
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 1,
@@ -17089,6 +17109,16 @@
               "netSales": 90,
               "cost": 28,
               "grossProfit": 62
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
             },
             {
               "category": "other",
@@ -17104,7 +17134,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:29:22.024Z"
+      "lastCollectedAt": "2026-11-14T03:35:27.798Z"
     },
     "KM": {
       "days": {
@@ -17148,8 +17178,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T03:29:22.024Z"
+      "lastCollectedAt": "2026-11-14T03:35:27.798Z"
     }
   },
-  "updatedAt": "2026-11-14T03:29:22.024Z"
+  "updatedAt": "2026-11-14T03:35:27.798Z"
 }
