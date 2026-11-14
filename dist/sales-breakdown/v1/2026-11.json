@@ -5524,7 +5524,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T10:35:00.246Z"
+      "lastCollectedAt": "2026-11-14T10:41:07.473Z"
     },
     "SR": {
       "days": {
@@ -10396,7 +10396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T10:35:00.246Z"
+      "lastCollectedAt": "2026-11-14T10:41:07.473Z"
     },
     "ST": {
       "days": {
@@ -13338,19 +13338,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11196,
-              "netSales": 11196,
+              "sales": 11266,
+              "netSales": 11266,
               "cost": 10660,
-              "grossProfit": 536,
+              "grossProfit": 606,
               "quantity": 46
             },
             {
               "key": "sport_rim",
               "sales": 2352,
               "netSales": 2352,
-              "cost": 2721,
-              "grossProfit": -369,
-              "quantity": 3
+              "cost": 2521,
+              "grossProfit": -169,
+              "quantity": 2
             },
             {
               "key": "foreman_item",
@@ -13362,11 +13362,11 @@
             },
             {
               "key": "other",
-              "sales": 2000,
-              "netSales": 2000,
-              "cost": 504.6,
-              "grossProfit": 1495.4,
-              "quantity": 122
+              "sales": 1975,
+              "netSales": 1975,
+              "cost": 508.1,
+              "grossProfit": 1466.9,
+              "quantity": 123
             }
           ],
           "items": [
@@ -13374,6 +13374,16 @@
               "category": "sport_rim",
               "itemCode": "US2611895",
               "itemName": "USED SPORT RIM 15X5JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2611908",
+              "itemName": "USED SPORT RIM 14X5JJ PCD100",
               "quantity": -1,
               "sales": -200,
               "netSales": -200,
@@ -13415,10 +13425,10 @@
               "itemCode": "SIMPDHB1541TNP",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE TNP-7022 (CE28)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 750,
-              "grossProfit": -162
+              "grossProfit": 38
             },
             {
               "category": "sport_rim",
@@ -13435,20 +13445,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 12,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 46,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -13535,10 +13545,10 @@
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 582,
+              "netSales": 582,
               "cost": 512,
-              "grossProfit": 0
+              "grossProfit": 70
             },
             {
               "category": "passenger_tire",
@@ -13734,11 +13744,11 @@
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
-              "quantity": 4,
-              "sales": 180,
-              "netSales": 180,
-              "cost": 14,
-              "grossProfit": 166
+              "quantity": 5,
+              "sales": 225,
+              "netSales": 225,
+              "cost": 17.5,
+              "grossProfit": 207.5
             },
             {
               "category": "other",
@@ -15300,7 +15310,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T10:35:00.246Z"
+      "lastCollectedAt": "2026-11-14T10:41:07.473Z"
     },
     "SK": {
       "days": {
@@ -18084,7 +18094,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T10:35:00.246Z"
+      "lastCollectedAt": "2026-11-14T10:41:07.473Z"
     },
     "KM": {
       "days": {
@@ -18128,8 +18138,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-14T10:35:00.246Z"
+      "lastCollectedAt": "2026-11-14T10:41:07.473Z"
     }
   },
-  "updatedAt": "2026-11-14T10:35:00.246Z"
+  "updatedAt": "2026-11-14T10:41:07.473Z"
 }
