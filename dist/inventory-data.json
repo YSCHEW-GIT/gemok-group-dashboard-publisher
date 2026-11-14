@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-14T05:33:03.931Z",
+  "updatedAt": "2026-11-14T06:44:33.648Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 448,
-      "quantity": 2229,
-      "stockValue": 452848.50000000006
+      "quantity": 2213,
+      "stockValue": 450119.70000000007
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 831,
-      "quantity": 655,
-      "stockValue": 349047.02
+      "quantity": 654,
+      "stockValue": 348227.02
     },
     {
       "key": "absorber",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2204,
-      "stockValue": 166118.11
+      "quantity": 2203,
+      "stockValue": 166090.11
     },
     {
       "key": "oil-filter",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 873,
-      "quantity": 2938.5,
-      "stockValue": 101402.14999999997
+      "quantity": 2937.5,
+      "stockValue": 101362.14999999997
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2104,
-      "quantity": 2040,
-      "stockValue": 175707.5
+      "sku": 2106,
+      "quantity": 2042,
+      "stockValue": 176107.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 290,
-      "quantity": 9741,
-      "stockValue": 57712.31
+      "quantity": 9729,
+      "stockValue": 57685.11
     },
     {
       "key": "non-stock-item",
@@ -2119,7 +2119,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 25,
+          "quantity": 23,
           "cost": 231,
           "price": 198
         },
@@ -4365,7 +4365,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 31,
+          "quantity": 27,
           "cost": 171,
           "price": 148
         },
@@ -7032,7 +7032,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 8,
           "cost": 187,
           "price": 168
         }
@@ -8040,7 +8040,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 17,
           "cost": 110.4,
           "price": 0
         },
@@ -8115,7 +8115,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 92,
           "price": 0
         }
@@ -8922,7 +8922,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 204,
           "price": 260
         }
@@ -9475,7 +9475,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 24,
           "cost": 76,
           "price": 88
         },
@@ -10012,7 +10012,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 15,
           "cost": 230,
           "price": 0
         },
@@ -24632,7 +24632,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 820,
           "price": 588
         }
@@ -36381,7 +36381,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 66,
+          "quantity": 65,
           "cost": 28,
           "price": 90
         },
@@ -40483,7 +40483,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 18,
           "cost": 40,
           "price": 130
         }
@@ -106850,6 +106850,44 @@
       ]
     },
     {
+      "code": "US2620874",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2620878",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -109572,7 +109610,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 71,
+          "quantity": 69,
           "cost": 3.5,
           "price": 0
         },
@@ -114199,7 +114237,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 1,
           "cost": 6,
           "price": 15
         }
@@ -114786,7 +114824,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 308,
+          "quantity": 304,
           "cost": 0.4,
           "price": 10
         },
@@ -114832,7 +114870,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 439,
+          "quantity": 435,
           "cost": 1.65,
           "price": 10
         },
