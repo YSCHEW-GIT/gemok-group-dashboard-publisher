@@ -5537,10 +5537,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4032,
-              "netSales": 4032,
+              "sales": 4092,
+              "netSales": 4092,
               "cost": 4302,
-              "grossProfit": -270,
+              "grossProfit": -210,
               "quantity": 16
             },
             {
@@ -5561,10 +5561,10 @@
             },
             {
               "key": "other",
-              "sales": 780,
-              "netSales": 756.32,
+              "sales": 720,
+              "netSales": 700.76,
               "cost": 96.4,
-              "grossProfit": 659.92,
+              "grossProfit": 604.36,
               "quantity": 73
             }
           ],
@@ -5604,10 +5604,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 20,
-              "sales": 100,
-              "netSales": 92.6,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -5644,10 +5644,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 90,
-              "netSales": 83.34,
+              "sales": 50,
+              "netSales": 46.3,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 46.3
             },
             {
               "category": "passenger_tire",
@@ -5684,10 +5684,10 @@
               "itemCode": "TPCT225018UC7-26",
               "itemName": "CONTINENTAL 225/50/18 ULTRA CONTACT UC7 95V FR (2026)",
               "quantity": 2,
-              "sales": 950,
-              "netSales": 950,
+              "sales": 1010,
+              "netSales": 1010,
               "cost": 1082,
-              "grossProfit": -132
+              "grossProfit": -72
             },
             {
               "category": "foreman_item",
@@ -5763,7 +5763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:34:16.630Z"
+      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
     },
     "SR": {
       "days": {
@@ -10864,7 +10864,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:34:16.630Z"
+      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
     },
     "ST": {
       "days": {
@@ -15927,7 +15927,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:34:16.630Z"
+      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
     },
     "SK": {
       "days": {
@@ -18710,7 +18710,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18730,11 +18730,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 800,
-              "netSales": 800,
+              "sales": 845,
+              "netSales": 845,
               "cost": 300,
-              "grossProfit": 500,
-              "quantity": 2
+              "grossProfit": 545,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -18755,6 +18755,16 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 0,
+              "grossProfit": 45
             },
             {
               "category": "foreman_item",
@@ -18790,7 +18800,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:34:16.630Z"
+      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
     },
     "KM": {
       "days": {
@@ -18872,8 +18882,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:34:16.630Z"
+      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
     }
   },
-  "updatedAt": "2026-11-15T04:34:16.630Z"
+  "updatedAt": "2026-11-15T04:40:21.227Z"
 }
