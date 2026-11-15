@@ -5903,7 +5903,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T08:06:44.055Z"
+      "lastCollectedAt": "2026-11-15T08:12:50.033Z"
     },
     "SR": {
       "days": {
@@ -11154,7 +11154,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T08:06:44.055Z"
+      "lastCollectedAt": "2026-11-15T08:12:50.033Z"
     },
     "ST": {
       "days": {
@@ -16071,10 +16071,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6090,
-              "netSales": 6090,
+              "sales": 6160,
+              "netSales": 6160,
               "cost": 6247,
-              "grossProfit": -157,
+              "grossProfit": -87,
               "quantity": 33
             },
             {
@@ -16095,11 +16095,11 @@
             },
             {
               "key": "other",
-              "sales": 1048,
-              "netSales": 1048,
-              "cost": 153.3,
-              "grossProfit": 894.7,
-              "quantity": 87
+              "sales": 1108,
+              "netSales": 1108,
+              "cost": 193.3,
+              "grossProfit": 914.7,
+              "quantity": 88
             }
           ],
           "items": [
@@ -16138,20 +16138,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 29,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -16188,10 +16188,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 8,
-              "sales": 1584,
-              "netSales": 1584,
+              "sales": 1654,
+              "netSales": 1654,
               "cost": 1848,
-              "grossProfit": -264
+              "grossProfit": -194
             },
             {
               "category": "passenger_tire",
@@ -16385,6 +16385,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNRWRY150BLK",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
+              "quantity": 1,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 40,
+              "grossProfit": 90
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 28,
@@ -16447,7 +16457,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T08:06:44.055Z"
+      "lastCollectedAt": "2026-11-15T08:12:50.033Z"
     },
     "SK": {
       "days": {
@@ -19230,15 +19240,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1666,
-              "netSales": 1666,
-              "cost": 1504,
-              "grossProfit": 162,
-              "quantity": 12
+              "sales": 1962,
+              "netSales": 1962,
+              "cost": 1846,
+              "grossProfit": 116,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -19258,11 +19268,11 @@
             },
             {
               "key": "other",
-              "sales": 615,
-              "netSales": 615,
-              "cost": 28,
-              "grossProfit": 587,
-              "quantity": 39
+              "sales": 765,
+              "netSales": 765,
+              "cost": 35.8,
+              "grossProfit": 729.2,
+              "quantity": 46
             }
           ],
           "items": [
@@ -19300,21 +19310,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 130,
-              "netSales": 130,
+              "quantity": 7,
+              "sales": 160,
+              "netSales": 160,
               "cost": 0,
-              "grossProfit": 130
+              "grossProfit": 160
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 14,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -19335,6 +19345,16 @@
               "netSales": 410,
               "cost": 340,
               "grossProfit": 70
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515ALTGS5-26",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V (2026)",
+              "quantity": 2,
+              "sales": 296,
+              "netSales": 296,
+              "cost": 342,
+              "grossProfit": -46
             },
             {
               "category": "passenger_tire",
@@ -19400,21 +19420,21 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 4.8,
-              "grossProfit": 115.2
+              "quantity": 14,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 5.6,
+              "grossProfit": 134.4
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
-              "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 7,
-              "grossProfit": 83
+              "quantity": 4,
+              "sales": 170,
+              "netSales": 170,
+              "cost": 14,
+              "grossProfit": 156
             },
             {
               "category": "other",
@@ -19440,7 +19460,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T08:06:44.055Z"
+      "lastCollectedAt": "2026-11-15T08:12:50.033Z"
     },
     "KM": {
       "days": {
@@ -19522,8 +19542,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T08:06:44.055Z"
+      "lastCollectedAt": "2026-11-15T08:12:50.033Z"
     }
   },
-  "updatedAt": "2026-11-15T08:06:44.055Z"
+  "updatedAt": "2026-11-15T08:12:50.033Z"
 }
