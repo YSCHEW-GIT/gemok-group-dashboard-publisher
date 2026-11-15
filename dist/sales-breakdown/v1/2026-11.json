@@ -5772,7 +5772,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 4,
               "sales": 99.94,
               "netSales": 92.54,
@@ -6103,7 +6103,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T10:21:44.604Z"
+      "lastCollectedAt": "2026-11-15T10:27:50.779Z"
     },
     "SR": {
       "days": {
@@ -11103,7 +11103,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 10,
               "sales": 300,
               "netSales": 300,
@@ -11313,7 +11313,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
               "sales": 100,
               "netSales": 100,
@@ -11343,7 +11343,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "Tubeless Valve-Rubber",
+              "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 8,
               "sales": 50,
               "netSales": 50,
@@ -11424,7 +11424,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T10:21:44.604Z"
+      "lastCollectedAt": "2026-11-15T10:27:50.779Z"
     },
     "ST": {
       "days": {
@@ -16337,15 +16337,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8580,
-              "netSales": 8580,
-              "cost": 8345,
-              "grossProfit": 235,
-              "quantity": 44
+              "sales": 8836,
+              "netSales": 8836,
+              "cost": 8533,
+              "grossProfit": 303,
+              "quantity": 46
             },
             {
               "key": "sport_rim",
@@ -16365,11 +16365,11 @@
             },
             {
               "key": "other",
-              "sales": 1302,
-              "netSales": 1302,
-              "cost": 296.6,
-              "grossProfit": 1005.4,
-              "quantity": 125
+              "sales": 1372,
+              "netSales": 1372,
+              "cost": 299.9,
+              "grossProfit": 1072.1,
+              "quantity": 130
             }
           ],
           "items": [
@@ -16407,21 +16407,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 14,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 15,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 41,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 43,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -16446,7 +16446,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "Adjust Camber",
+              "itemName": "ADJUST CAMBER",
               "quantity": 6,
               "sales": 150,
               "netSales": 150,
@@ -16584,6 +16584,16 @@
               "grossProfit": 0
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195015R330-26",
+              "itemName": "WINRUN 195/50/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 256,
+              "netSales": 256,
+              "cost": 188,
+              "grossProfit": 68
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PAFCMBZ",
               "itemName": "AIR FILTER BEZZA 1.0 AXIA NEW FACA LIFT",
@@ -16706,7 +16716,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
               "sales": 90,
               "netSales": 90,
@@ -16757,11 +16767,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 38,
-              "sales": 380,
-              "netSales": 380,
-              "cost": 62.7,
-              "grossProfit": 317.3
+              "quantity": 40,
+              "sales": 400,
+              "netSales": 400,
+              "cost": 66,
+              "grossProfit": 334
             },
             {
               "category": "other",
@@ -16776,7 +16786,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "Tubeless Valve-Rubber",
+              "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 6,
               "sales": 42,
               "netSales": 42,
@@ -16817,7 +16827,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T10:21:44.604Z"
+      "lastCollectedAt": "2026-11-15T10:27:50.779Z"
     },
     "SK": {
       "days": {
@@ -19912,8 +19922,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T10:21:44.604Z"
+      "lastCollectedAt": "2026-11-15T10:27:50.779Z"
     }
   },
-  "updatedAt": "2026-11-15T10:21:44.604Z"
+  "updatedAt": "2026-11-15T10:27:50.779Z"
 }
