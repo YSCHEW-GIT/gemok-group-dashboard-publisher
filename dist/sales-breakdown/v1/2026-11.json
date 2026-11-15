@@ -5533,15 +5533,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 792,
+              "netSales": 792,
+              "cost": 920,
+              "grossProfit": -128,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -5561,18 +5561,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 110,
+              "netSales": 104.82,
+              "cost": 6.6,
+              "grossProfit": 98.22,
+              "quantity": 9
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 920,
+              "grossProfit": -128
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T01:46:08.189Z"
+      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
     },
     "SR": {
       "days": {
@@ -10482,7 +10523,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T01:46:08.189Z"
+      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
     },
     "ST": {
       "days": {
@@ -15434,7 +15475,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T01:46:08.189Z"
+      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
     },
     "SK": {
       "days": {
@@ -18256,7 +18297,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T01:46:08.189Z"
+      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
     },
     "KM": {
       "days": {
@@ -18338,8 +18379,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T01:46:08.189Z"
+      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
     }
   },
-  "updatedAt": "2026-11-15T01:46:08.189Z"
+  "updatedAt": "2026-11-15T02:01:46.342Z"
 }
