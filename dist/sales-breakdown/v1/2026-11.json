@@ -5763,7 +5763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:16:01.249Z"
+      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
     },
     "SR": {
       "days": {
@@ -10664,8 +10664,8 @@
               "key": "other",
               "sales": 2664,
               "netSales": 2664,
-              "cost": 2162.4,
-              "grossProfit": 501.6,
+              "cost": 2161.4,
+              "grossProfit": 502.6,
               "quantity": 39
             }
           ],
@@ -10832,19 +10832,19 @@
             },
             {
               "category": "other",
-              "itemCode": "PADJD2VS08",
+              "itemCode": "PADJD2YARIS",
               "itemName": "D2 ADJUSTABLE TYT VIOS 2013 FRT/REAR BODY SHIFT",
               "quantity": 1,
               "sales": 1300,
               "netSales": 1300,
-              "cost": 1301,
-              "grossProfit": -1
+              "cost": 1300,
+              "grossProfit": 0
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:16:01.249Z"
+      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
     },
     "ST": {
       "days": {
@@ -15757,15 +15757,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 728,
-              "netSales": 728,
-              "cost": 582,
-              "grossProfit": 146,
-              "quantity": 6
+              "sales": 1720,
+              "netSales": 1720,
+              "cost": 1560,
+              "grossProfit": 160,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -15785,11 +15785,11 @@
             },
             {
               "key": "other",
-              "sales": 170,
-              "netSales": 170,
-              "cost": 38.4,
-              "grossProfit": 131.6,
-              "quantity": 18
+              "sales": 318,
+              "netSales": 318,
+              "cost": 41,
+              "grossProfit": 277,
+              "quantity": 30
             }
           ],
           "items": [
@@ -15797,21 +15797,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 12,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -15845,6 +15845,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1",
+              "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
+              "quantity": 4,
+              "sales": 756,
+              "netSales": 756,
+              "cost": 784,
+              "grossProfit": -28
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPLF185515TL",
               "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
               "quantity": 2,
@@ -15852,6 +15862,16 @@
               "netSales": 306,
               "cost": 238,
               "grossProfit": 68
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPHX165015CL01-26",
+              "itemName": "HANMIX 165/50/15 CLASSIC CL01 72H CN (2026)",
+              "quantity": 2,
+              "sales": 236,
+              "netSales": 236,
+              "cost": 194,
+              "grossProfit": 42
             },
             {
               "category": "other",
@@ -15872,12 +15892,22 @@
               "netSales": 45,
               "cost": 3.5,
               "grossProfit": 41.5
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:16:01.249Z"
+      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
     },
     "SK": {
       "days": {
@@ -18740,7 +18770,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:16:01.249Z"
+      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
     },
     "KM": {
       "days": {
@@ -18822,8 +18852,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:16:01.249Z"
+      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
     }
   },
-  "updatedAt": "2026-11-15T04:16:01.249Z"
+  "updatedAt": "2026-11-15T04:22:07.129Z"
 }
