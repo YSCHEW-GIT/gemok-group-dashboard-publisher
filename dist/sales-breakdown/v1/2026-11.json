@@ -6003,7 +6003,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T09:51:10.560Z"
+      "lastCollectedAt": "2026-11-15T09:57:16.481Z"
     },
     "SR": {
       "days": {
@@ -11314,7 +11314,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T09:51:10.560Z"
+      "lastCollectedAt": "2026-11-15T09:57:16.481Z"
     },
     "ST": {
       "days": {
@@ -16231,11 +16231,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8732,
-              "netSales": 8732,
-              "cost": 8807,
-              "grossProfit": -75,
-              "quantity": 46
+              "sales": 8380,
+              "netSales": 8380,
+              "cost": 8345,
+              "grossProfit": 35,
+              "quantity": 44
             },
             {
               "key": "sport_rim",
@@ -16257,8 +16257,8 @@
               "key": "other",
               "sales": 1457,
               "netSales": 1457,
-              "cost": 289.8,
-              "grossProfit": 1167.2,
+              "cost": 293.1,
+              "grossProfit": 1163.9,
               "quantity": 124
             }
           ],
@@ -16307,11 +16307,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 43,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 41,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -16437,11 +16437,21 @@
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 8,
-              "sales": 1654,
-              "netSales": 1654,
-              "cost": 1856,
-              "grossProfit": -202
+              "quantity": 4,
+              "sales": 862,
+              "netSales": 862,
+              "cost": 928,
+              "grossProfit": -66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT185515CC7-26",
+              "itemName": "CONTINENTAL 185/55/15 COMFORT CONTACT CC7 82V CN (2026)",
+              "quantity": 2,
+              "sales": 440,
+              "netSales": 440,
+              "cost": 466,
+              "grossProfit": -26
             },
             {
               "category": "passenger_tire",
@@ -16637,11 +16647,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 36,
-              "sales": 360,
-              "netSales": 360,
-              "cost": 59.4,
-              "grossProfit": 300.6
+              "quantity": 38,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 62.7,
+              "grossProfit": 317.3
             },
             {
               "category": "other",
@@ -16697,7 +16707,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T09:51:10.560Z"
+      "lastCollectedAt": "2026-11-15T09:57:16.481Z"
     },
     "SK": {
       "days": {
@@ -19710,7 +19720,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T09:51:10.560Z"
+      "lastCollectedAt": "2026-11-15T09:57:16.481Z"
     },
     "KM": {
       "days": {
@@ -19792,8 +19802,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T09:51:10.560Z"
+      "lastCollectedAt": "2026-11-15T09:57:16.481Z"
     }
   },
-  "updatedAt": "2026-11-15T09:51:10.560Z"
+  "updatedAt": "2026-11-15T09:57:16.481Z"
 }
