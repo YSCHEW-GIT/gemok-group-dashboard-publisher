@@ -5537,10 +5537,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5884,
-              "netSales": 5884,
+              "sales": 5954,
+              "netSales": 5954,
               "cost": 6118,
-              "grossProfit": -234,
+              "grossProfit": -164,
               "quantity": 22
             },
             {
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 1040,
-              "netSales": 997.08,
-              "cost": 96.4,
-              "grossProfit": 900.68,
-              "quantity": 95
+              "sales": 1010,
+              "netSales": 972.26,
+              "cost": 103,
+              "grossProfit": 869.26,
+              "quantity": 99
             }
           ],
           "items": [
@@ -5594,20 +5594,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 180,
-              "netSales": 166.68,
+              "sales": 150,
+              "netSales": 138.9,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 138.9
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 34,
-              "sales": 180,
-              "netSales": 166.68,
+              "sales": 140,
+              "netSales": 129.64,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -5684,10 +5684,10 @@
               "itemCode": "TPMX195515IPRO-26",
               "itemName": "MAXXIS 195/55/15 I-PRO 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 620,
-              "grossProfit": -28
+              "grossProfit": 42
             },
             {
               "category": "passenger_tire",
@@ -5763,11 +5763,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 16,
-              "sales": 160,
-              "netSales": 160,
-              "cost": 26.4,
-              "grossProfit": 133.6
+              "quantity": 20,
+              "sales": 200,
+              "netSales": 200,
+              "cost": 33,
+              "grossProfit": 167
             },
             {
               "category": "other",
@@ -5793,7 +5793,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:45:14.945Z"
+      "lastCollectedAt": "2026-11-15T05:51:20.869Z"
     },
     "SR": {
       "days": {
@@ -10664,14 +10664,14 @@
           ]
         },
         "2026-11-15": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4250,
-              "netSales": 4250,
+              "sales": 4370,
+              "netSales": 4370,
               "cost": 3586,
-              "grossProfit": 664,
+              "grossProfit": 784,
               "quantity": 20
             },
             {
@@ -10684,18 +10684,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 280,
-              "netSales": 280,
-              "cost": 153.4,
-              "grossProfit": 126.6,
-              "quantity": 3
+              "sales": 610,
+              "netSales": 610,
+              "cost": 344.93,
+              "grossProfit": 265.07,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 3928,
-              "netSales": 3928,
+              "sales": 3808,
+              "netSales": 3808,
               "cost": 3006.4,
-              "grossProfit": 921.6,
+              "grossProfit": 801.6,
               "quantity": 56
             }
           ],
@@ -10735,20 +10735,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 24,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -10775,10 +10775,10 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 312,
-              "netSales": 312,
+              "sales": 382,
+              "netSales": 382,
               "cost": 308,
-              "grossProfit": 4
+              "grossProfit": 74
             },
             {
               "category": "passenger_tire",
@@ -10795,10 +10795,10 @@
               "itemCode": "TPTY206017CR1-26",
               "itemName": "TOYO 205/60/17 PXCR1 SUV 97H M'SIA (2026)",
               "quantity": 2,
-              "sales": 740,
-              "netSales": 740,
+              "sales": 790,
+              "netSales": 790,
               "cost": 696,
-              "grossProfit": 44
+              "grossProfit": 94
             },
             {
               "category": "passenger_tire",
@@ -10849,6 +10849,36 @@
               "netSales": 180,
               "cost": 94,
               "grossProfit": 86
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFTYTE2",
+              "itemName": "OIL FILTER YZZE2 TOYOTA AE101",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q1LT",
+              "itemName": "TOTAL 5W40 1L QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 18.37,
+              "grossProfit": 31.63
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q9000",
+              "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 165.66,
+              "grossProfit": 114.34
             },
             {
               "category": "other",
@@ -10934,7 +10964,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:45:14.945Z"
+      "lastCollectedAt": "2026-11-15T05:51:20.869Z"
     },
     "ST": {
       "days": {
@@ -16067,7 +16097,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:45:14.945Z"
+      "lastCollectedAt": "2026-11-15T05:51:20.869Z"
     },
     "SK": {
       "days": {
@@ -18990,7 +19020,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:45:14.945Z"
+      "lastCollectedAt": "2026-11-15T05:51:20.869Z"
     },
     "KM": {
       "days": {
@@ -19072,8 +19102,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:45:14.945Z"
+      "lastCollectedAt": "2026-11-15T05:51:20.869Z"
     }
   },
-  "updatedAt": "2026-11-15T05:45:14.945Z"
+  "updatedAt": "2026-11-15T05:51:20.869Z"
 }
