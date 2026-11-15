@@ -5533,7 +5533,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 16,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 1000,
-              "netSales": 960.04,
+              "sales": 1040,
+              "netSales": 997.08,
               "cost": 96.4,
-              "grossProfit": 863.64,
-              "quantity": 93
+              "grossProfit": 900.68,
+              "quantity": 95
             }
           ],
           "items": [
@@ -5593,11 +5593,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 150,
-              "netSales": 138.9,
+              "quantity": 10,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 166.68
             },
             {
               "category": "other",
@@ -5613,11 +5613,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -5652,7 +5652,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 8,
               "sales": 1724,
               "netSales": 1724,
@@ -5793,7 +5793,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:33:03.034Z"
+      "lastCollectedAt": "2026-11-15T05:39:07.859Z"
     },
     "SR": {
       "days": {
@@ -10934,7 +10934,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:33:03.034Z"
+      "lastCollectedAt": "2026-11-15T05:39:07.859Z"
     },
     "ST": {
       "days": {
@@ -15847,15 +15847,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2352,
-              "netSales": 2352,
-              "cost": 2252,
-              "grossProfit": 100,
-              "quantity": 16
+              "sales": 3194,
+              "netSales": 3194,
+              "cost": 3176,
+              "grossProfit": 18,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -15875,11 +15875,11 @@
             },
             {
               "key": "other",
-              "sales": 638,
-              "netSales": 638,
-              "cost": 69.9,
-              "grossProfit": 568.1,
-              "quantity": 44
+              "sales": 698,
+              "netSales": 698,
+              "cost": 76.5,
+              "grossProfit": 621.5,
+              "quantity": 53
             }
           ],
           "items": [
@@ -15897,7 +15897,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
+              "quantity": 7,
               "sales": 120,
               "netSales": 120,
               "cost": 0,
@@ -15907,11 +15907,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 20,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -15932,6 +15932,16 @@
               "netSales": 25,
               "cost": 25,
               "grossProfit": 0
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 924,
+              "grossProfit": -132
             },
             {
               "category": "passenger_tire",
@@ -15978,10 +15988,10 @@
               "itemCode": "TPHX165015CL01-26",
               "itemName": "HANMIX 165/50/15 CLASSIC CL01 72H CN (2026)",
               "quantity": 2,
-              "sales": 236,
-              "netSales": 236,
+              "sales": 286,
+              "netSales": 286,
               "cost": 194,
-              "grossProfit": 42
+              "grossProfit": 92
             },
             {
               "category": "foreman_item",
@@ -16007,11 +16017,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 19.8,
-              "grossProfit": 100.2
+              "quantity": 16,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 26.4,
+              "grossProfit": 133.6
             },
             {
               "category": "other",
@@ -16057,7 +16067,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:33:03.034Z"
+      "lastCollectedAt": "2026-11-15T05:39:07.859Z"
     },
     "SK": {
       "days": {
@@ -18980,7 +18990,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:33:03.034Z"
+      "lastCollectedAt": "2026-11-15T05:39:07.859Z"
     },
     "KM": {
       "days": {
@@ -19062,8 +19072,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:33:03.034Z"
+      "lastCollectedAt": "2026-11-15T05:39:07.859Z"
     }
   },
-  "updatedAt": "2026-11-15T05:33:03.034Z"
+  "updatedAt": "2026-11-15T05:39:07.859Z"
 }
