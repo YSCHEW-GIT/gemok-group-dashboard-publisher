@@ -5533,7 +5533,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 24,
+          "documents": 25,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5545,11 +5545,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 1614,
-              "netSales": 1614,
-              "cost": 2060,
-              "grossProfit": -446,
-              "quantity": 2
+              "sales": 1684,
+              "netSales": 1684,
+              "cost": 1660,
+              "grossProfit": 24,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -5561,10 +5561,10 @@
             },
             {
               "key": "other",
-              "sales": 1394,
-              "netSales": 1339.68,
+              "sales": 1324,
+              "netSales": 1274.86,
               "cost": 129.4,
-              "grossProfit": 1210.28,
+              "grossProfit": 1145.46,
               "quantity": 138
             }
           ],
@@ -5577,6 +5577,16 @@
               "sales": -200,
               "netSales": -200,
               "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2620917",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": -2,
+              "sales": -400,
+              "netSales": -400,
+              "cost": -400,
               "grossProfit": 0
             },
             {
@@ -5594,10 +5604,10 @@
               "itemCode": "SIMHB1541RE30",
               "itemName": "SPORT RIM 15X7 4X100 ET28 DARK HYPER BRONZE-RE30",
               "quantity": 1,
-              "sales": 438,
-              "netSales": 438,
+              "sales": 908,
+              "netSales": 908,
               "cost": 720,
-              "grossProfit": -282
+              "grossProfit": 188
             },
             {
               "category": "sport_rim",
@@ -5614,20 +5624,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 14,
-              "sales": 240,
-              "netSales": 222.24,
+              "sales": 210,
+              "netSales": 194.46,
               "cost": 0,
-              "grossProfit": 222.24
+              "grossProfit": 194.46
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 50,
-              "sales": 240,
-              "netSales": 222.24,
+              "sales": 200,
+              "netSales": 185.2,
               "cost": 0,
-              "grossProfit": 222.24
+              "grossProfit": 185.2
             },
             {
               "category": "other",
@@ -5863,7 +5873,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T07:07:53.220Z"
+      "lastCollectedAt": "2026-11-15T07:13:58.573Z"
     },
     "SR": {
       "days": {
@@ -11084,7 +11094,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T07:07:53.220Z"
+      "lastCollectedAt": "2026-11-15T07:13:58.573Z"
     },
     "ST": {
       "days": {
@@ -16277,7 +16287,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T07:07:53.220Z"
+      "lastCollectedAt": "2026-11-15T07:13:58.573Z"
     },
     "SK": {
       "days": {
@@ -19260,7 +19270,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T07:07:53.220Z"
+      "lastCollectedAt": "2026-11-15T07:13:58.573Z"
     },
     "KM": {
       "days": {
@@ -19342,8 +19352,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T07:07:53.220Z"
+      "lastCollectedAt": "2026-11-15T07:13:58.573Z"
     }
   },
-  "updatedAt": "2026-11-15T07:07:53.220Z"
+  "updatedAt": "2026-11-15T07:13:58.573Z"
 }
