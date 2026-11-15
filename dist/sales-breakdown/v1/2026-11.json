@@ -5537,10 +5537,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 792,
-              "netSales": 792,
+              "sales": 783.26,
+              "netSales": 783.26,
               "cost": 920,
-              "grossProfit": -128,
+              "grossProfit": -136.74,
               "quantity": 4
             },
             {
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 110,
-              "netSales": 104.82,
+              "sales": 118.74,
+              "netSales": 112.82,
               "cost": 6.6,
-              "grossProfit": 98.22,
-              "quantity": 9
+              "grossProfit": 106.22,
+              "quantity": 10
             }
           ],
           "items": [
@@ -5574,46 +5574,56 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "sales": 29.69,
+              "netSales": 27.47,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 27.47
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 39.59,
+              "netSales": 36.63,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 36.63
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 9.9,
+              "netSales": 9.16,
+              "cost": 0,
+              "grossProfit": 9.16
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
+              "sales": 783.26,
+              "netSales": 783.26,
               "cost": 920,
-              "grossProfit": -128
+              "grossProfit": -136.74
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.56,
+              "netSales": 39.56,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 32.96
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
+      "lastCollectedAt": "2026-11-15T02:08:50.841Z"
     },
     "SR": {
       "days": {
@@ -10484,7 +10494,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10512,18 +10522,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 5,
+              "netSales": 5,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 5,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 5,
+              "netSales": 5,
+              "cost": 0,
+              "grossProfit": 5
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
+      "lastCollectedAt": "2026-11-15T02:08:50.841Z"
     },
     "ST": {
       "days": {
@@ -15475,7 +15496,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
+      "lastCollectedAt": "2026-11-15T02:08:50.841Z"
     },
     "SK": {
       "days": {
@@ -18297,7 +18318,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
+      "lastCollectedAt": "2026-11-15T02:08:50.841Z"
     },
     "KM": {
       "days": {
@@ -18379,8 +18400,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:01:46.342Z"
+      "lastCollectedAt": "2026-11-15T02:08:50.841Z"
     }
   },
-  "updatedAt": "2026-11-15T02:01:46.342Z"
+  "updatedAt": "2026-11-15T02:08:50.841Z"
 }
