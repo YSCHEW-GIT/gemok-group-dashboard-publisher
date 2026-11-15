@@ -5622,7 +5622,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -5633,7 +5633,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
+      "lastCollectedAt": "2026-11-15T02:29:36.926Z"
     },
     "SR": {
       "days": {
@@ -10504,7 +10504,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10532,11 +10532,11 @@
             },
             {
               "key": "other",
-              "sales": 5,
-              "netSales": 5,
+              "sales": 15,
+              "netSales": 15,
               "cost": 0,
-              "grossProfit": 5,
-              "quantity": 2
+              "grossProfit": 15,
+              "quantity": 3
             }
           ],
           "items": [
@@ -10552,6 +10552,16 @@
             },
             {
               "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
+              "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 1,
@@ -10564,7 +10574,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
+      "lastCollectedAt": "2026-11-15T02:29:36.926Z"
     },
     "ST": {
       "days": {
@@ -15477,15 +15487,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 256,
+              "netSales": 256,
+              "cost": 238,
+              "grossProfit": 18,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -15505,18 +15515,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 70,
+              "netSales": 70,
+              "cost": 3.3,
+              "grossProfit": 66.7,
+              "quantity": 5
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 0,
+              "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF185515TL",
+              "itemName": "LAUFENN 185/55/15 LK01 82H (2026)",
+              "quantity": 2,
+              "sales": 256,
+              "netSales": 256,
+              "cost": 238,
+              "grossProfit": 18
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
+      "lastCollectedAt": "2026-11-15T02:29:36.926Z"
     },
     "SK": {
       "days": {
@@ -18338,7 +18389,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
+      "lastCollectedAt": "2026-11-15T02:29:36.926Z"
     },
     "KM": {
       "days": {
@@ -18420,8 +18471,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
+      "lastCollectedAt": "2026-11-15T02:29:36.926Z"
     }
   },
-  "updatedAt": "2026-11-15T02:22:59.035Z"
+  "updatedAt": "2026-11-15T02:29:36.926Z"
 }
