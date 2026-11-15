@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 120,
-              "netSales": 114.08,
-              "cost": 6.6,
-              "grossProfit": 107.48,
-              "quantity": 10
+              "sales": 210,
+              "netSales": 204.08,
+              "cost": 26.6,
+              "grossProfit": 177.48,
+              "quantity": 12
             }
           ],
           "items": [
@@ -5611,6 +5611,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCTYTVS",
+              "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 20,
+              "grossProfit": 70
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
@@ -5623,7 +5633,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:15:54.931Z"
+      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
     },
     "SR": {
       "days": {
@@ -10526,25 +10536,35 @@
               "netSales": 5,
               "cost": 0,
               "grossProfit": 5,
-              "quantity": 1
+              "quantity": 2
             }
           ],
           "items": [
             {
               "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 3.33,
+              "netSales": 3.33,
+              "cost": 0,
+              "grossProfit": 3.33
+            },
+            {
+              "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 1,
-              "sales": 5,
-              "netSales": 5,
+              "sales": 1.67,
+              "netSales": 1.67,
               "cost": 0,
-              "grossProfit": 5
+              "grossProfit": 1.67
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:15:54.931Z"
+      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
     },
     "ST": {
       "days": {
@@ -15496,7 +15516,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:15:54.931Z"
+      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
     },
     "SK": {
       "days": {
@@ -18318,7 +18338,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:15:54.931Z"
+      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
     },
     "KM": {
       "days": {
@@ -18400,8 +18420,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:15:54.931Z"
+      "lastCollectedAt": "2026-11-15T02:22:59.035Z"
     }
   },
-  "updatedAt": "2026-11-15T02:15:54.931Z"
+  "updatedAt": "2026-11-15T02:22:59.035Z"
 }
