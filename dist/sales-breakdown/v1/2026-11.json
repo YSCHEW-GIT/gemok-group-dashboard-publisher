@@ -5533,7 +5533,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 690,
-              "netSales": 672.98,
+              "sales": 780,
+              "netSales": 756.32,
               "cost": 96.4,
-              "grossProfit": 576.58,
-              "quantity": 68
+              "grossProfit": 659.92,
+              "quantity": 73
             }
           ],
           "items": [
@@ -5603,11 +5603,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 60,
-              "netSales": 55.56,
+              "quantity": 20,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -5643,11 +5643,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 83.34
             },
             {
               "category": "passenger_tire",
@@ -5763,7 +5763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:03:50.052Z"
+      "lastCollectedAt": "2026-11-15T04:09:54.596Z"
     },
     "SR": {
       "days": {
@@ -10634,7 +10634,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10654,11 +10654,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 180,
-              "netSales": 180,
-              "cost": 94,
-              "grossProfit": 86,
-              "quantity": 2
+              "sales": 280,
+              "netSales": 280,
+              "cost": 153.4,
+              "grossProfit": 126.6,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -10752,6 +10752,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PWBARKLSF",
+              "itemName": "NTN WHEEL BEARING FRT MYVI 1ST MODEL, VIVA,KENARI KELISA AU0755",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 59.4,
+              "grossProfit": 40.6
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PD2AMALZA",
               "itemName": "D2 MOUNTING ABSORBER ALZA/MYVI",
               "quantity": 2,
@@ -10814,7 +10824,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:03:50.052Z"
+      "lastCollectedAt": "2026-11-15T04:09:54.596Z"
     },
     "ST": {
       "days": {
@@ -15837,7 +15847,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:03:50.052Z"
+      "lastCollectedAt": "2026-11-15T04:09:54.596Z"
     },
     "SK": {
       "days": {
@@ -18700,7 +18710,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:03:50.052Z"
+      "lastCollectedAt": "2026-11-15T04:09:54.596Z"
     },
     "KM": {
       "days": {
@@ -18782,8 +18792,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:03:50.052Z"
+      "lastCollectedAt": "2026-11-15T04:09:54.596Z"
     }
   },
-  "updatedAt": "2026-11-15T04:03:50.052Z"
+  "updatedAt": "2026-11-15T04:09:54.596Z"
 }
