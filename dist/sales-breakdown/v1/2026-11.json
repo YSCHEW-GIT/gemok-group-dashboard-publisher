@@ -5533,7 +5533,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 940,
-              "netSales": 904.48,
+              "sales": 930,
+              "netSales": 895.22,
               "cost": 96.4,
-              "grossProfit": 808.08,
-              "quantity": 91
+              "grossProfit": 798.82,
+              "quantity": 90
             }
           ],
           "items": [
@@ -5613,11 +5613,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 18.52
             },
             {
               "category": "other",
@@ -5783,7 +5783,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:20:48.942Z"
+      "lastCollectedAt": "2026-11-15T05:26:54.264Z"
     },
     "SR": {
       "days": {
@@ -10853,7 +10853,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 2,
               "sales": 14,
               "netSales": 14,
@@ -10924,7 +10924,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:20:48.942Z"
+      "lastCollectedAt": "2026-11-15T05:26:54.264Z"
     },
     "ST": {
       "days": {
@@ -16016,7 +16016,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
               "sales": 28,
               "netSales": 28,
@@ -16047,7 +16047,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:20:48.942Z"
+      "lastCollectedAt": "2026-11-15T05:26:54.264Z"
     },
     "SK": {
       "days": {
@@ -18830,15 +18830,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 432,
+              "netSales": 432,
+              "cost": 396,
+              "grossProfit": 36,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -18858,11 +18858,11 @@
             },
             {
               "key": "other",
-              "sales": 145,
-              "netSales": 145,
-              "cost": 2.2,
-              "grossProfit": 142.8,
-              "quantity": 6
+              "sales": 255,
+              "netSales": 255,
+              "cost": 3.8,
+              "grossProfit": 251.2,
+              "quantity": 15
             }
           ],
           "items": [
@@ -18900,11 +18900,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAR205516C1-26",
+              "itemName": "AURUNZE 205/55/16 TOURING C1 (2026)",
+              "quantity": 4,
+              "sales": 432,
+              "netSales": 432,
+              "cost": 396,
+              "grossProfit": 36
             },
             {
               "category": "foreman_item",
@@ -18928,6 +18948,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 1.6,
+              "grossProfit": 38.4
+            },
+            {
+              "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
@@ -18940,7 +18970,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:20:48.942Z"
+      "lastCollectedAt": "2026-11-15T05:26:54.264Z"
     },
     "KM": {
       "days": {
@@ -19022,8 +19052,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T05:20:48.942Z"
+      "lastCollectedAt": "2026-11-15T05:26:54.264Z"
     }
   },
-  "updatedAt": "2026-11-15T05:20:48.942Z"
+  "updatedAt": "2026-11-15T05:26:54.264Z"
 }
