@@ -5537,10 +5537,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1860,
-              "netSales": 1860,
+              "sales": 1930,
+              "netSales": 1930,
               "cost": 2172,
-              "grossProfit": -312,
+              "grossProfit": -242,
               "quantity": 10
             },
             {
@@ -5561,10 +5561,10 @@
             },
             {
               "key": "other",
-              "sales": 630,
-              "netSales": 612.98,
+              "sales": 560,
+              "netSales": 548.16,
               "cost": 86.5,
-              "grossProfit": 526.48,
+              "grossProfit": 461.66,
               "quantity": 51
             }
           ],
@@ -5584,20 +5584,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 100,
-              "netSales": 92.6,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 55.56
             },
             {
               "category": "other",
@@ -5624,10 +5624,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 8,
-              "sales": 1584,
-              "netSales": 1584,
+              "sales": 1654,
+              "netSales": 1654,
               "cost": 1840,
-              "grossProfit": -256
+              "grossProfit": -186
             },
             {
               "category": "passenger_tire",
@@ -5683,7 +5683,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
+      "lastCollectedAt": "2026-11-15T02:58:51.744Z"
     },
     "SR": {
       "days": {
@@ -10724,7 +10724,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
+      "lastCollectedAt": "2026-11-15T02:58:51.744Z"
     },
     "ST": {
       "days": {
@@ -15727,7 +15727,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
+      "lastCollectedAt": "2026-11-15T02:58:51.744Z"
     },
     "SK": {
       "days": {
@@ -18510,7 +18510,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18538,11 +18538,11 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 45,
+              "netSales": 45,
+              "cost": 2.2,
+              "grossProfit": 42.8,
+              "quantity": 1
             }
           ],
           "items": [
@@ -18565,12 +18565,22 @@
               "netSales": 0,
               "cost": 155,
               "grossProfit": -155
+            },
+            {
+              "category": "other",
+              "itemCode": "XLPTBP00",
+              "itemName": "LMS BP-00 TIRE PATCHES",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 2.2,
+              "grossProfit": 42.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
+      "lastCollectedAt": "2026-11-15T02:58:51.744Z"
     },
     "KM": {
       "days": {
@@ -18652,8 +18662,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
+      "lastCollectedAt": "2026-11-15T02:58:51.744Z"
     }
   },
-  "updatedAt": "2026-11-15T02:52:45.311Z"
+  "updatedAt": "2026-11-15T02:58:51.744Z"
 }
