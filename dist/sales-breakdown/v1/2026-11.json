@@ -5722,7 +5722,7 @@
             {
               "category": "other",
               "itemCode": "MNCTYTVS",
-              "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
+              "itemName": "CAMBER NUT TYT VIOS NEW",
               "quantity": 2,
               "sales": 90,
               "netSales": 90,
@@ -5763,7 +5763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
+      "lastCollectedAt": "2026-11-15T04:28:12.199Z"
     },
     "SR": {
       "days": {
@@ -10634,15 +10634,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3868,
-              "netSales": 3868,
-              "cost": 3278,
-              "grossProfit": 590,
-              "quantity": 16
+              "sales": 4180,
+              "netSales": 4180,
+              "cost": 3586,
+              "grossProfit": 594,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -10662,11 +10662,11 @@
             },
             {
               "key": "other",
-              "sales": 2664,
-              "netSales": 2664,
-              "cost": 2161.4,
-              "grossProfit": 502.6,
-              "quantity": 39
+              "sales": 2844,
+              "netSales": 2844,
+              "cost": 2181.4,
+              "grossProfit": 662.6,
+              "quantity": 46
             }
           ],
           "items": [
@@ -10684,21 +10684,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 9,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 20,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -10719,6 +10719,16 @@
               "netSales": 120,
               "cost": 100,
               "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 312,
+              "netSales": 312,
+              "cost": 308,
+              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -10822,6 +10832,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCTYTVS",
+              "itemName": "CAMBER NUT TYT VIOS NEW",
+              "quantity": 2,
+              "sales": 110,
+              "netSales": 110,
+              "cost": 20,
+              "grossProfit": 90
+            },
+            {
+              "category": "other",
               "itemCode": "PADJD2MYBS",
               "itemName": "D2 ADJUSTABLE ABS MYVI OLD/VIVA HILOW BODY SHIFT F&R",
               "quantity": 1,
@@ -10844,7 +10864,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
+      "lastCollectedAt": "2026-11-15T04:28:12.199Z"
     },
     "ST": {
       "days": {
@@ -15907,7 +15927,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
+      "lastCollectedAt": "2026-11-15T04:28:12.199Z"
     },
     "SK": {
       "days": {
@@ -18770,7 +18790,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
+      "lastCollectedAt": "2026-11-15T04:28:12.199Z"
     },
     "KM": {
       "days": {
@@ -18852,8 +18872,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:22:07.129Z"
+      "lastCollectedAt": "2026-11-15T04:28:12.199Z"
     }
   },
-  "updatedAt": "2026-11-15T04:22:07.129Z"
+  "updatedAt": "2026-11-15T04:28:12.199Z"
 }
