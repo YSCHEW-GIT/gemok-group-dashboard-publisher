@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 1330,
-              "netSales": 1277.46,
+              "sales": 1354,
+              "netSales": 1299.68,
               "cost": 122.8,
-              "grossProfit": 1154.66,
-              "quantity": 127
+              "grossProfit": 1176.88,
+              "quantity": 128
             }
           ],
           "items": [
@@ -5658,6 +5658,16 @@
               "netSales": 166.68,
               "cost": 0,
               "grossProfit": 166.68
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE FOR TYRE",
+              "quantity": 1,
+              "sales": 24,
+              "netSales": 22.22,
+              "cost": 0,
+              "grossProfit": 22.22
             },
             {
               "category": "passenger_tire",
@@ -5833,7 +5843,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T06:43:26.131Z"
+      "lastCollectedAt": "2026-11-15T06:49:33.424Z"
     },
     "SR": {
       "days": {
@@ -10704,7 +10714,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10724,11 +10734,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1140,
-              "netSales": 1140,
-              "cost": 500.43,
-              "grossProfit": 639.57,
-              "quantity": 11
+              "sales": 1240,
+              "netSales": 1240,
+              "cost": 528.43,
+              "grossProfit": 711.57,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -10961,6 +10971,16 @@
               "grossProfit": -28
             },
             {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 28,
+              "grossProfit": 72
+            },
+            {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
@@ -11044,7 +11064,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T06:43:26.131Z"
+      "lastCollectedAt": "2026-11-15T06:49:33.424Z"
     },
     "ST": {
       "days": {
@@ -16247,7 +16267,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T06:43:26.131Z"
+      "lastCollectedAt": "2026-11-15T06:49:33.424Z"
     },
     "SK": {
       "days": {
@@ -19030,7 +19050,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19050,19 +19070,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 845,
-              "netSales": 845,
-              "cost": 300,
-              "grossProfit": 545,
-              "quantity": 3
+              "sales": 925,
+              "netSales": 925,
+              "cost": 328,
+              "grossProfit": 597,
+              "quantity": 4
             },
             {
               "key": "other",
-              "sales": 445,
-              "netSales": 445,
-              "cost": 19.4,
-              "grossProfit": 425.6,
-              "quantity": 27
+              "sales": 535,
+              "netSales": 535,
+              "cost": 26.4,
+              "grossProfit": 508.6,
+              "quantity": 29
             }
           ],
           "items": [
@@ -19138,6 +19158,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PBPPLTMYVOLD",
+              "itemName": "BRAKE PAD 05-10 CD0045M PLANTINUM MYVI OLD",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 28,
+              "grossProfit": 52
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSK26110023",
               "itemName": "FAN MOTOR DENSO 63503W KELISA",
               "quantity": 1,
@@ -19168,6 +19198,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
+            },
+            {
+              "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
@@ -19190,7 +19230,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T06:43:26.131Z"
+      "lastCollectedAt": "2026-11-15T06:49:33.424Z"
     },
     "KM": {
       "days": {
@@ -19272,8 +19312,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T06:43:26.131Z"
+      "lastCollectedAt": "2026-11-15T06:49:33.424Z"
     }
   },
-  "updatedAt": "2026-11-15T06:43:26.131Z"
+  "updatedAt": "2026-11-15T06:49:33.424Z"
 }
