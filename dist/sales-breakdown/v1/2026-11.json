@@ -5533,7 +5533,7 @@
           ]
         },
         "2026-11-15": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -5561,11 +5561,11 @@
             },
             {
               "key": "other",
-              "sales": 600,
-              "netSales": 585.2,
+              "sales": 630,
+              "netSales": 612.98,
               "cost": 86.5,
-              "grossProfit": 498.7,
-              "quantity": 50
+              "grossProfit": 526.48,
+              "quantity": 51
             }
           ],
           "items": [
@@ -5583,11 +5583,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 4,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -5683,7 +5683,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:46:40.841Z"
+      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
     },
     "SR": {
       "days": {
@@ -10554,15 +10554,15 @@
           ]
         },
         "2026-11-15": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1018,
-              "netSales": 1018,
-              "cost": 986,
-              "grossProfit": 32,
-              "quantity": 6
+              "sales": 2138,
+              "netSales": 2138,
+              "cost": 1870,
+              "grossProfit": 268,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -10582,11 +10582,11 @@
             },
             {
               "key": "other",
-              "sales": 1245,
-              "netSales": 1245,
-              "cost": 850,
-              "grossProfit": 395,
-              "quantity": 17
+              "sales": 1374,
+              "netSales": 1374,
+              "cost": 836.4,
+              "grossProfit": 537.6,
+              "quantity": 28
             }
           ],
           "items": [
@@ -10604,21 +10604,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -10634,11 +10634,21 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 75,
+              "grossProfit": 15
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL216017SU320-26",
+              "itemName": "WEST LAKE 215/60/17 SU320 96H TL TH (2026)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 100,
-              "grossProfit": 20
+              "sales": 1120,
+              "netSales": 1120,
+              "cost": 884,
+              "grossProfit": 236
             },
             {
               "category": "passenger_tire",
@@ -10672,6 +10682,36 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 1,
+              "sales": 35,
+              "netSales": 35,
+              "cost": 3.5,
+              "grossProfit": 31.5
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 2,
+              "sales": 14,
+              "netSales": 14,
+              "cost": 1.3,
+              "grossProfit": 12.7
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "other",
               "itemCode": "PADJD2MYBS",
               "itemName": "D2 ADJUSTABLE ABS MYVI OLD/VIVA HILOW BODY SHIFT F&R",
               "quantity": 1,
@@ -10684,7 +10724,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:46:40.841Z"
+      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
     },
     "ST": {
       "days": {
@@ -15687,7 +15727,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:46:40.841Z"
+      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
     },
     "SK": {
       "days": {
@@ -18530,7 +18570,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:46:40.841Z"
+      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
     },
     "KM": {
       "days": {
@@ -18612,8 +18652,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T02:46:40.841Z"
+      "lastCollectedAt": "2026-11-15T02:52:45.311Z"
     }
   },
-  "updatedAt": "2026-11-15T02:46:40.841Z"
+  "updatedAt": "2026-11-15T02:52:45.311Z"
 }
