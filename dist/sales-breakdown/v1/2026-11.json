@@ -5622,7 +5622,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 50,
               "netSales": 46.3,
@@ -5763,7 +5763,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
+      "lastCollectedAt": "2026-11-15T04:46:26.201Z"
     },
     "SR": {
       "days": {
@@ -10662,11 +10662,11 @@
             },
             {
               "key": "other",
-              "sales": 2844,
-              "netSales": 2844,
+              "sales": 2858,
+              "netSales": 2858,
               "cost": 2181.4,
-              "grossProfit": 662.6,
-              "quantity": 46
+              "grossProfit": 676.6,
+              "quantity": 47
             }
           ],
           "items": [
@@ -10703,17 +10703,17 @@
             {
               "category": "other",
               "itemCode": "SRVCHG",
-              "itemName": "SERVICE CHARGE",
-              "quantity": 1,
-              "sales": 5,
-              "netSales": 5,
+              "itemName": "SERVICE CHARGE FOR TYRE",
+              "quantity": 2,
+              "sales": 19,
+              "netSales": 19,
               "cost": 0,
-              "grossProfit": 5
+              "grossProfit": 19
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 4,
               "sales": 120,
               "netSales": 120,
@@ -10864,7 +10864,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
+      "lastCollectedAt": "2026-11-15T04:46:26.201Z"
     },
     "ST": {
       "days": {
@@ -15846,7 +15846,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 1,
               "sales": 25,
               "netSales": 25,
@@ -15927,7 +15927,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
+      "lastCollectedAt": "2026-11-15T04:46:26.201Z"
     },
     "SK": {
       "days": {
@@ -18730,19 +18730,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 845,
-              "netSales": 845,
+              "sales": 776.72,
+              "netSales": 776.72,
               "cost": 300,
-              "grossProfit": 545,
+              "grossProfit": 476.72,
               "quantity": 3
             },
             {
               "key": "other",
-              "sales": 65,
-              "netSales": 65,
+              "sales": 133.28,
+              "netSales": 133.28,
               "cost": 2.2,
-              "grossProfit": 62.8,
-              "quantity": 3
+              "grossProfit": 131.08,
+              "quantity": 6
             }
           ],
           "items": [
@@ -18751,56 +18751,76 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 18.38,
+              "netSales": 18.38,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 18.38
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 45,
-              "netSales": 45,
+              "sales": 41.36,
+              "netSales": 41.36,
               "cost": 0,
-              "grossProfit": 45
+              "grossProfit": 41.36
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 2,
+              "sales": 45.96,
+              "netSales": 45.96,
+              "cost": 0,
+              "grossProfit": 45.96
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 27.58,
+              "netSales": 27.58,
+              "cost": 0,
+              "grossProfit": 27.58
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110023",
               "itemName": "FAN MOTOR DENSO 63503W KELISA",
               "quantity": 1,
-              "sales": 350,
-              "netSales": 350,
+              "sales": 321.72,
+              "netSales": 321.72,
               "cost": 145,
-              "grossProfit": 205
+              "grossProfit": 176.72
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110024",
               "itemName": "RADIATOR PNM PQPD1010 KELISA",
               "quantity": 1,
-              "sales": 450,
-              "netSales": 450,
+              "sales": 413.64,
+              "netSales": 413.64,
               "cost": 155,
-              "grossProfit": 295
+              "grossProfit": 258.64
             },
             {
               "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
-              "sales": 45,
-              "netSales": 45,
+              "sales": 41.36,
+              "netSales": 41.36,
               "cost": 2.2,
-              "grossProfit": 42.8
+              "grossProfit": 39.16
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
+      "lastCollectedAt": "2026-11-15T04:46:26.201Z"
     },
     "KM": {
       "days": {
@@ -18882,8 +18902,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-15T04:40:21.227Z"
+      "lastCollectedAt": "2026-11-15T04:46:26.201Z"
     }
   },
-  "updatedAt": "2026-11-15T04:40:21.227Z"
+  "updatedAt": "2026-11-15T04:46:26.201Z"
 }
