@@ -6432,7 +6432,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:32:15.392Z"
+      "lastCollectedAt": "2026-11-16T08:38:21.065Z"
     },
     "SR": {
       "days": {
@@ -11942,7 +11942,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:32:15.392Z"
+      "lastCollectedAt": "2026-11-16T08:38:21.065Z"
     },
     "ST": {
       "days": {
@@ -17348,10 +17348,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11312,
-              "netSales": 11312,
+              "sales": 11362,
+              "netSales": 11362,
               "cost": 10694,
-              "grossProfit": 618,
+              "grossProfit": 668,
               "quantity": 34
             },
             {
@@ -17372,10 +17372,10 @@
             },
             {
               "key": "other",
-              "sales": 1098,
-              "netSales": 1098,
+              "sales": 1048,
+              "netSales": 1048,
               "cost": 176.2,
-              "grossProfit": 921.8,
+              "grossProfit": 871.8,
               "quantity": 97
             }
           ],
@@ -17415,20 +17415,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 12,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 38,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 140,
+              "netSales": 140,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 140
             },
             {
               "category": "foreman_item",
@@ -17475,10 +17475,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 842,
-              "netSales": 842,
+              "sales": 892,
+              "netSales": 892,
               "cost": 924,
-              "grossProfit": -82
+              "grossProfit": -32
             },
             {
               "category": "passenger_tire",
@@ -17674,7 +17674,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:32:15.392Z"
+      "lastCollectedAt": "2026-11-16T08:38:21.065Z"
     },
     "SK": {
       "days": {
@@ -20686,15 +20686,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 770,
-              "netSales": 770,
+              "sales": 840,
+              "netSales": 840,
               "cost": 704,
-              "grossProfit": 66,
-              "quantity": 5
+              "grossProfit": 136,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -20722,6 +20722,16 @@
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSK195515",
+              "itemName": "USED TAYAR 195/55/15 911",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 0,
+              "grossProfit": 70
+            },
             {
               "category": "other",
               "itemCode": "PATCH",
@@ -20876,7 +20886,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:32:15.392Z"
+      "lastCollectedAt": "2026-11-16T08:38:21.065Z"
     },
     "KM": {
       "days": {
@@ -20996,8 +21006,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:32:15.392Z"
+      "lastCollectedAt": "2026-11-16T08:38:21.065Z"
     }
   },
-  "updatedAt": "2026-11-16T08:32:15.392Z"
+  "updatedAt": "2026-11-16T08:38:21.065Z"
 }
