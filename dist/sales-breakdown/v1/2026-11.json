@@ -6352,7 +6352,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:16:56.006Z"
+      "lastCollectedAt": "2026-11-16T06:23:05.125Z"
     },
     "SR": {
       "days": {
@@ -11672,15 +11672,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 180,
-              "netSales": 180,
-              "cost": 98,
-              "grossProfit": 82,
-              "quantity": 2
+              "sales": 370,
+              "netSales": 370,
+              "cost": 263,
+              "grossProfit": 107,
+              "quantity": 3
             },
             {
               "key": "sport_rim",
@@ -11779,6 +11779,16 @@
               "grossProfit": 42
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPWL185516Z117",
+              "itemName": "WEST LAKE 185/55/16 83V ZUPER FLEX Z-117 (2026)",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 165,
+              "grossProfit": 25
+            },
+            {
               "category": "foreman_item",
               "itemCode": "OG80W90",
               "itemName": "GEAR OIL 80W90 (40K)",
@@ -11812,7 +11822,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:16:56.006Z"
+      "lastCollectedAt": "2026-11-16T06:23:05.125Z"
     },
     "ST": {
       "days": {
@@ -17393,7 +17403,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 6,
               "sales": 42,
               "netSales": 42,
@@ -17424,7 +17434,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:16:56.006Z"
+      "lastCollectedAt": "2026-11-16T06:23:05.125Z"
     },
     "SK": {
       "days": {
@@ -20440,11 +20450,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 230.79,
+              "netSales": 230.79,
+              "cost": 379.2,
+              "grossProfit": -148.41,
+              "quantity": 3
             },
             {
               "key": "sport_rim",
@@ -20456,19 +20466,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1005,
-              "netSales": 1005,
+              "sales": 715.86,
+              "netSales": 715.86,
               "cost": 342.8,
-              "grossProfit": 662.2,
+              "grossProfit": 373.06,
               "quantity": 10
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
-              "cost": 0,
-              "grossProfit": 20,
-              "quantity": 2
+              "sales": 78.35,
+              "netSales": 78.35,
+              "cost": 1.2,
+              "grossProfit": 77.15,
+              "quantity": 9
             }
           ],
           "items": [
@@ -20477,76 +20487,116 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 14.24,
+              "netSales": 14.24,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 14.24
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 64.1,
+              "netSales": 64.1,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 64.1
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 21.37,
+              "netSales": 21.37,
+              "cost": 0,
+              "grossProfit": 21.37
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 3,
+              "sales": 21.37,
+              "netSales": 21.37,
+              "cost": 0,
+              "grossProfit": 21.37
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL176514Z117-26",
+              "itemName": "WESTLAKE 175/65/14 82H ZUPER FLEX Z-117 (2026)",
+              "quantity": 3,
+              "sales": 230.79,
+              "netSales": 230.79,
+              "cost": 379.2,
+              "grossProfit": -148.41
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPPLTMYVLGB",
               "itemName": "BRAKE PAD P CD0046 LANTINUM MYV LG BEST AXIZ1.0 BEZZA",
               "quantity": 1,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 56.98,
+              "netSales": 56.98,
               "cost": 32,
-              "grossProfit": 48
+              "grossProfit": 24.98
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFSP3GRN",
               "itemName": "PERODUA AUTO OIL SP3 GREEN 1LT",
               "quantity": 3,
-              "sales": 165,
-              "netSales": 165,
+              "sales": 117.53,
+              "netSales": 117.53,
               "cost": 64.8,
-              "grossProfit": 100.2
+              "grossProfit": 52.73
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110025",
               "itemName": "AUTO FILTER SET MYVI 1.3",
               "quantity": 1,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 113.97,
+              "netSales": 113.97,
               "cost": 55,
-              "grossProfit": 105
+              "grossProfit": 58.97
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110026",
               "itemName": "AUTO FILTER SET P/D AXIA ALZA MYVI 14\"",
               "quantity": 1,
-              "sales": 210,
-              "netSales": 210,
+              "sales": 149.58,
+              "netSales": 149.58,
               "cost": 55,
-              "grossProfit": 155
+              "grossProfit": 94.58
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "Tubeless Valve-Rubber",
+              "quantity": 3,
+              "sales": 21.37,
+              "netSales": 21.37,
+              "cost": 1.2,
+              "grossProfit": 20.17
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-RR",
               "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
               "quantity": 2,
-              "sales": 300,
-              "netSales": 300,
+              "sales": 213.7,
+              "netSales": 213.7,
               "cost": 136,
-              "grossProfit": 164
+              "grossProfit": 77.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:16:56.006Z"
+      "lastCollectedAt": "2026-11-16T06:23:05.125Z"
     },
     "KM": {
       "days": {
@@ -20666,8 +20716,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:16:56.006Z"
+      "lastCollectedAt": "2026-11-16T06:23:05.125Z"
     }
   },
-  "updatedAt": "2026-11-16T06:16:56.006Z"
+  "updatedAt": "2026-11-16T06:23:05.125Z"
 }
