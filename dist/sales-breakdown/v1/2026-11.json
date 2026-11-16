@@ -6122,7 +6122,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6134,11 +6134,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 588,
+              "netSales": 588,
+              "cost": 820,
+              "grossProfit": -232,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -6150,11 +6150,11 @@
             },
             {
               "key": "other",
-              "sales": 40,
-              "netSales": 37.04,
-              "cost": 0,
-              "grossProfit": 37.04,
-              "quantity": 2
+              "sales": 150,
+              "netSales": 141.86,
+              "cost": 6.6,
+              "grossProfit": 135.26,
+              "quantity": 11
             }
           ],
           "items": [
@@ -6167,6 +6167,16 @@
               "netSales": 50,
               "cost": 0,
               "grossProfit": 50
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SR1581-DG-RE30",
+              "itemName": "SPORT RIM 15X7 8X100/114 ET35 DARK GOLD RX-RE30",
+              "quantity": 1,
+              "sales": 588,
+              "netSales": 588,
+              "cost": 820,
+              "grossProfit": -232
             },
             {
               "category": "other",
@@ -6182,17 +6192,37 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
+      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
     },
     "SR": {
       "days": {
@@ -11512,15 +11542,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 1,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 40,
+              "quantity": 1
             },
             {
               "key": "sport_rim",
@@ -11540,14 +11570,24 @@
             },
             {
               "key": "other",
-              "sales": 90,
-              "netSales": 90,
+              "sales": 110,
+              "netSales": 110,
               "cost": 50,
-              "grossProfit": 40,
-              "quantity": 3
+              "grossProfit": 60,
+              "quantity": 5
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR186015",
+              "itemName": "USED TAYAR 185/60/15-911",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -11557,6 +11597,26 @@
               "netSales": 30,
               "cost": 0,
               "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -11572,7 +11632,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
+      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
     },
     "ST": {
       "days": {
@@ -17024,7 +17084,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
+      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
     },
     "SK": {
       "days": {
@@ -20106,7 +20166,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
+      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
     },
     "KM": {
       "days": {
@@ -20226,8 +20286,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
+      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
     }
   },
-  "updatedAt": "2026-11-16T02:38:25.917Z"
+  "updatedAt": "2026-11-16T02:44:38.927Z"
 }
