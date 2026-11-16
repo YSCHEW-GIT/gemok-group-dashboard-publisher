@@ -6122,7 +6122,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6150,11 +6150,11 @@
             },
             {
               "key": "other",
-              "sales": 610,
-              "netSales": 585.58,
-              "cost": 66.4,
-              "grossProfit": 519.18,
-              "quantity": 67
+              "sales": 780,
+              "netSales": 749.66,
+              "cost": 73.4,
+              "grossProfit": 676.26,
+              "quantity": 75
             }
           ],
           "items": [
@@ -6192,31 +6192,31 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 9.26,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 9.26
+              "grossProfit": 18.52
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 180,
-              "netSales": 166.68,
+              "quantity": 9,
+              "sales": 210,
+              "netSales": 194.46,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 194.46
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 24,
+              "sales": 140,
+              "netSales": 129.64,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -6347,12 +6347,22 @@
               "netSales": 160,
               "cost": 26.4,
               "grossProfit": 133.6
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:35:19.603Z"
+      "lastCollectedAt": "2026-11-16T06:41:27.192Z"
     },
     "SR": {
       "days": {
@@ -11822,7 +11832,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:35:19.603Z"
+      "lastCollectedAt": "2026-11-16T06:41:27.192Z"
     },
     "ST": {
       "days": {
@@ -17514,7 +17524,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:35:19.603Z"
+      "lastCollectedAt": "2026-11-16T06:41:27.192Z"
     },
     "SK": {
       "days": {
@@ -20676,7 +20686,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:35:19.603Z"
+      "lastCollectedAt": "2026-11-16T06:41:27.192Z"
     },
     "KM": {
       "days": {
@@ -20796,8 +20806,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T06:35:19.603Z"
+      "lastCollectedAt": "2026-11-16T06:41:27.192Z"
     }
   },
-  "updatedAt": "2026-11-16T06:35:19.603Z"
+  "updatedAt": "2026-11-16T06:41:27.192Z"
 }
