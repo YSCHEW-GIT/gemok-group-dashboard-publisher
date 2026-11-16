@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-16T10:38:13.125Z",
+  "updatedAt": "2026-11-16T11:49:05.053Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 445,
-      "quantity": 2172,
-      "stockValue": 445834.4600000001
+      "quantity": 2166,
+      "stockValue": 444309.86000000004
     },
     {
       "key": "sport-rim",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 73,
-      "quantity": 243,
-      "stockValue": 12081.150000000001
+      "quantity": 242,
+      "stockValue": 12026.75
     },
     {
       "key": "brake-pump",
@@ -147,9 +147,9 @@
     {
       "key": "miscellaneous",
       "name": "Miscellaneous",
-      "sku": 290,
-      "quantity": 9258,
-      "stockValue": 56460.26
+      "sku": 289,
+      "quantity": 9251,
+      "stockValue": 56443.86
     },
     {
       "key": "non-stock-item",
@@ -2090,7 +2090,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 232,
           "price": 208
         }
@@ -10039,7 +10039,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 298.3,
           "price": 299
         },
@@ -33554,7 +33554,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 54.4,
           "price": 98
         }
@@ -108371,25 +108371,6 @@
       ]
     },
     {
-      "code": "MNCHDCV17",
-      "groupKey": "miscellaneous",
-      "groupName": "Miscellaneous",
-      "brand": "",
-      "name": "CAMBER NUT HONDA CIVIC 1.7",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 6.5,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "MNCHDSTRM",
       "groupKey": "miscellaneous",
       "groupName": "Miscellaneous",
@@ -113981,7 +113962,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 268,
+          "quantity": 266,
           "cost": 1.65,
           "price": 10
         },
@@ -113999,7 +113980,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 357,
+          "quantity": 353,
           "cost": 1.65,
           "price": 10
         }
