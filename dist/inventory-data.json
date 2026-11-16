@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-16T02:21:14.756Z",
+  "updatedAt": "2026-11-16T03:32:56.288Z",
   "stores": [
     {
       "code": "SI",
@@ -28,23 +28,23 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 446,
-      "quantity": 2087,
-      "stockValue": 429489.1000000001
+      "sku": 447,
+      "quantity": 2094,
+      "stockValue": 433415.1000000001
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 781,
-      "quantity": 640,
-      "stockValue": 337119.02
+      "quantity": 639,
+      "stockValue": 336299.02
     },
     {
       "key": "absorber",
       "name": "Absorber",
-      "sku": 79,
-      "quantity": 134.5,
-      "stockValue": 24953.5
+      "sku": 78,
+      "quantity": 132.5,
+      "stockValue": 24817.5
     },
     {
       "key": "adj-absorber",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 873,
-      "quantity": 2922.5,
-      "stockValue": 100953.74999999997
+      "quantity": 2921.5,
+      "stockValue": 100921.74999999997
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2120,
-      "quantity": 2034,
-      "stockValue": 178357.5
+      "sku": 2121,
+      "quantity": 2035,
+      "stockValue": 178557.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 290,
-      "quantity": 9377,
-      "stockValue": 56818.60999999999
+      "quantity": 9353,
+      "stockValue": 56772.009999999995
     },
     {
       "key": "non-stock-item",
@@ -3556,6 +3556,15 @@
           "quantity": 0,
           "cost": 840,
           "price": 0
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 857,
+          "price": 0
         }
       ]
     },
@@ -4882,6 +4891,25 @@
           "location": "",
           "quantity": 0,
           "cost": 178,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "TPGT176015T20-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "GITI 175/60/15 COMFORT T20 81T CN (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 149,
           "price": 0
         }
       ]
@@ -8538,7 +8566,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 98,
           "price": 119
         }
@@ -25184,7 +25212,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 820,
           "price": 588
         }
@@ -26756,25 +26784,6 @@
           "quantity": 1,
           "cost": 100.3,
           "price": 220
-        }
-      ]
-    },
-    {
-      "code": "PAB-AXIA-RR",
-      "groupKey": "absorber",
-      "groupName": "Absorber",
-      "brand": "",
-      "name": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
-      "spec": "52",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 68,
-          "price": 150
         }
       ]
     },
@@ -50582,7 +50591,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 32,
           "price": 80
         }
@@ -105914,6 +105923,25 @@
       ]
     },
     {
+      "code": "US2620940",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -109947,7 +109975,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 364,
+          "quantity": 344,
           "cost": 2,
           "price": 150
         },
@@ -113896,7 +113924,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 346,
+          "quantity": 342,
           "cost": 1.65,
           "price": 10
         },
