@@ -6126,10 +6126,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1306,
-              "netSales": 1306,
+              "sales": 1436,
+              "netSales": 1436,
               "cost": 1238,
-              "grossProfit": 68,
+              "grossProfit": 198,
               "quantity": 7
             },
             {
@@ -6150,10 +6150,10 @@
             },
             {
               "key": "other",
-              "sales": 500,
-              "netSales": 479.28,
+              "sales": 370,
+              "netSales": 358.9,
               "cost": 56.5,
-              "grossProfit": 422.78,
+              "grossProfit": 302.4,
               "quantity": 46
             }
           ],
@@ -6203,30 +6203,30 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 90,
-              "netSales": 83.34,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 100,
-              "netSales": 92.6,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 37.04
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 80,
-              "netSales": 74.08,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 37.04
             },
             {
               "category": "foreman_item",
@@ -6243,20 +6243,20 @@
               "itemCode": "TPGM224518SPS-26",
               "itemName": "GRIPMAX 225/45/18 SUPERGRIP PRO SPORT 95 XL TH (2026)",
               "quantity": 2,
-              "sales": 620,
-              "netSales": 620,
+              "sales": 680,
+              "netSales": 680,
               "cost": 562,
-              "grossProfit": 58
+              "grossProfit": 118
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPDL195515BLUE-26",
               "itemName": "DUNLOP 195/55/15 BLUE RESPONSE TG EV 84V TH (2026)",
               "quantity": 4,
-              "sales": 636,
-              "netSales": 636,
+              "sales": 706,
+              "netSales": 706,
               "cost": 676,
-              "grossProfit": -40
+              "grossProfit": 30
             },
             {
               "category": "foreman_item",
@@ -6332,7 +6332,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:55:31.691Z"
+      "lastCollectedAt": "2026-11-16T04:01:37.197Z"
     },
     "SR": {
       "days": {
@@ -11752,7 +11752,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:55:31.691Z"
+      "lastCollectedAt": "2026-11-16T04:01:37.197Z"
     },
     "ST": {
       "days": {
@@ -17314,7 +17314,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:55:31.691Z"
+      "lastCollectedAt": "2026-11-16T04:01:37.197Z"
     },
     "SK": {
       "days": {
@@ -20346,18 +20346,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 380,
-              "netSales": 380,
-              "cost": 168,
-              "grossProfit": 212,
-              "quantity": 3
+              "sales": 385.84,
+              "netSales": 385.84,
+              "cost": 232.8,
+              "grossProfit": 153.04,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
+              "sales": 14.16,
+              "netSales": 14.16,
               "cost": 0,
-              "grossProfit": 20,
+              "grossProfit": 14.16,
               "quantity": 2
             }
           ],
@@ -20367,36 +20367,46 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 14.16,
+              "netSales": 14.16,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 14.16
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPPLTMYVLGB",
               "itemName": "BRAKE PAD P CD0046 LANTINUM MYV LG BEST AXIZ1.0 BEZZA",
               "quantity": 1,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 56.64,
+              "netSales": 56.64,
               "cost": 32,
-              "grossProfit": 48
+              "grossProfit": 24.64
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAOFSP3GRN",
+              "itemName": "PERODUA AUTO OIL SP3 GREEN 1LT",
+              "quantity": 3,
+              "sales": 116.81,
+              "netSales": 116.81,
+              "cost": 64.8,
+              "grossProfit": 52.01
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-RR",
               "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
               "quantity": 2,
-              "sales": 300,
-              "netSales": 300,
+              "sales": 212.39,
+              "netSales": 212.39,
               "cost": 136,
-              "grossProfit": 164
+              "grossProfit": 76.39
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:55:31.691Z"
+      "lastCollectedAt": "2026-11-16T04:01:37.197Z"
     },
     "KM": {
       "days": {
@@ -20516,8 +20526,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:55:31.691Z"
+      "lastCollectedAt": "2026-11-16T04:01:37.197Z"
     }
   },
-  "updatedAt": "2026-11-16T03:55:31.691Z"
+  "updatedAt": "2026-11-16T04:01:37.197Z"
 }
