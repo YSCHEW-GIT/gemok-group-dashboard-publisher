@@ -6452,7 +6452,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:50:35.992Z"
+      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
     },
     "SR": {
       "days": {
@@ -11962,7 +11962,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:50:35.992Z"
+      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
     },
     "ST": {
       "days": {
@@ -17694,7 +17694,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:50:35.992Z"
+      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
     },
     "SK": {
       "days": {
@@ -20706,7 +20706,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -20734,11 +20734,11 @@
             },
             {
               "key": "other",
-              "sales": 255,
-              "netSales": 255,
+              "sales": 325,
+              "netSales": 325,
               "cost": 9,
-              "grossProfit": 246,
-              "quantity": 19
+              "grossProfit": 316,
+              "quantity": 24
             }
           ],
           "items": [
@@ -20776,21 +20776,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 4,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 5,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 9,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -20906,7 +20906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:50:35.992Z"
+      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
     },
     "KM": {
       "days": {
@@ -21026,8 +21026,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:50:35.992Z"
+      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
     }
   },
-  "updatedAt": "2026-11-16T08:50:35.992Z"
+  "updatedAt": "2026-11-16T08:56:42.585Z"
 }
