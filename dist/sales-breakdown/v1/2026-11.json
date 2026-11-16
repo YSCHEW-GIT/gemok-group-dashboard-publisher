@@ -6122,15 +6122,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 50,
-              "netSales": 50,
-              "cost": 0,
-              "grossProfit": 50,
-              "quantity": 1
+              "sales": 1306,
+              "netSales": 1306,
+              "cost": 1238,
+              "grossProfit": 68,
+              "quantity": 7
             },
             {
               "key": "sport_rim",
@@ -6142,19 +6142,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2020,
-              "netSales": 1981.49,
-              "cost": 540,
-              "grossProfit": 1441.49,
-              "quantity": 6
+              "sales": 2590,
+              "netSales": 2551.49,
+              "cost": 795.5,
+              "grossProfit": 1755.99,
+              "quantity": 12
             },
             {
               "key": "other",
-              "sales": 310,
-              "netSales": 298.9,
-              "cost": 46.6,
-              "grossProfit": 252.3,
-              "quantity": 32
+              "sales": 500,
+              "netSales": 479.28,
+              "cost": 56.5,
+              "grossProfit": 422.78,
+              "quantity": 46
             }
           ],
           "items": [
@@ -6202,31 +6202,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 55.56,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 92.6
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 2,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "foreman_item",
@@ -6239,6 +6239,46 @@
               "grossProfit": 481.49
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPGM224518SPS-26",
+              "itemName": "GRIPMAX 225/45/18 SUPERGRIP PRO SPORT 95 XL TH (2026)",
+              "quantity": 2,
+              "sales": 620,
+              "netSales": 620,
+              "cost": 562,
+              "grossProfit": 58
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPDL195515BLUE-26",
+              "itemName": "DUNLOP 195/55/15 BLUE RESPONSE TG EV 84V TH (2026)",
+              "quantity": 4,
+              "sales": 636,
+              "netSales": 636,
+              "cost": 676,
+              "grossProfit": -40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFPRKN",
+              "itemName": "PERODUA OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 6.5,
+              "grossProfit": -6.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 99,
+              "grossProfit": 91
+            },
+            {
               "category": "foreman_item",
               "itemCode": "NSKENG",
               "itemName": "AD/VIKA ENG MTG REAR VW",
@@ -6247,6 +6287,26 @@
               "netSales": 1500,
               "cost": 540,
               "grossProfit": 960
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSLINK",
+              "itemName": "ABS LINK RR STREAM",
+              "quantity": 2,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 120,
+              "grossProfit": 160
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKBUSHSTAB",
+              "itemName": "OG2 BUSH STAB REAR H/D",
+              "quantity": 2,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 30,
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -6262,17 +6322,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:15:18.973Z"
+      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
     },
     "SR": {
       "days": {
@@ -11592,15 +11652,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 40,
-              "netSales": 40,
-              "cost": 0,
-              "grossProfit": 40,
-              "quantity": 1
+              "sales": 180,
+              "netSales": 180,
+              "cost": 98,
+              "grossProfit": 82,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -11677,12 +11737,22 @@
               "netSales": 60,
               "cost": 50,
               "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117-26",
+              "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 98,
+              "grossProfit": 42
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:15:18.973Z"
+      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
     },
     "ST": {
       "days": {
@@ -17084,15 +17154,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 3720,
+              "netSales": 3720,
+              "cost": 3428,
+              "grossProfit": 292,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -17116,7 +17186,7 @@
               "netSales": 90,
               "cost": 0,
               "grossProfit": 90,
-              "quantity": 7
+              "quantity": 12
             }
           ],
           "items": [
@@ -17144,7 +17214,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
+              "quantity": 8,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
@@ -17159,12 +17229,32 @@
               "netSales": 100,
               "cost": 0,
               "grossProfit": 100
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT265020UX7-26",
+              "itemName": "CONTINENTAL 265/50/20 UX7 111V XL FR TL (2026)",
+              "quantity": 4,
+              "sales": 3720,
+              "netSales": 3720,
+              "cost": 3428,
+              "grossProfit": 292
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:15:18.973Z"
+      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
     },
     "SK": {
       "days": {
@@ -20246,7 +20336,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:15:18.973Z"
+      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
     },
     "KM": {
       "days": {
@@ -20366,8 +20456,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:15:18.973Z"
+      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
     }
   },
-  "updatedAt": "2026-11-16T03:15:18.973Z"
+  "updatedAt": "2026-11-16T03:36:52.662Z"
 }
