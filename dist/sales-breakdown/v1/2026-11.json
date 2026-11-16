@@ -6122,15 +6122,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 41.56,
+              "netSales": 41.56,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 41.56,
+              "quantity": 1
             },
             {
               "key": "sport_rim",
@@ -6150,18 +6150,39 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 8.44,
+              "netSales": 7.7,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 7.7,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "UT195515",
+              "itemName": "USED TIRE 195/55/15",
+              "quantity": 1,
+              "sales": 41.56,
+              "netSales": 41.56,
+              "cost": 0,
+              "grossProfit": 41.56
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 8.44,
+              "netSales": 7.7,
+              "cost": 0,
+              "grossProfit": 7.7
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T01:39:39.450Z"
+      "lastCollectedAt": "2026-11-16T01:54:52.731Z"
     },
     "SR": {
       "days": {
@@ -11520,7 +11541,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T01:39:39.450Z"
+      "lastCollectedAt": "2026-11-16T01:54:52.731Z"
     },
     "ST": {
       "days": {
@@ -16922,7 +16943,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16950,18 +16971,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 10,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T01:39:39.450Z"
+      "lastCollectedAt": "2026-11-16T01:54:52.731Z"
     },
     "SK": {
       "days": {
@@ -20012,7 +20044,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T01:39:39.450Z"
+      "lastCollectedAt": "2026-11-16T01:54:52.731Z"
     },
     "KM": {
       "days": {
@@ -20132,8 +20164,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T01:39:39.450Z"
+      "lastCollectedAt": "2026-11-16T01:54:52.731Z"
     }
   },
-  "updatedAt": "2026-11-16T01:39:39.450Z"
+  "updatedAt": "2026-11-16T01:54:52.731Z"
 }
