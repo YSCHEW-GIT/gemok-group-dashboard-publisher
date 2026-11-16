@@ -6452,7 +6452,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T11:11:58.256Z"
+      "lastCollectedAt": "2026-11-16T11:18:11.632Z"
     },
     "SR": {
       "days": {
@@ -12082,7 +12082,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T11:11:58.256Z"
+      "lastCollectedAt": "2026-11-16T11:18:11.632Z"
     },
     "ST": {
       "days": {
@@ -17874,7 +17874,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T11:11:58.256Z"
+      "lastCollectedAt": "2026-11-16T11:18:11.632Z"
     },
     "SK": {
       "days": {
@@ -20890,10 +20890,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2034,
-              "netSales": 2034,
+              "sales": 1984,
+              "netSales": 1984,
               "cost": 1812.6,
-              "grossProfit": 221.4,
+              "grossProfit": 171.4,
               "quantity": 12
             },
             {
@@ -20914,10 +20914,10 @@
             },
             {
               "key": "other",
-              "sales": 540,
-              "netSales": 540,
-              "cost": 26.3,
-              "grossProfit": 513.7,
+              "sales": 625,
+              "netSales": 625,
+              "cost": 32.8,
+              "grossProfit": 592.2,
               "quantity": 43
             }
           ],
@@ -20957,6 +20957,16 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 0,
+              "grossProfit": 90
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 15,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -20964,23 +20974,13 @@
             },
             {
               "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 15,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 0,
-              "grossProfit": 40
-            },
-            {
-              "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 3,
-              "sales": 75,
-              "netSales": 75,
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 75
+              "grossProfit": 50
             },
             {
               "category": "passenger_tire",
@@ -20997,10 +20997,10 @@
               "itemCode": "TPYH205016V701-26",
               "itemName": "YOKOHAMA 205/50/16 ADVAN V701 (2026)",
               "quantity": 2,
-              "sales": 648,
-              "netSales": 648,
+              "sales": 598,
+              "netSales": 598,
               "cost": 596.6,
-              "grossProfit": 51.4
+              "grossProfit": 1.4
             },
             {
               "category": "passenger_tire",
@@ -21123,6 +21123,16 @@
               "grossProfit": 42.8
             },
             {
+              "category": "other",
+              "itemCode": "MNCHDCV17",
+              "itemName": "CAMBER NUT HONDA CIVIC 1.7",
+              "quantity": 1,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 6.5,
+              "grossProfit": 53.5
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-RR",
               "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
@@ -21136,7 +21146,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T11:11:58.256Z"
+      "lastCollectedAt": "2026-11-16T11:18:11.632Z"
     },
     "KM": {
       "days": {
@@ -21256,8 +21266,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T11:11:58.256Z"
+      "lastCollectedAt": "2026-11-16T11:18:11.632Z"
     }
   },
-  "updatedAt": "2026-11-16T11:11:58.256Z"
+  "updatedAt": "2026-11-16T11:18:11.632Z"
 }
