@@ -6126,34 +6126,34 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 50,
-              "netSales": 50,
+              "sales": 17.1,
+              "netSales": 17.1,
               "cost": 0,
-              "grossProfit": 50,
+              "grossProfit": 17.1,
               "quantity": 1
             },
             {
               "key": "sport_rim",
-              "sales": 588,
-              "netSales": 588,
+              "sales": 201.13,
+              "netSales": 201.13,
               "cost": 820,
-              "grossProfit": -232,
+              "grossProfit": -618.87,
               "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 513.1,
+              "netSales": 513.1,
+              "cost": 540,
+              "grossProfit": -26.9,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 150,
-              "netSales": 141.86,
+              "sales": 56.67,
+              "netSales": 48.53,
               "cost": 6.6,
-              "grossProfit": 135.26,
+              "grossProfit": 41.93,
               "quantity": 11
             }
           ],
@@ -6163,66 +6163,76 @@
               "itemCode": "UT195515",
               "itemName": "USED TIRE 195/55/15",
               "quantity": 1,
-              "sales": 50,
-              "netSales": 50,
+              "sales": 17.1,
+              "netSales": 17.1,
               "cost": 0,
-              "grossProfit": 50
+              "grossProfit": 17.1
             },
             {
               "category": "sport_rim",
               "itemCode": "SR1581-DG-RE30",
               "itemName": "SPORT RIM 15X7 8X100/114 ET35 DARK GOLD RX-RE30",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 201.13,
+              "netSales": 201.13,
               "cost": 820,
-              "grossProfit": -232
+              "grossProfit": -618.87
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 9.26,
+              "sales": 3.91,
+              "netSales": 3.17,
               "cost": 0,
-              "grossProfit": 9.26
+              "grossProfit": 3.17
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 55.56,
+              "sales": 23.44,
+              "netSales": 19,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 19
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 15.63,
+              "netSales": 12.67,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 12.67
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKENG",
+              "itemName": "AD/VIKA ENG MTG REAR VW",
+              "quantity": 3,
+              "sales": 513.1,
+              "netSales": 513.1,
+              "cost": 540,
+              "grossProfit": -26.9
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 13.69,
+              "netSales": 13.69,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 7.09
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:56:56.428Z"
+      "lastCollectedAt": "2026-11-16T03:03:07.216Z"
     },
     "SR": {
       "days": {
@@ -11546,10 +11556,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 40,
-              "netSales": 40,
+              "sales": 33.33,
+              "netSales": 33.33,
               "cost": 0,
-              "grossProfit": 40,
+              "grossProfit": 33.33,
               "quantity": 1
             },
             {
@@ -11570,11 +11580,11 @@
             },
             {
               "key": "other",
-              "sales": 110,
-              "netSales": 110,
+              "sales": 116.67,
+              "netSales": 116.67,
               "cost": 50,
-              "grossProfit": 60,
-              "quantity": 5
+              "grossProfit": 66.67,
+              "quantity": 6
             }
           ],
           "items": [
@@ -11583,56 +11593,56 @@
               "itemCode": "NSR186015",
               "itemName": "USED TAYAR 185/60/15-911",
               "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 33.33,
+              "netSales": 33.33,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 33.33
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 50
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 8.33,
+              "netSales": 8.33,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 8.33
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 8.33,
+              "netSales": 8.33,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 8.33
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 50.01,
+              "netSales": 50.01,
               "cost": 50,
-              "grossProfit": 10
+              "grossProfit": 0.01
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:56:56.428Z"
+      "lastCollectedAt": "2026-11-16T03:03:07.216Z"
     },
     "ST": {
       "days": {
@@ -17114,7 +17124,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:56:56.428Z"
+      "lastCollectedAt": "2026-11-16T03:03:07.216Z"
     },
     "SK": {
       "days": {
@@ -20196,7 +20206,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:56:56.428Z"
+      "lastCollectedAt": "2026-11-16T03:03:07.216Z"
     },
     "KM": {
       "days": {
@@ -20316,8 +20326,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:56:56.428Z"
+      "lastCollectedAt": "2026-11-16T03:03:07.216Z"
     }
   },
-  "updatedAt": "2026-11-16T02:56:56.428Z"
+  "updatedAt": "2026-11-16T03:03:07.216Z"
 }
