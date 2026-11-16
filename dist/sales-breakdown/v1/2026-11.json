@@ -6192,7 +6192,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
+      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
     },
     "SR": {
       "days": {
@@ -11551,7 +11551,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
+      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
     },
     "ST": {
       "days": {
@@ -16953,7 +16953,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16981,10 +16981,10 @@
             },
             {
               "key": "other",
-              "sales": 10,
-              "netSales": 10,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10,
+              "grossProfit": 20,
               "quantity": 2
             }
           ],
@@ -16994,16 +16994,16 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 20
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
+      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
     },
     "SK": {
       "days": {
@@ -20015,7 +20015,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -20035,11 +20035,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 300,
+              "netSales": 300,
+              "cost": 136,
+              "grossProfit": 164,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -20060,12 +20060,22 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAB-AXIA-RR",
+              "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
+              "quantity": 2,
+              "sales": 300,
+              "netSales": 300,
+              "cost": 136,
+              "grossProfit": 164
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
+      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
     },
     "KM": {
       "days": {
@@ -20185,8 +20195,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
+      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
     }
   },
-  "updatedAt": "2026-11-16T02:08:04.097Z"
+  "updatedAt": "2026-11-16T02:25:39.564Z"
 }
