@@ -6321,7 +6321,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 10,
               "sales": 100,
               "netSales": 100,
@@ -6332,7 +6332,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
+      "lastCollectedAt": "2026-11-16T03:49:25.119Z"
     },
     "SR": {
       "days": {
@@ -11752,7 +11752,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
+      "lastCollectedAt": "2026-11-16T03:49:25.119Z"
     },
     "ST": {
       "days": {
@@ -17154,15 +17154,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3720,
-              "netSales": 3720,
-              "cost": 3428,
-              "grossProfit": 292,
-              "quantity": 4
+              "sales": 6316,
+              "netSales": 6316,
+              "cost": 6134,
+              "grossProfit": 182,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -17182,11 +17182,11 @@
             },
             {
               "key": "other",
-              "sales": 90,
-              "netSales": 90,
-              "cost": 0,
-              "grossProfit": 90,
-              "quantity": 12
+              "sales": 313,
+              "netSales": 313,
+              "cost": 15.9,
+              "grossProfit": 297.1,
+              "quantity": 27
             }
           ],
           "items": [
@@ -17204,21 +17204,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 10,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -17234,11 +17234,41 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCON",
+              "itemName": "Balancing (On Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 2,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 462,
+              "grossProfit": -66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPMC235018PS5-26",
+              "itemName": "MICHELIN 235/50/18 PRIMACY 5 97W (2026)",
+              "quantity": 4,
+              "sales": 2200,
+              "netSales": 2200,
+              "cost": 2244,
+              "grossProfit": -44
             },
             {
               "category": "passenger_tire",
@@ -17249,12 +17279,42 @@
               "netSales": 3720,
               "cost": 3428,
               "grossProfit": 292
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCHDCT",
+              "itemName": "CAMBER NUT HONDA CITY 1.5 (22mm)/ JAZZ (NEW)",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 10,
+              "grossProfit": 35
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
+      "lastCollectedAt": "2026-11-16T03:49:25.119Z"
     },
     "SK": {
       "days": {
@@ -20336,7 +20396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
+      "lastCollectedAt": "2026-11-16T03:49:25.119Z"
     },
     "KM": {
       "days": {
@@ -20456,8 +20516,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T03:36:52.662Z"
+      "lastCollectedAt": "2026-11-16T03:49:25.119Z"
     }
   },
-  "updatedAt": "2026-11-16T03:36:52.662Z"
+  "updatedAt": "2026-11-16T03:49:25.119Z"
 }
