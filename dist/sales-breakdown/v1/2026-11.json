@@ -6452,7 +6452,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T10:14:12.425Z"
+      "lastCollectedAt": "2026-11-16T10:20:17.747Z"
     },
     "SR": {
       "days": {
@@ -12062,7 +12062,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T10:14:12.425Z"
+      "lastCollectedAt": "2026-11-16T10:20:17.747Z"
     },
     "ST": {
       "days": {
@@ -17464,7 +17464,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 24,
+          "documents": 26,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17476,11 +17476,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 588,
-              "netSales": 588,
-              "cost": 470,
-              "grossProfit": 118,
-              "quantity": 0
+              "sales": 1176,
+              "netSales": 1176,
+              "cost": 1140,
+              "grossProfit": 36,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -17492,11 +17492,11 @@
             },
             {
               "key": "other",
-              "sales": 1138,
-              "netSales": 1138,
-              "cost": 217.9,
-              "grossProfit": 920.1,
-              "quantity": 123
+              "sales": 1558,
+              "netSales": 1558,
+              "cost": 326.5,
+              "grossProfit": 1231.5,
+              "quantity": 137
             }
           ],
           "items": [
@@ -17521,6 +17521,16 @@
               "grossProfit": 118
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SR15658H-BMC-CE28",
+              "itemName": "SPORT RIM 15X6.5 8X100/114.3 ET40 73.1 BLK+BMCPLP TYR-C28-8-LIP (CE28)",
+              "quantity": 1,
+              "sales": 588,
+              "netSales": 588,
+              "cost": 670,
+              "grossProfit": -82
+            },
+            {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
@@ -17534,21 +17544,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 13,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 15,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 50,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 54,
+              "sales": 140,
+              "netSales": 140,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 140
             },
             {
               "category": "foreman_item",
@@ -17584,10 +17594,10 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
-              "quantity": 4,
-              "sales": 100,
-              "netSales": 100,
-              "cost": 100,
+              "quantity": 6,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 150,
               "grossProfit": 0
             },
             {
@@ -17734,11 +17744,11 @@
               "category": "other",
               "itemCode": "MNRWRY150BLK",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
-              "quantity": 1,
-              "sales": 130,
-              "netSales": 130,
-              "cost": 40,
-              "grossProfit": 90
+              "quantity": 2,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 80,
+              "grossProfit": 180
             },
             {
               "category": "other",
@@ -17764,11 +17774,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 22,
-              "sales": 220,
-              "netSales": 220,
-              "cost": 36.3,
-              "grossProfit": 183.7
+              "quantity": 26,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 42.9,
+              "grossProfit": 217.1
             },
             {
               "category": "other",
@@ -17791,6 +17801,16 @@
               "grossProfit": 88
             },
             {
+              "category": "other",
+              "itemCode": "MRC7356",
+              "itemName": "RINGCONE 7356(CH4) - SAGA BLM WIRA HONDA FIT CIVIC JAZZ PUTRA",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 12,
+              "grossProfit": 88
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPJCD0104M",
               "itemName": "BNC BRAKE PAD AXIA 2023, TYT AGYA WIGO 2023 FRT CD0104-PLT",
@@ -17804,7 +17824,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T10:14:12.425Z"
+      "lastCollectedAt": "2026-11-16T10:20:17.747Z"
     },
     "SK": {
       "days": {
@@ -21046,7 +21066,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T10:14:12.425Z"
+      "lastCollectedAt": "2026-11-16T10:20:17.747Z"
     },
     "KM": {
       "days": {
@@ -21166,8 +21186,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T10:14:12.425Z"
+      "lastCollectedAt": "2026-11-16T10:20:17.747Z"
     }
   },
-  "updatedAt": "2026-11-16T10:14:12.425Z"
+  "updatedAt": "2026-11-16T10:20:17.747Z"
 }
