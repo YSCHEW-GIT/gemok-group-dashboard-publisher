@@ -6122,7 +6122,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6150,11 +6150,11 @@
             },
             {
               "key": "other",
-              "sales": 10,
-              "netSales": 9.26,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 9.26,
-              "quantity": 1
+              "grossProfit": 37.04,
+              "quantity": 2
             }
           ],
           "items": [
@@ -6177,12 +6177,22 @@
               "netSales": 9.26,
               "cost": 0,
               "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:01:27.511Z"
+      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
     },
     "SR": {
       "days": {
@@ -11541,7 +11551,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:01:27.511Z"
+      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
     },
     "ST": {
       "days": {
@@ -16975,7 +16985,7 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10,
-              "quantity": 1
+              "quantity": 2
             }
           ],
           "items": [
@@ -16983,7 +16993,7 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 10,
               "netSales": 10,
               "cost": 0,
@@ -16993,7 +17003,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:01:27.511Z"
+      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
     },
     "SK": {
       "days": {
@@ -20055,7 +20065,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:01:27.511Z"
+      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
     },
     "KM": {
       "days": {
@@ -20175,8 +20185,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:01:27.511Z"
+      "lastCollectedAt": "2026-11-16T02:08:04.097Z"
     }
   },
-  "updatedAt": "2026-11-16T02:01:27.511Z"
+  "updatedAt": "2026-11-16T02:08:04.097Z"
 }
