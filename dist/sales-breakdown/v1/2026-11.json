@@ -6122,7 +6122,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6150,11 +6150,11 @@
             },
             {
               "key": "other",
-              "sales": 480,
-              "netSales": 463.72,
+              "sales": 510,
+              "netSales": 491.5,
               "cost": 63.1,
-              "grossProfit": 400.62,
-              "quantity": 55
+              "grossProfit": 428.4,
+              "quantity": 56
             }
           ],
           "items": [
@@ -6202,11 +6202,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -6342,7 +6342,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
+      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
     },
     "SR": {
       "days": {
@@ -11662,7 +11662,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11682,19 +11682,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 30,
-              "netSales": 30,
-              "cost": 0,
-              "grossProfit": 30,
-              "quantity": 1
+              "sales": 380,
+              "netSales": 380,
+              "cost": 310,
+              "grossProfit": 70,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
-              "cost": 100,
-              "grossProfit": 100,
-              "quantity": 8
+              "sales": 290,
+              "netSales": 290,
+              "cost": 150,
+              "grossProfit": 140,
+              "quantity": 11
             }
           ],
           "items": [
@@ -11712,11 +11712,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -11752,11 +11752,11 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 100,
-              "grossProfit": 20
+              "quantity": 6,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 150,
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -11767,12 +11767,32 @@
               "netSales": 140,
               "cost": 98,
               "grossProfit": 42
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110039",
+              "itemName": "BEARING MOUNTING ABSORBER HD HRV (sYKA)",
+              "quantity": 1,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 200,
+              "grossProfit": -50
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110040",
+              "itemName": "STAB LINK FRT LH/RH HD HRV (SYKA)",
+              "quantity": 1,
+              "sales": 200,
+              "netSales": 200,
+              "cost": 110,
+              "grossProfit": 90
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
+      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
     },
     "ST": {
       "days": {
@@ -17174,15 +17194,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 7,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6542,
-              "netSales": 6542,
-              "cost": 6306,
-              "grossProfit": 236,
-              "quantity": 12
+              "sales": 6918,
+              "netSales": 6918,
+              "cost": 6648,
+              "grossProfit": 270,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -17204,9 +17224,9 @@
               "key": "other",
               "sales": 352,
               "netSales": 352,
-              "cost": 42.2,
-              "grossProfit": 309.8,
-              "quantity": 33
+              "cost": 45.5,
+              "grossProfit": 306.5,
+              "quantity": 39
             }
           ],
           "items": [
@@ -17214,31 +17234,31 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 4,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 14,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -17255,20 +17275,20 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCON",
               "itemName": "Balancing (On Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -17305,10 +17325,20 @@
               "itemCode": "TPMC235018PS5-26",
               "itemName": "MICHELIN 235/50/18 PRIMACY 5 97W (2026)",
               "quantity": 4,
-              "sales": 2200,
-              "netSales": 2200,
+              "sales": 2280,
+              "netSales": 2280,
               "cost": 2244,
-              "grossProfit": -44
+              "grossProfit": 36
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 2,
+              "sales": 296,
+              "netSales": 296,
+              "cost": 342,
+              "grossProfit": -46
             },
             {
               "category": "passenger_tire",
@@ -17344,17 +17374,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
+      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
     },
     "SK": {
       "days": {
@@ -20446,7 +20476,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
+      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
     },
     "KM": {
       "days": {
@@ -20566,8 +20596,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:26:03.652Z"
+      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
     }
   },
-  "updatedAt": "2026-11-16T04:32:10.402Z"
+  "updatedAt": "2026-11-16T04:48:17.740Z"
 }
