@@ -6192,7 +6192,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
+      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
     },
     "SR": {
       "days": {
@@ -11512,7 +11512,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11540,18 +11540,39 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 90,
+              "netSales": 90,
+              "cost": 50,
+              "grossProfit": 40,
+              "quantity": 3
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 50,
+              "grossProfit": 10
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
+      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
     },
     "ST": {
       "days": {
@@ -17003,7 +17024,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
+      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
     },
     "SK": {
       "days": {
@@ -20015,7 +20036,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -20035,11 +20056,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 300,
-              "netSales": 300,
-              "cost": 136,
-              "grossProfit": 164,
-              "quantity": 2
+              "sales": 380,
+              "netSales": 380,
+              "cost": 168,
+              "grossProfit": 212,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -20063,6 +20084,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PBPPLTMYVLGB",
+              "itemName": "BRAKE PAD P CD0046 LANTINUM MYV LG BEST AXIZ1.0 BEZZA",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 32,
+              "grossProfit": 48
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PAB-AXIA-RR",
               "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
               "quantity": 2,
@@ -20075,7 +20106,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
+      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
     },
     "KM": {
       "days": {
@@ -20195,8 +20226,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:25:39.564Z"
+      "lastCollectedAt": "2026-11-16T02:38:25.917Z"
     }
   },
-  "updatedAt": "2026-11-16T02:25:39.564Z"
+  "updatedAt": "2026-11-16T02:38:25.917Z"
 }
