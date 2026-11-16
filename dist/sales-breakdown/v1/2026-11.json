@@ -6342,7 +6342,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
+      "lastCollectedAt": "2026-11-16T04:54:24.753Z"
     },
     "SR": {
       "days": {
@@ -11662,7 +11662,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -11682,11 +11682,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 380,
-              "netSales": 380,
-              "cost": 310,
-              "grossProfit": 70,
-              "quantity": 3
+              "sales": 410,
+              "netSales": 410,
+              "cost": 323.22,
+              "grossProfit": 86.78,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -11770,6 +11770,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OG80W90",
+              "itemName": "GEAR OIL 80W90 (40K)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 13.22,
+              "grossProfit": 16.78
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSR26110039",
               "itemName": "BEARING MOUNTING ABSORBER HD HRV (sYKA)",
               "quantity": 1,
@@ -11792,7 +11802,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
+      "lastCollectedAt": "2026-11-16T04:54:24.753Z"
     },
     "ST": {
       "days": {
@@ -17384,7 +17394,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
+      "lastCollectedAt": "2026-11-16T04:54:24.753Z"
     },
     "SK": {
       "days": {
@@ -20476,7 +20486,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
+      "lastCollectedAt": "2026-11-16T04:54:24.753Z"
     },
     "KM": {
       "days": {
@@ -20596,8 +20606,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:48:17.740Z"
+      "lastCollectedAt": "2026-11-16T04:54:24.753Z"
     }
   },
-  "updatedAt": "2026-11-16T04:48:17.740Z"
+  "updatedAt": "2026-11-16T04:54:24.753Z"
 }
