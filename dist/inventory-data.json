@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-16T01:09:41.458Z",
+  "updatedAt": "2026-11-16T02:21:14.756Z",
   "stores": [
     {
       "code": "SI",
@@ -30,7 +30,7 @@
       "name": "Passanger Tire",
       "sku": 446,
       "quantity": 2087,
-      "stockValue": 429485.1000000001
+      "stockValue": 429489.1000000001
     },
     {
       "key": "sport-rim",
@@ -204,7 +204,7 @@
       "key": "used-tire",
       "name": "Used Tire",
       "sku": 50,
-      "quantity": 4,
+      "quantity": 0,
       "stockValue": 0
     }
   ],
@@ -1358,7 +1358,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 330,
           "price": 0
         },
@@ -1370,6 +1370,15 @@
           "quantity": 4,
           "cost": 330,
           "price": 328
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 331,
+          "price": 358
         }
       ]
     },
@@ -124490,15 +124499,6 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
-          "cost": 0,
-          "price": 0
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
           "cost": 0,
           "price": 0
         }
