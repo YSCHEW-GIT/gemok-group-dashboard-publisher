@@ -6222,7 +6222,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
+      "lastCollectedAt": "2026-11-16T02:50:44.244Z"
     },
     "SR": {
       "days": {
@@ -11632,7 +11632,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
+      "lastCollectedAt": "2026-11-16T02:50:44.244Z"
     },
     "ST": {
       "days": {
@@ -17034,7 +17034,7 @@
           ]
         },
         "2026-11-16": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17054,19 +17054,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 100,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 20,
-              "quantity": 2
+              "grossProfit": 90,
+              "quantity": 7
             }
           ],
           "items": [
@@ -17079,12 +17079,42 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 8,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 0,
+              "grossProfit": 100
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
+      "lastCollectedAt": "2026-11-16T02:50:44.244Z"
     },
     "SK": {
       "days": {
@@ -20116,19 +20146,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 380,
-              "netSales": 380,
+              "sales": 370.5,
+              "netSales": 370.5,
               "cost": 168,
-              "grossProfit": 212,
+              "grossProfit": 202.5,
               "quantity": 3
             },
             {
               "key": "other",
-              "sales": 10,
-              "netSales": 10,
+              "sales": 19.5,
+              "netSales": 19.5,
               "cost": 0,
-              "grossProfit": 10,
-              "quantity": 1
+              "grossProfit": 19.5,
+              "quantity": 2
             }
           ],
           "items": [
@@ -20136,37 +20166,37 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 2,
+              "sales": 19.5,
+              "netSales": 19.5,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 19.5
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPPLTMYVLGB",
               "itemName": "BRAKE PAD P CD0046 LANTINUM MYV LG BEST AXIZ1.0 BEZZA",
               "quantity": 1,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 78,
+              "netSales": 78,
               "cost": 32,
-              "grossProfit": 48
+              "grossProfit": 46
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-RR",
               "itemName": "ABSORBER SNB GAS - RR AXIA BEZZA OLD",
               "quantity": 2,
-              "sales": 300,
-              "netSales": 300,
+              "sales": 292.5,
+              "netSales": 292.5,
               "cost": 136,
-              "grossProfit": 164
+              "grossProfit": 156.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
+      "lastCollectedAt": "2026-11-16T02:50:44.244Z"
     },
     "KM": {
       "days": {
@@ -20286,8 +20316,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T02:44:38.927Z"
+      "lastCollectedAt": "2026-11-16T02:50:44.244Z"
     }
   },
-  "updatedAt": "2026-11-16T02:44:38.927Z"
+  "updatedAt": "2026-11-16T02:50:44.244Z"
 }
