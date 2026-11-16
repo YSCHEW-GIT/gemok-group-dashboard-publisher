@@ -6122,14 +6122,14 @@
           ]
         },
         "2026-11-16": {
-          "documents": 19,
+          "documents": 20,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5502.08,
-              "netSales": 5502.08,
+              "sales": 5502.09,
+              "netSales": 5502.09,
               "cost": 5138,
-              "grossProfit": 364.08,
+              "grossProfit": 364.09,
               "quantity": 23
             },
             {
@@ -6142,19 +6142,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 3777.33,
-              "netSales": 3738.82,
+              "sales": 3777.34,
+              "netSales": 3738.83,
               "cost": 1433.1,
-              "grossProfit": 2305.72,
+              "grossProfit": 2305.73,
               "quantity": 20
             },
             {
               "key": "other",
-              "sales": 1039.29,
-              "netSales": 1003.03,
+              "sales": 1079.27,
+              "netSales": 1040.05,
               "cost": 98.25,
-              "grossProfit": 904.78,
-              "quantity": 107
+              "grossProfit": 941.8,
+              "quantity": 108
             }
           ],
           "items": [
@@ -6222,11 +6222,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 5,
-              "sales": 129.91,
-              "netSales": 120.29,
+              "quantity": 6,
+              "sales": 169.88,
+              "netSales": 157.3,
               "cost": 0,
-              "grossProfit": 120.29
+              "grossProfit": 157.3
             },
             {
               "category": "foreman_item",
@@ -6303,10 +6303,10 @@
               "itemCode": "TPCT185515CC7-26",
               "itemName": "CONTINENTAL 185/55/15 COMFORT CONTACT CC7 82V CN (2026)",
               "quantity": 4,
-              "sales": 949.32,
-              "netSales": 949.32,
+              "sales": 949.33,
+              "netSales": 949.33,
               "cost": 976,
-              "grossProfit": -26.68
+              "grossProfit": -26.67
             },
             {
               "category": "foreman_item",
@@ -6333,10 +6333,10 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.86,
-              "netSales": 189.86,
+              "sales": 189.87,
+              "netSales": 189.87,
               "cost": 99,
-              "grossProfit": 90.86
+              "grossProfit": 90.87
             },
             {
               "category": "foreman_item",
@@ -6423,10 +6423,10 @@
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 25,
-              "sales": 249.85,
-              "netSales": 249.85,
+              "sales": 249.86,
+              "netSales": 249.86,
               "cost": 41.25,
-              "grossProfit": 208.6
+              "grossProfit": 208.61
             },
             {
               "category": "other",
@@ -6452,7 +6452,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
+      "lastCollectedAt": "2026-11-16T09:02:50.793Z"
     },
     "SR": {
       "days": {
@@ -11792,11 +11792,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 825,
-              "netSales": 825,
-              "cost": 494.22,
-              "grossProfit": 330.78,
-              "quantity": 10
+              "sales": 905,
+              "netSales": 905,
+              "cost": 534.22,
+              "grossProfit": 370.78,
+              "quantity": 11
             },
             {
               "key": "other",
@@ -11957,12 +11957,22 @@
               "netSales": 200,
               "cost": 110,
               "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110041",
+              "itemName": "SPARK PLUG K16RU11 TY AE101,111, NCP42, 93, ZZE121 (SAHA)",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 40,
+              "grossProfit": 40
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
+      "lastCollectedAt": "2026-11-16T09:02:50.793Z"
     },
     "ST": {
       "days": {
@@ -17694,7 +17704,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
+      "lastCollectedAt": "2026-11-16T09:02:50.793Z"
     },
     "SK": {
       "days": {
@@ -20906,7 +20916,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
+      "lastCollectedAt": "2026-11-16T09:02:50.793Z"
     },
     "KM": {
       "days": {
@@ -21026,8 +21036,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T08:56:42.585Z"
+      "lastCollectedAt": "2026-11-16T09:02:50.793Z"
     }
   },
-  "updatedAt": "2026-11-16T08:56:42.585Z"
+  "updatedAt": "2026-11-16T09:02:50.793Z"
 }
