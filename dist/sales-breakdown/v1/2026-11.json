@@ -6342,7 +6342,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:26:03.652Z"
+      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
     },
     "SR": {
       "days": {
@@ -11772,7 +11772,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:26:03.652Z"
+      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
     },
     "ST": {
       "days": {
@@ -17174,15 +17174,15 @@
           ]
         },
         "2026-11-16": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6316,
-              "netSales": 6316,
-              "cost": 6134,
-              "grossProfit": 182,
-              "quantity": 10
+              "sales": 6542,
+              "netSales": 6542,
+              "cost": 6306,
+              "grossProfit": 236,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -17202,11 +17202,11 @@
             },
             {
               "key": "other",
-              "sales": 338,
-              "netSales": 338,
-              "cost": 40.9,
-              "grossProfit": 297.1,
-              "quantity": 28
+              "sales": 352,
+              "netSales": 352,
+              "cost": 42.2,
+              "grossProfit": 309.8,
+              "quantity": 33
             }
           ],
           "items": [
@@ -17224,7 +17224,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
+              "quantity": 3,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -17234,7 +17234,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
+              "quantity": 12,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -17285,10 +17285,20 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 2,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 446,
+              "netSales": 446,
               "cost": 462,
-              "grossProfit": -66
+              "grossProfit": -16
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 176,
+              "netSales": 176,
+              "cost": 172,
+              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -17314,11 +17324,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 6,
+              "sales": 42,
+              "netSales": 42,
+              "cost": 3.9,
+              "grossProfit": 38.1
             },
             {
               "category": "other",
@@ -17344,7 +17354,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:26:03.652Z"
+      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
     },
     "SK": {
       "days": {
@@ -20436,7 +20446,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-16T04:26:03.652Z"
+      "lastCollectedAt": "2026-11-16T04:32:10.402Z"
     },
     "KM": {
       "days": {
@@ -20559,5 +20569,5 @@
       "lastCollectedAt": "2026-11-16T04:26:03.652Z"
     }
   },
-  "updatedAt": "2026-11-16T04:26:03.652Z"
+  "updatedAt": "2026-11-16T04:32:10.402Z"
 }
