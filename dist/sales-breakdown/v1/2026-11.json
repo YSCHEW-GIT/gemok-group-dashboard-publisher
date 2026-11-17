@@ -6451,7 +6451,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6479,11 +6479,11 @@
             },
             {
               "key": "other",
-              "sales": 410,
-              "netSales": 389.28,
-              "cost": 20.2,
-              "grossProfit": 369.08,
-              "quantity": 25
+              "sales": 490,
+              "netSales": 467.8,
+              "cost": 21.13,
+              "grossProfit": 446.67,
+              "quantity": 28
             }
           ],
           "items": [
@@ -6536,6 +6536,16 @@
               "netSales": 83.34,
               "cost": 0,
               "grossProfit": 83.34
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCRTT",
+              "itemName": "SERVICE ROTATE TIRE",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
+              "cost": 0,
+              "grossProfit": 18.52
             },
             {
               "category": "passenger_tire",
@@ -6598,6 +6608,16 @@
               "grossProfit": 83
             },
             {
+              "category": "other",
+              "itemCode": "MTT060",
+              "itemName": "TIP TOP 60MM",
+              "quantity": 1,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0.93,
+              "grossProfit": 59.07
+            },
+            {
               "category": "foreman_item",
               "itemCode": "BAMGODIN55L",
               "itemName": "AMARON GO DIN55L (LN2)",
@@ -6611,7 +6631,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:32:40.857Z"
+      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
     },
     "SR": {
       "days": {
@@ -12240,14 +12260,14 @@
           ]
         },
         "2026-11-17": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 217.65,
-              "netSales": 217.65,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": 45.65,
+              "grossProfit": 54,
               "quantity": 2
             },
             {
@@ -12260,19 +12280,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 192.61,
-              "netSales": 192.61,
+              "sales": 200,
+              "netSales": 200,
               "cost": 107.5,
-              "grossProfit": 85.11,
+              "grossProfit": 92.5,
               "quantity": 3
             },
             {
               "key": "other",
-              "sales": 110.74,
-              "netSales": 110.74,
+              "sales": 125,
+              "netSales": 125,
               "cost": 51.65,
-              "grossProfit": 59.09,
-              "quantity": 8
+              "grossProfit": 73.35,
+              "quantity": 9
             }
           ],
           "items": [
@@ -12281,20 +12301,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 28.89,
-              "netSales": 28.89,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 28.89
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 9.63,
-              "netSales": 9.63,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 9.63
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -12311,30 +12331,30 @@
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 19.26,
-              "netSales": 19.26,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 19.26
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 57.78,
-              "netSales": 57.78,
+              "sales": 60,
+              "netSales": 60,
               "cost": 50,
-              "grossProfit": 7.78
+              "grossProfit": 10
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 217.65,
-              "netSales": 217.65,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": 45.65
+              "grossProfit": 54
             },
             {
               "category": "foreman_item",
@@ -12351,26 +12371,26 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 173.35,
-              "netSales": 173.35,
+              "sales": 180,
+              "netSales": 180,
               "cost": 100,
-              "grossProfit": 73.35
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 1,
-              "sales": 14.44,
-              "netSales": 14.44,
+              "sales": 15,
+              "netSales": 15,
               "cost": 1.65,
-              "grossProfit": 12.79
+              "grossProfit": 13.35
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:32:40.857Z"
+      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
     },
     "ST": {
       "days": {
@@ -18231,7 +18251,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:32:40.857Z"
+      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
     },
     "SK": {
       "days": {
@@ -21502,7 +21522,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -21522,26 +21542,57 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 250,
+              "netSales": 250,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 250,
+              "quantity": 1
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 80,
+              "quantity": 5
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 250,
+              "netSales": 250,
+              "cost": 0,
+              "grossProfit": 250
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T02:15:51.148Z"
+      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
     },
     "KM": {
       "days": {
@@ -21702,5 +21753,5 @@
       "lastCollectedAt": "2026-11-17T03:32:40.857Z"
     }
   },
-  "updatedAt": "2026-11-17T03:32:40.857Z"
+  "updatedAt": "2026-11-17T03:39:15.235Z"
 }
