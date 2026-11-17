@@ -6731,7 +6731,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:11:15.393Z"
+      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
     },
     "SR": {
       "days": {
@@ -18331,15 +18331,15 @@
           ]
         },
         "2026-11-17": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5466,
-              "netSales": 5466,
-              "cost": 5402,
-              "grossProfit": 64,
-              "quantity": 24
+              "sales": 6202,
+              "netSales": 6202,
+              "cost": 6040,
+              "grossProfit": 162,
+              "quantity": 26
             },
             {
               "key": "sport_rim",
@@ -18359,11 +18359,11 @@
             },
             {
               "key": "other",
-              "sales": 1344,
-              "netSales": 1344,
-              "cost": 408.95,
-              "grossProfit": 935.05,
-              "quantity": 62
+              "sales": 1358,
+              "netSales": 1358,
+              "cost": 410.25,
+              "grossProfit": 947.75,
+              "quantity": 66
             }
           ],
           "items": [
@@ -18391,7 +18391,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
+              "quantity": 26,
               "sales": 160,
               "netSales": 160,
               "cost": 0,
@@ -18469,6 +18469,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPTY216017CR1C-26",
+              "itemName": "TOYO 215/60/17 PROXES CR1C 96H (2026)",
+              "quantity": 2,
+              "sales": 736,
+              "netSales": 736,
+              "cost": 638,
+              "grossProfit": 98
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
@@ -18531,11 +18541,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 9,
-              "sales": 56,
-              "netSales": 56,
-              "cost": 5.85,
-              "grossProfit": 50.15
+              "quantity": 11,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7.15,
+              "grossProfit": 62.85
             },
             {
               "category": "other",
@@ -18591,7 +18601,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:11:15.393Z"
+      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
     },
     "SK": {
       "days": {
@@ -22072,7 +22082,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:11:15.393Z"
+      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
     },
     "KM": {
       "days": {
@@ -22230,8 +22240,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:11:15.393Z"
+      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
     }
   },
-  "updatedAt": "2026-11-17T08:11:15.393Z"
+  "updatedAt": "2026-11-17T08:24:36.672Z"
 }
