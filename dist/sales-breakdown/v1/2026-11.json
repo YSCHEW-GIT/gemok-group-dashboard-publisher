@@ -6451,7 +6451,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6479,18 +6479,39 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 74.08,
+              "quantity": 5
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T01:53:07.140Z"
+      "lastCollectedAt": "2026-11-17T02:08:14.815Z"
     },
     "SR": {
       "days": {
@@ -12119,7 +12140,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12147,18 +12168,39 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 40,
+              "quantity": 2
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T01:53:07.140Z"
+      "lastCollectedAt": "2026-11-17T02:08:14.815Z"
     },
     "ST": {
       "days": {
@@ -17988,7 +18030,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T01:53:07.140Z"
+      "lastCollectedAt": "2026-11-17T02:08:14.815Z"
     },
     "SK": {
       "days": {
@@ -21298,7 +21340,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T01:53:07.140Z"
+      "lastCollectedAt": "2026-11-17T02:08:14.815Z"
     },
     "KM": {
       "days": {
@@ -21456,8 +21498,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T01:53:07.140Z"
+      "lastCollectedAt": "2026-11-17T02:08:14.815Z"
     }
   },
-  "updatedAt": "2026-11-17T01:53:07.140Z"
+  "updatedAt": "2026-11-17T02:08:14.815Z"
 }
