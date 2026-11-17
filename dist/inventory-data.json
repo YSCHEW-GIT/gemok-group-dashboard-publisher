@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-17T05:33:37.178Z",
+  "updatedAt": "2026-11-17T06:46:50.317Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 445,
-      "quantity": 2258,
-      "stockValue": 453331.86000000004
+      "quantity": 2256,
+      "stockValue": 452867.86000000004
     },
     {
       "key": "sport-rim",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2224,
-      "stockValue": 165251.78
+      "quantity": 2223,
+      "stockValue": 165223.78
     },
     {
       "key": "oil-filter",
@@ -98,9 +98,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 873,
-      "quantity": 2916.5,
-      "stockValue": 100843.14999999998
+      "sku": 872,
+      "quantity": 2915.5,
+      "stockValue": 100789.14999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9220,
-      "stockValue": 56167.329999999994
+      "quantity": 9218,
+      "stockValue": 56164.03
     },
     {
       "key": "non-stock-item",
@@ -2090,7 +2090,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 232,
           "price": 208
         }
@@ -35213,7 +35213,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 63,
+          "quantity": 62,
           "cost": 28,
           "price": 90
         },
@@ -57961,25 +57961,6 @@
           "quantity": 2,
           "cost": 128.7,
           "price": 260
-        }
-      ]
-    },
-    {
-      "code": "PWBNTNBLMR",
-      "groupKey": "parts",
-      "groupName": "Parts",
-      "brand": "",
-      "name": "NTN WHEEL BEARING SAGA BLM, VVT, IRIZ, PERSONA, SAVVY REAR-0574",
-      "spec": "83",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 54,
-          "price": 150
         }
       ]
     },
@@ -113952,7 +113933,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 353,
+          "quantity": 351,
           "cost": 1.65,
           "price": 10
         }
@@ -117291,7 +117272,7 @@
           "location": "",
           "quantity": 20,
           "cost": 145,
-          "price": 0
+          "price": 138
         }
       ]
     },
