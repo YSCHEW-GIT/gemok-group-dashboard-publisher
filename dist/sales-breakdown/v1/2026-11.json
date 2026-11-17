@@ -6451,7 +6451,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6479,11 +6479,11 @@
             },
             {
               "key": "other",
-              "sales": 400,
-              "netSales": 384.46,
+              "sales": 410,
+              "netSales": 393.72,
               "cost": 21.13,
-              "grossProfit": 363.33,
-              "quantity": 28
+              "grossProfit": 372.59,
+              "quantity": 29
             }
           ],
           "items": [
@@ -6521,11 +6521,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -6631,7 +6631,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
+      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
     },
     "SR": {
       "days": {
@@ -12260,7 +12260,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 9,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12288,11 +12288,11 @@
             },
             {
               "key": "other",
-              "sales": 315,
-              "netSales": 315,
-              "cost": 101.65,
-              "grossProfit": 213.35,
-              "quantity": 20
+              "sales": 395,
+              "netSales": 395,
+              "cost": 108.65,
+              "grossProfit": 286.35,
+              "quantity": 23
             }
           ],
           "items": [
@@ -12310,11 +12310,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -12385,12 +12385,22 @@
               "netSales": 15,
               "cost": 1.65,
               "grossProfit": 13.35
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
+      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
     },
     "ST": {
       "days": {
@@ -18181,15 +18191,15 @@
           ]
         },
         "2026-11-17": {
-          "documents": 1,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 335.27,
-              "netSales": 335.27,
-              "cost": 1262,
-              "grossProfit": -926.73,
-              "quantity": 4
+              "sales": 2538,
+              "netSales": 2538,
+              "cost": 2302,
+              "grossProfit": 236,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -18209,11 +18219,11 @@
             },
             {
               "key": "other",
-              "sales": 18.73,
-              "netSales": 18.73,
-              "cost": 2.6,
-              "grossProfit": 16.13,
-              "quantity": 9
+              "sales": 437,
+              "netSales": 437,
+              "cost": 263.55,
+              "grossProfit": 173.45,
+              "quantity": 18
             }
           ],
           "items": [
@@ -18221,57 +18231,77 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 4.8,
-              "netSales": 4.8,
+              "quantity": 8,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 4.8
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 7.2,
-              "netSales": 7.2,
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 7.2
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT177013ES32-26",
               "itemName": "YOKOHAMA 175/70/13 BLUEARTH ES -ES32 82T JP (2026)",
               "quantity": 2,
-              "sales": 81.66,
-              "netSales": 81.66,
+              "sales": 340,
+              "netSales": 340,
               "cost": 306,
-              "grossProfit": -224.34
+              "grossProfit": 34
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY196016CR1",
+              "itemName": "TOYO 195/60/16 PXCR1 89H (2026)",
+              "quantity": 4,
+              "sales": 1142,
+              "netSales": 1142,
+              "cost": 1040,
+              "grossProfit": 102
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT215518UC6-26",
               "itemName": "CONTINENTAL 215/55/18 ULTRCON UC6 95V (2026)",
               "quantity": 2,
-              "sales": 253.61,
-              "netSales": 253.61,
+              "sales": 1056,
+              "netSales": 1056,
               "cost": 956,
-              "grossProfit": -702.39
+              "grossProfit": 100
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 4,
-              "sales": 6.73,
-              "netSales": 6.73,
-              "cost": 2.6,
-              "grossProfit": 4.13
+              "quantity": 7,
+              "sales": 49,
+              "netSales": 49,
+              "cost": 4.55,
+              "grossProfit": 44.45
+            },
+            {
+              "category": "other",
+              "itemCode": "TPTY195016R50-26",
+              "itemName": "TOYO 195/50/16 PROXES R5084V MY(2026)",
+              "quantity": 1,
+              "sales": 338,
+              "netSales": 338,
+              "cost": 259,
+              "grossProfit": 79
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
+      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
     },
     "SK": {
       "days": {
@@ -21542,7 +21572,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -21570,11 +21600,11 @@
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
-              "cost": 25.6,
-              "grossProfit": 174.4,
-              "quantity": 10
+              "sales": 280,
+              "netSales": 280,
+              "cost": 37.6,
+              "grossProfit": 242.4,
+              "quantity": 11
             }
           ],
           "items": [
@@ -21630,6 +21660,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 12,
+              "grossProfit": 68
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
@@ -21642,7 +21682,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
+      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
     },
     "KM": {
       "days": {
@@ -21800,8 +21840,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
+      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
     }
   },
-  "updatedAt": "2026-11-17T04:06:04.686Z"
+  "updatedAt": "2026-11-17T04:31:30.441Z"
 }
