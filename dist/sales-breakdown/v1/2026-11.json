@@ -6550,7 +6550,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 1,
               "sales": 239.96,
               "netSales": 239.96,
@@ -6761,7 +6761,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T10:14:18.161Z"
+      "lastCollectedAt": "2026-11-17T10:20:49.171Z"
     },
     "SR": {
       "days": {
@@ -12580,7 +12580,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T10:14:18.161Z"
+      "lastCollectedAt": "2026-11-17T10:20:49.171Z"
     },
     "ST": {
       "days": {
@@ -18371,81 +18371,101 @@
           ]
         },
         "2026-11-17": {
-          "documents": 12,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6202,
-              "netSales": 6202,
-              "cost": 6040,
-              "grossProfit": 162,
-              "quantity": 26
+              "sales": 6632,
+              "netSales": 6632,
+              "cost": 6236,
+              "grossProfit": 396,
+              "quantity": 27
             },
             {
               "key": "sport_rim",
               "sales": 1176,
               "netSales": 1176,
-              "cost": 1502,
-              "grossProfit": -326,
-              "quantity": 2
+              "cost": 1102,
+              "grossProfit": 74,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 148,
-              "netSales": 148,
-              "cost": 121.6,
+              "sales": 188,
+              "netSales": 188,
+              "cost": 161.6,
               "grossProfit": 26.4,
-              "quantity": 4
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 1358,
-              "netSales": 1358,
+              "sales": 1178,
+              "netSales": 1178,
               "cost": 410.25,
-              "grossProfit": 947.75,
-              "quantity": 66
+              "grossProfit": 767.75,
+              "quantity": 68
             }
           ],
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2611970",
+              "itemName": "USED SPORT RIM 15X7JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2611972",
+              "itemName": "USED SPORT RIM 15X5JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR157041ET35-DGM-CE28",
               "itemName": "SPORT RIM 15X7.0 4X100 ET35 DARK GUNMETAL PROCE570A34 (CE28)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 751,
-              "grossProfit": -163
+              "grossProfit": 37
             },
             {
               "category": "sport_rim",
               "itemCode": "SR157041ET35-GB-CE28",
               "itemName": "SPORT RIM 15X7.0 4X100 ET35 GLOSS BLACK PROCE570A16 (CE28)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 751,
-              "grossProfit": -163
+              "grossProfit": 37
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 160,
-              "netSales": 160,
+              "quantity": 27,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 180,
-              "netSales": 180,
+              "quantity": 8,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -18470,22 +18490,22 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
+              "sales": 862,
+              "netSales": 862,
               "cost": 924,
-              "grossProfit": -132
+              "grossProfit": -62
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 352,
-              "netSales": 352,
+              "sales": 422,
+              "netSales": 422,
               "cost": 344,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
@@ -18519,13 +18539,23 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1",
+              "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
+              "quantity": 1,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 196,
+              "grossProfit": 24
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 684,
-              "grossProfit": -92
+              "grossProfit": -22
             },
             {
               "category": "passenger_tire",
@@ -18568,6 +18598,16 @@
               "grossProfit": -54
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK15326",
+              "itemName": "THERMOSTAT",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 40,
+              "grossProfit": 0
+            },
+            {
               "category": "other",
               "itemCode": "MNRWRY150BLK",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
@@ -18580,7 +18620,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "Tubeless Valve-Rubber",
+              "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 11,
               "sales": 70,
               "netSales": 70,
@@ -18590,7 +18630,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 14,
               "sales": 140,
               "netSales": 140,
@@ -18641,7 +18681,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
+      "lastCollectedAt": "2026-11-17T10:20:49.171Z"
     },
     "SK": {
       "days": {
@@ -22280,8 +22320,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T10:14:18.161Z"
+      "lastCollectedAt": "2026-11-17T10:20:49.171Z"
     }
   },
-  "updatedAt": "2026-11-17T10:14:18.161Z"
+  "updatedAt": "2026-11-17T10:20:49.171Z"
 }
