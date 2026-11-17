@@ -6455,10 +6455,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5230,
-              "netSales": 5230,
+              "sales": 5200,
+              "netSales": 5200,
               "cost": 4896,
-              "grossProfit": 334,
+              "grossProfit": 304,
               "quantity": 14
             },
             {
@@ -6562,10 +6562,10 @@
               "itemCode": "TPGN226018HT6-26",
               "itemName": "GENERAL 225/60/18 GRABBER HT6 SUV 100V CN (2026)",
               "quantity": 4,
-              "sales": 1940,
-              "netSales": 1940,
+              "sales": 1910,
+              "netSales": 1910,
               "cost": 1772,
-              "grossProfit": 168
+              "grossProfit": 138
             },
             {
               "category": "passenger_tire",
@@ -6631,7 +6631,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
+      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
     },
     "SR": {
       "days": {
@@ -12260,7 +12260,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12288,11 +12288,11 @@
             },
             {
               "key": "other",
-              "sales": 125,
-              "netSales": 125,
+              "sales": 205,
+              "netSales": 205,
               "cost": 51.65,
-              "grossProfit": 73.35,
-              "quantity": 9
+              "grossProfit": 153.35,
+              "quantity": 15
             }
           ],
           "items": [
@@ -12300,7 +12300,17 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
+              "quantity": 3,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 3,
               "sales": 30,
               "netSales": 30,
               "cost": 0,
@@ -12308,23 +12318,13 @@
             },
             {
               "category": "other",
-              "itemCode": "PATCH",
-              "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 0,
-              "grossProfit": 20
-            },
-            {
-              "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 2,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 6,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -12390,7 +12390,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
+      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
     },
     "ST": {
       "days": {
@@ -18185,11 +18185,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 340,
-              "netSales": 340,
-              "cost": 306,
-              "grossProfit": 34,
-              "quantity": 2
+              "sales": 335.27,
+              "netSales": 335.27,
+              "cost": 1262,
+              "grossProfit": -926.73,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -18209,11 +18209,11 @@
             },
             {
               "key": "other",
-              "sales": 14,
-              "netSales": 14,
-              "cost": 1.3,
-              "grossProfit": 12.7,
-              "quantity": 4
+              "sales": 18.73,
+              "netSales": 18.73,
+              "cost": 2.6,
+              "grossProfit": 16.13,
+              "quantity": 9
             }
           ],
           "items": [
@@ -18221,37 +18221,57 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 2,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 4,
+              "sales": 4.8,
+              "netSales": 4.8,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 4.8
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 7.2,
+              "netSales": 7.2,
+              "cost": 0,
+              "grossProfit": 7.2
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT177013ES32-26",
               "itemName": "YOKOHAMA 175/70/13 BLUEARTH ES -ES32 82T JP (2026)",
               "quantity": 2,
-              "sales": 340,
-              "netSales": 340,
+              "sales": 81.66,
+              "netSales": 81.66,
               "cost": 306,
-              "grossProfit": 34
+              "grossProfit": -224.34
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT215518UC6-26",
+              "itemName": "CONTINENTAL 215/55/18 ULTRCON UC6 95V (2026)",
+              "quantity": 2,
+              "sales": 253.61,
+              "netSales": 253.61,
+              "cost": 956,
+              "grossProfit": -702.39
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 2,
-              "sales": 14,
-              "netSales": 14,
-              "cost": 1.3,
-              "grossProfit": 12.7
+              "quantity": 4,
+              "sales": 6.73,
+              "netSales": 6.73,
+              "cost": 2.6,
+              "grossProfit": 4.13
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
+      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
     },
     "SK": {
       "days": {
@@ -21592,7 +21612,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:39:15.235Z"
+      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
     },
     "KM": {
       "days": {
@@ -21750,8 +21770,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:32:40.857Z"
+      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
     }
   },
-  "updatedAt": "2026-11-17T03:39:15.235Z"
+  "updatedAt": "2026-11-17T03:59:31.180Z"
 }
