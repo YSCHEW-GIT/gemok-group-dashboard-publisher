@@ -6455,10 +6455,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5200,
-              "netSales": 5200,
+              "sales": 5290,
+              "netSales": 5290,
               "cost": 4896,
-              "grossProfit": 304,
+              "grossProfit": 394,
               "quantity": 14
             },
             {
@@ -6479,10 +6479,10 @@
             },
             {
               "key": "other",
-              "sales": 490,
-              "netSales": 467.8,
+              "sales": 400,
+              "netSales": 384.46,
               "cost": 21.13,
-              "grossProfit": 446.67,
+              "grossProfit": 363.33,
               "quantity": 28
             }
           ],
@@ -6502,20 +6502,20 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 90,
-              "netSales": 83.34,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 37.04
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 80,
-              "netSales": 74.08,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -6552,10 +6552,10 @@
               "itemCode": "TPWL215518R1",
               "itemName": "WEST LAKE 215/5518 SUPERIDE 1 TL CN 95V (2025)",
               "quantity": 4,
-              "sales": 790,
-              "netSales": 790,
+              "sales": 880,
+              "netSales": 880,
               "cost": 952,
-              "grossProfit": -162
+              "grossProfit": -72
             },
             {
               "category": "passenger_tire",
@@ -6590,7 +6590,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 8,
               "sales": 40,
               "netSales": 40,
@@ -6631,7 +6631,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
+      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
     },
     "SR": {
       "days": {
@@ -12260,7 +12260,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12288,11 +12288,11 @@
             },
             {
               "key": "other",
-              "sales": 205,
-              "netSales": 205,
-              "cost": 51.65,
-              "grossProfit": 153.35,
-              "quantity": 15
+              "sales": 315,
+              "netSales": 315,
+              "cost": 101.65,
+              "grossProfit": 213.35,
+              "quantity": 20
             }
           ],
           "items": [
@@ -12300,11 +12300,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 4,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -12320,11 +12320,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 8,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -12340,11 +12340,11 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 50,
-              "grossProfit": 10
+              "quantity": 4,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 100,
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -12379,7 +12379,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 1,
               "sales": 15,
               "netSales": 15,
@@ -12390,7 +12390,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
+      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
     },
     "ST": {
       "days": {
@@ -21546,11 +21546,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 792,
+              "netSales": 792,
+              "cost": 920,
+              "grossProfit": -128,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -21570,11 +21570,11 @@
             },
             {
               "key": "other",
-              "sales": 80,
-              "netSales": 80,
-              "cost": 0,
-              "grossProfit": 80,
-              "quantity": 5
+              "sales": 200,
+              "netSales": 200,
+              "cost": 25.6,
+              "grossProfit": 174.4,
+              "quantity": 10
             }
           ],
           "items": [
@@ -21607,12 +21607,42 @@
               "netSales": 250,
               "cost": 0,
               "grossProfit": 250
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 920,
+              "grossProfit": -128
+            },
+            {
+              "category": "other",
+              "itemCode": "MNW2150S",
+              "itemName": "RAYS WHEEL NUT 1.50 (20) SHORT",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 19,
+              "grossProfit": 61
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
+      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
     },
     "KM": {
       "days": {
@@ -21770,8 +21800,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T03:59:31.180Z"
+      "lastCollectedAt": "2026-11-17T04:06:04.686Z"
     }
   },
-  "updatedAt": "2026-11-17T03:59:31.180Z"
+  "updatedAt": "2026-11-17T04:06:04.686Z"
 }
