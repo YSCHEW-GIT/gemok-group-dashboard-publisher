@@ -6451,7 +6451,7 @@
           ]
         },
         "2026-11-17": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -6479,11 +6479,11 @@
             },
             {
               "key": "other",
-              "sales": 689.91,
-              "netSales": 661.79,
+              "sales": 719.91,
+              "netSales": 689.57,
               "cost": 40.93,
-              "grossProfit": 620.86,
-              "quantity": 70
+              "grossProfit": 648.64,
+              "quantity": 71
             }
           ],
           "items": [
@@ -6531,11 +6531,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 180,
-              "netSales": 166.68,
+              "quantity": 9,
+              "sales": 210,
+              "netSales": 194.46,
               "cost": 0,
-              "grossProfit": 166.68
+              "grossProfit": 194.46
             },
             {
               "category": "other",
@@ -6670,7 +6670,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
               "sales": 89.98,
               "netSales": 89.98,
@@ -6690,7 +6690,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 20,
               "sales": 159.97,
               "netSales": 159.97,
@@ -6731,7 +6731,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
+      "lastCollectedAt": "2026-11-17T08:45:01.641Z"
     },
     "SR": {
       "days": {
@@ -12360,15 +12360,15 @@
           ]
         },
         "2026-11-17": {
-          "documents": 16,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 778,
-              "netSales": 778,
-              "cost": 856,
-              "grossProfit": -78,
-              "quantity": 6
+              "sales": 1344,
+              "netSales": 1344,
+              "cost": 1218,
+              "grossProfit": 126,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -12380,19 +12380,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 350,
-              "netSales": 350,
+              "sales": 530,
+              "netSales": 530,
               "cost": 161.5,
-              "grossProfit": 188.5,
-              "quantity": 4
+              "grossProfit": 368.5,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 778,
-              "netSales": 778,
-              "cost": 169.9,
-              "grossProfit": 608.1,
-              "quantity": 44
+              "sales": 758,
+              "netSales": 758,
+              "cost": 173.2,
+              "grossProfit": 584.8,
+              "quantity": 53
             }
           ],
           "items": [
@@ -12400,7 +12400,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
+              "quantity": 10,
               "sales": 180,
               "netSales": 180,
               "cost": 0,
@@ -12420,21 +12420,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 140,
-              "netSales": 140,
+              "quantity": 20,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 100
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 2,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -12460,21 +12460,31 @@
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 452,
+              "netSales": 452,
+              "cost": 344,
+              "grossProfit": 108
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL177013Z117",
+              "itemName": "WEST LAKE 175/70/13 82T ZUPER FLEX Z-117 (2025)",
               "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
-              "cost": 172,
-              "grossProfit": 54
+              "sales": 270,
+              "netSales": 270,
+              "cost": 190,
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
+              "sales": 622,
+              "netSales": 622,
               "cost": 684,
-              "grossProfit": -132
+              "grossProfit": -62
             },
             {
               "category": "foreman_item",
@@ -12509,12 +12519,12 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
-              "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
-              "cost": 3.3,
-              "grossProfit": 26.7
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 6.6,
+              "grossProfit": 43.4
             },
             {
               "category": "other",
@@ -12529,7 +12539,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "Tubeless Valve-Rubber",
+              "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 4,
               "sales": 28,
               "netSales": 28,
@@ -12540,7 +12550,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T07:10:34.047Z"
+      "lastCollectedAt": "2026-11-17T08:45:01.641Z"
     },
     "ST": {
       "days": {
@@ -22240,8 +22250,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T08:24:36.672Z"
+      "lastCollectedAt": "2026-11-17T08:45:01.641Z"
     }
   },
-  "updatedAt": "2026-11-17T08:24:36.672Z"
+  "updatedAt": "2026-11-17T08:45:01.641Z"
 }
