@@ -6451,15 +6451,15 @@
           ]
         },
         "2026-11-17": {
-          "documents": 10,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5290,
-              "netSales": 5290,
-              "cost": 4896,
-              "grossProfit": 394,
-              "quantity": 14
+              "sales": 6280,
+              "netSales": 6280,
+              "cost": 5906,
+              "grossProfit": 374,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -6479,11 +6479,11 @@
             },
             {
               "key": "other",
-              "sales": 410,
-              "netSales": 393.72,
-              "cost": 21.13,
-              "grossProfit": 372.59,
-              "quantity": 29
+              "sales": 560,
+              "netSales": 534.1,
+              "cost": 24.43,
+              "grossProfit": 509.67,
+              "quantity": 39
             }
           ],
           "items": [
@@ -6501,21 +6501,21 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 3,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 14,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -6531,11 +6531,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 4,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -6569,6 +6569,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPCT225017UC7-26",
+              "itemName": "CONTINENTAL 225/50/17 ULTRA CONTACT UC7 98W CN (2026)",
+              "quantity": 2,
+              "sales": 990,
+              "netSales": 990,
+              "cost": 1010,
+              "grossProfit": -20
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPBS266018DL-26",
               "itemName": "BRIDGESTONE 265/60/18 DUELER H/T 684II 11H (2026)",
               "quantity": 4,
@@ -6591,11 +6601,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 13.2,
-              "grossProfit": 26.8
+              "quantity": 10,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 16.5,
+              "grossProfit": 43.5
             },
             {
               "category": "other",
@@ -6631,7 +6641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
+      "lastCollectedAt": "2026-11-17T05:19:14.717Z"
     },
     "SR": {
       "days": {
@@ -12400,7 +12410,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
+      "lastCollectedAt": "2026-11-17T05:19:14.717Z"
     },
     "ST": {
       "days": {
@@ -18191,15 +18201,15 @@
           ]
         },
         "2026-11-17": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2538,
-              "netSales": 2538,
-              "cost": 2302,
-              "grossProfit": 236,
-              "quantity": 8
+              "sales": 3290.45,
+              "netSales": 3290.45,
+              "cost": 2986,
+              "grossProfit": 304.45,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -18211,19 +18221,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 49.34,
+              "netSales": 49.34,
+              "cost": 80,
+              "grossProfit": -30.66,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 437,
-              "netSales": 437,
-              "cost": 263.55,
-              "grossProfit": 173.45,
-              "quantity": 18
+              "sales": 438.21,
+              "netSales": 438.21,
+              "cost": 264.85,
+              "grossProfit": 173.36,
+              "quantity": 22
             }
           ],
           "items": [
@@ -18231,77 +18241,107 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 10,
+              "sales": 19.74,
+              "netSales": 19.74,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 19.74
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 29.61,
+              "netSales": 29.61,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 29.61
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT177013ES32-26",
               "itemName": "YOKOHAMA 175/70/13 BLUEARTH ES -ES32 82T JP (2026)",
               "quantity": 2,
-              "sales": 340,
-              "netSales": 340,
+              "sales": 335.56,
+              "netSales": 335.56,
               "cost": 306,
-              "grossProfit": 34
+              "grossProfit": 29.56
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY196016CR1",
               "itemName": "TOYO 195/60/16 PXCR1 89H (2026)",
               "quantity": 4,
-              "sales": 1142,
-              "netSales": 1142,
+              "sales": 1127.08,
+              "netSales": 1127.08,
               "cost": 1040,
-              "grossProfit": 102
+              "grossProfit": 87.08
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY215017CR1-26",
+              "itemName": "TOYO 215/50/17 PROXES CR1 91V (2026)",
+              "quantity": 2,
+              "sales": 785.6,
+              "netSales": 785.6,
+              "cost": 684,
+              "grossProfit": 101.6
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT215518UC6-26",
               "itemName": "CONTINENTAL 215/55/18 ULTRCON UC6 95V (2026)",
               "quantity": 2,
-              "sales": 1056,
-              "netSales": 1056,
+              "sales": 1042.21,
+              "netSales": 1042.21,
               "cost": 956,
-              "grossProfit": 100
+              "grossProfit": 86.21
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PARWPHW19",
+              "itemName": "AERO WIPER HW SINGLE 16",
+              "quantity": 2,
+              "sales": 49.34,
+              "netSales": 49.34,
+              "cost": 26,
+              "grossProfit": 23.34
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK39925",
+              "itemName": "WATER COOLANT HOSE",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 54,
+              "grossProfit": -54
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 7,
-              "sales": 49,
-              "netSales": 49,
-              "cost": 4.55,
-              "grossProfit": 44.45
+              "quantity": 9,
+              "sales": 55.27,
+              "netSales": 55.27,
+              "cost": 5.85,
+              "grossProfit": 49.42
             },
             {
               "category": "other",
               "itemCode": "TPTY195016R50-26",
               "itemName": "TOYO 195/50/16 PROXES R5084V MY(2026)",
               "quantity": 1,
-              "sales": 338,
-              "netSales": 338,
+              "sales": 333.59,
+              "netSales": 333.59,
               "cost": 259,
-              "grossProfit": 79
+              "grossProfit": 74.59
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
+      "lastCollectedAt": "2026-11-17T05:19:14.717Z"
     },
     "SK": {
       "days": {
@@ -21572,57 +21612,77 @@
           ]
         },
         "2026-11-17": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 792,
-              "netSales": 792,
+              "sales": 872,
+              "netSales": 872,
               "cost": 920,
-              "grossProfit": -128,
+              "grossProfit": -48,
               "quantity": 4
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
+              "sales": 320,
+              "netSales": 320,
+              "cost": 750,
+              "grossProfit": -430,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 250,
-              "netSales": 250,
-              "cost": 0,
-              "grossProfit": 250,
-              "quantity": 1
+              "sales": 686,
+              "netSales": 686,
+              "cost": 175.5,
+              "grossProfit": 510.5,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 280,
-              "netSales": 280,
+              "sales": 270,
+              "netSales": 270,
               "cost": 37.6,
-              "grossProfit": 242.4,
-              "quantity": 11
+              "grossProfit": 232.4,
+              "quantity": 16
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US268150",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": 0,
+              "grossProfit": -251
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SR156541-DHB-TE37",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE (TE37)",
+              "quantity": 1,
+              "sales": 571,
+              "netSales": 571,
+              "cost": 750,
+              "grossProfit": -179
+            },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
+              "quantity": 8,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
@@ -21632,21 +21692,61 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 1,
-              "sales": 250,
-              "netSales": 250,
+              "quantity": 2,
+              "sales": 340,
+              "netSales": 340,
               "cost": 0,
-              "grossProfit": 250
+              "grossProfit": 340
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 85V (2026)",
               "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
+              "sales": 872,
+              "netSales": 872,
               "cost": 920,
-              "grossProfit": -128
+              "grossProfit": -48
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFCMPRT",
+              "itemName": "OIL FILTER PROTON SAGA 12V WIRA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 4.5,
+              "grossProfit": -4.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 171,
+              "grossProfit": 89
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110029",
+              "itemName": "AUTO OIL ATF 1L",
+              "quantity": 2,
+              "sales": 86,
+              "netSales": 86,
+              "cost": 0,
+              "grossProfit": 86
             },
             {
               "category": "other",
@@ -21682,7 +21782,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
+      "lastCollectedAt": "2026-11-17T05:19:14.717Z"
     },
     "KM": {
       "days": {
@@ -21840,8 +21940,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-17T04:31:30.441Z"
+      "lastCollectedAt": "2026-11-17T05:19:14.717Z"
     }
   },
-  "updatedAt": "2026-11-17T04:31:30.441Z"
+  "updatedAt": "2026-11-17T05:19:14.717Z"
 }
