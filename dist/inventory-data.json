@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-17T03:07:50.844Z",
+  "updatedAt": "2026-11-17T04:20:40.719Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 445,
-      "quantity": 2226,
-      "stockValue": 446783.86000000004
+      "quantity": 2254,
+      "stockValue": 452811.86000000004
     },
     {
       "key": "sport-rim",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2177,
-      "stockValue": 163932.78
+      "quantity": 2225,
+      "stockValue": 165422.78
     },
     {
       "key": "oil-filter",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9246,
-      "stockValue": 56235.61
+      "quantity": 9224,
+      "stockValue": 56183.28
     },
     {
       "key": "non-stock-item",
@@ -175,8 +175,8 @@
     {
       "key": "0",
       "name": "0",
-      "sku": 12,
-      "quantity": 1,
+      "sku": 13,
+      "quantity": 2,
       "stockValue": 259
     },
     {
@@ -1700,7 +1700,16 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 10,
-          "cost": 203,
+          "cost": 193,
+          "price": 168
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 6,
+          "cost": 193,
           "price": 168
         }
       ]
@@ -7156,15 +7165,6 @@
           "quantity": 4,
           "cost": 260,
           "price": 288
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 260,
-          "price": 288
         }
       ]
     },
@@ -9918,7 +9918,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 12,
           "cost": 230,
           "price": 198
         },
@@ -9936,7 +9936,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 40,
           "cost": 231,
           "price": 208
         }
@@ -35233,7 +35233,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 59,
-          "cost": 28,
+          "cost": 29,
           "price": 100
         },
         {
@@ -35241,8 +35241,8 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 39,
-          "cost": 28,
+          "quantity": 87,
+          "cost": 29,
           "price": 100
         }
       ]
@@ -108233,7 +108233,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 80,
+          "quantity": 78,
           "cost": 3.5,
           "price": 45
         }
@@ -108684,7 +108684,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 59,
+          "quantity": 57,
           "cost": 3.5,
           "price": 35
         },
@@ -110790,7 +110790,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 28,
+          "quantity": 27,
           "cost": 19,
           "price": 80
         }
@@ -113759,7 +113759,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 49,
+          "quantity": 48,
           "cost": 0.93,
           "price": 0
         },
@@ -113907,7 +113907,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 573,
+          "quantity": 565,
           "cost": 0.65,
           "price": 7
         }
@@ -113935,7 +113935,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 317,
+          "quantity": 313,
           "cost": 1.65,
           "price": 10
         },
@@ -113944,7 +113944,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 266,
+          "quantity": 262,
           "cost": 1.65,
           "price": 10
         },
@@ -123475,6 +123475,25 @@
           "location": "",
           "quantity": 0,
           "cost": 327,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "WUERTHFT",
+      "groupKey": "0",
+      "groupName": "0",
+      "brand": "",
+      "name": "WUERTH BRAKE FLUID TESTER EASY CHECK",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 0,
           "price": 0
         }
       ]
