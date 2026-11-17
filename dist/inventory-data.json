@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-17T09:50:02.706Z",
+  "updatedAt": "2026-11-17T11:02:06.377Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 445,
-      "quantity": 2300,
-      "stockValue": 458309.06
+      "quantity": 2298,
+      "stockValue": 457953.06
     },
     {
       "key": "sport-rim",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2124,
-      "quantity": 2039,
-      "stockValue": 179657.5
+      "sku": 2125,
+      "quantity": 2040,
+      "stockValue": 179857.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9884,
-      "stockValue": 58731.579999999994
+      "quantity": 9882,
+      "stockValue": 58728.27999999999
     },
     {
       "key": "non-stock-item",
@@ -7491,7 +7491,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 343,
+          "cost": 341,
           "price": 0
         }
       ]
@@ -7595,7 +7595,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 8,
-          "cost": 304,
+          "cost": 318,
           "price": 0
         }
       ]
@@ -9954,7 +9954,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 32,
+          "quantity": 30,
           "cost": 230,
           "price": 0
         },
@@ -86004,6 +86004,25 @@
       ]
     },
     {
+      "code": "US2611972",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X5JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US2611975",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -113999,7 +114018,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 299,
+          "quantity": 297,
           "cost": 1.65,
           "price": 10
         },
