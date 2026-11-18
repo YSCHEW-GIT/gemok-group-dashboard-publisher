@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:28:49.487Z"
+      "lastCollectedAt": "2026-11-18T04:36:40.638Z"
     },
     "SR": {
       "days": {
@@ -12627,15 +12627,15 @@
           ]
         },
         "2026-11-18": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 702,
-              "netSales": 702,
-              "cost": 564,
-              "grossProfit": 138,
-              "quantity": 6
+              "sales": 912,
+              "netSales": 912,
+              "cost": 729,
+              "grossProfit": 183,
+              "quantity": 7
             },
             {
               "key": "sport_rim",
@@ -12704,6 +12704,16 @@
               "grossProfit": 84
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPAT205016XS86-26",
+              "itemName": "ATLANDER 205/50/16 XSPORT-86 BSW 87W (2026)",
+              "quantity": 1,
+              "sales": 210,
+              "netSales": 210,
+              "cost": 165,
+              "grossProfit": 45
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
@@ -12737,7 +12747,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:28:49.487Z"
+      "lastCollectedAt": "2026-11-18T04:36:40.638Z"
     },
     "ST": {
       "days": {
@@ -18876,7 +18886,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:28:49.487Z"
+      "lastCollectedAt": "2026-11-18T04:36:40.638Z"
     },
     "SK": {
       "days": {
@@ -22395,7 +22405,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:28:49.487Z"
+      "lastCollectedAt": "2026-11-18T04:36:40.638Z"
     },
     "KM": {
       "days": {
@@ -22591,8 +22601,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:28:49.487Z"
+      "lastCollectedAt": "2026-11-18T04:36:40.638Z"
     }
   },
-  "updatedAt": "2026-11-18T04:28:49.487Z"
+  "updatedAt": "2026-11-18T04:36:40.638Z"
 }
