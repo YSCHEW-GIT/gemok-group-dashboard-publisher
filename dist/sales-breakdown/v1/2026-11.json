@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:49:03.740Z"
+      "lastCollectedAt": "2026-11-18T03:56:58.380Z"
     },
     "SR": {
       "days": {
@@ -12627,7 +12627,7 @@
           ]
         },
         "2026-11-18": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12647,11 +12647,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 280,
+              "netSales": 280,
+              "cost": 200,
+              "grossProfit": 80,
+              "quantity": 1
             },
             {
               "key": "other",
@@ -12722,12 +12722,22 @@
               "netSales": 70,
               "cost": 7,
               "grossProfit": 63
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PABSVKALZRR",
+              "itemName": "VERKE ABSORBER SR P/MYV, 11-17 (LAGI BEST) ALZA 09-RR 342M023 / 8096",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 200,
+              "grossProfit": 80
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:49:03.740Z"
+      "lastCollectedAt": "2026-11-18T03:56:58.380Z"
     },
     "ST": {
       "days": {
@@ -18866,7 +18876,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:49:03.740Z"
+      "lastCollectedAt": "2026-11-18T03:56:58.380Z"
     },
     "SK": {
       "days": {
@@ -22385,7 +22395,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:49:03.740Z"
+      "lastCollectedAt": "2026-11-18T03:56:58.380Z"
     },
     "KM": {
       "days": {
@@ -22581,8 +22591,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:49:03.740Z"
+      "lastCollectedAt": "2026-11-18T03:56:58.380Z"
     }
   },
-  "updatedAt": "2026-11-18T03:49:03.740Z"
+  "updatedAt": "2026-11-18T03:56:58.380Z"
 }
