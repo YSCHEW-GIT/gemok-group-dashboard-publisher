@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:51:04.184Z"
+      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
     },
     "SR": {
       "days": {
@@ -12627,14 +12627,14 @@
           ]
         },
         "2026-11-18": {
-          "documents": 15,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1638.35,
-              "netSales": 1638.35,
+              "sales": 2432,
+              "netSales": 2432,
               "cost": 1949,
-              "grossProfit": -310.65,
+              "grossProfit": 483,
               "quantity": 16
             },
             {
@@ -12647,19 +12647,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 606.25,
-              "netSales": 606.25,
-              "cost": 584,
-              "grossProfit": 22.25,
-              "quantity": 7
+              "sales": 998,
+              "netSales": 998,
+              "cost": 638.4,
+              "grossProfit": 359.6,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 517.4,
-              "netSales": 517.4,
+              "sales": 798,
+              "netSales": 798,
               "cost": 37.2,
-              "grossProfit": 480.2,
-              "quantity": 52
+              "grossProfit": 760.8,
+              "quantity": 53
             }
           ],
           "items": [
@@ -12668,90 +12668,90 @@
               "itemCode": "NSR195015",
               "itemName": "USED TAYAR 195/50/15-911",
               "quantity": 1,
-              "sales": 20.21,
-              "netSales": 20.21,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20.21
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
               "itemCode": "NSR176514",
               "itemName": "USED TAYAR 175/65/14 911",
               "quantity": 4,
-              "sales": 121.26,
-              "netSales": 121.26,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 121.26
+              "grossProfit": 180
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 141.47,
-              "netSales": 141.47,
+              "quantity": 10,
+              "sales": 240,
+              "netSales": 240,
               "cost": 0,
-              "grossProfit": 141.47
+              "grossProfit": 240
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 26,
-              "sales": 134.74,
-              "netSales": 134.74,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 134.74
+              "grossProfit": 200
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 6.74,
-              "netSales": 6.74,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 6.74
+              "grossProfit": 10
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 152.25,
-              "netSales": 152.25,
+              "sales": 226,
+              "netSales": 226,
               "cost": 172,
-              "grossProfit": -19.75
+              "grossProfit": 54
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 367.82,
-              "netSales": 367.82,
+              "sales": 546,
+              "netSales": 546,
               "cost": 392,
-              "grossProfit": -24.18
+              "grossProfit": 154
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195016UC7",
               "itemName": "CONTINENTAL 195/50/16 88V XL UC7 (2026)",
               "quantity": 4,
-              "sales": 835.34,
-              "netSales": 835.34,
+              "sales": 1240,
+              "netSales": 1240,
               "cost": 1220,
-              "grossProfit": -384.66
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT205016XS86-26",
               "itemName": "ATLANDER 205/50/16 XSPORT-86 BSW 87W (2026)",
               "quantity": 1,
-              "sales": 141.47,
-              "netSales": 141.47,
+              "sales": 210,
+              "netSales": 210,
               "cost": 165,
-              "grossProfit": -23.53
+              "grossProfit": 45
             },
             {
               "category": "foreman_item",
@@ -12778,20 +12778,20 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 121.26,
-              "netSales": 121.26,
+              "sales": 180,
+              "netSales": 180,
               "cost": 100,
-              "grossProfit": 21.26
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
               "itemCode": "OETL0W20Q9000",
               "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT ENG OIL",
               "quantity": 1,
-              "sales": 161.68,
-              "netSales": 161.68,
+              "sales": 240,
+              "netSales": 240,
               "cost": 118,
-              "grossProfit": 43.68
+              "grossProfit": 122
             },
             {
               "category": "foreman_item",
@@ -12808,56 +12808,66 @@
               "itemCode": "PAOTFCVTF",
               "itemName": "HD AUTO OIL CVTF -2 3.5L",
               "quantity": 1,
-              "sales": 134.73,
-              "netSales": 134.73,
+              "sales": 200,
+              "netSales": 200,
               "cost": 120,
-              "grossProfit": 14.73
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 26.95,
-              "netSales": 26.95,
+              "sales": 40,
+              "netSales": 40,
               "cost": 6.6,
-              "grossProfit": 20.35
+              "grossProfit": 33.4
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 8,
-              "sales": 188.64,
-              "netSales": 188.64,
+              "sales": 280,
+              "netSales": 280,
               "cost": 28,
-              "grossProfit": 160.64
+              "grossProfit": 252
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 4,
-              "sales": 18.86,
-              "netSales": 18.86,
+              "sales": 28,
+              "netSales": 28,
               "cost": 2.6,
-              "grossProfit": 16.26
+              "grossProfit": 25.4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC5168PLT",
+              "itemName": "BRAKE PAD BNC HONDA CITY 2.0(06-19)N TMO T9A JAZZ CD5168",
+              "quantity": 1,
+              "sales": 98,
+              "netSales": 98,
+              "cost": 54.4,
+              "grossProfit": 43.6
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSVKALZRR",
               "itemName": "VERKE ABSORBER SR P/MYV, 11-17 (LAGI BEST) ALZA 09-RR 342M023 / 8096",
               "quantity": 1,
-              "sales": 188.58,
-              "netSales": 188.58,
+              "sales": 280,
+              "netSales": 280,
               "cost": 200,
-              "grossProfit": -11.42
+              "grossProfit": 80
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:51:04.184Z"
+      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
     },
     "ST": {
       "days": {
@@ -18996,7 +19006,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:51:04.184Z"
+      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
     },
     "SK": {
       "days": {
@@ -22515,7 +22525,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:51:04.184Z"
+      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
     },
     "KM": {
       "days": {
@@ -22711,8 +22721,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:51:04.184Z"
+      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
     }
   },
-  "updatedAt": "2026-11-18T06:51:04.184Z"
+  "updatedAt": "2026-11-18T06:58:58.563Z"
 }
