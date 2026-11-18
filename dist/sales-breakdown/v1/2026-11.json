@@ -12627,7 +12627,7 @@
           ]
         },
         "2026-11-18": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12655,11 +12655,11 @@
             },
             {
               "key": "other",
-              "sales": 1118,
-              "netSales": 1118,
+              "sales": 1128,
+              "netSales": 1128,
               "cost": 87.2,
-              "grossProfit": 1030.8,
-              "quantity": 63
+              "grossProfit": 1040.8,
+              "quantity": 64
             }
           ],
           "items": [
@@ -12967,11 +12967,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -13177,7 +13177,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:39:25.783Z"
+      "lastCollectedAt": "2026-11-18T11:01:04.987Z"
     },
     "ST": {
       "days": {
@@ -19316,7 +19316,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
+      "lastCollectedAt": "2026-11-18T11:01:04.987Z"
     },
     "SK": {
       "days": {
@@ -23034,5 +23034,5 @@
       "lastCollectedAt": "2026-11-18T10:39:25.783Z"
     }
   },
-  "updatedAt": "2026-11-18T10:39:25.783Z"
+  "updatedAt": "2026-11-18T11:01:04.987Z"
 }
