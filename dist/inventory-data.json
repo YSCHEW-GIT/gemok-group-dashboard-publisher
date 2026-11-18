@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-18T07:21:39.652Z",
+  "updatedAt": "2026-11-18T08:32:43.939Z",
   "stores": [
     {
       "code": "SI",
@@ -28,16 +28,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 445,
-      "quantity": 2287,
-      "stockValue": 455987.06
+      "sku": 447,
+      "quantity": 2323,
+      "stockValue": 462563.06
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 784,
-      "quantity": 641,
-      "stockValue": 337805.02
+      "sku": 783,
+      "quantity": 640,
+      "stockValue": 337117.02
     },
     {
       "key": "absorber",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2125,
-      "quantity": 2040,
-      "stockValue": 179857.5
+      "sku": 2126,
+      "quantity": 2041,
+      "stockValue": 180108.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9866,
-      "stockValue": 58691.079999999994
+      "quantity": 9862,
+      "stockValue": 58641.079999999994
     },
     {
       "key": "non-stock-item",
@@ -456,7 +456,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 145,
           "price": 170
         },
@@ -632,6 +632,25 @@
       ]
     },
     {
+      "code": "TPAT204517XS86-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "ATLANDER 205/45/17 XSPORT-86 BSW 88W XL (2026)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 178,
+          "price": 200
+        }
+      ]
+    },
+    {
       "code": "TPAT205016X86-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -681,7 +700,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 7,
           "cost": 165,
           "price": 190
         },
@@ -802,7 +821,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 8,
           "cost": 190,
           "price": 200
         }
@@ -824,6 +843,15 @@
           "quantity": 4,
           "cost": 209,
           "price": 0
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 209,
+          "price": 240
         }
       ]
     },
@@ -6550,6 +6578,25 @@
       ]
     },
     {
+      "code": "TPTY165514CR1-26",
+      "groupKey": "passanger-tire",
+      "groupName": "Passanger Tire",
+      "brand": "",
+      "name": "TOYO 165/55/14 72V MALAYSIA",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 163,
+          "price": 180
+        }
+      ]
+    },
+    {
       "code": "TPTY176514CR1",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -6599,8 +6646,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
-          "cost": 196,
+          "quantity": 8,
+          "cost": 195,
           "price": 179
         },
         {
@@ -7003,6 +7050,15 @@
           "company": "G Tayar",
           "location": "",
           "quantity": 10,
+          "cost": 186,
+          "price": 168
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 12,
           "cost": 186,
           "price": 168
         },
@@ -24863,25 +24919,6 @@
           "location": "",
           "quantity": 1,
           "cost": 760,
-          "price": 488
-        }
-      ]
-    },
-    {
-      "code": "SR157044H-UHB-TE37",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7.0 4X114.3 ET38 73.1 ULTRA HYPER BLACK 657E-04899 (TE37)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 688,
           "price": 488
         }
       ]
@@ -97785,6 +97822,25 @@
       ]
     },
     {
+      "code": "US2617310",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 251,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US2617313",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -109019,7 +109075,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 7,
           "cost": 10,
           "price": 55
         },
@@ -112957,7 +113013,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 12,
           "price": 100
         },
@@ -114055,7 +114111,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 50,
+          "quantity": 49,
           "cost": 18,
           "price": 50
         },
