@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:44:33.101Z"
+      "lastCollectedAt": "2026-11-18T05:01:25.464Z"
     },
     "SR": {
       "days": {
@@ -12631,11 +12631,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 912,
-              "netSales": 912,
+              "sales": 923.67,
+              "netSales": 923.67,
               "cost": 729,
-              "grossProfit": 183,
-              "quantity": 7
+              "grossProfit": 194.67,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -12647,107 +12647,117 @@
             },
             {
               "key": "foreman_item",
-              "sales": 280,
-              "netSales": 280,
+              "sales": 274.55,
+              "netSales": 274.55,
               "cost": 200,
-              "grossProfit": 80,
+              "grossProfit": 74.55,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 320,
-              "netSales": 320,
+              "sales": 313.78,
+              "netSales": 313.78,
               "cost": 13.6,
-              "grossProfit": 306.4,
+              "grossProfit": 300.18,
               "quantity": 24
             }
           ],
           "items": [
             {
+              "category": "passenger_tire",
+              "itemCode": "NSR195015",
+              "itemName": "USED TAYAR 195/50/15-911",
+              "quantity": 1,
+              "sales": 29.42,
+              "netSales": 29.42,
+              "cost": 0,
+              "grossProfit": 29.42
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 88.26,
+              "netSales": 88.26,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 88.26
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 117.66,
+              "netSales": 117.66,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 117.66
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
+              "sales": 221.6,
+              "netSales": 221.6,
               "cost": 172,
-              "grossProfit": 54
+              "grossProfit": 49.6
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 476,
-              "netSales": 476,
+              "sales": 466.74,
+              "netSales": 466.74,
               "cost": 392,
-              "grossProfit": 84
+              "grossProfit": 74.74
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT205016XS86-26",
               "itemName": "ATLANDER 205/50/16 XSPORT-86 BSW 87W (2026)",
               "quantity": 1,
-              "sales": 210,
-              "netSales": 210,
+              "sales": 205.91,
+              "netSales": 205.91,
               "cost": 165,
-              "grossProfit": 45
+              "grossProfit": 40.91
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.22,
+              "netSales": 39.22,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 32.62
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 68.64,
+              "netSales": 68.64,
               "cost": 7,
-              "grossProfit": 63
+              "grossProfit": 61.64
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSVKALZRR",
               "itemName": "VERKE ABSORBER SR P/MYV, 11-17 (LAGI BEST) ALZA 09-RR 342M023 / 8096",
               "quantity": 1,
-              "sales": 280,
-              "netSales": 280,
+              "sales": 274.55,
+              "netSales": 274.55,
               "cost": 200,
-              "grossProfit": 80
+              "grossProfit": 74.55
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:44:33.101Z"
+      "lastCollectedAt": "2026-11-18T05:01:25.464Z"
     },
     "ST": {
       "days": {
@@ -18886,7 +18896,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:44:33.101Z"
+      "lastCollectedAt": "2026-11-18T05:01:25.464Z"
     },
     "SK": {
       "days": {
@@ -22601,8 +22611,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T04:44:33.101Z"
+      "lastCollectedAt": "2026-11-18T05:01:25.464Z"
     }
   },
-  "updatedAt": "2026-11-18T04:44:33.101Z"
+  "updatedAt": "2026-11-18T05:01:25.464Z"
 }
