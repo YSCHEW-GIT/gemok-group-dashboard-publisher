@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:42:42.059Z"
+      "lastCollectedAt": "2026-11-18T08:06:46.510Z"
     },
     "SR": {
       "days": {
@@ -12627,7 +12627,7 @@
           ]
         },
         "2026-11-18": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12639,11 +12639,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 738,
-              "netSales": 738,
-              "cost": 688,
-              "grossProfit": 50,
-              "quantity": 1
+              "sales": 488,
+              "netSales": 488,
+              "cost": 437,
+              "grossProfit": 51,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -12655,11 +12655,11 @@
             },
             {
               "key": "other",
-              "sales": 1108,
-              "netSales": 1108,
+              "sales": 1118,
+              "netSales": 1118,
               "cost": 87.2,
-              "grossProfit": 1020.8,
-              "quantity": 62
+              "grossProfit": 1030.8,
+              "quantity": 63
             }
           ],
           "items": [
@@ -12682,6 +12682,16 @@
               "netSales": 180,
               "cost": 0,
               "grossProfit": 180
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617310",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": -1,
+              "sales": -250,
+              "netSales": -250,
+              "cost": -251,
+              "grossProfit": 1
             },
             {
               "category": "sport_rim",
@@ -12717,11 +12727,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -12917,7 +12927,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:42:42.059Z"
+      "lastCollectedAt": "2026-11-18T08:06:46.510Z"
     },
     "ST": {
       "days": {
@@ -19056,7 +19066,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:42:42.059Z"
+      "lastCollectedAt": "2026-11-18T08:06:46.510Z"
     },
     "SK": {
       "days": {
@@ -22575,7 +22585,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:42:42.059Z"
+      "lastCollectedAt": "2026-11-18T08:06:46.510Z"
     },
     "KM": {
       "days": {
@@ -22771,8 +22781,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:42:42.059Z"
+      "lastCollectedAt": "2026-11-18T08:06:46.510Z"
     }
   },
-  "updatedAt": "2026-11-18T07:42:42.059Z"
+  "updatedAt": "2026-11-18T08:06:46.510Z"
 }
