@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:15:23.298Z"
+      "lastCollectedAt": "2026-11-18T03:23:14.645Z"
     },
     "SR": {
       "days": {
@@ -12631,11 +12631,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 476,
-              "netSales": 476,
-              "cost": 392,
-              "grossProfit": 84,
-              "quantity": 4
+              "sales": 497.22,
+              "netSales": 497.22,
+              "cost": 564,
+              "grossProfit": -66.78,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -12655,11 +12655,11 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 228.78,
+              "netSales": 228.78,
               "cost": 13.6,
-              "grossProfit": 236.4,
-              "quantity": 16
+              "grossProfit": 215.18,
+              "quantity": 19
             }
           ],
           "items": [
@@ -12667,57 +12667,67 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 3,
+              "sales": 68.64,
+              "netSales": 68.64,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 68.64
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 10,
+              "sales": 76.25,
+              "netSales": 76.25,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 76.25
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 134.22,
+              "netSales": 134.22,
+              "cost": 172,
+              "grossProfit": -37.78
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 476,
-              "netSales": 476,
+              "sales": 363,
+              "netSales": 363,
               "cost": 392,
-              "grossProfit": 84
+              "grossProfit": -29
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 30.5,
+              "netSales": 30.5,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 23.9
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 53.39,
+              "netSales": 53.39,
               "cost": 7,
-              "grossProfit": 63
+              "grossProfit": 46.39
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:15:23.298Z"
+      "lastCollectedAt": "2026-11-18T03:23:14.645Z"
     },
     "ST": {
       "days": {
@@ -18856,7 +18866,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:15:23.298Z"
+      "lastCollectedAt": "2026-11-18T03:23:14.645Z"
     },
     "SK": {
       "days": {
@@ -22375,7 +22385,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:15:23.298Z"
+      "lastCollectedAt": "2026-11-18T03:23:14.645Z"
     },
     "KM": {
       "days": {
@@ -22571,8 +22581,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T03:15:23.298Z"
+      "lastCollectedAt": "2026-11-18T03:23:14.645Z"
     }
   },
-  "updatedAt": "2026-11-18T03:15:23.298Z"
+  "updatedAt": "2026-11-18T03:23:14.645Z"
 }
