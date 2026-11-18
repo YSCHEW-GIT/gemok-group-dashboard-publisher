@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:15:57.159Z"
+      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
     },
     "SR": {
       "days": {
@@ -12627,15 +12627,15 @@
           ]
         },
         "2026-11-18": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3072,
-              "netSales": 3072,
-              "cost": 2529,
-              "grossProfit": 543,
-              "quantity": 20
+              "sales": 3402,
+              "netSales": 3402,
+              "cost": 2789,
+              "grossProfit": 613,
+              "quantity": 21
             },
             {
               "key": "sport_rim",
@@ -12995,6 +12995,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPTY196016CR1",
+              "itemName": "TOYO 195/60/16 PXCR1 89H (2026)",
+              "quantity": 1,
+              "sales": 330,
+              "netSales": 330,
+              "cost": 260,
+              "grossProfit": 70
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPCT195016UC7",
               "itemName": "CONTINENTAL 195/50/16 88V XL UC7 (2026)",
               "quantity": 4,
@@ -13167,7 +13177,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:15:57.159Z"
+      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
     },
     "ST": {
       "days": {
@@ -19306,7 +19316,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:15:57.159Z"
+      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
     },
     "SK": {
       "days": {
@@ -22825,7 +22835,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:15:57.159Z"
+      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
     },
     "KM": {
       "days": {
@@ -23021,8 +23031,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T10:15:57.159Z"
+      "lastCollectedAt": "2026-11-18T10:31:32.727Z"
     }
   },
-  "updatedAt": "2026-11-18T10:15:57.159Z"
+  "updatedAt": "2026-11-18T10:31:32.727Z"
 }
