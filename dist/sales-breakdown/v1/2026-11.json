@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T02:22:31.305Z"
+      "lastCollectedAt": "2026-11-18T02:36:22.165Z"
     },
     "SR": {
       "days": {
@@ -12627,7 +12627,7 @@
           ]
         },
         "2026-11-18": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -12655,11 +12655,11 @@
             },
             {
               "key": "other",
-              "sales": 110,
-              "netSales": 110,
+              "sales": 180,
+              "netSales": 180,
               "cost": 6.6,
-              "grossProfit": 103.4,
-              "quantity": 9
+              "grossProfit": 173.4,
+              "quantity": 14
             }
           ],
           "items": [
@@ -12667,21 +12667,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
@@ -12707,7 +12707,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T02:22:31.305Z"
+      "lastCollectedAt": "2026-11-18T02:36:22.165Z"
     },
     "ST": {
       "days": {
@@ -18846,7 +18846,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T02:22:31.305Z"
+      "lastCollectedAt": "2026-11-18T02:36:22.165Z"
     },
     "SK": {
       "days": {
@@ -22365,7 +22365,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T02:14:34.130Z"
+      "lastCollectedAt": "2026-11-18T02:36:22.165Z"
     },
     "KM": {
       "days": {
@@ -22561,8 +22561,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T02:22:31.305Z"
+      "lastCollectedAt": "2026-11-18T02:36:22.165Z"
     }
   },
-  "updatedAt": "2026-11-18T02:22:31.305Z"
+  "updatedAt": "2026-11-18T02:36:22.165Z"
 }
