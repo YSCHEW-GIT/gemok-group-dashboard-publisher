@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T05:41:13.611Z"
+      "lastCollectedAt": "2026-11-18T05:49:07.080Z"
     },
     "SR": {
       "days": {
@@ -12631,11 +12631,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 942,
-              "netSales": 942,
+              "sales": 947.02,
+              "netSales": 947.02,
               "cost": 729,
-              "grossProfit": 213,
-              "quantity": 8
+              "grossProfit": 218.02,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -12647,19 +12647,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 280,
-              "netSales": 280,
+              "sales": 259.45,
+              "netSales": 259.45,
               "cost": 200,
-              "grossProfit": 80,
+              "grossProfit": 59.45,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 420,
-              "netSales": 420,
+              "sales": 435.53,
+              "netSales": 435.53,
               "cost": 20.6,
-              "grossProfit": 399.4,
-              "quantity": 27
+              "grossProfit": 414.93,
+              "quantity": 30
             }
           ],
           "items": [
@@ -12668,96 +12668,106 @@
               "itemCode": "NSR195015",
               "itemName": "USED TAYAR 195/50/15-911",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 27.8,
+              "netSales": 27.8,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 27.8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR176514",
+              "itemName": "USED TAYAR 175/65/14 911",
+              "quantity": 2,
+              "sales": 74.13,
+              "netSales": 74.13,
+              "cost": 0,
+              "grossProfit": 74.13
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 6,
+              "sales": 139,
+              "netSales": 139,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 139
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 16,
+              "sales": 129.74,
+              "netSales": 129.74,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 129.74
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 226,
-              "netSales": 226,
+              "sales": 209.42,
+              "netSales": 209.42,
               "cost": 172,
-              "grossProfit": 54
+              "grossProfit": 37.42
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 476,
-              "netSales": 476,
+              "sales": 441.08,
+              "netSales": 441.08,
               "cost": 392,
-              "grossProfit": 84
+              "grossProfit": 49.08
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT205016XS86-26",
               "itemName": "ATLANDER 205/50/16 XSPORT-86 BSW 87W (2026)",
               "quantity": 1,
-              "sales": 210,
-              "netSales": 210,
+              "sales": 194.59,
+              "netSales": 194.59,
               "cost": 165,
-              "grossProfit": 45
+              "grossProfit": 29.59
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 37.07,
+              "netSales": 37.07,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 30.47
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 4,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 129.72,
+              "netSales": 129.72,
               "cost": 14,
-              "grossProfit": 126
+              "grossProfit": 115.72
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSVKALZRR",
               "itemName": "VERKE ABSORBER SR P/MYV, 11-17 (LAGI BEST) ALZA 09-RR 342M023 / 8096",
               "quantity": 1,
-              "sales": 280,
-              "netSales": 280,
+              "sales": 259.45,
+              "netSales": 259.45,
               "cost": 200,
-              "grossProfit": 80
+              "grossProfit": 59.45
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T05:41:13.611Z"
+      "lastCollectedAt": "2026-11-18T05:49:07.080Z"
     },
     "ST": {
       "days": {
@@ -18896,7 +18906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T05:41:13.611Z"
+      "lastCollectedAt": "2026-11-18T05:49:07.080Z"
     },
     "SK": {
       "days": {
@@ -22415,7 +22425,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T05:41:13.611Z"
+      "lastCollectedAt": "2026-11-18T05:49:07.080Z"
     },
     "KM": {
       "days": {
@@ -22611,8 +22621,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T05:33:18.656Z"
+      "lastCollectedAt": "2026-11-18T05:49:07.080Z"
     }
   },
-  "updatedAt": "2026-11-18T05:41:13.611Z"
+  "updatedAt": "2026-11-18T05:49:07.080Z"
 }
