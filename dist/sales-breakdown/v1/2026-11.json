@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T01:50:59.254Z"
+      "lastCollectedAt": "2026-11-18T01:58:51.520Z"
     },
     "SR": {
       "days": {
@@ -12627,15 +12627,15 @@
           ]
         },
         "2026-11-18": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 476,
+              "netSales": 476,
+              "cost": 392,
+              "grossProfit": 84,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -12655,18 +12655,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 110,
+              "netSales": 110,
+              "cost": 6.6,
+              "grossProfit": 103.4,
+              "quantity": 9
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117-26",
+              "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
+              "quantity": 4,
+              "sales": 476,
+              "netSales": 476,
+              "cost": 392,
+              "grossProfit": 84
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T01:50:59.254Z"
+      "lastCollectedAt": "2026-11-18T01:58:51.520Z"
     },
     "ST": {
       "days": {
@@ -18805,7 +18846,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T01:50:59.254Z"
+      "lastCollectedAt": "2026-11-18T01:58:51.520Z"
     },
     "SK": {
       "days": {
@@ -22324,7 +22365,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T01:50:59.254Z"
+      "lastCollectedAt": "2026-11-18T01:58:51.520Z"
     },
     "KM": {
       "days": {
@@ -22520,8 +22561,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T01:42:34.572Z"
+      "lastCollectedAt": "2026-11-18T01:58:51.520Z"
     }
   },
-  "updatedAt": "2026-11-18T01:50:59.254Z"
+  "updatedAt": "2026-11-18T01:58:51.520Z"
 }
