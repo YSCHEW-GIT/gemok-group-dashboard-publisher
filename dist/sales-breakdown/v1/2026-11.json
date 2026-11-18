@@ -6809,7 +6809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:06:56.985Z"
+      "lastCollectedAt": "2026-11-18T07:26:51.808Z"
     },
     "SR": {
       "days": {
@@ -12627,23 +12627,23 @@
           ]
         },
         "2026-11-18": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2432,
-              "netSales": 2432,
-              "cost": 1949,
-              "grossProfit": 483,
-              "quantity": 16
+              "sales": 3072,
+              "netSales": 3072,
+              "cost": 2529,
+              "grossProfit": 543,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 738,
+              "netSales": 738,
+              "cost": 688,
+              "grossProfit": 50,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -12655,11 +12655,11 @@
             },
             {
               "key": "other",
-              "sales": 798,
-              "netSales": 798,
-              "cost": 37.2,
-              "grossProfit": 760.8,
-              "quantity": 53
+              "sales": 1108,
+              "netSales": 1108,
+              "cost": 87.2,
+              "grossProfit": 1020.8,
+              "quantity": 62
             }
           ],
           "items": [
@@ -12684,24 +12684,34 @@
               "grossProfit": 180
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SR157044H-UHB-TE37",
+              "itemName": "SPORT RIM 15X7.0 4X114.3 ET38 73.1 ULTRA HYPER BLACK 657E-04899 (TE37)",
+              "quantity": 1,
+              "sales": 738,
+              "netSales": 738,
+              "cost": 688,
+              "grossProfit": 50
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 240,
-              "netSales": 240,
+              "quantity": 11,
+              "sales": 270,
+              "netSales": 270,
               "cost": 0,
-              "grossProfit": 240
+              "grossProfit": 270
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 200,
-              "netSales": 200,
+              "quantity": 30,
+              "sales": 240,
+              "netSales": 240,
               "cost": 0,
-              "grossProfit": 200
+              "grossProfit": 240
             },
             {
               "category": "other",
@@ -12752,6 +12762,16 @@
               "netSales": 210,
               "cost": 165,
               "grossProfit": 45
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT196015AX77",
+              "itemName": "ATLANDER 195/60/15 AX77 BSW 88V (2026)",
+              "quantity": 4,
+              "sales": 640,
+              "netSales": 640,
+              "cost": 580,
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -12835,6 +12855,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCTYTVS",
+              "itemName": "CAMBER NUT TYT VIOS NEW",
+              "quantity": 2,
+              "sales": 110,
+              "netSales": 110,
+              "cost": 20,
+              "grossProfit": 90
+            },
+            {
+              "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 4,
@@ -12842,6 +12872,26 @@
               "netSales": 28,
               "cost": 2.6,
               "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7367",
+              "itemName": "RINGCONE 7367 (CH13) - WAJA GEN2 CITRA KIA MAZDA3 PERSONA",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 12,
+              "grossProfit": 68
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTLC",
+              "itemName": "COLOR STEEL VALVE",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 18,
+              "grossProfit": 32
             },
             {
               "category": "foreman_item",
@@ -12867,7 +12917,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T06:58:58.563Z"
+      "lastCollectedAt": "2026-11-18T07:26:51.808Z"
     },
     "ST": {
       "days": {
@@ -19006,7 +19056,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:06:56.985Z"
+      "lastCollectedAt": "2026-11-18T07:26:51.808Z"
     },
     "SK": {
       "days": {
@@ -22525,7 +22575,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:06:56.985Z"
+      "lastCollectedAt": "2026-11-18T07:26:51.808Z"
     },
     "KM": {
       "days": {
@@ -22721,8 +22771,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-18T07:06:56.985Z"
+      "lastCollectedAt": "2026-11-18T07:26:51.808Z"
     }
   },
-  "updatedAt": "2026-11-18T07:06:56.985Z"
+  "updatedAt": "2026-11-18T07:26:51.808Z"
 }
