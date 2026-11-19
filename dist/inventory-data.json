@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-19T05:30:33.017Z",
+  "updatedAt": "2026-11-19T06:42:36.424Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 447,
-      "quantity": 2312,
-      "stockValue": 460796.22
+      "quantity": 2288,
+      "stockValue": 455928.13999999996
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 783,
-      "quantity": 648,
-      "stockValue": 345102.75
+      "sku": 782,
+      "quantity": 647,
+      "stockValue": 343712.52
     },
     {
       "key": "absorber",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2213,
-      "stockValue": 164477.78
+      "quantity": 2227,
+      "stockValue": 164966.98
     },
     {
       "key": "oil-filter",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 872,
-      "quantity": 2926.5,
-      "stockValue": 101175.64999999998
+      "quantity": 2930.5,
+      "stockValue": 101247.64999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10728,
-      "stockValue": 60042.57999999999
+      "quantity": 10705,
+      "stockValue": 59996.279999999984
     },
     {
       "key": "non-stock-item",
@@ -1312,7 +1312,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 12,
-          "cost": 219,
+          "cost": 211.16,
           "price": 218
         }
       ]
@@ -1920,15 +1920,6 @@
         {
           "rowKey": "default#1",
           "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 279,
-          "price": 260
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
@@ -4316,7 +4307,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 18,
           "cost": 173,
           "price": 148
         }
@@ -6655,7 +6646,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 1,
           "cost": 195,
           "price": 179
         }
@@ -9684,7 +9675,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 14,
           "cost": 86,
           "price": 88
         }
@@ -10046,7 +10037,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 36,
+          "quantity": 28,
           "cost": 231,
           "price": 208
         }
@@ -10546,7 +10537,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 10,
           "cost": 128,
           "price": 128
         },
@@ -16301,25 +16292,6 @@
           "location": "",
           "quantity": 1,
           "cost": 978,
-          "price": 0
-        }
-      ]
-    },
-    {
-      "code": "SIMPGM181CE28",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 8.5X18 10X100/113 ET38 GUNMETAL MACHINE LIP (FLOW FORM)",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 1390.23,
           "price": 0
         }
       ]
@@ -37653,6 +37625,15 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 12,
+          "cost": 21.6,
+          "price": 70
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -37719,11 +37700,20 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 110,
+          "price": 210
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 1,
-          "cost": 100,
+          "cost": 110,
           "price": 210
         }
       ]
@@ -41613,9 +41603,18 @@
       "groupKey": "parts",
       "groupName": "Parts",
       "brand": "",
-      "name": "AIR FILTER BEZZA 1.0 AXIA NEW FACA LIFT",
+      "name": "AIR FILTER BEZZA 1.0 AXIA NEW FACA LIFT 17801-BZ140",
       "spec": "83",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 18,
+          "price": 35
+        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -41623,7 +41622,7 @@
           "location": "",
           "quantity": 3,
           "cost": 18,
-          "price": 45
+          "price": 35
         }
       ]
     },
@@ -42233,9 +42232,18 @@
       "groupKey": "parts",
       "groupName": "Parts",
       "brand": "",
-      "name": "AIR FILTER BEZZA 1.3",
+      "name": "AIR FILTER BEZZA 1.3 17801-BZ130",
       "spec": "83",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 18,
+          "price": 35
+        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -42243,7 +42251,7 @@
           "location": "",
           "quantity": 5,
           "cost": 18,
-          "price": 45
+          "price": 35
         }
       ]
     },
@@ -108697,7 +108705,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 10,
           "price": 55
         }
@@ -113687,7 +113695,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 254,
+          "quantity": 250,
           "cost": 1.65,
           "price": 10
         },
@@ -113705,7 +113713,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 725,
+          "quantity": 707,
           "cost": 1.65,
           "price": 10
         }
