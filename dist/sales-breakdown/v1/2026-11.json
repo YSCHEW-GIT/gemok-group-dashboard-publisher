@@ -6888,7 +6888,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:31:37.472Z"
+      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
     },
     "SR": {
       "days": {
@@ -13255,7 +13255,7 @@
           ]
         },
         "2026-11-19": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -13275,11 +13275,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 140,
+              "netSales": 140,
+              "cost": 92.5,
+              "grossProfit": 47.5,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -13291,6 +13291,26 @@
             }
           ],
           "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "POFCMAXIA",
+              "itemName": "OIL FILTER AXIA BEZZA P2A12",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 9.5,
+              "grossProfit": -9.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W30Q5000",
+              "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 83,
+              "grossProfit": 57
+            },
             {
               "category": "other",
               "itemCode": "MDT075",
@@ -13305,7 +13325,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:31:37.472Z"
+      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
     },
     "ST": {
       "days": {
@@ -19523,7 +19543,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:31:37.472Z"
+      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
     },
     "SK": {
       "days": {
@@ -23111,7 +23131,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:31:37.472Z"
+      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
     },
     "KM": {
       "days": {
@@ -23345,8 +23365,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:31:37.472Z"
+      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
     }
   },
-  "updatedAt": "2026-11-19T02:31:37.472Z"
+  "updatedAt": "2026-11-19T02:38:03.265Z"
 }
