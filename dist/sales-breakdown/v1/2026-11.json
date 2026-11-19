@@ -6808,14 +6808,14 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3222,
-              "netSales": 3222,
+              "sales": 3272,
+              "netSales": 3272,
               "cost": 3240,
-              "grossProfit": -18,
+              "grossProfit": 32,
               "quantity": 19
             },
             {
@@ -6836,11 +6836,11 @@
             },
             {
               "key": "other",
-              "sales": 489,
-              "netSales": 464.58,
-              "cost": 27.8,
-              "grossProfit": 436.78,
-              "quantity": 51
+              "sales": 3139,
+              "netSales": 3118.28,
+              "cost": 2486.05,
+              "grossProfit": 632.23,
+              "quantity": 61
             }
           ],
           "items": [
@@ -6859,10 +6859,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 83.34
             },
             {
               "category": "other",
@@ -6879,10 +6879,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 25,
-              "sales": 130,
-              "netSales": 120.38,
+              "sales": 110,
+              "netSales": 101.86,
               "cost": 0,
-              "grossProfit": 120.38
+              "grossProfit": 101.86
             },
             {
               "category": "other",
@@ -6939,10 +6939,10 @@
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
               "quantity": 6,
-              "sales": 898,
-              "netSales": 898,
+              "sales": 948,
+              "netSales": 948,
               "cost": 996,
-              "grossProfit": -98
+              "grossProfit": -48
             },
             {
               "category": "foreman_item",
@@ -6978,11 +6978,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 10,
+              "quantity": 15,
               "sales": 100,
               "netSales": 100,
-              "cost": 16.5,
-              "grossProfit": 83.5
+              "cost": 24.75,
+              "grossProfit": 75.25
             },
             {
               "category": "other",
@@ -6993,12 +6993,22 @@
               "netSales": 45,
               "cost": 10,
               "grossProfit": 35
+            },
+            {
+              "category": "other",
+              "itemCode": "TPMX266018AT811-26",
+              "itemName": "MAXXIS 265/60/18 BRAVO AT811 114H TH (2026)",
+              "quantity": 5,
+              "sales": 2700,
+              "netSales": 2700,
+              "cost": 2450,
+              "grossProfit": 250
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:51:48.095Z"
+      "lastCollectedAt": "2026-11-19T05:05:02.689Z"
     },
     "SR": {
       "days": {
@@ -13555,7 +13565,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:51:48.095Z"
+      "lastCollectedAt": "2026-11-19T05:05:02.689Z"
     },
     "ST": {
       "days": {
@@ -23433,10 +23443,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 639,
-              "netSales": 639,
+              "sales": 709,
+              "netSales": 709,
               "cost": 650,
-              "grossProfit": -11,
+              "grossProfit": 59,
               "quantity": 1
             },
             {
@@ -23449,10 +23459,10 @@
             },
             {
               "key": "other",
-              "sales": 612,
-              "netSales": 612,
+              "sales": 542,
+              "netSales": 542,
               "cost": 50,
-              "grossProfit": 562,
+              "grossProfit": 492,
               "quantity": 35
             }
           ],
@@ -23462,10 +23472,10 @@
               "itemCode": "SIMPGB15815200F16",
               "itemName": "SPORT RIM 15X6.5 8X100 ET38 GLOSS BLACK",
               "quantity": 1,
-              "sales": 639,
-              "netSales": 639,
+              "sales": 709,
+              "netSales": 709,
               "cost": 650,
-              "grossProfit": -11
+              "grossProfit": 59
             },
             {
               "category": "other",
@@ -23482,20 +23492,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -23621,7 +23631,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:51:48.095Z"
+      "lastCollectedAt": "2026-11-19T05:05:02.689Z"
     },
     "KM": {
       "days": {
@@ -23855,8 +23865,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:51:48.095Z"
+      "lastCollectedAt": "2026-11-19T05:05:02.689Z"
     }
   },
-  "updatedAt": "2026-11-19T04:51:48.095Z"
+  "updatedAt": "2026-11-19T05:05:02.689Z"
 }
