@@ -6812,10 +6812,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5714,
-              "netSales": 5714,
+              "sales": 5764,
+              "netSales": 5764,
               "cost": 5410,
-              "grossProfit": 304,
+              "grossProfit": 354,
               "quantity": 29
             },
             {
@@ -6836,10 +6836,10 @@
             },
             {
               "key": "other",
-              "sales": 3549,
-              "netSales": 3520.51,
+              "sales": 3499,
+              "netSales": 3474.21,
               "cost": 2572.55,
-              "grossProfit": 947.96,
+              "grossProfit": 901.66,
               "quantity": 111
             }
           ],
@@ -6869,10 +6869,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 83.34
             },
             {
               "category": "other",
@@ -6889,10 +6889,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 35,
-              "sales": 150,
-              "netSales": 138.9,
+              "sales": 130,
+              "netSales": 120.38,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 120.38
             },
             {
               "category": "other",
@@ -6939,10 +6939,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 8,
-              "sales": 1704,
-              "netSales": 1704,
+              "sales": 1754,
+              "netSales": 1754,
               "cost": 1840,
-              "grossProfit": -136
+              "grossProfit": -86
             },
             {
               "category": "passenger_tire",
@@ -7047,7 +7047,7 @@
             {
               "category": "other",
               "itemCode": "MNCTYTVS",
-              "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
+              "itemName": "CAMBER NUT TYT VIOS NEW",
               "quantity": 1,
               "sales": 45,
               "netSales": 45,
@@ -7098,7 +7098,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
+      "lastCollectedAt": "2026-11-19T07:32:22.043Z"
     },
     "SR": {
       "days": {
@@ -13465,7 +13465,7 @@
           ]
         },
         "2026-11-19": {
-          "documents": 9,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
@@ -13477,27 +13477,27 @@
             },
             {
               "key": "sport_rim",
-              "sales": 438,
-              "netSales": 438,
+              "sales": 508,
+              "netSales": 508,
               "cost": 450,
-              "grossProfit": -12,
+              "grossProfit": 58,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 625,
-              "netSales": 625,
+              "sales": 725,
+              "netSales": 725,
               "cost": 412.66,
-              "grossProfit": 212.34,
-              "quantity": 12
+              "grossProfit": 312.34,
+              "quantity": 13
             },
             {
               "key": "other",
-              "sales": 313,
-              "netSales": 313,
-              "cost": 60.6,
-              "grossProfit": 252.4,
-              "quantity": 30
+              "sales": 363,
+              "netSales": 363,
+              "cost": 67.6,
+              "grossProfit": 295.4,
+              "quantity": 35
             }
           ],
           "items": [
@@ -13516,16 +13516,16 @@
               "itemCode": "SR156541ET40-LGM-CE28",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 LGM LIGHT GUNMETAL TNP-7022 (CE28)",
               "quantity": 1,
-              "sales": 738,
-              "netSales": 738,
+              "sales": 808,
+              "netSales": 808,
               "cost": 750,
-              "grossProfit": -12
+              "grossProfit": 58
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
+              "quantity": 5,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -13536,30 +13536,30 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 1,
-              "sales": 35,
-              "netSales": 35,
+              "quantity": 2,
+              "sales": 135,
+              "netSales": 135,
               "cost": 0,
-              "grossProfit": 35
+              "grossProfit": 135
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -13710,12 +13710,22 @@
               "netSales": 40,
               "cost": 6.6,
               "grossProfit": 33.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 7,
+              "grossProfit": 63
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
+      "lastCollectedAt": "2026-11-19T07:32:22.043Z"
     },
     "ST": {
       "days": {
@@ -19853,15 +19863,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 10078,
-              "netSales": 10078,
-              "cost": 9764,
-              "grossProfit": 314,
-              "quantity": 46
+              "sales": 10474,
+              "netSales": 10474,
+              "cost": 10228,
+              "grossProfit": 246,
+              "quantity": 48
             },
             {
               "key": "sport_rim",
@@ -19881,11 +19891,11 @@
             },
             {
               "key": "other",
-              "sales": 776,
-              "netSales": 776,
-              "cost": 193,
-              "grossProfit": 583,
-              "quantity": 112
+              "sales": 846,
+              "netSales": 846,
+              "cost": 196.3,
+              "grossProfit": 649.7,
+              "quantity": 117
             }
           ],
           "items": [
@@ -19893,21 +19903,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 14,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 15,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 48,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 50,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -20021,6 +20031,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "quantity": 2,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 464,
+              "grossProfit": -68
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPBS195016RE005-26",
               "itemName": "BRIDGESTONE 195/50/16 85W POTENZA RE005 88W TH (2026)",
               "quantity": 4,
@@ -20093,11 +20113,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 32,
-              "sales": 320,
-              "netSales": 320,
-              "cost": 52.8,
-              "grossProfit": 267.2
+              "quantity": 34,
+              "sales": 340,
+              "netSales": 340,
+              "cost": 56.1,
+              "grossProfit": 283.9
             },
             {
               "category": "other",
@@ -20123,7 +20143,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:59:41.970Z"
+      "lastCollectedAt": "2026-11-19T07:32:22.043Z"
     },
     "SK": {
       "days": {
@@ -23871,7 +23891,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
+      "lastCollectedAt": "2026-11-19T07:32:22.043Z"
     },
     "KM": {
       "days": {
@@ -24105,8 +24125,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
+      "lastCollectedAt": "2026-11-19T07:32:22.043Z"
     }
   },
-  "updatedAt": "2026-11-19T07:12:24.027Z"
+  "updatedAt": "2026-11-19T07:32:22.043Z"
 }
