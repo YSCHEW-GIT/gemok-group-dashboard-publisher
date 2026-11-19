@@ -6812,10 +6812,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2380,
-              "netSales": 2380,
+              "sales": 2500,
+              "netSales": 2500,
               "cost": 2448,
-              "grossProfit": -68,
+              "grossProfit": 52,
               "quantity": 14
             },
             {
@@ -6836,10 +6836,10 @@
             },
             {
               "key": "other",
-              "sales": 369,
-              "netSales": 350.5,
+              "sales": 249,
+              "netSales": 239.38,
               "cost": 21.2,
-              "grossProfit": 329.3,
+              "grossProfit": 218.18,
               "quantity": 34
             }
           ],
@@ -6859,10 +6859,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 55.56
             },
             {
               "category": "other",
@@ -6879,10 +6879,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 17,
-              "sales": 110,
-              "netSales": 101.86,
+              "sales": 50,
+              "netSales": 46.3,
               "cost": 0,
-              "grossProfit": 101.86
+              "grossProfit": 46.3
             },
             {
               "category": "other",
@@ -6897,22 +6897,22 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
-              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 6,
-              "sales": 1238,
-              "netSales": 1238,
+              "sales": 1308,
+              "netSales": 1308,
               "cost": 1380,
-              "grossProfit": -142
+              "grossProfit": -72
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185516CR1-26",
               "itemName": "TOYO 185/55/16 PROXES CR1 89H MY (2026)",
               "quantity": 2,
-              "sales": 420,
-              "netSales": 420,
+              "sales": 470,
+              "netSales": 470,
               "cost": 404,
-              "grossProfit": 16
+              "grossProfit": 66
             },
             {
               "category": "passenger_tire",
@@ -6968,7 +6968,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:42:43.426Z"
+      "lastCollectedAt": "2026-11-19T03:49:09.088Z"
     },
     "SR": {
       "days": {
@@ -13339,11 +13339,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 960,
-              "netSales": 960,
-              "cost": 908,
-              "grossProfit": 52,
-              "quantity": 4
+              "sales": 1063.06,
+              "netSales": 1063.06,
+              "cost": 1370,
+              "grossProfit": -306.94,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -13355,19 +13355,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 410,
-              "netSales": 410,
+              "sales": 316.75,
+              "netSales": 316.75,
               "cost": 264.16,
-              "grossProfit": 145.84,
+              "grossProfit": 52.59,
               "quantity": 8
             },
             {
               "key": "other",
-              "sales": 213,
-              "netSales": 213,
+              "sales": 203.19,
+              "netSales": 203.19,
               "cost": 4,
-              "grossProfit": 209,
-              "quantity": 15
+              "grossProfit": 199.19,
+              "quantity": 18
             }
           ],
           "items": [
@@ -13375,41 +13375,51 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "quantity": 3,
+              "sales": 77.26,
+              "netSales": 77.26,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 77.26
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 8,
+              "sales": 61.8,
+              "netSales": 61.8,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 61.8
             },
             {
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 15.45,
+              "netSales": 15.45,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 15.45
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 2,
+              "sales": 321.39,
+              "netSales": 321.39,
+              "cost": 462,
+              "grossProfit": -140.61
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY165R14NEVAB-26",
               "itemName": "TOYO 165R14 NEVAB 97R M'SIA (2026)",
               "quantity": 4,
-              "sales": 960,
-              "netSales": 960,
+              "sales": 741.67,
+              "netSales": 741.67,
               "cost": 908,
-              "grossProfit": 52
+              "grossProfit": -166.33
             },
             {
               "category": "foreman_item",
@@ -13426,56 +13436,56 @@
               "itemCode": "OETL10W30Q5000",
               "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 108.16,
+              "netSales": 108.16,
               "cost": 83,
-              "grossProfit": 57
+              "grossProfit": 25.16
             },
             {
               "category": "foreman_item",
               "itemCode": "OG80W90",
               "itemName": "GEAR OIL 80W90 (40K)",
               "quantity": 3,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 69.53,
+              "netSales": 69.53,
               "cost": 39.66,
-              "grossProfit": 50.34
+              "grossProfit": 29.87
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110043",
               "itemName": "ATF OIL D3-SP (1L) RED (G) ALZA, AXIA, BEZZA (SUSA)",
               "quantity": 3,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 139.06,
+              "netSales": 139.06,
               "cost": 132,
-              "grossProfit": 48
+              "grossProfit": 7.06
             },
             {
               "category": "other",
               "itemCode": "MDT075",
               "itemName": "DURA TUBE PATCHES 04/75MM (CIRCLE)",
               "quantity": 1,
-              "sales": 35,
-              "netSales": 35,
+              "sales": 27.04,
+              "netSales": 27.04,
               "cost": 1.4,
-              "grossProfit": 33.6
+              "grossProfit": 25.64
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
+              "sales": 21.64,
+              "netSales": 21.64,
               "cost": 2.6,
-              "grossProfit": 25.4
+              "grossProfit": 19.04
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:42:43.426Z"
+      "lastCollectedAt": "2026-11-19T03:49:09.088Z"
     },
     "ST": {
       "days": {
@@ -19783,7 +19793,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:42:43.426Z"
+      "lastCollectedAt": "2026-11-19T03:49:09.088Z"
     },
     "SK": {
       "days": {
@@ -23301,23 +23311,23 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 476,
-              "netSales": 476,
+              "sales": 546,
+              "netSales": 546,
               "cost": 512,
-              "grossProfit": -36,
+              "grossProfit": 34,
               "quantity": 4
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 388,
+              "netSales": 388,
+              "cost": 650,
+              "grossProfit": -262,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -23329,14 +23339,24 @@
             },
             {
               "key": "other",
-              "sales": 230,
-              "netSales": 230,
-              "cost": 13.6,
-              "grossProfit": 216.4,
-              "quantity": 14
+              "sales": 390,
+              "netSales": 390,
+              "cost": 44.6,
+              "grossProfit": 345.4,
+              "quantity": 21
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "SIMPGB15815200F16",
+              "itemName": "SPORT RIM 15X6.5 8X100 ET38 GLOSS BLACK",
+              "quantity": 1,
+              "sales": 388,
+              "netSales": 388,
+              "cost": 650,
+              "grossProfit": -262
+            },
             {
               "category": "other",
               "itemCode": "PATCH",
@@ -23351,7 +23371,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 30,
               "netSales": 30,
               "cost": 0,
@@ -23361,7 +23381,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
+              "quantity": 8,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
@@ -23372,10 +23392,10 @@
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL (2026)",
               "quantity": 4,
-              "sales": 476,
-              "netSales": 476,
+              "sales": 546,
+              "netSales": 546,
               "cost": 512,
-              "grossProfit": -36
+              "grossProfit": 34
             },
             {
               "category": "foreman_item",
@@ -23408,6 +23428,26 @@
               "grossProfit": 33.4
             },
             {
+              "category": "other",
+              "itemCode": "MNW2150S",
+              "itemName": "RAYS WHEEL NUT 1.50 (20) SHORT",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 19,
+              "grossProfit": 61
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7367",
+              "itemName": "RINGCONE 7367 (CH13) - WAJA GEN2 CITRA KIA MAZDA3 PERSONA",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 12,
+              "grossProfit": 68
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-FLH",
               "itemName": "ABSORBER SNB GAS - FRT/LH AXIA BEZZA OLD",
@@ -23431,7 +23471,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:42:43.426Z"
+      "lastCollectedAt": "2026-11-19T03:49:09.088Z"
     },
     "KM": {
       "days": {
@@ -23665,8 +23705,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:42:43.426Z"
+      "lastCollectedAt": "2026-11-19T03:49:09.088Z"
     }
   },
-  "updatedAt": "2026-11-19T03:42:43.426Z"
+  "updatedAt": "2026-11-19T03:49:09.088Z"
 }
