@@ -6808,15 +6808,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 2,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 100,
-              "netSales": 100,
-              "cost": 0,
-              "grossProfit": 100,
-              "quantity": 2
+              "sales": 1048,
+              "netSales": 1048,
+              "cost": 1124,
+              "grossProfit": -76,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -6836,11 +6836,11 @@
             },
             {
               "key": "other",
-              "sales": 54,
-              "netSales": 51.04,
+              "sales": 174,
+              "netSales": 162.16,
               "cost": 1.3,
-              "grossProfit": 49.74,
-              "quantity": 4
+              "grossProfit": 160.86,
+              "quantity": 12
             }
           ],
           "items": [
@@ -6858,11 +6858,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 83.34
             },
             {
               "category": "other",
@@ -6873,6 +6873,36 @@
               "netSales": 9.26,
               "cost": 0,
               "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "quantity": 2,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 460,
+              "grossProfit": -64
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN176514GC5-26",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "netSales": 552,
+              "cost": 664,
+              "grossProfit": -112
             },
             {
               "category": "other",
@@ -6888,7 +6918,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
+      "lastCollectedAt": "2026-11-19T02:51:11.088Z"
     },
     "SR": {
       "days": {
@@ -13255,15 +13285,15 @@
           ]
         },
         "2026-11-19": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 960,
+              "netSales": 960,
+              "cost": 908,
+              "grossProfit": 52,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -13275,22 +13305,52 @@
             },
             {
               "key": "foreman_item",
-              "sales": 140,
-              "netSales": 140,
-              "cost": 92.5,
-              "grossProfit": 47.5,
-              "quantity": 2
+              "sales": 410,
+              "netSales": 410,
+              "cost": 264.16,
+              "grossProfit": 145.84,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 35,
-              "netSales": 35,
-              "cost": 1.4,
-              "grossProfit": 33.6,
-              "quantity": 1
+              "sales": 143,
+              "netSales": 143,
+              "cost": 4,
+              "grossProfit": 139,
+              "quantity": 10
             }
           ],
           "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY165R14NEVAB-26",
+              "itemName": "TOYO 165R14 NEVAB 97R M'SIA (2026)",
+              "quantity": 4,
+              "sales": 960,
+              "netSales": 960,
+              "cost": 908,
+              "grossProfit": 52
+            },
             {
               "category": "foreman_item",
               "itemCode": "POFCMAXIA",
@@ -13312,6 +13372,26 @@
               "grossProfit": 57
             },
             {
+              "category": "foreman_item",
+              "itemCode": "OG80W90",
+              "itemName": "GEAR OIL 80W90 (40K)",
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 39.66,
+              "grossProfit": 50.34
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110043",
+              "itemName": "ATF OIL D3-SP (1L) RED (G) ALZA, AXIA, BEZZA (SUSA)",
+              "quantity": 3,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 132,
+              "grossProfit": 48
+            },
+            {
               "category": "other",
               "itemCode": "MDT075",
               "itemName": "DURA TUBE PATCHES 04/75MM (CIRCLE)",
@@ -13320,12 +13400,22 @@
               "netSales": 35,
               "cost": 1.4,
               "grossProfit": 33.6
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
+      "lastCollectedAt": "2026-11-19T02:51:11.088Z"
     },
     "ST": {
       "days": {
@@ -19463,15 +19553,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 702,
-              "netSales": 702,
-              "cost": 692,
-              "grossProfit": 10,
-              "quantity": 4
+              "sales": 1334,
+              "netSales": 1334,
+              "cost": 1384,
+              "grossProfit": -50,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -19483,19 +19573,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 230,
+              "netSales": 230,
+              "cost": 65,
+              "grossProfit": 165,
+              "quantity": 2
             },
             {
               "key": "other",
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4,
-              "quantity": 9
+              "sales": 138,
+              "netSales": 138,
+              "cost": 9.2,
+              "grossProfit": 128.8,
+              "quantity": 18
             }
           ],
           "items": [
@@ -19503,31 +19593,41 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 8,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
-              "quantity": 4,
-              "sales": 702,
-              "netSales": 702,
-              "cost": 692,
-              "grossProfit": 10
+              "quantity": 8,
+              "sales": 1334,
+              "netSales": 1334,
+              "cost": 1384,
+              "grossProfit": -50
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 29,
+              "grossProfit": 61
             },
             {
               "category": "other",
@@ -19538,12 +19638,32 @@
               "netSales": 28,
               "cost": 2.6,
               "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC8350PLT",
+              "itemName": "BRAKE PAD BNC SAGA BLM FL FLX 1.3/1.6, SAVVY CD8350 FRT-PLT",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 36,
+              "grossProfit": 104
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
+      "lastCollectedAt": "2026-11-19T02:51:11.088Z"
     },
     "SK": {
       "days": {
@@ -23061,15 +23181,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 476,
+              "netSales": 476,
+              "cost": 512,
+              "grossProfit": -36,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -23089,11 +23209,11 @@
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
-              "cost": 0,
-              "grossProfit": 20,
-              "quantity": 2
+              "sales": 130,
+              "netSales": 130,
+              "cost": 6.6,
+              "grossProfit": 123.4,
+              "quantity": 11
             }
           ],
           "items": [
@@ -23106,6 +23226,46 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT185515VD-26",
+              "itemName": "ZETA 185/55/15 VERDANT 82V TL (2026)",
+              "quantity": 4,
+              "sales": 476,
+              "netSales": 476,
+              "cost": 512,
+              "grossProfit": -36
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             },
             {
               "category": "foreman_item",
@@ -23131,7 +23291,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
+      "lastCollectedAt": "2026-11-19T02:51:11.088Z"
     },
     "KM": {
       "days": {
@@ -23365,8 +23525,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:38:03.265Z"
+      "lastCollectedAt": "2026-11-19T02:51:11.088Z"
     }
   },
-  "updatedAt": "2026-11-19T02:38:03.265Z"
+  "updatedAt": "2026-11-19T02:51:11.088Z"
 }
