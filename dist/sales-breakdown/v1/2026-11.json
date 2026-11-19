@@ -6812,19 +6812,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5584,
-              "netSales": 5584,
+              "sales": 5714,
+              "netSales": 5714,
               "cost": 5410,
-              "grossProfit": 174,
+              "grossProfit": 304,
               "quantity": 29
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 1300,
+              "netSales": 1300,
+              "cost": 1392,
+              "grossProfit": -92,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -6836,10 +6836,10 @@
             },
             {
               "key": "other",
-              "sales": 3679,
-              "netSales": 3640.89,
+              "sales": 3549,
+              "netSales": 3520.51,
               "cost": 2572.55,
-              "grossProfit": 1068.34,
+              "grossProfit": 947.96,
               "quantity": 111
             }
           ],
@@ -6855,14 +6855,24 @@
               "grossProfit": 150
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SIMPLGM1851CE28",
+              "itemName": "SPORT RIM 18X8.5 5X113 ET38 LIGHT GUN METAL CE28",
+              "quantity": 1,
+              "sales": 1300,
+              "netSales": 1300,
+              "cost": 1392,
+              "grossProfit": -92
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 10,
-              "sales": 150,
-              "netSales": 138.9,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -6879,10 +6889,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 35,
-              "sales": 210,
-              "netSales": 194.46,
+              "sales": 150,
+              "netSales": 138.9,
               "cost": 0,
-              "grossProfit": 194.46
+              "grossProfit": 138.9
             },
             {
               "category": "other",
@@ -6909,10 +6919,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 80,
-              "netSales": 74.08,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -6949,20 +6959,20 @@
               "itemCode": "TPTY196515CR1-26",
               "itemName": "TOYO 195/65/15 PROXES CR1 91V MY (2026)",
               "quantity": 2,
-              "sales": 480,
-              "netSales": 480,
+              "sales": 540,
+              "netSales": 540,
               "cost": 438,
-              "grossProfit": 42
+              "grossProfit": 102
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPMX195515IPRO-26",
               "itemName": "MAXXIS 195/55/15 I-PRO 85V TL TH (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 620,
-              "grossProfit": -28
+              "grossProfit": 42
             },
             {
               "category": "passenger_tire",
@@ -7037,7 +7047,7 @@
             {
               "category": "other",
               "itemCode": "MNCTYTVS",
-              "itemName": "CAMBER NUT TYT VIOS NEW",
+              "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
               "quantity": 1,
               "sales": 45,
               "netSales": 45,
@@ -7088,7 +7098,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:59:41.970Z"
+      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
     },
     "SR": {
       "days": {
@@ -13705,7 +13715,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:59:41.970Z"
+      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
     },
     "ST": {
       "days": {
@@ -23861,7 +23871,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:59:41.970Z"
+      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
     },
     "KM": {
       "days": {
@@ -24095,8 +24105,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:59:41.970Z"
+      "lastCollectedAt": "2026-11-19T07:12:24.027Z"
     }
   },
-  "updatedAt": "2026-11-19T06:59:41.970Z"
+  "updatedAt": "2026-11-19T07:12:24.027Z"
 }
