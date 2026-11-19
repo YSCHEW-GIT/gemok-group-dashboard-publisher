@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-19T10:27:51.226Z",
+  "updatedAt": "2026-11-19T11:42:49.647Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 449,
-      "quantity": 2314,
-      "stockValue": 461881.4199999999
+      "quantity": 2312,
+      "stockValue": 461607.8199999999
     },
     {
       "key": "sport-rim",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 873,
-      "quantity": 2940.5,
-      "stockValue": 105098.14999999998
+      "quantity": 2939.5,
+      "stockValue": 104958.14999999998
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2114,
-      "quantity": 2021,
-      "stockValue": 176449.5
+      "sku": 2116,
+      "quantity": 2023,
+      "stockValue": 177049.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10582,
-      "stockValue": 60068.47999999999
+      "quantity": 10580,
+      "stockValue": 60065.17999999999
     },
     {
       "key": "non-stock-item",
@@ -8573,7 +8573,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 31,
+          "quantity": 29,
           "cost": 136.8,
           "price": 0
         },
@@ -33399,7 +33399,7 @@
           "location": "",
           "quantity": 1,
           "cost": 46.4,
-          "price": 0
+          "price": 120
         }
       ]
     },
@@ -50211,15 +50211,6 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
-          "cost": 140,
-          "price": 280
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
           "cost": 140,
           "price": 280
         }
@@ -105921,6 +105912,44 @@
       ]
     },
     {
+      "code": "US2621012",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2621013",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -113884,7 +113913,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 646,
+          "quantity": 644,
           "cost": 1.65,
           "price": 10
         },
