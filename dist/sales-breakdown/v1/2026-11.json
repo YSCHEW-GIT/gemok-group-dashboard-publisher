@@ -6968,7 +6968,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:23:26.108Z"
+      "lastCollectedAt": "2026-11-19T03:29:50.324Z"
     },
     "SR": {
       "days": {
@@ -19783,7 +19783,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:23:26.108Z"
+      "lastCollectedAt": "2026-11-19T03:29:50.324Z"
     },
     "SK": {
       "days": {
@@ -23305,10 +23305,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 476,
-              "netSales": 476,
+              "sales": 438.62,
+              "netSales": 438.62,
               "cost": 512,
-              "grossProfit": -36,
+              "grossProfit": -73.38,
               "quantity": 4
             },
             {
@@ -23321,19 +23321,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 440,
-              "netSales": 440,
-              "cost": 200.6,
-              "grossProfit": 239.4,
-              "quantity": 2
+              "sales": 405.45,
+              "netSales": 405.45,
+              "cost": 480.6,
+              "grossProfit": -75.15,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 140,
-              "netSales": 140,
-              "cost": 6.6,
-              "grossProfit": 133.4,
-              "quantity": 12
+              "sales": 211.93,
+              "netSales": 211.93,
+              "cost": 13.6,
+              "grossProfit": 198.33,
+              "quantity": 14
             }
           ],
           "items": [
@@ -23342,76 +23342,96 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 27.64,
+              "netSales": 27.64,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 27.64
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 27.64,
+              "netSales": 27.64,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 27.64
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 36.86,
+              "netSales": 36.86,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 36.86
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL (2026)",
               "quantity": 4,
-              "sales": 476,
-              "netSales": 476,
+              "sales": 438.62,
+              "netSales": 438.62,
               "cost": 512,
-              "grossProfit": -36
+              "grossProfit": -73.38
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110030",
+              "itemName": "DRIVE SHAFT LH ODM 8939 BEZZA 1.3",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 280,
+              "grossProfit": -280
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 82.93,
+              "netSales": 82.93,
+              "cost": 7,
+              "grossProfit": 75.93
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 36.86,
+              "netSales": 36.86,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 30.26
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-FLH",
               "itemName": "ABSORBER SNB GAS - FRT/LH AXIA BEZZA OLD",
               "quantity": 1,
-              "sales": 220,
-              "netSales": 220,
+              "sales": 202.72,
+              "netSales": 202.72,
               "cost": 100.3,
-              "grossProfit": 119.7
+              "grossProfit": 102.42
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-FRH",
               "itemName": "ABSORBER SNB GAS - FRT/RH AXIA BEZZA OLD",
               "quantity": 1,
-              "sales": 220,
-              "netSales": 220,
+              "sales": 202.73,
+              "netSales": 202.73,
               "cost": 100.3,
-              "grossProfit": 119.7
+              "grossProfit": 102.43
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:23:26.108Z"
+      "lastCollectedAt": "2026-11-19T03:29:50.324Z"
     },
     "KM": {
       "days": {
@@ -23645,8 +23665,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T03:23:26.108Z"
+      "lastCollectedAt": "2026-11-19T03:29:50.324Z"
     }
   },
-  "updatedAt": "2026-11-19T03:23:26.108Z"
+  "updatedAt": "2026-11-19T03:29:50.324Z"
 }
