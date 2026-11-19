@@ -6808,15 +6808,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2500,
-              "netSales": 2500,
+              "sales": 2550,
+              "netSales": 2550,
               "cost": 2448,
-              "grossProfit": 52,
-              "quantity": 14
+              "grossProfit": 102,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
@@ -6848,11 +6848,11 @@
               "category": "passenger_tire",
               "itemCode": "UT176514",
               "itemName": "USED TIRE 175/65/14",
-              "quantity": 2,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 3,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -6968,7 +6968,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:08:04.656Z"
+      "lastCollectedAt": "2026-11-19T04:25:31.161Z"
     },
     "SR": {
       "days": {
@@ -13515,7 +13515,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:08:04.656Z"
+      "lastCollectedAt": "2026-11-19T04:25:31.161Z"
     },
     "ST": {
       "days": {
@@ -19657,10 +19657,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4968,
-              "netSales": 4968,
+              "sales": 5038,
+              "netSales": 5038,
               "cost": 4730,
-              "grossProfit": 238,
+              "grossProfit": 308,
               "quantity": 22
             },
             {
@@ -19681,10 +19681,10 @@
             },
             {
               "key": "other",
-              "sales": 621,
-              "netSales": 621,
+              "sales": 551,
+              "netSales": 551,
               "cost": 153.3,
-              "grossProfit": 467.7,
+              "grossProfit": 397.7,
               "quantity": 57
             }
           ],
@@ -19694,20 +19694,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -19754,10 +19754,10 @@
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
               "quantity": 8,
-              "sales": 1334,
-              "netSales": 1334,
+              "sales": 1404,
+              "netSales": 1404,
               "cost": 1384,
-              "grossProfit": -50
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -19863,7 +19863,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:08:04.656Z"
+      "lastCollectedAt": "2026-11-19T04:25:31.161Z"
     },
     "SK": {
       "days": {
@@ -23385,34 +23385,34 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 467.07,
-              "netSales": 467.07,
+              "sales": 546,
+              "netSales": 546,
               "cost": 512,
-              "grossProfit": -44.93,
+              "grossProfit": 34,
               "quantity": 4
             },
             {
               "key": "sport_rim",
-              "sales": 546.63,
-              "netSales": 546.63,
+              "sales": 639,
+              "netSales": 639,
               "cost": 650,
-              "grossProfit": -103.37,
+              "grossProfit": -11,
               "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 422.75,
-              "netSales": 422.75,
+              "sales": 579,
+              "netSales": 579,
               "cost": 480.6,
-              "grossProfit": -57.85,
+              "grossProfit": 98.4,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 369.55,
-              "netSales": 369.55,
+              "sales": 432,
+              "netSales": 432,
               "cost": 51.2,
-              "grossProfit": 318.35,
+              "grossProfit": 380.8,
               "quantity": 26
             }
           ],
@@ -23422,136 +23422,136 @@
               "itemCode": "SIMPGB15815200F16",
               "itemName": "SPORT RIM 15X6.5 8X100 ET38 GLOSS BLACK",
               "quantity": 1,
-              "sales": 546.63,
-              "netSales": 546.63,
+              "sales": 639,
+              "netSales": 639,
               "cost": 650,
-              "grossProfit": -103.37
+              "grossProfit": -11
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 4,
-              "sales": 34.21,
-              "netSales": 34.21,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 34.21
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 25.66,
-              "netSales": 25.66,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 25.66
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 34.22,
-              "netSales": 34.22,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 34.22
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL (2026)",
               "quantity": 4,
-              "sales": 467.07,
-              "netSales": 467.07,
+              "sales": 546,
+              "netSales": 546,
               "cost": 512,
-              "grossProfit": -44.93
+              "grossProfit": 34
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110030",
               "itemName": "DRIVE SHAFT LH ODM 8939 BEZZA 1.3",
               "quantity": 1,
-              "sales": 333.62,
-              "netSales": 333.62,
+              "sales": 390,
+              "netSales": 390,
               "cost": 280,
-              "grossProfit": 53.62
+              "grossProfit": 110
             },
             {
               "category": "foreman_item",
               "itemCode": "US268163",
               "itemName": "USED SPORT RIM 15X6.5 8X100",
               "quantity": -1,
-              "sales": -287.28,
-              "netSales": -287.28,
+              "sales": -251,
+              "netSales": -251,
               "cost": 0,
-              "grossProfit": -287.28
+              "grossProfit": -251
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 76.99,
-              "netSales": 76.99,
+              "sales": 90,
+              "netSales": 90,
               "cost": 7,
-              "grossProfit": 69.99
+              "grossProfit": 83
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 8,
-              "sales": 61.59,
-              "netSales": 61.59,
+              "sales": 72,
+              "netSales": 72,
               "cost": 13.2,
-              "grossProfit": 48.39
+              "grossProfit": 58.8
             },
             {
               "category": "other",
               "itemCode": "MNW2150S",
               "itemName": "RAYS WHEEL NUT 1.50 (20) SHORT",
               "quantity": 1,
-              "sales": 68.44,
-              "netSales": 68.44,
+              "sales": 80,
+              "netSales": 80,
               "cost": 19,
-              "grossProfit": 49.44
+              "grossProfit": 61
             },
             {
               "category": "other",
               "itemCode": "MRC7367",
               "itemName": "RINGCONE 7367 (CH13) - WAJA GEN2 CITRA KIA MAZDA3 PERSONA",
               "quantity": 1,
-              "sales": 68.44,
-              "netSales": 68.44,
+              "sales": 80,
+              "netSales": 80,
               "cost": 12,
-              "grossProfit": 56.44
+              "grossProfit": 68
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-FLH",
               "itemName": "ABSORBER SNB GAS - FRT/LH AXIA BEZZA OLD",
               "quantity": 1,
-              "sales": 188.2,
-              "netSales": 188.2,
+              "sales": 220,
+              "netSales": 220,
               "cost": 100.3,
-              "grossProfit": 87.9
+              "grossProfit": 119.7
             },
             {
               "category": "foreman_item",
               "itemCode": "PAB-AXIA-FRH",
               "itemName": "ABSORBER SNB GAS - FRT/RH AXIA BEZZA OLD",
               "quantity": 1,
-              "sales": 188.21,
-              "netSales": 188.21,
+              "sales": 220,
+              "netSales": 220,
               "cost": 100.3,
-              "grossProfit": 87.91
+              "grossProfit": 119.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:08:04.656Z"
+      "lastCollectedAt": "2026-11-19T04:25:31.161Z"
     },
     "KM": {
       "days": {
@@ -23785,8 +23785,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T04:08:04.656Z"
+      "lastCollectedAt": "2026-11-19T04:25:31.161Z"
     }
   },
-  "updatedAt": "2026-11-19T04:08:04.656Z"
+  "updatedAt": "2026-11-19T04:25:31.161Z"
 }
