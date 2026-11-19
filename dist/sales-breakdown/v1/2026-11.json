@@ -13284,7 +13284,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:05:06.683Z"
+      "lastCollectedAt": "2026-11-19T02:12:02.331Z"
     },
     "ST": {
       "days": {
@@ -19502,7 +19502,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:05:06.683Z"
+      "lastCollectedAt": "2026-11-19T02:12:02.331Z"
     },
     "SK": {
       "days": {
@@ -23020,7 +23020,7 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -23040,11 +23040,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 440,
+              "netSales": 440,
+              "cost": 200.6,
+              "grossProfit": 239.4,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -23065,12 +23065,32 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAB-AXIA-FLH",
+              "itemName": "ABSORBER SNB GAS - FRT/LH AXIA BEZZA OLD",
+              "quantity": 1,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 100.3,
+              "grossProfit": 119.7
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAB-AXIA-FRH",
+              "itemName": "ABSORBER SNB GAS - FRT/RH AXIA BEZZA OLD",
+              "quantity": 1,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 100.3,
+              "grossProfit": 119.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T02:05:06.683Z"
+      "lastCollectedAt": "2026-11-19T02:12:02.331Z"
     },
     "KM": {
       "days": {
@@ -23307,5 +23327,5 @@
       "lastCollectedAt": "2026-11-19T02:05:06.683Z"
     }
   },
-  "updatedAt": "2026-11-19T02:05:06.683Z"
+  "updatedAt": "2026-11-19T02:12:02.331Z"
 }
