@@ -7058,7 +7058,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:33:19.588Z"
+      "lastCollectedAt": "2026-11-19T06:46:48.538Z"
     },
     "SR": {
       "days": {
@@ -13425,22 +13425,22 @@
           ]
         },
         "2026-11-19": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1506,
-              "netSales": 1506,
-              "cost": 1370,
-              "grossProfit": 136,
-              "quantity": 6
+              "sales": 1858,
+              "netSales": 1858,
+              "cost": 1714,
+              "grossProfit": 144,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
+              "sales": 438,
+              "netSales": 438,
+              "cost": 450,
+              "grossProfit": -12,
               "quantity": 0
             },
             {
@@ -13453,33 +13453,53 @@
             },
             {
               "key": "other",
-              "sales": 143,
-              "netSales": 143,
-              "cost": 4,
-              "grossProfit": 139,
-              "quantity": 19
+              "sales": 253,
+              "netSales": 253,
+              "cost": 10.6,
+              "grossProfit": 242.4,
+              "quantity": 28
             }
           ],
           "items": [
             {
+              "category": "sport_rim",
+              "itemCode": "US2617323",
+              "itemName": "USED SPORT RIM 17X7.5",
+              "quantity": -1,
+              "sales": -300,
+              "netSales": -300,
+              "cost": -300,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SR156541ET40-LGM-CE28",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 LGM LIGHT GUNMETAL TNP-7022 (CE28)",
+              "quantity": 1,
+              "sales": 738,
+              "netSales": 738,
+              "cost": 750,
+              "grossProfit": -12
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 4,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 12,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -13520,6 +13540,16 @@
               "netSales": 466,
               "cost": 462,
               "grossProfit": 4
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 344,
+              "grossProfit": 8
             },
             {
               "category": "passenger_tire",
@@ -13620,12 +13650,22 @@
               "netSales": 28,
               "cost": 2.6,
               "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:33:19.588Z"
+      "lastCollectedAt": "2026-11-19T06:46:48.538Z"
     },
     "ST": {
       "days": {
@@ -19763,7 +19803,7 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19795,7 +19835,7 @@
               "netSales": 776,
               "cost": 193,
               "grossProfit": 583,
-              "quantity": 102
+              "quantity": 107
             }
           ],
           "items": [
@@ -19803,7 +19843,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 12,
+              "quantity": 13,
               "sales": 90,
               "netSales": 90,
               "cost": 0,
@@ -19813,7 +19853,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 40,
+              "quantity": 44,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
@@ -20023,7 +20063,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:33:19.588Z"
+      "lastCollectedAt": "2026-11-19T06:46:48.538Z"
     },
     "SK": {
       "days": {
@@ -23541,7 +23581,7 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
@@ -23569,11 +23609,11 @@
             },
             {
               "key": "other",
-              "sales": 767,
-              "netSales": 767,
-              "cost": 56.6,
-              "grossProfit": 710.4,
-              "quantity": 52
+              "sales": 787,
+              "netSales": 787,
+              "cost": 58.25,
+              "grossProfit": 728.75,
+              "quantity": 54
             }
           ],
           "items": [
@@ -23591,11 +23631,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 7,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -23711,11 +23751,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 12,
-              "sales": 112,
-              "netSales": 112,
-              "cost": 19.8,
-              "grossProfit": 92.2
+              "quantity": 13,
+              "sales": 122,
+              "netSales": 122,
+              "cost": 21.45,
+              "grossProfit": 100.55
             },
             {
               "category": "other",
@@ -23771,7 +23811,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:33:19.588Z"
+      "lastCollectedAt": "2026-11-19T06:46:48.538Z"
     },
     "KM": {
       "days": {
@@ -24005,8 +24045,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T06:20:03.320Z"
+      "lastCollectedAt": "2026-11-19T06:46:48.538Z"
     }
   },
-  "updatedAt": "2026-11-19T06:33:19.588Z"
+  "updatedAt": "2026-11-19T06:46:48.538Z"
 }
