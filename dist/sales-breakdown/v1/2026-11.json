@@ -7168,7 +7168,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T08:14:47.521Z"
+      "lastCollectedAt": "2026-11-19T08:21:11.852Z"
     },
     "SR": {
       "days": {
@@ -13563,11 +13563,11 @@
             },
             {
               "key": "other",
-              "sales": 549,
-              "netSales": 549,
-              "cost": 72.8,
-              "grossProfit": 476.2,
-              "quantity": 53
+              "sales": 619,
+              "netSales": 619,
+              "cost": 92.8,
+              "grossProfit": 526.2,
+              "quantity": 54
             }
           ],
           "items": [
@@ -13773,6 +13773,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNWSH150BLCK",
+              "itemName": "HEPTAGON WHEEL NUT SMALL HEAD 1.50MM BLACK (16/BOX)",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 20,
+              "grossProfit": 50
+            },
+            {
+              "category": "other",
               "itemCode": "MDT075",
               "itemName": "DURA TUBE PATCHES 04/75MM (CIRCLE)",
               "quantity": 1,
@@ -13815,7 +13825,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T08:14:47.521Z"
+      "lastCollectedAt": "2026-11-19T08:21:11.852Z"
     },
     "ST": {
       "days": {
@@ -20253,7 +20263,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T08:14:47.521Z"
+      "lastCollectedAt": "2026-11-19T08:21:11.852Z"
     },
     "SK": {
       "days": {
@@ -23771,15 +23781,15 @@
           "items": []
         },
         "2026-11-19": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1792,
-              "netSales": 1792,
+              "sales": 1932,
+              "netSales": 1932,
               "cost": 1602,
-              "grossProfit": 190,
-              "quantity": 12
+              "grossProfit": 330,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -23799,14 +23809,24 @@
             },
             {
               "key": "other",
-              "sales": 927,
-              "netSales": 927,
+              "sales": 957,
+              "netSales": 957,
               "cost": 58.25,
-              "grossProfit": 868.75,
-              "quantity": 70
+              "grossProfit": 898.75,
+              "quantity": 71
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSK195015",
+              "itemName": "USED TAYAR 195/50/15",
+              "quantity": 2,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 0,
+              "grossProfit": 140
+            },
             {
               "category": "sport_rim",
               "itemCode": "SIMPGB15815200F16",
@@ -23831,11 +23851,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 8,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -24041,7 +24061,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T08:14:47.521Z"
+      "lastCollectedAt": "2026-11-19T08:21:11.852Z"
     },
     "KM": {
       "days": {
@@ -24275,8 +24295,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-19T08:14:47.521Z"
+      "lastCollectedAt": "2026-11-19T08:21:11.852Z"
     }
   },
-  "updatedAt": "2026-11-19T08:14:47.521Z"
+  "updatedAt": "2026-11-19T08:21:11.852Z"
 }
