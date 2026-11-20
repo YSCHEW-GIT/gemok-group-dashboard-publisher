@@ -7297,14 +7297,14 @@
           ]
         },
         "2026-11-20": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7428.07,
-              "netSales": 7428.07,
+              "sales": 7428.13,
+              "netSales": 7428.13,
               "cost": 6574.1,
-              "grossProfit": 853.97,
+              "grossProfit": 854.03,
               "quantity": 33
             },
             {
@@ -7317,18 +7317,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 899.33,
-              "netSales": 832.67,
+              "sales": 1019.25,
+              "netSales": 943.7,
               "cost": 0,
-              "grossProfit": 832.67,
-              "quantity": 2
+              "grossProfit": 943.7,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 724.44,
-              "netSales": 710.01,
+              "sales": 724.46,
+              "netSales": 710.03,
               "cost": 105.45,
-              "grossProfit": 604.56,
+              "grossProfit": 604.58,
               "quantity": 110
             }
           ],
@@ -7407,11 +7407,11 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 2,
-              "sales": 899.33,
-              "netSales": 832.67,
+              "quantity": 3,
+              "sales": 1019.25,
+              "netSales": 943.7,
               "cost": 0,
-              "grossProfit": 832.67
+              "grossProfit": 943.7
             },
             {
               "category": "other",
@@ -7428,10 +7428,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 3,
-              "sales": 695.44,
-              "netSales": 695.44,
+              "sales": 695.45,
+              "netSales": 695.45,
               "cost": 690,
-              "grossProfit": 5.44
+              "grossProfit": 5.45
             },
             {
               "category": "passenger_tire",
@@ -7448,20 +7448,20 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 1,
-              "sales": 119.9,
-              "netSales": 119.9,
+              "sales": 119.91,
+              "netSales": 119.91,
               "cost": 76,
-              "grossProfit": 43.9
+              "grossProfit": 43.91
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 6,
-              "sales": 647.48,
-              "netSales": 647.48,
+              "sales": 647.49,
+              "netSales": 647.49,
               "cost": 510,
-              "grossProfit": 137.48
+              "grossProfit": 137.49
             },
             {
               "category": "passenger_tire",
@@ -7478,20 +7478,20 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 421.66,
-              "netSales": 421.66,
+              "sales": 421.67,
+              "netSales": 421.67,
               "cost": 340,
-              "grossProfit": 81.66
+              "grossProfit": 81.67
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 2,
-              "sales": 295.76,
-              "netSales": 295.76,
+              "sales": 295.77,
+              "netSales": 295.77,
               "cost": 273.6,
-              "grossProfit": 22.16
+              "grossProfit": 22.17
             },
             {
               "category": "passenger_tire",
@@ -7538,10 +7538,10 @@
               "itemCode": "TPCT244520UX7-26",
               "itemName": "CONTINENTAL 245/45/20 ULTRA CONTACT UX7 XL FR 103W CN (2026)",
               "quantity": 2,
-              "sales": 1898.49,
-              "netSales": 1898.49,
+              "sales": 1898.5,
+              "netSales": 1898.5,
               "cost": 1814,
-              "grossProfit": 84.49
+              "grossProfit": 84.5
             },
             {
               "category": "other",
@@ -7558,10 +7558,10 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 32,
-              "sales": 319.76,
-              "netSales": 319.76,
+              "sales": 319.78,
+              "netSales": 319.78,
               "cost": 52.8,
-              "grossProfit": 266.96
+              "grossProfit": 266.98
             },
             {
               "category": "other",
@@ -7587,7 +7587,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
+      "lastCollectedAt": "2026-11-20T09:43:24.505Z"
     },
     "SR": {
       "days": {
@@ -14313,15 +14313,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3528,
-              "netSales": 3528,
-              "cost": 3618.4,
-              "grossProfit": -90.4,
-              "quantity": 26
+              "sales": 3928,
+              "netSales": 3928,
+              "cost": 3998.4,
+              "grossProfit": -70.4,
+              "quantity": 28
             },
             {
               "key": "sport_rim",
@@ -14333,19 +14333,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 820,
-              "netSales": 820,
+              "sales": 880,
+              "netSales": 880,
               "cost": 447,
-              "grossProfit": 373,
+              "grossProfit": 433,
               "quantity": 11
             },
             {
               "key": "other",
-              "sales": 1135,
-              "netSales": 1135,
+              "sales": 1185,
+              "netSales": 1185,
               "cost": 405.2,
-              "grossProfit": 729.8,
-              "quantity": 84
+              "grossProfit": 779.8,
+              "quantity": 87
             }
           ],
           "items": [
@@ -14413,21 +14413,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 38,
-              "sales": 190,
-              "netSales": 190,
+              "quantity": 40,
+              "sales": 210,
+              "netSales": 210,
               "cost": 0,
-              "grossProfit": 190
+              "grossProfit": 210
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 10,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -14452,7 +14452,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 1,
               "sales": 30,
               "netSales": 30,
@@ -14462,7 +14462,7 @@
             {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
-              "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TH (2026)",
               "quantity": 2,
               "sales": 306,
               "netSales": 306,
@@ -14518,6 +14518,16 @@
               "netSales": 1796,
               "cost": 2052,
               "grossProfit": -256
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT214517XSPORT",
+              "itemName": "ATLANDER 215/45/17 91W XSPORT-86 BSW (2026)",
+              "quantity": 2,
+              "sales": 400,
+              "netSales": 400,
+              "cost": 380,
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -14614,15 +14624,15 @@
               "itemCode": "NSR26110049",
               "itemName": "WATER HOSE BOTTOM 28X28-26 W/HOSE CLIP 35mm MYVI 1.5, LG BEST (SUSA)",
               "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "sales": 60,
+              "netSales": 60,
               "cost": 34,
-              "grossProfit": -34
+              "grossProfit": 26
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 18,
               "sales": 120,
               "netSales": 120,
@@ -14642,7 +14652,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 10,
               "sales": 100,
               "netSales": 100,
@@ -14663,7 +14673,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:23:46.174Z"
+      "lastCollectedAt": "2026-11-20T09:43:24.505Z"
     },
     "ST": {
       "days": {
@@ -21124,10 +21134,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6598,
-              "netSales": 6598,
+              "sales": 6668,
+              "netSales": 6668,
               "cost": 6267,
-              "grossProfit": 331,
+              "grossProfit": 401,
               "quantity": 37
             },
             {
@@ -21148,10 +21158,10 @@
             },
             {
               "key": "other",
-              "sales": 835,
-              "netSales": 835,
+              "sales": 765,
+              "netSales": 765,
               "cost": 138.6,
-              "grossProfit": 696.4,
+              "grossProfit": 626.4,
               "quantity": 106
             }
           ],
@@ -21171,20 +21181,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 14,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 45,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 160
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -21231,10 +21241,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
+              "sales": 862,
+              "netSales": 862,
               "cost": 924,
-              "grossProfit": -132
+              "grossProfit": -62
             },
             {
               "category": "passenger_tire",
@@ -21410,7 +21420,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
+      "lastCollectedAt": "2026-11-20T09:43:24.505Z"
     },
     "SK": {
       "days": {
@@ -25667,7 +25677,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
+      "lastCollectedAt": "2026-11-20T09:43:24.505Z"
     },
     "KM": {
       "days": {
@@ -25939,8 +25949,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
+      "lastCollectedAt": "2026-11-20T09:43:24.505Z"
     }
   },
-  "updatedAt": "2026-11-20T09:30:10.895Z"
+  "updatedAt": "2026-11-20T09:43:24.505Z"
 }
