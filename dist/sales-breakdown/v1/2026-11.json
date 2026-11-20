@@ -7297,7 +7297,7 @@
           ]
         },
         "2026-11-20": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
@@ -7325,11 +7325,11 @@
             },
             {
               "key": "other",
-              "sales": 260,
-              "netSales": 252.6,
+              "sales": 270,
+              "netSales": 261.86,
               "cost": 27.05,
-              "grossProfit": 225.55,
-              "quantity": 44
+              "grossProfit": 234.81,
+              "quantity": 45
             }
           ],
           "items": [
@@ -7377,11 +7377,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "passenger_tire",
@@ -7467,7 +7467,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
+      "lastCollectedAt": "2026-11-20T05:37:12.800Z"
     },
     "SR": {
       "days": {
@@ -14197,10 +14197,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 586,
-              "netSales": 586,
+              "sales": 636,
+              "netSales": 636,
               "cost": 440,
-              "grossProfit": 146,
+              "grossProfit": 196,
               "quantity": 4
             },
             {
@@ -14221,10 +14221,10 @@
             },
             {
               "key": "other",
-              "sales": 128,
-              "netSales": 128,
+              "sales": 78,
+              "netSales": 78,
               "cost": 2.6,
-              "grossProfit": 125.4,
+              "grossProfit": 75.4,
               "quantity": 15
             }
           ],
@@ -14244,20 +14244,20 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 6,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -14274,10 +14274,10 @@
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
               "quantity": 2,
-              "sales": 256,
-              "netSales": 256,
+              "sales": 306,
+              "netSales": 306,
               "cost": 256,
-              "grossProfit": 0
+              "grossProfit": 50
             },
             {
               "category": "passenger_tire",
@@ -14353,7 +14353,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
+      "lastCollectedAt": "2026-11-20T05:37:12.800Z"
     },
     "ST": {
       "days": {
@@ -20814,10 +20814,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4210,
-              "netSales": 4210,
+              "sales": 4310,
+              "netSales": 4310,
               "cost": 3825,
-              "grossProfit": 385,
+              "grossProfit": 485,
               "quantity": 23
             },
             {
@@ -20838,10 +20838,10 @@
             },
             {
               "key": "other",
-              "sales": 545,
-              "netSales": 545,
+              "sales": 445,
+              "netSales": 445,
               "cost": 124.85,
-              "grossProfit": 420.15,
+              "grossProfit": 320.15,
               "quantity": 55
             }
           ],
@@ -20871,20 +20871,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 21,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -20971,20 +20971,20 @@
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 2,
-              "sales": 436,
-              "netSales": 436,
+              "sales": 486,
+              "netSales": 486,
               "cost": 424,
-              "grossProfit": 12
+              "grossProfit": 62
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPHX165015CL01-26",
               "itemName": "HANMIX 165/50/15 CLASSIC CL01 72H CN (2026)",
               "quantity": 2,
-              "sales": 216,
-              "netSales": 216,
+              "sales": 266,
+              "netSales": 266,
               "cost": 194,
-              "grossProfit": 22
+              "grossProfit": 72
             },
             {
               "category": "foreman_item",
@@ -21040,7 +21040,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
+      "lastCollectedAt": "2026-11-20T05:37:12.800Z"
     },
     "SK": {
       "days": {
@@ -24879,11 +24879,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 440,
-              "netSales": 440,
-              "cost": 1994,
-              "grossProfit": -1554,
-              "quantity": 11
+              "sales": 800,
+              "netSales": 800,
+              "cost": 4152,
+              "grossProfit": -3352,
+              "quantity": 20
             },
             {
               "key": "foreman_item",
@@ -24905,6 +24905,16 @@
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US265059",
+              "itemName": "USED SPORT RIM 14X5 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "US265137",
               "itemName": "USED SPORT RIM 15X6 4X100",
               "quantity": 1,
@@ -24916,6 +24926,76 @@
             {
               "category": "sport_rim",
               "itemCode": "US265302",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265457",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265486",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265554",
+              "itemName": "USED SPORT RIM 14X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 150,
+              "grossProfit": -110
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265582",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265618",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265640",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265669",
               "itemName": "USED SPORT RIM 15X6 4X100",
               "quantity": 1,
               "sales": 40,
@@ -24956,6 +25036,16 @@
             {
               "category": "sport_rim",
               "itemCode": "US266024",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US266048",
               "itemName": "USED SPORT RIM 15X6 4X100",
               "quantity": 1,
               "sales": 40,
@@ -25117,7 +25207,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
+      "lastCollectedAt": "2026-11-20T05:37:12.800Z"
     },
     "KM": {
       "days": {
@@ -25389,8 +25479,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
+      "lastCollectedAt": "2026-11-20T05:37:12.800Z"
     }
   },
-  "updatedAt": "2026-11-20T05:10:35.662Z"
+  "updatedAt": "2026-11-20T05:37:12.800Z"
 }
