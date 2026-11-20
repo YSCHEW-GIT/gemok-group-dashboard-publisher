@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-20T03:52:08.295Z",
+  "updatedAt": "2026-11-20T05:07:01.384Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 450,
-      "quantity": 2304,
-      "stockValue": 458996.8199999999
+      "quantity": 2290,
+      "stockValue": 457344.8199999999
     },
     {
       "key": "sport-rim",
@@ -42,9 +42,9 @@
     {
       "key": "absorber",
       "name": "Absorber",
-      "sku": 76,
-      "quantity": 129.5,
-      "stockValue": 24416.899999999998
+      "sku": 79,
+      "quantity": 133.5,
+      "stockValue": 25566.1
     },
     {
       "key": "adj-absorber",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2218,
-      "stockValue": 164432.18000000002
+      "quantity": 2217,
+      "stockValue": 164376.18000000002
     },
     {
       "key": "oil-filter",
@@ -106,8 +106,8 @@
       "key": "battery",
       "name": "Battery",
       "sku": 101,
-      "quantity": 87,
-      "stockValue": 19081.989999999998
+      "quantity": 86,
+      "stockValue": 18801.989999999998
     },
     {
       "key": "flap",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2116,
-      "quantity": 2023,
-      "stockValue": 177049.5
+      "sku": 2110,
+      "quantity": 2017,
+      "stockValue": 176547.5
     },
     {
       "key": "used-tayar",
@@ -148,14 +148,14 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10552,
-      "stockValue": 60033.679999999986
+      "quantity": 10537,
+      "stockValue": 60011.07999999999
     },
     {
       "key": "non-stock-item",
       "name": "Non-Stock Item",
-      "sku": 143,
-      "quantity": 41,
+      "sku": 141,
+      "quantity": 39,
       "stockValue": 4929
     },
     {
@@ -1320,7 +1320,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 30,
+          "quantity": 28,
           "cost": 212,
           "price": 218
         }
@@ -5287,7 +5287,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 97,
           "price": 95
         }
@@ -8404,7 +8404,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 5,
           "cost": 92,
           "price": 140
         }
@@ -9510,7 +9510,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 26,
+          "quantity": 24,
           "cost": 85,
           "price": 0
         },
@@ -9750,7 +9750,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 106,
           "price": 118
         },
@@ -10594,7 +10594,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 13,
+          "quantity": 11,
           "cost": 128,
           "price": 128
         }
@@ -27362,6 +27362,44 @@
       ]
     },
     {
+      "code": "PABSCTYFRT",
+      "groupKey": "absorber",
+      "groupName": "Absorber",
+      "brand": "",
+      "name": "GNT ABSORBER CITY T9A,BRV FRH/LH ( 51612/51611-T9J-H01)",
+      "spec": "83",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 357,
+          "price": 480
+        }
+      ]
+    },
+    {
+      "code": "PABSCTYRR",
+      "groupKey": "absorber",
+      "groupName": "Absorber",
+      "brand": "",
+      "name": "GNT ABSORBER CITY T9A,T5A REAR ( 51611-T9A-T32)",
+      "spec": "83",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 357,
+          "price": 480
+        }
+      ]
+    },
+    {
       "code": "PABSEXORAFRT",
       "groupKey": "absorber",
       "groupName": "Absorber",
@@ -28194,6 +28232,25 @@
           "quantity": 2,
           "cost": 336.6,
           "price": 420
+        }
+      ]
+    },
+    {
+      "code": "PABSVSRR",
+      "groupKey": "absorber",
+      "groupName": "Absorber",
+      "brand": "",
+      "name": "GNT ABSORBER VIOS NCP42,03' RR (09865)",
+      "spec": "83",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 217.6,
+          "price": 435
         }
       ]
     },
@@ -37091,7 +37148,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 11,
           "cost": 56,
           "price": 120
         },
@@ -59131,7 +59188,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 280,
           "price": 230
         }
@@ -106017,25 +106074,6 @@
       ]
     },
     {
-      "code": "US265137",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 251,
-          "price": 251
-        }
-      ]
-    },
-    {
       "code": "US265302",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -106189,25 +106227,6 @@
     },
     {
       "code": "US265669",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 251,
-          "price": 251
-        }
-      ]
-    },
-    {
-      "code": "US265733",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
       "brand": "",
@@ -106397,63 +106416,6 @@
       ]
     },
     {
-      "code": "US266995",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6.5 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 251
-        }
-      ]
-    },
-    {
-      "code": "US267007",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 251
-        }
-      ]
-    },
-    {
-      "code": "US267032",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6.5 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 251
-        }
-      ]
-    },
-    {
       "code": "US267054",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -106545,25 +106507,6 @@
           "quantity": 1,
           "cost": 0,
           "price": 251
-        }
-      ]
-    },
-    {
-      "code": "US267661",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 16X6.5 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 100
         }
       ]
     },
@@ -108681,7 +108624,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 95,
+          "quantity": 94,
           "cost": 3.5,
           "price": 35
         }
@@ -113886,7 +113829,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 220,
+          "quantity": 216,
           "cost": 0.65,
           "price": 7
         },
@@ -113923,7 +113866,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 632,
+          "quantity": 628,
           "cost": 1.65,
           "price": 10
         },
@@ -113932,7 +113875,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 249,
+          "quantity": 245,
           "cost": 1.65,
           "price": 10
         },
@@ -113950,7 +113893,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 694,
+          "quantity": 692,
           "cost": 1.65,
           "price": 10
         }
@@ -117309,44 +117252,6 @@
           "quantity": 1,
           "cost": 200,
           "price": 200
-        }
-      ]
-    },
-    {
-      "code": "US267251",
-      "groupKey": "non-stock-item",
-      "groupName": "Non-Stock Item",
-      "brand": "",
-      "name": "USED SPORT RIM 16X7 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 251
-        }
-      ]
-    },
-    {
-      "code": "US267463",
-      "groupKey": "non-stock-item",
-      "groupName": "Non-Stock Item",
-      "brand": "",
-      "name": "USED SPORTRIM 15X6.5 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 0,
-          "price": 251
         }
       ]
     },
