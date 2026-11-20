@@ -7301,10 +7301,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3926,
-              "netSales": 3926,
+              "sales": 3976,
+              "netSales": 3976,
               "cost": 3399.5,
-              "grossProfit": 526.5,
+              "grossProfit": 576.5,
               "quantity": 23
             },
             {
@@ -7325,10 +7325,10 @@
             },
             {
               "key": "other",
-              "sales": 430,
-              "netSales": 414.46,
+              "sales": 380,
+              "netSales": 368.16,
               "cost": 36.95,
-              "grossProfit": 377.51,
+              "grossProfit": 331.21,
               "quantity": 57
             }
           ],
@@ -7348,20 +7348,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 90,
-              "netSales": 83.34,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 20,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 18.52
             },
             {
               "category": "other",
@@ -7468,10 +7468,10 @@
               "itemCode": "TPDL195515BLUE-26",
               "itemName": "DUNLOP 195/55/15 BLUE RESPONSE TG EV 84V TH (2026)",
               "quantity": 2,
-              "sales": 318,
-              "netSales": 318,
+              "sales": 368,
+              "netSales": 368,
               "cost": 338,
-              "grossProfit": -20
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -7497,7 +7497,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
+      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
     },
     "SR": {
       "days": {
@@ -14223,15 +14223,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 636,
-              "netSales": 636,
-              "cost": 440,
-              "grossProfit": 196,
-              "quantity": 4
+              "sales": 1740,
+              "netSales": 1740,
+              "cost": 1808,
+              "grossProfit": -68,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -14243,19 +14243,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 410,
-              "netSales": 410,
+              "sales": 470,
+              "netSales": 470,
               "cost": 311.5,
-              "grossProfit": 98.5,
-              "quantity": 7
+              "grossProfit": 158.5,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 78,
-              "netSales": 78,
-              "cost": 2.6,
-              "grossProfit": 75.4,
-              "quantity": 15
+              "sales": 274,
+              "netSales": 274,
+              "cost": 7.8,
+              "grossProfit": 266.2,
+              "quantity": 33
             }
           ],
           "items": [
@@ -14273,21 +14273,31 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 14,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 100
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 4,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 60
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -14318,6 +14328,16 @@
               "netSales": 330,
               "cost": 184,
               "grossProfit": 146
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 8,
+              "sales": 1104,
+              "netSales": 1104,
+              "cost": 1368,
+              "grossProfit": -264
             },
             {
               "category": "foreman_item",
@@ -14393,17 +14413,17 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 12,
+              "sales": 84,
+              "netSales": 84,
+              "cost": 7.8,
+              "grossProfit": 76.2
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:32:37.974Z"
+      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
     },
     "ST": {
       "days": {
@@ -21120,7 +21140,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
+      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
     },
     "SK": {
       "days": {
@@ -25297,7 +25317,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
+      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
     },
     "KM": {
       "days": {
@@ -25569,8 +25589,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
+      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
     }
   },
-  "updatedAt": "2026-11-20T06:39:05.498Z"
+  "updatedAt": "2026-11-20T06:45:31.619Z"
 }
