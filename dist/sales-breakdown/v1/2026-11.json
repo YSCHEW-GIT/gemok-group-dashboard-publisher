@@ -14243,18 +14243,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 470,
-              "netSales": 470,
-              "cost": 311.5,
-              "grossProfit": 158.5,
-              "quantity": 8
+              "sales": 820,
+              "netSales": 820,
+              "cost": 413,
+              "grossProfit": 407,
+              "quantity": 10
             },
             {
               "key": "other",
-              "sales": 274,
-              "netSales": 274,
+              "sales": 272,
+              "netSales": 272,
               "cost": 7.8,
-              "grossProfit": 266.2,
+              "grossProfit": 264.2,
               "quantity": 33
             }
           ],
@@ -14394,36 +14394,56 @@
               "itemCode": "NSR26110045",
               "itemName": "THERMOSTAT (G) SAGA BLM, GEN 2, PERSONA (SUSA)",
               "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "sales": 100,
+              "netSales": 100,
               "cost": 50,
-              "grossProfit": -50
+              "grossProfit": 50
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110046",
               "itemName": "AUTO BOTTOM HOSE GEN2, PERSONA, BLM, FLX (SAHA)",
               "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "sales": 70,
+              "netSales": 70,
               "cost": 32,
-              "grossProfit": -32
+              "grossProfit": 38
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110047",
+              "itemName": "FB STEEL HOSE CLIP 32/50 & 50/65 (SAHA)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 6.5,
+              "grossProfit": 3.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110048",
+              "itemName": "TIE ROD END VIOS NCP42 (555-SUSA)",
+              "quantity": 1,
+              "sales": 170,
+              "netSales": 170,
+              "cost": 95,
+              "grossProfit": 75
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 12,
-              "sales": 84,
-              "netSales": 84,
+              "sales": 82,
+              "netSales": 82,
               "cost": 7.8,
-              "grossProfit": 76.2
+              "grossProfit": 74.2
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
+      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
     },
     "ST": {
       "days": {
@@ -21140,7 +21160,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
+      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
     },
     "SK": {
       "days": {
@@ -25317,7 +25337,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
+      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
     },
     "KM": {
       "days": {
@@ -25589,8 +25609,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
+      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
     }
   },
-  "updatedAt": "2026-11-20T06:45:31.619Z"
+  "updatedAt": "2026-11-20T06:58:42.136Z"
 }
