@@ -7297,15 +7297,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 396,
+              "netSales": 396,
+              "cost": 460,
+              "grossProfit": -64,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -7325,18 +7325,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 70,
+              "netSales": 66.3,
+              "cost": 3.3,
+              "grossProfit": 63,
+              "quantity": 5
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
+              "cost": 0,
+              "grossProfit": 18.52
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "quantity": 2,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 460,
+              "grossProfit": -64
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T02:03:11.431Z"
+      "lastCollectedAt": "2026-11-20T02:25:17.083Z"
     },
     "SR": {
       "days": {
@@ -14062,7 +14103,7 @@
           ]
         },
         "2026-11-20": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -14082,11 +14123,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 210,
+              "netSales": 210,
+              "cost": 125.5,
+              "grossProfit": 84.5,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -14097,11 +14138,42 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "PACFSGBLMSD",
+              "itemName": "CABIN AIR COND FILTER SAGA BLM FL FLX SAVVY IRIZ CFP007 SD",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 18,
+              "grossProfit": 12
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFFLPRO",
+              "itemName": "OIL FILTER PROTON PC121102",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 100,
+              "grossProfit": 80
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T02:03:11.431Z"
+      "lastCollectedAt": "2026-11-20T02:25:17.083Z"
     },
     "ST": {
       "days": {
@@ -20558,15 +20630,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 312,
+              "netSales": 312,
+              "cost": 308,
+              "grossProfit": 4,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -20586,18 +20658,69 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 108,
+              "netSales": 108,
+              "cost": 2.6,
+              "grossProfit": 105.4,
+              "quantity": 10
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 4,
+              "sales": 312,
+              "netSales": 312,
+              "cost": 308,
+              "grossProfit": 4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T01:12:49.078Z"
+      "lastCollectedAt": "2026-11-20T02:25:17.083Z"
     },
     "SK": {
       "days": {
@@ -24463,7 +24586,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T02:03:11.431Z"
+      "lastCollectedAt": "2026-11-20T02:25:17.083Z"
     },
     "KM": {
       "days": {
@@ -24735,8 +24858,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T02:03:11.431Z"
+      "lastCollectedAt": "2026-11-20T02:25:17.083Z"
     }
   },
-  "updatedAt": "2026-11-20T02:03:11.431Z"
+  "updatedAt": "2026-11-20T02:25:17.083Z"
 }
