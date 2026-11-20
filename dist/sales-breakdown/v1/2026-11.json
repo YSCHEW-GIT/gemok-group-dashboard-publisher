@@ -7297,14 +7297,14 @@
           ]
         },
         "2026-11-20": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2878,
-              "netSales": 2878,
+              "sales": 2928,
+              "netSales": 2928,
               "cost": 2482,
-              "grossProfit": 396,
+              "grossProfit": 446,
               "quantity": 19
             },
             {
@@ -7325,11 +7325,11 @@
             },
             {
               "key": "other",
-              "sales": 300,
-              "netSales": 289.64,
+              "sales": 260,
+              "netSales": 252.6,
               "cost": 27.05,
-              "grossProfit": 262.59,
-              "quantity": 43
+              "grossProfit": 225.55,
+              "quantity": 44
             }
           ],
           "items": [
@@ -7348,20 +7348,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 55.56,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 27.78
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 20,
-              "netSales": 18.52,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -7377,11 +7377,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 9.26,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 9.26
+              "grossProfit": 18.52
             },
             {
               "category": "passenger_tire",
@@ -7408,10 +7408,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 6,
-              "sales": 598,
-              "netSales": 598,
+              "sales": 648,
+              "netSales": 648,
               "cost": 510,
-              "grossProfit": 88
+              "grossProfit": 138
             },
             {
               "category": "passenger_tire",
@@ -7467,7 +7467,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T04:54:09.916Z"
+      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
     },
     "SR": {
       "days": {
@@ -14193,15 +14193,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 283.13,
-              "netSales": 283.13,
-              "cost": 184,
-              "grossProfit": 99.13,
-              "quantity": 2
+              "sales": 586,
+              "netSales": 586,
+              "cost": 440,
+              "grossProfit": 146,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -14213,19 +14213,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 265.97,
-              "netSales": 265.97,
-              "cost": 181.5,
-              "grossProfit": 84.47,
-              "quantity": 4
+              "sales": 410,
+              "netSales": 410,
+              "cost": 229.5,
+              "grossProfit": 180.5,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 54.9,
-              "netSales": 54.9,
-              "cost": 1.3,
-              "grossProfit": 53.6,
-              "quantity": 10
+              "sales": 128,
+              "netSales": 128,
+              "cost": 2.6,
+              "grossProfit": 125.4,
+              "quantity": 15
             }
           ],
           "items": [
@@ -14234,60 +14234,70 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 8.58,
-              "netSales": 8.58,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 8.58
+              "grossProfit": 10
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 17.16,
-              "netSales": 17.16,
+              "quantity": 6,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 17.16
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 2,
-              "sales": 17.16,
-              "netSales": 17.16,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 17.16
+              "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
+              "quantity": 2,
+              "sales": 256,
+              "netSales": 256,
+              "cost": 256,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL186014Z108-26",
               "itemName": "WEST LAKE 185/60/14 Z108 82H TL CN (2026)",
               "quantity": 2,
-              "sales": 283.13,
-              "netSales": 283.13,
+              "sales": 330,
+              "netSales": 330,
               "cost": 184,
-              "grossProfit": 99.13
+              "grossProfit": 146
             },
             {
               "category": "foreman_item",
               "itemCode": "PACFSGBLMSD",
               "itemName": "CABIN AIR COND FILTER SAGA BLM FL FLX SAVVY IRIZ CFP007 SD",
               "quantity": 1,
-              "sales": 25.74,
-              "netSales": 25.74,
+              "sales": 30,
+              "netSales": 30,
               "cost": 18,
-              "grossProfit": 7.74
+              "grossProfit": 12
             },
             {
               "category": "foreman_item",
@@ -14304,36 +14314,46 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 154.43,
-              "netSales": 154.43,
+              "sales": 180,
+              "netSales": 180,
               "cost": 100,
-              "grossProfit": 54.43
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
               "itemCode": "OPRCLRSR",
               "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
               "quantity": 1,
-              "sales": 85.8,
-              "netSales": 85.8,
+              "sales": 100,
+              "netSales": 100,
               "cost": 56,
-              "grossProfit": 29.8
+              "grossProfit": 44
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110044",
+              "itemName": "FAN BELTING 6PK 1669 SAGA FLX, IRIZ, PREVE, EXORA BOLD, SUPRIMA (SUSA)",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 48,
+              "grossProfit": 52
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 2,
-              "sales": 12,
-              "netSales": 12,
-              "cost": 1.3,
-              "grossProfit": 10.7
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T04:54:09.916Z"
+      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
     },
     "ST": {
       "days": {
@@ -20818,11 +20838,11 @@
             },
             {
               "key": "other",
-              "sales": 575,
-              "netSales": 575,
+              "sales": 545,
+              "netSales": 545,
               "cost": 124.85,
-              "grossProfit": 450.15,
-              "quantity": 56
+              "grossProfit": 420.15,
+              "quantity": 55
             }
           ],
           "items": [
@@ -20850,11 +20870,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 180,
-              "netSales": 180,
+              "quantity": 8,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 150
             },
             {
               "category": "other",
@@ -21020,7 +21040,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T04:54:09.916Z"
+      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
     },
     "SK": {
       "days": {
@@ -24847,23 +24867,23 @@
           ]
         },
         "2026-11-20": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 742,
-              "netSales": 742,
-              "cost": 660,
+              "sales": 912,
+              "netSales": 912,
+              "cost": 830,
               "grossProfit": 82,
-              "quantity": 4
+              "quantity": 6
             },
             {
               "key": "sport_rim",
-              "sales": 240,
-              "netSales": 240,
-              "cost": 502,
-              "grossProfit": -262,
-              "quantity": 6
+              "sales": 440,
+              "netSales": 440,
+              "cost": 1994,
+              "grossProfit": -1554,
+              "quantity": 11
             },
             {
               "key": "foreman_item",
@@ -24875,17 +24895,27 @@
             },
             {
               "key": "other",
-              "sales": 185,
-              "netSales": 185,
-              "cost": 6.6,
-              "grossProfit": 178.4,
-              "quantity": 14
+              "sales": 265,
+              "netSales": 265,
+              "cost": 9.9,
+              "grossProfit": 255.1,
+              "quantity": 19
             }
           ],
           "items": [
             {
               "category": "sport_rim",
               "itemCode": "US265137",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265302",
               "itemName": "USED SPORT RIM 15X6 4X100",
               "quantity": 1,
               "sales": 40,
@@ -24902,6 +24932,46 @@
               "netSales": 40,
               "cost": 251,
               "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265861",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US265869",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US266024",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 251,
+              "grossProfit": -211
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US266446",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 488,
+              "grossProfit": -448
             },
             {
               "category": "sport_rim",
@@ -24957,21 +25027,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 3,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 70
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 6,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -24982,6 +25052,16 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 170,
+              "netSales": 170,
+              "cost": 170,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -25017,11 +25097,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
             },
             {
               "category": "foreman_item",
@@ -25037,7 +25117,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T04:54:09.916Z"
+      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
     },
     "KM": {
       "days": {
@@ -25309,8 +25389,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T04:54:09.916Z"
+      "lastCollectedAt": "2026-11-20T05:10:35.662Z"
     }
   },
-  "updatedAt": "2026-11-20T04:54:09.916Z"
+  "updatedAt": "2026-11-20T05:10:35.662Z"
 }
