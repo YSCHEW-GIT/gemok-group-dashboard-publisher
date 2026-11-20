@@ -7497,7 +7497,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:32:37.974Z"
+      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
     },
     "SR": {
       "days": {
@@ -20860,15 +20860,15 @@
           ]
         },
         "2026-11-20": {
-          "documents": 12,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4310,
-              "netSales": 4310,
-              "cost": 3825,
-              "grossProfit": 485,
-              "quantity": 23
+              "sales": 4662,
+              "netSales": 4662,
+              "cost": 4169,
+              "grossProfit": 493,
+              "quantity": 27
             },
             {
               "key": "sport_rim",
@@ -20880,19 +20880,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 510,
-              "netSales": 510,
-              "cost": 174,
-              "grossProfit": 336,
-              "quantity": 5
+              "sales": 790,
+              "netSales": 790,
+              "cost": 292.55,
+              "grossProfit": 497.45,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 445,
-              "netSales": 445,
-              "cost": 124.85,
-              "grossProfit": 320.15,
-              "quantity": 55
+              "sales": 613,
+              "netSales": 613,
+              "cost": 127.45,
+              "grossProfit": 485.55,
+              "quantity": 69
             }
           ],
           "items": [
@@ -20920,21 +20920,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 10,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 21,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 29,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -20998,6 +20998,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 344,
+              "grossProfit": 8
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
               "quantity": 2,
@@ -21048,6 +21058,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMHD",
+              "itemName": "OIL FILTER HONDA 15400-RTA-003",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q8000",
+              "itemName": "TOTAL 5W40 QUARTZ 8000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 110.05,
+              "grossProfit": 169.95
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
@@ -21060,11 +21090,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 10,
-              "sales": 70,
-              "netSales": 70,
-              "cost": 6.5,
-              "grossProfit": 63.5
+              "quantity": 14,
+              "sales": 98,
+              "netSales": 98,
+              "cost": 9.1,
+              "grossProfit": 88.9
             },
             {
               "category": "other",
@@ -21090,7 +21120,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:32:37.974Z"
+      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
     },
     "SK": {
       "days": {
@@ -25267,7 +25297,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:32:37.974Z"
+      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
     },
     "KM": {
       "days": {
@@ -25539,8 +25569,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:32:37.974Z"
+      "lastCollectedAt": "2026-11-20T06:39:05.498Z"
     }
   },
-  "updatedAt": "2026-11-20T06:32:37.974Z"
+  "updatedAt": "2026-11-20T06:39:05.498Z"
 }
