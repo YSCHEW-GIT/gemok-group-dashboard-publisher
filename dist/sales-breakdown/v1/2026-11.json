@@ -7297,23 +7297,23 @@
           ]
         },
         "2026-11-20": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3976,
-              "netSales": 3976,
+              "sales": 4026,
+              "netSales": 4026,
               "cost": 3399.5,
-              "grossProfit": 576.5,
+              "grossProfit": 626.5,
               "quantity": 23
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 588,
+              "netSales": 588,
+              "cost": 860,
+              "grossProfit": -272,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -7325,14 +7325,24 @@
             },
             {
               "key": "other",
-              "sales": 380,
-              "netSales": 368.16,
-              "cost": 36.95,
-              "grossProfit": 331.21,
-              "quantity": 57
+              "sales": 665,
+              "netSales": 650.57,
+              "cost": 95.55,
+              "grossProfit": 555.02,
+              "quantity": 91
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "SR1541ET28-DG-TE37",
+              "itemName": "SPORT RIM 15X7 4X100 ET28 DARK GOLD -TE37",
+              "quantity": 1,
+              "sales": 588,
+              "netSales": 588,
+              "cost": 860,
+              "grossProfit": -272
+            },
             {
               "category": "other",
               "itemCode": "ADJCHM",
@@ -7347,7 +7357,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
+              "quantity": 9,
               "sales": 60,
               "netSales": 55.56,
               "cost": 0,
@@ -7357,11 +7367,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 24,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -7394,6 +7404,16 @@
               "grossProfit": 833.34
             },
             {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 15,
+              "netSales": 13.89,
+              "cost": 0,
+              "grossProfit": 13.89
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
@@ -7408,10 +7428,10 @@
               "itemCode": "TPYH205016V701-26",
               "itemName": "YOKOHAMA 205/50/16 ADVAN FLEVA V701 87V (JP) (2026)",
               "quantity": 2,
-              "sales": 680,
-              "netSales": 680,
+              "sales": 730,
+              "netSales": 730,
               "cost": 579.5,
-              "grossProfit": 100.5
+              "grossProfit": 150.5
             },
             {
               "category": "passenger_tire",
@@ -7475,13 +7495,23 @@
             },
             {
               "category": "other",
+              "itemCode": "MNRWRY150BLK",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
+              "quantity": 20,
+              "sales": 110,
+              "netSales": 110,
+              "cost": 40,
+              "grossProfit": 70
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 22,
-              "sales": 220,
-              "netSales": 220,
-              "cost": 36.3,
-              "grossProfit": 183.7
+              "quantity": 26,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 42.9,
+              "grossProfit": 217.1
             },
             {
               "category": "other",
@@ -7492,12 +7522,22 @@
               "netSales": 0,
               "cost": 0.65,
               "grossProfit": -0.65
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7356",
+              "itemName": "RINGCONE 7356(CH4) - SAGA BLM WIRA HONDA FIT CIVIC JAZZ PUTRA",
+              "quantity": 4,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 12,
+              "grossProfit": 88
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:45:31.619Z"
+      "lastCollectedAt": "2026-11-20T07:12:00.185Z"
     },
     "SR": {
       "days": {
@@ -14443,7 +14483,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
+      "lastCollectedAt": "2026-11-20T07:12:00.185Z"
     },
     "ST": {
       "days": {
@@ -20920,11 +20960,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 790,
-              "netSales": 790,
-              "cost": 292.55,
-              "grossProfit": 497.45,
-              "quantity": 7
+              "sales": 1055,
+              "netSales": 1055,
+              "cost": 452.55,
+              "grossProfit": 602.45,
+              "quantity": 9
             },
             {
               "key": "other",
@@ -21098,6 +21138,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKAIRFILTER",
+              "itemName": "AIR FILTER",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 40,
+              "grossProfit": 5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "POFCMHD",
               "itemName": "OIL FILTER HONDA 15400-RTA-003",
               "quantity": 1,
@@ -21125,6 +21175,16 @@
               "netSales": 90,
               "cost": 29,
               "grossProfit": 61
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POATFHCF",
+              "itemName": "HONDA AUTO OIL HCF-2 3.5L",
+              "quantity": 1,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 120,
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -21160,7 +21220,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
+      "lastCollectedAt": "2026-11-20T07:12:00.185Z"
     },
     "SK": {
       "days": {
@@ -25337,7 +25397,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
+      "lastCollectedAt": "2026-11-20T07:12:00.185Z"
     },
     "KM": {
       "days": {
@@ -25609,8 +25669,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T06:58:42.136Z"
+      "lastCollectedAt": "2026-11-20T07:12:00.185Z"
     }
   },
-  "updatedAt": "2026-11-20T06:58:42.136Z"
+  "updatedAt": "2026-11-20T07:12:00.185Z"
 }
