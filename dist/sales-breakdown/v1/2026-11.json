@@ -7356,7 +7356,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 49.96,
               "netSales": 46.26,
@@ -7556,7 +7556,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 32,
               "sales": 319.76,
               "netSales": 319.76,
@@ -7566,7 +7566,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 1,
               "sales": 0,
               "netSales": 0,
@@ -7587,7 +7587,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:23:46.174Z"
+      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
     },
     "SR": {
       "days": {
@@ -21209,7 +21209,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 4,
               "sales": 100,
               "netSales": 100,
@@ -21379,7 +21379,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 21,
               "sales": 150,
               "netSales": 150,
@@ -21389,7 +21389,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 13,
               "sales": 130,
               "netSales": 130,
@@ -21410,7 +21410,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:23:46.174Z"
+      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
     },
     "SK": {
       "days": {
@@ -25257,19 +25257,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": -21,
-              "netSales": -21,
-              "cost": 280,
-              "grossProfit": -301,
-              "quantity": 0
+              "sales": 199,
+              "netSales": 199,
+              "cost": 370,
+              "grossProfit": -171,
+              "quantity": 2
             },
             {
               "key": "other",
-              "sales": 495,
-              "netSales": 495,
-              "cost": 21.75,
-              "grossProfit": 473.25,
-              "quantity": 46
+              "sales": 535,
+              "netSales": 535,
+              "cost": 28.35,
+              "grossProfit": 506.65,
+              "quantity": 50
             }
           ],
           "items": [
@@ -25605,6 +25605,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSK26110034",
+              "itemName": "ABS LINK 1275R MYVI",
+              "quantity": 2,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 90,
+              "grossProfit": 130
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "US268188",
               "itemName": "USED SPORT RIM 15X6.5 4X100",
               "quantity": -1,
@@ -25617,11 +25627,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 7,
-              "sales": 70,
-              "netSales": 70,
-              "cost": 11.55,
-              "grossProfit": 58.45
+              "quantity": 11,
+              "sales": 110,
+              "netSales": 110,
+              "cost": 18.15,
+              "grossProfit": 91.85
             },
             {
               "category": "other",
@@ -25657,7 +25667,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:17:21.523Z"
+      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
     },
     "KM": {
       "days": {
@@ -25929,8 +25939,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T09:23:46.174Z"
+      "lastCollectedAt": "2026-11-20T09:30:10.895Z"
     }
   },
-  "updatedAt": "2026-11-20T09:23:46.174Z"
+  "updatedAt": "2026-11-20T09:30:10.895Z"
 }
