@@ -7336,7 +7336,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 50,
               "netSales": 46.3,
@@ -7437,7 +7437,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T03:02:38.579Z"
+      "lastCollectedAt": "2026-11-20T03:09:03.724Z"
     },
     "SR": {
       "days": {
@@ -14233,7 +14233,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T03:02:38.579Z"
+      "lastCollectedAt": "2026-11-20T03:09:03.724Z"
     },
     "ST": {
       "days": {
@@ -20769,7 +20769,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 50,
               "netSales": 50,
@@ -20830,7 +20830,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T03:02:38.579Z"
+      "lastCollectedAt": "2026-11-20T03:09:03.724Z"
     },
     "SK": {
       "days": {
@@ -24685,14 +24685,24 @@
             },
             {
               "key": "other",
-              "sales": 30,
-              "netSales": 30,
+              "sales": 55,
+              "netSales": 55,
               "cost": 0,
-              "grossProfit": 30,
-              "quantity": 1
+              "grossProfit": 55,
+              "quantity": 2
             }
           ],
           "items": [
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 1,
+              "sales": 25,
+              "netSales": 25,
+              "cost": 0,
+              "grossProfit": 25
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -24707,7 +24717,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T03:02:38.579Z"
+      "lastCollectedAt": "2026-11-20T03:09:03.724Z"
     },
     "KM": {
       "days": {
@@ -24979,8 +24989,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-20T03:02:38.579Z"
+      "lastCollectedAt": "2026-11-20T03:09:03.724Z"
     }
   },
-  "updatedAt": "2026-11-20T03:02:38.579Z"
+  "updatedAt": "2026-11-20T03:09:03.724Z"
 }
