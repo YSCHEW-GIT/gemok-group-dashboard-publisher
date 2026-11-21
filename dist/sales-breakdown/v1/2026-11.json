@@ -7600,10 +7600,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4226,
-              "netSales": 4226,
+              "sales": 4276,
+              "netSales": 4276,
               "cost": 3857.6,
-              "grossProfit": 368.4,
+              "grossProfit": 418.4,
               "quantity": 9
             },
             {
@@ -7624,10 +7624,10 @@
             },
             {
               "key": "other",
-              "sales": 90,
-              "netSales": 86.3,
+              "sales": 40,
+              "netSales": 40,
               "cost": 8.25,
-              "grossProfit": 78.05,
+              "grossProfit": 31.75,
               "quantity": 11
             }
           ],
@@ -7647,20 +7647,20 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 20,
-              "netSales": 18.52,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -7687,10 +7687,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 2,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 446,
+              "netSales": 446,
               "cost": 460,
-              "grossProfit": -64
+              "grossProfit": -14
             },
             {
               "category": "passenger_tire",
@@ -7746,7 +7746,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
+      "lastCollectedAt": "2026-11-21T03:43:36.892Z"
     },
     "SR": {
       "days": {
@@ -14845,10 +14845,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1026,
-              "netSales": 1026,
+              "sales": 1096,
+              "netSales": 1096,
               "cost": 1113.6,
-              "grossProfit": -87.6,
+              "grossProfit": -17.6,
               "quantity": 9
             },
             {
@@ -14869,11 +14869,11 @@
             },
             {
               "key": "other",
-              "sales": 738,
-              "netSales": 738,
-              "cost": 158.5,
-              "grossProfit": 579.5,
-              "quantity": 42
+              "sales": 723,
+              "netSales": 723,
+              "cost": 168.5,
+              "grossProfit": 554.5,
+              "quantity": 43
             }
           ],
           "items": [
@@ -14912,20 +14912,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 13,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -14972,10 +14972,10 @@
               "itemCode": "TPWL176515Z108-26",
               "itemName": "WEST LAKE 175/65/15 Z-108 84H TL (2026)",
               "quantity": 4,
-              "sales": 272,
-              "netSales": 272,
+              "sales": 342,
+              "netSales": 342,
               "cost": 376,
-              "grossProfit": -104
+              "grossProfit": -34
             },
             {
               "category": "passenger_tire",
@@ -15078,6 +15078,16 @@
               "grossProfit": 25.4
             },
             {
+              "category": "other",
+              "itemCode": "MNCTYTVSOLD",
+              "itemName": "CAMBER NUT HONDA CITY",
+              "quantity": 1,
+              "sales": 55,
+              "netSales": 55,
+              "cost": 10,
+              "grossProfit": 45
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPBNC0046FPLT",
               "itemName": "BRAKE PAD BNC MYVI LG BEST 1.3/1.5,AXIA 1.0,BEZZA CD0046 FR-PLT",
@@ -15091,7 +15101,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
+      "lastCollectedAt": "2026-11-21T03:43:36.892Z"
     },
     "ST": {
       "days": {
@@ -21997,7 +22007,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
+      "lastCollectedAt": "2026-11-21T03:43:36.892Z"
     },
     "SK": {
       "days": {
@@ -26383,7 +26393,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
+      "lastCollectedAt": "2026-11-21T03:43:36.892Z"
     },
     "KM": {
       "days": {
@@ -26693,8 +26703,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
+      "lastCollectedAt": "2026-11-21T03:43:36.892Z"
     }
   },
-  "updatedAt": "2026-11-21T03:37:31.088Z"
+  "updatedAt": "2026-11-21T03:43:36.892Z"
 }
