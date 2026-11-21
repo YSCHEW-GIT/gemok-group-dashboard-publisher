@@ -7600,35 +7600,35 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 6044.71,
-              "netSales": 6044.71,
-              "cost": 5457.6,
-              "grossProfit": 587.11,
-              "quantity": 21
+              "sales": 6324.41,
+              "netSales": 6324.41,
+              "cost": 6641.6,
+              "grossProfit": -317.19,
+              "quantity": 25
             },
             {
               "key": "sport_rim",
-              "sales": 587.49,
-              "netSales": 587.49,
+              "sales": 503.21,
+              "netSales": 503.21,
               "cost": 820,
-              "grossProfit": -232.51,
+              "grossProfit": -316.79,
               "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 934.18,
-              "netSales": 934.18,
+              "sales": 800.18,
+              "netSales": 800.18,
               "cost": 460.3,
-              "grossProfit": 473.88,
+              "grossProfit": 339.88,
               "quantity": 8
             },
             {
               "key": "other",
-              "sales": 449.62,
-              "netSales": 428.16,
-              "cost": 37.45,
-              "grossProfit": 390.71,
-              "quantity": 49
+              "sales": 388.2,
+              "netSales": 366.74,
+              "cost": 44.05,
+              "grossProfit": 322.69,
+              "quantity": 53
             }
           ],
           "items": [
@@ -7637,10 +7637,10 @@
               "itemCode": "SR1541ET35-DG-TE37",
               "itemName": "SPORT RIM 15X7 4X100 ET35 DARK GOLD SAND -TE37",
               "quantity": 1,
-              "sales": 587.49,
-              "netSales": 587.49,
+              "sales": 503.21,
+              "netSales": 503.21,
               "cost": 820,
-              "grossProfit": -232.51
+              "grossProfit": -316.79
             },
             {
               "category": "other",
@@ -7657,120 +7657,130 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 24,
-              "sales": 159.88,
-              "netSales": 148.04,
+              "sales": 138.64,
+              "netSales": 126.8,
               "cost": 0,
-              "grossProfit": 148.04
+              "grossProfit": 126.8
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 119.92,
-              "netSales": 111.04,
+              "sales": 103.96,
+              "netSales": 95.08,
               "cost": 0,
-              "grossProfit": 111.04
+              "grossProfit": 95.08
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.99,
-              "netSales": 9.25,
+              "sales": 8.66,
+              "netSales": 7.92,
               "cost": 0,
-              "grossProfit": 9.25
+              "grossProfit": 7.92
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT176514VD-26",
               "itemName": "ZETA 175/65/14 VERDANT 84T TL TH (2026)",
               "quantity": 4,
-              "sales": 471.59,
-              "netSales": 471.59,
+              "sales": 403.94,
+              "netSales": 403.94,
               "cost": 420,
-              "grossProfit": 51.59
+              "grossProfit": -16.06
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH235019V108-26",
               "itemName": "YOKOHAMA 235/50/19 ADVAN SPORT EV V108 101V JP (2026)",
               "quantity": 2,
-              "sales": 1298.86,
-              "netSales": 1298.86,
+              "sales": 1112.55,
+              "netSales": 1112.55,
               "cost": 1162.8,
-              "grossProfit": 136.06
+              "grossProfit": -50.25
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH254519V108-26",
               "itemName": "YOKOHAMA 255/45/19 ADVAN SPORT EV V108 101V JP (2026)",
               "quantity": 2,
-              "sales": 1678.53,
-              "netSales": 1678.53,
+              "sales": 1437.75,
+              "netSales": 1437.75,
               "cost": 1428.8,
-              "grossProfit": 249.73
+              "grossProfit": 8.95
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 2,
-              "sales": 445.61,
-              "netSales": 445.61,
+              "sales": 381.69,
+              "netSales": 381.69,
               "cost": 460,
-              "grossProfit": -14.39
+              "grossProfit": -78.31
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH206016ES32-26",
+              "itemName": "YOKOHAMA 205/60/16 ES32 89H TH (2026)",
+              "quantity": 4,
+              "sales": 1146.78,
+              "netSales": 1146.78,
+              "cost": 1184,
+              "grossProfit": -37.22
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY216017CR1",
               "itemName": "TOYO 215/60/17 PROXES CR1C 96H MY (2026)",
               "quantity": 2,
-              "sales": 679.41,
-              "netSales": 679.41,
+              "sales": 581.95,
+              "netSales": 581.95,
               "cost": 636,
-              "grossProfit": 43.41
+              "grossProfit": -54.05
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPHK195515K435",
               "itemName": "HANKOOK 195/55/15 85H K435 (2026)",
               "quantity": 4,
-              "sales": 661.42,
-              "netSales": 661.42,
+              "sales": 566.54,
+              "netSales": 566.54,
               "cost": 580,
-              "grossProfit": 81.42
+              "grossProfit": -13.46
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 1,
-              "sales": 169.85,
-              "netSales": 169.85,
+              "sales": 145.49,
+              "netSales": 145.49,
               "cost": 170,
-              "grossProfit": -0.15
+              "grossProfit": -24.51
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT204516XST",
               "itemName": "ATLANDER 205/45/16 XSPORT 86 BSW 87W XL (2026)",
               "quantity": 4,
-              "sales": 639.44,
-              "netSales": 639.44,
+              "sales": 547.72,
+              "netSales": 547.72,
               "cost": 600,
-              "grossProfit": 39.44
+              "grossProfit": -52.28
             },
             {
               "category": "foreman_item",
               "itemCode": "PADTSTCK028-P",
               "itemName": "THUNDERSTORM BRAKE PAD FRT PRD BEZZA/AXIA/MYVI TCK028-P",
               "quantity": 1,
-              "sales": 259.77,
-              "netSales": 259.77,
+              "sales": 222.51,
+              "netSales": 222.51,
               "cost": 110,
-              "grossProfit": 149.77
+              "grossProfit": 112.51
             },
             {
               "category": "foreman_item",
@@ -7787,56 +7797,56 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.83,
-              "netSales": 189.83,
+              "sales": 162.6,
+              "netSales": 162.6,
               "cost": 99,
-              "grossProfit": 90.83
+              "grossProfit": 63.6
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFD3RED",
               "itemName": "ATF OIL PERODUA SP3 (RED)",
               "quantity": 3,
-              "sales": 164.86,
-              "netSales": 164.86,
+              "sales": 141.21,
+              "netSales": 141.21,
               "cost": 64.8,
-              "grossProfit": 100.06
+              "grossProfit": 76.41
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKDISCROTOR",
               "itemName": "ASIMCO DISC ROTOR FRT -PRD MYVI",
               "quantity": 2,
-              "sales": 319.72,
-              "netSales": 319.72,
+              "sales": 273.86,
+              "netSales": 273.86,
               "cost": 180,
-              "grossProfit": 139.72
+              "grossProfit": 93.86
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 13,
-              "sales": 119.86,
-              "netSales": 119.86,
-              "cost": 21.45,
-              "grossProfit": 98.41
+              "quantity": 17,
+              "sales": 102.71,
+              "netSales": 102.71,
+              "cost": 28.05,
+              "grossProfit": 74.66
             },
             {
               "category": "other",
               "itemCode": "MVLSTLL",
               "itemName": "VALVE STEEL L SHAPE",
               "quantity": 4,
-              "sales": 39.97,
-              "netSales": 39.97,
+              "sales": 34.23,
+              "netSales": 34.23,
               "cost": 16,
-              "grossProfit": 23.97
+              "grossProfit": 18.23
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:48:49.932Z"
+      "lastCollectedAt": "2026-11-21T04:54:57.399Z"
     },
     "SR": {
       "days": {
@@ -15241,7 +15251,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:48:49.932Z"
+      "lastCollectedAt": "2026-11-21T04:54:57.399Z"
     },
     "ST": {
       "days": {
@@ -22177,7 +22187,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:48:49.932Z"
+      "lastCollectedAt": "2026-11-21T04:54:57.399Z"
     },
     "SK": {
       "days": {
@@ -26583,7 +26593,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:48:49.932Z"
+      "lastCollectedAt": "2026-11-21T04:54:57.399Z"
     },
     "KM": {
       "days": {
@@ -26893,8 +26903,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:48:49.932Z"
+      "lastCollectedAt": "2026-11-21T04:54:57.399Z"
     }
   },
-  "updatedAt": "2026-11-21T04:48:49.932Z"
+  "updatedAt": "2026-11-21T04:54:57.399Z"
 }
