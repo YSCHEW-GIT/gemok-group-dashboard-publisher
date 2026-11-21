@@ -7816,7 +7816,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:12:07.140Z"
+      "lastCollectedAt": "2026-11-21T04:18:14.532Z"
     },
     "SR": {
       "days": {
@@ -14911,15 +14911,15 @@
           ]
         },
         "2026-11-21": {
-          "documents": 10,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1146,
-              "netSales": 1146,
-              "cost": 1113.6,
-              "grossProfit": 32.4,
-              "quantity": 9
+              "sales": 1422,
+              "netSales": 1422,
+              "cost": 1455.6,
+              "grossProfit": -33.6,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -14939,11 +14939,11 @@
             },
             {
               "key": "other",
-              "sales": 673,
-              "netSales": 673,
+              "sales": 753,
+              "netSales": 753,
               "cost": 168.5,
-              "grossProfit": 504.5,
-              "quantity": 43
+              "grossProfit": 584.5,
+              "quantity": 47
             }
           ],
           "items": [
@@ -14981,21 +14981,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 9,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 13,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 15,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -15046,6 +15046,16 @@
               "netSales": 342,
               "cost": 376,
               "grossProfit": -34
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 342,
+              "grossProfit": -66
             },
             {
               "category": "passenger_tire",
@@ -15171,7 +15181,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:12:07.140Z"
+      "lastCollectedAt": "2026-11-21T04:18:14.532Z"
     },
     "ST": {
       "days": {
@@ -21965,11 +21975,11 @@
             },
             {
               "key": "other",
-              "sales": 431,
-              "netSales": 431,
-              "cost": 36.8,
-              "grossProfit": 394.2,
-              "quantity": 43
+              "sales": 476,
+              "netSales": 476,
+              "cost": 40.3,
+              "grossProfit": 435.7,
+              "quantity": 44
             }
           ],
           "items": [
@@ -22075,6 +22085,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 3.5,
+              "grossProfit": 41.5
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
@@ -22087,7 +22107,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:12:07.140Z"
+      "lastCollectedAt": "2026-11-21T04:18:14.532Z"
     },
     "SK": {
       "days": {
@@ -26493,7 +26513,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:12:07.140Z"
+      "lastCollectedAt": "2026-11-21T04:18:14.532Z"
     },
     "KM": {
       "days": {
@@ -26803,8 +26823,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T04:12:07.140Z"
+      "lastCollectedAt": "2026-11-21T04:18:14.532Z"
     }
   },
-  "updatedAt": "2026-11-21T04:12:07.140Z"
+  "updatedAt": "2026-11-21T04:18:14.532Z"
 }
