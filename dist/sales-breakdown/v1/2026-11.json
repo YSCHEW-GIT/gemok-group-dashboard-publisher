@@ -7705,7 +7705,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
               "sales": 20,
               "netSales": 20,
@@ -7716,7 +7716,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T02:39:29.588Z"
+      "lastCollectedAt": "2026-11-21T02:46:09.959Z"
     },
     "SR": {
       "days": {
@@ -21837,7 +21837,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T02:39:29.588Z"
+      "lastCollectedAt": "2026-11-21T02:46:09.959Z"
     },
     "SK": {
       "days": {
@@ -26103,7 +26103,7 @@
           ]
         },
         "2026-11-21": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -26123,11 +26123,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 260,
+              "netSales": 260,
+              "cost": 137.5,
+              "grossProfit": 122.5,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -26138,11 +26138,32 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "POFPRDAXIA",
+              "itemName": "OIL FILTER PERODUA AXIA /MYV NEW",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL0W20Q9000",
+              "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
+              "quantity": 1,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 130,
+              "grossProfit": 130
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T02:25:46.382Z"
+      "lastCollectedAt": "2026-11-21T02:46:09.959Z"
     },
     "KM": {
       "days": {
@@ -26452,8 +26473,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T02:39:29.588Z"
+      "lastCollectedAt": "2026-11-21T02:46:09.959Z"
     }
   },
-  "updatedAt": "2026-11-21T02:39:29.588Z"
+  "updatedAt": "2026-11-21T02:46:09.959Z"
 }
