@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-21T00:42:43.768Z",
+  "updatedAt": "2026-11-21T01:58:58.902Z",
   "stores": [
     {
       "code": "SI",
@@ -35,9 +35,9 @@
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 780,
-      "quantity": 640,
-      "stockValue": 339867.52
+      "sku": 779,
+      "quantity": 639,
+      "stockValue": 339167.52
     },
     {
       "key": "absorber",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2099,
-      "quantity": 2006,
-      "stockValue": 173648.5
+      "sku": 2100,
+      "quantity": 2007,
+      "stockValue": 173899.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10435,
-      "stockValue": 60067.37999999998
+      "quantity": 10431,
+      "stockValue": 60060.779999999984
     },
     {
       "key": "non-stock-item",
@@ -24120,25 +24120,6 @@
           "location": "",
           "quantity": 1,
           "cost": 784,
-          "price": 488
-        }
-      ]
-    },
-    {
-      "code": "SR156541ET40-HB-BBS",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 4X100 ET40 HYPER BLACK 561065A08 (BBS)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 700,
           "price": 488
         }
       ]
@@ -97831,6 +97812,25 @@
       ]
     },
     {
+      "code": "US2617351",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 251,
+          "price": 251
+        }
+      ]
+    },
+    {
       "code": "US2617354",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -113694,7 +113694,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 278,
+          "quantity": 274,
           "cost": 1.65,
           "price": 10
         },
