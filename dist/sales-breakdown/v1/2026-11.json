@@ -7746,7 +7746,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:31:25.659Z"
+      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
     },
     "SR": {
       "days": {
@@ -15091,7 +15091,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:31:25.659Z"
+      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
     },
     "ST": {
       "days": {
@@ -21857,15 +21857,15 @@
           ]
         },
         "2026-11-21": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2712,
-              "netSales": 2712,
-              "cost": 2490,
-              "grossProfit": 222,
-              "quantity": 14
+              "sales": 3504,
+              "netSales": 3504,
+              "cost": 3414,
+              "grossProfit": 90,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -21885,11 +21885,11 @@
             },
             {
               "key": "other",
-              "sales": 346,
-              "netSales": 346,
-              "cost": 5.2,
-              "grossProfit": 340.8,
-              "quantity": 33
+              "sales": 456,
+              "netSales": 456,
+              "cost": 11.8,
+              "grossProfit": 444.2,
+              "quantity": 42
             }
           ],
           "items": [
@@ -21897,21 +21897,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 8,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 180
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 140,
-              "netSales": 140,
+              "quantity": 22,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 180
             },
             {
               "category": "passenger_tire",
@@ -21927,11 +21927,11 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
-              "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
-              "cost": 924,
-              "grossProfit": -132
+              "quantity": 8,
+              "sales": 1584,
+              "netSales": 1584,
+              "cost": 1848,
+              "grossProfit": -264
             },
             {
               "category": "passenger_tire",
@@ -21982,12 +21982,22 @@
               "netSales": 56,
               "cost": 5.2,
               "grossProfit": 50.8
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:31:25.659Z"
+      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
     },
     "SK": {
       "days": {
@@ -26373,7 +26383,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:31:25.659Z"
+      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
     },
     "KM": {
       "days": {
@@ -26683,8 +26693,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T03:31:25.659Z"
+      "lastCollectedAt": "2026-11-21T03:37:31.088Z"
     }
   },
-  "updatedAt": "2026-11-21T03:31:25.659Z"
+  "updatedAt": "2026-11-21T03:37:31.088Z"
 }
