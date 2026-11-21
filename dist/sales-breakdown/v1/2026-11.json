@@ -7635,7 +7635,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T01:47:10.218Z"
+      "lastCollectedAt": "2026-11-21T02:11:30.074Z"
     },
     "SR": {
       "days": {
@@ -14730,22 +14730,22 @@
           ]
         },
         "2026-11-21": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 230.31,
+              "netSales": 230.31,
+              "cost": 273.6,
+              "grossProfit": -43.29,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
+              "sales": 448.28,
+              "netSales": 448.28,
+              "cost": 449,
+              "grossProfit": -0.72,
               "quantity": 0
             },
             {
@@ -14758,18 +14758,109 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 377.41,
+              "netSales": 377.41,
+              "cost": 91.9,
+              "grossProfit": 285.51,
+              "quantity": 18
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617351",
+              "itemName": "USED SPORT RIM 15X6 4X100",
+              "quantity": -1,
+              "sales": -259.11,
+              "netSales": -259.11,
+              "cost": -251,
+              "grossProfit": -8.11
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SR156541ET40-HB-BBS",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 HYPER BLACK 561065A08 (BBS)",
+              "quantity": 1,
+              "sales": 707.39,
+              "netSales": 707.39,
+              "cost": 700,
+              "grossProfit": 7.39
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 58.06,
+              "netSales": 58.06,
+              "cost": 0,
+              "grossProfit": 58.06
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 58.06,
+              "netSales": 58.06,
+              "cost": 0,
+              "grossProfit": 58.06
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 58.06,
+              "netSales": 58.06,
+              "cost": 50,
+              "grossProfit": 8.06
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117-26",
+              "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
+              "quantity": 2,
+              "sales": 230.31,
+              "netSales": 230.31,
+              "cost": 273.6,
+              "grossProfit": -43.29
+            },
+            {
+              "category": "other",
+              "itemCode": "MNWSH150BLCK",
+              "itemName": "HEPTAGON WHEEL NUT SMALL HEAD 1.50MM BLACK (16/BOX)",
+              "quantity": 1,
+              "sales": 67.74,
+              "netSales": 67.74,
+              "cost": 20,
+              "grossProfit": 47.74
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 1,
+              "sales": 77.42,
+              "netSales": 77.42,
+              "cost": 12,
+              "grossProfit": 65.42
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 6,
+              "sales": 58.07,
+              "netSales": 58.07,
+              "cost": 9.9,
+              "grossProfit": 48.17
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T01:47:10.218Z"
+      "lastCollectedAt": "2026-11-21T02:11:30.074Z"
     },
     "ST": {
       "days": {
@@ -21535,15 +21626,15 @@
           ]
         },
         "2026-11-21": {
-          "documents": 0,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 792,
+              "netSales": 792,
+              "cost": 924,
+              "grossProfit": -132,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -21563,18 +21654,49 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 140,
+              "netSales": 140,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 140,
+              "quantity": 10
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 0,
+              "grossProfit": 80
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 924,
+              "grossProfit": -132
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T01:47:10.218Z"
+      "lastCollectedAt": "2026-11-21T02:11:30.074Z"
     },
     "SK": {
       "days": {
@@ -25879,7 +26001,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T01:47:10.218Z"
+      "lastCollectedAt": "2026-11-21T02:11:30.074Z"
     },
     "KM": {
       "days": {
@@ -26189,8 +26311,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T01:47:10.218Z"
+      "lastCollectedAt": "2026-11-21T02:11:30.074Z"
     }
   },
-  "updatedAt": "2026-11-21T01:47:10.218Z"
+  "updatedAt": "2026-11-21T02:11:30.074Z"
 }
