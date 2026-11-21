@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-21T07:40:37.411Z",
+  "updatedAt": "2026-11-21T08:51:40.384Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 447,
-      "quantity": 2160,
-      "stockValue": 432339.12
+      "quantity": 2149,
+      "stockValue": 431402.24
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 705,
-      "quantity": 639,
-      "stockValue": 339587.52
+      "sku": 704,
+      "quantity": 638,
+      "stockValue": 338772.52
     },
     {
       "key": "absorber",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 258,
-      "stockValue": 12693.150000000001
+      "quantity": 259,
+      "stockValue": 13432.349999999999
     },
     {
       "key": "brake-pump",
@@ -85,22 +85,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2199,
-      "stockValue": 163351.13
+      "quantity": 2198,
+      "stockValue": 163251.13
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 192,
-      "stockValue": 1756
+      "quantity": 190,
+      "stockValue": 1740
     },
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 872,
-      "quantity": 2925.5,
-      "stockValue": 104572.64999999998
+      "sku": 871,
+      "quantity": 2921.5,
+      "stockValue": 104375.64999999998
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2101,
-      "quantity": 2008,
-      "stockValue": 174099.5
+      "sku": 2103,
+      "quantity": 2010,
+      "stockValue": 174499.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10293,
-      "stockValue": 59723.249999999985
+      "quantity": 10264,
+      "stockValue": 59651.69999999999
     },
     {
       "key": "non-stock-item",
@@ -1329,7 +1329,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 18,
           "cost": 221.32,
           "price": 218
         }
@@ -2902,7 +2902,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 2,
-          "cost": 505,
+          "cost": 495,
           "price": 497
         }
       ]
@@ -8330,7 +8330,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 165,
           "price": 180
         }
@@ -9437,7 +9437,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 26,
+          "quantity": 24,
           "cost": 76,
           "price": 0
         },
@@ -9621,7 +9621,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 32,
+          "quantity": 28,
           "cost": 85,
           "price": 0
         },
@@ -9648,7 +9648,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 86,
           "price": 88
         }
@@ -10010,7 +10010,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 12,
           "cost": 231,
           "price": 208
         }
@@ -10104,8 +10104,8 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 298.3,
+          "quantity": 8,
+          "cost": 289.75,
           "price": 299
         },
         {
@@ -23052,25 +23052,6 @@
       ]
     },
     {
-      "code": "SR157041ET35-SB-GRAMLIGHT",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X7.0 4X100 ET35 SMOKY BRONZE (M.W) G-2004 05797-V3 (GRAMLIGHT)",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 815,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "SR157041ET35-WML-RGD2",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -32041,17 +32022,17 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 2,
-          "cost": 54.4,
-          "price": 98
+          "cost": 140,
+          "price": 140
         },
         {
           "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
-          "cost": 54.4,
-          "price": 98
+          "quantity": 6,
+          "cost": 140,
+          "price": 140
         }
       ]
     },
@@ -34856,7 +34837,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 6,
           "cost": 100,
           "price": 180
         },
@@ -36472,7 +36453,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 9,
           "cost": 8.5,
           "price": 25
         },
@@ -36604,7 +36585,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 19,
           "cost": 7.5,
           "price": 25
         },
@@ -39997,7 +39978,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 8,
           "price": 30
         }
@@ -46831,7 +46812,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 53,
           "price": 150
         }
@@ -49125,7 +49106,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 6,
           "cost": 32,
           "price": 80
         }
@@ -49299,25 +49280,6 @@
           "quantity": 1,
           "cost": 36,
           "price": 85
-        }
-      ]
-    },
-    {
-      "code": "PBPPLTX50FRT",
-      "groupKey": "parts",
-      "groupName": "PARTS",
-      "brand": "",
-      "name": "BRAKE PAD PLANTINUM CD6812 PROTON X50 FRT",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 104,
-          "price": 190
         }
       ]
     },
@@ -84510,6 +84472,25 @@
       ]
     },
     {
+      "code": "US2612039",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7JJ PCD100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US2612234",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -104375,6 +104356,25 @@
       ]
     },
     {
+      "code": "US2621056",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -108813,7 +108813,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 27,
+          "quantity": 26,
           "cost": 19,
           "price": 80
         }
@@ -110443,7 +110443,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 21,
+          "quantity": 20,
           "cost": 12,
           "price": 100
         }
@@ -111912,7 +111912,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 424,
+          "quantity": 422,
           "cost": 0.65,
           "price": 7
         },
@@ -111939,7 +111939,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 711,
+          "quantity": 709,
           "cost": 0.65,
           "price": 7
         }
@@ -111967,7 +111967,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 578,
+          "quantity": 569,
           "cost": 1.65,
           "price": 10
         },
@@ -111976,7 +111976,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 230,
+          "quantity": 226,
           "cost": 1.65,
           "price": 10
         },
@@ -111994,7 +111994,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 674,
+          "quantity": 664,
           "cost": 1.65,
           "price": 10
         }
