@@ -8166,7 +8166,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T09:00:59.323Z"
+      "lastCollectedAt": "2026-11-21T09:07:05.127Z"
     },
     "SR": {
       "days": {
@@ -15681,7 +15681,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T09:00:59.323Z"
+      "lastCollectedAt": "2026-11-21T09:07:05.127Z"
     },
     "ST": {
       "days": {
@@ -22447,15 +22447,15 @@
           ]
         },
         "2026-11-21": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 10290,
-              "netSales": 10290,
-              "cost": 9614,
-              "grossProfit": 676,
-              "quantity": 50
+              "sales": 10952,
+              "netSales": 10952,
+              "cost": 10298,
+              "grossProfit": 654,
+              "quantity": 54
             },
             {
               "key": "sport_rim",
@@ -22479,7 +22479,7 @@
               "netSales": 1296,
               "cost": 211.6,
               "grossProfit": 1084.4,
-              "quantity": 125
+              "quantity": 130
             }
           ],
           "items": [
@@ -22517,7 +22517,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 16,
+              "quantity": 17,
               "sales": 220,
               "netSales": 220,
               "cost": 0,
@@ -22527,7 +22527,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 54,
+              "quantity": 58,
               "sales": 240,
               "netSales": 240,
               "cost": 0,
@@ -22678,10 +22678,20 @@
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
               "quantity": 4,
-              "sales": 632,
-              "netSales": 632,
+              "sales": 702,
+              "netSales": 702,
               "cost": 692,
-              "grossProfit": -60
+              "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 4,
+              "sales": 592,
+              "netSales": 592,
+              "cost": 684,
+              "grossProfit": -92
             },
             {
               "category": "passenger_tire",
@@ -22847,7 +22857,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T09:00:59.323Z"
+      "lastCollectedAt": "2026-11-21T09:07:05.127Z"
     },
     "SK": {
       "days": {
@@ -27393,7 +27403,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T09:00:59.323Z"
+      "lastCollectedAt": "2026-11-21T09:07:05.127Z"
     },
     "KM": {
       "days": {
@@ -27703,8 +27713,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T09:00:59.323Z"
+      "lastCollectedAt": "2026-11-21T09:07:05.127Z"
     }
   },
-  "updatedAt": "2026-11-21T09:00:59.323Z"
+  "updatedAt": "2026-11-21T09:07:05.127Z"
 }
