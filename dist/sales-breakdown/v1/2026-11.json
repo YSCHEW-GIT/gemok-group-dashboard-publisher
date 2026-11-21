@@ -8186,7 +8186,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T10:42:28.693Z"
+      "lastCollectedAt": "2026-11-21T10:48:35.257Z"
     },
     "SR": {
       "days": {
@@ -15731,7 +15731,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T10:42:28.693Z"
+      "lastCollectedAt": "2026-11-21T10:48:35.257Z"
     },
     "ST": {
       "days": {
@@ -22501,19 +22501,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 12516,
-              "netSales": 12516,
+              "sales": 12586,
+              "netSales": 12586,
               "cost": 11914,
-              "grossProfit": 602,
+              "grossProfit": 672,
               "quantity": 62
             },
             {
               "key": "sport_rim",
               "sales": 1864,
               "netSales": 1864,
-              "cost": 2179,
-              "grossProfit": -315,
-              "quantity": 1
+              "cost": 1979,
+              "grossProfit": -115,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -22525,11 +22525,11 @@
             },
             {
               "key": "other",
-              "sales": 1586,
-              "netSales": 1586,
-              "cost": 237.2,
-              "grossProfit": 1348.8,
-              "quantity": 149
+              "sales": 1556,
+              "netSales": 1556,
+              "cost": 243.8,
+              "grossProfit": 1312.2,
+              "quantity": 153
             }
           ],
           "items": [
@@ -22555,13 +22555,23 @@
             },
             {
               "category": "sport_rim",
+              "itemCode": "US2612050",
+              "itemName": "USED SPORT RIM 15X5JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR156541ET40-GBM-WR",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 GLOSSY BLACK/MILLED 73.1 5135MA-03054-F7 (WELD RACING)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 814,
-              "grossProfit": -226
+              "grossProfit": -26
             },
             {
               "category": "sport_rim",
@@ -22588,20 +22598,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 21,
-              "sales": 280,
-              "netSales": 280,
+              "sales": 250,
+              "netSales": 250,
               "cost": 0,
-              "grossProfit": 280
+              "grossProfit": 250
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 66,
-              "sales": 240,
-              "netSales": 240,
+              "sales": 200,
+              "netSales": 200,
               "cost": 0,
-              "grossProfit": 240
+              "grossProfit": 200
             },
             {
               "category": "other",
@@ -22748,10 +22758,10 @@
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
               "quantity": 8,
-              "sales": 1334,
-              "netSales": 1334,
+              "sales": 1404,
+              "netSales": 1404,
               "cost": 1384,
-              "grossProfit": -50
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -22957,11 +22967,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 28,
-              "sales": 280,
-              "netSales": 280,
-              "cost": 46.2,
-              "grossProfit": 233.8
+              "quantity": 32,
+              "sales": 320,
+              "netSales": 320,
+              "cost": 52.8,
+              "grossProfit": 267.2
             },
             {
               "category": "other",
@@ -22977,7 +22987,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T10:42:28.693Z"
+      "lastCollectedAt": "2026-11-21T10:48:35.257Z"
     },
     "SK": {
       "days": {
@@ -27543,7 +27553,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T10:42:28.693Z"
+      "lastCollectedAt": "2026-11-21T10:48:35.257Z"
     },
     "KM": {
       "days": {
@@ -27853,8 +27863,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T10:42:28.693Z"
+      "lastCollectedAt": "2026-11-21T10:48:35.257Z"
     }
   },
-  "updatedAt": "2026-11-21T10:42:28.693Z"
+  "updatedAt": "2026-11-21T10:48:35.257Z"
 }
