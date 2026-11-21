@@ -7966,7 +7966,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T06:52:06.106Z"
+      "lastCollectedAt": "2026-11-21T06:58:12.871Z"
     },
     "SR": {
       "days": {
@@ -15061,15 +15061,15 @@
           ]
         },
         "2026-11-21": {
-          "documents": 19,
+          "documents": 20,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3539,
-              "netSales": 3539,
-              "cost": 3748.6,
-              "grossProfit": -209.6,
-              "quantity": 18
+              "sales": 3715,
+              "netSales": 3715,
+              "cost": 3920.6,
+              "grossProfit": -205.6,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -15089,11 +15089,11 @@
             },
             {
               "key": "other",
-              "sales": 1313,
-              "netSales": 1313,
+              "sales": 1333,
+              "netSales": 1333,
               "cost": 292,
-              "grossProfit": 1021,
-              "quantity": 85
+              "grossProfit": 1041,
+              "quantity": 87
             }
           ],
           "items": [
@@ -15141,11 +15141,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 29,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 31,
+              "sales": 170,
+              "netSales": 170,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 170
             },
             {
               "category": "other",
@@ -15191,11 +15191,11 @@
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
-              "quantity": 2,
-              "sales": 176,
-              "netSales": 176,
-              "cost": 172,
-              "grossProfit": 4
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 344,
+              "grossProfit": 8
             },
             {
               "category": "passenger_tire",
@@ -15421,7 +15421,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T06:52:06.106Z"
+      "lastCollectedAt": "2026-11-21T06:58:12.871Z"
     },
     "ST": {
       "days": {
@@ -22207,11 +22207,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 660,
-              "netSales": 660,
-              "cost": 364,
-              "grossProfit": 296,
-              "quantity": 5
+              "sales": 1135,
+              "netSales": 1135,
+              "cost": 513.8,
+              "grossProfit": 621.2,
+              "quantity": 10
             },
             {
               "key": "other",
@@ -22424,6 +22424,36 @@
               "grossProfit": 80
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PAOFP2D3GR",
+              "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
+              "quantity": 3,
+              "sales": 195,
+              "netSales": 195,
+              "cost": 64.8,
+              "grossProfit": 130.2
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK17425",
+              "itemName": "AT GASKET",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 55,
+              "grossProfit": 85
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKGASKET",
+              "itemName": "AT FILTER + GASKET (SET)",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 30,
+              "grossProfit": 110
+            },
+            {
               "category": "other",
               "itemCode": "MNRWRY150BLK",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
@@ -22467,7 +22497,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T06:52:06.106Z"
+      "lastCollectedAt": "2026-11-21T06:58:12.871Z"
     },
     "SK": {
       "days": {
@@ -26737,10 +26767,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2070,
-              "netSales": 2070,
+              "sales": 2013.46,
+              "netSales": 2013.46,
               "cost": 2115.6,
-              "grossProfit": -45.6,
+              "grossProfit": -102.14,
               "quantity": 14
             },
             {
@@ -26753,19 +26783,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 280,
-              "netSales": 280,
-              "cost": 137.5,
-              "grossProfit": 142.5,
-              "quantity": 3
+              "sales": 719.79,
+              "netSales": 719.79,
+              "cost": 295.5,
+              "grossProfit": 424.29,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 395,
-              "netSales": 395,
-              "cost": 20.1,
-              "grossProfit": 374.9,
-              "quantity": 37
+              "sales": 471.75,
+              "netSales": 471.75,
+              "cost": 25.3,
+              "grossProfit": 446.45,
+              "quantity": 39
             }
           ],
           "items": [
@@ -26774,100 +26804,100 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 68.09,
+              "netSales": 68.09,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 68.09
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 58.36,
+              "netSales": 58.36,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 58.36
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.73,
+              "netSales": 9.73,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.73
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
               "quantity": 1,
-              "sales": 25,
-              "netSales": 25,
+              "sales": 24.32,
+              "netSales": 24.32,
               "cost": 0,
-              "grossProfit": 25
+              "grossProfit": 24.32
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 19.45,
+              "netSales": 19.45,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 19.45
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL (2026)",
               "quantity": 2,
-              "sales": 238,
-              "netSales": 238,
+              "sales": 231.5,
+              "netSales": 231.5,
               "cost": 256,
-              "grossProfit": -18
+              "grossProfit": -24.5
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 230,
-              "netSales": 230,
+              "sales": 223.72,
+              "netSales": 223.72,
               "cost": 170,
-              "grossProfit": 60
+              "grossProfit": 53.72
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 4,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 385.18,
+              "netSales": 385.18,
               "cost": 340,
-              "grossProfit": 56
+              "grossProfit": 45.18
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 85V ZUPER FLEX Z-117 (2026)",
               "quantity": 2,
-              "sales": 326,
-              "netSales": 326,
+              "sales": 317.1,
+              "netSales": 317.1,
               "cost": 273.6,
-              "grossProfit": 52.4
+              "grossProfit": 43.5
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT196015CC7-26",
               "itemName": "CONTINENTAL 195/60/15 COMFORT CC7 9AV (2026)",
               "quantity": 4,
-              "sales": 880,
-              "netSales": 880,
+              "sales": 855.96,
+              "netSales": 855.96,
               "cost": 1076,
-              "grossProfit": -196
+              "grossProfit": -220.04
             },
             {
               "category": "foreman_item",
@@ -26881,49 +26911,79 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PKSLAPSONALH",
+              "itemName": "K SPORT LOWER ARM ORI - PERSONA OLD (LH) (BUSH)",
+              "quantity": 1,
+              "sales": 223.72,
+              "netSales": 223.72,
+              "cost": 79,
+              "grossProfit": 144.72
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PKSLAPSONARH",
+              "itemName": "K SPORT LOWER ARM ORI - PERSONA OLD (RH) (BUSH)",
+              "quantity": 1,
+              "sales": 223.72,
+              "netSales": 223.72,
+              "cost": 79,
+              "grossProfit": 144.72
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL0W20Q9000",
               "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
               "quantity": 1,
-              "sales": 260,
-              "netSales": 260,
+              "sales": 252.9,
+              "netSales": 252.9,
               "cost": 130,
-              "grossProfit": 130
+              "grossProfit": 122.9
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 87.54,
+              "netSales": 87.54,
               "cost": 7,
-              "grossProfit": 83
+              "grossProfit": 80.54
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 77.81,
+              "netSales": 77.81,
               "cost": 3.2,
-              "grossProfit": 76.8
+              "grossProfit": 74.61
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 58.36,
+              "netSales": 58.36,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 48.46
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPR12V",
+              "itemName": "CAMBER NUT PROTON (17MM)",
+              "quantity": 2,
+              "sales": 87.54,
+              "netSales": 87.54,
+              "cost": 5.2,
+              "grossProfit": 82.34
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T06:52:06.106Z"
+      "lastCollectedAt": "2026-11-21T06:58:12.871Z"
     },
     "KM": {
       "days": {
@@ -27233,8 +27293,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-21T06:52:06.106Z"
+      "lastCollectedAt": "2026-11-21T06:58:12.871Z"
     }
   },
-  "updatedAt": "2026-11-21T06:52:06.106Z"
+  "updatedAt": "2026-11-21T06:58:12.871Z"
 }
