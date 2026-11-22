@@ -8185,7 +8185,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8205,11 +8205,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 190,
+              "netSales": 190,
+              "cost": 105.5,
+              "grossProfit": 84.5,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -8220,11 +8220,32 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "POFTYTE2",
+              "itemName": "TOYOTA OIL FILTER YZZE2",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 6.5,
+              "grossProfit": -6.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 99,
+              "grossProfit": 91
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T01:42:58.888Z"
+      "lastCollectedAt": "2026-11-22T01:57:42.054Z"
     },
     "SR": {
       "days": {
@@ -15807,7 +15828,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T01:42:58.888Z"
+      "lastCollectedAt": "2026-11-22T01:57:42.054Z"
     },
     "ST": {
       "days": {
@@ -23101,7 +23122,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T01:42:58.888Z"
+      "lastCollectedAt": "2026-11-22T01:57:42.054Z"
     },
     "SK": {
       "days": {
@@ -27666,7 +27687,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -27694,18 +27715,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 40,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T01:42:58.888Z"
+      "lastCollectedAt": "2026-11-22T01:57:42.054Z"
     },
     "KM": {
       "days": {
@@ -28053,8 +28085,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T01:42:58.888Z"
+      "lastCollectedAt": "2026-11-22T01:57:42.054Z"
     }
   },
-  "updatedAt": "2026-11-22T01:42:58.888Z"
+  "updatedAt": "2026-11-22T01:57:42.054Z"
 }
