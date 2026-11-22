@@ -41,8 +41,8 @@ assert.match(html, /positiveGroups\.slice\(0,8\)/, "Inventory donut must display
 assert.match(html, /positiveGroups\.slice\(8\)/, "Inventory donut must aggregate groups after the top eight into Other");
 assert.match(html, /inventoryValueGroupColor\(group\.key\)/, "Inventory breakdown colors must be fixed by product group key");
 assert.match(html, /const inventoryValueOtherColor = '#94a3b8';/, "Aggregated Other must retain a dedicated color");
-assert.match(html, /timeZone:'Asia\\/Kuala_Lumpur',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'\\}\\)\\.format\\(inventoryDataUpdatedAt\\)/, "Inventory update timestamps must always use Malaysia time");
-assert.match(html, /timeZone:'Asia\\/Kuala_Lumpur',hour:'2-digit',minute:'2-digit'\\}\\)\\.format\\(inventoryCheckedAt\\)/, "Inventory check timestamps must always use Malaysia time");
+assert.ok(html.includes("timeZone:'Asia/Kuala_Lumpur',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(inventoryDataUpdatedAt)"), "Inventory update timestamps must always use Malaysia time");
+assert.ok(html.includes("timeZone:'Asia/Kuala_Lumpur',hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt)"), "Inventory check timestamps must always use Malaysia time");
 
 const directory = "dist/sales-breakdown/v1";
 const files = fs.readdirSync(directory).filter((file) => /^\d{4}-\d{2}\.json$/.test(file)).sort();
