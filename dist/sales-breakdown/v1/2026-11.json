@@ -8189,10 +8189,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 12800.52,
-              "netSales": 12800.52,
+              "sales": 12880.48,
+              "netSales": 12880.48,
               "cost": 11736.88,
-              "grossProfit": 1063.64,
+              "grossProfit": 1143.6,
               "quantity": 75
             },
             {
@@ -8213,10 +8213,10 @@
             },
             {
               "key": "other",
-              "sales": 3878.34,
-              "netSales": 3836.16,
+              "sales": 3798.38,
+              "netSales": 3762.12,
               "cost": 2606.35,
-              "grossProfit": 1229.81,
+              "grossProfit": 1155.77,
               "quantity": 225
             }
           ],
@@ -8335,21 +8335,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 22,
-              "sales": 239.92,
-              "netSales": 222.16,
+              "quantity": 21,
+              "sales": 209.93,
+              "netSales": 194.39,
               "cost": 0,
-              "grossProfit": 222.16
+              "grossProfit": 194.39
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 75,
-              "sales": 199.9,
-              "netSales": 185.1,
+              "sales": 159.92,
+              "netSales": 148.08,
               "cost": 0,
-              "grossProfit": 185.1
+              "grossProfit": 148.08
             },
             {
               "category": "foreman_item",
@@ -8395,11 +8395,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 2,
-              "sales": 39.98,
-              "netSales": 37.02,
+              "quantity": 3,
+              "sales": 29.98,
+              "netSales": 27.76,
               "cost": 0,
-              "grossProfit": 37.02
+              "grossProfit": 27.76
             },
             {
               "category": "passenger_tire",
@@ -8516,10 +8516,10 @@
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 591.75,
-              "netSales": 591.75,
+              "sales": 671.71,
+              "netSales": 671.71,
               "cost": 680,
-              "grossProfit": -88.25
+              "grossProfit": -8.29
             },
             {
               "category": "passenger_tire",
@@ -8736,16 +8736,16 @@
               "itemCode": "PADHXHDCITY",
               "itemName": "HYPERMAX ADJ ABSORBER HD CITY HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1387.43,
-              "netSales": 1387.43,
+              "sales": 1387.44,
+              "netSales": 1387.44,
               "cost": 2142.02,
-              "grossProfit": -754.59
+              "grossProfit": -754.58
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T09:53:34.372Z"
+      "lastCollectedAt": "2026-11-22T09:59:39.956Z"
     },
     "SR": {
       "days": {
@@ -16289,7 +16289,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16309,11 +16309,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 768,
-              "netSales": 768,
-              "cost": 343.8,
-              "grossProfit": 424.2,
-              "quantity": 12
+              "sales": 968,
+              "netSales": 968,
+              "cost": 423.8,
+              "grossProfit": 544.2,
+              "quantity": 13
             },
             {
               "key": "other",
@@ -16567,6 +16567,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PAOATFIV",
+              "itemName": "TOYOTA ATF 4LT TYPE T-IV",
+              "quantity": 1,
+              "sales": 200,
+              "netSales": 200,
+              "cost": 80,
+              "grossProfit": 120
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL0W20Q9000",
               "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
               "quantity": 1,
@@ -16709,7 +16719,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T09:53:34.372Z"
+      "lastCollectedAt": "2026-11-22T09:59:39.956Z"
     },
     "ST": {
       "days": {
@@ -24214,7 +24224,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T09:53:34.372Z"
+      "lastCollectedAt": "2026-11-22T09:59:39.956Z"
     },
     "SK": {
       "days": {
@@ -29099,7 +29109,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T09:53:34.372Z"
+      "lastCollectedAt": "2026-11-22T09:59:39.956Z"
     },
     "KM": {
       "days": {
@@ -29447,8 +29457,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T09:53:34.372Z"
+      "lastCollectedAt": "2026-11-22T09:59:39.956Z"
     }
   },
-  "updatedAt": "2026-11-22T09:53:34.372Z"
+  "updatedAt": "2026-11-22T09:59:39.956Z"
 }
