@@ -8185,14 +8185,14 @@
           ]
         },
         "2026-11-22": {
-          "documents": 36,
+          "documents": 37,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13542.66,
-              "netSales": 13542.66,
+              "sales": 13662.62,
+              "netSales": 13662.62,
               "cost": 12416.88,
-              "grossProfit": 1125.78,
+              "grossProfit": 1245.74,
               "quantity": 79
             },
             {
@@ -8213,11 +8213,11 @@
             },
             {
               "key": "other",
-              "sales": 4073.39,
-              "netSales": 4035.28,
+              "sales": 3971.43,
+              "netSales": 3940.87,
               "cost": 2664.95,
-              "grossProfit": 1370.33,
-              "quantity": 259
+              "grossProfit": 1275.92,
+              "quantity": 261
             }
           ],
           "items": [
@@ -8356,20 +8356,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 22,
-              "sales": 209.93,
-              "netSales": 194.39,
+              "sales": 149.95,
+              "netSales": 138.85,
               "cost": 0,
-              "grossProfit": 194.39
+              "grossProfit": 138.85
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 79,
-              "sales": 159.95,
-              "netSales": 148.11,
+              "sales": 99.97,
+              "netSales": 92.57,
               "cost": 0,
-              "grossProfit": 148.11
+              "grossProfit": 92.57
             },
             {
               "category": "foreman_item",
@@ -8395,21 +8395,21 @@
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 9.26,
+              "quantity": 2,
+              "sales": 18,
+              "netSales": 16.67,
               "cost": 0,
-              "grossProfit": 9.26
+              "grossProfit": 16.67
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -8446,10 +8446,10 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 12,
-              "sales": 1225.51,
-              "netSales": 1225.51,
+              "sales": 1275.49,
+              "netSales": 1275.49,
               "cost": 1020,
-              "grossProfit": 205.51
+              "grossProfit": 255.49
             },
             {
               "category": "passenger_tire",
@@ -8536,20 +8536,20 @@
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 8,
-              "sales": 1333.47,
-              "netSales": 1333.47,
+              "sales": 1333.48,
+              "netSales": 1333.48,
               "cost": 1360,
-              "grossProfit": -26.53
+              "grossProfit": -26.52
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS195515RE005-26",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 8,
-              "sales": 1813.29,
-              "netSales": 1813.29,
+              "sales": 1883.26,
+              "netSales": 1883.26,
               "cost": 1689.28,
-              "grossProfit": 124.01
+              "grossProfit": 193.98
             },
             {
               "category": "passenger_tire",
@@ -8785,7 +8785,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:36:18.457Z"
+      "lastCollectedAt": "2026-11-22T10:50:25.269Z"
     },
     "SR": {
       "days": {
@@ -16759,7 +16759,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:36:18.457Z"
+      "lastCollectedAt": "2026-11-22T10:50:25.269Z"
     },
     "ST": {
       "days": {
@@ -24264,7 +24264,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:36:18.457Z"
+      "lastCollectedAt": "2026-11-22T10:50:25.269Z"
     },
     "SK": {
       "days": {
@@ -29149,7 +29149,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:36:18.457Z"
+      "lastCollectedAt": "2026-11-22T10:50:25.269Z"
     },
     "KM": {
       "days": {
@@ -29497,8 +29497,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:36:18.457Z"
+      "lastCollectedAt": "2026-11-22T10:50:25.269Z"
     }
   },
-  "updatedAt": "2026-11-22T10:36:18.457Z"
+  "updatedAt": "2026-11-22T10:50:25.269Z"
 }
