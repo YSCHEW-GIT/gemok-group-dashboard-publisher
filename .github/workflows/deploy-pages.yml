@@ -70,10 +70,7 @@ jobs:
             if gh api \
               "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
               --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id' \
-              2>/dev/null | grep -qE '^[0-9]+
-        id: deployment
-        uses: actions/deploy-pages@v4
-; then
+              2>/dev/null | grep -q '[0-9]'; then
               echo "github-pages artifact is visible."
               exit 0
             fi
