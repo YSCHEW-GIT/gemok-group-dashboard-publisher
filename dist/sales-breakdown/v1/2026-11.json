@@ -8185,14 +8185,14 @@
           ]
         },
         "2026-11-22": {
-          "documents": 30,
+          "documents": 31,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11618.43,
-              "netSales": 11618.43,
+              "sales": 11618.46,
+              "netSales": 11618.46,
               "cost": 10972.88,
-              "grossProfit": 645.55,
+              "grossProfit": 645.58,
               "quantity": 69
             },
             {
@@ -8205,18 +8205,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2163.97,
-              "netSales": 2143.97,
-              "cost": 1036.15,
-              "grossProfit": 1107.82,
-              "quantity": 14
+              "sales": 2333.91,
+              "netSales": 2313.91,
+              "cost": 1124.65,
+              "grossProfit": 1189.26,
+              "quantity": 16
             },
             {
               "key": "other",
-              "sales": 3933.12,
-              "netSales": 3875.77,
+              "sales": 3933.15,
+              "netSales": 3875.8,
               "cost": 2589.45,
-              "grossProfit": 1286.32,
+              "grossProfit": 1286.35,
               "quantity": 207
             }
           ],
@@ -8426,30 +8426,30 @@
               "itemCode": "TPWL206017RP76-26",
               "itemName": "WEST LAKE 205/60/17 RP76 97H CN TL XL (2026)",
               "quantity": 2,
-              "sales": 509.75,
-              "netSales": 509.75,
+              "sales": 509.76,
+              "netSales": 509.76,
               "cost": 408,
-              "grossProfit": 101.75
+              "grossProfit": 101.76
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1-26",
               "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
               "quantity": 4,
-              "sales": 781.62,
-              "netSales": 781.62,
+              "sales": 781.63,
+              "netSales": 781.63,
               "cost": 780,
-              "grossProfit": 1.62
+              "grossProfit": 1.63
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
               "quantity": 4,
-              "sales": 741.64,
-              "netSales": 741.64,
+              "sales": 741.65,
+              "netSales": 741.65,
               "cost": 628,
-              "grossProfit": 113.64
+              "grossProfit": 113.65
             },
             {
               "category": "passenger_tire",
@@ -8523,6 +8523,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFPRKN",
+              "itemName": "OIL FILTER PERODUA 00R01",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 6.5,
+              "grossProfit": -6.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "POFHMHD",
               "itemName": "HONDA OIL FILTER",
               "quantity": 1,
@@ -8555,21 +8565,21 @@
               "category": "foreman_item",
               "itemCode": "OETL10W30Q5000",
               "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 1,
-              "sales": 169.92,
-              "netSales": 169.92,
-              "cost": 82,
-              "grossProfit": 87.92
+              "quantity": 2,
+              "sales": 339.84,
+              "netSales": 339.84,
+              "cost": 164,
+              "grossProfit": 175.84
             },
             {
               "category": "foreman_item",
               "itemCode": "OTYTCVTFTC",
               "itemName": "ATF OIL CVTF TC 4LT WISH VELFIRE ESTIMA",
               "quantity": 1,
-              "sales": 239.88,
-              "netSales": 239.88,
+              "sales": 239.89,
+              "netSales": 239.89,
               "cost": 121,
-              "grossProfit": 118.88
+              "grossProfit": 118.89
             },
             {
               "category": "foreman_item",
@@ -8666,26 +8676,26 @@
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.89,
-              "netSales": 219.89,
+              "sales": 219.9,
+              "netSales": 219.9,
               "cost": 196.25,
-              "grossProfit": 23.64
+              "grossProfit": 23.65
             },
             {
               "category": "other",
               "itemCode": "PADHXHDCITY",
               "itemName": "HYPERMAX ADJ ABSORBER HD CITY HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1387.28,
-              "netSales": 1387.28,
+              "sales": 1387.31,
+              "netSales": 1387.31,
               "cost": 2142.02,
-              "grossProfit": -754.74
+              "grossProfit": -754.71
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T08:29:54.660Z"
+      "lastCollectedAt": "2026-11-22T08:36:01.683Z"
     },
     "SR": {
       "days": {
@@ -16639,7 +16649,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T08:29:54.660Z"
+      "lastCollectedAt": "2026-11-22T08:36:01.683Z"
     },
     "ST": {
       "days": {
@@ -24134,7 +24144,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T08:29:54.660Z"
+      "lastCollectedAt": "2026-11-22T08:36:01.683Z"
     },
     "SK": {
       "days": {
@@ -28699,15 +28709,15 @@
           ]
         },
         "2026-11-22": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2230,
-              "netSales": 2230,
-              "cost": 2148,
-              "grossProfit": 82,
-              "quantity": 13
+              "sales": 2706,
+              "netSales": 2706,
+              "cost": 2660,
+              "grossProfit": 46,
+              "quantity": 17
             },
             {
               "key": "sport_rim",
@@ -28727,11 +28737,11 @@
             },
             {
               "key": "other",
-              "sales": 721,
-              "netSales": 721,
-              "cost": 53.45,
-              "grossProfit": 667.55,
-              "quantity": 54
+              "sales": 841,
+              "netSales": 841,
+              "cost": 60.05,
+              "grossProfit": 780.95,
+              "quantity": 63
             }
           ],
           "items": [
@@ -28749,11 +28759,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 2,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -28779,11 +28789,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 23,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 27,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -28814,6 +28824,16 @@
               "netSales": 11,
               "cost": 0,
               "grossProfit": 11
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TH (2026)",
+              "quantity": 4,
+              "sales": 476,
+              "netSales": 476,
+              "cost": 512,
+              "grossProfit": -36
             },
             {
               "category": "passenger_tire",
@@ -28989,17 +29009,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 5,
-              "sales": 50,
-              "netSales": 50,
-              "cost": 8.25,
-              "grossProfit": 41.75
+              "quantity": 9,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 14.85,
+              "grossProfit": 75.15
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T08:29:54.660Z"
+      "lastCollectedAt": "2026-11-22T08:36:01.683Z"
     },
     "KM": {
       "days": {
@@ -29347,8 +29367,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T08:29:54.660Z"
+      "lastCollectedAt": "2026-11-22T08:36:01.683Z"
     }
   },
-  "updatedAt": "2026-11-22T08:29:54.660Z"
+  "updatedAt": "2026-11-22T08:36:01.683Z"
 }
