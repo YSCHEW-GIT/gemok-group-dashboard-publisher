@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-22T01:21:38.228Z",
+  "updatedAt": "2026-11-22T02:33:18.058Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 447,
-      "quantity": 2172,
-      "stockValue": 441217.44
+      "quantity": 2188,
+      "stockValue": 446387.44
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 702,
-      "quantity": 635,
-      "stockValue": 336488.52
+      "quantity": 634,
+      "stockValue": 335738.52
     },
     {
       "key": "absorber",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 259,
-      "stockValue": 13432.349999999999
+      "quantity": 258,
+      "stockValue": 13396.349999999999
     },
     {
       "key": "brake-pump",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2198,
-      "stockValue": 163251.13
+      "quantity": 2194,
+      "stockValue": 162920.13
     },
     {
       "key": "oil-filter",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 871,
-      "quantity": 2920.5,
-      "stockValue": 104335.64999999998
+      "quantity": 2918.5,
+      "stockValue": 104319.64999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 10209,
-      "stockValue": 59543.49999999999
+      "quantity": 10178,
+      "stockValue": 59476.969999999994
     },
     {
       "key": "non-stock-item",
@@ -2111,6 +2111,15 @@
           "quantity": 50,
           "cost": 232,
           "price": 208
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 10,
+          "cost": 232,
+          "price": 208
         }
       ]
     },
@@ -3212,7 +3221,16 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 1,
-          "cost": 482,
+          "cost": 484,
+          "price": 428
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 4,
+          "cost": 484,
           "price": 428
         }
       ]
@@ -4504,7 +4522,7 @@
           "company": "Chew Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 229,
+          "cost": 255,
           "price": 240
         },
         {
@@ -4512,8 +4530,8 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 230,
+          "quantity": 8,
+          "cost": 256,
           "price": 0
         }
       ]
@@ -6693,7 +6711,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 195,
           "price": 0
         }
@@ -22081,15 +22099,6 @@
           "quantity": 0,
           "cost": 750,
           "price": 588
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 750,
-          "price": 588
         }
       ]
     },
@@ -31878,7 +31887,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 36,
           "price": 120
         }
@@ -33707,7 +33716,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 58,
+          "quantity": 57,
           "cost": 29,
           "price": 100
         },
@@ -34744,7 +34753,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 11,
           "cost": 82,
           "price": 0
         },
@@ -34790,7 +34799,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 21,
           "cost": 99,
           "price": 0
         },
@@ -35670,7 +35679,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 121,
           "price": 0
         },
@@ -52835,7 +52844,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 35,
+          "quantity": 34,
           "cost": 9.5,
           "price": 25
         }
@@ -53339,7 +53348,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 25,
+          "quantity": 24,
           "cost": 6.5,
           "price": 25
         },
@@ -106293,7 +106302,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 78,
+          "quantity": 76,
           "cost": 3.5,
           "price": 45
         }
@@ -108046,7 +108055,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 404,
+          "quantity": 384,
           "cost": 2,
           "price": 150
         },
@@ -110453,7 +110462,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 86,
+          "quantity": 82,
           "cost": 3,
           "price": 100
         },
@@ -111828,7 +111837,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 47,
+          "quantity": 46,
           "cost": 0.93,
           "price": 0
         },
@@ -112004,7 +112013,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 561,
+          "quantity": 557,
           "cost": 1.65,
           "price": 10
         },
