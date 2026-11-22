@@ -8495,7 +8495,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T04:00:25.753Z"
+      "lastCollectedAt": "2026-11-22T04:06:31.688Z"
     },
     "SR": {
       "days": {
@@ -16039,7 +16039,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16059,11 +16059,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 343,
-              "netSales": 343,
-              "cost": 122.5,
-              "grossProfit": 220.5,
-              "quantity": 5
+              "sales": 763,
+              "netSales": 763,
+              "cost": 314.8,
+              "grossProfit": 448.2,
+              "quantity": 10
             },
             {
               "key": "other",
@@ -16177,6 +16177,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFCMAXIA",
+              "itemName": "OIL FILTER AXIA BEZZA P2A12",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 9.5,
+              "grossProfit": -9.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL0W20Q9000",
+              "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
+              "quantity": 1,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 118,
+              "grossProfit": 122
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
@@ -16184,6 +16204,16 @@
               "netSales": 90,
               "cost": 29,
               "grossProfit": 61
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAOFP2D3GR",
+              "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
+              "quantity": 3,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 64.8,
+              "grossProfit": 115.2
             },
             {
               "category": "foreman_item",
@@ -16229,7 +16259,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T04:00:25.753Z"
+      "lastCollectedAt": "2026-11-22T04:06:31.688Z"
     },
     "ST": {
       "days": {
@@ -23644,7 +23674,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T04:00:25.753Z"
+      "lastCollectedAt": "2026-11-22T04:06:31.688Z"
     },
     "SK": {
       "days": {
@@ -28231,9 +28261,9 @@
               "key": "foreman_item",
               "sales": 590,
               "netSales": 590,
-              "cost": 252.3,
-              "grossProfit": 337.7,
-              "quantity": 7
+              "cost": 497.3,
+              "grossProfit": 92.7,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -28326,6 +28356,26 @@
               "grossProfit": 100.2
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK26110035",
+              "itemName": "FAN BELT 1181 ECO (G)91077 MYVI",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 65,
+              "grossProfit": -65
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110036",
+              "itemName": "SPARK PLUG (G) 91068 BEZZA D63",
+              "quantity": 4,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 180,
+              "grossProfit": -180
+            },
+            {
               "category": "other",
               "itemCode": "MNCNA",
               "itemName": "CAMBER NUT NISSAN ALMERA",
@@ -28339,7 +28389,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T04:00:25.753Z"
+      "lastCollectedAt": "2026-11-22T04:06:31.688Z"
     },
     "KM": {
       "days": {
@@ -28687,8 +28737,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T04:00:25.753Z"
+      "lastCollectedAt": "2026-11-22T04:06:31.688Z"
     }
   },
-  "updatedAt": "2026-11-22T04:00:25.753Z"
+  "updatedAt": "2026-11-22T04:06:31.688Z"
 }
