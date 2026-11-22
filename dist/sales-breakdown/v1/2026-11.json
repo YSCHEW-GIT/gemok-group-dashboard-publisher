@@ -8625,7 +8625,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T07:38:01.133Z"
+      "lastCollectedAt": "2026-11-22T07:44:18.047Z"
     },
     "SR": {
       "days": {
@@ -16169,7 +16169,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16197,11 +16197,11 @@
             },
             {
               "key": "other",
-              "sales": 2014,
-              "netSales": 2014,
-              "cost": 1470.95,
-              "grossProfit": 543.05,
-              "quantity": 50
+              "sales": 2049,
+              "netSales": 2049,
+              "cost": 1473.9,
+              "grossProfit": 575.1,
+              "quantity": 52
             }
           ],
           "items": [
@@ -16516,6 +16516,26 @@
               "grossProfit": 63
             },
             {
+              "category": "other",
+              "itemCode": "MDT042",
+              "itemName": "DURA TUBE PATCHES 42MM (CIRCLE)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0.35,
+              "grossProfit": 9.65
+            },
+            {
+              "category": "other",
+              "itemCode": "MTT001",
+              "itemName": "Tip Top CP1",
+              "quantity": 1,
+              "sales": 25,
+              "netSales": 25,
+              "cost": 2.6,
+              "grossProfit": 22.4
+            },
+            {
               "category": "foreman_item",
               "itemCode": "MISWHM12A",
               "itemName": "ALUMINIUM WASHER M12A",
@@ -16549,7 +16569,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T07:38:01.133Z"
+      "lastCollectedAt": "2026-11-22T07:44:18.047Z"
     },
     "ST": {
       "days": {
@@ -23808,11 +23828,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4744,
-              "netSales": 4744,
-              "cost": 4360,
-              "grossProfit": 384,
-              "quantity": 26
+              "sales": 4738.47,
+              "netSales": 4738.47,
+              "cost": 4554,
+              "grossProfit": 184.47,
+              "quantity": 28
             },
             {
               "key": "sport_rim",
@@ -23824,19 +23844,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 435,
-              "netSales": 435,
+              "sales": 415.58,
+              "netSales": 415.58,
               "cost": 187.5,
-              "grossProfit": 247.5,
+              "grossProfit": 228.08,
               "quantity": 9
             },
             {
               "key": "other",
-              "sales": 511,
-              "netSales": 511,
+              "sales": 535.95,
+              "netSales": 535.95,
               "cost": 35.5,
-              "grossProfit": 475.5,
-              "quantity": 65
+              "grossProfit": 500.45,
+              "quantity": 68
             }
           ],
           "items": [
@@ -23845,40 +23865,40 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 28.65,
+              "netSales": 28.65,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 28.65
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 12,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 13,
+              "sales": 171.96,
+              "netSales": 171.96,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 171.96
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 28,
+              "sales": 38.22,
+              "netSales": 38.22,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 38.22
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 6,
-              "sales": 115,
-              "netSales": 115,
+              "sales": 109.87,
+              "netSales": 109.87,
               "cost": 0,
-              "grossProfit": 115
+              "grossProfit": 109.87
             },
             {
               "category": "other",
@@ -23895,80 +23915,90 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 6,
-              "sales": 1318,
-              "netSales": 1318,
+              "sales": 1259.13,
+              "netSales": 1259.13,
               "cost": 1386,
-              "grossProfit": -68
+              "grossProfit": -126.87
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 6,
-              "sales": 648,
-              "netSales": 648,
+              "sales": 619.06,
+              "netSales": 619.06,
               "cost": 516,
-              "grossProfit": 132
+              "grossProfit": 103.06
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 422,
-              "netSales": 422,
+              "sales": 403.15,
+              "netSales": 403.15,
               "cost": 344,
-              "grossProfit": 78
+              "grossProfit": 59.15
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
               "quantity": 2,
-              "sales": 370,
-              "netSales": 370,
+              "sales": 353.48,
+              "netSales": 353.48,
               "cost": 316,
-              "grossProfit": 54
+              "grossProfit": 37.48
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185516CR1",
               "itemName": "TOYO 185/55/16 PXCR1 M'SIA (2026)",
               "quantity": 2,
-              "sales": 456,
-              "netSales": 456,
+              "sales": 435.63,
+              "netSales": 435.63,
               "cost": 406,
-              "grossProfit": 50
+              "grossProfit": 29.63
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 4,
-              "sales": 582,
-              "netSales": 582,
+              "sales": 556.01,
+              "netSales": 556.01,
               "cost": 512,
-              "grossProfit": 70
+              "grossProfit": 44.01
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN225519HT6-26",
               "itemName": "GENERAL 225/55/19 GRABBER HT6 99V FR (2026)",
               "quantity": 2,
-              "sales": 948,
-              "netSales": 948,
+              "sales": 905.66,
+              "netSales": 905.66,
               "cost": 880,
-              "grossProfit": 68
+              "grossProfit": 25.66
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPHX165015CL01-26",
+              "itemName": "HANMIX 165/50/15 CLASSIC CL01 72H CN (2026)",
+              "quantity": 2,
+              "sales": 206.35,
+              "netSales": 206.35,
+              "cost": 194,
+              "grossProfit": 12.35
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKBRAKEFRT",
               "itemName": "BRAKE PAD FRT",
               "quantity": 1,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 133.75,
+              "netSales": 133.75,
               "cost": 80,
-              "grossProfit": 60
+              "grossProfit": 53.75
             },
             {
               "category": "foreman_item",
@@ -23985,46 +24015,46 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 171.96,
+              "netSales": 171.96,
               "cost": 100,
-              "grossProfit": 80
+              "grossProfit": 71.96
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 3,
-              "sales": 135,
-              "netSales": 135,
+              "sales": 128.97,
+              "netSales": 128.97,
               "cost": 10.5,
-              "grossProfit": 124.5
+              "grossProfit": 118.47
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 114.66,
+              "netSales": 114.66,
               "cost": 19.8,
-              "grossProfit": 100.2
+              "grossProfit": 94.86
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 8,
-              "sales": 56,
-              "netSales": 56,
+              "sales": 53.49,
+              "netSales": 53.49,
               "cost": 5.2,
-              "grossProfit": 50.8
+              "grossProfit": 48.29
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T07:38:01.133Z"
+      "lastCollectedAt": "2026-11-22T07:44:18.047Z"
     },
     "SK": {
       "days": {
@@ -28889,7 +28919,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T07:38:01.133Z"
+      "lastCollectedAt": "2026-11-22T07:44:18.047Z"
     },
     "KM": {
       "days": {
@@ -29237,8 +29267,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T07:38:01.133Z"
+      "lastCollectedAt": "2026-11-22T07:44:18.047Z"
     }
   },
-  "updatedAt": "2026-11-22T07:38:01.133Z"
+  "updatedAt": "2026-11-22T07:44:18.047Z"
 }
