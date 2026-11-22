@@ -8185,42 +8185,102 @@
           ]
         },
         "2026-11-22": {
-          "documents": 1,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 647.34,
+              "netSales": 647.34,
+              "cost": 780,
+              "grossProfit": -132.66,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 534.6,
+              "netSales": 534.6,
+              "cost": 750,
+              "grossProfit": -215.4,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 190,
-              "netSales": 190,
-              "cost": 105.5,
-              "grossProfit": 84.5,
-              "quantity": 2
+              "sales": 756.16,
+              "netSales": 739.12,
+              "cost": 318,
+              "grossProfit": 421.12,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 491.9,
+              "netSales": 481.54,
+              "cost": 66.53,
+              "grossProfit": 415.01,
+              "quantity": 42
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "SR1541-DHB-CE28",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE -CE28",
+              "quantity": 1,
+              "sales": 534.6,
+              "netSales": 534.6,
+              "cost": 750,
+              "grossProfit": -215.4
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 54.96,
+              "netSales": 50.52,
+              "cost": 0,
+              "grossProfit": 50.52
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 9,
+              "sales": 73.28,
+              "netSales": 67.36,
+              "cost": 0,
+              "grossProfit": 67.36
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 210.66,
+              "netSales": 193.62,
+              "cost": 0,
+              "grossProfit": 193.62
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1-26",
+              "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
+              "quantity": 4,
+              "sales": 647.34,
+              "netSales": 647.34,
+              "cost": 780,
+              "grossProfit": -132.66
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFGPAXIA",
+              "itemName": "PERODUA AXIA OIL FILTER 15601 P2A12 HSG",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 9.5,
+              "grossProfit": -9.5
+            },
             {
               "category": "foreman_item",
               "itemCode": "POFTYTE2",
@@ -8236,16 +8296,86 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 190,
-              "netSales": 190,
+              "sales": 172.74,
+              "netSales": 172.74,
               "cost": 99,
-              "grossProfit": 91
+              "grossProfit": 73.74
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W30Q5000",
+              "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 154.56,
+              "netSales": 154.56,
+              "cost": 82,
+              "grossProfit": 72.56
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OTYTCVTFTC",
+              "itemName": "ATF OIL CVTF TC 4LT WISH VELFIRE ESTIMA",
+              "quantity": 1,
+              "sales": 218.2,
+              "netSales": 218.2,
+              "cost": 121,
+              "grossProfit": 97.2
+            },
+            {
+              "category": "other",
+              "itemCode": "MNRWRY150BLK",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
+              "quantity": 20,
+              "sales": 100.01,
+              "netSales": 100.01,
+              "cost": 40,
+              "grossProfit": 60.01
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 81.83,
+              "netSales": 81.83,
+              "cost": 7,
+              "grossProfit": 74.83
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 4,
+              "sales": 90.92,
+              "netSales": 90.92,
+              "cost": 12,
+              "grossProfit": 78.92
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 36.37,
+              "netSales": 36.37,
+              "cost": 6.6,
+              "grossProfit": 29.77
+            },
+            {
+              "category": "other",
+              "itemCode": "MTT060",
+              "itemName": "TIP TOP 60MM",
+              "quantity": 1,
+              "sales": 54.53,
+              "netSales": 54.53,
+              "cost": 0.93,
+              "grossProfit": 53.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:04:47.392Z"
+      "lastCollectedAt": "2026-11-22T02:11:24.645Z"
     },
     "SR": {
       "days": {
@@ -15828,7 +15958,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:04:47.392Z"
+      "lastCollectedAt": "2026-11-22T02:11:24.645Z"
     },
     "ST": {
       "days": {
@@ -23083,7 +23213,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -23111,18 +23241,39 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 70,
+              "quantity": 5
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:04:47.392Z"
+      "lastCollectedAt": "2026-11-22T02:11:24.645Z"
     },
     "SK": {
       "days": {
@@ -27687,7 +27838,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -27715,11 +27866,11 @@
             },
             {
               "key": "other",
-              "sales": 40,
-              "netSales": 40,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 40,
-              "quantity": 1
+              "grossProfit": 70,
+              "quantity": 2
             }
           ],
           "items": [
@@ -27732,12 +27883,22 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:04:47.392Z"
+      "lastCollectedAt": "2026-11-22T02:11:24.645Z"
     },
     "KM": {
       "days": {
@@ -28085,8 +28246,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:04:47.392Z"
+      "lastCollectedAt": "2026-11-22T02:11:24.645Z"
     }
   },
-  "updatedAt": "2026-11-22T02:04:47.392Z"
+  "updatedAt": "2026-11-22T02:11:24.645Z"
 }
