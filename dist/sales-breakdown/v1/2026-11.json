@@ -8185,14 +8185,14 @@
           ]
         },
         "2026-11-22": {
-          "documents": 35,
+          "documents": 36,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13472.57,
-              "netSales": 13472.57,
+              "sales": 13472.59,
+              "netSales": 13472.59,
               "cost": 12416.88,
-              "grossProfit": 1055.69,
+              "grossProfit": 1055.71,
               "quantity": 79
             },
             {
@@ -8205,18 +8205,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2733.89,
-              "netSales": 2713.89,
-              "cost": 1265.15,
-              "grossProfit": 1448.74,
-              "quantity": 19
+              "sales": 2823.85,
+              "netSales": 2803.85,
+              "cost": 1293.15,
+              "grossProfit": 1510.7,
+              "quantity": 20
             },
             {
               "key": "other",
-              "sales": 4118.38,
-              "netSales": 4076.94,
+              "sales": 4118.4,
+              "netSales": 4076.96,
               "cost": 2664.95,
-              "grossProfit": 1411.99,
+              "grossProfit": 1412.01,
               "quantity": 258
             }
           ],
@@ -8456,20 +8456,20 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 2,
-              "sales": 285.88,
-              "netSales": 285.88,
+              "sales": 285.89,
+              "netSales": 285.89,
               "cost": 273.6,
-              "grossProfit": 12.28
+              "grossProfit": 12.29
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL206017RP76-26",
               "itemName": "WEST LAKE 205/60/17 RP76 97H CN TL XL (2026)",
               "quantity": 2,
-              "sales": 509.79,
-              "netSales": 509.79,
+              "sales": 509.8,
+              "netSales": 509.8,
               "cost": 408,
-              "grossProfit": 101.79
+              "grossProfit": 101.8
             },
             {
               "category": "passenger_tire",
@@ -8623,6 +8623,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 89.96,
+              "netSales": 89.96,
+              "cost": 28,
+              "grossProfit": 61.96
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OTYTCVTFTC",
               "itemName": "ATF OIL CVTF TC 4LT WISH VELFIRE ESTIMA",
               "quantity": 1,
@@ -8756,16 +8766,16 @@
               "itemCode": "PADHXHDCITY",
               "itemName": "HYPERMAX ADJ ABSORBER HD CITY HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1387.49,
-              "netSales": 1387.49,
+              "sales": 1387.51,
+              "netSales": 1387.51,
               "cost": 2142.02,
-              "grossProfit": -754.53
+              "grossProfit": -754.51
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:11:54.060Z"
+      "lastCollectedAt": "2026-11-22T10:18:00.372Z"
     },
     "SR": {
       "days": {
@@ -16739,7 +16749,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:11:54.060Z"
+      "lastCollectedAt": "2026-11-22T10:18:00.372Z"
     },
     "ST": {
       "days": {
@@ -24244,7 +24254,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:11:54.060Z"
+      "lastCollectedAt": "2026-11-22T10:18:00.372Z"
     },
     "SK": {
       "days": {
@@ -29129,7 +29139,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:11:54.060Z"
+      "lastCollectedAt": "2026-11-22T10:18:00.372Z"
     },
     "KM": {
       "days": {
@@ -29477,8 +29487,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T10:11:54.060Z"
+      "lastCollectedAt": "2026-11-22T10:18:00.372Z"
     }
   },
-  "updatedAt": "2026-11-22T10:11:54.060Z"
+  "updatedAt": "2026-11-22T10:18:00.372Z"
 }
