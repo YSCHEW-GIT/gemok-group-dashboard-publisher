@@ -8435,7 +8435,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T03:07:40.087Z"
+      "lastCollectedAt": "2026-11-22T03:13:49.604Z"
     },
     "SR": {
       "days": {
@@ -15979,7 +15979,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16007,11 +16007,11 @@
             },
             {
               "key": "other",
-              "sales": 274,
-              "netSales": 274,
-              "cost": 1.3,
-              "grossProfit": 272.7,
-              "quantity": 25
+              "sales": 1784,
+              "netSales": 1784,
+              "cost": 1402.3,
+              "grossProfit": 381.7,
+              "quantity": 31
             }
           ],
           "items": [
@@ -16019,11 +16019,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
@@ -16054,6 +16054,16 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 4,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 100,
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -16104,12 +16114,22 @@
               "netSales": 98,
               "cost": 36,
               "grossProfit": 62
+            },
+            {
+              "category": "other",
+              "itemCode": "PADJD2HCFD",
+              "itemName": "D2 ADJUSTABLE HONDA CIVIC FD HI-LOW BODY SHIFT FRT-REAR",
+              "quantity": 1,
+              "sales": 1360,
+              "netSales": 1360,
+              "cost": 1301,
+              "grossProfit": 59
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T03:07:40.087Z"
+      "lastCollectedAt": "2026-11-22T03:13:49.604Z"
     },
     "ST": {
       "days": {
@@ -23464,7 +23484,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T03:07:40.087Z"
+      "lastCollectedAt": "2026-11-22T03:13:49.604Z"
     },
     "SK": {
       "days": {
@@ -28119,7 +28139,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T03:07:40.087Z"
+      "lastCollectedAt": "2026-11-22T03:13:49.604Z"
     },
     "KM": {
       "days": {
@@ -28467,8 +28487,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T03:07:40.087Z"
+      "lastCollectedAt": "2026-11-22T03:13:49.604Z"
     }
   },
-  "updatedAt": "2026-11-22T03:07:40.087Z"
+  "updatedAt": "2026-11-22T03:13:49.604Z"
 }
