@@ -1547,11 +1547,11 @@
     function inventoryMetaText() {
       const copy = inventoryCopy[language];
       if (inventoryLive && inventoryDataUpdatedAt) {
-        const time = new Intl.DateTimeFormat(localeByLanguage[language],{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(inventoryDataUpdatedAt);
+        const time = new Intl.DateTimeFormat(localeByLanguage[language],{timeZone:'Asia/Kuala_Lumpur',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(inventoryDataUpdatedAt);
         return inventoryFormat(copy.liveMeta,{ stores:inventoryStores.length, time });
       }
       if (!inventoryCheckedAt) return copy.meta;
-      const time = new Intl.DateTimeFormat(localeByLanguage[language],{hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt);
+      const time = new Intl.DateTimeFormat(localeByLanguage[language],{timeZone:'Asia/Kuala_Lumpur',hour:'2-digit',minute:'2-digit'}).format(inventoryCheckedAt);
       return inventoryFormat(copy.checked,{ time });
     }
     function renderInventorySyncTiming() {
