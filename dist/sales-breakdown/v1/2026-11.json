@@ -8185,39 +8185,39 @@
           ]
         },
         "2026-11-22": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1581.62,
-              "netSales": 1581.62,
-              "cost": 1624.64,
-              "grossProfit": -43.02,
-              "quantity": 8
+              "sales": 2372.92,
+              "netSales": 2372.92,
+              "cost": 2544.64,
+              "grossProfit": -171.72,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
-              "sales": 587.11,
-              "netSales": 587.11,
+              "sales": 587.24,
+              "netSales": 587.24,
               "cost": 750,
-              "grossProfit": -162.89,
+              "grossProfit": -162.76,
               "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 1048.44,
-              "netSales": 1031.4,
+              "sales": 1048.65,
+              "netSales": 1031.61,
               "cost": 514.25,
-              "grossProfit": 517.15,
+              "grossProfit": 517.36,
               "quantity": 7
             },
             {
               "key": "other",
-              "sales": 2114.83,
-              "netSales": 2097.07,
+              "sales": 2185.19,
+              "netSales": 2162.25,
               "cost": 2228.55,
-              "grossProfit": -131.48,
-              "quantity": 52
+              "grossProfit": -66.3,
+              "quantity": 57
             }
           ],
           "items": [
@@ -8226,60 +8226,70 @@
               "itemCode": "SR1541-DHB-CE28",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 DARK HYPER BRONZE -CE28",
               "quantity": 1,
-              "sales": 587.11,
-              "netSales": 587.11,
+              "sales": 587.24,
+              "netSales": 587.24,
               "cost": 750,
-              "grossProfit": -162.89
+              "grossProfit": -162.76
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 119.84,
-              "netSales": 110.96,
+              "quantity": 5,
+              "sales": 149.8,
+              "netSales": 138.7,
               "cost": 0,
-              "grossProfit": 110.96
+              "grossProfit": 138.7
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 13,
-              "sales": 119.82,
-              "netSales": 110.94,
+              "quantity": 17,
+              "sales": 159.8,
+              "netSales": 147.96,
               "cost": 0,
-              "grossProfit": 110.94
+              "grossProfit": 147.96
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 229.68,
-              "netSales": 212.64,
+              "sales": 229.72,
+              "netSales": 212.68,
               "cost": 0,
-              "grossProfit": 212.64
+              "grossProfit": 212.68
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "quantity": 4,
+              "sales": 790.97,
+              "netSales": 790.97,
+              "cost": 920,
+              "grossProfit": -129.03
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1-26",
               "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
               "quantity": 4,
-              "sales": 710.93,
-              "netSales": 710.93,
+              "sales": 711.08,
+              "netSales": 711.08,
               "cost": 780,
-              "grossProfit": -69.07
+              "grossProfit": -68.92
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS195515RE005-26",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 4,
-              "sales": 870.69,
-              "netSales": 870.69,
+              "sales": 870.87,
+              "netSales": 870.87,
               "cost": 844.64,
-              "grossProfit": 26.05
+              "grossProfit": 26.23
             },
             {
               "category": "foreman_item",
@@ -8306,116 +8316,116 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.71,
-              "netSales": 189.71,
+              "sales": 189.75,
+              "netSales": 189.75,
               "cost": 99,
-              "grossProfit": 90.71
+              "grossProfit": 90.75
             },
             {
               "category": "foreman_item",
               "itemCode": "OETL10W30Q5000",
               "itemName": "TOTAL 10W30 QUARTZ 5000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 169.74,
-              "netSales": 169.74,
+              "sales": 169.78,
+              "netSales": 169.78,
               "cost": 82,
-              "grossProfit": 87.74
+              "grossProfit": 87.78
             },
             {
               "category": "foreman_item",
               "itemCode": "OTYTCVTFTC",
               "itemName": "ATF OIL CVTF TC 4LT WISH VELFIRE ESTIMA",
               "quantity": 1,
-              "sales": 239.64,
-              "netSales": 239.64,
+              "sales": 239.69,
+              "netSales": 239.69,
               "cost": 121,
-              "grossProfit": 118.64
+              "grossProfit": 118.69
             },
             {
               "category": "other",
               "itemCode": "MNRWRY150BLK",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
               "quantity": 20,
-              "sales": 109.83,
-              "netSales": 109.83,
+              "sales": 109.86,
+              "netSales": 109.86,
               "cost": 40,
-              "grossProfit": 69.83
+              "grossProfit": 69.86
             },
             {
               "category": "other",
               "itemCode": "MNC019",
               "itemName": "CAMBER NUT PERODUA/PROTON",
               "quantity": 2,
-              "sales": 89.86,
-              "netSales": 89.86,
+              "sales": 89.88,
+              "netSales": 89.88,
               "cost": 7,
-              "grossProfit": 82.86
+              "grossProfit": 82.88
             },
             {
               "category": "other",
               "itemCode": "MRC7354",
               "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
               "quantity": 4,
-              "sales": 99.85,
-              "netSales": 99.85,
+              "sales": 99.87,
+              "netSales": 99.87,
               "cost": 12,
-              "grossProfit": 87.85
+              "grossProfit": 87.87
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 39.94,
-              "netSales": 39.94,
+              "sales": 39.95,
+              "netSales": 39.95,
               "cost": 6.6,
-              "grossProfit": 33.34
+              "grossProfit": 33.35
             },
             {
               "category": "other",
               "itemCode": "MTT060",
               "itemName": "TIP TOP 60MM",
               "quantity": 1,
-              "sales": 59.91,
-              "netSales": 59.91,
+              "sales": 59.92,
+              "netSales": 59.92,
               "cost": 0.93,
-              "grossProfit": 58.98
+              "grossProfit": 58.99
             },
             {
               "category": "other",
               "itemCode": "MNCTYTVS",
               "itemName": "CAMBER NUT TYT VIOS NEW CAMBER NUT HONDA",
               "quantity": 2,
-              "sales": 89.86,
-              "netSales": 89.86,
+              "sales": 89.88,
+              "netSales": 89.88,
               "cost": 20,
-              "grossProfit": 69.86
+              "grossProfit": 69.88
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMF50B20L",
               "itemName": "AMARON HI-LIFE 50B20L NS40ZL",
               "quantity": 1,
-              "sales": 219.67,
-              "netSales": 219.67,
+              "sales": 219.71,
+              "netSales": 219.71,
               "cost": 196.25,
-              "grossProfit": 23.42
+              "grossProfit": 23.46
             },
             {
               "category": "other",
               "itemCode": "PADHXHDCITY",
               "itemName": "HYPERMAX ADJ ABSORBER HD CITY HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1385.92,
-              "netSales": 1385.92,
+              "sales": 1386.23,
+              "netSales": 1386.23,
               "cost": 2142.02,
-              "grossProfit": -756.1
+              "grossProfit": -755.79
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:49:21.719Z"
+      "lastCollectedAt": "2026-11-22T02:55:27.220Z"
     },
     "SR": {
       "days": {
@@ -15959,7 +15969,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -15987,11 +15997,11 @@
             },
             {
               "key": "other",
-              "sales": 314,
-              "netSales": 314,
+              "sales": 324,
+              "netSales": 324,
               "cost": 1.3,
-              "grossProfit": 312.7,
-              "quantity": 24
+              "grossProfit": 322.7,
+              "quantity": 25
             }
           ],
           "items": [
@@ -16014,6 +16024,16 @@
               "netSales": 140,
               "cost": 0,
               "grossProfit": 140
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
             },
             {
               "category": "other",
@@ -16079,7 +16099,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:49:21.719Z"
+      "lastCollectedAt": "2026-11-22T02:55:27.220Z"
     },
     "ST": {
       "days": {
@@ -23338,10 +23358,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 388.6,
-              "netSales": 388.6,
+              "sales": 352,
+              "netSales": 352,
               "cost": 344,
-              "grossProfit": 44.6,
+              "grossProfit": 8,
               "quantity": 4
             },
             {
@@ -23362,10 +23382,10 @@
             },
             {
               "key": "other",
-              "sales": 248.4,
-              "netSales": 248.4,
+              "sales": 225,
+              "netSales": 225,
               "cost": 10.1,
-              "grossProfit": 238.3,
+              "grossProfit": 214.9,
               "quantity": 13
             }
           ],
@@ -23375,66 +23395,66 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 11.04,
-              "netSales": 11.04,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 11.04
+              "grossProfit": 10
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 99.36,
-              "netSales": 99.36,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 99.36
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 44.16,
-              "netSales": 44.16,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 44.16
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 388.6,
-              "netSales": 388.6,
+              "sales": 352,
+              "netSales": 352,
               "cost": 344,
-              "grossProfit": 44.6
+              "grossProfit": 8
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
-              "sales": 44.16,
-              "netSales": 44.16,
+              "sales": 40,
+              "netSales": 40,
               "cost": 6.6,
-              "grossProfit": 37.56
+              "grossProfit": 33.4
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 1,
-              "sales": 49.68,
-              "netSales": 49.68,
+              "sales": 45,
+              "netSales": 45,
               "cost": 3.5,
-              "grossProfit": 46.18
+              "grossProfit": 41.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:49:21.719Z"
+      "lastCollectedAt": "2026-11-22T02:55:27.220Z"
     },
     "SK": {
       "days": {
@@ -27999,7 +28019,7 @@
           ]
         },
         "2026-11-22": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -28027,11 +28047,11 @@
             },
             {
               "key": "other",
-              "sales": 200,
-              "netSales": 200,
+              "sales": 210,
+              "netSales": 210,
               "cost": 13,
-              "grossProfit": 187,
-              "quantity": 5
+              "grossProfit": 197,
+              "quantity": 6
             }
           ],
           "items": [
@@ -28049,11 +28069,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -28089,7 +28109,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:49:21.719Z"
+      "lastCollectedAt": "2026-11-22T02:55:27.220Z"
     },
     "KM": {
       "days": {
@@ -28437,8 +28457,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-22T02:49:21.719Z"
+      "lastCollectedAt": "2026-11-22T02:55:27.220Z"
     }
   },
-  "updatedAt": "2026-11-22T02:49:21.719Z"
+  "updatedAt": "2026-11-22T02:55:27.220Z"
 }
