@@ -8784,15 +8784,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1682.89,
-              "netSales": 1682.89,
-              "cost": 1697.2,
-              "grossProfit": -14.31,
-              "quantity": 10
+              "sales": 2078.84,
+              "netSales": 2078.84,
+              "cost": 2159.2,
+              "grossProfit": -80.36,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -8804,19 +8804,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 879.41,
-              "netSales": 879.41,
+              "sales": 879.52,
+              "netSales": 879.52,
               "cost": 745.82,
-              "grossProfit": 133.59,
+              "grossProfit": 133.7,
               "quantity": 4
             },
             {
               "key": "other",
-              "sales": 489.7,
-              "netSales": 467.5,
-              "cost": 36.5,
-              "grossProfit": 431,
-              "quantity": 38
+              "sales": 649.64,
+              "netSales": 623.74,
+              "cost": 46.8,
+              "grossProfit": 576.94,
+              "quantity": 45
             }
           ],
           "items": [
@@ -8824,21 +8824,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 89.94,
-              "netSales": 83.28,
+              "quantity": 6,
+              "sales": 119.92,
+              "netSales": 111.04,
               "cost": 0,
-              "grossProfit": 83.28
+              "grossProfit": 111.04
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 119.94,
-              "netSales": 111.06,
+              "quantity": 20,
+              "sales": 139.93,
+              "netSales": 129.57,
               "cost": 0,
-              "grossProfit": 111.06
+              "grossProfit": 129.57
             },
             {
               "category": "other",
@@ -8865,30 +8865,40 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 541.64,
-              "netSales": 541.64,
+              "sales": 541.7,
+              "netSales": 541.7,
               "cost": 547.2,
-              "grossProfit": -5.56
+              "grossProfit": -5.5
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 591.61,
-              "netSales": 591.61,
+              "sales": 591.67,
+              "netSales": 591.67,
               "cost": 680,
-              "grossProfit": -88.39
+              "grossProfit": -88.33
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
+              "quantity": 2,
+              "sales": 395.78,
+              "netSales": 395.78,
+              "cost": 462,
+              "grossProfit": -66.22
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT216017RVR",
               "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
               "quantity": 2,
-              "sales": 549.64,
-              "netSales": 549.64,
+              "sales": 549.69,
+              "netSales": 549.69,
               "cost": 470,
-              "grossProfit": 79.64
+              "grossProfit": 79.69
             },
             {
               "category": "foreman_item",
@@ -8905,56 +8915,66 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.87,
-              "netSales": 189.87,
+              "sales": 189.89,
+              "netSales": 189.89,
               "cost": 99,
-              "grossProfit": 90.87
+              "grossProfit": 90.89
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 10,
-              "sales": 99.93,
-              "netSales": 99.93,
-              "cost": 16.5,
-              "grossProfit": 83.43
+              "quantity": 12,
+              "sales": 119.94,
+              "netSales": 119.94,
+              "cost": 19.8,
+              "grossProfit": 100.14
             },
             {
               "category": "other",
               "itemCode": "MNCTYTB",
               "itemName": "CAMBER NUT TOYOTA",
               "quantity": 2,
-              "sales": 89.94,
-              "netSales": 89.94,
+              "sales": 89.95,
+              "netSales": 89.95,
               "cost": 20,
-              "grossProfit": 69.94
+              "grossProfit": 69.95
+            },
+            {
+              "category": "other",
+              "itemCode": "MNC019",
+              "itemName": "CAMBER NUT PERODUA/PROTON",
+              "quantity": 2,
+              "sales": 89.95,
+              "netSales": 89.95,
+              "cost": 7,
+              "grossProfit": 82.95
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
               "quantity": 1,
-              "sales": 249.84,
-              "netSales": 249.84,
+              "sales": 249.86,
+              "netSales": 249.86,
               "cost": 234.65,
-              "grossProfit": 15.19
+              "grossProfit": 15.21
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.7,
-              "netSales": 439.7,
+              "sales": 439.77,
+              "netSales": 439.77,
               "cost": 402.67,
-              "grossProfit": 37.03
+              "grossProfit": 37.1
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:33:22.579Z"
+      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
     },
     "SR": {
       "days": {
@@ -17107,7 +17127,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:33:22.579Z"
+      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
     },
     "ST": {
       "days": {
@@ -24631,19 +24651,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2260,
-              "netSales": 2260,
-              "cost": 1006,
-              "grossProfit": 1254,
-              "quantity": 13
+              "sales": 5290,
+              "netSales": 5290,
+              "cost": 1900,
+              "grossProfit": 3390,
+              "quantity": 27
             },
             {
               "key": "other",
-              "sales": 209,
-              "netSales": 209,
-              "cost": 29.6,
-              "grossProfit": 179.4,
-              "quantity": 14
+              "sales": 299,
+              "netSales": 299,
+              "cost": 49.6,
+              "grossProfit": 249.4,
+              "quantity": 16
             }
           ],
           "items": [
@@ -24709,6 +24729,26 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "XLSPTB",
+              "itemName": "THROTTLE BODY CLEANER",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 18,
+              "grossProfit": 102
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKSBBFRT",
+              "itemName": "STAB BAR BUSH FRT",
+              "quantity": 2,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 70,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSK40225",
               "itemName": "DISC ROTOR FRT",
               "quantity": 2,
@@ -24739,6 +24779,46 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKABSRDCF",
+              "itemName": "ABSR COVER BUSH FRT",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 40,
+              "grossProfit": 50
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRFLH",
+              "itemName": "ABSR F/LH GAS",
+              "quantity": 1,
+              "sales": 270,
+              "netSales": 270,
+              "cost": 180,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRFRH",
+              "itemName": "ABSR F/RH GAS",
+              "quantity": 1,
+              "sales": 270,
+              "netSales": 270,
+              "cost": 180,
+              "grossProfit": 90
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRLINK",
+              "itemName": "ABSR LINK",
+              "quantity": 2,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 60,
+              "grossProfit": 70
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSKDSLH",
               "itemName": "L.ARM ASSY LH",
               "quantity": 1,
@@ -24746,6 +24826,26 @@
               "netSales": 380,
               "cost": 180,
               "grossProfit": 200
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKENGMTGLH",
+              "itemName": "ABSR MTG LH",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 80,
+              "grossProfit": 40
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKENGMTGRH",
+              "itemName": "ABSR MTG RH",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 80,
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -24769,6 +24869,36 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OMFSRHM",
+              "itemName": "SARAMOLY HIGH MILEAGE MOTOR FLUSH",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 56,
+              "grossProfit": 64
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OG80WGL5",
+              "itemName": "GEAR OIL EP90 API GL5 4L",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 65,
+              "grossProfit": 115
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK71426",
+              "itemName": "OIL SEAL GEARBOX KIT",
+              "quantity": 1,
+              "sales": 1450,
+              "netSales": 1450,
+              "cost": 65,
+              "grossProfit": 1385
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSKLOWERARM",
               "itemName": "LOWER ARM F/RH",
               "quantity": 1,
@@ -24786,6 +24916,16 @@
               "netSales": 320,
               "cost": 45,
               "grossProfit": 275
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCTYTCRY",
+              "itemName": "CAMBER NUT TOYOTA CAMRY/HARIER/ESTIMA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 20,
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -24811,7 +24951,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:33:22.579Z"
+      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
     },
     "SK": {
       "days": {
@@ -29805,7 +29945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
+      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
     },
     "KM": {
       "days": {
@@ -30191,8 +30331,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:33:22.579Z"
+      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
     }
   },
-  "updatedAt": "2026-11-23T04:33:22.579Z"
+  "updatedAt": "2026-11-23T04:48:31.345Z"
 }
