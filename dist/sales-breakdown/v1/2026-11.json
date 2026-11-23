@@ -9024,7 +9024,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T07:10:22.300Z"
+      "lastCollectedAt": "2026-11-23T07:16:29.360Z"
     },
     "SR": {
       "days": {
@@ -17237,7 +17237,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T07:10:22.300Z"
+      "lastCollectedAt": "2026-11-23T07:16:29.360Z"
     },
     "ST": {
       "days": {
@@ -24741,15 +24741,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1240,
-              "netSales": 1240,
-              "cost": 1122,
-              "grossProfit": 118,
-              "quantity": 6
+              "sales": 1676,
+              "netSales": 1676,
+              "cost": 1452,
+              "grossProfit": 224,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -24769,11 +24769,11 @@
             },
             {
               "key": "other",
-              "sales": 389,
-              "netSales": 389,
-              "cost": 52.9,
-              "grossProfit": 336.1,
-              "quantity": 26
+              "sales": 453,
+              "netSales": 453,
+              "cost": 56.2,
+              "grossProfit": 396.8,
+              "quantity": 31
             }
           ],
           "items": [
@@ -24791,21 +24791,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 6,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 12,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -24836,6 +24836,16 @@
               "netSales": 408,
               "cost": 402,
               "grossProfit": 6
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGT195016T20-26",
+              "itemName": "GITI 195/50/16 COMFORT T20 84V CN (2026)",
+              "quantity": 2,
+              "sales": 436,
+              "netSales": 436,
+              "cost": 330,
+              "grossProfit": 106
             },
             {
               "category": "passenger_tire",
@@ -25061,17 +25071,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 6,
+              "sales": 54,
+              "netSales": 54,
+              "cost": 9.9,
+              "grossProfit": 44.1
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T07:10:22.300Z"
+      "lastCollectedAt": "2026-11-23T07:16:29.360Z"
     },
     "SK": {
       "days": {
@@ -29955,14 +29965,14 @@
           ]
         },
         "2026-11-23": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 390.6,
-              "netSales": 390.6,
+              "sales": 410,
+              "netSales": 410,
               "cost": 340,
-              "grossProfit": 50.6,
+              "grossProfit": 70,
               "quantity": 5
             },
             {
@@ -29975,18 +29985,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 919.32,
-              "netSales": 919.32,
+              "sales": 965,
+              "netSales": 965,
               "cost": 382.3,
-              "grossProfit": 537.02,
+              "grossProfit": 582.7,
               "quantity": 9
             },
             {
               "key": "other",
-              "sales": 300.08,
-              "netSales": 300.08,
+              "sales": 315,
+              "netSales": 315,
               "cost": 14,
-              "grossProfit": 286.08,
+              "grossProfit": 301,
               "quantity": 16
             }
           ],
@@ -29996,50 +30006,50 @@
               "itemCode": "UT215517",
               "itemName": "Used Tyre 215/55R17",
               "quantity": 1,
-              "sales": 66.69,
-              "netSales": 66.69,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 66.69
+              "grossProfit": 70
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 19.06,
-              "netSales": 19.06,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 19.06
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 66.69,
-              "netSales": 66.69,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 66.69
+              "grossProfit": 70
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 5,
-              "sales": 47.64,
-              "netSales": 47.64,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 47.64
+              "grossProfit": 50
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 323.91,
-              "netSales": 323.91,
+              "sales": 340,
+              "netSales": 340,
               "cost": 340,
-              "grossProfit": -16.09
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -30056,96 +30066,96 @@
               "itemCode": "PBPPLTMYVLGB",
               "itemName": "BRAKE PAD P CD0046 LANTINUM MYV LG BEST AXIZ1.0 BEZZA",
               "quantity": 1,
-              "sales": 76.21,
-              "netSales": 76.21,
+              "sales": 80,
+              "netSales": 80,
               "cost": 32,
-              "grossProfit": 44.21
+              "grossProfit": 48
             },
             {
               "category": "foreman_item",
               "itemCode": "OETL0W20Q9000",
               "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
               "quantity": 1,
-              "sales": 247.69,
-              "netSales": 247.69,
+              "sales": 260,
+              "netSales": 260,
               "cost": 130,
-              "grossProfit": 117.69
+              "grossProfit": 130
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 1,
-              "sales": 85.74,
-              "netSales": 85.74,
+              "sales": 90,
+              "netSales": 90,
               "cost": 28,
-              "grossProfit": 57.74
+              "grossProfit": 62
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFSP3GRN",
               "itemName": "PERODUA AUTO OIL SP3 GREEN 1LT",
               "quantity": 3,
-              "sales": 157.19,
-              "netSales": 157.19,
+              "sales": 165,
+              "netSales": 165,
               "cost": 64.8,
-              "grossProfit": 92.39
+              "grossProfit": 100.2
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110037",
               "itemName": "AUTO FILTER SET JRS BZ010 AXIA",
               "quantity": 1,
-              "sales": 171.48,
-              "netSales": 171.48,
+              "sales": 180,
+              "netSales": 180,
               "cost": 55,
-              "grossProfit": 116.48
+              "grossProfit": 125
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110038",
               "itemName": "FAN BELT (G) 63R01 AXIA",
               "quantity": 1,
-              "sales": 181.01,
-              "netSales": 181.01,
+              "sales": 190,
+              "netSales": 190,
               "cost": 65,
-              "grossProfit": 116.01
+              "grossProfit": 125
             },
             {
               "category": "other",
               "itemCode": "MNCPR12V",
               "itemName": "CAMBER NUT PROTON (17MM)",
               "quantity": 2,
-              "sales": 85.74,
-              "netSales": 85.74,
+              "sales": 90,
+              "netSales": 90,
               "cost": 5.2,
-              "grossProfit": 80.54
+              "grossProfit": 84.8
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 38.11,
-              "netSales": 38.11,
+              "sales": 40,
+              "netSales": 40,
               "cost": 6.6,
-              "grossProfit": 31.51
+              "grossProfit": 33.4
             },
             {
               "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
-              "sales": 42.84,
-              "netSales": 42.84,
+              "sales": 45,
+              "netSales": 45,
               "cost": 2.2,
-              "grossProfit": 40.64
+              "grossProfit": 42.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T07:10:22.300Z"
+      "lastCollectedAt": "2026-11-23T07:16:29.360Z"
     },
     "KM": {
       "days": {
@@ -30531,8 +30541,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T07:10:22.300Z"
+      "lastCollectedAt": "2026-11-23T07:16:29.360Z"
     }
   },
-  "updatedAt": "2026-11-23T07:10:22.300Z"
+  "updatedAt": "2026-11-23T07:16:29.360Z"
 }
