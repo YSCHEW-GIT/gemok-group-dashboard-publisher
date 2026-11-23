@@ -8812,11 +8812,11 @@
             },
             {
               "key": "other",
-              "sales": 230,
-              "netSales": 217.42,
-              "cost": 9.9,
-              "grossProfit": 207.52,
-              "quantity": 20
+              "sales": 320,
+              "netSales": 307.42,
+              "cost": 29.9,
+              "grossProfit": 277.52,
+              "quantity": 22
             }
           ],
           "items": [
@@ -8871,6 +8871,16 @@
               "grossProfit": 50.1
             },
             {
+              "category": "other",
+              "itemCode": "MNCTYTB",
+              "itemName": "CAMBER NUT TOYOTA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 20,
+              "grossProfit": 70
+            },
+            {
               "category": "foreman_item",
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
@@ -8894,7 +8904,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:04:29.661Z"
+      "lastCollectedAt": "2026-11-23T03:10:35.205Z"
     },
     "SR": {
       "days": {
@@ -17047,7 +17057,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:04:29.661Z"
+      "lastCollectedAt": "2026-11-23T03:10:35.205Z"
     },
     "ST": {
       "days": {
@@ -24601,7 +24611,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:04:29.661Z"
+      "lastCollectedAt": "2026-11-23T03:10:35.205Z"
     },
     "SK": {
       "days": {
@@ -29565,7 +29575,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:04:29.661Z"
+      "lastCollectedAt": "2026-11-23T03:10:35.205Z"
     },
     "KM": {
       "days": {
@@ -29951,8 +29961,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:04:29.661Z"
+      "lastCollectedAt": "2026-11-23T03:10:35.205Z"
     }
   },
-  "updatedAt": "2026-11-23T03:04:29.661Z"
+  "updatedAt": "2026-11-23T03:10:35.205Z"
 }
