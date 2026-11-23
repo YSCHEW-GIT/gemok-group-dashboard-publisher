@@ -8834,7 +8834,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
+      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
     },
     "SR": {
       "days": {
@@ -16807,22 +16807,22 @@
           ]
         },
         "2026-11-23": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 610.94,
+              "netSales": 610.94,
+              "cost": 512,
+              "grossProfit": 98.94,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
+              "sales": 326.27,
+              "netSales": 326.27,
+              "cost": 51,
+              "grossProfit": 275.27,
               "quantity": 0
             },
             {
@@ -16835,18 +16835,89 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 214.79,
+              "netSales": 214.79,
+              "cost": 31.6,
+              "grossProfit": 183.19,
+              "quantity": 10
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US2616496",
+              "itemName": "USED SPORT RIM 15X6 4X100 (US2616496)",
+              "quantity": 1,
+              "sales": 489.23,
+              "netSales": 489.23,
+              "cost": 251,
+              "grossProfit": 238.23
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617407",
+              "itemName": "USED SPORT RIM 17X7 4X100",
+              "quantity": -1,
+              "sales": -162.96,
+              "netSales": -162.96,
+              "cost": -200,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 35.8,
+              "netSales": 35.8,
+              "cost": 0,
+              "grossProfit": 35.8
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 47.73,
+              "netSales": 47.73,
+              "cost": 0,
+              "grossProfit": 47.73
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
+              "quantity": 4,
+              "sales": 610.94,
+              "netSales": 610.94,
+              "cost": 512,
+              "grossProfit": 98.94
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 47.73,
+              "netSales": 47.73,
+              "cost": 6.6,
+              "grossProfit": 41.13
+            },
+            {
+              "category": "other",
+              "itemCode": "MWN1915",
+              "itemName": "WHEEL NUT 19 x 1.50MM (32MM)",
+              "quantity": 1,
+              "sales": 83.53,
+              "netSales": 83.53,
+              "cost": 25,
+              "grossProfit": 58.53
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
+      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
     },
     "ST": {
       "days": {
@@ -24389,7 +24460,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
+      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
     },
     "SK": {
       "days": {
@@ -29273,7 +29344,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -29301,18 +29372,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 45,
+              "netSales": 45,
+              "cost": 2.2,
+              "grossProfit": 42.8,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "XLPTBP00",
+              "itemName": "LMS BP-00 TIRE PATCHES",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 2.2,
+              "grossProfit": 42.8
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:41:22.441Z"
+      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
     },
     "KM": {
       "days": {
@@ -29698,8 +29780,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
+      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
     }
   },
-  "updatedAt": "2026-11-23T01:48:59.004Z"
+  "updatedAt": "2026-11-23T02:03:10.425Z"
 }
