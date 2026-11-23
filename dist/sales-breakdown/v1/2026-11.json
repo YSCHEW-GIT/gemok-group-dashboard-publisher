@@ -9204,7 +9204,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
+      "lastCollectedAt": "2026-11-23T10:14:22.344Z"
     },
     "SR": {
       "days": {
@@ -17177,7 +17177,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17191,17 +17191,17 @@
               "key": "sport_rim",
               "sales": 1482,
               "netSales": 1482,
-              "cost": 1342,
-              "grossProfit": 140,
-              "quantity": 1
+              "cost": 1091,
+              "grossProfit": 391,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 730,
-              "netSales": 730,
-              "cost": 465.5,
-              "grossProfit": 264.5,
-              "quantity": 6
+              "sales": 910,
+              "netSales": 910,
+              "cost": 573,
+              "grossProfit": 337,
+              "quantity": 8
             },
             {
               "key": "other",
@@ -17265,6 +17265,16 @@
             },
             {
               "category": "sport_rim",
+              "itemCode": "US2617418",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": -251,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR157044H-GB-ADVGT",
               "itemName": "SPORT RIM 15X7.0 4X114.3 ET38 GROSS BLACK WSR GT-B21 (ADV GT)",
               "quantity": 1,
@@ -17278,10 +17288,10 @@
               "itemCode": "SIMPCRED1541TE37",
               "itemName": "SP/RIM 15X6.5 4H100 ET40 CANDY RED TE37 FF11565A49",
               "quantity": 1,
-              "sales": 488,
-              "netSales": 488,
+              "sales": 739,
+              "netSales": 739,
               "cost": 751,
-              "grossProfit": -263
+              "grossProfit": -12
             },
             {
               "category": "other",
@@ -17385,13 +17395,23 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFFLPRO",
+              "itemName": "OIL FILTER PROTON PC121102",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
-              "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
-              "cost": 100,
-              "grossProfit": 80
+              "quantity": 2,
+              "sales": 360,
+              "netSales": 360,
+              "cost": 200,
+              "grossProfit": 160
             },
             {
               "category": "foreman_item",
@@ -17457,7 +17477,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
+      "lastCollectedAt": "2026-11-23T10:14:22.344Z"
     },
     "ST": {
       "days": {
@@ -24989,11 +25009,11 @@
             },
             {
               "key": "other",
-              "sales": 1308,
-              "netSales": 1308,
+              "sales": 1248,
+              "netSales": 1248,
               "cost": 441.2,
-              "grossProfit": 866.8,
-              "quantity": 38
+              "grossProfit": 806.8,
+              "quantity": 34
             }
           ],
           "items": [
@@ -25001,31 +25021,31 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "quantity": 6,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 12,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -25321,7 +25341,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
+      "lastCollectedAt": "2026-11-23T10:14:22.344Z"
     },
     "SK": {
       "days": {
@@ -30395,7 +30415,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
+      "lastCollectedAt": "2026-11-23T10:14:22.344Z"
     },
     "KM": {
       "days": {
@@ -30781,8 +30801,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
+      "lastCollectedAt": "2026-11-23T10:14:22.344Z"
     }
   },
-  "updatedAt": "2026-11-23T10:08:16.202Z"
+  "updatedAt": "2026-11-23T10:14:22.344Z"
 }
