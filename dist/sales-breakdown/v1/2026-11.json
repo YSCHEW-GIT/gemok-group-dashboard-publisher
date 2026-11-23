@@ -8784,7 +8784,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8812,11 +8812,11 @@
             },
             {
               "key": "other",
-              "sales": 2267.17,
-              "netSales": 2224.98,
+              "sales": 2277.17,
+              "netSales": 2234.24,
               "cost": 991.95,
-              "grossProfit": 1233.03,
-              "quantity": 110
+              "grossProfit": 1242.29,
+              "quantity": 111
             }
           ],
           "items": [
@@ -8894,11 +8894,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -9204,7 +9204,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
+      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
     },
     "SR": {
       "days": {
@@ -17177,7 +17177,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17189,27 +17189,27 @@
             },
             {
               "key": "sport_rim",
-              "sales": 994,
-              "netSales": 994,
-              "cost": 591,
-              "grossProfit": 403,
-              "quantity": 0
+              "sales": 1482,
+              "netSales": 1482,
+              "cost": 1342,
+              "grossProfit": 140,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 450,
-              "netSales": 450,
-              "cost": 313.5,
-              "grossProfit": 136.5,
-              "quantity": 5
+              "sales": 730,
+              "netSales": 730,
+              "cost": 465.5,
+              "grossProfit": 264.5,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 540,
-              "netSales": 540,
-              "cost": 130.1,
-              "grossProfit": 409.9,
-              "quantity": 47
+              "sales": 650,
+              "netSales": 650,
+              "cost": 136.7,
+              "grossProfit": 513.3,
+              "quantity": 56
             }
           ],
           "items": [
@@ -17274,24 +17274,34 @@
               "grossProfit": 69
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SIMPCRED1541TE37",
+              "itemName": "SP/RIM 15X6.5 4H100 ET40 CANDY RED TE37 FF11565A49",
+              "quantity": 1,
+              "sales": 488,
+              "netSales": 488,
+              "cost": 751,
+              "grossProfit": -263
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 7,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 24,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -17342,6 +17352,16 @@
               "netSales": 1058,
               "cost": 1116,
               "grossProfit": -58
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PRDLPRSGF",
+              "itemName": "LPR DISC ROTOR SAGA BLM FLX SAVVY FRT- P4003V",
+              "quantity": 1,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 152,
+              "grossProfit": 128
             },
             {
               "category": "foreman_item",
@@ -17407,11 +17427,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 14,
-              "sales": 140,
-              "netSales": 140,
-              "cost": 23.1,
-              "grossProfit": 116.9
+              "quantity": 18,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 29.7,
+              "grossProfit": 150.3
             },
             {
               "category": "other",
@@ -17437,7 +17457,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
+      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
     },
     "ST": {
       "days": {
@@ -25301,7 +25321,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
+      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
     },
     "SK": {
       "days": {
@@ -30375,7 +30395,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
+      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
     },
     "KM": {
       "days": {
@@ -30761,8 +30781,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
+      "lastCollectedAt": "2026-11-23T10:08:16.202Z"
     }
   },
-  "updatedAt": "2026-11-23T10:02:09.172Z"
+  "updatedAt": "2026-11-23T10:08:16.202Z"
 }
