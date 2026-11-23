@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-23T03:33:57.463Z",
+  "updatedAt": "2026-11-23T04:44:51.740Z",
   "stores": [
     {
       "code": "SI",
@@ -28,9 +28,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 449,
-      "quantity": 2064,
-      "stockValue": 427296.16
+      "sku": 448,
+      "quantity": 2056,
+      "stockValue": 425896.16
     },
     {
       "key": "sport-rim",
@@ -84,9 +84,9 @@
     {
       "key": "oil",
       "name": "Oil",
-      "sku": 106,
-      "quantity": 2177,
-      "stockValue": 161842.53
+      "sku": 107,
+      "quantity": 2174,
+      "stockValue": 161743.73
     },
     {
       "key": "oil-filter",
@@ -98,9 +98,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 870,
-      "quantity": 2911.5,
-      "stockValue": 104186.34999999998
+      "sku": 872,
+      "quantity": 2912.5,
+      "stockValue": 104336.84999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9981,
-      "stockValue": 59004.619999999995
+      "quantity": 9973,
+      "stockValue": 58993.41999999999
     },
     {
       "key": "non-stock-item",
@@ -270,15 +270,6 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 132,
-          "price": 138
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
           "cost": 132,
           "price": 138
         }
@@ -4447,7 +4438,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 11,
           "cost": 170,
           "price": 0
         }
@@ -6640,25 +6631,6 @@
           "quantity": 4,
           "cost": 163,
           "price": 180
-        }
-      ]
-    },
-    {
-      "code": "TPTY165R14NEVAB-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "TOYO 165R14 NEVAB 97R M'SIA (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 228,
-          "price": 240
         }
       ]
     },
@@ -34735,7 +34707,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 19,
           "cost": 99,
           "price": 0
         },
@@ -35069,6 +35041,25 @@
           "location": "",
           "quantity": 30,
           "cost": 12.83,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "OG80WGL5",
+      "groupKey": "oil",
+      "groupName": "OIL",
+      "brand": "",
+      "name": "GEAR OIL EP90 API GL5 4L",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 65,
           "price": 0
         }
       ]
@@ -35987,7 +35978,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 6,
           "cost": 21.6,
           "price": 55
         }
@@ -37992,6 +37983,44 @@
           "location": "",
           "quantity": 3,
           "cost": 40,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "NSKENGMTGLH",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "",
+      "name": "ABSR MTG LH",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 80,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "NSKENGMTGRH",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "",
+      "name": "ABSR MTG RH",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 80,
           "price": 0
         }
       ]
@@ -52761,7 +52790,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 34,
+          "quantity": 33,
           "cost": 9.5,
           "price": 25
         }
@@ -111789,7 +111818,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 697,
+          "quantity": 695,
           "cost": 0.65,
           "price": 7
         }
@@ -111817,7 +111846,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 501,
+          "quantity": 497,
           "cost": 1.65,
           "price": 10
         },
@@ -111844,7 +111873,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 648,
+          "quantity": 646,
           "cost": 1.65,
           "price": 10
         }
