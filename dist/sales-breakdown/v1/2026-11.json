@@ -8784,15 +8784,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 500,
+              "netSales": 500,
+              "cost": 470,
+              "grossProfit": 30,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -8812,14 +8812,54 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 70,
+              "netSales": 66.3,
+              "cost": 3.3,
+              "grossProfit": 63,
+              "quantity": 5
             }
           ],
           "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 18.52,
+              "cost": 0,
+              "grossProfit": 18.52
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT216017RVR",
+              "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
+              "quantity": 2,
+              "sales": 500,
+              "netSales": 500,
+              "cost": 470,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
+            },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLM60B24L",
@@ -8834,7 +8874,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
+      "lastCollectedAt": "2026-11-23T02:09:45.645Z"
     },
     "SR": {
       "days": {
@@ -16807,22 +16847,22 @@
           ]
         },
         "2026-11-23": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 610.94,
-              "netSales": 610.94,
-              "cost": 512,
-              "grossProfit": 98.94,
-              "quantity": 4
+              "sales": 848,
+              "netSales": 848,
+              "cost": 884,
+              "grossProfit": -36,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
-              "sales": 326.27,
-              "netSales": 326.27,
+              "sales": 208,
+              "netSales": 208,
               "cost": 51,
-              "grossProfit": 275.27,
+              "grossProfit": 157,
               "quantity": 0
             },
             {
@@ -16835,11 +16875,11 @@
             },
             {
               "key": "other",
-              "sales": 214.79,
-              "netSales": 214.79,
-              "cost": 31.6,
-              "grossProfit": 183.19,
-              "quantity": 10
+              "sales": 250,
+              "netSales": 250,
+              "cost": 34.9,
+              "grossProfit": 215.1,
+              "quantity": 15
             }
           ],
           "items": [
@@ -16848,76 +16888,86 @@
               "itemCode": "US2616496",
               "itemName": "USED SPORT RIM 15X6 4X100 (US2616496)",
               "quantity": 1,
-              "sales": 489.23,
-              "netSales": 489.23,
+              "sales": 410,
+              "netSales": 410,
               "cost": 251,
-              "grossProfit": 238.23
+              "grossProfit": 159
             },
             {
               "category": "sport_rim",
               "itemCode": "US2617407",
               "itemName": "USED SPORT RIM 17X7 4X100",
               "quantity": -1,
-              "sales": -162.96,
-              "netSales": -162.96,
+              "sales": -202,
+              "netSales": -202,
               "cost": -200,
-              "grossProfit": 37.04
+              "grossProfit": -2
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 35.8,
-              "netSales": 35.8,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 35.8
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 47.73,
-              "netSales": 47.73,
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 47.73
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
               "quantity": 4,
-              "sales": 610.94,
-              "netSales": 610.94,
+              "sales": 512,
+              "netSales": 512,
               "cost": 512,
-              "grossProfit": 98.94
+              "grossProfit": 0
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY195515CR1",
+              "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
+              "quantity": 2,
+              "sales": 336,
+              "netSales": 336,
+              "cost": 372,
+              "grossProfit": -36
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 4,
-              "sales": 47.73,
-              "netSales": 47.73,
-              "cost": 6.6,
-              "grossProfit": 41.13
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
             },
             {
               "category": "other",
               "itemCode": "MWN1915",
               "itemName": "WHEEL NUT 19 x 1.50MM (32MM)",
               "quantity": 1,
-              "sales": 83.53,
-              "netSales": 83.53,
+              "sales": 70,
+              "netSales": 70,
               "cost": 25,
-              "grossProfit": 58.53
+              "grossProfit": 45
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
+      "lastCollectedAt": "2026-11-23T02:09:45.645Z"
     },
     "ST": {
       "days": {
@@ -24460,7 +24510,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
+      "lastCollectedAt": "2026-11-23T02:09:45.645Z"
     },
     "SK": {
       "days": {
@@ -29394,7 +29444,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
+      "lastCollectedAt": "2026-11-23T02:09:45.645Z"
     },
     "KM": {
       "days": {
@@ -29780,8 +29830,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:03:10.425Z"
+      "lastCollectedAt": "2026-11-23T02:09:45.645Z"
     }
   },
-  "updatedAt": "2026-11-23T02:03:10.425Z"
+  "updatedAt": "2026-11-23T02:09:45.645Z"
 }
