@@ -8933,7 +8933,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 12,
               "sales": 119.94,
               "netSales": 119.94,
@@ -8994,7 +8994,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T06:04:54.495Z"
+      "lastCollectedAt": "2026-11-23T06:11:00.844Z"
     },
     "SR": {
       "days": {
@@ -16967,7 +16967,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -16987,19 +16987,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 180,
-              "netSales": 180,
-              "cost": 108,
-              "grossProfit": 72,
-              "quantity": 2
+              "sales": 450,
+              "netSales": 450,
+              "cost": 313.5,
+              "grossProfit": 136.5,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 480,
-              "netSales": 480,
-              "cost": 80.1,
-              "grossProfit": 399.9,
-              "quantity": 40
+              "sales": 540,
+              "netSales": 540,
+              "cost": 130.1,
+              "grossProfit": 409.9,
+              "quantity": 42
             }
           ],
           "items": [
@@ -17084,6 +17084,16 @@
               "grossProfit": 80
             },
             {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 50,
+              "grossProfit": 10
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
@@ -17115,6 +17125,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFTYTE2",
+              "itemName": "OIL FILTER YZZE2 TOYOTA AE101",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
@@ -17122,6 +17142,26 @@
               "netSales": 180,
               "cost": 100,
               "grossProfit": 80
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 270,
+              "netSales": 270,
+              "cost": 170,
+              "grossProfit": 100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OPRCLRSR-1L",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-1L (FOC)",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 28,
+              "grossProfit": -28
             },
             {
               "category": "other",
@@ -17136,7 +17176,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 14,
               "sales": 140,
               "netSales": 140,
@@ -17167,7 +17207,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T06:04:54.495Z"
+      "lastCollectedAt": "2026-11-23T06:11:00.844Z"
     },
     "ST": {
       "days": {
@@ -24990,7 +25030,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -25001,7 +25041,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T06:04:54.495Z"
+      "lastCollectedAt": "2026-11-23T06:11:00.844Z"
     },
     "SK": {
       "days": {
@@ -29885,15 +29925,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
+              "sales": 340,
+              "netSales": 340,
+              "cost": 340,
               "grossProfit": 0,
-              "quantity": 0
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -29913,11 +29953,11 @@
             },
             {
               "key": "other",
-              "sales": 175,
-              "netSales": 175,
-              "cost": 7.4,
-              "grossProfit": 167.6,
-              "quantity": 5
+              "sales": 295,
+              "netSales": 295,
+              "cost": 14,
+              "grossProfit": 281,
+              "quantity": 14
             }
           ],
           "items": [
@@ -29935,11 +29975,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 70
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 340,
+              "netSales": 340,
+              "cost": 340,
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -30023,6 +30083,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            },
+            {
+              "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
@@ -30035,7 +30105,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T06:04:54.495Z"
+      "lastCollectedAt": "2026-11-23T06:11:00.844Z"
     },
     "KM": {
       "days": {
@@ -30421,8 +30491,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T06:04:54.495Z"
+      "lastCollectedAt": "2026-11-23T06:11:00.844Z"
     }
   },
-  "updatedAt": "2026-11-23T06:04:54.495Z"
+  "updatedAt": "2026-11-23T06:11:00.844Z"
 }
