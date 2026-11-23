@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-23T05:55:47.239Z",
+  "updatedAt": "2026-11-23T07:06:58.055Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 448,
-      "quantity": 2077,
-      "stockValue": 430186.16
+      "quantity": 2048,
+      "stockValue": 424692.16
     },
     {
       "key": "sport-rim",
@@ -85,15 +85,15 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2171,
-      "stockValue": 161594.73
+      "quantity": 2169,
+      "stockValue": 161396.73
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 196,
-      "stockValue": 1796.5
+      "quantity": 195,
+      "stockValue": 1789
     },
     {
       "key": "parts",
@@ -135,7 +135,7 @@
       "name": "Used Sport Rim",
       "sku": 2101,
       "quantity": 2006,
-      "stockValue": 174243.5
+      "stockValue": 174192.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9963,
-      "stockValue": 58954.619999999995
+      "quantity": 9955,
+      "stockValue": 58941.41999999999
     },
     {
       "key": "non-stock-item",
@@ -6647,7 +6647,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 157,
           "price": 0
         },
@@ -6721,7 +6721,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 8,
           "cost": 195,
           "price": 0
         }
@@ -6787,7 +6787,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 202,
           "price": 210
         }
@@ -7040,7 +7040,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 253,
           "price": 255
         }
@@ -7124,7 +7124,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 12,
           "cost": 186,
           "price": 158
         }
@@ -7320,7 +7320,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 259,
           "price": 270
         },
@@ -9529,7 +9529,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 18,
           "cost": 85,
           "price": 85
         },
@@ -34873,7 +34873,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 93,
+          "quantity": 92,
           "cost": 170,
           "price": 270
         },
@@ -35318,7 +35318,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 16,
           "cost": 28,
           "price": 30
         }
@@ -36624,7 +36624,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 11,
           "cost": 7.5,
           "price": 25
         },
@@ -95191,25 +95191,6 @@
       ]
     },
     {
-      "code": "US2617164",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X6.5 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 251,
-          "price": 251
-        }
-      ]
-    },
-    {
       "code": "US2617183",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -95891,6 +95872,25 @@
           "quantity": 1,
           "cost": 251,
           "price": 251
+        }
+      ]
+    },
+    {
+      "code": "US2617412",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 200
         }
       ]
     },
@@ -111789,7 +111789,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 217,
+          "quantity": 213,
           "cost": 1.65,
           "price": 10
         },
@@ -111798,7 +111798,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 245,
+          "quantity": 241,
           "cost": 1.65,
           "price": 10
         },
