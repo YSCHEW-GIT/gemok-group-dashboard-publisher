@@ -8784,15 +8784,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3055.31,
-              "netSales": 3055.31,
+              "sales": 3105.3,
+              "netSales": 3105.3,
               "cost": 2817.2,
-              "grossProfit": 238.11,
-              "quantity": 20
+              "grossProfit": 288.1,
+              "quantity": 21
             },
             {
               "key": "sport_rim",
@@ -8804,22 +8804,32 @@
             },
             {
               "key": "foreman_item",
-              "sales": 3939.08,
-              "netSales": 3939.08,
+              "sales": 3939.09,
+              "netSales": 3939.09,
               "cost": 2270.82,
-              "grossProfit": 1668.26,
+              "grossProfit": 1668.27,
               "quantity": 23
             },
             {
               "key": "other",
               "sales": 1847.61,
               "netSales": 1818.01,
-              "cost": 931.7,
-              "grossProfit": 886.31,
-              "quantity": 73
+              "cost": 933.35,
+              "grossProfit": 884.66,
+              "quantity": 74
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "UT195515",
+              "itemName": "USED TIRE 195/55/15",
+              "quantity": 1,
+              "sales": 49.99,
+              "netSales": 49.99,
+              "cost": 0,
+              "grossProfit": 49.99
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -9045,10 +9055,10 @@
               "itemCode": "NSKAUTOOIL",
               "itemName": "ORG AUTO OIL HY STAREX MATIC J",
               "quantity": 4,
-              "sales": 419.9,
-              "netSales": 419.9,
+              "sales": 419.91,
+              "netSales": 419.91,
               "cost": 300,
-              "grossProfit": 119.9
+              "grossProfit": 119.91
             },
             {
               "category": "foreman_item",
@@ -9074,11 +9084,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 18,
+              "quantity": 19,
               "sales": 179.97,
               "netSales": 179.97,
-              "cost": 29.7,
-              "grossProfit": 150.27
+              "cost": 31.35,
+              "grossProfit": 148.62
             },
             {
               "category": "other",
@@ -9134,7 +9144,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:46:01.829Z"
+      "lastCollectedAt": "2026-11-23T08:58:08.699Z"
     },
     "SR": {
       "days": {
@@ -17357,7 +17367,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:46:01.829Z"
+      "lastCollectedAt": "2026-11-23T08:58:08.699Z"
     },
     "ST": {
       "days": {
@@ -25211,7 +25221,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:46:01.829Z"
+      "lastCollectedAt": "2026-11-23T08:58:08.699Z"
     },
     "SK": {
       "days": {
@@ -30115,11 +30125,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 965,
-              "netSales": 965,
-              "cost": 382.3,
-              "grossProfit": 582.7,
-              "quantity": 9
+              "sales": 1055,
+              "netSales": 1055,
+              "cost": 410.3,
+              "grossProfit": 644.7,
+              "quantity": 10
             },
             {
               "key": "other",
@@ -30215,11 +30225,11 @@
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 28,
-              "grossProfit": 62
+              "quantity": 2,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 56,
+              "grossProfit": 124
             },
             {
               "category": "foreman_item",
@@ -30285,7 +30295,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:46:01.829Z"
+      "lastCollectedAt": "2026-11-23T08:58:08.699Z"
     },
     "KM": {
       "days": {
@@ -30671,8 +30681,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:46:01.829Z"
+      "lastCollectedAt": "2026-11-23T08:58:08.699Z"
     }
   },
-  "updatedAt": "2026-11-23T08:46:01.829Z"
+  "updatedAt": "2026-11-23T08:58:08.699Z"
 }
