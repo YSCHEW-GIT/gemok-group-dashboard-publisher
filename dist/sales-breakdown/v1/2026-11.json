@@ -8784,14 +8784,14 @@
           ]
         },
         "2026-11-23": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2709.27,
-              "netSales": 2709.27,
+              "sales": 2759.34,
+              "netSales": 2759.34,
               "cost": 2647.2,
-              "grossProfit": 62.07,
+              "grossProfit": 112.14,
               "quantity": 18
             },
             {
@@ -8804,18 +8804,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2739.27,
-              "netSales": 2739.27,
-              "cost": 1573.82,
-              "grossProfit": 1165.45,
-              "quantity": 15
+              "sales": 3839.1,
+              "netSales": 3839.1,
+              "cost": 2270.82,
+              "grossProfit": 1568.28,
+              "quantity": 23
             },
             {
               "key": "other",
-              "sales": 1967.46,
-              "netSales": 1928.98,
+              "sales": 1917.56,
+              "netSales": 1882.78,
               "cost": 931.7,
-              "grossProfit": 997.28,
+              "grossProfit": 951.08,
               "quantity": 70
             }
           ],
@@ -8825,20 +8825,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 9,
-              "sales": 149.95,
-              "netSales": 138.85,
+              "sales": 119.96,
+              "netSales": 111.08,
               "cost": 0,
-              "grossProfit": 138.85
+              "grossProfit": 111.08
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 30,
-              "sales": 179.95,
-              "netSales": 166.63,
+              "sales": 159.96,
+              "netSales": 148.12,
               "cost": 0,
-              "grossProfit": 166.63
+              "grossProfit": 148.12
             },
             {
               "category": "other",
@@ -8875,60 +8875,60 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 311.92,
-              "netSales": 311.92,
+              "sales": 311.93,
+              "netSales": 311.93,
               "cost": 304,
-              "grossProfit": 7.92
+              "grossProfit": 7.93
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 541.85,
-              "netSales": 541.85,
+              "sales": 541.87,
+              "netSales": 541.87,
               "cost": 547.2,
-              "grossProfit": -5.35
+              "grossProfit": -5.33
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL176514Z108-26",
               "itemName": "WEST LAKE 175/65/14 Z-108 82H TL (2026)",
               "quantity": 2,
-              "sales": 197.95,
-              "netSales": 197.95,
+              "sales": 247.94,
+              "netSales": 247.94,
               "cost": 184,
-              "grossProfit": 13.95
+              "grossProfit": 63.94
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 661.82,
-              "netSales": 661.82,
+              "sales": 661.84,
+              "netSales": 661.84,
               "cost": 680,
-              "grossProfit": -18.18
+              "grossProfit": -18.16
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 2,
-              "sales": 445.88,
-              "netSales": 445.88,
+              "sales": 445.89,
+              "netSales": 445.89,
               "cost": 462,
-              "grossProfit": -16.12
+              "grossProfit": -16.11
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT216017RVR",
               "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
               "quantity": 2,
-              "sales": 549.85,
-              "netSales": 549.85,
+              "sales": 549.87,
+              "netSales": 549.87,
               "cost": 470,
-              "grossProfit": 79.85
+              "grossProfit": 79.87
             },
             {
               "category": "foreman_item",
@@ -8945,10 +8945,20 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.95,
-              "netSales": 189.95,
+              "sales": 189.96,
+              "netSales": 189.96,
               "cost": 99,
-              "grossProfit": 90.95
+              "grossProfit": 90.96
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q9000",
+              "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 2,
+              "sales": 599.86,
+              "netSales": 599.86,
+              "cost": 332,
+              "grossProfit": 267.86
             },
             {
               "category": "foreman_item",
@@ -8985,50 +8995,80 @@
               "itemCode": "NSKBELT",
               "itemName": "ORG BELTING 7PK1275 NS SERENA C26",
               "quantity": 1,
-              "sales": 379.9,
-              "netSales": 379.9,
+              "sales": 379.91,
+              "netSales": 379.91,
               "cost": 130,
-              "grossProfit": 249.9
+              "grossProfit": 249.91
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKLOWERARM",
               "itemName": "LOWER ARM F/RH",
               "quantity": 2,
-              "sales": 599.84,
-              "netSales": 599.84,
+              "sales": 599.86,
+              "netSales": 599.86,
               "cost": 300,
-              "grossProfit": 299.84
+              "grossProfit": 299.86
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKRACKEND",
               "itemName": "555 RACK END NS SERENA C26 (HYBRID)",
               "quantity": 2,
-              "sales": 249.93,
-              "netSales": 249.93,
+              "sales": 249.94,
+              "netSales": 249.94,
               "cost": 110,
-              "grossProfit": 139.93
+              "grossProfit": 139.94
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKTIERODEND",
               "itemName": "555 TIE ROD END OUT NS SERENA C26",
               "quantity": 1,
-              "sales": 259.93,
-              "netSales": 259.93,
+              "sales": 259.94,
+              "netSales": 259.94,
               "cost": 110,
-              "grossProfit": 149.93
+              "grossProfit": 149.94
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKAUTOOIL",
+              "itemName": "ORG AUTO OIL HY STAREX MATIC J",
+              "quantity": 4,
+              "sales": 319.92,
+              "netSales": 319.92,
+              "cost": 300,
+              "grossProfit": 19.92
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKFUELFILTER",
+              "itemName": "KOREA FUEL FILTER HYUNDAI STAREX",
+              "quantity": 1,
+              "sales": 179.96,
+              "netSales": 179.96,
+              "cost": 45,
+              "grossProfit": 134.96
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKOILFILTER",
+              "itemName": "OEM OIL FILTER HYUNDAI",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 20,
+              "grossProfit": -20
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 18,
-              "sales": 179.94,
-              "netSales": 179.94,
+              "sales": 179.97,
+              "netSales": 179.97,
               "cost": 29.7,
-              "grossProfit": 150.24
+              "grossProfit": 150.27
             },
             {
               "category": "other",
@@ -9055,36 +9095,36 @@
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
               "quantity": 1,
-              "sales": 249.93,
-              "netSales": 249.93,
+              "sales": 249.94,
+              "netSales": 249.94,
               "cost": 234.65,
-              "grossProfit": 15.28
+              "grossProfit": 15.29
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.88,
-              "netSales": 439.88,
+              "sales": 439.9,
+              "netSales": 439.9,
               "cost": 402.67,
-              "grossProfit": 37.21
+              "grossProfit": 37.23
             },
             {
               "category": "other",
               "itemCode": "PADHXSAGAVVT",
               "itemName": "HYPERMAX ADJ ABS PRO SAGA VVT HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1087.7,
-              "netSales": 1087.7,
+              "sales": 1087.75,
+              "netSales": 1087.75,
               "cost": 875,
-              "grossProfit": 212.7
+              "grossProfit": 212.75
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:05:25.469Z"
+      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
     },
     "SR": {
       "days": {
@@ -17307,7 +17347,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:05:25.469Z"
+      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
     },
     "ST": {
       "days": {
@@ -24815,10 +24855,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2548,
-              "netSales": 2548,
+              "sales": 2618,
+              "netSales": 2618,
               "cost": 2300,
-              "grossProfit": 248,
+              "grossProfit": 318,
               "quantity": 12
             },
             {
@@ -24839,10 +24879,10 @@
             },
             {
               "key": "other",
-              "sales": 548,
-              "netSales": 548,
+              "sales": 478,
+              "netSales": 478,
               "cost": 81.2,
-              "grossProfit": 466.8,
+              "grossProfit": 396.8,
               "quantity": 37
             }
           ],
@@ -24862,20 +24902,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -24922,10 +24962,10 @@
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 4,
-              "sales": 872,
-              "netSales": 872,
+              "sales": 942,
+              "netSales": 942,
               "cost": 848,
-              "grossProfit": 24
+              "grossProfit": 94
             },
             {
               "category": "passenger_tire",
@@ -25161,7 +25201,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:05:25.469Z"
+      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
     },
     "SK": {
       "days": {
@@ -30235,7 +30275,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:05:25.469Z"
+      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
     },
     "KM": {
       "days": {
@@ -30621,8 +30661,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:05:25.469Z"
+      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
     }
   },
-  "updatedAt": "2026-11-23T08:05:25.469Z"
+  "updatedAt": "2026-11-23T08:21:32.784Z"
 }
