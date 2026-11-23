@@ -8784,14 +8784,14 @@
           ]
         },
         "2026-11-23": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2078.84,
-              "netSales": 2078.84,
+              "sales": 2078.86,
+              "netSales": 2078.86,
               "cost": 2159.2,
-              "grossProfit": -80.36,
+              "grossProfit": -80.34,
               "quantity": 12
             },
             {
@@ -8804,19 +8804,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 879.52,
-              "netSales": 879.52,
+              "sales": 879.54,
+              "netSales": 879.54,
               "cost": 745.82,
-              "grossProfit": 133.7,
+              "grossProfit": 133.72,
               "quantity": 4
             },
             {
               "key": "other",
-              "sales": 649.64,
-              "netSales": 623.74,
+              "sales": 729.6,
+              "netSales": 697.78,
               "cost": 46.8,
-              "grossProfit": 576.94,
-              "quantity": 45
+              "grossProfit": 650.98,
+              "quantity": 50
             }
           ],
           "items": [
@@ -8834,11 +8834,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
-              "sales": 139.93,
-              "netSales": 129.57,
+              "quantity": 24,
+              "sales": 179.91,
+              "netSales": 166.59,
               "cost": 0,
-              "grossProfit": 129.57
+              "grossProfit": 166.59
             },
             {
               "category": "other",
@@ -8854,11 +8854,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 39.98,
-              "netSales": 37.02,
+              "quantity": 2,
+              "sales": 79.96,
+              "netSales": 74.04,
               "cost": 0,
-              "grossProfit": 37.02
+              "grossProfit": 74.04
             },
             {
               "category": "passenger_tire",
@@ -8875,10 +8875,10 @@
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 591.67,
-              "netSales": 591.67,
+              "sales": 591.68,
+              "netSales": 591.68,
               "cost": 680,
-              "grossProfit": -88.33
+              "grossProfit": -88.32
             },
             {
               "category": "passenger_tire",
@@ -8895,10 +8895,10 @@
               "itemCode": "TPAT216017RVR",
               "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
               "quantity": 2,
-              "sales": 549.69,
-              "netSales": 549.69,
+              "sales": 549.7,
+              "netSales": 549.7,
               "cost": 470,
-              "grossProfit": 79.69
+              "grossProfit": 79.7
             },
             {
               "category": "foreman_item",
@@ -8915,10 +8915,10 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 189.89,
-              "netSales": 189.89,
+              "sales": 189.9,
+              "netSales": 189.9,
               "cost": 99,
-              "grossProfit": 90.89
+              "grossProfit": 90.9
             },
             {
               "category": "other",
@@ -8965,16 +8965,16 @@
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.77,
-              "netSales": 439.77,
+              "sales": 439.78,
+              "netSales": 439.78,
               "cost": 402.67,
-              "grossProfit": 37.1
+              "grossProfit": 37.11
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
+      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
     },
     "SR": {
       "days": {
@@ -17127,7 +17127,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
+      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
     },
     "ST": {
       "days": {
@@ -24951,7 +24951,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
+      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
     },
     "SK": {
       "days": {
@@ -29945,7 +29945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
+      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
     },
     "KM": {
       "days": {
@@ -30331,8 +30331,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:48:31.345Z"
+      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
     }
   },
-  "updatedAt": "2026-11-23T04:48:31.345Z"
+  "updatedAt": "2026-11-23T04:54:39.775Z"
 }
