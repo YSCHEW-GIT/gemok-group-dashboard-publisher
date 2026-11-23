@@ -20,15 +20,32 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "github-pages"
-  cancel-in-progress: true
-
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  coalesce:
+    runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.latest.outputs.should_deploy }}
+    steps:
+      - name: Wait for related dashboard commits
+        if: github.event_name == 'push'
+        run: sleep 90
+      - name: Use only the latest main branch commit
+        id: latest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          latest_sha="$(gh api "repos/${GITHUB_REPOSITORY}/commits/${GITHUB_REF_NAME}" --jq '.sha')"
+          if [[ "${GITHUB_SHA}" == "${latest_sha}" ]]; then
+            echo "should_deploy=true" >> "${GITHUB_OUTPUT}"
+            echo "This is the latest commit; continuing with one consolidated deployment."
+          else
+            echo "should_deploy=false" >> "${GITHUB_OUTPUT}"
+            echo "A newer commit ${latest_sha} exists; this deployment is superseded."
+          fi
+
+  build:
+    needs: coalesce
+    if: needs.coalesce.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Check out dashboard source
@@ -66,19 +83,42 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          stable_checks=0
           for attempt in $(seq 1 12); do
-            if gh api \
-              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
-              --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id' \
-              2>/dev/null | grep -q '[0-9]'; then
-              echo "github-pages artifact is visible."
-              exit 0
+            artifact_id="$(gh api \
+              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts?name=github-pages" \
+              --jq '.artifacts[] | select(.expired == false) | .id' \
+              2>/dev/null || true)"
+            if [[ "${artifact_id}" =~ ^[0-9]+$ ]]; then
+              stable_checks=$((stable_checks + 1))
+              echo "github-pages artifact is visible (${stable_checks}/2 stable checks)."
+              if (( stable_checks >= 2 )); then
+                break
+              fi
+            else
+              stable_checks=0
+              echo "Artifact is not visible yet (${attempt}/12)."
             fi
-            echo "Artifact is not visible yet (${attempt}/12); retrying in 5 seconds."
             sleep 5
           done
-          echo "::error::github-pages artifact was not visible within 60 seconds."
-          exit 1
+          if (( stable_checks < 2 )); then
+            echo "::error::github-pages artifact was not stably visible within 60 seconds."
+            exit 1
+          fi
+      - name: Allow Pages artifact metadata to stabilize
+        run: sleep 10
+
+  deploy:
+    needs: build
+    if: needs.build.result == 'success'
+    concurrency:
+      group: "github-pages"
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy dashboard
         id: deployment
         uses: actions/deploy-pages@v4
