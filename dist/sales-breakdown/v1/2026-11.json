@@ -9134,7 +9134,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:33:46.929Z"
+      "lastCollectedAt": "2026-11-23T08:39:54.248Z"
     },
     "SR": {
       "days": {
@@ -17107,7 +17107,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17135,11 +17135,11 @@
             },
             {
               "key": "other",
-              "sales": 480,
-              "netSales": 480,
+              "sales": 510,
+              "netSales": 510,
               "cost": 130.1,
-              "grossProfit": 349.9,
-              "quantity": 43
+              "grossProfit": 379.9,
+              "quantity": 44
             }
           ],
           "items": [
@@ -17207,11 +17207,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -17357,7 +17357,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:33:46.929Z"
+      "lastCollectedAt": "2026-11-23T08:39:54.248Z"
     },
     "ST": {
       "days": {
@@ -25211,7 +25211,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:33:46.929Z"
+      "lastCollectedAt": "2026-11-23T08:39:54.248Z"
     },
     "SK": {
       "days": {
@@ -30095,15 +30095,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 490,
-              "netSales": 490,
-              "cost": 340,
+              "sales": 830,
+              "netSales": 830,
+              "cost": 680,
               "grossProfit": 150,
-              "quantity": 5
+              "quantity": 9
             },
             {
               "key": "sport_rim",
@@ -30123,11 +30123,11 @@
             },
             {
               "key": "other",
-              "sales": 235,
-              "netSales": 235,
-              "cost": 14,
-              "grossProfit": 221,
-              "quantity": 16
+              "sales": 355,
+              "netSales": 355,
+              "cost": 20.6,
+              "grossProfit": 334.4,
+              "quantity": 25
             }
           ],
           "items": [
@@ -30155,30 +30155,30 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 3,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 70
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 5,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 9,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 50
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
-              "quantity": 4,
-              "sales": 420,
-              "netSales": 420,
-              "cost": 340,
+              "quantity": 8,
+              "sales": 760,
+              "netSales": 760,
+              "cost": 680,
               "grossProfit": 80
             },
             {
@@ -30265,11 +30265,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
             },
             {
               "category": "other",
@@ -30285,7 +30285,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:33:46.929Z"
+      "lastCollectedAt": "2026-11-23T08:39:54.248Z"
     },
     "KM": {
       "days": {
@@ -30671,8 +30671,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:33:46.929Z"
+      "lastCollectedAt": "2026-11-23T08:39:54.248Z"
     }
   },
-  "updatedAt": "2026-11-23T08:33:46.929Z"
+  "updatedAt": "2026-11-23T08:39:54.248Z"
 }
