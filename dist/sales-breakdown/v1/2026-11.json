@@ -8784,7 +8784,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8812,11 +8812,11 @@
             },
             {
               "key": "other",
-              "sales": 480,
-              "netSales": 458.54,
+              "sales": 560,
+              "netSales": 532.62,
               "cost": 36.5,
-              "grossProfit": 422.04,
-              "quantity": 33
+              "grossProfit": 496.12,
+              "quantity": 38
             }
           ],
           "items": [
@@ -8834,11 +8834,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 120,
-              "netSales": 111.12,
+              "quantity": 18,
+              "sales": 160,
+              "netSales": 148.16,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 148.16
             },
             {
               "category": "other",
@@ -8849,6 +8849,16 @@
               "netSales": 46.3,
               "cost": 0,
               "grossProfit": 46.3
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -8924,7 +8934,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:02:20.482Z"
+      "lastCollectedAt": "2026-11-23T04:08:26.386Z"
     },
     "SR": {
       "days": {
@@ -17077,7 +17087,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:02:20.482Z"
+      "lastCollectedAt": "2026-11-23T04:08:26.386Z"
     },
     "ST": {
       "days": {
@@ -24581,15 +24591,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 556,
-              "netSales": 556,
-              "cost": 456,
-              "grossProfit": 100,
-              "quantity": 2
+              "sales": 832,
+              "netSales": 832,
+              "cost": 720,
+              "grossProfit": 112,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -24609,11 +24619,11 @@
             },
             {
               "key": "other",
-              "sales": 139,
-              "netSales": 139,
-              "cost": 26.3,
-              "grossProfit": 112.7,
-              "quantity": 9
+              "sales": 209,
+              "netSales": 209,
+              "cost": 29.6,
+              "grossProfit": 179.4,
+              "quantity": 14
             }
           ],
           "items": [
@@ -24631,21 +24641,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -24666,6 +24676,16 @@
               "netSales": 556,
               "cost": 456,
               "grossProfit": 100
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT175015XS76-26",
+              "itemName": "ATLANDER 175/50/15 XSPORT-76 75V TL TH (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 264,
+              "grossProfit": 12
             },
             {
               "category": "foreman_item",
@@ -24726,12 +24746,22 @@
               "netSales": 14,
               "cost": 1.3,
               "grossProfit": 12.7
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:02:20.482Z"
+      "lastCollectedAt": "2026-11-23T04:08:26.386Z"
     },
     "SK": {
       "days": {
@@ -29635,11 +29665,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 260,
-              "netSales": 260,
-              "cost": 257.5,
-              "grossProfit": 2.5,
-              "quantity": 4
+              "sales": 795,
+              "netSales": 795,
+              "cost": 322.3,
+              "grossProfit": 472.7,
+              "quantity": 7
             },
             {
               "key": "other",
@@ -29683,23 +29713,33 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PAOFSP3GRN",
+              "itemName": "PERODUA AUTO OIL SP3 GREEN 1LT",
+              "quantity": 3,
+              "sales": 165,
+              "netSales": 165,
+              "cost": 64.8,
+              "grossProfit": 100.2
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSK26110037",
               "itemName": "AUTO FILTER SET JRS BZ010 AXIA",
               "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "sales": 180,
+              "netSales": 180,
               "cost": 55,
-              "grossProfit": -55
+              "grossProfit": 125
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110038",
               "itemName": "FAN BELT (G) 63R01 AXIA",
               "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "sales": 190,
+              "netSales": 190,
               "cost": 65,
-              "grossProfit": -65
+              "grossProfit": 125
             },
             {
               "category": "other",
@@ -29715,7 +29755,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:02:20.482Z"
+      "lastCollectedAt": "2026-11-23T04:08:26.386Z"
     },
     "KM": {
       "days": {
@@ -30101,8 +30141,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:02:20.482Z"
+      "lastCollectedAt": "2026-11-23T04:08:26.386Z"
     }
   },
-  "updatedAt": "2026-11-23T04:02:20.482Z"
+  "updatedAt": "2026-11-23T04:08:26.386Z"
 }
