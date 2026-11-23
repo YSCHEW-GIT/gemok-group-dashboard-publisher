@@ -8904,7 +8904,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:22:48.524Z"
+      "lastCollectedAt": "2026-11-23T03:37:54.602Z"
     },
     "SR": {
       "days": {
@@ -17057,7 +17057,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:22:48.524Z"
+      "lastCollectedAt": "2026-11-23T03:37:54.602Z"
     },
     "ST": {
       "days": {
@@ -24561,15 +24561,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 556,
+              "netSales": 556,
+              "cost": 456,
+              "grossProfit": 100,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -24581,19 +24581,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 1360,
+              "netSales": 1360,
+              "cost": 521,
+              "grossProfit": 839,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
-              "cost": 0,
-              "grossProfit": 20,
-              "quantity": 2
+              "sales": 84,
+              "netSales": 84,
+              "cost": 1.3,
+              "grossProfit": 82.7,
+              "quantity": 7
             }
           ],
           "items": [
@@ -24606,12 +24606,92 @@
               "netSales": 20,
               "cost": 0,
               "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 0,
+              "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY165R14NEVAB-26",
+              "itemName": "TOYO 165R14 NEVAB 97R M'SIA (2026)",
+              "quantity": 2,
+              "sales": 556,
+              "netSales": 556,
+              "cost": 456,
+              "grossProfit": 100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSLH",
+              "itemName": "L.ARM ASSY LH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 180,
+              "grossProfit": 200
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKSPARKPLUG",
+              "itemName": "SPARK PLUG (SET)",
+              "quantity": 4,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 116,
+              "grossProfit": 164
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKLOWERARM",
+              "itemName": "LOWER ARM F/RH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 180,
+              "grossProfit": 200
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26080061",
+              "itemName": "VC GASKET",
+              "quantity": 1,
+              "sales": 320,
+              "netSales": 320,
+              "cost": 45,
+              "grossProfit": 275
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 2,
+              "sales": 14,
+              "netSales": 14,
+              "cost": 1.3,
+              "grossProfit": 12.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:22:48.524Z"
+      "lastCollectedAt": "2026-11-23T03:37:54.602Z"
     },
     "SK": {
       "days": {
@@ -29575,7 +29655,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:22:48.524Z"
+      "lastCollectedAt": "2026-11-23T03:37:54.602Z"
     },
     "KM": {
       "days": {
@@ -29961,8 +30041,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:22:48.524Z"
+      "lastCollectedAt": "2026-11-23T03:37:54.602Z"
     }
   },
-  "updatedAt": "2026-11-23T03:22:48.524Z"
+  "updatedAt": "2026-11-23T03:37:54.602Z"
 }
