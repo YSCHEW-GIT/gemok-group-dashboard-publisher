@@ -8788,10 +8788,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3736.57,
-              "netSales": 3736.57,
+              "sales": 3736.59,
+              "netSales": 3736.59,
               "cost": 3505.2,
-              "grossProfit": 231.37,
+              "grossProfit": 231.39,
               "quantity": 25
             },
             {
@@ -8804,18 +8804,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 3778.54,
-              "netSales": 3778.54,
-              "cost": 2180.82,
-              "grossProfit": 1597.72,
-              "quantity": 21
+              "sales": 3938.51,
+              "netSales": 3938.51,
+              "cost": 2270.82,
+              "grossProfit": 1667.69,
+              "quantity": 23
             },
             {
               "key": "other",
-              "sales": 2327.14,
-              "netSales": 2280.51,
+              "sales": 2327.15,
+              "netSales": 2280.52,
               "cost": 991.95,
-              "grossProfit": 1288.56,
+              "grossProfit": 1288.57,
               "quantity": 109
             }
           ],
@@ -8905,10 +8905,10 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 381.85,
-              "netSales": 381.85,
+              "sales": 381.86,
+              "netSales": 381.86,
               "cost": 304,
-              "grossProfit": 77.85
+              "grossProfit": 77.86
             },
             {
               "category": "passenger_tire",
@@ -8925,10 +8925,10 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 541.79,
-              "netSales": 541.79,
+              "sales": 541.8,
+              "netSales": 541.8,
               "cost": 547.2,
-              "grossProfit": -5.41
+              "grossProfit": -5.4
             },
             {
               "category": "passenger_tire",
@@ -9032,13 +9032,23 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "NSKABSLINK",
+              "itemName": "CTR ABS LINK FRT SAGA BLM",
+              "quantity": 2,
+              "sales": 159.94,
+              "netSales": 159.94,
+              "cost": 90,
+              "grossProfit": 69.94
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "NSKBELT",
               "itemName": "ORG BELTING 7PK1275 NS SERENA C26",
               "quantity": 1,
-              "sales": 379.85,
-              "netSales": 379.85,
+              "sales": 379.86,
+              "netSales": 379.86,
               "cost": 130,
-              "grossProfit": 249.85
+              "grossProfit": 249.86
             },
             {
               "category": "foreman_item",
@@ -9055,10 +9065,10 @@
               "itemCode": "NSKRACKEND",
               "itemName": "555 RACK END NS SERENA C26 (HYBRID)",
               "quantity": 2,
-              "sales": 249.9,
-              "netSales": 249.9,
+              "sales": 249.91,
+              "netSales": 249.91,
               "cost": 110,
-              "grossProfit": 139.9
+              "grossProfit": 139.91
             },
             {
               "category": "foreman_item",
@@ -9155,10 +9165,10 @@
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
               "quantity": 1,
-              "sales": 249.9,
-              "netSales": 249.9,
+              "sales": 249.91,
+              "netSales": 249.91,
               "cost": 234.65,
-              "grossProfit": 15.25
+              "grossProfit": 15.26
             },
             {
               "category": "foreman_item",
@@ -9175,16 +9185,16 @@
               "itemCode": "PADHXSAGAVVT",
               "itemName": "HYPERMAX ADJ ABS PRO SAGA VVT HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1087.59,
-              "netSales": 1087.59,
+              "sales": 1087.6,
+              "netSales": 1087.6,
               "cost": 875,
-              "grossProfit": 212.59
+              "grossProfit": 212.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:16:29.456Z"
+      "lastCollectedAt": "2026-11-23T09:31:36.328Z"
     },
     "SR": {
       "days": {
@@ -17157,15 +17167,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 9,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1570,
-              "netSales": 1570,
-              "cost": 1628,
-              "grossProfit": -58,
-              "quantity": 10
+              "sales": 1700,
+              "netSales": 1700,
+              "cost": 1721,
+              "grossProfit": -21,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -17185,11 +17195,11 @@
             },
             {
               "key": "other",
-              "sales": 510,
-              "netSales": 510,
+              "sales": 540,
+              "netSales": 540,
               "cost": 130.1,
-              "grossProfit": 379.9,
-              "quantity": 44
+              "grossProfit": 409.9,
+              "quantity": 47
             }
           ],
           "items": [
@@ -17267,21 +17277,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 20,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -17302,6 +17312,16 @@
               "netSales": 512,
               "cost": 512,
               "grossProfit": 0
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z108-26",
+              "itemName": "WEST LAKE 195/55/15 Z-108 85V TL (2026)",
+              "quantity": 1,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 93,
+              "grossProfit": 37
             },
             {
               "category": "passenger_tire",
@@ -17407,7 +17427,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:16:29.456Z"
+      "lastCollectedAt": "2026-11-23T09:31:36.328Z"
     },
     "ST": {
       "days": {
@@ -25261,7 +25281,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:16:29.456Z"
+      "lastCollectedAt": "2026-11-23T09:31:36.328Z"
     },
     "SK": {
       "days": {
@@ -30335,7 +30355,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:16:29.456Z"
+      "lastCollectedAt": "2026-11-23T09:31:36.328Z"
     },
     "KM": {
       "days": {
@@ -30721,8 +30741,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:16:29.456Z"
+      "lastCollectedAt": "2026-11-23T09:31:36.328Z"
     }
   },
-  "updatedAt": "2026-11-23T09:16:29.456Z"
+  "updatedAt": "2026-11-23T09:31:36.328Z"
 }
