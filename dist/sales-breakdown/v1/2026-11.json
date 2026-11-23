@@ -8784,14 +8784,14 @@
           ]
         },
         "2026-11-23": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1612.86,
-              "netSales": 1612.86,
+              "sales": 1682.89,
+              "netSales": 1682.89,
               "cost": 1697.2,
-              "grossProfit": -84.34,
+              "grossProfit": -14.31,
               "quantity": 10
             },
             {
@@ -8804,18 +8804,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 689.53,
-              "netSales": 689.53,
-              "cost": 637.32,
-              "grossProfit": 52.21,
-              "quantity": 2
+              "sales": 879.41,
+              "netSales": 879.41,
+              "cost": 745.82,
+              "grossProfit": 133.59,
+              "quantity": 4
             },
             {
               "key": "other",
-              "sales": 559.61,
-              "netSales": 532.23,
+              "sales": 489.7,
+              "netSales": 467.5,
               "cost": 36.5,
-              "grossProfit": 495.73,
+              "grossProfit": 431,
               "quantity": 38
             }
           ],
@@ -8825,20 +8825,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 119.92,
-              "netSales": 111.04,
+              "sales": 89.94,
+              "netSales": 83.28,
               "cost": 0,
-              "grossProfit": 111.04
+              "grossProfit": 83.28
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 18,
-              "sales": 159.88,
-              "netSales": 148.04,
+              "sales": 119.94,
+              "netSales": 111.06,
               "cost": 0,
-              "grossProfit": 148.04
+              "grossProfit": 111.06
             },
             {
               "category": "other",
@@ -8855,40 +8855,60 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 39.97,
-              "netSales": 37.01,
+              "sales": 39.98,
+              "netSales": 37.02,
               "cost": 0,
-              "grossProfit": 37.01
+              "grossProfit": 37.02
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 471.67,
-              "netSales": 471.67,
+              "sales": 541.64,
+              "netSales": 541.64,
               "cost": 547.2,
-              "grossProfit": -75.53
+              "grossProfit": -5.56
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 591.58,
-              "netSales": 591.58,
+              "sales": 591.61,
+              "netSales": 591.61,
               "cost": 680,
-              "grossProfit": -88.42
+              "grossProfit": -88.39
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT216017RVR",
               "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
               "quantity": 2,
-              "sales": 549.61,
-              "netSales": 549.61,
+              "sales": 549.64,
+              "netSales": 549.64,
               "cost": 470,
-              "grossProfit": 79.61
+              "grossProfit": 79.64
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFGPAXIA",
+              "itemName": "PERODUA AXIA OIL FILTER 15601 P2A12 HSG",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 9.5,
+              "grossProfit": -9.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 189.87,
+              "netSales": 189.87,
+              "cost": 99,
+              "grossProfit": 90.87
             },
             {
               "category": "other",
@@ -8915,26 +8935,26 @@
               "itemCode": "BAMHLM60B24L",
               "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
               "quantity": 1,
-              "sales": 249.82,
-              "netSales": 249.82,
+              "sales": 249.84,
+              "netSales": 249.84,
               "cost": 234.65,
-              "grossProfit": 15.17
+              "grossProfit": 15.19
             },
             {
               "category": "foreman_item",
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.71,
-              "netSales": 439.71,
+              "sales": 439.7,
+              "netSales": 439.7,
               "cost": 402.67,
-              "grossProfit": 37.04
+              "grossProfit": 37.03
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:14:34.042Z"
+      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
     },
     "SR": {
       "days": {
@@ -17087,7 +17107,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:14:34.042Z"
+      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
     },
     "ST": {
       "days": {
@@ -24611,11 +24631,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1480,
-              "netSales": 1480,
-              "cost": 596,
-              "grossProfit": 884,
-              "quantity": 8
+              "sales": 2260,
+              "netSales": 2260,
+              "cost": 1006,
+              "grossProfit": 1254,
+              "quantity": 13
             },
             {
               "key": "other",
@@ -24686,6 +24706,36 @@
               "netSales": 276,
               "cost": 264,
               "grossProfit": 12
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK40225",
+              "itemName": "DISC ROTOR FRT",
+              "quantity": 2,
+              "sales": 460,
+              "netSales": 460,
+              "cost": 220,
+              "grossProfit": 240
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK741024",
+              "itemName": "DISC BRAKE PAD FRT",
+              "quantity": 1,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 80,
+              "grossProfit": 80
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRBRGFRT",
+              "itemName": "ABSR BEARING FRT",
+              "quantity": 2,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 110,
+              "grossProfit": 50
             },
             {
               "category": "foreman_item",
@@ -24761,7 +24811,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:14:34.042Z"
+      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
     },
     "SK": {
       "days": {
@@ -29755,7 +29805,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:14:34.042Z"
+      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
     },
     "KM": {
       "days": {
@@ -30141,8 +30191,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:14:34.042Z"
+      "lastCollectedAt": "2026-11-23T04:20:45.745Z"
     }
   },
-  "updatedAt": "2026-11-23T04:14:34.042Z"
+  "updatedAt": "2026-11-23T04:20:45.745Z"
 }
