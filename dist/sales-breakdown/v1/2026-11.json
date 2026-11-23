@@ -8784,15 +8784,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2759.34,
-              "netSales": 2759.34,
-              "cost": 2647.2,
-              "grossProfit": 112.14,
-              "quantity": 18
+              "sales": 3055.3,
+              "netSales": 3055.3,
+              "cost": 2817.2,
+              "grossProfit": 238.1,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
@@ -8804,19 +8804,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 3839.1,
-              "netSales": 3839.1,
+              "sales": 3839.11,
+              "netSales": 3839.11,
               "cost": 2270.82,
-              "grossProfit": 1568.28,
+              "grossProfit": 1568.29,
               "quantity": 23
             },
             {
               "key": "other",
-              "sales": 1917.56,
-              "netSales": 1882.78,
+              "sales": 1847.59,
+              "netSales": 1817.99,
               "cost": 931.7,
-              "grossProfit": 951.08,
-              "quantity": 70
+              "grossProfit": 886.29,
+              "quantity": 73
             }
           ],
           "items": [
@@ -8824,21 +8824,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 119.96,
-              "netSales": 111.08,
+              "quantity": 10,
+              "sales": 89.97,
+              "netSales": 83.31,
               "cost": 0,
-              "grossProfit": 111.08
+              "grossProfit": 83.31
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 159.96,
-              "netSales": 148.12,
+              "quantity": 32,
+              "sales": 119.97,
+              "netSales": 111.09,
               "cost": 0,
-              "grossProfit": 148.12
+              "grossProfit": 111.09
             },
             {
               "category": "other",
@@ -8875,20 +8875,30 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 311.93,
-              "netSales": 311.93,
+              "sales": 381.91,
+              "netSales": 381.91,
               "cost": 304,
-              "grossProfit": 7.93
+              "grossProfit": 77.91
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 2,
+              "sales": 225.95,
+              "netSales": 225.95,
+              "cost": 170,
+              "grossProfit": 55.95
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 4,
-              "sales": 541.87,
-              "netSales": 541.87,
+              "sales": 541.88,
+              "netSales": 541.88,
               "cost": 547.2,
-              "grossProfit": -5.33
+              "grossProfit": -5.32
             },
             {
               "category": "passenger_tire",
@@ -8905,20 +8915,20 @@
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 661.84,
-              "netSales": 661.84,
+              "sales": 661.85,
+              "netSales": 661.85,
               "cost": 680,
-              "grossProfit": -18.16
+              "grossProfit": -18.15
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 2,
-              "sales": 445.89,
-              "netSales": 445.89,
+              "sales": 445.9,
+              "netSales": 445.9,
               "cost": 462,
-              "grossProfit": -16.11
+              "grossProfit": -16.1
             },
             {
               "category": "passenger_tire",
@@ -9035,10 +9045,10 @@
               "itemCode": "NSKAUTOOIL",
               "itemName": "ORG AUTO OIL HY STAREX MATIC J",
               "quantity": 4,
-              "sales": 319.92,
-              "netSales": 319.92,
+              "sales": 319.93,
+              "netSales": 319.93,
               "cost": 300,
-              "grossProfit": 19.92
+              "grossProfit": 19.93
             },
             {
               "category": "foreman_item",
@@ -9115,16 +9125,16 @@
               "itemCode": "PADHXSAGAVVT",
               "itemName": "HYPERMAX ADJ ABS PRO SAGA VVT HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1087.75,
-              "netSales": 1087.75,
+              "sales": 1087.76,
+              "netSales": 1087.76,
               "cost": 875,
-              "grossProfit": 212.75
+              "grossProfit": 212.76
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
+      "lastCollectedAt": "2026-11-23T08:27:40.108Z"
     },
     "SR": {
       "days": {
@@ -17347,7 +17357,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
+      "lastCollectedAt": "2026-11-23T08:27:40.108Z"
     },
     "ST": {
       "days": {
@@ -25201,7 +25211,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
+      "lastCollectedAt": "2026-11-23T08:27:40.108Z"
     },
     "SK": {
       "days": {
@@ -30275,7 +30285,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
+      "lastCollectedAt": "2026-11-23T08:27:40.108Z"
     },
     "KM": {
       "days": {
@@ -30661,8 +30671,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T08:21:32.784Z"
+      "lastCollectedAt": "2026-11-23T08:27:40.108Z"
     }
   },
-  "updatedAt": "2026-11-23T08:21:32.784Z"
+  "updatedAt": "2026-11-23T08:27:40.108Z"
 }
