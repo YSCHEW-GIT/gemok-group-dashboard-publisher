@@ -8784,7 +8784,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8804,19 +8804,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 879.54,
-              "netSales": 879.54,
+              "sales": 879.55,
+              "netSales": 879.55,
               "cost": 745.82,
-              "grossProfit": 133.72,
+              "grossProfit": 133.73,
               "quantity": 4
             },
             {
               "key": "other",
-              "sales": 729.6,
-              "netSales": 697.78,
+              "sales": 739.59,
+              "netSales": 707.03,
               "cost": 46.8,
-              "grossProfit": 650.98,
-              "quantity": 50
+              "grossProfit": 660.23,
+              "quantity": 51
             }
           ],
           "items": [
@@ -8859,6 +8859,16 @@
               "netSales": 74.04,
               "cost": 0,
               "grossProfit": 74.04
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 9.99,
+              "netSales": 9.25,
+              "cost": 0,
+              "grossProfit": 9.25
             },
             {
               "category": "passenger_tire",
@@ -8965,16 +8975,16 @@
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.78,
-              "netSales": 439.78,
+              "sales": 439.79,
+              "netSales": 439.79,
               "cost": 402.67,
-              "grossProfit": 37.11
+              "grossProfit": 37.12
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
+      "lastCollectedAt": "2026-11-23T05:00:45.234Z"
     },
     "SR": {
       "days": {
@@ -17127,7 +17137,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
+      "lastCollectedAt": "2026-11-23T05:00:45.234Z"
     },
     "ST": {
       "days": {
@@ -24951,7 +24961,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
+      "lastCollectedAt": "2026-11-23T05:00:45.234Z"
     },
     "SK": {
       "days": {
@@ -29945,7 +29955,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
+      "lastCollectedAt": "2026-11-23T05:00:45.234Z"
     },
     "KM": {
       "days": {
@@ -30331,8 +30341,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T04:54:39.775Z"
+      "lastCollectedAt": "2026-11-23T05:00:45.234Z"
     }
   },
-  "updatedAt": "2026-11-23T04:54:39.775Z"
+  "updatedAt": "2026-11-23T05:00:45.234Z"
 }
