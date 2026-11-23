@@ -8788,34 +8788,34 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3736.59,
-              "netSales": 3736.59,
+              "sales": 3806.61,
+              "netSales": 3806.61,
               "cost": 3505.2,
-              "grossProfit": 231.39,
+              "grossProfit": 301.41,
               "quantity": 25
             },
             {
               "key": "sport_rim",
-              "sales": 649.76,
-              "netSales": 649.76,
-              "cost": 720,
-              "grossProfit": -70.24,
-              "quantity": 1
+              "sales": 649.66,
+              "netSales": 649.66,
+              "cost": 570,
+              "grossProfit": 79.66,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 3938.51,
-              "netSales": 3938.51,
+              "sales": 3938.56,
+              "netSales": 3938.56,
               "cost": 2270.82,
-              "grossProfit": 1667.69,
+              "grossProfit": 1667.74,
               "quantity": 23
             },
             {
               "key": "other",
-              "sales": 2337.14,
-              "netSales": 2289.77,
+              "sales": 2267.17,
+              "netSales": 2224.98,
               "cost": 991.95,
-              "grossProfit": 1297.82,
+              "grossProfit": 1233.03,
               "quantity": 110
             }
           ],
@@ -8832,33 +8832,43 @@
             },
             {
               "category": "sport_rim",
+              "itemCode": "US2621133",
+              "itemName": "USED SPORT RIM 14X4 4X100",
+              "quantity": -1,
+              "sales": -150.05,
+              "netSales": -150.05,
+              "cost": -150,
+              "grossProfit": -0.05
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SIMPHB1541CT1200",
               "itemName": "SPORT RIM 15X7 4X100 ET40 HYPER BLACK CT1200",
               "quantity": 1,
-              "sales": 649.76,
-              "netSales": 649.76,
+              "sales": 799.71,
+              "netSales": 799.71,
               "cost": 720,
-              "grossProfit": -70.24
+              "grossProfit": 79.71
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 11,
-              "sales": 119.96,
-              "netSales": 111.08,
+              "sales": 89.97,
+              "netSales": 83.31,
               "cost": 0,
-              "grossProfit": 111.08
+              "grossProfit": 83.31
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 36,
-              "sales": 159.96,
-              "netSales": 148.12,
+              "sales": 119.97,
+              "netSales": 111.09,
               "cost": 0,
-              "grossProfit": 148.12
+              "grossProfit": 111.09
             },
             {
               "category": "other",
@@ -8895,10 +8905,10 @@
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 2,
-              "sales": 159.94,
-              "netSales": 148.09,
+              "sales": 159.95,
+              "netSales": 148.1,
               "cost": 0,
-              "grossProfit": 148.09
+              "grossProfit": 148.1
             },
             {
               "category": "passenger_tire",
@@ -8915,10 +8925,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 2,
-              "sales": 225.91,
-              "netSales": 225.91,
+              "sales": 225.92,
+              "netSales": 225.92,
               "cost": 170,
-              "grossProfit": 55.91
+              "grossProfit": 55.92
             },
             {
               "category": "passenger_tire",
@@ -8945,40 +8955,40 @@
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 661.75,
-              "netSales": 661.75,
+              "sales": 661.76,
+              "netSales": 661.76,
               "cost": 680,
-              "grossProfit": -18.25
+              "grossProfit": -18.24
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
               "quantity": 4,
-              "sales": 631.76,
-              "netSales": 631.76,
+              "sales": 701.74,
+              "netSales": 701.74,
               "cost": 688,
-              "grossProfit": -56.24
+              "grossProfit": 13.74
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 2,
-              "sales": 445.83,
-              "netSales": 445.83,
+              "sales": 445.84,
+              "netSales": 445.84,
               "cost": 462,
-              "grossProfit": -16.17
+              "grossProfit": -16.16
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT216017RVR",
               "itemName": "ATLANDER 215/60/17 ROVERSTAR H/T 96V (2026)",
               "quantity": 2,
-              "sales": 549.79,
-              "netSales": 549.79,
+              "sales": 549.8,
+              "netSales": 549.8,
               "cost": 470,
-              "grossProfit": 79.79
+              "grossProfit": 79.8
             },
             {
               "category": "foreman_item",
@@ -9005,10 +9015,10 @@
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 2,
-              "sales": 599.77,
-              "netSales": 599.77,
+              "sales": 599.78,
+              "netSales": 599.78,
               "cost": 332,
-              "grossProfit": 267.77
+              "grossProfit": 267.78
             },
             {
               "category": "foreman_item",
@@ -9025,10 +9035,10 @@
               "itemCode": "NSKABSBEARING",
               "itemName": "BESTA ABS BEARING FRT SAGA BLM",
               "quantity": 2,
-              "sales": 119.95,
-              "netSales": 119.95,
+              "sales": 119.96,
+              "netSales": 119.96,
               "cost": 60,
-              "grossProfit": 59.95
+              "grossProfit": 59.96
             },
             {
               "category": "foreman_item",
@@ -9055,10 +9065,10 @@
               "itemCode": "NSKLOWERARM",
               "itemName": "LOWER ARM F/RH",
               "quantity": 2,
-              "sales": 599.77,
-              "netSales": 599.77,
+              "sales": 599.78,
+              "netSales": 599.78,
               "cost": 300,
-              "grossProfit": 299.77
+              "grossProfit": 299.78
             },
             {
               "category": "foreman_item",
@@ -9085,10 +9095,10 @@
               "itemCode": "NSKAUTOOIL",
               "itemName": "ORG AUTO OIL HY STAREX MATIC J",
               "quantity": 4,
-              "sales": 419.84,
-              "netSales": 419.84,
+              "sales": 419.85,
+              "netSales": 419.85,
               "cost": 300,
-              "grossProfit": 119.84
+              "grossProfit": 119.85
             },
             {
               "category": "foreman_item",
@@ -9125,10 +9135,10 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 23,
-              "sales": 219.89,
-              "netSales": 219.89,
+              "sales": 219.93,
+              "netSales": 219.93,
               "cost": 37.95,
-              "grossProfit": 181.94
+              "grossProfit": 181.98
             },
             {
               "category": "other",
@@ -9175,26 +9185,26 @@
               "itemCode": "BAMHLMFS95",
               "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
               "quantity": 1,
-              "sales": 439.83,
-              "netSales": 439.83,
+              "sales": 439.84,
+              "netSales": 439.84,
               "cost": 402.67,
-              "grossProfit": 37.16
+              "grossProfit": 37.17
             },
             {
               "category": "other",
               "itemCode": "PADHXSAGAVVT",
               "itemName": "HYPERMAX ADJ ABS PRO SAGA VVT HILOW BODY SHIFT F/R",
               "quantity": 2,
-              "sales": 1087.59,
-              "netSales": 1087.59,
+              "sales": 1087.55,
+              "netSales": 1087.55,
               "cost": 875,
-              "grossProfit": 212.59
+              "grossProfit": 212.55
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:56:02.416Z"
+      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
     },
     "SR": {
       "days": {
@@ -17427,7 +17437,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:56:02.416Z"
+      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
     },
     "ST": {
       "days": {
@@ -24959,11 +24969,11 @@
             },
             {
               "key": "other",
-              "sales": 478,
-              "netSales": 478,
-              "cost": 81.2,
-              "grossProfit": 396.8,
-              "quantity": 37
+              "sales": 1308,
+              "netSales": 1308,
+              "cost": 441.2,
+              "grossProfit": 866.8,
+              "quantity": 38
             }
           ],
           "items": [
@@ -25218,6 +25228,16 @@
               "grossProfit": 115
             },
             {
+              "category": "other",
+              "itemCode": "NSK70426",
+              "itemName": "CLUTCH KIT SET",
+              "quantity": 1,
+              "sales": 830,
+              "netSales": 830,
+              "cost": 360,
+              "grossProfit": 470
+            },
+            {
               "category": "foreman_item",
               "itemCode": "NSK71426",
               "itemName": "OIL SEAL GEARBOX KIT",
@@ -25281,7 +25301,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:56:02.416Z"
+      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
     },
     "SK": {
       "days": {
@@ -30355,7 +30375,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:56:02.416Z"
+      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
     },
     "KM": {
       "days": {
@@ -30741,8 +30761,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T09:56:02.416Z"
+      "lastCollectedAt": "2026-11-23T10:02:09.172Z"
     }
   },
-  "updatedAt": "2026-11-23T09:56:02.416Z"
+  "updatedAt": "2026-11-23T10:02:09.172Z"
 }
