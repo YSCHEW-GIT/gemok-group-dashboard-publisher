@@ -8784,15 +8784,15 @@
           ]
         },
         "2026-11-23": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1022,
-              "netSales": 1022,
-              "cost": 1017.2,
-              "grossProfit": 4.8,
-              "quantity": 6
+              "sales": 1614,
+              "netSales": 1614,
+              "cost": 1697.2,
+              "grossProfit": -83.2,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -8812,11 +8812,11 @@
             },
             {
               "key": "other",
-              "sales": 320,
-              "netSales": 307.42,
-              "cost": 29.9,
-              "grossProfit": 277.52,
-              "quantity": 22
+              "sales": 480,
+              "netSales": 458.54,
+              "cost": 36.5,
+              "grossProfit": 422.04,
+              "quantity": 33
             }
           ],
           "items": [
@@ -8824,21 +8824,31 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 5,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 80,
-              "netSales": 74.08,
+              "quantity": 14,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 111.12
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 46.3,
+              "cost": 0,
+              "grossProfit": 46.3
             },
             {
               "category": "passenger_tire",
@@ -8849,6 +8859,16 @@
               "netSales": 472,
               "cost": 547.2,
               "grossProfit": -75.2
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5-26",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
+              "quantity": 4,
+              "sales": 592,
+              "netSales": 592,
+              "cost": 680,
+              "grossProfit": -88
             },
             {
               "category": "passenger_tire",
@@ -8864,11 +8884,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             },
             {
               "category": "other",
@@ -8904,7 +8924,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:50:08.622Z"
+      "lastCollectedAt": "2026-11-23T03:56:14.698Z"
     },
     "SR": {
       "days": {
@@ -16889,10 +16909,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 766,
-              "netSales": 766,
+              "sales": 836,
+              "netSales": 836,
               "cost": 540,
-              "grossProfit": 226,
+              "grossProfit": 296,
               "quantity": 0
             },
             {
@@ -16905,10 +16925,10 @@
             },
             {
               "key": "other",
-              "sales": 440,
-              "netSales": 440,
+              "sales": 370,
+              "netSales": 370,
               "cost": 73.5,
-              "grossProfit": 366.5,
+              "grossProfit": 296.5,
               "quantity": 31
             }
           ],
@@ -16948,30 +16968,30 @@
               "itemCode": "SR157044H-GB-ADVGT",
               "itemName": "SPORT RIM 15X7.0 4X114.3 ET38 GROSS BLACK WSR GT-B21 (ADV GT)",
               "quantity": 1,
-              "sales": 739,
-              "netSales": 739,
+              "sales": 809,
+              "netSales": 809,
               "cost": 740,
-              "grossProfit": -1
+              "grossProfit": 69
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -17057,7 +17077,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:50:08.622Z"
+      "lastCollectedAt": "2026-11-23T03:56:14.698Z"
     },
     "ST": {
       "days": {
@@ -24711,7 +24731,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:50:08.622Z"
+      "lastCollectedAt": "2026-11-23T03:56:14.698Z"
     },
     "SK": {
       "days": {
@@ -29617,9 +29637,9 @@
               "key": "foreman_item",
               "sales": 260,
               "netSales": 260,
-              "cost": 137.5,
-              "grossProfit": 122.5,
-              "quantity": 2
+              "cost": 257.5,
+              "grossProfit": 2.5,
+              "quantity": 4
             },
             {
               "key": "other",
@@ -29662,6 +29682,26 @@
               "grossProfit": 130
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK26110037",
+              "itemName": "AUTO FILTER SET JRS BZ010 AXIA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 55,
+              "grossProfit": -55
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110038",
+              "itemName": "FAN BELT (G) 63R01 AXIA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 65,
+              "grossProfit": -65
+            },
+            {
               "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
@@ -29675,7 +29715,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:50:08.622Z"
+      "lastCollectedAt": "2026-11-23T03:56:14.698Z"
     },
     "KM": {
       "days": {
@@ -30061,8 +30101,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T03:50:08.622Z"
+      "lastCollectedAt": "2026-11-23T03:56:14.698Z"
     }
   },
-  "updatedAt": "2026-11-23T03:50:08.622Z"
+  "updatedAt": "2026-11-23T03:56:14.698Z"
 }
