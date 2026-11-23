@@ -8784,7 +8784,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8804,11 +8804,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 250,
+              "netSales": 250,
+              "cost": 234.65,
+              "grossProfit": 15.35,
+              "quantity": 1
             },
             {
               "key": "other",
@@ -8819,11 +8819,22 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "BAMHLM60B24L",
+              "itemName": "AMARON FLO-HILIFE 60B24L (NS60LST)",
+              "quantity": 1,
+              "sales": 250,
+              "netSales": 250,
+              "cost": 234.65,
+              "grossProfit": 15.35
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:41:22.441Z"
+      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
     },
     "SR": {
       "days": {
@@ -16835,7 +16846,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:41:22.441Z"
+      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
     },
     "ST": {
       "days": {
@@ -24378,7 +24389,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:41:22.441Z"
+      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
     },
     "SK": {
       "days": {
@@ -29687,8 +29698,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T01:41:22.441Z"
+      "lastCollectedAt": "2026-11-23T01:48:59.004Z"
     }
   },
-  "updatedAt": "2026-11-23T01:41:22.441Z"
+  "updatedAt": "2026-11-23T01:48:59.004Z"
 }
