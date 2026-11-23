@@ -8894,7 +8894,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
+      "lastCollectedAt": "2026-11-23T02:52:18.238Z"
     },
     "SR": {
       "days": {
@@ -17007,7 +17007,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
+      "lastCollectedAt": "2026-11-23T02:52:18.238Z"
     },
     "ST": {
       "days": {
@@ -24511,7 +24511,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -24539,18 +24539,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 20,
+              "quantity": 2
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 0,
+              "grossProfit": 20
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
+      "lastCollectedAt": "2026-11-23T02:52:18.238Z"
     },
     "SK": {
       "days": {
@@ -29434,7 +29445,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 1,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -29454,22 +29465,32 @@
             },
             {
               "key": "foreman_item",
-              "sales": 38.36,
-              "netSales": 38.36,
+              "sales": 260,
+              "netSales": 260,
               "cost": 137.5,
-              "grossProfit": -99.14,
+              "grossProfit": 122.5,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 6.64,
-              "netSales": 6.64,
+              "sales": 55,
+              "netSales": 55,
               "cost": 2.2,
-              "grossProfit": 4.44,
-              "quantity": 1
+              "grossProfit": 52.8,
+              "quantity": 2
             }
           ],
           "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
             {
               "category": "foreman_item",
               "itemCode": "POFPRDAXIA",
@@ -29485,26 +29506,26 @@
               "itemCode": "OETL0W20Q9000",
               "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
               "quantity": 1,
-              "sales": 38.36,
-              "netSales": 38.36,
+              "sales": 260,
+              "netSales": 260,
               "cost": 130,
-              "grossProfit": -91.64
+              "grossProfit": 130
             },
             {
               "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
-              "sales": 6.64,
-              "netSales": 6.64,
+              "sales": 45,
+              "netSales": 45,
               "cost": 2.2,
-              "grossProfit": 4.44
+              "grossProfit": 42.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
+      "lastCollectedAt": "2026-11-23T02:52:18.238Z"
     },
     "KM": {
       "days": {
@@ -29890,8 +29911,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
+      "lastCollectedAt": "2026-11-23T02:52:18.238Z"
     }
   },
-  "updatedAt": "2026-11-23T02:46:11.498Z"
+  "updatedAt": "2026-11-23T02:52:18.238Z"
 }
