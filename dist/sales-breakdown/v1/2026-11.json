@@ -8784,7 +8784,7 @@
           ]
         },
         "2026-11-23": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
@@ -8804,11 +8804,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 250,
-              "netSales": 250,
-              "cost": 234.65,
-              "grossProfit": 15.35,
-              "quantity": 1
+              "sales": 690,
+              "netSales": 690,
+              "cost": 637.32,
+              "grossProfit": 52.68,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -8879,12 +8879,22 @@
               "netSales": 250,
               "cost": 234.65,
               "grossProfit": 15.35
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "BAMHLMFS95",
+              "itemName": "AMARON HI-LIFE BATTERY MF 130D26L S95",
+              "quantity": 1,
+              "sales": 440,
+              "netSales": 440,
+              "cost": 402.67,
+              "grossProfit": 37.33
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:39:34.715Z"
+      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
     },
     "SR": {
       "days": {
@@ -16861,10 +16871,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 848,
-              "netSales": 848,
+              "sales": 898,
+              "netSales": 898,
               "cost": 884,
-              "grossProfit": -36,
+              "grossProfit": 14,
               "quantity": 6
             },
             {
@@ -16885,10 +16895,10 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 200,
+              "netSales": 200,
               "cost": 34.9,
-              "grossProfit": 215.1,
+              "grossProfit": 165.1,
               "quantity": 15
             }
           ],
@@ -16918,20 +16928,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -16948,10 +16958,10 @@
               "itemCode": "TPTY195515CR1",
               "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
               "quantity": 2,
-              "sales": 336,
-              "netSales": 336,
+              "sales": 386,
+              "netSales": 386,
               "cost": 372,
-              "grossProfit": -36
+              "grossProfit": 14
             },
             {
               "category": "foreman_item",
@@ -16997,7 +17007,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:39:34.715Z"
+      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
     },
     "ST": {
       "days": {
@@ -24540,7 +24550,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:39:34.715Z"
+      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
     },
     "SK": {
       "days": {
@@ -29444,37 +29454,57 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 38.36,
+              "netSales": 38.36,
+              "cost": 137.5,
+              "grossProfit": -99.14,
+              "quantity": 2
             },
             {
               "key": "other",
-              "sales": 45,
-              "netSales": 45,
+              "sales": 6.64,
+              "netSales": 6.64,
               "cost": 2.2,
-              "grossProfit": 42.8,
+              "grossProfit": 4.44,
               "quantity": 1
             }
           ],
           "items": [
             {
+              "category": "foreman_item",
+              "itemCode": "POFPRDAXIA",
+              "itemName": "OIL FILTER PERODUA AXIA /MYV NEW",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL0W20Q9000",
+              "itemName": "TOTAL 0W20 QUART 9000 FULLY SYNTHETIC 4LT",
+              "quantity": 1,
+              "sales": 38.36,
+              "netSales": 38.36,
+              "cost": 130,
+              "grossProfit": -91.64
+            },
+            {
               "category": "other",
               "itemCode": "XLPTBP00",
               "itemName": "LMS BP-00 TIRE PATCHES",
               "quantity": 1,
-              "sales": 45,
-              "netSales": 45,
+              "sales": 6.64,
+              "netSales": 6.64,
               "cost": 2.2,
-              "grossProfit": 42.8
+              "grossProfit": 4.44
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:39:34.715Z"
+      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
     },
     "KM": {
       "days": {
@@ -29860,8 +29890,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-23T02:39:34.715Z"
+      "lastCollectedAt": "2026-11-23T02:46:11.498Z"
     }
   },
-  "updatedAt": "2026-11-23T02:39:34.715Z"
+  "updatedAt": "2026-11-23T02:46:11.498Z"
 }
