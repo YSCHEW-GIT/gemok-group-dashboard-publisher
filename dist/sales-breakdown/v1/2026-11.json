@@ -9203,14 +9203,14 @@
           ]
         },
         "2026-11-24": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13256,
-              "netSales": 13256,
+              "sales": 13326,
+              "netSales": 13326,
               "cost": 12348.64,
-              "grossProfit": 907.36,
+              "grossProfit": 977.36,
               "quantity": 45
             },
             {
@@ -9231,11 +9231,11 @@
             },
             {
               "key": "other",
-              "sales": 656,
-              "netSales": 629.65,
-              "cost": 64.35,
-              "grossProfit": 565.3,
-              "quantity": 87
+              "sales": 3386,
+              "netSales": 3357.43,
+              "cost": 2024.35,
+              "grossProfit": 1333.08,
+              "quantity": 92
             }
           ],
           "items": [
@@ -9264,16 +9264,6 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 11,
-              "sales": 150,
-              "netSales": 138.9,
-              "cost": 0,
-              "grossProfit": 138.9
-            },
-            {
-              "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
               "sales": 120,
               "netSales": 111.12,
               "cost": 0,
@@ -9281,13 +9271,23 @@
             },
             {
               "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 34,
+              "sales": 80,
+              "netSales": 74.08,
+              "cost": 0,
+              "grossProfit": 74.08
+            },
+            {
+              "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 37.04
             },
             {
               "category": "foreman_item",
@@ -9318,6 +9318,16 @@
               "netSales": 70.37,
               "cost": 0,
               "grossProfit": 70.37
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
             },
             {
               "category": "passenger_tire",
@@ -9384,10 +9394,10 @@
               "itemCode": "TPHK195515K435",
               "itemName": "HANKOOK 195/55/15 85H K435 (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 580,
-              "grossProfit": 12
+              "grossProfit": 82
             },
             {
               "category": "passenger_tire",
@@ -9568,12 +9578,22 @@
               "netSales": 300,
               "cost": 64.35,
               "grossProfit": 235.65
+            },
+            {
+              "category": "other",
+              "itemCode": "PADHXFCSF",
+              "itemName": "HYPERMAX ADJ ABSORBER HD CIVIC FC SOFT HARD F/R",
+              "quantity": 2,
+              "sales": 2700,
+              "netSales": 2700,
+              "cost": 1960,
+              "grossProfit": 740
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:53:30.512Z"
+      "lastCollectedAt": "2026-11-24T08:07:55.416Z"
     },
     "SR": {
       "days": {
@@ -18025,7 +18045,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:53:30.512Z"
+      "lastCollectedAt": "2026-11-24T08:07:55.416Z"
     },
     "ST": {
       "days": {
@@ -25922,10 +25942,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1173.53,
-              "netSales": 1173.53,
+              "sales": 1476,
+              "netSales": 1476,
               "cost": 1642,
-              "grossProfit": -468.47,
+              "grossProfit": -166,
               "quantity": 8
             },
             {
@@ -25946,11 +25966,11 @@
             },
             {
               "key": "other",
-              "sales": 246.47,
-              "netSales": 246.47,
-              "cost": 13.2,
-              "grossProfit": 233.27,
-              "quantity": 23
+              "sales": 400,
+              "netSales": 400,
+              "cost": 20.2,
+              "grossProfit": 379.8,
+              "quantity": 25
             }
           ],
           "items": [
@@ -25959,86 +25979,96 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 95.4,
-              "netSales": 95.4,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 95.4
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 31.8,
-              "netSales": 31.8,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 31.8
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 7.95,
-              "netSales": 7.95,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 7.95
+              "grossProfit": 10
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 47.7,
-              "netSales": 47.7,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 47.7
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY195515CR1",
               "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
               "quantity": 2,
-              "sales": 308.49,
-              "netSales": 308.49,
+              "sales": 388,
+              "netSales": 388,
               "cost": 372,
-              "grossProfit": -63.51
+              "grossProfit": 16
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 2,
-              "sales": 235.34,
-              "netSales": 235.34,
+              "sales": 296,
+              "netSales": 296,
               "cost": 342,
-              "grossProfit": -106.66
+              "grossProfit": -46
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
               "quantity": 4,
-              "sales": 629.7,
-              "netSales": 629.7,
+              "sales": 792,
+              "netSales": 792,
               "cost": 928,
-              "grossProfit": -298.3
+              "grossProfit": -136
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 8,
-              "sales": 63.62,
-              "netSales": 63.62,
+              "sales": 80,
+              "netSales": 80,
               "cost": 13.2,
-              "grossProfit": 50.42
+              "grossProfit": 66.8
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:53:30.512Z"
+      "lastCollectedAt": "2026-11-24T08:07:55.416Z"
     },
     "SK": {
       "days": {
@@ -31111,15 +31141,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 10,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3006,
-              "netSales": 3006,
-              "cost": 2765.2,
-              "grossProfit": 240.8,
-              "quantity": 18
+              "sales": 3249,
+              "netSales": 3249,
+              "cost": 2997.2,
+              "grossProfit": 251.8,
+              "quantity": 19
             },
             {
               "key": "sport_rim",
@@ -31143,7 +31173,7 @@
               "netSales": 441,
               "cost": 8.9,
               "grossProfit": 432.1,
-              "quantity": 47
+              "quantity": 48
             }
           ],
           "items": [
@@ -31171,7 +31201,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 18,
+              "quantity": 19,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -31268,6 +31298,16 @@
               "grossProfit": 174
             },
             {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7-26",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V (2026)",
+              "quantity": 1,
+              "sales": 243,
+              "netSales": 243,
+              "cost": 232,
+              "grossProfit": 11
+            },
+            {
               "category": "foreman_item",
               "itemCode": "POFCMHD",
               "itemName": "HONDA OIL FILTER",
@@ -31331,7 +31371,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:53:30.512Z"
+      "lastCollectedAt": "2026-11-24T08:07:55.416Z"
     },
     "KM": {
       "days": {
@@ -31755,8 +31795,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:53:30.512Z"
+      "lastCollectedAt": "2026-11-24T08:07:55.416Z"
     }
   },
-  "updatedAt": "2026-11-24T07:53:30.512Z"
+  "updatedAt": "2026-11-24T08:07:55.416Z"
 }
