@@ -9282,7 +9282,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 8,
               "sales": 80,
               "netSales": 80,
@@ -9293,7 +9293,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T02:40:16.039Z"
+      "lastCollectedAt": "2026-11-24T02:46:39.284Z"
     },
     "SR": {
       "days": {
@@ -17565,15 +17565,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 712,
+              "netSales": 712,
+              "cost": 780,
+              "grossProfit": -68,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -17593,18 +17593,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 110,
+              "netSales": 110,
+              "cost": 6.6,
+              "grossProfit": 103.4,
+              "quantity": 9
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1",
+              "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
+              "quantity": 4,
+              "sales": 712,
+              "netSales": 712,
+              "cost": 780,
+              "grossProfit": -68
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T02:40:16.039Z"
+      "lastCollectedAt": "2026-11-24T02:46:39.284Z"
     },
     "ST": {
       "days": {
@@ -25547,7 +25588,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T02:40:16.039Z"
+      "lastCollectedAt": "2026-11-24T02:46:39.284Z"
     },
     "SK": {
       "days": {
@@ -31114,8 +31155,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T02:40:16.039Z"
+      "lastCollectedAt": "2026-11-24T02:46:39.284Z"
     }
   },
-  "updatedAt": "2026-11-24T02:40:16.039Z"
+  "updatedAt": "2026-11-24T02:46:39.284Z"
 }
