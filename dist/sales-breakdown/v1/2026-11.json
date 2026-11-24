@@ -9203,15 +9203,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 13326,
-              "netSales": 13326,
-              "cost": 12348.64,
-              "grossProfit": 977.36,
-              "quantity": 45
+              "sales": 13918,
+              "netSales": 13918,
+              "cost": 13268.64,
+              "grossProfit": 649.36,
+              "quantity": 49
             },
             {
               "key": "sport_rim",
@@ -9231,11 +9231,11 @@
             },
             {
               "key": "other",
-              "sales": 3386,
-              "netSales": 3357.43,
-              "cost": 2024.35,
-              "grossProfit": 1333.08,
-              "quantity": 92
+              "sales": 3496,
+              "netSales": 3462.25,
+              "cost": 2030.95,
+              "grossProfit": 1431.3,
+              "quantity": 101
             }
           ],
           "items": [
@@ -9263,21 +9263,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 120,
-              "netSales": 111.12,
+              "quantity": 12,
+              "sales": 150,
+              "netSales": 138.9,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 138.9
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 34,
-              "sales": 80,
-              "netSales": 74.08,
+              "quantity": 38,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -9343,11 +9343,11 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
-              "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
-              "cost": 920,
-              "grossProfit": -128
+              "quantity": 8,
+              "sales": 1384,
+              "netSales": 1384,
+              "cost": 1840,
+              "grossProfit": -456
             },
             {
               "category": "passenger_tire",
@@ -9573,11 +9573,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 39,
-              "sales": 300,
-              "netSales": 300,
-              "cost": 64.35,
-              "grossProfit": 235.65
+              "quantity": 43,
+              "sales": 340,
+              "netSales": 340,
+              "cost": 70.95,
+              "grossProfit": 269.05
             },
             {
               "category": "other",
@@ -9593,7 +9593,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:27:16.932Z"
+      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
     },
     "SR": {
       "days": {
@@ -18045,7 +18045,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:27:16.932Z"
+      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
     },
     "ST": {
       "days": {
@@ -25958,11 +25958,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 1600,
+              "netSales": 1600,
+              "cost": 760,
+              "grossProfit": 840,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -26055,6 +26055,56 @@
               "grossProfit": -66
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKABSRLINK",
+              "itemName": "ABSR LINK",
+              "quantity": 2,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 60,
+              "grossProfit": 120
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSLH",
+              "itemName": "L.ARM ASSY LH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 100,
+              "grossProfit": 280
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSRH",
+              "itemName": "L. ARM ASSY RH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 100,
+              "grossProfit": 280
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK231225",
+              "itemName": "D/S ASSY LH-SHORT",
+              "quantity": 1,
+              "sales": 330,
+              "netSales": 330,
+              "cost": 250,
+              "grossProfit": 80
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26100046",
+              "itemName": "D/S ASSY RH-LONG",
+              "quantity": 1,
+              "sales": 330,
+              "netSales": 330,
+              "cost": 250,
+              "grossProfit": 80
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
@@ -26088,7 +26138,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:27:16.932Z"
+      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
     },
     "SK": {
       "days": {
@@ -31391,7 +31441,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:27:16.932Z"
+      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
     },
     "KM": {
       "days": {
@@ -31815,8 +31865,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:27:16.932Z"
+      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
     }
   },
-  "updatedAt": "2026-11-24T08:27:16.932Z"
+  "updatedAt": "2026-11-24T08:33:41.510Z"
 }
