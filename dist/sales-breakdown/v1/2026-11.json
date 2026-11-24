@@ -9203,15 +9203,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 1300,
+              "netSales": 1300,
+              "cost": 1228,
+              "grossProfit": 72,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
@@ -9231,18 +9231,69 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 220,
+              "netSales": 209.64,
+              "cost": 13.2,
+              "grossProfit": 196.44,
+              "quantity": 18
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 74.08,
+              "cost": 0,
+              "grossProfit": 74.08
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT176514VD-26",
+              "itemName": "ZETA 175/65/14 VERDANT 84T TL TH (2026)",
+              "quantity": 4,
+              "sales": 460,
+              "netSales": 460,
+              "cost": 420,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY185516CR1-26",
+              "itemName": "TOYO 185/55/16 PROXES CR1 89H MY (2026)",
+              "quantity": 4,
+              "sales": 840,
+              "netSales": 840,
+              "cost": 808,
+              "grossProfit": 32
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T01:49:22.296Z"
+      "lastCollectedAt": "2026-11-24T02:26:25.064Z"
     },
     "SR": {
       "days": {
@@ -17553,7 +17604,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T01:49:22.296Z"
+      "lastCollectedAt": "2026-11-24T02:26:25.064Z"
     },
     "ST": {
       "days": {
@@ -25446,7 +25497,7 @@
           ]
         },
         "2026-11-24": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -25474,18 +25525,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 30,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T01:49:22.296Z"
+      "lastCollectedAt": "2026-11-24T02:26:25.064Z"
     },
     "SK": {
       "days": {
@@ -30558,7 +30620,7 @@
           ]
         },
         "2026-11-24": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -30578,26 +30640,57 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 300,
+              "netSales": 300,
+              "cost": 194.5,
+              "grossProfit": 105.5,
+              "quantity": 2
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 10,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFCMHD",
+              "itemName": "HONDA OIL FILTER",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8.5,
+              "grossProfit": -8.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W40Q9000",
+              "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 300,
+              "netSales": 300,
+              "cost": 186,
+              "grossProfit": 114
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T01:49:22.296Z"
+      "lastCollectedAt": "2026-11-24T02:26:25.064Z"
     },
     "KM": {
       "days": {
@@ -31021,8 +31114,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T01:49:22.296Z"
+      "lastCollectedAt": "2026-11-24T02:26:25.064Z"
     }
   },
-  "updatedAt": "2026-11-24T01:49:22.296Z"
+  "updatedAt": "2026-11-24T02:26:25.064Z"
 }
