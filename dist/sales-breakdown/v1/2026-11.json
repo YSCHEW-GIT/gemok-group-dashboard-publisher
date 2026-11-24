@@ -9215,10 +9215,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 588,
-              "netSales": 588,
+              "sales": 488,
+              "netSales": 488,
               "cost": 736,
-              "grossProfit": -148,
+              "grossProfit": -248,
               "quantity": 1
             },
             {
@@ -9244,10 +9244,10 @@
               "itemCode": "SIMPGB1581BBS",
               "itemName": "SPORT RIM 15X6.5 8X100/114.3 ET40 GLOSSY BLACK WL BBS",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 488,
+              "netSales": 488,
               "cost": 736,
-              "grossProfit": -148
+              "grossProfit": -248
             },
             {
               "category": "other",
@@ -9483,7 +9483,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:48:30.692Z"
+      "lastCollectedAt": "2026-11-24T06:01:44.080Z"
     },
     "SR": {
       "days": {
@@ -17895,7 +17895,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:48:30.692Z"
+      "lastCollectedAt": "2026-11-24T06:01:44.080Z"
     },
     "ST": {
       "days": {
@@ -25858,7 +25858,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:48:30.692Z"
+      "lastCollectedAt": "2026-11-24T06:01:44.080Z"
     },
     "SK": {
       "days": {
@@ -30935,11 +30935,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2202,
-              "netSales": 2202,
-              "cost": 1992,
-              "grossProfit": 210,
-              "quantity": 10
+              "sales": 2225.92,
+              "netSales": 2225.92,
+              "cost": 2291.2,
+              "grossProfit": -65.28,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -30951,19 +30951,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 620,
-              "netSales": 620,
+              "sales": 547.22,
+              "netSales": 547.22,
               "cost": 289.5,
-              "grossProfit": 330.5,
+              "grossProfit": 257.72,
               "quantity": 8
             },
             {
               "key": "other",
-              "sales": 110,
-              "netSales": 110,
-              "cost": 6.5,
-              "grossProfit": 103.5,
-              "quantity": 24
+              "sales": 158.86,
+              "netSales": 158.86,
+              "cost": 7.3,
+              "grossProfit": 151.56,
+              "quantity": 29
             }
           ],
           "items": [
@@ -30972,70 +30972,80 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 8.83,
+              "netSales": 8.83,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 8.83
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 4,
+              "sales": 26.48,
+              "netSales": 26.48,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 26.48
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 12,
+              "sales": 17.65,
+              "netSales": 17.65,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 17.65
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 79.44,
+              "netSales": 79.44,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 79.44
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 360,
-              "netSales": 360,
+              "sales": 317.74,
+              "netSales": 317.74,
               "cost": 304,
-              "grossProfit": 56
+              "grossProfit": 13.74
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL196015Z117",
+              "itemName": "WEST LAKE 195/60/15 88V ZUPER FLEX Z117 (2026)",
+              "quantity": 2,
+              "sales": 282.43,
+              "netSales": 282.43,
+              "cost": 299.2,
+              "grossProfit": -16.77
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515ALTGC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GS5 85V (2026)",
               "quantity": 4,
-              "sales": 672,
-              "netSales": 672,
+              "sales": 593.11,
+              "netSales": 593.11,
               "cost": 692,
-              "grossProfit": -20
+              "grossProfit": -98.89
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT225018UC7-26",
               "itemName": "CONTINENTAL 225/50/18 ULTRACONTACT UC7(2026)",
               "quantity": 2,
-              "sales": 1170,
-              "netSales": 1170,
+              "sales": 1032.64,
+              "netSales": 1032.64,
               "cost": 996,
-              "grossProfit": 174
+              "grossProfit": 36.64
             },
             {
               "category": "foreman_item",
@@ -31052,46 +31062,46 @@
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 300,
-              "netSales": 300,
+              "sales": 264.78,
+              "netSales": 264.78,
               "cost": 186,
-              "grossProfit": 114
+              "grossProfit": 78.78
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110039",
               "itemName": "BANDO BELT T2A 7PK1440",
               "quantity": 1,
-              "sales": 230,
-              "netSales": 230,
+              "sales": 203,
+              "netSales": 203,
               "cost": 95,
-              "grossProfit": 135
+              "grossProfit": 108
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 17.65,
+              "netSales": 17.65,
               "cost": 3.3,
-              "grossProfit": 16.7
+              "grossProfit": 14.35
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
-              "cost": 3.2,
-              "grossProfit": 76.8
+              "quantity": 10,
+              "sales": 88.25,
+              "netSales": 88.25,
+              "cost": 4,
+              "grossProfit": 84.25
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:48:30.692Z"
+      "lastCollectedAt": "2026-11-24T06:01:44.080Z"
     },
     "KM": {
       "days": {
@@ -31515,8 +31525,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:48:30.692Z"
+      "lastCollectedAt": "2026-11-24T06:01:44.080Z"
     }
   },
-  "updatedAt": "2026-11-24T05:48:30.692Z"
+  "updatedAt": "2026-11-24T06:01:44.080Z"
 }
