@@ -9203,61 +9203,71 @@
           ]
         },
         "2026-11-24": {
-          "documents": 9,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5452,
-              "netSales": 5452,
-              "cost": 4992,
-              "grossProfit": 460,
-              "quantity": 19
+              "sales": 9884,
+              "netSales": 9884,
+              "cost": 9212,
+              "grossProfit": 672,
+              "quantity": 27
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 588,
+              "netSales": 588,
+              "cost": 736,
+              "grossProfit": -148,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
-              "sales": 2090,
-              "netSales": 2078.15,
-              "cost": 877,
-              "grossProfit": 1201.15,
-              "quantity": 13
+              "sales": 2630,
+              "netSales": 2618.15,
+              "cost": 1177.5,
+              "grossProfit": 1440.65,
+              "quantity": 16
             },
             {
               "key": "other",
-              "sales": 220,
-              "netSales": 211.12,
-              "cost": 24.75,
-              "grossProfit": 186.37,
-              "quantity": 34
+              "sales": 330,
+              "netSales": 315.94,
+              "cost": 31.35,
+              "grossProfit": 284.59,
+              "quantity": 43
             }
           ],
           "items": [
             {
+              "category": "sport_rim",
+              "itemCode": "SIMPGB1581BBS",
+              "itemName": "SPORT RIM 15X6.5 8X100/114.3 ET40 GLOSSY BLACK WL BBS",
+              "quantity": 1,
+              "sales": 588,
+              "netSales": 588,
+              "cost": 736,
+              "grossProfit": -148
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 55.56,
+              "quantity": 6,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 16,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -9331,6 +9341,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPGN185515GC5-26",
+              "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V CN (2026)",
+              "quantity": 4,
+              "sales": 632,
+              "netSales": 632,
+              "cost": 688,
+              "grossProfit": -56
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPCT226018UX7-26",
               "itemName": "CONTINENTAL 225/60/18 ULTRA CONTACT UX7 104V FR (2026)",
               "quantity": 4,
@@ -9338,6 +9358,16 @@
               "netSales": 2380,
               "cost": 2192,
               "grossProfit": 188
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT254519UX7-26",
+              "itemName": "CONTINENTAL 255/45/19 ULTRA CONTACT UX7 104V XL CN (2026)",
+              "quantity": 4,
+              "sales": 3800,
+              "netSales": 3800,
+              "cost": 3532,
+              "grossProfit": 268
             },
             {
               "category": "passenger_tire",
@@ -9351,6 +9381,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "POFTYTE2",
+              "itemName": "TOYOTA OIL FILTER YZZE2",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 6.5,
+              "grossProfit": -6.5
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 2,
@@ -9358,6 +9398,26 @@
               "netSales": 600,
               "cost": 332,
               "grossProfit": 268
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 300,
+              "netSales": 300,
+              "cost": 169,
+              "grossProfit": 131
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OATYTWS",
+              "itemName": "TOYOTA WS AUTO OIL",
+              "quantity": 1,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 125,
+              "grossProfit": 115
             },
             {
               "category": "foreman_item",
@@ -9403,17 +9463,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 15,
-              "sales": 100,
-              "netSales": 100,
-              "cost": 24.75,
-              "grossProfit": 75.25
+              "quantity": 19,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 31.35,
+              "grossProfit": 108.65
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T04:56:09.060Z"
+      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
     },
     "SR": {
       "days": {
@@ -17804,7 +17864,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -17825,7 +17885,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
+      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
     },
     "ST": {
       "days": {
@@ -25746,11 +25806,11 @@
             },
             {
               "key": "other",
-              "sales": 170,
-              "netSales": 170,
-              "cost": 50,
-              "grossProfit": 120,
-              "quantity": 7
+              "sales": 110,
+              "netSales": 110,
+              "cost": 0,
+              "grossProfit": 110,
+              "quantity": 4
             }
           ],
           "items": [
@@ -25776,29 +25836,19 @@
             },
             {
               "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 20
-            },
-            {
-              "category": "other",
-              "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
-              "quantity": 2,
-              "sales": 50,
-              "netSales": 50,
-              "cost": 50,
-              "grossProfit": 0
+              "grossProfit": 10
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
+      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
     },
     "SK": {
       "days": {
@@ -30875,10 +30925,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2072,
-              "netSales": 2072,
+              "sales": 2202,
+              "netSales": 2202,
               "cost": 1992,
-              "grossProfit": 80,
+              "grossProfit": 210,
               "quantity": 10
             },
             {
@@ -30899,10 +30949,10 @@
             },
             {
               "key": "other",
-              "sales": 240,
-              "netSales": 240,
+              "sales": 110,
+              "netSales": 110,
               "cost": 6.5,
-              "grossProfit": 233.5,
+              "grossProfit": 103.5,
               "quantity": 24
             }
           ],
@@ -30922,20 +30972,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -30962,20 +31012,20 @@
               "itemCode": "TPGN185515ALTGC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GS5 85V (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 672,
+              "netSales": 672,
               "cost": 692,
-              "grossProfit": -100
+              "grossProfit": -20
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT225018UC7-26",
               "itemName": "CONTINENTAL 225/50/18 ULTRACONTACT UC7(2026)",
               "quantity": 2,
-              "sales": 1120,
-              "netSales": 1120,
+              "sales": 1170,
+              "netSales": 1170,
               "cost": 996,
-              "grossProfit": 124
+              "grossProfit": 174
             },
             {
               "category": "foreman_item",
@@ -31031,7 +31081,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T04:56:09.060Z"
+      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
     },
     "KM": {
       "days": {
@@ -31455,8 +31505,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
+      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
     }
   },
-  "updatedAt": "2026-11-24T05:15:32.719Z"
+  "updatedAt": "2026-11-24T05:21:58.188Z"
 }
