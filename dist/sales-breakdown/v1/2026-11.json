@@ -9207,11 +9207,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2442,
-              "netSales": 2442,
-              "cost": 2300,
-              "grossProfit": 142,
-              "quantity": 13
+              "sales": 3521.05,
+              "netSales": 3521.05,
+              "cost": 4992,
+              "grossProfit": -1470.95,
+              "quantity": 19
             },
             {
               "key": "sport_rim",
@@ -9223,19 +9223,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 600,
-              "netSales": 600,
-              "cost": 332,
-              "grossProfit": 268,
-              "quantity": 2
+              "sales": 843.96,
+              "netSales": 843.96,
+              "cost": 707,
+              "grossProfit": 136.96,
+              "quantity": 9
             },
             {
               "key": "other",
-              "sales": 150,
-              "netSales": 144.82,
-              "cost": 14.85,
-              "grossProfit": 129.97,
-              "quantity": 24
+              "sales": 146.99,
+              "netSales": 138.11,
+              "cost": 24.75,
+              "grossProfit": 113.36,
+              "quantity": 31
             }
           ],
           "items": [
@@ -9244,86 +9244,156 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "sales": 20.39,
+              "netSales": 18.17,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 18.17
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 27.19,
+              "netSales": 24.23,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 24.23
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 33.99,
+              "netSales": 30.29,
+              "cost": 0,
+              "grossProfit": 30.29
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 0,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT176514VD-26",
               "itemName": "ZETA 175/65/14 VERDANT 84T TL TH (2026)",
               "quantity": 4,
-              "sales": 530,
-              "netSales": 530,
+              "sales": 346.74,
+              "netSales": 346.74,
               "cost": 420,
-              "grossProfit": 110
+              "grossProfit": -73.26
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185516CR1-26",
               "itemName": "TOYO 185/55/16 PROXES CR1 89H MY (2026)",
               "quantity": 4,
-              "sales": 910,
-              "netSales": 910,
+              "sales": 595.35,
+              "netSales": 595.35,
               "cost": 808,
-              "grossProfit": 102
+              "grossProfit": -212.65
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY226018CR1-26",
               "itemName": "TOYO 225/60/18 PXCR1 SUV 100V MY (2026)",
               "quantity": 1,
-              "sales": 450,
-              "netSales": 450,
+              "sales": 294.4,
+              "netSales": 294.4,
               "cost": 408,
-              "grossProfit": 42
+              "grossProfit": -113.6
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
               "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
+              "sales": 361.13,
+              "netSales": 361.13,
               "cost": 664,
-              "grossProfit": -112
+              "grossProfit": -302.87
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT226018UX7-26",
+              "itemName": "CONTINENTAL 225/60/18 ULTRA CONTACT UX7 104V FR (2026)",
+              "quantity": 4,
+              "sales": 1557.06,
+              "netSales": 1557.06,
+              "cost": 2192,
+              "grossProfit": -634.94
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT217016C18-26",
+              "itemName": "ATLANDER 215/70/16C VANPLUS C18 6PR 108/106S (2026)",
+              "quantity": 2,
+              "sales": 366.37,
+              "netSales": 366.37,
+              "cost": 500,
+              "grossProfit": -133.63
             },
             {
               "category": "foreman_item",
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 2,
-              "sales": 600,
-              "netSales": 600,
+              "sales": 392.54,
+              "netSales": 392.54,
               "cost": 332,
-              "grossProfit": 268
+              "grossProfit": 60.54
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKAIRFILTER",
+              "itemName": "AIR FILTER STAREX",
+              "quantity": 1,
+              "sales": 45.8,
+              "netSales": 45.8,
+              "cost": 30,
+              "grossProfit": 15.8
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKAUTOOIL",
+              "itemName": "AUTO OIL STAREX",
+              "quantity": 4,
+              "sales": 287.86,
+              "netSales": 287.86,
+              "cost": 300,
+              "grossProfit": -12.14
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKFUELFILTER",
+              "itemName": "FUEL FILTER STAREX",
+              "quantity": 1,
+              "sales": 117.76,
+              "netSales": 117.76,
+              "cost": 45,
+              "grossProfit": 72.76
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 9,
-              "sales": 80,
-              "netSales": 80,
-              "cost": 14.85,
-              "grossProfit": 65.15
+              "quantity": 15,
+              "sales": 65.42,
+              "netSales": 65.42,
+              "cost": 24.75,
+              "grossProfit": 40.67
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:55:03.008Z"
+      "lastCollectedAt": "2026-11-24T04:01:27.504Z"
     },
     "SR": {
       "days": {
@@ -17725,7 +17795,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:55:03.008Z"
+      "lastCollectedAt": "2026-11-24T04:01:27.504Z"
     },
     "ST": {
       "days": {
@@ -25668,7 +25738,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:55:03.008Z"
+      "lastCollectedAt": "2026-11-24T04:01:27.504Z"
     },
     "SK": {
       "days": {
@@ -30761,11 +30831,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 360,
-              "netSales": 360,
-              "cost": 194.5,
-              "grossProfit": 165.5,
-              "quantity": 6
+              "sales": 590,
+              "netSales": 590,
+              "cost": 289.5,
+              "grossProfit": 300.5,
+              "quantity": 7
             },
             {
               "key": "other",
@@ -30858,6 +30928,16 @@
               "grossProfit": 114
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK26110039",
+              "itemName": "BANDO BELT T2A 7PK1440",
+              "quantity": 1,
+              "sales": 230,
+              "netSales": 230,
+              "cost": 95,
+              "grossProfit": 135
+            },
+            {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
@@ -30881,7 +30961,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:55:03.008Z"
+      "lastCollectedAt": "2026-11-24T04:01:27.504Z"
     },
     "KM": {
       "days": {
@@ -31305,8 +31385,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:55:03.008Z"
+      "lastCollectedAt": "2026-11-24T04:01:27.504Z"
     }
   },
-  "updatedAt": "2026-11-24T03:55:03.008Z"
+  "updatedAt": "2026-11-24T04:01:27.504Z"
 }
