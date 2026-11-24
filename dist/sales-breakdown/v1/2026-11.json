@@ -9203,15 +9203,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 15,
+          "documents": 16,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 11472,
-              "netSales": 11472,
-              "cost": 10584,
-              "grossProfit": 888,
-              "quantity": 37
+              "sales": 12344,
+              "netSales": 12344,
+              "cost": 11428.64,
+              "grossProfit": 915.36,
+              "quantity": 41
             },
             {
               "key": "sport_rim",
@@ -9231,11 +9231,11 @@
             },
             {
               "key": "other",
-              "sales": 480,
-              "netSales": 460.76,
+              "sales": 550,
+              "netSales": 525.58,
               "cost": 51.15,
-              "grossProfit": 409.61,
-              "quantity": 68
+              "grossProfit": 474.43,
+              "quantity": 73
             }
           ],
           "items": [
@@ -9263,21 +9263,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
-              "sales": 150,
-              "netSales": 138.9,
+              "quantity": 10,
+              "sales": 180,
+              "netSales": 166.68,
               "cost": 0,
-              "grossProfit": 138.9
+              "grossProfit": 166.68
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 30,
+              "sales": 140,
+              "netSales": 129.64,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 129.64
             },
             {
               "category": "other",
@@ -9411,6 +9411,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPBS195515RE005-26",
+              "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
+              "quantity": 4,
+              "sales": 872,
+              "netSales": 872,
+              "cost": 844.64,
+              "grossProfit": 27.36
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPAT217016C18-26",
               "itemName": "ATLANDER 215/70/16C VANPLUS C18 6PR 108/106S (2026)",
               "quantity": 2,
@@ -9523,7 +9533,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:01:45.212Z"
+      "lastCollectedAt": "2026-11-24T07:08:10.797Z"
     },
     "SR": {
       "days": {
@@ -17799,10 +17809,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 782,
-              "netSales": 782,
+              "sales": 775.91,
+              "netSales": 775.91,
               "cost": 780,
-              "grossProfit": 2,
+              "grossProfit": -4.09,
               "quantity": 4
             },
             {
@@ -17815,19 +17825,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 668,
-              "netSales": 668,
+              "sales": 662.79,
+              "netSales": 662.79,
               "cost": 369,
-              "grossProfit": 299,
+              "grossProfit": 293.79,
               "quantity": 4
             },
             {
               "key": "other",
-              "sales": 460,
-              "netSales": 460,
-              "cost": 113.6,
-              "grossProfit": 346.4,
-              "quantity": 27
+              "sales": 471.3,
+              "netSales": 471.3,
+              "cost": 115.25,
+              "grossProfit": 356.05,
+              "quantity": 28
             }
           ],
           "items": [
@@ -17836,126 +17846,126 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 119.08,
+              "netSales": 119.08,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 119.08
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.53,
+              "netSales": 59.53,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 59.53
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 138.91,
+              "netSales": 138.91,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 138.91
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.92,
+              "netSales": 9.92,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.92
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.69,
+              "netSales": 39.69,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 39.69
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 119.06,
+              "netSales": 119.06,
               "cost": 100,
-              "grossProfit": 20
+              "grossProfit": 19.06
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 4,
-              "sales": 782,
-              "netSales": 782,
+              "sales": 775.91,
+              "netSales": 775.91,
               "cost": 780,
-              "grossProfit": 2
+              "grossProfit": -4.09
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
               "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 89.3,
+              "netSales": 89.3,
               "cost": 29,
-              "grossProfit": 61
+              "grossProfit": 60.3
             },
             {
               "category": "foreman_item",
               "itemCode": "NSR26110056",
               "itemName": "UPPER ARM RR SHORT PREVE (SUSA)",
               "quantity": 1,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 158.75,
+              "netSales": 158.75,
               "cost": 150,
-              "grossProfit": 10
+              "grossProfit": 8.75
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 69.45,
+              "netSales": 69.45,
               "cost": 7,
-              "grossProfit": 63
+              "grossProfit": 62.45
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 6.6,
-              "grossProfit": 33.4
+              "quantity": 5,
+              "sales": 54.57,
+              "netSales": 54.57,
+              "cost": 8.25,
+              "grossProfit": 46.32
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSVKAXIARR",
               "itemName": "VERKE ABSORBER P/AXIA VRM 14 RR 341M065 VR01 8013",
               "quantity": 1,
-              "sales": 278,
-              "netSales": 278,
+              "sales": 275.83,
+              "netSales": 275.83,
               "cost": 190,
-              "grossProfit": 88
+              "grossProfit": 85.83
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:01:45.212Z"
+      "lastCollectedAt": "2026-11-24T07:08:10.797Z"
     },
     "ST": {
       "days": {
@@ -25948,7 +25958,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:01:45.212Z"
+      "lastCollectedAt": "2026-11-24T07:08:10.797Z"
     },
     "SK": {
       "days": {
@@ -31221,7 +31231,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:01:45.212Z"
+      "lastCollectedAt": "2026-11-24T07:08:10.797Z"
     },
     "KM": {
       "days": {
@@ -31645,8 +31655,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:01:45.212Z"
+      "lastCollectedAt": "2026-11-24T07:08:10.797Z"
     }
   },
-  "updatedAt": "2026-11-24T07:01:45.212Z"
+  "updatedAt": "2026-11-24T07:08:10.797Z"
 }
