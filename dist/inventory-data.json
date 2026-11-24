@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-24T04:25:53.782Z",
+  "updatedAt": "2026-11-24T05:38:06.466Z",
   "stores": [
     {
       "code": "SI",
@@ -29,22 +29,22 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 448,
-      "quantity": 2007,
-      "stockValue": 421591.16
+      "quantity": 2003,
+      "stockValue": 420903.16
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 698,
-      "quantity": 626,
-      "stockValue": 329887.52
+      "quantity": 625,
+      "stockValue": 329151.52
     },
     {
       "key": "absorber",
       "name": "Absorber",
-      "sku": 80,
-      "quantity": 134.5,
-      "stockValue": 25512.1
+      "sku": 81,
+      "quantity": 136.5,
+      "stockValue": 26072.1
     },
     {
       "key": "adj-absorber",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2171,
-      "stockValue": 160564.93
+      "quantity": 2169,
+      "stockValue": 160270.93
     },
     {
       "key": "oil-filter",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 869,
-      "quantity": 2907.5,
-      "stockValue": 103984.34999999998
+      "quantity": 2906.5,
+      "stockValue": 103977.84999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9876,
-      "stockValue": 58796.619999999995
+      "quantity": 9872,
+      "stockValue": 58790.02
     },
     {
       "key": "non-stock-item",
@@ -4372,7 +4372,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 16,
           "cost": 172,
           "price": 0
         }
@@ -11990,15 +11990,6 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
-          "cost": 736,
-          "price": 588
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 1,
           "cost": 736,
           "price": 588
         }
@@ -25902,6 +25893,25 @@
       ]
     },
     {
+      "code": "PABSVKBZFRT",
+      "groupKey": "absorber",
+      "groupName": "Absorber",
+      "brand": "",
+      "name": "VERKE ABSORBER-SR PERODUA AXIA/BEZZA 14 LH-RH FRT SHK 332M077/M077 (VR01 4016/4017)",
+      "spec": "83",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 2,
+          "cost": 280,
+          "price": 560
+        }
+      ]
+    },
+    {
       "code": "PABSVKCT9AFRT",
       "groupKey": "absorber",
       "groupName": "Absorber",
@@ -33514,7 +33524,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 125,
           "price": 0
         },
@@ -34846,7 +34856,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 80,
+          "quantity": 79,
           "cost": 169,
           "price": 0
         },
@@ -53210,7 +53220,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 24,
+          "quantity": 23,
           "cost": 6.5,
           "price": 25
         },
@@ -111790,7 +111800,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 469,
+          "quantity": 465,
           "cost": 1.65,
           "price": 10
         },
