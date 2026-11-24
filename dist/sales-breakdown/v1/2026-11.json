@@ -9203,15 +9203,15 @@
           ]
         },
         "2026-11-24": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9884,
-              "netSales": 9884,
-              "cost": 9212,
-              "grossProfit": 672,
-              "quantity": 27
+              "sales": 10090,
+              "netSales": 10090,
+              "cost": 9364,
+              "grossProfit": 726,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
@@ -9223,19 +9223,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2630,
-              "netSales": 2618.15,
-              "cost": 1177.5,
-              "grossProfit": 1440.65,
-              "quantity": 16
+              "sales": 2780,
+              "netSales": 2761.86,
+              "cost": 1202.5,
+              "grossProfit": 1559.36,
+              "quantity": 19
             },
             {
               "key": "other",
-              "sales": 330,
-              "netSales": 315.94,
-              "cost": 31.35,
-              "grossProfit": 284.59,
-              "quantity": 43
+              "sales": 350,
+              "netSales": 334.46,
+              "cost": 37.95,
+              "grossProfit": 296.51,
+              "quantity": 52
             }
           ],
           "items": [
@@ -9253,41 +9253,41 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 7,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 111.12
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 20,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 50,
-              "netSales": 46.3,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 46.3
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 3,
-              "sales": 160,
-              "netSales": 148.15,
+              "quantity": 5,
+              "sales": 245,
+              "netSales": 226.86,
               "cost": 0,
-              "grossProfit": 148.15
+              "grossProfit": 226.86
             },
             {
               "category": "other",
@@ -9308,6 +9308,16 @@
               "netSales": 530,
               "cost": 420,
               "grossProfit": 110
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 2,
+              "sales": 156,
+              "netSales": 156,
+              "cost": 152,
+              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -9374,10 +9384,10 @@
               "itemCode": "TPAT217016C18-26",
               "itemName": "ATLANDER 215/70/16C VANPLUS C18 6PR 108/106S (2026)",
               "quantity": 2,
-              "sales": 560,
-              "netSales": 560,
+              "sales": 610,
+              "netSales": 610,
               "cost": 500,
-              "grossProfit": 60
+              "grossProfit": 110
             },
             {
               "category": "foreman_item",
@@ -9422,12 +9432,12 @@
             {
               "category": "foreman_item",
               "itemCode": "NSKAIRFILTER",
-              "itemName": "AIR FILTER STAREX",
-              "quantity": 1,
-              "sales": 70,
-              "netSales": 70,
-              "cost": 30,
-              "grossProfit": 40
+              "itemName": "AIR FILTER",
+              "quantity": 2,
+              "sales": 135,
+              "netSales": 135,
+              "cost": 55,
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -9463,17 +9473,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 19,
+              "quantity": 23,
               "sales": 140,
               "netSales": 140,
-              "cost": 31.35,
-              "grossProfit": 108.65
+              "cost": 37.95,
+              "grossProfit": 102.05
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
+      "lastCollectedAt": "2026-11-24T05:42:07.991Z"
     },
     "SR": {
       "days": {
@@ -17885,7 +17895,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
+      "lastCollectedAt": "2026-11-24T05:42:07.991Z"
     },
     "ST": {
       "days": {
@@ -25848,7 +25858,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
+      "lastCollectedAt": "2026-11-24T05:42:07.991Z"
     },
     "SK": {
       "days": {
@@ -31081,7 +31091,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
+      "lastCollectedAt": "2026-11-24T05:42:07.991Z"
     },
     "KM": {
       "days": {
@@ -31505,8 +31515,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T05:21:58.188Z"
+      "lastCollectedAt": "2026-11-24T05:42:07.991Z"
     }
   },
-  "updatedAt": "2026-11-24T05:21:58.188Z"
+  "updatedAt": "2026-11-24T05:42:07.991Z"
 }
