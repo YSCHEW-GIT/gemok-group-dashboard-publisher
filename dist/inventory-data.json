@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-24T09:15:21.745Z",
+  "updatedAt": "2026-11-24T10:26:00.875Z",
   "stores": [
     {
       "code": "SI",
@@ -28,9 +28,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 447,
-      "quantity": 2001,
-      "stockValue": 423279.81999999995
+      "sku": 446,
+      "quantity": 1993,
+      "stockValue": 422327.81999999995
     },
     {
       "key": "sport-rim",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 257,
-      "stockValue": 13360.349999999999
+      "quantity": 256,
+      "stockValue": 13220.349999999999
     },
     {
       "key": "brake-pump",
@@ -98,9 +98,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 868,
-      "quantity": 2904.5,
-      "stockValue": 103785.84999999998
+      "sku": 869,
+      "quantity": 2909.5,
+      "stockValue": 104464.44999999997
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9833,
-      "stockValue": 58733.17
+      "quantity": 9824,
+      "stockValue": 58687.97
     },
     {
       "key": "non-stock-item",
@@ -249,25 +249,6 @@
           "rowKey": "default#1",
           "store": "SI",
           "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 132,
-          "price": 138
-        }
-      ]
-    },
-    {
-      "code": "TPAT175015XS76-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "ATLANDER 175/50/15 XSPORT-76 75V TL TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
           "cost": 132,
@@ -9724,15 +9705,6 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
-          "cost": 106,
-          "price": 118
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
           "cost": 106,
           "price": 118
         },
@@ -31873,7 +31845,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 140,
           "price": 140
         },
@@ -55943,6 +55915,25 @@
       ]
     },
     {
+      "code": "PWB-BNC-ALZARR",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "",
+      "name": "WHEEL BEARING REAR ALZA D27A(DISC) PRD0008-BNC",
+      "spec": "83",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 225,
+          "price": 450
+        }
+      ]
+    },
+    {
       "code": "PWBALZARR",
       "groupKey": "parts",
       "groupName": "Parts",
@@ -56144,7 +56135,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 8,
           "cost": 113.4,
           "price": 230
         }
@@ -108291,7 +108282,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 37,
+          "quantity": 36,
           "cost": 32,
           "price": 100
         }
@@ -111772,7 +111763,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 441,
+          "quantity": 437,
           "cost": 1.65,
           "price": 10
         },
@@ -111790,7 +111781,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 232,
+          "quantity": 228,
           "cost": 1.65,
           "price": 10
         },
