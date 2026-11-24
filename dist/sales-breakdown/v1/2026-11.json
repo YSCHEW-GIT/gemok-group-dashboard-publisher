@@ -9492,7 +9492,7 @@
             {
               "category": "foreman_item",
               "itemCode": "NSKBEARING",
-              "itemName": "BEARING F/W",
+              "itemName": "BEARING FRT LH/W",
               "quantity": 2,
               "sales": 640,
               "netSales": 640,
@@ -9513,7 +9513,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T06:34:28.344Z"
+      "lastCollectedAt": "2026-11-24T06:40:54.581Z"
     },
     "SR": {
       "days": {
@@ -17874,7 +17874,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 4,
               "sales": 120,
               "netSales": 120,
@@ -17945,7 +17945,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T06:34:28.344Z"
+      "lastCollectedAt": "2026-11-24T06:40:54.581Z"
     },
     "ST": {
       "days": {
@@ -25938,7 +25938,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T06:34:28.344Z"
+      "lastCollectedAt": "2026-11-24T06:40:54.581Z"
     },
     "SK": {
       "days": {
@@ -31011,7 +31011,7 @@
           ]
         },
         "2026-11-24": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -31039,11 +31039,11 @@
             },
             {
               "key": "other",
-              "sales": 250,
-              "netSales": 250,
+              "sales": 340,
+              "netSales": 340,
               "cost": 7.3,
-              "grossProfit": 242.7,
-              "quantity": 33
+              "grossProfit": 332.7,
+              "quantity": 36
             }
           ],
           "items": [
@@ -31086,6 +31086,26 @@
               "netSales": 90,
               "cost": 0,
               "grossProfit": 90
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 0,
+              "grossProfit": 50
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -31191,7 +31211,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T06:34:28.344Z"
+      "lastCollectedAt": "2026-11-24T06:40:54.581Z"
     },
     "KM": {
       "days": {
@@ -31615,8 +31635,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T06:34:28.344Z"
+      "lastCollectedAt": "2026-11-24T06:40:54.581Z"
     }
   },
-  "updatedAt": "2026-11-24T06:34:28.344Z"
+  "updatedAt": "2026-11-24T06:40:54.581Z"
 }
