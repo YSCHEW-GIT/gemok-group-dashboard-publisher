@@ -17804,7 +17804,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -17825,7 +17825,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T04:56:09.060Z"
+      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
     },
     "ST": {
       "days": {
@@ -25718,7 +25718,7 @@
           ]
         },
         "2026-11-24": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -25746,11 +25746,11 @@
             },
             {
               "key": "other",
-              "sales": 70,
-              "netSales": 70,
-              "cost": 0,
-              "grossProfit": 70,
-              "quantity": 2
+              "sales": 170,
+              "netSales": 170,
+              "cost": 50,
+              "grossProfit": 120,
+              "quantity": 7
             }
           ],
           "items": [
@@ -25758,11 +25758,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -25773,12 +25773,32 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 0,
+              "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 50,
+              "grossProfit": 0
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T04:56:09.060Z"
+      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
     },
     "SK": {
       "days": {
@@ -31435,8 +31455,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T04:56:09.060Z"
+      "lastCollectedAt": "2026-11-24T05:15:32.719Z"
     }
   },
-  "updatedAt": "2026-11-24T04:56:09.060Z"
+  "updatedAt": "2026-11-24T05:15:32.719Z"
 }
