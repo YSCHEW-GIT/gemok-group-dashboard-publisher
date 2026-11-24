@@ -9323,7 +9323,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:21:44.590Z"
+      "lastCollectedAt": "2026-11-24T03:48:37.603Z"
     },
     "SR": {
       "days": {
@@ -17599,10 +17599,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 712,
-              "netSales": 712,
+              "sales": 782,
+              "netSales": 782,
               "cost": 780,
-              "grossProfit": -68,
+              "grossProfit": 2,
               "quantity": 4
             },
             {
@@ -17615,19 +17615,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 278,
-              "netSales": 278,
-              "cost": 190,
-              "grossProfit": 88,
-              "quantity": 1
+              "sales": 508,
+              "netSales": 508,
+              "cost": 219,
+              "grossProfit": 289,
+              "quantity": 3
             },
             {
               "key": "other",
-              "sales": 180,
-              "netSales": 180,
-              "cost": 13.6,
-              "grossProfit": 166.4,
-              "quantity": 11
+              "sales": 200,
+              "netSales": 200,
+              "cost": 63.6,
+              "grossProfit": 136.4,
+              "quantity": 14
             }
           ],
           "items": [
@@ -17635,7 +17635,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 30,
               "netSales": 30,
               "cost": 0,
@@ -17646,20 +17646,50 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 0,
+              "grossProfit": 140
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 50,
+              "grossProfit": 10
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 4,
-              "sales": 712,
-              "netSales": 712,
+              "sales": 782,
+              "netSales": 782,
               "cost": 780,
-              "grossProfit": -68
+              "grossProfit": 2
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 29,
+              "grossProfit": 61
             },
             {
               "category": "other",
@@ -17695,7 +17725,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:21:44.590Z"
+      "lastCollectedAt": "2026-11-24T03:48:37.603Z"
     },
     "ST": {
       "days": {
@@ -25638,7 +25668,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
+      "lastCollectedAt": "2026-11-24T03:48:37.603Z"
     },
     "SK": {
       "days": {
@@ -30731,19 +30761,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 300,
-              "netSales": 300,
+              "sales": 360,
+              "netSales": 360,
               "cost": 194.5,
-              "grossProfit": 105.5,
-              "quantity": 2
+              "grossProfit": 165.5,
+              "quantity": 6
             },
             {
               "key": "other",
-              "sales": 300,
-              "netSales": 300,
+              "sales": 200,
+              "netSales": 200,
               "cost": 4.9,
-              "grossProfit": 295.1,
-              "quantity": 20
+              "grossProfit": 195.1,
+              "quantity": 15
             }
           ],
           "items": [
@@ -30771,21 +30801,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 60
             },
             {
-              "category": "other",
-              "itemCode": "ALGNFB",
-              "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 4,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -30851,7 +30881,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
+      "lastCollectedAt": "2026-11-24T03:48:37.603Z"
     },
     "KM": {
       "days": {
@@ -31275,8 +31305,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
+      "lastCollectedAt": "2026-11-24T03:48:37.603Z"
     }
   },
-  "updatedAt": "2026-11-24T03:28:14.757Z"
+  "updatedAt": "2026-11-24T03:48:37.603Z"
 }
