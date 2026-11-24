@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-24T06:51:16.044Z",
+  "updatedAt": "2026-11-24T08:04:12.583Z",
   "stores": [
     {
       "code": "SI",
@@ -29,8 +29,8 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 447,
-      "quantity": 1991,
-      "stockValue": 419269.95999999996
+      "quantity": 2005,
+      "stockValue": 424195.81999999995
     },
     {
       "key": "sport-rim",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 258,
-      "stockValue": 13396.349999999999
+      "quantity": 257,
+      "stockValue": 13360.349999999999
     },
     {
       "key": "brake-pump",
@@ -98,9 +98,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 869,
-      "quantity": 2905.5,
-      "stockValue": 103950.84999999998
+      "sku": 868,
+      "quantity": 2904.5,
+      "stockValue": 103785.84999999998
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9860,
-      "stockValue": 58772.72
+      "quantity": 9837,
+      "stockValue": 58739.77
     },
     {
       "key": "non-stock-item",
@@ -1330,7 +1330,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 43,
+          "quantity": 39,
           "cost": 211.16,
           "price": 228
         },
@@ -2127,7 +2127,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 232,
           "price": 208
         }
@@ -2146,7 +2146,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 13,
           "cost": 232,
           "price": 208
         }
@@ -4419,7 +4419,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 20,
           "cost": 171,
           "price": 138
         }
@@ -5287,7 +5287,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 10,
           "cost": 145,
           "price": 0
         }
@@ -9455,7 +9455,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 76,
           "price": 88
         },
@@ -9648,7 +9648,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 86,
           "price": 88
         },
@@ -9909,7 +9909,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 8,
           "cost": 262,
           "price": 248
         },
@@ -9983,7 +9983,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 29,
           "cost": 230,
           "price": 0
         },
@@ -10095,7 +10095,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 8,
           "cost": 289.75,
           "price": 340
         },
@@ -32013,7 +32013,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 36,
           "price": 88
         },
@@ -53540,25 +53540,6 @@
           "quantity": 2,
           "cost": 25,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "PRDADMYG3",
-      "groupKey": "parts",
-      "groupName": "PARTS",
-      "brand": "",
-      "name": "ADVICS ROTOR DISC PERODUA MYV 3RD GEN",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 165,
-          "price": 265
         }
       ]
     },
@@ -111754,7 +111735,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 239,
+          "quantity": 235,
           "cost": 0.4,
           "price": 10
         },
@@ -111800,7 +111781,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 457,
+          "quantity": 445,
           "cost": 1.65,
           "price": 10
         },
@@ -111818,7 +111799,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 233,
+          "quantity": 232,
           "cost": 1.65,
           "price": 10
         },
@@ -111827,7 +111808,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 640,
+          "quantity": 634,
           "cost": 1.65,
           "price": 10
         }
