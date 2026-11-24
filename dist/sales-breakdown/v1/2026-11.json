@@ -9593,7 +9593,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
+      "lastCollectedAt": "2026-11-24T08:46:47.311Z"
     },
     "SR": {
       "days": {
@@ -17865,7 +17865,7 @@
           ]
         },
         "2026-11-24": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -17893,11 +17893,11 @@
             },
             {
               "key": "other",
-              "sales": 475,
-              "netSales": 475,
-              "cost": 115.25,
-              "grossProfit": 359.75,
-              "quantity": 28
+              "sales": 595,
+              "netSales": 595,
+              "cost": 180.25,
+              "grossProfit": 414.75,
+              "quantity": 29
             }
           ],
           "items": [
@@ -17960,6 +17960,16 @@
               "netSales": 120,
               "cost": 100,
               "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "RPRIMSV",
+              "itemName": "REPAIR RIM 17-WELDING RIM",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 65,
+              "grossProfit": 55
             },
             {
               "category": "passenger_tire",
@@ -18045,7 +18055,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
+      "lastCollectedAt": "2026-11-24T08:46:47.311Z"
     },
     "ST": {
       "days": {
@@ -25942,10 +25952,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1924,
-              "netSales": 1924,
+              "sales": 1974,
+              "netSales": 1974,
               "cost": 2034,
-              "grossProfit": -110,
+              "grossProfit": -60,
               "quantity": 10
             },
             {
@@ -25966,10 +25976,10 @@
             },
             {
               "key": "other",
-              "sales": 484,
-              "netSales": 484,
+              "sales": 434,
+              "netSales": 434,
               "cost": 28.5,
-              "grossProfit": 455.5,
+              "grossProfit": 405.5,
               "quantity": 32
             }
           ],
@@ -25979,10 +25989,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
@@ -26009,10 +26019,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -26029,10 +26039,10 @@
               "itemCode": "TPTY185515CR1",
               "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
               "quantity": 2,
-              "sales": 378,
-              "netSales": 378,
+              "sales": 428,
+              "netSales": 428,
               "cost": 392,
-              "grossProfit": -14
+              "grossProfit": 36
             },
             {
               "category": "passenger_tire",
@@ -26138,7 +26148,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
+      "lastCollectedAt": "2026-11-24T08:46:47.311Z"
     },
     "SK": {
       "days": {
@@ -31215,10 +31225,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3249,
-              "netSales": 3249,
+              "sales": 3329,
+              "netSales": 3329,
               "cost": 2997.2,
-              "grossProfit": 251.8,
+              "grossProfit": 331.8,
               "quantity": 19
             },
             {
@@ -31239,10 +31249,10 @@
             },
             {
               "key": "other",
-              "sales": 441,
-              "netSales": 441,
+              "sales": 361,
+              "netSales": 361,
               "cost": 8.9,
-              "grossProfit": 432.1,
+              "grossProfit": 352.1,
               "quantity": 48
             }
           ],
@@ -31262,20 +31272,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 19,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -31322,10 +31332,10 @@
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 8,
-              "sales": 636,
-              "netSales": 636,
+              "sales": 716,
+              "netSales": 716,
               "cost": 608,
-              "grossProfit": 28
+              "grossProfit": 108
             },
             {
               "category": "passenger_tire",
@@ -31441,7 +31451,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
+      "lastCollectedAt": "2026-11-24T08:46:47.311Z"
     },
     "KM": {
       "days": {
@@ -31865,8 +31875,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T08:33:41.510Z"
+      "lastCollectedAt": "2026-11-24T08:46:47.311Z"
     }
   },
-  "updatedAt": "2026-11-24T08:33:41.510Z"
+  "updatedAt": "2026-11-24T08:46:47.311Z"
 }
