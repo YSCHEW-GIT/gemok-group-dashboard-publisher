@@ -9533,7 +9533,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:14:34.674Z"
+      "lastCollectedAt": "2026-11-24T07:20:59.133Z"
     },
     "SR": {
       "days": {
@@ -17975,7 +17975,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:14:34.674Z"
+      "lastCollectedAt": "2026-11-24T07:20:59.133Z"
     },
     "ST": {
       "days": {
@@ -31045,10 +31045,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2680,
-              "netSales": 2680,
+              "sales": 2675.62,
+              "netSales": 2675.62,
               "cost": 2461.2,
-              "grossProfit": 218.8,
+              "grossProfit": 214.42,
               "quantity": 14
             },
             {
@@ -31061,19 +31061,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 620,
-              "netSales": 620,
+              "sales": 618.98,
+              "netSales": 618.98,
               "cost": 289.5,
-              "grossProfit": 330.5,
+              "grossProfit": 329.48,
               "quantity": 8
             },
             {
               "key": "other",
-              "sales": 365,
-              "netSales": 365,
+              "sales": 370.4,
+              "netSales": 370.4,
               "cost": 7.3,
-              "grossProfit": 357.7,
-              "quantity": 37
+              "grossProfit": 363.1,
+              "quantity": 38
             }
           ],
           "items": [
@@ -31082,110 +31082,120 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 19.96,
+              "netSales": 19.96,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 19.96
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 69.88,
+              "netSales": 69.88,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 69.88
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.94,
+              "netSales": 39.94,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 39.94
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 89.85,
+              "netSales": 89.85,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 89.85
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "Adjust Camber",
               "quantity": 3,
-              "sales": 75,
-              "netSales": 75,
+              "sales": 74.88,
+              "netSales": 74.88,
               "cost": 0,
-              "grossProfit": 75
+              "grossProfit": 74.88
+            },
+            {
+              "category": "other",
+              "itemCode": "SRVCHG",
+              "itemName": "SERVICE CHARGE",
+              "quantity": 1,
+              "sales": 5.99,
+              "netSales": 5.99,
+              "cost": 0,
+              "grossProfit": 5.99
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 39.93,
+              "netSales": 39.93,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 39.93
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 360,
-              "netSales": 360,
+              "sales": 359.41,
+              "netSales": 359.41,
               "cost": 304,
-              "grossProfit": 56
+              "grossProfit": 55.41
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 2,
-              "sales": 158,
-              "netSales": 158,
+              "sales": 157.74,
+              "netSales": 157.74,
               "cost": 170,
-              "grossProfit": -12
+              "grossProfit": -12.26
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL196015Z117",
               "itemName": "WEST LAKE 195/60/15 88V ZUPER FLEX Z117 (2026)",
               "quantity": 2,
-              "sales": 320,
-              "netSales": 320,
+              "sales": 319.48,
+              "netSales": 319.48,
               "cost": 299.2,
-              "grossProfit": 20.8
+              "grossProfit": 20.28
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515ALTGC5-26",
               "itemName": "GENERAL 185/55/15 ALTIMAX GS5 85V (2026)",
               "quantity": 4,
-              "sales": 672,
-              "netSales": 672,
+              "sales": 670.9,
+              "netSales": 670.9,
               "cost": 692,
-              "grossProfit": -20
+              "grossProfit": -21.1
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT225018UC7-26",
               "itemName": "CONTINENTAL 225/50/18 ULTRACONTACT UC7(2026)",
               "quantity": 2,
-              "sales": 1170,
-              "netSales": 1170,
+              "sales": 1168.09,
+              "netSales": 1168.09,
               "cost": 996,
-              "grossProfit": 174
+              "grossProfit": 172.09
             },
             {
               "category": "foreman_item",
@@ -31202,46 +31212,46 @@
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 300,
-              "netSales": 300,
+              "sales": 299.51,
+              "netSales": 299.51,
               "cost": 186,
-              "grossProfit": 114
+              "grossProfit": 113.51
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110039",
               "itemName": "BANDO BELT T2A 7PK1440",
               "quantity": 1,
-              "sales": 230,
-              "netSales": 230,
+              "sales": 229.62,
+              "netSales": 229.62,
               "cost": 95,
-              "grossProfit": 135
+              "grossProfit": 134.62
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 19.97,
+              "netSales": 19.97,
               "cost": 3.3,
-              "grossProfit": 16.7
+              "grossProfit": 16.67
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 10,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 99.85,
+              "netSales": 99.85,
               "cost": 4,
-              "grossProfit": 96
+              "grossProfit": 95.85
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:14:34.674Z"
+      "lastCollectedAt": "2026-11-24T07:20:59.133Z"
     },
     "KM": {
       "days": {
@@ -31665,8 +31675,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T07:14:34.674Z"
+      "lastCollectedAt": "2026-11-24T07:20:59.133Z"
     }
   },
-  "updatedAt": "2026-11-24T07:14:34.674Z"
+  "updatedAt": "2026-11-24T07:20:59.133Z"
 }
