@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-24T05:38:06.466Z",
+  "updatedAt": "2026-11-24T06:51:16.044Z",
   "stores": [
     {
       "code": "SI",
@@ -28,9 +28,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 448,
-      "quantity": 2003,
-      "stockValue": 420903.16
+      "sku": 447,
+      "quantity": 1991,
+      "stockValue": 419269.95999999996
     },
     {
       "key": "sport-rim",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2169,
-      "stockValue": 160270.93
+      "quantity": 2168,
+      "stockValue": 160160.88
     },
     {
       "key": "oil-filter",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 869,
-      "quantity": 2906.5,
-      "stockValue": 103977.84999999998
+      "quantity": 2905.5,
+      "stockValue": 103950.84999999998
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2103,
-      "quantity": 2008,
-      "stockValue": 174593.5
+      "sku": 2104,
+      "quantity": 2009,
+      "stockValue": 174893.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9872,
-      "stockValue": 58790.02
+      "quantity": 9860,
+      "stockValue": 58772.72
     },
     {
       "key": "non-stock-item",
@@ -5540,7 +5540,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 32,
+          "quantity": 28,
           "cost": 160,
           "price": 0
         }
@@ -7096,7 +7096,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 3,
           "cost": 186,
           "price": 168
         }
@@ -8628,25 +8628,6 @@
       ]
     },
     {
-      "code": "TPWL196015Z117",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "WEST LAKE 195/60/15 88V ZUPER FLEX Z117 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 149.6,
-          "price": 160
-        }
-      ]
-    },
-    {
       "code": "TPWL196015Z117-26",
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
@@ -9465,7 +9446,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 14,
           "cost": 76,
           "price": 0
         },
@@ -9658,7 +9639,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 85,
           "price": 85
         },
@@ -34957,7 +34938,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 110.05,
           "price": 0
         }
@@ -52781,7 +52762,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 6,
           "cost": 27,
           "price": 0
         }
@@ -104208,6 +104189,25 @@
       ]
     },
     {
+      "code": "US2621146",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X6.5 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -111754,7 +111754,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 241,
+          "quantity": 239,
           "cost": 0.4,
           "price": 10
         },
@@ -111800,7 +111800,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 465,
+          "quantity": 457,
           "cost": 1.65,
           "price": 10
         },
@@ -111827,7 +111827,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 642,
+          "quantity": 640,
           "cost": 1.65,
           "price": 10
         }
