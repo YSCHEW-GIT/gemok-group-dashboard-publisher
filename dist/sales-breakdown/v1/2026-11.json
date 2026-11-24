@@ -25638,7 +25638,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:21:44.590Z"
+      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
     },
     "SK": {
       "days": {
@@ -30711,14 +30711,14 @@
           ]
         },
         "2026-11-24": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1326.06,
-              "netSales": 1326.06,
+              "sales": 1396,
+              "netSales": 1396,
               "cost": 1300,
-              "grossProfit": 26.06,
+              "grossProfit": 96,
               "quantity": 6
             },
             {
@@ -30731,18 +30731,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 284.97,
-              "netSales": 284.97,
+              "sales": 300,
+              "netSales": 300,
               "cost": 194.5,
-              "grossProfit": 90.47,
+              "grossProfit": 105.5,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 284.97,
-              "netSales": 284.97,
+              "sales": 300,
+              "netSales": 300,
               "cost": 4.9,
-              "grossProfit": 280.07,
+              "grossProfit": 295.1,
               "quantity": 20
             }
           ],
@@ -30752,60 +30752,60 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.5,
-              "netSales": 9.5,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 9.5
+              "grossProfit": 10
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 66.5,
-              "netSales": 66.5,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 66.5
+              "grossProfit": 70
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 113.99,
-              "netSales": 113.99,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 113.99
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 38,
-              "netSales": 38,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 38
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 4,
-              "sales": 262.17,
-              "netSales": 262.17,
+              "sales": 276,
+              "netSales": 276,
               "cost": 304,
-              "grossProfit": -41.83
+              "grossProfit": -28
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT225018UC7-26",
               "itemName": "CONTINENTAL 225/50/18 ULTRACONTACT UC7(2026)",
               "quantity": 2,
-              "sales": 1063.89,
-              "netSales": 1063.89,
+              "sales": 1120,
+              "netSales": 1120,
               "cost": 996,
-              "grossProfit": 67.89
+              "grossProfit": 124
             },
             {
               "category": "foreman_item",
@@ -30822,36 +30822,36 @@
               "itemCode": "OETL5W40Q9000",
               "itemName": "TOTAL 5W40 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 284.97,
-              "netSales": 284.97,
+              "sales": 300,
+              "netSales": 300,
               "cost": 186,
-              "grossProfit": 98.97
+              "grossProfit": 114
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 2,
-              "sales": 19,
-              "netSales": 19,
+              "sales": 20,
+              "netSales": 20,
               "cost": 3.3,
-              "grossProfit": 15.7
+              "grossProfit": 16.7
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 37.98,
-              "netSales": 37.98,
+              "sales": 40,
+              "netSales": 40,
               "cost": 1.6,
-              "grossProfit": 36.38
+              "grossProfit": 38.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:21:44.590Z"
+      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
     },
     "KM": {
       "days": {
@@ -31275,8 +31275,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-24T03:21:44.590Z"
+      "lastCollectedAt": "2026-11-24T03:28:14.757Z"
     }
   },
-  "updatedAt": "2026-11-24T03:21:44.590Z"
+  "updatedAt": "2026-11-24T03:28:14.757Z"
 }
