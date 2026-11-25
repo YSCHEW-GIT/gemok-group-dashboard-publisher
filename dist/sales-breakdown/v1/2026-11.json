@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T10:11:46.044Z"
+      "lastCollectedAt": "2026-11-25T10:28:21.787Z"
     },
     "SR": {
       "days": {
@@ -18152,7 +18152,7 @@
           ]
         },
         "2026-11-25": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18164,10 +18164,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 648,
-              "netSales": 648,
-              "cost": 498,
-              "grossProfit": 150,
+              "sales": 806,
+              "netSales": 806,
+              "cost": 549,
+              "grossProfit": 257,
               "quantity": -1
             },
             {
@@ -18180,11 +18180,11 @@
             },
             {
               "key": "other",
-              "sales": 499,
-              "netSales": 499,
-              "cost": 211.75,
-              "grossProfit": 287.25,
-              "quantity": 66
+              "sales": 539,
+              "netSales": 539,
+              "cost": 218.35,
+              "grossProfit": 320.65,
+              "quantity": 75
             }
           ],
           "items": [
@@ -18220,6 +18220,26 @@
             },
             {
               "category": "sport_rim",
+              "itemCode": "US2617144",
+              "itemName": "USED SPORT RIM 15X7 4HX100 (US2617144)",
+              "quantity": 1,
+              "sales": 358,
+              "netSales": 358,
+              "cost": 251,
+              "grossProfit": 107
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617451",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR154HUHBGL",
               "itemName": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
               "quantity": 1,
@@ -18242,7 +18262,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
+              "quantity": 9,
               "sales": 0,
               "netSales": 0,
               "cost": 0,
@@ -18252,7 +18272,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 32,
+              "quantity": 36,
               "sales": 10,
               "netSales": 10,
               "cost": 0,
@@ -18432,11 +18452,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "other",
@@ -18472,7 +18492,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T10:11:46.044Z"
+      "lastCollectedAt": "2026-11-25T10:28:21.787Z"
     },
     "ST": {
       "days": {
@@ -26623,7 +26643,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T10:11:46.044Z"
+      "lastCollectedAt": "2026-11-25T10:28:21.787Z"
     },
     "SK": {
       "days": {
@@ -32004,7 +32024,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T10:11:46.044Z"
+      "lastCollectedAt": "2026-11-25T10:28:21.787Z"
     },
     "KM": {
       "days": {
@@ -32466,8 +32486,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T10:11:46.044Z"
+      "lastCollectedAt": "2026-11-25T10:28:21.787Z"
     }
   },
-  "updatedAt": "2026-11-25T10:11:46.044Z"
+  "updatedAt": "2026-11-25T10:28:21.787Z"
 }
