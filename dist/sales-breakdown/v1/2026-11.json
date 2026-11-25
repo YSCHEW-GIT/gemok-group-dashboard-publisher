@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:38:15.743Z"
+      "lastCollectedAt": "2026-11-25T07:03:22.245Z"
     },
     "SR": {
       "days": {
@@ -18152,15 +18152,15 @@
           ]
         },
         "2026-11-25": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2490,
-              "netSales": 2490,
-              "cost": 2388.2,
-              "grossProfit": 101.8,
-              "quantity": 16
+              "sales": 3402,
+              "netSales": 3402,
+              "cost": 3230.2,
+              "grossProfit": 171.8,
+              "quantity": 22
             },
             {
               "key": "sport_rim",
@@ -18172,19 +18172,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 255,
-              "netSales": 255,
-              "cost": 113,
-              "grossProfit": 142,
-              "quantity": 4
+              "sales": 285,
+              "netSales": 285,
+              "cost": 133,
+              "grossProfit": 152,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 372,
-              "netSales": 372,
-              "cost": 70.8,
-              "grossProfit": 301.2,
-              "quantity": 41
+              "sales": 612,
+              "netSales": 612,
+              "cost": 107.8,
+              "grossProfit": 504.2,
+              "quantity": 53
             }
           ],
           "items": [
@@ -18232,21 +18232,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 7,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 19,
-              "sales": 70,
-              "netSales": 70,
+              "quantity": 27,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 150
             },
             {
               "category": "foreman_item",
@@ -18262,11 +18262,21 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 50,
-              "grossProfit": 10
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 75,
+              "grossProfit": 15
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPZT195515VD-26",
+              "itemName": "ZETA 195/55/15 VERDANT 85V TL THAI (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 512,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -18320,6 +18330,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPAT205516XS86-26",
+              "itemName": "ATLANDER 205/55/16 XSPORT-86 BSW 91W (2026)",
+              "quantity": 2,
+              "sales": 400,
+              "netSales": 400,
+              "cost": 330,
+              "grossProfit": 70
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "US2617078",
               "itemName": "USED SPORT RIM 15X7 4X100 (US2617078)",
               "quantity": 1,
@@ -18327,6 +18347,16 @@
               "netSales": 328,
               "cost": 251,
               "grossProfit": 77
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAFTYTNCP93",
+              "itemName": "TOYOTA AIR FILTER VIOS NCP93 (21050)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 20,
+              "grossProfit": 10
             },
             {
               "category": "foreman_item",
@@ -18380,6 +18410,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 12,
+              "grossProfit": 58
+            },
+            {
+              "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 2,
@@ -18392,7 +18432,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:38:15.743Z"
+      "lastCollectedAt": "2026-11-25T07:03:22.245Z"
     },
     "ST": {
       "days": {
@@ -26543,7 +26583,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:38:15.743Z"
+      "lastCollectedAt": "2026-11-25T07:03:22.245Z"
     },
     "SK": {
       "days": {
@@ -31924,7 +31964,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:38:15.743Z"
+      "lastCollectedAt": "2026-11-25T07:03:22.245Z"
     },
     "KM": {
       "days": {
@@ -32386,8 +32426,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:38:15.743Z"
+      "lastCollectedAt": "2026-11-25T07:03:22.245Z"
     }
   },
-  "updatedAt": "2026-11-25T06:38:15.743Z"
+  "updatedAt": "2026-11-25T07:03:22.245Z"
 }
