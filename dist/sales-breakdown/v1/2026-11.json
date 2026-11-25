@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T02:26:34.565Z"
+      "lastCollectedAt": "2026-11-25T02:34:09.892Z"
     },
     "SR": {
       "days": {
@@ -18152,15 +18152,15 @@
           ]
         },
         "2026-11-25": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 416,
+              "netSales": 416,
+              "cost": 464,
+              "grossProfit": -48,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -18180,11 +18180,11 @@
             },
             {
               "key": "other",
-              "sales": 10,
-              "netSales": 10,
-              "cost": 0,
-              "grossProfit": 10,
-              "quantity": 1
+              "sales": 74,
+              "netSales": 74,
+              "cost": 1.3,
+              "grossProfit": 72.7,
+              "quantity": 6
             }
           ],
           "items": [
@@ -18197,12 +18197,52 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 0,
+              "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "quantity": 2,
+              "sales": 416,
+              "netSales": 416,
+              "cost": 464,
+              "grossProfit": -48
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 2,
+              "sales": 14,
+              "netSales": 14,
+              "cost": 1.3,
+              "grossProfit": 12.7
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T02:26:34.565Z"
+      "lastCollectedAt": "2026-11-25T02:34:09.892Z"
     },
     "ST": {
       "days": {
@@ -26353,7 +26393,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T02:26:34.565Z"
+      "lastCollectedAt": "2026-11-25T02:34:09.892Z"
     },
     "SK": {
       "days": {
@@ -31734,7 +31774,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T02:26:34.565Z"
+      "lastCollectedAt": "2026-11-25T02:34:09.892Z"
     },
     "KM": {
       "days": {
@@ -32196,8 +32236,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T02:26:34.565Z"
+      "lastCollectedAt": "2026-11-25T02:34:09.892Z"
     }
   },
-  "updatedAt": "2026-11-25T02:26:34.565Z"
+  "updatedAt": "2026-11-25T02:34:09.892Z"
 }
