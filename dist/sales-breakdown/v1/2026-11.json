@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:34:09.046Z"
+      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
     },
     "SR": {
       "days": {
@@ -18152,23 +18152,23 @@
           ]
         },
         "2026-11-25": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 714,
-              "netSales": 714,
-              "cost": 699.2,
-              "grossProfit": 14.8,
-              "quantity": 4
+              "sales": 1226,
+              "netSales": 1226,
+              "cost": 1135.2,
+              "grossProfit": 90.8,
+              "quantity": 8
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 988,
+              "netSales": 988,
+              "cost": 949,
+              "grossProfit": 39,
+              "quantity": 1
             },
             {
               "key": "foreman_item",
@@ -18180,14 +18180,24 @@
             },
             {
               "key": "other",
-              "sales": 104,
-              "netSales": 104,
-              "cost": 54.6,
-              "grossProfit": 49.4,
-              "quantity": 13
+              "sales": 214,
+              "netSales": 214,
+              "cost": 61.2,
+              "grossProfit": 152.8,
+              "quantity": 22
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "SR154HUHBGL",
+              "itemName": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
+              "quantity": 1,
+              "sales": 988,
+              "netSales": 988,
+              "cost": 949,
+              "grossProfit": 39
+            },
             {
               "category": "other",
               "itemCode": "PATCH",
@@ -18202,21 +18212,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 8,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -18227,6 +18237,16 @@
               "netSales": 60,
               "cost": 50,
               "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195016R330-26",
+              "itemName": "WINRUN 195/50/16 R330 88V XL TL (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 436,
+              "grossProfit": 76
             },
             {
               "category": "passenger_tire",
@@ -18262,17 +18282,17 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
-              "cost": 3.3,
-              "grossProfit": 16.7
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:34:09.046Z"
+      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
     },
     "ST": {
       "days": {
@@ -26423,7 +26443,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:34:09.046Z"
+      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
     },
     "SK": {
       "days": {
@@ -31804,7 +31824,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:34:09.046Z"
+      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
     },
     "KM": {
       "days": {
@@ -32266,8 +32286,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:34:09.046Z"
+      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
     }
   },
-  "updatedAt": "2026-11-25T04:34:09.046Z"
+  "updatedAt": "2026-11-25T04:41:49.653Z"
 }
