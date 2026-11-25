@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T09:56:27.841Z"
+      "lastCollectedAt": "2026-11-25T10:04:10.646Z"
     },
     "SR": {
       "days": {
@@ -18152,15 +18152,15 @@
           ]
         },
         "2026-11-25": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5328,
-              "netSales": 5328,
+              "sales": 5368,
+              "netSales": 5368,
               "cost": 4831.8,
-              "grossProfit": 496.2,
-              "quantity": 28
+              "grossProfit": 536.2,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
@@ -18180,14 +18180,24 @@
             },
             {
               "key": "other",
-              "sales": 489,
-              "netSales": 489,
+              "sales": 499,
+              "netSales": 499,
               "cost": 211.75,
-              "grossProfit": 277.25,
-              "quantity": 65
+              "grossProfit": 287.25,
+              "quantity": 66
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "NSR195016",
+              "itemName": "USED TAYAR 195/50/16-911",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
             {
               "category": "sport_rim",
               "itemCode": "US2617440",
@@ -18242,11 +18252,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 31,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 32,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 10
             },
             {
               "category": "foreman_item",
@@ -18462,7 +18472,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T09:56:27.841Z"
+      "lastCollectedAt": "2026-11-25T10:04:10.646Z"
     },
     "ST": {
       "days": {
@@ -26613,7 +26623,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T09:56:27.841Z"
+      "lastCollectedAt": "2026-11-25T10:04:10.646Z"
     },
     "SK": {
       "days": {
@@ -31994,7 +32004,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T09:56:27.841Z"
+      "lastCollectedAt": "2026-11-25T10:04:10.646Z"
     },
     "KM": {
       "days": {
@@ -32456,8 +32466,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T09:56:27.841Z"
+      "lastCollectedAt": "2026-11-25T10:04:10.646Z"
     }
   },
-  "updatedAt": "2026-11-25T09:56:27.841Z"
+  "updatedAt": "2026-11-25T10:04:10.646Z"
 }
