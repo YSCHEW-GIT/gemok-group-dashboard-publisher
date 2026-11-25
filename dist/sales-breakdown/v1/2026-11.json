@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T01:57:44.926Z"
+      "lastCollectedAt": "2026-11-25T02:11:19.389Z"
     },
     "SR": {
       "days": {
@@ -18152,7 +18152,7 @@
           ]
         },
         "2026-11-25": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18180,18 +18180,29 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 10,
+              "quantity": 1
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T01:57:44.926Z"
+      "lastCollectedAt": "2026-11-25T02:11:19.389Z"
     },
     "ST": {
       "days": {
@@ -26342,7 +26353,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T01:57:44.926Z"
+      "lastCollectedAt": "2026-11-25T02:11:19.389Z"
     },
     "SK": {
       "days": {
@@ -31723,7 +31734,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T01:57:44.926Z"
+      "lastCollectedAt": "2026-11-25T02:11:19.389Z"
     },
     "KM": {
       "days": {
@@ -32185,8 +32196,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T01:57:44.926Z"
+      "lastCollectedAt": "2026-11-25T02:11:19.389Z"
     }
   },
-  "updatedAt": "2026-11-25T01:57:44.926Z"
+  "updatedAt": "2026-11-25T02:11:19.389Z"
 }
