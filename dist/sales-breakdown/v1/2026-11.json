@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
+      "lastCollectedAt": "2026-11-25T04:49:25.003Z"
     },
     "SR": {
       "days": {
@@ -18164,11 +18164,11 @@
             },
             {
               "key": "sport_rim",
-              "sales": 988,
-              "netSales": 988,
-              "cost": 949,
-              "grossProfit": 39,
-              "quantity": 1
+              "sales": 778,
+              "netSales": 778,
+              "cost": 698,
+              "grossProfit": 80,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -18190,13 +18190,23 @@
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2617440",
+              "itemName": "USED SPORT RIM 15X7",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": -251,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SR154HUHBGL",
               "itemName": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
               "quantity": 1,
-              "sales": 988,
-              "netSales": 988,
+              "sales": 1029,
+              "netSales": 1029,
               "cost": 949,
-              "grossProfit": 39
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -18292,7 +18302,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
+      "lastCollectedAt": "2026-11-25T04:49:25.003Z"
     },
     "ST": {
       "days": {
@@ -26443,7 +26453,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
+      "lastCollectedAt": "2026-11-25T04:49:25.003Z"
     },
     "SK": {
       "days": {
@@ -31824,7 +31834,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
+      "lastCollectedAt": "2026-11-25T04:49:25.003Z"
     },
     "KM": {
       "days": {
@@ -32286,8 +32296,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T04:41:49.653Z"
+      "lastCollectedAt": "2026-11-25T04:49:25.003Z"
     }
   },
-  "updatedAt": "2026-11-25T04:41:49.653Z"
+  "updatedAt": "2026-11-25T04:49:25.003Z"
 }
