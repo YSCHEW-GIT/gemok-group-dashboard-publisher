@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T05:04:40.182Z"
+      "lastCollectedAt": "2026-11-25T05:12:17.670Z"
     },
     "SR": {
       "days": {
@@ -18152,39 +18152,39 @@
           ]
         },
         "2026-11-25": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1226,
-              "netSales": 1226,
-              "cost": 1135.2,
-              "grossProfit": 90.8,
-              "quantity": 8
+              "sales": 1476.19,
+              "netSales": 1476.19,
+              "cost": 1386.2,
+              "grossProfit": 89.99,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
-              "sales": 778,
-              "netSales": 778,
+              "sales": 746.03,
+              "netSales": 746.03,
               "cost": 698,
-              "grossProfit": 80,
+              "grossProfit": 48.03,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 35,
-              "netSales": 35,
+              "sales": 34.13,
+              "netSales": 34.13,
               "cost": 5.5,
-              "grossProfit": 29.5,
+              "grossProfit": 28.63,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 214,
-              "netSales": 214,
+              "sales": 247.65,
+              "netSales": 247.65,
               "cost": 61.2,
-              "grossProfit": 152.8,
-              "quantity": 22
+              "grossProfit": 186.45,
+              "quantity": 26
             }
           ],
           "items": [
@@ -18193,126 +18193,136 @@
               "itemCode": "US2617440",
               "itemName": "USED SPORT RIM 15X7",
               "quantity": -1,
-              "sales": -251,
-              "netSales": -251,
+              "sales": -257.27,
+              "netSales": -257.27,
               "cost": -251,
-              "grossProfit": 0
+              "grossProfit": -6.27
             },
             {
               "category": "sport_rim",
               "itemCode": "SR154HUHBGL",
               "itemName": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
               "quantity": 1,
-              "sales": 1029,
-              "netSales": 1029,
+              "sales": 1003.3,
+              "netSales": 1003.3,
               "cost": 949,
-              "grossProfit": 80
+              "grossProfit": 54.3
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.75,
+              "netSales": 9.75,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.75
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 29.25,
+              "netSales": 29.25,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 29.25
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 12,
+              "sales": 78,
+              "netSales": 78,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 78
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 58.5,
+              "netSales": 58.5,
               "cost": 50,
-              "grossProfit": 10
+              "grossProfit": 8.5
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195016R330-26",
               "itemName": "WINRUN 195/50/16 R330 88V XL TL (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 499.21,
+              "netSales": 499.21,
               "cost": 436,
-              "grossProfit": 76
+              "grossProfit": 63.21
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL165514RP18-26",
               "itemName": "WEST LAKE 165/55/14 RP18 72V TH (2026)",
               "quantity": 2,
-              "sales": 248,
-              "netSales": 248,
+              "sales": 241.81,
+              "netSales": 241.81,
               "cost": 235.2,
-              "grossProfit": 12.8
+              "grossProfit": 6.61
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
               "quantity": 2,
-              "sales": 466,
-              "netSales": 466,
+              "sales": 454.36,
+              "netSales": 454.36,
               "cost": 464,
-              "grossProfit": 2
+              "grossProfit": -9.64
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "US2617078",
+              "itemName": "USED SPORT RIM 15X7 4X100 (US2617078)",
+              "quantity": 1,
+              "sales": 280.81,
+              "netSales": 280.81,
+              "cost": 251,
+              "grossProfit": 29.81
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCBALZA",
               "itemName": "CABIN AIR COND FILTER ALZA/BEZZA/AXIA /ARUZ CFP001",
               "quantity": 1,
-              "sales": 35,
-              "netSales": 35,
+              "sales": 34.13,
+              "netSales": 34.13,
               "cost": 5.5,
-              "grossProfit": 29.5
+              "grossProfit": 28.63
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 2,
-              "sales": 14,
-              "netSales": 14,
+              "sales": 13.65,
+              "netSales": 13.65,
               "cost": 1.3,
-              "grossProfit": 12.7
+              "grossProfit": 12.35
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 58.5,
+              "netSales": 58.5,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 48.6
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T05:04:40.182Z"
+      "lastCollectedAt": "2026-11-25T05:12:17.670Z"
     },
     "ST": {
       "days": {
@@ -26463,7 +26473,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T05:04:40.182Z"
+      "lastCollectedAt": "2026-11-25T05:12:17.670Z"
     },
     "SK": {
       "days": {
@@ -31844,7 +31854,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T05:04:40.182Z"
+      "lastCollectedAt": "2026-11-25T05:12:17.670Z"
     },
     "KM": {
       "days": {
@@ -32306,8 +32316,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T05:04:40.182Z"
+      "lastCollectedAt": "2026-11-25T05:12:17.670Z"
     }
   },
-  "updatedAt": "2026-11-25T05:04:40.182Z"
+  "updatedAt": "2026-11-25T05:12:17.670Z"
 }
