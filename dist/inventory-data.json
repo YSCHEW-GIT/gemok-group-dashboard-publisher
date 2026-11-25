@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-25T04:29:13.757Z",
+  "updatedAt": "2026-11-25T05:39:41.458Z",
   "stores": [
     {
       "code": "SI",
@@ -28,16 +28,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 447,
-      "quantity": 2008,
-      "stockValue": 426194.61999999994
+      "sku": 446,
+      "quantity": 2003,
+      "stockValue": 425507.61999999994
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 698,
-      "quantity": 625,
-      "stockValue": 329151.52
+      "sku": 697,
+      "quantity": 624,
+      "stockValue": 328202.52
     },
     {
       "key": "absorber",
@@ -99,8 +99,8 @@
       "key": "parts",
       "name": "Parts",
       "sku": 869,
-      "quantity": 2909.5,
-      "stockValue": 104464.44999999997
+      "quantity": 2908.5,
+      "stockValue": 104458.94999999997
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2104,
-      "quantity": 2009,
-      "stockValue": 174893.5
+      "sku": 2105,
+      "quantity": 2011,
+      "stockValue": 175344.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9810,
-      "stockValue": 58661.469999999994
+      "quantity": 9806,
+      "stockValue": 58654.869999999995
     },
     {
       "key": "non-stock-item",
@@ -9605,15 +9605,6 @@
           "quantity": 4,
           "cost": 109,
           "price": 118
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 109,
-          "price": 128
         }
       ]
     },
@@ -10570,25 +10561,6 @@
           "quantity": 1,
           "cost": 200,
           "price": 0
-        }
-      ]
-    },
-    {
-      "code": "US2617078",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "USED SPORT RIM 15X7 4X100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 251,
-          "price": 251
         }
       ]
     },
@@ -22083,25 +22055,6 @@
           "quantity": 0,
           "cost": 820,
           "price": 588
-        }
-      ]
-    },
-    {
-      "code": "SR154HUHBGL",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 949,
-          "price": 688
         }
       ]
     },
@@ -39624,7 +39577,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 5.5,
           "price": 45
         },
@@ -95915,6 +95868,25 @@
       ]
     },
     {
+      "code": "US2617440",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 251,
+          "price": 251
+        }
+      ]
+    },
+    {
       "code": "US2617441",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -95939,6 +95911,15 @@
           "quantity": 4,
           "cost": 62.5,
           "price": 0
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 200
         }
       ]
     },
@@ -111800,7 +111781,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 226,
+          "quantity": 222,
           "cost": 1.65,
           "price": 10
         },
