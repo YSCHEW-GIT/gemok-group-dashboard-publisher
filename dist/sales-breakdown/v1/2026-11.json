@@ -9641,7 +9641,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:23:02.851Z"
+      "lastCollectedAt": "2026-11-25T06:30:38.063Z"
     },
     "SR": {
       "days": {
@@ -18152,39 +18152,39 @@
           ]
         },
         "2026-11-25": {
-          "documents": 5,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1554,
-              "netSales": 1554,
-              "cost": 1386.2,
-              "grossProfit": 167.8,
-              "quantity": 9
+              "sales": 2452.65,
+              "netSales": 2452.65,
+              "cost": 2388.2,
+              "grossProfit": 64.45,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
-              "sales": 578,
-              "netSales": 578,
+              "sales": 624.76,
+              "netSales": 624.76,
               "cost": 498,
-              "grossProfit": 80,
+              "grossProfit": 126.76,
               "quantity": -1
             },
             {
               "key": "foreman_item",
-              "sales": 35,
-              "netSales": 35,
-              "cost": 5.5,
-              "grossProfit": 29.5,
-              "quantity": 1
+              "sales": 251.18,
+              "netSales": 251.18,
+              "cost": 113,
+              "grossProfit": 138.18,
+              "quantity": 4
             },
             {
               "key": "other",
-              "sales": 214,
-              "netSales": 214,
-              "cost": 61.2,
-              "grossProfit": 152.8,
-              "quantity": 26
+              "sales": 366.41,
+              "netSales": 366.41,
+              "cost": 70.8,
+              "grossProfit": 295.61,
+              "quantity": 41
             }
           ],
           "items": [
@@ -18193,146 +18193,206 @@
               "itemCode": "US2617440",
               "itemName": "USED SPORT RIM 15X7",
               "quantity": -1,
-              "sales": -251,
-              "netSales": -251,
+              "sales": -254.76,
+              "netSales": -254.76,
               "cost": -251,
-              "grossProfit": 0
+              "grossProfit": -3.76
             },
             {
               "category": "sport_rim",
               "itemCode": "US2617441",
               "itemName": "USED SPORT RIM 15X7 8H",
               "quantity": -1,
-              "sales": -200,
-              "netSales": -200,
+              "sales": -203,
+              "netSales": -203,
               "cost": -200,
-              "grossProfit": 0
+              "grossProfit": -3
             },
             {
               "category": "sport_rim",
               "itemCode": "SR154HUHBGL",
               "itemName": "SPORT RIM 16X7 4X100 ET38 ULTRA HYPER BLACK 1124-04968 GRAM LIGHT",
               "quantity": 1,
-              "sales": 1029,
-              "netSales": 1029,
+              "sales": 1082.52,
+              "netSales": 1082.52,
               "cost": 949,
-              "grossProfit": 80
+              "grossProfit": 133.52
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.85,
+              "netSales": 9.85,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.85
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 5,
+              "sales": 59.1,
+              "netSales": 59.1,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 59.1
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 19,
+              "sales": 68.95,
+              "netSales": 68.95,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 68.95
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 39.4,
+              "netSales": 39.4,
+              "cost": 0,
+              "grossProfit": 39.4
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.1,
+              "netSales": 59.1,
               "cost": 50,
-              "grossProfit": 10
+              "grossProfit": 9.1
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195016R330-26",
               "itemName": "WINRUN 195/50/16 R330 88V XL TL (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 504.32,
+              "netSales": 504.32,
               "cost": 436,
-              "grossProfit": 76
+              "grossProfit": 68.32
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR195515R330-26",
+              "itemName": "WINRUN 195/55/15 R330 82V TL (2026)",
+              "quantity": 3,
+              "sales": 260.04,
+              "netSales": 260.04,
+              "cost": 258,
+              "grossProfit": 2.04
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL165514RP18-26",
               "itemName": "WEST LAKE 165/55/14 RP18 72V TH (2026)",
               "quantity": 2,
-              "sales": 248,
-              "netSales": 248,
+              "sales": 244.28,
+              "netSales": 244.28,
               "cost": 235.2,
-              "grossProfit": 12.8
+              "grossProfit": 9.08
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY195515CR1",
+              "itemName": "TOYO 195/55/15 85V PXCR1 M'SIA (2026)",
+              "quantity": 4,
+              "sales": 661.92,
+              "netSales": 661.92,
+              "cost": 744,
+              "grossProfit": -82.08
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
               "quantity": 2,
-              "sales": 466,
-              "netSales": 466,
+              "sales": 459.01,
+              "netSales": 459.01,
               "cost": 464,
-              "grossProfit": 2
+              "grossProfit": -4.99
             },
             {
               "category": "passenger_tire",
               "itemCode": "US2617078",
               "itemName": "USED SPORT RIM 15X7 4X100 (US2617078)",
               "quantity": 1,
-              "sales": 328,
-              "netSales": 328,
+              "sales": 323.08,
+              "netSales": 323.08,
               "cost": 251,
-              "grossProfit": 77
+              "grossProfit": 72.08
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCBALZA",
               "itemName": "CABIN AIR COND FILTER ALZA/BEZZA/AXIA /ARUZ CFP001",
               "quantity": 1,
-              "sales": 35,
-              "netSales": 35,
+              "sales": 34.48,
+              "netSales": 34.48,
               "cost": 5.5,
-              "grossProfit": 29.5
+              "grossProfit": 28.98
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFTYTE2",
+              "itemName": "OIL FILTER YZZE2 TOYOTA AE101",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 7.5,
+              "grossProfit": -7.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 177.3,
+              "netSales": 177.3,
+              "cost": 100,
+              "grossProfit": 77.3
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 2,
-              "sales": 14,
-              "netSales": 14,
-              "cost": 1.3,
-              "grossProfit": 12.7
+              "quantity": 6,
+              "sales": 41.37,
+              "netSales": 41.37,
+              "cost": 3.9,
+              "grossProfit": 37.47
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.1,
+              "netSales": 59.1,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 49.2
+            },
+            {
+              "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 68.94,
+              "netSales": 68.94,
+              "cost": 7,
+              "grossProfit": 61.94
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:23:02.851Z"
+      "lastCollectedAt": "2026-11-25T06:30:38.063Z"
     },
     "ST": {
       "days": {
@@ -26483,7 +26543,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:23:02.851Z"
+      "lastCollectedAt": "2026-11-25T06:30:38.063Z"
     },
     "SK": {
       "days": {
@@ -31864,7 +31924,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:23:02.851Z"
+      "lastCollectedAt": "2026-11-25T06:30:38.063Z"
     },
     "KM": {
       "days": {
@@ -32326,8 +32386,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-25T06:23:02.851Z"
+      "lastCollectedAt": "2026-11-25T06:30:38.063Z"
     }
   },
-  "updatedAt": "2026-11-25T06:23:02.851Z"
+  "updatedAt": "2026-11-25T06:30:38.063Z"
 }
