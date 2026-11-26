@@ -9644,10 +9644,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1272,
-              "netSales": 1272,
+              "sales": 1240.8,
+              "netSales": 1240.8,
               "cost": 1340,
-              "grossProfit": -68,
+              "grossProfit": -99.2,
               "quantity": 6
             },
             {
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 342,
-              "netSales": 321.65,
+              "sales": 373.2,
+              "netSales": 349.89,
               "cost": 10.55,
-              "grossProfit": 311.1,
-              "quantity": 25
+              "grossProfit": 339.34,
+              "quantity": 26
             }
           ],
           "items": [
@@ -9681,76 +9681,86 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 117.28,
+              "netSales": 108.4,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 108.4
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 13,
-              "sales": 130,
-              "netSales": 120.38,
+              "sales": 127.05,
+              "netSales": 117.43,
               "cost": 0,
-              "grossProfit": 120.38
+              "grossProfit": 117.43
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 1,
-              "sales": 25,
-              "netSales": 23.15,
+              "sales": 24.43,
+              "netSales": 22.58,
               "cost": 0,
-              "grossProfit": 23.15
+              "grossProfit": 22.58
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 39.09,
+              "netSales": 36.13,
+              "cost": 0,
+              "grossProfit": 36.13
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 577.48,
+              "netSales": 577.48,
               "cost": 680,
-              "grossProfit": -88
+              "grossProfit": -102.52
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
               "quantity": 2,
-              "sales": 680,
-              "netSales": 680,
+              "sales": 663.32,
+              "netSales": 663.32,
               "cost": 660,
-              "grossProfit": 20
+              "grossProfit": 3.32
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 58.53,
+              "netSales": 58.53,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 48.63
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 1,
-              "sales": 7,
-              "netSales": 7,
+              "sales": 6.82,
+              "netSales": 6.82,
               "cost": 0.65,
-              "grossProfit": 6.35
+              "grossProfit": 6.17
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
+      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
     },
     "SR": {
       "days": {
@@ -18600,7 +18610,7 @@
           ]
         },
         "2026-11-26": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18620,19 +18630,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1120,
-              "netSales": 1120,
-              "cost": 662.4,
-              "grossProfit": 457.6,
-              "quantity": 6
+              "sales": 1318,
+              "netSales": 1318,
+              "cost": 749.8,
+              "grossProfit": 568.2,
+              "quantity": 8
             },
             {
               "key": "other",
-              "sales": 383,
-              "netSales": 383,
-              "cost": 26.2,
-              "grossProfit": 356.8,
-              "quantity": 23
+              "sales": 443,
+              "netSales": 443,
+              "cost": 51.2,
+              "grossProfit": 391.8,
+              "quantity": 25
             }
           ],
           "items": [
@@ -18650,11 +18660,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 4,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -18677,6 +18687,16 @@
               "grossProfit": 80
             },
             {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 25,
+              "grossProfit": 5
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
@@ -18695,6 +18715,16 @@
               "netSales": 672,
               "cost": 772,
               "grossProfit": -100
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWBARKLSF",
+              "itemName": "NTN WHEEL BEARING FRT MYVI 1ST MODEL, VIVA,KENARI KELISA AU0755",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 59.4,
+              "grossProfit": 80.6
             },
             {
               "category": "foreman_item",
@@ -18768,6 +18798,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PBPBNC0045FPLT",
+              "itemName": "BNC BRAKE PAD MYVI OLD 05-10 CD0045 PLT- FRT",
+              "quantity": 1,
+              "sales": 58,
+              "netSales": 58,
+              "cost": 28,
+              "grossProfit": 30
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PABSVKALZFRT",
               "itemName": "VERKE ABSORBER P/MYVI 11-17 LG BEST FRT 332M068 / VR01 4213",
               "quantity": 1,
@@ -18790,7 +18830,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
+      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
     },
     "ST": {
       "days": {
@@ -27090,7 +27130,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
+      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
     },
     "SK": {
       "days": {
@@ -32540,7 +32580,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
+      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
     },
     "KM": {
       "days": {
@@ -33040,8 +33080,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
+      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
     }
   },
-  "updatedAt": "2026-11-26T03:40:39.963Z"
+  "updatedAt": "2026-11-26T03:46:46.037Z"
 }
