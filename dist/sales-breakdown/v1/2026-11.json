@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 682.01,
-              "netSales": 660.18,
-              "cost": 77.7,
-              "grossProfit": 582.48,
-              "quantity": 98
+              "sales": 727.01,
+              "netSales": 705.18,
+              "cost": 87.7,
+              "grossProfit": 617.48,
+              "quantity": 99
             }
           ],
           "items": [
@@ -9958,6 +9958,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCTYTVS",
+              "itemName": "CAMBER NUT TYT VIOS NEW",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 10,
+              "grossProfit": 35
+            },
+            {
+              "category": "other",
               "itemCode": "MNCTYTB",
               "itemName": "CAMBER NUT TOYOTA",
               "quantity": 2,
@@ -9970,7 +9980,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
+      "lastCollectedAt": "2026-11-26T09:59:01.459Z"
     },
     "SR": {
       "days": {
@@ -18840,11 +18850,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2028,
-              "netSales": 2028,
-              "cost": 1161.2,
-              "grossProfit": 866.8,
-              "quantity": 16
+              "sales": 2068,
+              "netSales": 2068,
+              "cost": 1176.2,
+              "grossProfit": 891.8,
+              "quantity": 17
             },
             {
               "key": "other",
@@ -19147,6 +19157,16 @@
               "grossProfit": -6.5
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSR26110061",
+              "itemName": "RADIATOR CAP (S) B SAGA FLX (SSST)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 15,
+              "grossProfit": 25
+            },
+            {
               "category": "other",
               "itemCode": "MNCTYTVS",
               "itemName": "CAMBER NUT TYT VIOS NEW",
@@ -19250,7 +19270,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
+      "lastCollectedAt": "2026-11-26T09:59:01.459Z"
     },
     "ST": {
       "days": {
@@ -27432,7 +27452,7 @@
               "netSales": 758,
               "cost": 238,
               "grossProfit": 520,
-              "quantity": 107
+              "quantity": 109
             }
           ],
           "items": [
@@ -27450,7 +27470,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 40,
+              "quantity": 42,
               "sales": 40,
               "netSales": 40,
               "cost": 0,
@@ -27790,7 +27810,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
+      "lastCollectedAt": "2026-11-26T09:59:01.459Z"
     },
     "SK": {
       "days": {
@@ -33420,7 +33440,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
+      "lastCollectedAt": "2026-11-26T09:59:01.459Z"
     },
     "KM": {
       "days": {
@@ -33920,8 +33940,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:37:46.904Z"
+      "lastCollectedAt": "2026-11-26T09:59:01.459Z"
     }
   },
-  "updatedAt": "2026-11-26T09:43:53.533Z"
+  "updatedAt": "2026-11-26T09:59:01.459Z"
 }
