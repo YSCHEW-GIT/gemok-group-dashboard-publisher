@@ -9640,23 +9640,23 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2612,
-              "netSales": 2612,
-              "cost": 2497.6,
-              "grossProfit": 114.4,
-              "quantity": 11
+              "sales": 4012,
+              "netSales": 4012,
+              "cost": 3689.6,
+              "grossProfit": 322.4,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 980,
+              "netSales": 980,
+              "cost": 1280,
+              "grossProfit": -300,
+              "quantity": 4
             },
             {
               "key": "foreman_item",
@@ -9670,12 +9670,22 @@
               "key": "other",
               "sales": 442,
               "netSales": 417.95,
-              "cost": 18.8,
-              "grossProfit": 399.15,
-              "quantity": 39
+              "cost": 25.4,
+              "grossProfit": 392.55,
+              "quantity": 43
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "SIMPHB1751ADVNGT",
+              "itemName": "SPORT RIM 17X7.5 5X114 ET38 HYPER BLACK ADVAN GT",
+              "quantity": 4,
+              "sales": 980,
+              "netSales": 980,
+              "cost": 1280,
+              "grossProfit": -300
+            },
             {
               "category": "other",
               "itemCode": "ALGNF",
@@ -9728,6 +9738,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPKH205517HS52-26",
+              "itemName": "KUMHO 205/55/17 ECSTA HS52 XL 95V ID (2026)",
+              "quantity": 4,
+              "sales": 1400,
+              "netSales": 1400,
+              "cost": 1192,
+              "grossProfit": 208
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
@@ -9770,11 +9790,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 11,
+              "quantity": 15,
               "sales": 110,
               "netSales": 110,
-              "cost": 18.15,
-              "grossProfit": 91.85
+              "cost": 24.75,
+              "grossProfit": 85.25
             },
             {
               "category": "other",
@@ -9790,7 +9810,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:31:25.953Z"
+      "lastCollectedAt": "2026-11-26T04:37:38.480Z"
     },
     "SR": {
       "days": {
@@ -18640,7 +18660,7 @@
           ]
         },
         "2026-11-26": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18668,11 +18688,11 @@
             },
             {
               "key": "other",
-              "sales": 373,
-              "netSales": 373,
+              "sales": 383,
+              "netSales": 383,
               "cost": 51.2,
-              "grossProfit": 321.8,
-              "quantity": 25
+              "grossProfit": 331.8,
+              "quantity": 26
             }
           ],
           "items": [
@@ -18680,11 +18700,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 2,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -18900,7 +18920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:31:25.953Z"
+      "lastCollectedAt": "2026-11-26T04:37:38.480Z"
     },
     "ST": {
       "days": {
@@ -27054,10 +27074,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5434,
-              "netSales": 5434,
+              "sales": 5484,
+              "netSales": 5484,
               "cost": 5112,
-              "grossProfit": 322,
+              "grossProfit": 372,
               "quantity": 22
             },
             {
@@ -27078,10 +27098,10 @@
             },
             {
               "key": "other",
-              "sales": 550,
-              "netSales": 550,
+              "sales": 500,
+              "netSales": 500,
               "cost": 126.3,
-              "grossProfit": 423.7,
+              "grossProfit": 373.7,
               "quantity": 56
             }
           ],
@@ -27091,20 +27111,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -27151,10 +27171,10 @@
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 2,
-              "sales": 296,
-              "netSales": 296,
+              "sales": 346,
+              "netSales": 346,
               "cost": 342,
-              "grossProfit": -46
+              "grossProfit": 4
             },
             {
               "category": "passenger_tire",
@@ -27300,7 +27320,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:31:25.953Z"
+      "lastCollectedAt": "2026-11-26T04:37:38.480Z"
     },
     "SK": {
       "days": {
@@ -32780,7 +32800,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:31:25.953Z"
+      "lastCollectedAt": "2026-11-26T04:37:38.480Z"
     },
     "KM": {
       "days": {
@@ -33280,8 +33300,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:31:25.953Z"
+      "lastCollectedAt": "2026-11-26T04:37:38.480Z"
     }
   },
-  "updatedAt": "2026-11-26T04:31:25.953Z"
+  "updatedAt": "2026-11-26T04:37:38.480Z"
 }
