@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-26T09:55:54.008Z",
+  "updatedAt": "2026-11-26T12:03:51.627Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 446,
-      "quantity": 1942,
-      "stockValue": 415565.42000000004
+      "quantity": 1940,
+      "stockValue": 415175.42000000004
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 701,
-      "quantity": 624,
-      "stockValue": 329870.52
+      "sku": 702,
+      "quantity": 626,
+      "stockValue": 331180.52
     },
     {
       "key": "absorber",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 257,
-      "stockValue": 13248.349999999999
+      "quantity": 256,
+      "stockValue": 13220.349999999999
     },
     {
       "key": "brake-pump",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9681,
-      "stockValue": 58422.42
+      "quantity": 9680,
+      "stockValue": 58412.42
     },
     {
       "key": "non-stock-item",
@@ -6702,7 +6702,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 195,
           "price": 0
         }
@@ -22265,6 +22265,15 @@
           "quantity": 1,
           "cost": 650,
           "price": 488
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 650,
+          "price": 488
         }
       ]
     },
@@ -22587,6 +22596,25 @@
           "location": "",
           "quantity": 1,
           "cost": 670,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR15658H-PW-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 73.1 PEAR WHITE CE28",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 660,
           "price": 488
         }
       ]
@@ -31497,7 +31525,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 28,
           "price": 58
         }
@@ -106814,7 +106842,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 41,
+          "quantity": 40,
           "cost": 10,
           "price": 0
         },
