@@ -9740,7 +9740,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:56:24.480Z"
+      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
     },
     "SR": {
       "days": {
@@ -18590,7 +18590,7 @@
           ]
         },
         "2026-11-26": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18610,11 +18610,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 30,
+              "quantity": 1
             },
             {
               "key": "other",
@@ -18647,6 +18647,16 @@
               "grossProfit": 30
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
               "category": "other",
               "itemCode": "MNCTYTVS",
               "itemName": "CAMBER NUT TYT VIOS NEW",
@@ -18660,7 +18670,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:56:24.480Z"
+      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
     },
     "ST": {
       "days": {
@@ -26900,7 +26910,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:56:24.480Z"
+      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
     },
     "SK": {
       "days": {
@@ -32319,7 +32329,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:56:24.480Z"
+      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
     },
     "KM": {
       "days": {
@@ -32819,8 +32829,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:56:24.480Z"
+      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
     }
   },
-  "updatedAt": "2026-11-26T02:56:24.480Z"
+  "updatedAt": "2026-11-26T03:02:59.531Z"
 }
