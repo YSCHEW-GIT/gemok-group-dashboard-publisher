@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-26T05:14:15.438Z",
+  "updatedAt": "2026-11-26T06:24:11.396Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 447,
-      "quantity": 1986,
-      "stockValue": 424242.42
+      "quantity": 1984,
+      "stockValue": 423768.42
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 697,
-      "quantity": 620,
-      "stockValue": 326922.52
+      "sku": 700,
+      "quantity": 624,
+      "stockValue": 329532.52
     },
     {
       "key": "absorber",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2105,
-      "quantity": 2011,
-      "stockValue": 175293.5
+      "sku": 2106,
+      "quantity": 2012,
+      "stockValue": 175593.5
     },
     {
       "key": "used-tayar",
@@ -362,7 +362,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 4,
           "cost": 138,
           "price": 148
         },
@@ -465,7 +465,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 145,
           "price": 0
         }
@@ -9966,7 +9966,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 25,
+          "quantity": 23,
           "cost": 230,
           "price": 0
         },
@@ -11189,6 +11189,25 @@
           "quantity": 1,
           "cost": 780,
           "price": 739
+        }
+      ]
+    },
+    {
+      "code": "SIMPDB15681CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 DARK BRONZE JW-C28-8 (CE28)",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 650,
+          "price": 488
         }
       ]
     },
@@ -22231,6 +22250,44 @@
       ]
     },
     {
+      "code": "SR156541ET40-BLK-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET40 BLACK 73.1 JW-SL37 SONIC (TE37)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 650,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR156541ET40-DB-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET40 73.1 DARK BRONZE JW-SL37 (TE37)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 650,
+          "price": 488
+        }
+      ]
+    },
+    {
       "code": "SR156541ET40-GSML-WKS1",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -22501,9 +22558,18 @@
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
       "brand": "",
-      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 73.1 CANDY RED (CE28)",
+      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 CANDY RED+LIP 73.1 JW-C28-8 (CE28)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 660,
+          "price": 488
+        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -104121,6 +104187,25 @@
       "groupName": "Used Sport Rim",
       "brand": "",
       "name": "USED SPORT RIM 15X6.5 8X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2621165",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 17X7.5 4X114",
       "spec": "",
       "stockRows": [
         {
