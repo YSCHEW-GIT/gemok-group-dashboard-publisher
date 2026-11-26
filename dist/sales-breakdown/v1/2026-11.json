@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7975.99,
-              "netSales": 7975.99,
+              "sales": 8025.99,
+              "netSales": 8025.99,
               "cost": 7394.6,
-              "grossProfit": 581.39,
-              "quantity": 34
+              "grossProfit": 631.39,
+              "quantity": 35
             },
             {
               "key": "sport_rim",
@@ -9676,6 +9676,16 @@
             }
           ],
           "items": [
+            {
+              "category": "passenger_tire",
+              "itemCode": "UT185515",
+              "itemName": "USED TIRE 185/55/15",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 50,
+              "cost": 0,
+              "grossProfit": 50
+            },
             {
               "category": "sport_rim",
               "itemCode": "US2621165",
@@ -9940,7 +9950,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T08:54:27.676Z"
+      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
     },
     "SR": {
       "days": {
@@ -19130,7 +19140,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T08:54:27.676Z"
+      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
     },
     "ST": {
       "days": {
@@ -27640,7 +27650,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T08:54:27.676Z"
+      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
     },
     "SK": {
       "days": {
@@ -33270,7 +33280,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T08:54:27.676Z"
+      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
     },
     "KM": {
       "days": {
@@ -33770,8 +33780,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T08:54:27.676Z"
+      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
     }
   },
-  "updatedAt": "2026-11-26T08:54:27.676Z"
+  "updatedAt": "2026-11-26T09:00:34.060Z"
 }
