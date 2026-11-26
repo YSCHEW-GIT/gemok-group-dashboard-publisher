@@ -9920,7 +9920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:56:25.260Z"
+      "lastCollectedAt": "2026-11-26T08:02:34.246Z"
     },
     "SR": {
       "days": {
@@ -18782,10 +18782,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
+              "sales": 488,
+              "netSales": 488,
+              "cost": 409,
+              "grossProfit": 79,
               "quantity": 0
             },
             {
@@ -18798,14 +18798,34 @@
             },
             {
               "key": "other",
-              "sales": 591,
-              "netSales": 591,
-              "cost": 60.4,
-              "grossProfit": 530.6,
-              "quantity": 54
+              "sales": 651,
+              "netSales": 651,
+              "cost": 110.4,
+              "grossProfit": 540.6,
+              "quantity": 56
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617469",
+              "itemName": "USED SPORT RIM 15X7 4X100",
+              "quantity": -1,
+              "sales": -251,
+              "netSales": -251,
+              "cost": -251,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "SR156584ET40-CR-CE28",
+              "itemName": "SPORT RIM 15X6.5 8X100/114.3 ET40 CANDY RED+LIP 73.1 JW-C28-8 (CE28)",
+              "quantity": 1,
+              "sales": 739,
+              "netSales": 739,
+              "cost": 660,
+              "grossProfit": 79
+            },
             {
               "category": "other",
               "itemCode": "PATCH",
@@ -18850,11 +18870,11 @@
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
-              "cost": 25,
-              "grossProfit": 5
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 75,
+              "grossProfit": 15
             },
             {
               "category": "passenger_tire",
@@ -19050,7 +19070,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:56:25.260Z"
+      "lastCollectedAt": "2026-11-26T08:02:34.246Z"
     },
     "ST": {
       "days": {
@@ -27540,7 +27560,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:56:25.260Z"
+      "lastCollectedAt": "2026-11-26T08:02:34.246Z"
     },
     "SK": {
       "days": {
@@ -33170,7 +33190,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:56:25.260Z"
+      "lastCollectedAt": "2026-11-26T08:02:34.246Z"
     },
     "KM": {
       "days": {
@@ -33670,8 +33690,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:56:25.260Z"
+      "lastCollectedAt": "2026-11-26T08:02:34.246Z"
     }
   },
-  "updatedAt": "2026-11-26T07:56:25.260Z"
+  "updatedAt": "2026-11-26T08:02:34.246Z"
 }
