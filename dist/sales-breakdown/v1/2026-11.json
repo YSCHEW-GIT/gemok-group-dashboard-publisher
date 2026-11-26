@@ -9662,8 +9662,8 @@
               "key": "foreman_item",
               "sales": 920,
               "netSales": 914.44,
-              "cost": 365.4,
-              "grossProfit": 549.04,
+              "cost": 360.4,
+              "grossProfit": 554.04,
               "quantity": 6
             },
             {
@@ -9858,16 +9858,6 @@
             },
             {
               "category": "foreman_item",
-              "itemCode": "PVGTYTACR50",
-              "itemName": "VALVE COVER GASKET TYT VIOS SILICON 0061",
-              "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
-              "cost": 30,
-              "grossProfit": 150
-            },
-            {
-              "category": "foreman_item",
               "itemCode": "PSPNGKMYV",
               "itemName": "NGK PLUG DCPR7EA-9 MYVI AVANZA ALZA RUSH",
               "quantity": 1,
@@ -9875,6 +9865,16 @@
               "netSales": 80,
               "cost": 30.4,
               "grossProfit": 49.6
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PVCPRDASSY",
+              "itemName": "VALVE COVER GASKET PERODUA MYVI/ALZA DVVT SILICON",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 25,
+              "grossProfit": 155
             },
             {
               "category": "foreman_item",
@@ -9899,7 +9899,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 25,
               "sales": 210,
               "netSales": 210,
@@ -9909,7 +9909,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 5,
               "sales": 7.01,
               "netSales": 7.01,
@@ -9920,7 +9920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:22:52.272Z"
+      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
     },
     "SR": {
       "days": {
@@ -18770,7 +18770,7 @@
           ]
         },
         "2026-11-26": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18798,11 +18798,11 @@
             },
             {
               "key": "other",
-              "sales": 401,
-              "netSales": 401,
+              "sales": 431,
+              "netSales": 431,
               "cost": 53.8,
-              "grossProfit": 347.2,
-              "quantity": 41
+              "grossProfit": 377.2,
+              "quantity": 42
             }
           ],
           "items": [
@@ -18820,11 +18820,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 6,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "foreman_item",
@@ -18979,7 +18979,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -18999,7 +18999,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 8,
               "sales": 56,
               "netSales": 56,
@@ -19040,7 +19040,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:22:52.272Z"
+      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
     },
     "ST": {
       "days": {
@@ -27429,7 +27429,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 1,
               "sales": 90,
               "netSales": 90,
@@ -27489,7 +27489,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 18,
               "sales": 126,
               "netSales": 126,
@@ -27499,7 +27499,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 12,
               "sales": 120,
               "netSales": 120,
@@ -27520,7 +27520,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:22:52.272Z"
+      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
     },
     "SK": {
       "days": {
@@ -32900,14 +32900,14 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 564,
-              "netSales": 564,
+              "sales": 624,
+              "netSales": 624,
               "cost": 592,
-              "grossProfit": -28,
+              "grossProfit": 32,
               "quantity": 5
             },
             {
@@ -32928,11 +32928,11 @@
             },
             {
               "key": "other",
-              "sales": 220,
-              "netSales": 220,
+              "sales": 170,
+              "netSales": 170,
               "cost": 2.45,
-              "grossProfit": 217.55,
-              "quantity": 15
+              "grossProfit": 167.55,
+              "quantity": 16
             }
           ],
           "items": [
@@ -32940,31 +32940,31 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 5,
+              "sales": 50,
+              "netSales": 50,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 50
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 5,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 110,
-              "netSales": 110,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 110
+              "grossProfit": 70
             },
             {
               "category": "foreman_item",
@@ -32991,10 +32991,10 @@
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 2,
-              "sales": 158,
-              "netSales": 158,
+              "sales": 218,
+              "netSales": 218,
               "cost": 170,
-              "grossProfit": -12
+              "grossProfit": 48
             },
             {
               "category": "passenger_tire",
@@ -33150,7 +33150,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
+      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
     },
     "KM": {
       "days": {
@@ -33650,8 +33650,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:22:52.272Z"
+      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
     }
   },
-  "updatedAt": "2026-11-26T07:22:52.272Z"
+  "updatedAt": "2026-11-26T07:38:00.249Z"
 }
