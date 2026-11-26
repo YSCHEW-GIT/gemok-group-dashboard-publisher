@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4913.99,
-              "netSales": 4913.99,
-              "cost": 4319.6,
-              "grossProfit": 594.39,
-              "quantity": 21
+              "sales": 5309.99,
+              "netSales": 5309.99,
+              "cost": 4779.6,
+              "grossProfit": 530.39,
+              "quantity": 23
             },
             {
               "key": "sport_rim",
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 382.01,
-              "netSales": 366.84,
+              "sales": 432.01,
+              "netSales": 413.14,
               "cost": 35.3,
-              "grossProfit": 331.54,
-              "quantity": 57
+              "grossProfit": 377.84,
+              "quantity": 60
             }
           ],
           "items": [
@@ -9700,21 +9700,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 60,
-              "netSales": 55.56,
+              "quantity": 8,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 55.56
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 24,
-              "sales": 70,
-              "netSales": 64.82,
+              "quantity": 26,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 64.82
+              "grossProfit": 83.34
             },
             {
               "category": "other",
@@ -9745,6 +9745,16 @@
               "netSales": 37.04,
               "cost": 0,
               "grossProfit": 37.04
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH195515V701",
+              "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
+              "quantity": 2,
+              "sales": 396,
+              "netSales": 396,
+              "cost": 460,
+              "grossProfit": -64
             },
             {
               "category": "passenger_tire",
@@ -9850,7 +9860,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:07:17.125Z"
+      "lastCollectedAt": "2026-11-26T06:13:23.863Z"
     },
     "SR": {
       "days": {
@@ -18960,7 +18970,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:07:17.125Z"
+      "lastCollectedAt": "2026-11-26T06:13:23.863Z"
     },
     "ST": {
       "days": {
@@ -27420,7 +27430,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:07:17.125Z"
+      "lastCollectedAt": "2026-11-26T06:13:23.863Z"
     },
     "SK": {
       "days": {
@@ -32800,7 +32810,7 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -32820,11 +32830,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 940,
-              "netSales": 940,
+              "sales": 1000,
+              "netSales": 1000,
               "cost": 425.5,
-              "grossProfit": 514.5,
-              "quantity": 11
+              "grossProfit": 574.5,
+              "quantity": 12
             },
             {
               "key": "other",
@@ -32865,6 +32875,16 @@
               "netSales": 30,
               "cost": 0,
               "grossProfit": 30
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
             },
             {
               "category": "passenger_tire",
@@ -32960,7 +32980,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:07:17.125Z"
+      "lastCollectedAt": "2026-11-26T06:13:23.863Z"
     },
     "KM": {
       "days": {
@@ -33460,8 +33480,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:07:17.125Z"
+      "lastCollectedAt": "2026-11-26T06:13:23.863Z"
     }
   },
-  "updatedAt": "2026-11-26T06:07:17.125Z"
+  "updatedAt": "2026-11-26T06:13:23.863Z"
 }
