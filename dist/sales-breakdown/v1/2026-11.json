@@ -9920,7 +9920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
+      "lastCollectedAt": "2026-11-26T07:44:07.645Z"
     },
     "SR": {
       "days": {
@@ -18770,15 +18770,15 @@
           ]
         },
         "2026-11-26": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2066,
-              "netSales": 2066,
-              "cost": 2044,
-              "grossProfit": 22,
-              "quantity": 12
+              "sales": 2222,
+              "netSales": 2222,
+              "cost": 2198,
+              "grossProfit": 24,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -18798,11 +18798,11 @@
             },
             {
               "key": "other",
-              "sales": 431,
-              "netSales": 431,
+              "sales": 721,
+              "netSales": 721,
               "cost": 53.8,
-              "grossProfit": 377.2,
-              "quantity": 42
+              "grossProfit": 667.2,
+              "quantity": 69
             }
           ],
           "items": [
@@ -18820,11 +18820,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 7,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -18840,11 +18840,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 42,
+              "sales": 300,
+              "netSales": 300,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 300
             },
             {
               "category": "other",
@@ -18865,6 +18865,16 @@
               "netSales": 422,
               "cost": 344,
               "grossProfit": 78
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 2,
+              "sales": 156,
+              "netSales": 156,
+              "cost": 154,
+              "grossProfit": 2
             },
             {
               "category": "passenger_tire",
@@ -19040,7 +19050,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
+      "lastCollectedAt": "2026-11-26T07:44:07.645Z"
     },
     "ST": {
       "days": {
@@ -27520,7 +27530,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
+      "lastCollectedAt": "2026-11-26T07:44:07.645Z"
     },
     "SK": {
       "days": {
@@ -33150,7 +33160,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
+      "lastCollectedAt": "2026-11-26T07:44:07.645Z"
     },
     "KM": {
       "days": {
@@ -33650,8 +33660,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:38:00.249Z"
+      "lastCollectedAt": "2026-11-26T07:44:07.645Z"
     }
   },
-  "updatedAt": "2026-11-26T07:38:00.249Z"
+  "updatedAt": "2026-11-26T07:44:07.645Z"
 }
