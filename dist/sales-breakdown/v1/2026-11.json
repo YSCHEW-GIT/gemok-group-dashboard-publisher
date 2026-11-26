@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5925.99,
-              "netSales": 5925.99,
-              "cost": 5303.6,
-              "grossProfit": 622.39,
-              "quantity": 25
+              "sales": 7325.99,
+              "netSales": 7325.99,
+              "cost": 6823.6,
+              "grossProfit": 502.39,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
@@ -9670,9 +9670,9 @@
               "key": "other",
               "sales": 442.01,
               "netSales": 425.36,
-              "cost": 41.9,
-              "grossProfit": 383.46,
-              "quantity": 69
+              "cost": 44.5,
+              "grossProfit": 380.86,
+              "quantity": 73
             }
           ],
           "items": [
@@ -9788,6 +9788,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPMC195R15AG3-26",
+              "itemName": "MICHELIN 195 R15C AGILIS 3 106/104R (2026)",
+              "quantity": 4,
+              "sales": 1400,
+              "netSales": 1400,
+              "cost": 1520,
+              "grossProfit": -120
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPKH205517HS52-26",
               "itemName": "KUMHO 205/55/17 ECSTA HS52 XL 95V ID (2026)",
               "quantity": 4,
@@ -9891,26 +9901,26 @@
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 25,
-              "sales": 210.01,
-              "netSales": 210.01,
+              "sales": 210,
+              "netSales": 210,
               "cost": 41.25,
-              "grossProfit": 168.76
+              "grossProfit": 168.75
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 1,
-              "sales": 7,
-              "netSales": 7,
-              "cost": 0.65,
-              "grossProfit": 6.35
+              "quantity": 5,
+              "sales": 7.01,
+              "netSales": 7.01,
+              "cost": 3.25,
+              "grossProfit": 3.76
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:10:32.394Z"
+      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
     },
     "SR": {
       "days": {
@@ -18764,10 +18774,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1996,
-              "netSales": 1996,
+              "sales": 2066,
+              "netSales": 2066,
               "cost": 2044,
-              "grossProfit": -48,
+              "grossProfit": 22,
               "quantity": 12
             },
             {
@@ -18788,10 +18798,10 @@
             },
             {
               "key": "other",
-              "sales": 471,
-              "netSales": 471,
+              "sales": 401,
+              "netSales": 401,
               "cost": 53.8,
-              "grossProfit": 417.2,
+              "grossProfit": 347.2,
               "quantity": 41
             }
           ],
@@ -18811,10 +18821,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -18831,10 +18841,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 16,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -18851,10 +18861,10 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 352,
-              "netSales": 352,
+              "sales": 422,
+              "netSales": 422,
               "cost": 344,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
@@ -19030,7 +19040,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:10:32.394Z"
+      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
     },
     "ST": {
       "days": {
@@ -27510,7 +27520,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:10:32.394Z"
+      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
     },
     "SK": {
       "days": {
@@ -33140,7 +33150,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:10:32.394Z"
+      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
     },
     "KM": {
       "days": {
@@ -33640,8 +33650,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T07:10:32.394Z"
+      "lastCollectedAt": "2026-11-26T07:16:42.724Z"
     }
   },
-  "updatedAt": "2026-11-26T07:10:32.394Z"
+  "updatedAt": "2026-11-26T07:16:42.724Z"
 }
