@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 680,
+              "netSales": 680,
+              "cost": 660,
+              "grossProfit": 20,
+              "quantity": 2
             },
             {
               "key": "sport_rim",
@@ -9668,18 +9668,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 140,
+              "netSales": 131.12,
+              "cost": 3.3,
+              "grossProfit": 127.82,
+              "quantity": 10
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS205016RE005-26",
+              "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
+              "quantity": 2,
+              "sales": 680,
+              "netSales": 680,
+              "cost": 660,
+              "grossProfit": 20
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:08:17.638Z"
+      "lastCollectedAt": "2026-11-26T02:15:25.547Z"
     },
     "SR": {
       "days": {
@@ -18579,7 +18620,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:08:17.638Z"
+      "lastCollectedAt": "2026-11-26T02:15:25.547Z"
     },
     "ST": {
       "days": {
@@ -26768,7 +26809,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:08:17.638Z"
+      "lastCollectedAt": "2026-11-26T02:15:25.547Z"
     },
     "SK": {
       "days": {
@@ -32187,7 +32228,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:08:17.638Z"
+      "lastCollectedAt": "2026-11-26T02:15:25.547Z"
     },
     "KM": {
       "days": {
@@ -32687,8 +32728,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:08:17.638Z"
+      "lastCollectedAt": "2026-11-26T02:15:25.547Z"
     }
   },
-  "updatedAt": "2026-11-26T02:08:17.638Z"
+  "updatedAt": "2026-11-26T02:15:25.547Z"
 }
