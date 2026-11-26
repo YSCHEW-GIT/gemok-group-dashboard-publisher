@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 22,
+          "documents": 23,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8025.99,
-              "netSales": 8025.99,
-              "cost": 7394.6,
-              "grossProfit": 631.39,
-              "quantity": 35
+              "sales": 8567.99,
+              "netSales": 8567.99,
+              "cost": 7941.8,
+              "grossProfit": 626.19,
+              "quantity": 39
             },
             {
               "key": "sport_rim",
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 482.01,
-              "netSales": 465.36,
-              "cost": 51.1,
-              "grossProfit": 414.26,
-              "quantity": 82
+              "sales": 522.01,
+              "netSales": 505.36,
+              "cost": 57.7,
+              "grossProfit": 447.66,
+              "quantity": 91
             }
           ],
           "items": [
@@ -9710,7 +9710,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
+              "quantity": 11,
               "sales": 60,
               "netSales": 55.56,
               "cost": 0,
@@ -9720,7 +9720,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 32,
+              "quantity": 36,
               "sales": 70,
               "netSales": 64.82,
               "cost": 0,
@@ -9805,6 +9805,16 @@
               "netSales": 422,
               "cost": 340,
               "grossProfit": 82
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117",
+              "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
+              "quantity": 4,
+              "sales": 542,
+              "netSales": 542,
+              "cost": 547.2,
+              "grossProfit": -5.2
             },
             {
               "category": "passenger_tire",
@@ -9930,11 +9940,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 29,
-              "sales": 250.01,
-              "netSales": 250.01,
-              "cost": 47.85,
-              "grossProfit": 202.16
+              "quantity": 33,
+              "sales": 290.01,
+              "netSales": 290.01,
+              "cost": 54.45,
+              "grossProfit": 235.56
             },
             {
               "category": "other",
@@ -9950,7 +9960,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
+      "lastCollectedAt": "2026-11-26T09:13:11.690Z"
     },
     "SR": {
       "days": {
@@ -18800,39 +18810,39 @@
           ]
         },
         "2026-11-26": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4702,
-              "netSales": 4702,
-              "cost": 4677.6,
-              "grossProfit": 24.4,
-              "quantity": 25
+              "sales": 5178,
+              "netSales": 5178,
+              "cost": 5224.8,
+              "grossProfit": -46.8,
+              "quantity": 29
             },
             {
               "key": "sport_rim",
-              "sales": 488,
-              "netSales": 488,
+              "sales": 576,
+              "netSales": 576,
               "cost": 409,
-              "grossProfit": 79,
+              "grossProfit": 167,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 1858,
-              "netSales": 1858,
-              "cost": 1045.8,
-              "grossProfit": 812.2,
-              "quantity": 12
+              "sales": 1928,
+              "netSales": 1928,
+              "cost": 1066.7,
+              "grossProfit": 861.3,
+              "quantity": 13
             },
             {
               "key": "other",
-              "sales": 735,
-              "netSales": 735,
-              "cost": 111.7,
-              "grossProfit": 623.3,
-              "quantity": 66
+              "sales": 1041,
+              "netSales": 1041,
+              "cost": 203.2,
+              "grossProfit": 837.8,
+              "quantity": 77
             }
           ],
           "items": [
@@ -18844,6 +18854,26 @@
               "sales": -251,
               "netSales": -251,
               "cost": -251,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2614661",
+              "itemName": "USED SPORT RIM 15X7 8H (US2614661)",
+              "quantity": 1,
+              "sales": 288,
+              "netSales": 288,
+              "cost": 200,
+              "grossProfit": 88
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617474",
+              "itemName": "USED SPORT RIM 15X7 8H",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
               "grossProfit": 0
             },
             {
@@ -18870,11 +18900,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 180,
-              "netSales": 180,
+              "quantity": 11,
+              "sales": 210,
+              "netSales": 210,
               "cost": 0,
-              "grossProfit": 180
+              "grossProfit": 210
             },
             {
               "category": "foreman_item",
@@ -18890,21 +18920,21 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 28,
-              "sales": 140,
-              "netSales": 140,
+              "quantity": 32,
+              "sales": 180,
+              "netSales": 180,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 180
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 3,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 75,
-              "grossProfit": 15
+              "quantity": 5,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 125,
+              "grossProfit": 25
             },
             {
               "category": "passenger_tire",
@@ -18930,11 +18960,11 @@
               "category": "passenger_tire",
               "itemCode": "TPWL195515Z117-26",
               "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
-              "quantity": 2,
-              "sales": 238,
-              "netSales": 238,
-              "cost": 273.6,
-              "grossProfit": -35.6
+              "quantity": 6,
+              "sales": 714,
+              "netSales": 714,
+              "cost": 820.8,
+              "grossProfit": -106.8
             },
             {
               "category": "passenger_tire",
@@ -19005,6 +19035,16 @@
               "netSales": 80,
               "cost": 30.4,
               "grossProfit": 49.6
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PSPNGKPR",
+              "itemName": "NGK SPARK PLUG BP5ES-11 SAGA 12V, WIRA 1.3/1.5, AVANZA, ARENA 1.5",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 20.9,
+              "grossProfit": 49.1
             },
             {
               "category": "foreman_item",
@@ -19107,6 +19147,36 @@
               "grossProfit": 63.5
             },
             {
+              "category": "other",
+              "itemCode": "MNCPR12V",
+              "itemName": "CAMBER NUT PROTON",
+              "quantity": 2,
+              "sales": 66,
+              "netSales": 66,
+              "cost": 7,
+              "grossProfit": 59
+            },
+            {
+              "category": "other",
+              "itemCode": "MNWSH150",
+              "itemName": "WHEEL NUT SMALL HEAD 1.50 CHROME (16/BOX)",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 16.5,
+              "grossProfit": 53.5
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTLC",
+              "itemName": "COLOR STEEL VALVE",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 18,
+              "grossProfit": 22
+            },
+            {
               "category": "foreman_item",
               "itemCode": "PBPBNC0045FPLT",
               "itemName": "BNC BRAKE PAD MYVI OLD 05-10 CD0045 PLT- FRT",
@@ -19140,7 +19210,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
+      "lastCollectedAt": "2026-11-26T09:13:11.690Z"
     },
     "ST": {
       "days": {
@@ -27290,15 +27360,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 16,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8288,
-              "netSales": 8288,
-              "cost": 7620,
-              "grossProfit": 668,
-              "quantity": 36
+              "sales": 8880,
+              "netSales": 8880,
+              "cost": 8132,
+              "grossProfit": 748,
+              "quantity": 40
             },
             {
               "key": "sport_rim",
@@ -27318,11 +27388,11 @@
             },
             {
               "key": "other",
-              "sales": 788,
-              "netSales": 788,
-              "cost": 235.4,
-              "grossProfit": 552.6,
-              "quantity": 96
+              "sales": 778,
+              "netSales": 778,
+              "cost": 238,
+              "grossProfit": 540,
+              "quantity": 105
             }
           ],
           "items": [
@@ -27330,17 +27400,17 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 13,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 36,
+              "quantity": 40,
               "sales": 80,
               "netSales": 80,
               "cost": 0,
@@ -27351,10 +27421,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -27405,6 +27475,16 @@
               "netSales": 826,
               "cost": 784,
               "grossProfit": 42
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPLF195515LH41-26",
+              "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 512,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -27471,10 +27551,10 @@
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 4,
-              "sales": 872,
-              "netSales": 872,
+              "sales": 952,
+              "netSales": 952,
               "cost": 848,
-              "grossProfit": 24
+              "grossProfit": 104
             },
             {
               "category": "foreman_item",
@@ -27620,11 +27700,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 24,
+              "quantity": 28,
               "sales": 168,
               "netSales": 168,
-              "cost": 15.6,
-              "grossProfit": 152.4
+              "cost": 18.2,
+              "grossProfit": 149.8
             },
             {
               "category": "other",
@@ -27650,7 +27730,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
+      "lastCollectedAt": "2026-11-26T09:13:11.690Z"
     },
     "SK": {
       "days": {
@@ -33280,7 +33360,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
+      "lastCollectedAt": "2026-11-26T09:13:11.690Z"
     },
     "KM": {
       "days": {
@@ -33780,8 +33860,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:00:34.060Z"
+      "lastCollectedAt": "2026-11-26T09:13:11.690Z"
     }
   },
-  "updatedAt": "2026-11-26T09:00:34.060Z"
+  "updatedAt": "2026-11-26T09:13:11.690Z"
 }
