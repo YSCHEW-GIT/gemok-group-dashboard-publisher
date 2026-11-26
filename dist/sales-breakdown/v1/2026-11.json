@@ -9780,7 +9780,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
+      "lastCollectedAt": "2026-11-26T04:13:06.440Z"
     },
     "SR": {
       "days": {
@@ -18634,10 +18634,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1504,
-              "netSales": 1504,
+              "sales": 1574,
+              "netSales": 1574,
               "cost": 1700,
-              "grossProfit": -196,
+              "grossProfit": -126,
               "quantity": 8
             },
             {
@@ -18658,10 +18658,10 @@
             },
             {
               "key": "other",
-              "sales": 443,
-              "netSales": 443,
+              "sales": 373,
+              "netSales": 373,
               "cost": 51.2,
-              "grossProfit": 391.8,
+              "grossProfit": 321.8,
               "quantity": 25
             }
           ],
@@ -18681,10 +18681,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "foreman_item",
@@ -18701,10 +18701,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -18721,10 +18721,10 @@
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
               "quantity": 4,
-              "sales": 832,
-              "netSales": 832,
+              "sales": 902,
+              "netSales": 902,
               "cost": 928,
-              "grossProfit": -96
+              "grossProfit": -26
             },
             {
               "category": "passenger_tire",
@@ -18860,7 +18860,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
+      "lastCollectedAt": "2026-11-26T04:13:06.440Z"
     },
     "ST": {
       "days": {
@@ -27010,15 +27010,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3638,
-              "netSales": 3638,
-              "cost": 3448,
-              "grossProfit": 190,
-              "quantity": 16
+              "sales": 4034,
+              "netSales": 4034,
+              "cost": 3912,
+              "grossProfit": 122,
+              "quantity": 18
             },
             {
               "key": "sport_rim",
@@ -27030,19 +27030,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1368,
-              "netSales": 1368,
-              "cost": 472,
-              "grossProfit": 896,
-              "quantity": 6
+              "sales": 1488,
+              "netSales": 1488,
+              "cost": 528,
+              "grossProfit": 960,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 452,
-              "netSales": 452,
-              "cost": 120.4,
-              "grossProfit": 331.6,
-              "quantity": 42
+              "sales": 522,
+              "netSales": 522,
+              "cost": 123.7,
+              "grossProfit": 398.3,
+              "quantity": 47
             }
           ],
           "items": [
@@ -27050,21 +27050,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 6,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 18,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -27130,11 +27130,11 @@
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
-              "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
-              "cost": 928,
-              "grossProfit": -136
+              "quantity": 6,
+              "sales": 1188,
+              "netSales": 1188,
+              "cost": 1392,
+              "grossProfit": -204
             },
             {
               "category": "foreman_item",
@@ -27177,6 +27177,16 @@
               "grossProfit": 280
             },
             {
+              "category": "foreman_item",
+              "itemCode": "OPRCLRSR",
+              "itemName": "SARAMOLY PRE-MIXED COOLANT RED-4L",
+              "quantity": 1,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 56,
+              "grossProfit": 64
+            },
+            {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
@@ -27190,11 +27200,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 10,
-              "sales": 100,
-              "netSales": 100,
-              "cost": 16.5,
-              "grossProfit": 83.5
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "foreman_item",
@@ -27210,7 +27220,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
+      "lastCollectedAt": "2026-11-26T04:13:06.440Z"
     },
     "SK": {
       "days": {
@@ -32690,7 +32700,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
+      "lastCollectedAt": "2026-11-26T04:13:06.440Z"
     },
     "KM": {
       "days": {
@@ -33190,8 +33200,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
+      "lastCollectedAt": "2026-11-26T04:13:06.440Z"
     }
   },
-  "updatedAt": "2026-11-26T04:07:00.263Z"
+  "updatedAt": "2026-11-26T04:13:06.440Z"
 }
