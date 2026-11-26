@@ -9850,7 +9850,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:42:42.568Z"
+      "lastCollectedAt": "2026-11-26T05:48:49.553Z"
     },
     "SR": {
       "days": {
@@ -18960,7 +18960,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:42:42.568Z"
+      "lastCollectedAt": "2026-11-26T05:48:49.553Z"
     },
     "ST": {
       "days": {
@@ -27420,7 +27420,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:42:42.568Z"
+      "lastCollectedAt": "2026-11-26T05:48:49.553Z"
     },
     "SK": {
       "days": {
@@ -32800,7 +32800,7 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 3,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -32828,11 +32828,11 @@
             },
             {
               "key": "other",
-              "sales": 20,
-              "netSales": 20,
+              "sales": 40,
+              "netSales": 40,
               "cost": 1.65,
-              "grossProfit": 18.35,
-              "quantity": 3
+              "grossProfit": 38.35,
+              "quantity": 5
             }
           ],
           "items": [
@@ -32840,11 +32840,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -32950,7 +32950,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:42:42.568Z"
+      "lastCollectedAt": "2026-11-26T05:48:49.553Z"
     },
     "KM": {
       "days": {
@@ -33450,8 +33450,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:42:42.568Z"
+      "lastCollectedAt": "2026-11-26T05:48:49.553Z"
     }
   },
-  "updatedAt": "2026-11-26T05:42:42.568Z"
+  "updatedAt": "2026-11-26T05:48:49.553Z"
 }
