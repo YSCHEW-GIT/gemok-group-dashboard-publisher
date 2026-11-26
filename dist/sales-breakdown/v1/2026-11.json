@@ -9644,35 +9644,35 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5825.99,
-              "netSales": 5825.99,
+              "sales": 5600.35,
+              "netSales": 5600.35,
               "cost": 5303.6,
-              "grossProfit": 522.39,
+              "grossProfit": 296.75,
               "quantity": 25
             },
             {
               "key": "sport_rim",
-              "sales": 980,
-              "netSales": 980,
+              "sales": 918.8,
+              "netSales": 918.8,
               "cost": 980,
-              "grossProfit": 0,
+              "grossProfit": -61.2,
               "quantity": 3
             },
             {
               "key": "foreman_item",
-              "sales": 520,
-              "netSales": 520,
-              "cost": 280,
-              "grossProfit": 240,
-              "quantity": 2
+              "sales": 826.92,
+              "netSales": 820.99,
+              "cost": 340.4,
+              "grossProfit": 480.59,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 522.01,
-              "netSales": 497.96,
-              "cost": 38.6,
-              "grossProfit": 459.36,
-              "quantity": 67
+              "sales": 521.93,
+              "netSales": 497.88,
+              "cost": 41.9,
+              "grossProfit": 455.98,
+              "quantity": 69
             }
           ],
           "items": [
@@ -9681,196 +9681,226 @@
               "itemCode": "US2621165",
               "itemName": "USED SPORT RIM 17X7.5 4X114",
               "quantity": -1,
-              "sales": -300,
-              "netSales": -300,
+              "sales": -311.62,
+              "netSales": -311.62,
               "cost": -300,
-              "grossProfit": 0
+              "grossProfit": -11.62
             },
             {
               "category": "sport_rim",
               "itemCode": "SIMPHB1751ADVNGT",
               "itemName": "SPORT RIM 17X7.5 5X114 ET38 HYPER BLACK ADVAN GT",
               "quantity": 4,
-              "sales": 1280,
-              "netSales": 1280,
+              "sales": 1230.42,
+              "netSales": 1230.42,
               "cost": 1280,
-              "grossProfit": 0
+              "grossProfit": -49.58
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 9,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 115.68,
+              "netSales": 106.8,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 106.8
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 28,
-              "sales": 110,
-              "netSales": 101.86,
+              "sales": 106.05,
+              "netSales": 97.91,
               "cost": 0,
-              "grossProfit": 101.86
+              "grossProfit": 97.91
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 1,
-              "sales": 25,
-              "netSales": 23.15,
+              "sales": 24.1,
+              "netSales": 22.25,
               "cost": 0,
-              "grossProfit": 23.15
+              "grossProfit": 22.25
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "sales": 28.92,
+              "netSales": 26.7,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 26.7
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 38.57,
+              "netSales": 35.61,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 35.61
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 77.13,
+              "netSales": 71.2,
+              "cost": 0,
+              "grossProfit": 71.2
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
               "quantity": 2,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 380.66,
+              "netSales": 380.66,
               "cost": 460,
-              "grossProfit": -64
+              "grossProfit": -79.34
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195016V701-26",
               "itemName": "YOKOHAMA 195/50/16 ADVAN FLEVA V701 84V JP (2026)",
               "quantity": 2,
-              "sales": 516,
-              "netSales": 516,
+              "sales": 496.01,
+              "netSales": 496.01,
               "cost": 524,
-              "grossProfit": -8
+              "grossProfit": -27.99
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 422,
-              "netSales": 422,
+              "sales": 405.66,
+              "netSales": 405.66,
               "cost": 340,
-              "grossProfit": 82
+              "grossProfit": 65.66
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPKH205517HS52-26",
               "itemName": "KUMHO 205/55/17 ECSTA HS52 XL 95V ID (2026)",
               "quantity": 4,
-              "sales": 1400,
-              "netSales": 1400,
+              "sales": 1345.78,
+              "netSales": 1345.78,
               "cost": 1192,
-              "grossProfit": 208
+              "grossProfit": 153.78
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 662,
-              "netSales": 662,
+              "sales": 636.36,
+              "netSales": 636.36,
               "cost": 680,
-              "grossProfit": -18
+              "grossProfit": -43.64
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT185515CC7-26",
               "itemName": "CONTINENTAL 185/55/15 COMFORT CONTACT CC7 82V CN (2026)",
               "quantity": 2,
-              "sales": 490,
-              "netSales": 490,
+              "sales": 471.02,
+              "netSales": 471.02,
               "cost": 488,
-              "grossProfit": 2
+              "grossProfit": -16.98
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
               "quantity": 2,
-              "sales": 730,
-              "netSales": 730,
+              "sales": 701.73,
+              "netSales": 701.73,
               "cost": 660,
-              "grossProfit": 70
+              "grossProfit": 41.73
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT224518XSPT",
               "itemName": "ATLANDER 225/45/18 XSPORT -86 BSW 95W XL (2026)",
               "quantity": 3,
-              "sales": 849.99,
-              "netSales": 849.99,
+              "sales": 817.07,
+              "netSales": 817.07,
               "cost": 669.6,
-              "grossProfit": 180.39
+              "grossProfit": 147.47
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT196015AX77-26",
               "itemName": "ATLANDER 195/60/15 AX77 BSW 88V TH (2026)",
               "quantity": 2,
-              "sales": 360,
-              "netSales": 360,
+              "sales": 346.06,
+              "netSales": 346.06,
               "cost": 290,
-              "grossProfit": 70
+              "grossProfit": 56.06
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PVGTYTACR50",
+              "itemName": "VALVE COVER GASKET TYT VIOS SILICON 0061",
+              "quantity": 1,
+              "sales": 173.03,
+              "netSales": 173.03,
+              "cost": 30,
+              "grossProfit": 143.03
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PSPNGKMYV",
+              "itemName": "NGK PLUG DCPR7EA-9 MYVI AVANZA ALZA RUSH",
+              "quantity": 1,
+              "sales": 76.9,
+              "netSales": 76.9,
+              "cost": 30.4,
+              "grossProfit": 46.5
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKBRAKEPADHD",
               "itemName": "GAMA BRAKE PAD REAR NS X-TRAIL T32 (ELEC)",
               "quantity": 2,
-              "sales": 520,
-              "netSales": 520,
+              "sales": 499.86,
+              "netSales": 499.86,
               "cost": 280,
-              "grossProfit": 240
+              "grossProfit": 219.86
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 23,
-              "sales": 190.01,
-              "netSales": 190.01,
-              "cost": 37.95,
-              "grossProfit": 152.06
+              "quantity": 25,
+              "sales": 201.88,
+              "netSales": 201.88,
+              "cost": 41.25,
+              "grossProfit": 160.63
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 1,
-              "sales": 7,
-              "netSales": 7,
+              "sales": 6.73,
+              "netSales": 6.73,
               "cost": 0.65,
-              "grossProfit": 6.35
+              "grossProfit": 6.08
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:39:44.483Z"
+      "lastCollectedAt": "2026-11-26T06:45:52.245Z"
     },
     "SR": {
       "days": {
@@ -18720,15 +18750,15 @@
           ]
         },
         "2026-11-26": {
-          "documents": 11,
+          "documents": 12,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1644,
-              "netSales": 1644,
-              "cost": 1700,
-              "grossProfit": -56,
-              "quantity": 8
+              "sales": 1996,
+              "netSales": 1996,
+              "cost": 2044,
+              "grossProfit": -48,
+              "quantity": 12
             },
             {
               "key": "sport_rim",
@@ -18748,11 +18778,11 @@
             },
             {
               "key": "other",
-              "sales": 363,
-              "netSales": 363,
-              "cost": 51.2,
-              "grossProfit": 311.8,
-              "quantity": 31
+              "sales": 461,
+              "netSales": 461,
+              "cost": 53.8,
+              "grossProfit": 407.2,
+              "quantity": 40
             }
           ],
           "items": [
@@ -18770,11 +18800,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "foreman_item",
@@ -18790,11 +18820,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 12,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 16,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -18805,6 +18835,16 @@
               "netSales": 30,
               "cost": 25,
               "grossProfit": 5
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 344,
+              "grossProfit": 8
             },
             {
               "category": "passenger_tire",
@@ -18940,11 +18980,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 8,
+              "sales": 56,
+              "netSales": 56,
+              "cost": 5.2,
+              "grossProfit": 50.8
             },
             {
               "category": "foreman_item",
@@ -18980,7 +19020,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:39:44.483Z"
+      "lastCollectedAt": "2026-11-26T06:45:52.245Z"
     },
     "ST": {
       "days": {
@@ -27460,7 +27500,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:39:44.483Z"
+      "lastCollectedAt": "2026-11-26T06:45:52.245Z"
     },
     "SK": {
       "days": {
@@ -33020,7 +33060,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:39:44.483Z"
+      "lastCollectedAt": "2026-11-26T06:45:52.245Z"
     },
     "KM": {
       "days": {
@@ -33520,8 +33560,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T06:39:44.483Z"
+      "lastCollectedAt": "2026-11-26T06:45:52.245Z"
     }
   },
-  "updatedAt": "2026-11-26T06:39:44.483Z"
+  "updatedAt": "2026-11-26T06:45:52.245Z"
 }
