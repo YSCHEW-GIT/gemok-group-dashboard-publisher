@@ -9640,15 +9640,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1272,
-              "netSales": 1272,
-              "cost": 1340,
-              "grossProfit": -68,
-              "quantity": 6
+              "sales": 2172,
+              "netSales": 2172,
+              "cost": 2009.6,
+              "grossProfit": 162.4,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 392,
-              "netSales": 367.95,
-              "cost": 10.55,
-              "grossProfit": 357.4,
-              "quantity": 27
+              "sales": 372,
+              "netSales": 351.65,
+              "cost": 15.5,
+              "grossProfit": 336.15,
+              "quantity": 34
             }
           ],
           "items": [
@@ -9681,20 +9681,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 13,
-              "sales": 130,
-              "netSales": 120.38,
+              "quantity": 16,
+              "sales": 100,
+              "netSales": 92.6,
               "cost": 0,
-              "grossProfit": 120.38
+              "grossProfit": 92.6
             },
             {
               "category": "other",
@@ -9720,41 +9720,51 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 2,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 680,
-              "grossProfit": -88
+              "grossProfit": -18
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
               "quantity": 2,
-              "sales": 680,
-              "netSales": 680,
+              "sales": 730,
+              "netSales": 730,
               "cost": 660,
-              "grossProfit": 20
+              "grossProfit": 70
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT224518XSPT",
+              "itemName": "ATLANDER 225/45/18 XSPORT -86 BSW 95W XL (2026)",
+              "quantity": 3,
+              "sales": 780,
+              "netSales": 780,
+              "cost": 669.6,
+              "grossProfit": 110.4
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 9,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 14.85,
+              "grossProfit": 75.15
             },
             {
               "category": "other",
@@ -9770,7 +9780,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
+      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
     },
     "SR": {
       "days": {
@@ -18850,7 +18860,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
+      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
     },
     "ST": {
       "days": {
@@ -27004,11 +27014,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2862,
-              "netSales": 2862,
-              "cost": 2810,
-              "grossProfit": 52,
-              "quantity": 14
+              "sales": 3638,
+              "netSales": 3638,
+              "cost": 3448,
+              "grossProfit": 190,
+              "quantity": 16
             },
             {
               "key": "sport_rim",
@@ -27028,11 +27038,11 @@
             },
             {
               "key": "other",
-              "sales": 388,
-              "netSales": 388,
-              "cost": 119.1,
-              "grossProfit": 268.9,
-              "quantity": 37
+              "sales": 452,
+              "netSales": 452,
+              "cost": 120.4,
+              "grossProfit": 331.6,
+              "quantity": 42
             }
           ],
           "items": [
@@ -27040,21 +27050,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 5,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 16,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -27075,6 +27085,16 @@
               "netSales": 100,
               "cost": 100,
               "grossProfit": 0
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH215517ES32-26",
+              "itemName": "YOKOHAMA 215/55/17 BLUEARTH-ES ES32 (2026)",
+              "quantity": 2,
+              "sales": 776,
+              "netSales": 776,
+              "cost": 638,
+              "grossProfit": 138
             },
             {
               "category": "passenger_tire",
@@ -27160,11 +27180,11 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 4,
-              "sales": 28,
-              "netSales": 28,
-              "cost": 2.6,
-              "grossProfit": 25.4
+              "quantity": 6,
+              "sales": 42,
+              "netSales": 42,
+              "cost": 3.9,
+              "grossProfit": 38.1
             },
             {
               "category": "other",
@@ -27190,7 +27210,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
+      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
     },
     "SK": {
       "days": {
@@ -32570,7 +32590,7 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -32590,11 +32610,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 230,
-              "netSales": 230,
-              "cost": 92,
-              "grossProfit": 138,
-              "quantity": 2
+              "sales": 640,
+              "netSales": 640,
+              "cost": 307.5,
+              "grossProfit": 332.5,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -32628,19 +32648,49 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PBPDMPSNFRT",
+              "itemName": "BRAKE PAD CD6900 BLUE DIAMOND IRIZ 1.3,NEW PERSONA 2016 FRT",
+              "quantity": 1,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 72,
+              "grossProfit": 58
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFCMPRT",
+              "itemName": "OIL FILTER PROTON SAGA 12V WIRA",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 4.5,
+              "grossProfit": -4.5
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL10W40Q7000",
+              "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 190,
+              "netSales": 190,
+              "cost": 111,
+              "grossProfit": 79
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 28,
-              "grossProfit": 62
+              "quantity": 2,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 56,
+              "grossProfit": 124
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
+      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
     },
     "KM": {
       "days": {
@@ -33140,8 +33190,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
+      "lastCollectedAt": "2026-11-26T04:07:00.263Z"
     }
   },
-  "updatedAt": "2026-11-26T03:52:52.309Z"
+  "updatedAt": "2026-11-26T04:07:00.263Z"
 }
