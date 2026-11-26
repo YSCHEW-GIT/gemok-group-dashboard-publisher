@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 382,
-              "netSales": 358.69,
+              "sales": 342,
+              "netSales": 321.65,
               "cost": 10.55,
-              "grossProfit": 348.14,
-              "quantity": 26
+              "grossProfit": 311.1,
+              "quantity": 25
             }
           ],
           "items": [
@@ -9705,16 +9705,6 @@
               "netSales": 23.15,
               "cost": 0,
               "grossProfit": 23.15
-            },
-            {
-              "category": "other",
-              "itemCode": "ALGNFB",
-              "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 40,
-              "netSales": 37.04,
-              "cost": 0,
-              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -9760,7 +9750,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:34:33.224Z"
+      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
     },
     "SR": {
       "days": {
@@ -18800,7 +18790,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:34:33.224Z"
+      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
     },
     "ST": {
       "days": {
@@ -26954,11 +26944,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1790,
-              "netSales": 1790,
-              "cost": 1962,
-              "grossProfit": -172,
-              "quantity": 10
+              "sales": 2862,
+              "netSales": 2862,
+              "cost": 2810,
+              "grossProfit": 52,
+              "quantity": 14
             },
             {
               "key": "sport_rim",
@@ -26978,11 +26968,11 @@
             },
             {
               "key": "other",
-              "sales": 288,
-              "netSales": 288,
-              "cost": 62.5,
-              "grossProfit": 225.5,
-              "quantity": 26
+              "sales": 388,
+              "netSales": 388,
+              "cost": 119.1,
+              "grossProfit": 268.9,
+              "quantity": 37
             }
           ],
           "items": [
@@ -26991,16 +26981,6 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 0,
-              "grossProfit": 90
-            },
-            {
-              "category": "other",
-              "itemCode": "BLCOFF",
-              "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
               "sales": 60,
               "netSales": 60,
               "cost": 0,
@@ -27008,12 +26988,32 @@
             },
             {
               "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 14,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 0,
+              "grossProfit": 60
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
-              "quantity": 2,
-              "sales": 50,
-              "netSales": 50,
-              "cost": 50,
+              "quantity": 4,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 100,
               "grossProfit": 0
             },
             {
@@ -27035,6 +27035,16 @@
               "netSales": 296,
               "cost": 342,
               "grossProfit": -46
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN196515GS6-26",
+              "itemName": "GENERAL 195/65/15 ALT GS6 (2026)",
+              "quantity": 4,
+              "sales": 1072,
+              "netSales": 1072,
+              "cost": 848,
+              "grossProfit": 224
             },
             {
               "category": "passenger_tire",
@@ -27060,11 +27070,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
-              "cost": 9.9,
-              "grossProfit": 50.1
+              "quantity": 10,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 16.5,
+              "grossProfit": 83.5
             },
             {
               "category": "foreman_item",
@@ -27080,7 +27090,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:34:33.224Z"
+      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
     },
     "SK": {
       "days": {
@@ -32480,18 +32490,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 220.42,
-              "netSales": 220.42,
+              "sales": 230,
+              "netSales": 230,
               "cost": 92,
-              "grossProfit": 128.42,
+              "grossProfit": 138,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 9.58,
-              "netSales": 9.58,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 9.58,
+              "grossProfit": 10,
               "quantity": 1
             }
           ],
@@ -32501,36 +32511,36 @@
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.58,
-              "netSales": 9.58,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 9.58
+              "grossProfit": 10
             },
             {
               "category": "foreman_item",
               "itemCode": "BBPDMALZFRT",
               "itemName": "BRAKE PAD CD2252 BLUE DIAMOND ALZA NEW VIOS NCP93 J/E SPEC FRT",
               "quantity": 1,
-              "sales": 134.17,
-              "netSales": 134.17,
+              "sales": 140,
+              "netSales": 140,
               "cost": 64,
-              "grossProfit": 70.17
+              "grossProfit": 76
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 1,
-              "sales": 86.25,
-              "netSales": 86.25,
+              "sales": 90,
+              "netSales": 90,
               "cost": 28,
-              "grossProfit": 58.25
+              "grossProfit": 62
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:34:33.224Z"
+      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
     },
     "KM": {
       "days": {
@@ -33030,8 +33040,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:34:33.224Z"
+      "lastCollectedAt": "2026-11-26T03:40:39.963Z"
     }
   },
-  "updatedAt": "2026-11-26T03:34:33.224Z"
+  "updatedAt": "2026-11-26T03:40:39.963Z"
 }
