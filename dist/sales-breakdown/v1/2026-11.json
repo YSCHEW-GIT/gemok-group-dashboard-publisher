@@ -9850,7 +9850,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:55:03.283Z"
+      "lastCollectedAt": "2026-11-26T06:01:11.464Z"
     },
     "SR": {
       "days": {
@@ -18960,7 +18960,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:55:03.283Z"
+      "lastCollectedAt": "2026-11-26T06:01:11.464Z"
     },
     "ST": {
       "days": {
@@ -27420,7 +27420,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:55:03.283Z"
+      "lastCollectedAt": "2026-11-26T06:01:11.464Z"
     },
     "SK": {
       "days": {
@@ -32804,10 +32804,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 110,
-              "netSales": 110,
+              "sales": 106.11,
+              "netSales": 106.11,
               "cost": 76,
-              "grossProfit": 34,
+              "grossProfit": 30.11,
               "quantity": 1
             },
             {
@@ -32820,19 +32820,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 940,
-              "netSales": 940,
+              "sales": 906.71,
+              "netSales": 906.71,
               "cost": 425.5,
-              "grossProfit": 514.5,
+              "grossProfit": 481.21,
               "quantity": 11
             },
             {
               "key": "other",
-              "sales": 40,
-              "netSales": 40,
+              "sales": 77.18,
+              "netSales": 77.18,
               "cost": 1.65,
-              "grossProfit": 38.35,
-              "quantity": 5
+              "grossProfit": 75.53,
+              "quantity": 7
             }
           ],
           "items": [
@@ -32840,11 +32840,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 4,
+              "sales": 38.6,
+              "netSales": 38.6,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 38.6
             },
             {
               "category": "other",
@@ -32857,34 +32857,44 @@
               "grossProfit": 0
             },
             {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 28.94,
+              "netSales": 28.94,
+              "cost": 0,
+              "grossProfit": 28.94
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 1,
-              "sales": 110,
-              "netSales": 110,
+              "sales": 106.11,
+              "netSales": 106.11,
               "cost": 76,
-              "grossProfit": 34
+              "grossProfit": 30.11
             },
             {
               "category": "foreman_item",
               "itemCode": "BBPDMALZFRT",
               "itemName": "BRAKE PAD CD2252 BLUE DIAMOND ALZA NEW VIOS NCP93 J/E SPEC FRT",
               "quantity": 1,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 135.04,
+              "netSales": 135.04,
               "cost": 64,
-              "grossProfit": 76
+              "grossProfit": 71.04
             },
             {
               "category": "foreman_item",
               "itemCode": "PBPDMPSNFRT",
               "itemName": "BRAKE PAD CD6900 BLUE DIAMOND IRIZ 1.3,NEW PERSONA 2016 FRT",
               "quantity": 1,
-              "sales": 130,
-              "netSales": 130,
+              "sales": 125.4,
+              "netSales": 125.4,
               "cost": 72,
-              "grossProfit": 58
+              "grossProfit": 53.4
             },
             {
               "category": "foreman_item",
@@ -32901,56 +32911,56 @@
               "itemCode": "OETL10W40Q7000",
               "itemName": "TOTAL 10W40 QUARTZ 7000 SEMI SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 190,
-              "netSales": 190,
+              "sales": 183.27,
+              "netSales": 183.27,
               "cost": 111,
-              "grossProfit": 79
+              "grossProfit": 72.27
             },
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 2,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 173.62,
+              "netSales": 173.62,
               "cost": 56,
-              "grossProfit": 124
+              "grossProfit": 117.62
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110043",
               "itemName": "VALVE GASKET PERSONA PREVE IRIZ",
               "quantity": 1,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 173.63,
+              "netSales": 173.63,
               "cost": 58,
-              "grossProfit": 122
+              "grossProfit": 115.63
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110044",
               "itemName": "SPARK PLUG NEW SAGA IRIZ",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 115.75,
+              "netSales": 115.75,
               "cost": 60,
-              "grossProfit": 60
+              "grossProfit": 55.75
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.64,
+              "netSales": 9.64,
               "cost": 1.65,
-              "grossProfit": 8.35
+              "grossProfit": 7.99
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:55:03.283Z"
+      "lastCollectedAt": "2026-11-26T06:01:11.464Z"
     },
     "KM": {
       "days": {
@@ -33450,8 +33460,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T05:55:03.283Z"
+      "lastCollectedAt": "2026-11-26T06:01:11.464Z"
     }
   },
-  "updatedAt": "2026-11-26T05:55:03.283Z"
+  "updatedAt": "2026-11-26T06:01:11.464Z"
 }
