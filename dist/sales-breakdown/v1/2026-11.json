@@ -9644,10 +9644,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 8923.99,
-              "netSales": 8923.99,
+              "sales": 8973.99,
+              "netSales": 8973.99,
               "cost": 8331.8,
-              "grossProfit": 592.19,
+              "grossProfit": 642.19,
               "quantity": 41
             },
             {
@@ -9668,10 +9668,10 @@
             },
             {
               "key": "other",
-              "sales": 777.01,
-              "netSales": 751.48,
+              "sales": 727.01,
+              "netSales": 705.18,
               "cost": 87.7,
-              "grossProfit": 663.78,
+              "grossProfit": 617.48,
               "quantity": 102
             }
           ],
@@ -9711,20 +9711,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 13,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 42,
-              "sales": 130,
-              "netSales": 120.38,
+              "sales": 110,
+              "netSales": 101.86,
               "cost": 0,
-              "grossProfit": 120.38
+              "grossProfit": 101.86
             },
             {
               "category": "other",
@@ -9821,10 +9821,10 @@
               "itemCode": "TPTY185515CR1-26",
               "itemName": "TOYO 185/55/15 82V PXCR1 82V (2026)",
               "quantity": 2,
-              "sales": 356,
-              "netSales": 356,
+              "sales": 406,
+              "netSales": 406,
               "cost": 390,
-              "grossProfit": -34
+              "grossProfit": 16
             },
             {
               "category": "passenger_tire",
@@ -9990,7 +9990,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T10:23:49.132Z"
+      "lastCollectedAt": "2026-11-26T10:29:55.736Z"
     },
     "SR": {
       "days": {
@@ -19320,7 +19320,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T10:23:49.132Z"
+      "lastCollectedAt": "2026-11-26T10:29:55.736Z"
     },
     "ST": {
       "days": {
@@ -27490,11 +27490,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 4758,
-              "netSales": 4758,
-              "cost": 1754.9,
-              "grossProfit": 3003.1,
-              "quantity": 25
+              "sales": 4846,
+              "netSales": 4846,
+              "cost": 1782.9,
+              "grossProfit": 3063.1,
+              "quantity": 26
             },
             {
               "key": "other",
@@ -27885,12 +27885,22 @@
               "netSales": 68,
               "cost": 32,
               "grossProfit": 36
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PBPBNC0045FPLT",
+              "itemName": "BNC BRAKE PAD MYVI OLD 05-10 CD0045 PLT- FRT",
+              "quantity": 1,
+              "sales": 88,
+              "netSales": 88,
+              "cost": 28,
+              "grossProfit": 60
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T10:23:49.132Z"
+      "lastCollectedAt": "2026-11-26T10:29:55.736Z"
     },
     "SK": {
       "days": {
@@ -33520,7 +33530,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T10:23:49.132Z"
+      "lastCollectedAt": "2026-11-26T10:29:55.736Z"
     },
     "KM": {
       "days": {
@@ -34020,8 +34030,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T10:23:49.132Z"
+      "lastCollectedAt": "2026-11-26T10:29:55.736Z"
     }
   },
-  "updatedAt": "2026-11-26T10:23:49.132Z"
+  "updatedAt": "2026-11-26T10:29:55.736Z"
 }
