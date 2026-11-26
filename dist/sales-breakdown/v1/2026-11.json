@@ -9970,7 +9970,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:37:46.904Z"
+      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
     },
     "SR": {
       "days": {
@@ -19250,7 +19250,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:37:46.904Z"
+      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
     },
     "ST": {
       "days": {
@@ -27400,14 +27400,14 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 18,
+          "documents": 19,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 9560,
-              "netSales": 9560,
+              "sales": 9630,
+              "netSales": 9630,
               "cost": 8748,
-              "grossProfit": 812,
+              "grossProfit": 882,
               "quantity": 42
             },
             {
@@ -27428,11 +27428,11 @@
             },
             {
               "key": "other",
-              "sales": 818,
-              "netSales": 818,
+              "sales": 758,
+              "netSales": 758,
               "cost": 238,
-              "grossProfit": 580,
-              "quantity": 106
+              "grossProfit": 520,
+              "quantity": 107
             }
           ],
           "items": [
@@ -27441,20 +27441,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 13,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 40,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -27470,11 +27470,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 30
             },
             {
               "category": "other",
@@ -27521,10 +27521,10 @@
               "itemCode": "TPLF195515LH41-26",
               "itemName": "LAUFENN 195/55/15 LH41 85H TL (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 582,
+              "netSales": 582,
               "cost": 512,
-              "grossProfit": 0
+              "grossProfit": 70
             },
             {
               "category": "passenger_tire",
@@ -27790,7 +27790,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:37:46.904Z"
+      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
     },
     "SK": {
       "days": {
@@ -33420,7 +33420,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T09:37:46.904Z"
+      "lastCollectedAt": "2026-11-26T09:43:53.533Z"
     },
     "KM": {
       "days": {
@@ -33923,5 +33923,5 @@
       "lastCollectedAt": "2026-11-26T09:37:46.904Z"
     }
   },
-  "updatedAt": "2026-11-26T09:37:46.904Z"
+  "updatedAt": "2026-11-26T09:43:53.533Z"
 }
