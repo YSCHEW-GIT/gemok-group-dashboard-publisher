@@ -9640,14 +9640,14 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1240.8,
-              "netSales": 1240.8,
+              "sales": 1272,
+              "netSales": 1272,
               "cost": 1340,
-              "grossProfit": -99.2,
+              "grossProfit": -68,
               "quantity": 6
             },
             {
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 373.2,
-              "netSales": 349.89,
+              "sales": 392,
+              "netSales": 367.95,
               "cost": 10.55,
-              "grossProfit": 339.34,
-              "quantity": 26
+              "grossProfit": 357.4,
+              "quantity": 27
             }
           ],
           "items": [
@@ -9681,86 +9681,96 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 117.28,
-              "netSales": 108.4,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 108.4
+              "grossProfit": 111.12
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 13,
-              "sales": 127.05,
-              "netSales": 117.43,
+              "sales": 130,
+              "netSales": 120.38,
               "cost": 0,
-              "grossProfit": 117.43
+              "grossProfit": 120.38
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 1,
-              "sales": 24.43,
-              "netSales": 22.58,
+              "sales": 25,
+              "netSales": 23.15,
               "cost": 0,
-              "grossProfit": 22.58
+              "grossProfit": 23.15
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
             },
             {
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 1,
-              "sales": 39.09,
-              "netSales": 36.13,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 36.13
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 577.48,
-              "netSales": 577.48,
+              "sales": 592,
+              "netSales": 592,
               "cost": 680,
-              "grossProfit": -102.52
+              "grossProfit": -88
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
               "quantity": 2,
-              "sales": 663.32,
-              "netSales": 663.32,
+              "sales": 680,
+              "netSales": 680,
               "cost": 660,
-              "grossProfit": 3.32
+              "grossProfit": 20
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
-              "sales": 58.53,
-              "netSales": 58.53,
+              "sales": 60,
+              "netSales": 60,
               "cost": 9.9,
-              "grossProfit": 48.63
+              "grossProfit": 50.1
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 1,
-              "sales": 6.82,
-              "netSales": 6.82,
+              "sales": 7,
+              "netSales": 7,
               "cost": 0.65,
-              "grossProfit": 6.17
+              "grossProfit": 6.35
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
+      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
     },
     "SR": {
       "days": {
@@ -18630,11 +18640,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1318,
-              "netSales": 1318,
-              "cost": 749.8,
-              "grossProfit": 568.2,
-              "quantity": 8
+              "sales": 1468,
+              "netSales": 1468,
+              "cost": 833.8,
+              "grossProfit": 634.2,
+              "quantity": 9
             },
             {
               "key": "other",
@@ -18738,6 +18748,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "PKSLAMYVIRHY",
+              "itemName": "K SPORT LOWER ARM ORI-MYVI RH YELLOW",
+              "quantity": 1,
+              "sales": 150,
+              "netSales": 150,
+              "cost": 84,
+              "grossProfit": 66
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "PD2AMALZA",
               "itemName": "D2 MOUNTING ABSORBER ALZA/MYVI",
               "quantity": 1,
@@ -18830,7 +18850,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
+      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
     },
     "ST": {
       "days": {
@@ -27000,11 +27020,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 68,
-              "netSales": 68,
-              "cost": 32,
-              "grossProfit": 36,
-              "quantity": 1
+              "sales": 1368,
+              "netSales": 1368,
+              "cost": 472,
+              "grossProfit": 896,
+              "quantity": 6
             },
             {
               "key": "other",
@@ -27097,6 +27117,46 @@
               "grossProfit": -136
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSK40225",
+              "itemName": "DISC ROTOR FRT",
+              "quantity": 2,
+              "sales": 400,
+              "netSales": 400,
+              "cost": 160,
+              "grossProfit": 240
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK741024",
+              "itemName": "DISC BRAKE PAD FRT",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 80,
+              "grossProfit": 60
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSLH",
+              "itemName": "L.ARM ASSY LH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 100,
+              "grossProfit": 280
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKDSRH",
+              "itemName": "L. ARM ASSY RH",
+              "quantity": 1,
+              "sales": 380,
+              "netSales": 380,
+              "cost": 100,
+              "grossProfit": 280
+            },
+            {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
@@ -27130,7 +27190,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
+      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
     },
     "SK": {
       "days": {
@@ -32580,7 +32640,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
+      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
     },
     "KM": {
       "days": {
@@ -33080,8 +33140,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:46:46.037Z"
+      "lastCollectedAt": "2026-11-26T03:52:52.309Z"
     }
   },
-  "updatedAt": "2026-11-26T03:46:46.037Z"
+  "updatedAt": "2026-11-26T03:52:52.309Z"
 }
