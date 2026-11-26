@@ -9729,7 +9729,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "Tubeless Valve-Steel",
+              "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 6,
               "sales": 60,
               "netSales": 60,
@@ -9740,7 +9740,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
+      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
     },
     "SR": {
       "days": {
@@ -18590,7 +18590,7 @@
           ]
         },
         "2026-11-26": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -18610,11 +18610,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 30,
-              "netSales": 30,
-              "cost": 0,
-              "grossProfit": 30,
-              "quantity": 1
+              "sales": 310,
+              "netSales": 310,
+              "cost": 135.4,
+              "grossProfit": 174.6,
+              "quantity": 3
             },
             {
               "key": "other",
@@ -18657,6 +18657,26 @@
               "grossProfit": 30
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PSPNGKMYV",
+              "itemName": "NGK PLUG DCPR7EA-9 MYVI AVANZA ALZA RUSH",
+              "quantity": 1,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 30.4,
+              "grossProfit": 49.6
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110058",
+              "itemName": "AISIN COIL PLUG MYVI 1.3/1.5, ALZA, AVANZA, RUSH (SUSA)",
+              "quantity": 1,
+              "sales": 200,
+              "netSales": 200,
+              "cost": 105,
+              "grossProfit": 95
+            },
+            {
               "category": "other",
               "itemCode": "MNCTYTVS",
               "itemName": "CAMBER NUT TYT VIOS NEW",
@@ -18670,7 +18690,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
+      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
     },
     "ST": {
       "days": {
@@ -26820,15 +26840,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 1,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 632,
-              "netSales": 632,
-              "cost": 692,
-              "grossProfit": -60,
-              "quantity": 4
+              "sales": 998,
+              "netSales": 998,
+              "cost": 1034,
+              "grossProfit": -36,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -26850,9 +26870,9 @@
               "key": "other",
               "sales": 98,
               "netSales": 98,
-              "cost": 2.6,
-              "grossProfit": 95.4,
-              "quantity": 9
+              "cost": 5.9,
+              "grossProfit": 92.1,
+              "quantity": 14
             }
           ],
           "items": [
@@ -26860,7 +26880,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
+              "quantity": 2,
               "sales": 30,
               "netSales": 30,
               "cost": 0,
@@ -26870,21 +26890,31 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 6,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN185515GC5",
               "itemName": "GENERAL 185/55/15 ALTIMAX GC5 82V FR CN (2026)",
               "quantity": 4,
-              "sales": 632,
-              "netSales": 632,
+              "sales": 702,
+              "netSales": 702,
               "cost": 692,
-              "grossProfit": -60
+              "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 2,
+              "sales": 296,
+              "netSales": 296,
+              "cost": 342,
+              "grossProfit": -46
             },
             {
               "category": "other",
@@ -26895,6 +26925,16 @@
               "netSales": 28,
               "cost": 2.6,
               "grossProfit": 25.4
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 2,
+              "sales": 20,
+              "netSales": 20,
+              "cost": 3.3,
+              "grossProfit": 16.7
             },
             {
               "category": "foreman_item",
@@ -26910,7 +26950,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
+      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
     },
     "SK": {
       "days": {
@@ -32329,7 +32369,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
+      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
     },
     "KM": {
       "days": {
@@ -32829,8 +32869,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:02:59.531Z"
+      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
     }
   },
-  "updatedAt": "2026-11-26T03:02:59.531Z"
+  "updatedAt": "2026-11-26T03:09:34.861Z"
 }
