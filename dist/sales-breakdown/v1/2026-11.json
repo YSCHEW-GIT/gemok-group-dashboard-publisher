@@ -9809,7 +9809,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 17,
               "sales": 130.01,
               "netSales": 130.01,
@@ -9830,7 +9830,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
+      "lastCollectedAt": "2026-11-26T05:02:07.088Z"
     },
     "SR": {
       "days": {
@@ -18684,10 +18684,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1574,
-              "netSales": 1574,
+              "sales": 1644,
+              "netSales": 1644,
               "cost": 1700,
-              "grossProfit": -126,
+              "grossProfit": -56,
               "quantity": 8
             },
             {
@@ -18708,10 +18708,10 @@
             },
             {
               "key": "other",
-              "sales": 383,
-              "netSales": 383,
+              "sales": 313,
+              "netSales": 313,
               "cost": 51.2,
-              "grossProfit": 331.8,
+              "grossProfit": 261.8,
               "quantity": 26
             }
           ],
@@ -18731,10 +18731,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -18751,10 +18751,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -18781,10 +18781,10 @@
               "itemCode": "TPCT176514CC7",
               "itemName": "CONTINENTAL 175/65/14 CC7 82H CN (2026)",
               "quantity": 4,
-              "sales": 672,
-              "netSales": 672,
+              "sales": 742,
+              "netSales": 742,
               "cost": 772,
-              "grossProfit": -100
+              "grossProfit": -30
             },
             {
               "category": "foreman_item",
@@ -18879,7 +18879,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
               "sales": 40,
               "netSales": 40,
@@ -18940,7 +18940,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
+      "lastCollectedAt": "2026-11-26T05:02:07.088Z"
     },
     "ST": {
       "days": {
@@ -27349,7 +27349,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 12,
               "sales": 120,
               "netSales": 120,
@@ -27370,7 +27370,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
+      "lastCollectedAt": "2026-11-26T05:02:07.088Z"
     },
     "SK": {
       "days": {
@@ -32750,15 +32750,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 100,
+              "netSales": 100,
+              "cost": 76,
+              "grossProfit": 24,
+              "quantity": 1
             },
             {
               "key": "sport_rim",
@@ -32778,11 +32778,11 @@
             },
             {
               "key": "other",
-              "sales": 10,
-              "netSales": 10,
-              "cost": 0,
-              "grossProfit": 10,
-              "quantity": 1
+              "sales": 30,
+              "netSales": 30,
+              "cost": 1.65,
+              "grossProfit": 28.35,
+              "quantity": 3
             }
           ],
           "items": [
@@ -32795,6 +32795,26 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 1,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 76,
+              "grossProfit": 24
             },
             {
               "category": "foreman_item",
@@ -32845,12 +32865,22 @@
               "netSales": 180,
               "cost": 56,
               "grossProfit": 124
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 1.65,
+              "grossProfit": 8.35
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
+      "lastCollectedAt": "2026-11-26T05:02:07.088Z"
     },
     "KM": {
       "days": {
@@ -33350,8 +33380,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
+      "lastCollectedAt": "2026-11-26T05:02:07.088Z"
     }
   },
-  "updatedAt": "2026-11-26T04:55:59.727Z"
+  "updatedAt": "2026-11-26T05:02:07.088Z"
 }
