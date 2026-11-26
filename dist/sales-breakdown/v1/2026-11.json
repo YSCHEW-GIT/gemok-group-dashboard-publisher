@@ -9644,10 +9644,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1272,
-              "netSales": 1272,
+              "sales": 1251.84,
+              "netSales": 1251.84,
               "cost": 1340,
-              "grossProfit": -68,
+              "grossProfit": -88.16,
               "quantity": 6
             },
             {
@@ -9668,11 +9668,11 @@
             },
             {
               "key": "other",
-              "sales": 300,
-              "netSales": 282.24,
+              "sales": 320.16,
+              "netSales": 300.55,
               "cost": 9.9,
-              "grossProfit": 272.34,
-              "quantity": 22
+              "grossProfit": 290.65,
+              "quantity": 23
             }
           ],
           "items": [
@@ -9681,56 +9681,66 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 118.24,
+              "netSales": 109.36,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 109.36
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 12,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 118.24,
+              "netSales": 109.36,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 109.36
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 1,
+              "sales": 24.63,
+              "netSales": 22.78,
+              "cost": 0,
+              "grossProfit": 22.78
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5-26",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V CN (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 582.62,
+              "netSales": 582.62,
               "cost": 680,
-              "grossProfit": -88
+              "grossProfit": -97.38
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPBS205016RE005-26",
               "itemName": "BRIDGESTONE 205/50/16 POTENZA RE005 91W TH (2026)",
               "quantity": 2,
-              "sales": 680,
-              "netSales": 680,
+              "sales": 669.22,
+              "netSales": 669.22,
               "cost": 660,
-              "grossProfit": 20
+              "grossProfit": 9.22
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 6,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 59.05,
+              "netSales": 59.05,
               "cost": 9.9,
-              "grossProfit": 50.1
+              "grossProfit": 49.15
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:36:13.998Z"
+      "lastCollectedAt": "2026-11-26T02:42:49.621Z"
     },
     "SR": {
       "days": {
@@ -18650,7 +18660,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:36:13.998Z"
+      "lastCollectedAt": "2026-11-26T02:42:49.621Z"
     },
     "ST": {
       "days": {
@@ -26890,7 +26900,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:36:13.998Z"
+      "lastCollectedAt": "2026-11-26T02:42:49.621Z"
     },
     "SK": {
       "days": {
@@ -32309,7 +32319,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:36:13.998Z"
+      "lastCollectedAt": "2026-11-26T02:42:49.621Z"
     },
     "KM": {
       "days": {
@@ -32809,8 +32819,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T02:36:13.998Z"
+      "lastCollectedAt": "2026-11-26T02:42:49.621Z"
     }
   },
-  "updatedAt": "2026-11-26T02:36:13.998Z"
+  "updatedAt": "2026-11-26T02:42:49.621Z"
 }
