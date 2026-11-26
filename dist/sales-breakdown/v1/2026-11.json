@@ -9740,7 +9740,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
+      "lastCollectedAt": "2026-11-26T03:22:19.039Z"
     },
     "SR": {
       "days": {
@@ -18590,15 +18590,15 @@
           ]
         },
         "2026-11-26": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 832,
+              "netSales": 832,
+              "cost": 928,
+              "grossProfit": -96,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -18618,11 +18618,11 @@
             },
             {
               "key": "other",
-              "sales": 105,
-              "netSales": 105,
-              "cost": 10,
-              "grossProfit": 95,
-              "quantity": 3
+              "sales": 215,
+              "netSales": 215,
+              "cost": 16.6,
+              "grossProfit": 198.4,
+              "quantity": 12
             }
           ],
           "items": [
@@ -18640,11 +18640,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
@@ -18655,6 +18655,26 @@
               "netSales": 30,
               "cost": 0,
               "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 CC7 (2026)",
+              "quantity": 4,
+              "sales": 832,
+              "netSales": 832,
+              "cost": 928,
+              "grossProfit": -96
             },
             {
               "category": "foreman_item",
@@ -18685,12 +18705,22 @@
               "netSales": 55,
               "cost": 10,
               "grossProfit": 45
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "TUBELESS VALVE-STEEL",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 6.6,
+              "grossProfit": 33.4
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
+      "lastCollectedAt": "2026-11-26T03:22:19.039Z"
     },
     "ST": {
       "days": {
@@ -26840,7 +26870,7 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 2,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -26950,7 +26980,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
+      "lastCollectedAt": "2026-11-26T03:22:19.039Z"
     },
     "SK": {
       "days": {
@@ -32330,7 +32360,7 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -32350,11 +32380,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 230,
+              "netSales": 230,
+              "cost": 92,
+              "grossProfit": 138,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -32365,11 +32395,32 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "BBPDMALZFRT",
+              "itemName": "BRAKE PAD CD2252 BLUE DIAMOND ALZA NEW VIOS NCP93 J/E SPEC FRT",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 64,
+              "grossProfit": 76
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OBFSRD4",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
+              "quantity": 1,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 28,
+              "grossProfit": 62
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
+      "lastCollectedAt": "2026-11-26T03:22:19.039Z"
     },
     "KM": {
       "days": {
@@ -32869,8 +32920,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T03:09:34.861Z"
+      "lastCollectedAt": "2026-11-26T03:22:19.039Z"
     }
   },
-  "updatedAt": "2026-11-26T03:09:34.861Z"
+  "updatedAt": "2026-11-26T03:22:19.039Z"
 }
