@@ -9644,10 +9644,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4322,
-              "netSales": 4322,
+              "sales": 4391.99,
+              "netSales": 4391.99,
               "cost": 3965.6,
-              "grossProfit": 356.4,
+              "grossProfit": 426.39,
               "quantity": 17
             },
             {
@@ -9668,10 +9668,10 @@
             },
             {
               "key": "other",
-              "sales": 512,
-              "netSales": 484.25,
+              "sales": 442.01,
+              "netSales": 419.44,
               "cost": 28.7,
-              "grossProfit": 455.55,
+              "grossProfit": 390.74,
               "quantity": 48
             }
           ],
@@ -9701,10 +9701,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 20,
-              "sales": 140,
-              "netSales": 129.64,
+              "sales": 110,
+              "netSales": 101.86,
               "cost": 0,
-              "grossProfit": 129.64
+              "grossProfit": 101.86
             },
             {
               "category": "other",
@@ -9731,10 +9731,10 @@
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
               "quantity": 2,
-              "sales": 80,
-              "netSales": 74.08,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 74.08
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -9781,10 +9781,10 @@
               "itemCode": "TPAT224518XSPT",
               "itemName": "ATLANDER 225/45/18 XSPORT -86 BSW 95W XL (2026)",
               "quantity": 3,
-              "sales": 780,
-              "netSales": 780,
+              "sales": 849.99,
+              "netSales": 849.99,
               "cost": 669.6,
-              "grossProfit": 110.4
+              "grossProfit": 180.39
             },
             {
               "category": "passenger_tire",
@@ -9811,10 +9811,10 @@
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 17,
-              "sales": 130,
-              "netSales": 130,
+              "sales": 130.01,
+              "netSales": 130.01,
               "cost": 28.05,
-              "grossProfit": 101.95
+              "grossProfit": 101.96
             },
             {
               "category": "other",
@@ -9830,7 +9830,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:49:52.934Z"
+      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
     },
     "SR": {
       "days": {
@@ -18940,7 +18940,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:49:52.934Z"
+      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
     },
     "ST": {
       "days": {
@@ -27090,15 +27090,15 @@
           "items": []
         },
         "2026-11-26": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5484,
-              "netSales": 5484,
-              "cost": 5112,
-              "grossProfit": 372,
-              "quantity": 22
+              "sales": 6880,
+              "netSales": 6880,
+              "cost": 6528,
+              "grossProfit": 352,
+              "quantity": 30
             },
             {
               "key": "sport_rim",
@@ -27110,19 +27110,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1678,
-              "netSales": 1678,
-              "cost": 587.5,
-              "grossProfit": 1090.5,
-              "quantity": 10
+              "sales": 1918,
+              "netSales": 1918,
+              "cost": 673.9,
+              "grossProfit": 1244.1,
+              "quantity": 14
             },
             {
               "key": "other",
-              "sales": 550,
-              "netSales": 550,
-              "cost": 176.3,
-              "grossProfit": 373.7,
-              "quantity": 58
+              "sales": 718,
+              "netSales": 718,
+              "cost": 178.9,
+              "grossProfit": 539.1,
+              "quantity": 72
             }
           ],
           "items": [
@@ -27130,21 +27130,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 9,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 22,
-              "sales": 80,
-              "netSales": 80,
+              "quantity": 30,
+              "sales": 160,
+              "netSales": 160,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 160
             },
             {
               "category": "other",
@@ -27175,6 +27175,26 @@
               "netSales": 776,
               "cost": 638,
               "grossProfit": 138
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY176514CR1",
+              "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
+              "quantity": 4,
+              "sales": 640,
+              "netSales": 640,
+              "cost": 632,
+              "grossProfit": 8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPTY185515CR1",
+              "itemName": "TOYO 185/55/15 82V PXCR1 TOYO TIRES M'SIA (2026)",
+              "quantity": 4,
+              "sales": 756,
+              "netSales": 756,
+              "cost": 784,
+              "grossProfit": -28
             },
             {
               "category": "passenger_tire",
@@ -27307,14 +27327,24 @@
               "grossProfit": 64
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PAOFP2D3GR",
+              "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
+              "quantity": 4,
+              "sales": 240,
+              "netSales": 240,
+              "cost": 86.4,
+              "grossProfit": 153.6
+            },
+            {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 10,
-              "sales": 70,
-              "netSales": 70,
-              "cost": 6.5,
-              "grossProfit": 63.5
+              "quantity": 14,
+              "sales": 98,
+              "netSales": 98,
+              "cost": 9.1,
+              "grossProfit": 88.9
             },
             {
               "category": "other",
@@ -27340,7 +27370,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:49:52.934Z"
+      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
     },
     "SK": {
       "days": {
@@ -32820,7 +32850,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:49:52.934Z"
+      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
     },
     "KM": {
       "days": {
@@ -33320,8 +33350,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-26T04:49:52.934Z"
+      "lastCollectedAt": "2026-11-26T04:55:59.727Z"
     }
   },
-  "updatedAt": "2026-11-26T04:49:52.934Z"
+  "updatedAt": "2026-11-26T04:55:59.727Z"
 }
