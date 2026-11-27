@@ -9989,7 +9989,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 13,
+          "documents": 14,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 598,
-              "netSales": 580.24,
+              "sales": 608,
+              "netSales": 589.5,
               "cost": 49.25,
-              "grossProfit": 530.99,
-              "quantity": 63
+              "grossProfit": 540.25,
+              "quantity": 64
             }
           ],
           "items": [
@@ -10089,11 +10089,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 3,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -10249,7 +10249,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:54:50.182Z"
+      "lastCollectedAt": "2026-11-27T06:00:56.435Z"
     },
     "SR": {
       "days": {
@@ -19578,15 +19578,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 386,
-              "netSales": 386,
-              "cost": 363.2,
-              "grossProfit": 22.8,
-              "quantity": 3
+              "sales": 938,
+              "netSales": 938,
+              "cost": 1047.2,
+              "grossProfit": -109.2,
+              "quantity": 7
             },
             {
               "key": "sport_rim",
@@ -19606,11 +19606,11 @@
             },
             {
               "key": "other",
-              "sales": 310,
-              "netSales": 310,
+              "sales": 380,
+              "netSales": 380,
               "cost": 14,
-              "grossProfit": 296,
-              "quantity": 17
+              "grossProfit": 366,
+              "quantity": 22
             }
           ],
           "items": [
@@ -19638,11 +19638,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 7,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "foreman_item",
@@ -19658,11 +19658,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 6,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 10,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 80
             },
             {
               "category": "other",
@@ -19693,6 +19693,16 @@
               "netSales": 248,
               "cost": 235.2,
               "grossProfit": 12.8
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "netSales": 552,
+              "cost": 684,
+              "grossProfit": -132
             },
             {
               "category": "foreman_item",
@@ -19768,7 +19778,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:54:50.182Z"
+      "lastCollectedAt": "2026-11-27T06:00:56.435Z"
     },
     "ST": {
       "days": {
@@ -28487,7 +28497,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:54:50.182Z"
+      "lastCollectedAt": "2026-11-27T06:00:56.435Z"
     },
     "SK": {
       "days": {
@@ -34286,7 +34296,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:54:50.182Z"
+      "lastCollectedAt": "2026-11-27T06:00:56.435Z"
     },
     "KM": {
       "days": {
@@ -34824,8 +34834,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:54:50.182Z"
+      "lastCollectedAt": "2026-11-27T06:00:56.435Z"
     }
   },
-  "updatedAt": "2026-11-27T05:54:50.182Z"
+  "updatedAt": "2026-11-27T06:00:56.435Z"
 }
