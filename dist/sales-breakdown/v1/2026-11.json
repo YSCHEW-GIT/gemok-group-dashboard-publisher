@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 15,
+          "documents": 17,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 5952,
-              "netSales": 5952,
-              "cost": 5346,
-              "grossProfit": 606,
-              "quantity": 31
+              "sales": 7256,
+              "netSales": 7256,
+              "cost": 6730,
+              "grossProfit": 526,
+              "quantity": 39
             },
             {
               "key": "sport_rim",
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 618,
-              "netSales": 603.2,
-              "cost": 59.15,
-              "grossProfit": 544.05,
-              "quantity": 80
+              "sales": 798,
+              "netSales": 772.84,
+              "cost": 65.75,
+              "grossProfit": 707.09,
+              "quantity": 94
             }
           ],
           "items": [
@@ -10049,21 +10049,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 10,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 38,
+              "sales": 120,
+              "netSales": 111.12,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 111.12
             },
             {
               "category": "other",
@@ -10109,11 +10109,11 @@
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
-              "quantity": 4,
-              "sales": 862,
-              "netSales": 862,
-              "cost": 920,
-              "grossProfit": -58
+              "quantity": 8,
+              "sales": 1654,
+              "netSales": 1654,
+              "cost": 1840,
+              "grossProfit": -186
             },
             {
               "category": "passenger_tire",
@@ -10134,6 +10134,16 @@
               "netSales": 422,
               "cost": 340,
               "grossProfit": 82
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR214517R330-26",
+              "itemName": "WINRUN 215/45/17 R330 91W XL TL CN (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 464,
+              "grossProfit": 48
             },
             {
               "category": "passenger_tire",
@@ -10239,11 +10249,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 22,
-              "sales": 220,
-              "netSales": 220,
-              "cost": 36.3,
-              "grossProfit": 183.7
+              "quantity": 26,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 42.9,
+              "grossProfit": 217.1
             },
             {
               "category": "other",
@@ -10269,7 +10279,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:37:05.355Z"
+      "lastCollectedAt": "2026-11-27T07:52:13.807Z"
     },
     "SR": {
       "days": {
@@ -19598,14 +19608,14 @@
           ]
         },
         "2026-11-27": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1338,
-              "netSales": 1338,
+              "sales": 1388,
+              "netSales": 1388,
               "cost": 1373.6,
-              "grossProfit": -35.6,
+              "grossProfit": 14.4,
               "quantity": 9
             },
             {
@@ -19626,11 +19636,11 @@
             },
             {
               "key": "other",
-              "sales": 380,
-              "netSales": 380,
+              "sales": 360,
+              "netSales": 360,
               "cost": 14,
-              "grossProfit": 366,
-              "quantity": 32
+              "grossProfit": 346,
+              "quantity": 33
             }
           ],
           "items": [
@@ -19658,7 +19668,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 9,
+              "quantity": 10,
               "sales": 150,
               "netSales": 150,
               "cost": 0,
@@ -19679,10 +19689,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 14,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 20
             },
             {
               "category": "other",
@@ -19729,10 +19739,10 @@
               "itemCode": "TPWL196515Z117",
               "itemName": "WEST LAKE 195/65/15 91H ZUPER FLEX Z-117 (2026)",
               "quantity": 2,
-              "sales": 330,
-              "netSales": 330,
+              "sales": 380,
+              "netSales": 380,
               "cost": 326.4,
-              "grossProfit": 3.6
+              "grossProfit": 53.6
             },
             {
               "category": "passenger_tire",
@@ -19818,7 +19828,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:37:05.355Z"
+      "lastCollectedAt": "2026-11-27T07:52:13.807Z"
     },
     "ST": {
       "days": {
@@ -28397,14 +28407,14 @@
           ]
         },
         "2026-11-27": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1940,
-              "netSales": 1940,
+              "sales": 2015,
+              "netSales": 2015,
               "cost": 1812,
-              "grossProfit": 128,
+              "grossProfit": 203,
               "quantity": 10
             },
             {
@@ -28425,11 +28435,11 @@
             },
             {
               "key": "other",
-              "sales": 268,
-              "netSales": 268,
+              "sales": 258,
+              "netSales": 258,
               "cost": 19.5,
-              "grossProfit": 248.5,
-              "quantity": 29
+              "grossProfit": 238.5,
+              "quantity": 30
             }
           ],
           "items": [
@@ -28438,20 +28448,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -28474,6 +28484,16 @@
               "grossProfit": 40
             },
             {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
@@ -28488,10 +28508,10 @@
               "itemCode": "TPYH205016V701-26",
               "itemName": "YOKOHAMA 205/50/16 ADVAN FLEVA V701 87V (JP) (2026)",
               "quantity": 2,
-              "sales": 696,
-              "netSales": 696,
+              "sales": 771,
+              "netSales": 771,
               "cost": 580,
-              "grossProfit": 116
+              "grossProfit": 191
             },
             {
               "category": "passenger_tire",
@@ -28547,7 +28567,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:37:05.355Z"
+      "lastCollectedAt": "2026-11-27T07:52:13.807Z"
     },
     "SK": {
       "days": {
@@ -34176,14 +34196,14 @@
           ]
         },
         "2026-11-27": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2440,
-              "netSales": 2440,
+              "sales": 2450,
+              "netSales": 2450,
               "cost": 2257.6,
-              "grossProfit": 182.4,
+              "grossProfit": 192.4,
               "quantity": 9
             },
             {
@@ -34208,7 +34228,7 @@
               "netSales": 203,
               "cost": 8.6,
               "grossProfit": 194.4,
-              "quantity": 24
+              "quantity": 25
             }
           ],
           "items": [
@@ -34237,10 +34257,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 9,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -34263,14 +34283,24 @@
               "grossProfit": 30
             },
             {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 10,
+              "cost": 0,
+              "grossProfit": 10
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPZT195515VD-26",
               "itemName": "ZETA 195/55/15 VERDANT 85V TH (2026)",
               "quantity": 1,
-              "sales": 138,
-              "netSales": 138,
+              "sales": 148,
+              "netSales": 148,
               "cost": 128,
-              "grossProfit": 10
+              "grossProfit": 20
             },
             {
               "category": "passenger_tire",
@@ -34376,7 +34406,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:37:05.355Z"
+      "lastCollectedAt": "2026-11-27T07:52:13.807Z"
     },
     "KM": {
       "days": {
@@ -34914,8 +34944,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:37:05.355Z"
+      "lastCollectedAt": "2026-11-27T07:52:13.807Z"
     }
   },
-  "updatedAt": "2026-11-27T07:37:05.355Z"
+  "updatedAt": "2026-11-27T07:52:13.807Z"
 }
