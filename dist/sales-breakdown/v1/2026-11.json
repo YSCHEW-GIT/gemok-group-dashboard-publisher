@@ -10159,7 +10159,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:14:21.781Z"
+      "lastCollectedAt": "2026-11-27T03:20:27.499Z"
     },
     "SR": {
       "days": {
@@ -19488,7 +19488,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19508,11 +19508,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 240,
-              "netSales": 240,
-              "cost": 54,
-              "grossProfit": 186,
-              "quantity": 2
+              "sales": 560,
+              "netSales": 560,
+              "cost": 198.8,
+              "grossProfit": 361.2,
+              "quantity": 7
             },
             {
               "key": "other",
@@ -19613,12 +19613,42 @@
               "netSales": 160,
               "cost": 54,
               "grossProfit": 106
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "POFPRKN",
+              "itemName": "OIL FILTER PERODUA 00R01",
+              "quantity": 1,
+              "sales": 0,
+              "netSales": 0,
+              "cost": 8,
+              "grossProfit": -8
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "OEHX10W30Q5000",
+              "itemName": "HELIX HX5 10W30 5000 SEMI SYTHENTIC ENG OIL 4X3L",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 72,
+              "grossProfit": 68
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PAOFP2D3GR",
+              "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
+              "quantity": 3,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 64.8,
+              "grossProfit": 115.2
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:14:21.781Z"
+      "lastCollectedAt": "2026-11-27T03:20:27.499Z"
     },
     "ST": {
       "days": {
@@ -28327,7 +28357,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:14:21.781Z"
+      "lastCollectedAt": "2026-11-27T03:20:27.499Z"
     },
     "SK": {
       "days": {
@@ -34026,7 +34056,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:14:21.781Z"
+      "lastCollectedAt": "2026-11-27T03:20:27.499Z"
     },
     "KM": {
       "days": {
@@ -34564,8 +34594,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:14:21.781Z"
+      "lastCollectedAt": "2026-11-27T03:20:27.499Z"
     }
   },
-  "updatedAt": "2026-11-27T03:14:21.781Z"
+  "updatedAt": "2026-11-27T03:20:27.499Z"
 }
