@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-27T03:05:10.797Z",
+  "updatedAt": "2026-11-27T04:16:23.267Z",
   "stores": [
     {
       "code": "SI",
@@ -28,23 +28,23 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 446,
-      "quantity": 1928,
-      "stockValue": 413187.0200000001
+      "sku": 445,
+      "quantity": 1930,
+      "stockValue": 413385.2200000001
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 710,
-      "quantity": 635,
-      "stockValue": 338877.52
+      "quantity": 629,
+      "stockValue": 333931.52
     },
     {
       "key": "absorber",
       "name": "Absorber",
       "sku": 81,
-      "quantity": 134.5,
-      "stockValue": 25592.1
+      "quantity": 133.5,
+      "stockValue": 25312.1
     },
     {
       "key": "adj-absorber",
@@ -84,23 +84,23 @@
     {
       "key": "oil",
       "name": "Oil",
-      "sku": 106,
-      "quantity": 2165,
-      "stockValue": 159450.68
+      "sku": 105,
+      "quantity": 2161,
+      "stockValue": 159313.88
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 193,
-      "stockValue": 1774
+      "quantity": 192,
+      "stockValue": 1766
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 868,
-      "quantity": 2905.5,
-      "stockValue": 104018.84999999999
+      "quantity": 2903.5,
+      "stockValue": 103956.84999999999
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9659,
-      "stockValue": 58383.06999999999
+      "quantity": 9647,
+      "stockValue": 58364.56999999999
     },
     {
       "key": "non-stock-item",
@@ -1019,7 +1019,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 215,
           "price": 230
         }
@@ -4382,7 +4382,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 1,
+          "quantity": 16,
           "cost": 171,
           "price": 138
         },
@@ -8067,7 +8067,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 117.6,
           "price": 99
         }
@@ -8830,25 +8830,6 @@
           "quantity": 4,
           "cost": 164,
           "price": 190
-        }
-      ]
-    },
-    {
-      "code": "TPWL205516Z117",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "WEST LAKE 205/55/16 94W ZUPER FLEX Z117 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 162.4,
-          "price": 168
         }
       ]
     },
@@ -9974,7 +9955,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 18,
           "cost": 231,
           "price": 208
         }
@@ -10455,7 +10436,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 128,
           "price": 128
         }
@@ -22325,15 +22306,6 @@
       "stockRows": [
         {
           "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 801,
-          "price": 488
-        },
-        {
-          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -22799,6 +22771,15 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": -1,
+          "cost": 751,
+          "price": 488
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -22932,6 +22913,15 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": -1,
+          "cost": 751,
+          "price": 0
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -22987,6 +22977,15 @@
       "name": "SPORT RIM 15X7.0 4X100 ET35 RACING GREEN PROTE570A56 (TE37)",
       "spec": "0",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": -1,
+          "cost": 751,
+          "price": 488
+        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -23888,6 +23887,15 @@
       "stockRows": [
         {
           "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": -1,
+          "cost": 941,
+          "price": 0
+        },
+        {
+          "rowKey": "default#1",
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
@@ -24000,6 +24008,15 @@
       "name": "SPORT RIM 16X7 8HX100/114.3 ET40 DARK HYPER BRZ PROCE670F52 - (CE28)",
       "spec": "",
       "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": -1,
+          "cost": 951,
+          "price": 0
+        },
         {
           "rowKey": "default#1",
           "store": "ST",
@@ -26068,7 +26085,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 280,
           "price": 560
         }
@@ -34481,25 +34498,6 @@
       ]
     },
     {
-      "code": "OEHX10W30Q5000",
-      "groupKey": "oil",
-      "groupName": "OIL",
-      "brand": "",
-      "name": "HELIX HX5 10W30 5000 SEMI SYTHENTIC ENG OIL 4X3L",
-      "spec": "83",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 72,
-          "price": 140
-        }
-      ]
-    },
-    {
       "code": "OEHX10W40Q7000",
       "groupKey": "oil",
       "groupName": "Oil",
@@ -36077,7 +36075,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 21,
+          "quantity": 18,
           "cost": 21.6,
           "price": 70
         },
@@ -36619,7 +36617,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 17,
+          "quantity": 16,
           "cost": 8,
           "price": 25
         },
@@ -40352,7 +40350,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 5,
+          "quantity": 4,
           "cost": 8,
           "price": 45
         }
@@ -56412,7 +56410,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
+          "quantity": 1,
           "cost": 54,
           "price": 150
         }
@@ -106770,7 +106768,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 83,
+          "quantity": 81,
           "cost": 3.5,
           "price": 35
         }
@@ -111975,7 +111973,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 233,
+          "quantity": 229,
           "cost": 0.4,
           "price": 10
         },
@@ -112021,7 +112019,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 394,
+          "quantity": 392,
           "cost": 1.65,
           "price": 10
         },
@@ -112048,7 +112046,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 618,
+          "quantity": 614,
           "cost": 1.65,
           "price": 10
         }
