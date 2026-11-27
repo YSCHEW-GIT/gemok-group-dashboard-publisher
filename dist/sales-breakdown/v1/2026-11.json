@@ -9989,14 +9989,14 @@
           ]
         },
         "2026-11-27": {
-          "documents": 21,
+          "documents": 22,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7822,
-              "netSales": 7822,
+              "sales": 7872,
+              "netSales": 7872,
               "cost": 7062,
-              "grossProfit": 760,
+              "grossProfit": 810,
               "quantity": 43
             },
             {
@@ -10009,19 +10009,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 940,
-              "netSales": 916.3,
-              "cost": 271,
-              "grossProfit": 645.3,
-              "quantity": 9
+              "sales": 1680,
+              "netSales": 1656.3,
+              "cost": 637,
+              "grossProfit": 1019.3,
+              "quantity": 13
             },
             {
               "key": "other",
-              "sales": 858,
-              "netSales": 838.76,
+              "sales": 838,
+              "netSales": 820.24,
               "cost": 109.05,
-              "grossProfit": 729.71,
-              "quantity": 123
+              "grossProfit": 711.19,
+              "quantity": 124
             }
           ],
           "items": [
@@ -10059,7 +10059,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 13,
+              "quantity": 14,
               "sales": 90,
               "netSales": 83.34,
               "cost": 0,
@@ -10070,10 +10070,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 42,
-              "sales": 40,
-              "netSales": 37.04,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 18.52
             },
             {
               "category": "other",
@@ -10160,10 +10160,10 @@
               "itemCode": "TPGN176514GC5-26",
               "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
               "quantity": 2,
-              "sales": 276,
-              "netSales": 276,
+              "sales": 326,
+              "netSales": 326,
               "cost": 332,
-              "grossProfit": -56
+              "grossProfit": -6
             },
             {
               "category": "passenger_tire",
@@ -10266,6 +10266,26 @@
               "grossProfit": 100
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKABS",
+              "itemName": "KYB ABS F RH/LH SAGA BLM",
+              "quantity": 2,
+              "sales": 580,
+              "netSales": 580,
+              "cost": 330,
+              "grossProfit": 250
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSKCOVERBOOT",
+              "itemName": "NACO COVER BOOT SAGA BLM",
+              "quantity": 2,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 36,
+              "grossProfit": 124
+            },
+            {
               "category": "other",
               "itemCode": "MNRWRY150B",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLUE",
@@ -10319,7 +10339,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
+      "lastCollectedAt": "2026-11-27T10:26:20.642Z"
     },
     "SR": {
       "days": {
@@ -19676,11 +19696,11 @@
             },
             {
               "key": "other",
-              "sales": 520,
-              "netSales": 520,
-              "cost": 22.25,
-              "grossProfit": 497.75,
-              "quantity": 50
+              "sales": 550,
+              "netSales": 550,
+              "cost": 47.25,
+              "grossProfit": 502.75,
+              "quantity": 51
             }
           ],
           "items": [
@@ -19753,6 +19773,16 @@
               "netSales": 30,
               "cost": 0,
               "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "Adjust Camber",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 25,
+              "grossProfit": 5
             },
             {
               "category": "passenger_tire",
@@ -19938,7 +19968,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
+      "lastCollectedAt": "2026-11-27T10:26:20.642Z"
     },
     "ST": {
       "days": {
@@ -28521,10 +28551,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4181,
-              "netSales": 4181,
+              "sales": 4231,
+              "netSales": 4231,
               "cost": 3998,
-              "grossProfit": 183,
+              "grossProfit": 233,
               "quantity": 22
             },
             {
@@ -28537,18 +28567,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 996,
-              "netSales": 996,
-              "cost": 242.8,
-              "grossProfit": 753.2,
-              "quantity": 13
+              "sales": 1086,
+              "netSales": 1086,
+              "cost": 274.8,
+              "grossProfit": 811.2,
+              "quantity": 15
             },
             {
               "key": "other",
-              "sales": 942,
-              "netSales": 942,
+              "sales": 892,
+              "netSales": 892,
               "cost": 228.04,
-              "grossProfit": 713.96,
+              "grossProfit": 663.96,
               "quantity": 60
             }
           ],
@@ -28588,20 +28618,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 0
             },
             {
               "category": "foreman_item",
@@ -28678,10 +28708,20 @@
               "itemCode": "TPBS195515RE005",
               "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
               "quantity": 2,
-              "sales": 436,
-              "netSales": 436,
+              "sales": 486,
+              "netSales": 486,
               "cost": 424,
-              "grossProfit": 12
+              "grossProfit": 62
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "DB-2116-328",
+              "itemName": "DRIVE SHAFT COVER",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 32,
+              "grossProfit": 58
             },
             {
               "category": "foreman_item",
@@ -28757,7 +28797,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
+      "lastCollectedAt": "2026-11-27T10:26:20.642Z"
     },
     "SK": {
       "days": {
@@ -34606,7 +34646,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
+      "lastCollectedAt": "2026-11-27T10:26:20.642Z"
     },
     "KM": {
       "days": {
@@ -35144,8 +35184,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
+      "lastCollectedAt": "2026-11-27T10:26:20.642Z"
     }
   },
-  "updatedAt": "2026-11-27T10:20:14.502Z"
+  "updatedAt": "2026-11-27T10:26:20.642Z"
 }
