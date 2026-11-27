@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 9,
+          "documents": 11,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3082,
-              "netSales": 3082,
-              "cost": 2954,
-              "grossProfit": 128,
-              "quantity": 17
+              "sales": 3400,
+              "netSales": 3400,
+              "cost": 3292,
+              "grossProfit": 108,
+              "quantity": 19
             },
             {
               "key": "sport_rim",
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 315,
-              "netSales": 309.82,
-              "cost": 30.05,
-              "grossProfit": 279.77,
-              "quantity": 44
+              "sales": 395,
+              "netSales": 385.38,
+              "cost": 33.35,
+              "grossProfit": 352.03,
+              "quantity": 50
             }
           ],
           "items": [
@@ -10039,21 +10039,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 5,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 27.78
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 18,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 18.52
             },
             {
               "category": "other",
@@ -10079,11 +10079,11 @@
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
-              "quantity": 2,
-              "sales": 20,
-              "netSales": 18.52,
+              "quantity": 3,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 18.52
+              "grossProfit": 27.78
             },
             {
               "category": "other",
@@ -10114,6 +10114,16 @@
               "netSales": 206,
               "cost": 152,
               "grossProfit": 54
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPDL195515BLUE-26",
+              "itemName": "DUNLOP 195/55/15 BLUE RESPONSE TG EV 84V TH (2026)",
+              "quantity": 2,
+              "sales": 318,
+              "netSales": 318,
+              "cost": 338,
+              "grossProfit": -20
             },
             {
               "category": "passenger_tire",
@@ -10179,11 +10189,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 12,
-              "sales": 120,
-              "netSales": 120,
-              "cost": 19.8,
-              "grossProfit": 100.2
+              "quantity": 14,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 23.1,
+              "grossProfit": 116.9
             },
             {
               "category": "other",
@@ -10199,7 +10209,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:09:11.937Z"
+      "lastCollectedAt": "2026-11-27T05:15:18.534Z"
     },
     "SR": {
       "days": {
@@ -19718,7 +19728,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:09:11.937Z"
+      "lastCollectedAt": "2026-11-27T05:15:18.534Z"
     },
     "ST": {
       "days": {
@@ -28437,7 +28447,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:09:11.937Z"
+      "lastCollectedAt": "2026-11-27T05:15:18.534Z"
     },
     "SK": {
       "days": {
@@ -34226,7 +34236,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:09:11.937Z"
+      "lastCollectedAt": "2026-11-27T05:15:18.534Z"
     },
     "KM": {
       "days": {
@@ -34764,8 +34774,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:09:11.937Z"
+      "lastCollectedAt": "2026-11-27T05:15:18.534Z"
     }
   },
-  "updatedAt": "2026-11-27T05:09:11.937Z"
+  "updatedAt": "2026-11-27T05:15:18.534Z"
 }
