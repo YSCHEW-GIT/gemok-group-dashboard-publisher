@@ -9993,11 +9993,11 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4282,
-              "netSales": 4282,
-              "cost": 3962,
-              "grossProfit": 320,
-              "quantity": 27
+              "sales": 5882,
+              "netSales": 5882,
+              "cost": 5346,
+              "grossProfit": 536,
+              "quantity": 31
             },
             {
               "key": "sport_rim",
@@ -10009,19 +10009,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 750,
-              "netSales": 726.3,
-              "cost": 243,
-              "grossProfit": 483.3,
-              "quantity": 4
+              "sales": 840,
+              "netSales": 816.3,
+              "cost": 271,
+              "grossProfit": 545.3,
+              "quantity": 5
             },
             {
               "key": "other",
-              "sales": 698,
-              "netSales": 674.32,
-              "cost": 52.55,
-              "grossProfit": 621.77,
-              "quantity": 71
+              "sales": 688,
+              "netSales": 668.02,
+              "cost": 59.15,
+              "grossProfit": 608.87,
+              "quantity": 80
             }
           ],
           "items": [
@@ -10049,21 +10049,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 8,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 26,
-              "sales": 100,
-              "netSales": 92.6,
+              "quantity": 30,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 92.6
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -10130,20 +10130,20 @@
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 352,
-              "netSales": 352,
+              "sales": 422,
+              "netSales": 422,
               "cost": 340,
-              "grossProfit": 12
+              "grossProfit": 82
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPDL195515BLUE-26",
               "itemName": "DUNLOP 195/55/15 BLUE RESPONSE TG EV 84V TH (2026)",
               "quantity": 2,
-              "sales": 318,
-              "netSales": 318,
+              "sales": 368,
+              "netSales": 368,
               "cost": 338,
-              "grossProfit": -20
+              "grossProfit": 30
             },
             {
               "category": "passenger_tire",
@@ -10154,6 +10154,16 @@
               "netSales": 862,
               "cost": 924,
               "grossProfit": -62
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS206017T005A-26",
+              "itemName": "BRIDGESTONE 205/60/17 TURANZA T005A 94H TH (2026)",
+              "quantity": 4,
+              "sales": 1480,
+              "netSales": 1480,
+              "cost": 1384,
+              "grossProfit": 96
             },
             {
               "category": "passenger_tire",
@@ -10189,11 +10199,11 @@
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
               "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
-              "quantity": 1,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 28,
-              "grossProfit": 62
+              "quantity": 2,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 56,
+              "grossProfit": 124
             },
             {
               "category": "foreman_item",
@@ -10229,11 +10239,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 18,
-              "sales": 180,
-              "netSales": 180,
-              "cost": 29.7,
-              "grossProfit": 150.3
+              "quantity": 22,
+              "sales": 220,
+              "netSales": 220,
+              "cost": 36.3,
+              "grossProfit": 183.7
             },
             {
               "category": "other",
@@ -10259,7 +10269,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T06:25:22.968Z"
+      "lastCollectedAt": "2026-11-27T06:41:29.342Z"
     },
     "SR": {
       "days": {
@@ -19592,10 +19602,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 938,
-              "netSales": 938,
+              "sales": 1008,
+              "netSales": 1008,
               "cost": 1047.2,
-              "grossProfit": -109.2,
+              "grossProfit": -39.2,
               "quantity": 7
             },
             {
@@ -19616,10 +19626,10 @@
             },
             {
               "key": "other",
-              "sales": 400,
-              "netSales": 400,
+              "sales": 330,
+              "netSales": 330,
               "cost": 14,
-              "grossProfit": 386,
+              "grossProfit": 316,
               "quantity": 24
             }
           ],
@@ -19649,10 +19659,10 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 150,
-              "netSales": 150,
+              "sales": 120,
+              "netSales": 120,
               "cost": 0,
-              "grossProfit": 150
+              "grossProfit": 120
             },
             {
               "category": "foreman_item",
@@ -19669,10 +19679,10 @@
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 10,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -19719,10 +19729,10 @@
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 552,
-              "netSales": 552,
+              "sales": 622,
+              "netSales": 622,
               "cost": 684,
-              "grossProfit": -132
+              "grossProfit": -62
             },
             {
               "category": "foreman_item",
@@ -19798,7 +19808,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T06:25:22.968Z"
+      "lastCollectedAt": "2026-11-27T06:41:29.342Z"
     },
     "ST": {
       "days": {
@@ -28517,7 +28527,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T06:25:22.968Z"
+      "lastCollectedAt": "2026-11-27T06:41:29.342Z"
     },
     "SK": {
       "days": {
@@ -34336,7 +34346,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T06:25:22.968Z"
+      "lastCollectedAt": "2026-11-27T06:41:29.342Z"
     },
     "KM": {
       "days": {
@@ -34874,8 +34884,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T06:25:22.968Z"
+      "lastCollectedAt": "2026-11-27T06:41:29.342Z"
     }
   },
-  "updatedAt": "2026-11-27T06:25:22.968Z"
+  "updatedAt": "2026-11-27T06:41:29.342Z"
 }
