@@ -10068,7 +10068,7 @@
             {
               "category": "other",
               "itemCode": "ADJCHM",
-              "itemName": "ADJUST CAMBER",
+              "itemName": "Adjust Camber",
               "quantity": 2,
               "sales": 50,
               "netSales": 46.3,
@@ -10208,7 +10208,7 @@
             {
               "category": "foreman_item",
               "itemCode": "OBFSRD4",
-              "itemName": "SARAMOLY BRAKE FLUID DOT-4 1LT",
+              "itemName": "SARAMOLY BRAKE FLUID DOT 4 1LT",
               "quantity": 2,
               "sales": 180,
               "netSales": 180,
@@ -10248,7 +10248,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 26,
               "sales": 260,
               "netSales": 260,
@@ -10258,7 +10258,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 9,
               "sales": 63,
               "netSales": 63,
@@ -10279,7 +10279,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:04:28.570Z"
+      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
     },
     "SR": {
       "days": {
@@ -19828,7 +19828,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:04:28.570Z"
+      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
     },
     "ST": {
       "days": {
@@ -28407,7 +28407,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 9,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -28435,11 +28435,11 @@
             },
             {
               "key": "other",
-              "sales": 258,
-              "netSales": 258,
+              "sales": 328,
+              "netSales": 328,
               "cost": 19.5,
-              "grossProfit": 238.5,
-              "quantity": 30
+              "grossProfit": 308.5,
+              "quantity": 35
             }
           ],
           "items": [
@@ -28447,21 +28447,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 4,
+              "sales": 30,
+              "netSales": 30,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 30
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 14,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "foreman_item",
@@ -28526,7 +28526,7 @@
             {
               "category": "other",
               "itemCode": "MVLRUB",
-              "itemName": "TUBELESS VALVE RUBBER",
+              "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
               "sales": 28,
               "netSales": 28,
@@ -28546,7 +28546,7 @@
             {
               "category": "other",
               "itemCode": "MVLSTL",
-              "itemName": "TUBELESS VALVE-STEEL",
+              "itemName": "Tubeless Valve-Steel",
               "quantity": 6,
               "sales": 60,
               "netSales": 60,
@@ -28567,7 +28567,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:04:28.570Z"
+      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
     },
     "SK": {
       "days": {
@@ -34196,7 +34196,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 6,
+          "documents": 7,
           "categories": [
             {
               "key": "passenger_tire",
@@ -34224,11 +34224,11 @@
             },
             {
               "key": "other",
-              "sales": 203,
-              "netSales": 203,
+              "sales": 233,
+              "netSales": 233,
               "cost": 8.6,
-              "grossProfit": 194.4,
-              "quantity": 25
+              "grossProfit": 224.4,
+              "quantity": 26
             }
           ],
           "items": [
@@ -34236,11 +34236,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 4,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -34406,7 +34406,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:58:20.540Z"
+      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
     },
     "KM": {
       "days": {
@@ -34944,8 +34944,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:04:28.570Z"
+      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
     }
   },
-  "updatedAt": "2026-11-27T08:04:28.570Z"
+  "updatedAt": "2026-11-27T08:10:34.874Z"
 }
