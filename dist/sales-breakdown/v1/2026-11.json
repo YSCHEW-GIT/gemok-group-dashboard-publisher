@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 18,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7466,
-              "netSales": 7466,
-              "cost": 6730,
-              "grossProfit": 736,
-              "quantity": 39
+              "sales": 7822,
+              "netSales": 7822,
+              "cost": 7062,
+              "grossProfit": 760,
+              "quantity": 43
             },
             {
               "key": "sport_rim",
@@ -10009,19 +10009,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 840,
-              "netSales": 816.3,
+              "sales": 940,
+              "netSales": 916.3,
               "cost": 271,
-              "grossProfit": 545.3,
-              "quantity": 5
+              "grossProfit": 645.3,
+              "quantity": 9
             },
             {
               "key": "other",
-              "sales": 618,
-              "netSales": 606.16,
-              "cost": 65.75,
-              "grossProfit": 540.41,
-              "quantity": 95
+              "sales": 858,
+              "netSales": 838.76,
+              "cost": 109.05,
+              "grossProfit": 729.71,
+              "quantity": 123
             }
           ],
           "items": [
@@ -10037,6 +10037,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "UT186014",
+              "itemName": "USED TIRE 185/60/14",
+              "quantity": 2,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 0,
+              "grossProfit": 80
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "UT225519",
               "itemName": "USED TIRE 225/55/19",
               "quantity": 2,
@@ -10049,21 +10059,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 11,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 13,
+              "sales": 90,
+              "netSales": 83.34,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 83.34
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 38,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 42,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 37.04
             },
             {
               "category": "other",
@@ -10144,6 +10154,16 @@
               "netSales": 582,
               "cost": 464,
               "grossProfit": 118
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN176514GC5-26",
+              "itemName": "GENERAL 175/65/14 ALTIMAX GC5 82H CN (2026)",
+              "quantity": 2,
+              "sales": 276,
+              "netSales": 276,
+              "cost": 332,
+              "grossProfit": -56
             },
             {
               "category": "passenger_tire",
@@ -10236,6 +10256,26 @@
               "grossProfit": -5
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKSUBTYRE",
+              "itemName": "SUB TYRE BOLT NUT",
+              "quantity": 4,
+              "sales": 100,
+              "netSales": 100,
+              "cost": 0,
+              "grossProfit": 100
+            },
+            {
+              "category": "other",
+              "itemCode": "MNRWRY150B",
+              "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLUE",
+              "quantity": 20,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 40,
+              "grossProfit": 80
+            },
+            {
               "category": "other",
               "itemCode": "MNC019",
               "itemName": "CAMBER NUT PERODUA/PROTON",
@@ -10249,11 +10289,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 26,
-              "sales": 260,
-              "netSales": 260,
-              "cost": 42.9,
-              "grossProfit": 217.1
+              "quantity": 28,
+              "sales": 280,
+              "netSales": 280,
+              "cost": 46.2,
+              "grossProfit": 233.8
             },
             {
               "category": "other",
@@ -10279,7 +10319,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:57:58.982Z"
+      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
     },
     "SR": {
       "days": {
@@ -19608,15 +19648,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 19,
+          "documents": 20,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2418,
-              "netSales": 2418,
-              "cost": 2220.6,
-              "grossProfit": 197.4,
-              "quantity": 14
+              "sales": 2547,
+              "netSales": 2547,
+              "cost": 2357.4,
+              "grossProfit": 189.6,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
@@ -19766,6 +19806,16 @@
             },
             {
               "category": "passenger_tire",
+              "itemCode": "TPWL195515Z117-26",
+              "itemName": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
+              "quantity": 1,
+              "sales": 129,
+              "netSales": 129,
+              "cost": 136.8,
+              "grossProfit": -7.8
+            },
+            {
+              "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
@@ -19888,7 +19938,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:57:58.982Z"
+      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
     },
     "ST": {
       "days": {
@@ -28471,10 +28521,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 4111,
-              "netSales": 4111,
+              "sales": 4181,
+              "netSales": 4181,
               "cost": 3998,
-              "grossProfit": 113,
+              "grossProfit": 183,
               "quantity": 22
             },
             {
@@ -28495,10 +28545,10 @@
             },
             {
               "key": "other",
-              "sales": 1012,
-              "netSales": 1012,
+              "sales": 942,
+              "netSales": 942,
               "cost": 228.04,
-              "grossProfit": 783.96,
+              "grossProfit": 713.96,
               "quantity": 60
             }
           ],
@@ -28538,20 +28588,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 8,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 22,
-              "sales": 60,
-              "netSales": 60,
+              "sales": 20,
+              "netSales": 20,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 20
             },
             {
               "category": "foreman_item",
@@ -28588,10 +28638,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 8,
-              "sales": 1654,
-              "netSales": 1654,
+              "sales": 1724,
+              "netSales": 1724,
               "cost": 1848,
-              "grossProfit": -194
+              "grossProfit": -124
             },
             {
               "category": "passenger_tire",
@@ -28707,7 +28757,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:57:58.982Z"
+      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
     },
     "SK": {
       "days": {
@@ -34546,7 +34596,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:57:58.982Z"
+      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
     },
     "KM": {
       "days": {
@@ -35084,8 +35134,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:57:58.982Z"
+      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
     }
   },
-  "updatedAt": "2026-11-27T09:57:58.982Z"
+  "updatedAt": "2026-11-27T10:14:07.491Z"
 }
