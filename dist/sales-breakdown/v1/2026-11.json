@@ -10199,7 +10199,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T04:56:57.390Z"
+      "lastCollectedAt": "2026-11-27T05:03:05.822Z"
     },
     "SR": {
       "days": {
@@ -19718,7 +19718,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T04:56:57.390Z"
+      "lastCollectedAt": "2026-11-27T05:03:05.822Z"
     },
     "ST": {
       "days": {
@@ -28437,7 +28437,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T04:56:57.390Z"
+      "lastCollectedAt": "2026-11-27T05:03:05.822Z"
     },
     "SK": {
       "days": {
@@ -34070,10 +34070,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2152,
-              "netSales": 2152,
+              "sales": 1781.62,
+              "netSales": 1781.62,
               "cost": 2129.6,
-              "grossProfit": 22.4,
+              "grossProfit": -347.98,
               "quantity": 8
             },
             {
@@ -34086,18 +34086,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 368,
-              "netSales": 368,
-              "cost": 209,
-              "grossProfit": 159,
-              "quantity": 4
+              "sales": 784.84,
+              "netSales": 784.84,
+              "cost": 514,
+              "grossProfit": 270.84,
+              "quantity": 7
             },
             {
               "key": "other",
-              "sales": 270,
-              "netSales": 270,
+              "sales": 223.54,
+              "netSales": 223.54,
               "cost": 8.2,
-              "grossProfit": 261.8,
+              "grossProfit": 215.34,
               "quantity": 19
             }
           ],
@@ -34107,96 +34107,126 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 3,
-              "sales": 110,
-              "netSales": 110,
+              "sales": 91.08,
+              "netSales": 91.08,
               "cost": 0,
-              "grossProfit": 110
+              "grossProfit": 91.08
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 66.24,
+              "netSales": 66.24,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 66.24
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 24.84,
+              "netSales": 24.84,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 24.84
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL205516Z117",
               "itemName": "WEST LAKE 205/55/16 94W ZUPER FLEX Z117 (2026)",
               "quantity": 4,
-              "sales": 672,
-              "netSales": 672,
+              "sales": 556.34,
+              "netSales": 556.34,
               "cost": 649.6,
-              "grossProfit": 22.4
+              "grossProfit": -93.26
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT215517UC7-26",
               "itemName": "CONTINENTAL 215/55/17 ULTRACON UC7 (2026)",
               "quantity": 4,
-              "sales": 1480,
-              "netSales": 1480,
+              "sales": 1225.28,
+              "netSales": 1225.28,
               "cost": 1480,
-              "grossProfit": 0
+              "grossProfit": -254.72
             },
             {
               "category": "foreman_item",
               "itemCode": "OETL5W30Q9000",
               "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
               "quantity": 1,
-              "sales": 260,
-              "netSales": 260,
+              "sales": 215.25,
+              "netSales": 215.25,
               "cost": 171,
-              "grossProfit": 89
+              "grossProfit": 44.25
             },
             {
               "category": "foreman_item",
               "itemCode": "NSK26110046",
               "itemName": "OIL FILTER PROTON X70",
               "quantity": 1,
-              "sales": 78,
-              "netSales": 78,
+              "sales": 64.58,
+              "netSales": 64.58,
               "cost": 38,
-              "grossProfit": 40
+              "grossProfit": 26.58
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110047",
+              "itemName": "ABSORBER F/RH EXORA 1.6 CPS CFE",
+              "quantity": 1,
+              "sales": 206.97,
+              "netSales": 206.97,
+              "cost": 135,
+              "grossProfit": 71.97
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110048",
+              "itemName": "ABSORBER F/LH EXORA 1.6 CPS CFE",
+              "quantity": 1,
+              "sales": 206.97,
+              "netSales": 206.97,
+              "cost": 135,
+              "grossProfit": 71.97
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110049",
+              "itemName": "ABS COVER FRT P/T BLM EXORA",
+              "quantity": 1,
+              "sales": 66.23,
+              "netSales": 66.23,
+              "cost": 35,
+              "grossProfit": 31.23
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 33.12,
+              "netSales": 33.12,
               "cost": 1.6,
-              "grossProfit": 38.4
+              "grossProfit": 31.52
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 33.1,
+              "netSales": 33.1,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 26.5
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T04:56:57.390Z"
+      "lastCollectedAt": "2026-11-27T05:03:05.822Z"
     },
     "KM": {
       "days": {
@@ -34734,8 +34764,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T04:56:57.390Z"
+      "lastCollectedAt": "2026-11-27T05:03:05.822Z"
     }
   },
-  "updatedAt": "2026-11-27T04:56:57.390Z"
+  "updatedAt": "2026-11-27T05:03:05.822Z"
 }
