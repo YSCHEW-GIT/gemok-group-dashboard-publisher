@@ -10319,7 +10319,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
+      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
     },
     "SR": {
       "days": {
@@ -19648,7 +19648,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19676,11 +19676,11 @@
             },
             {
               "key": "other",
-              "sales": 470,
-              "netSales": 470,
+              "sales": 520,
+              "netSales": 520,
               "cost": 22.25,
-              "grossProfit": 447.75,
-              "quantity": 47
+              "grossProfit": 497.75,
+              "quantity": 50
             }
           ],
           "items": [
@@ -19708,11 +19708,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 14,
-              "sales": 210,
-              "netSales": 210,
+              "quantity": 15,
+              "sales": 240,
+              "netSales": 240,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 240
             },
             {
               "category": "foreman_item",
@@ -19728,11 +19728,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 19,
-              "sales": 20,
-              "netSales": 20,
+              "quantity": 21,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -19938,7 +19938,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
+      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
     },
     "ST": {
       "days": {
@@ -28757,7 +28757,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
+      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
     },
     "SK": {
       "days": {
@@ -34386,15 +34386,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 7,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2450,
-              "netSales": 2450,
-              "cost": 2257.6,
+              "sales": 3690,
+              "netSales": 3690,
+              "cost": 3497.6,
               "grossProfit": 192.4,
-              "quantity": 9
+              "quantity": 13
             },
             {
               "key": "sport_rim",
@@ -34414,11 +34414,11 @@
             },
             {
               "key": "other",
-              "sales": 233,
-              "netSales": 233,
+              "sales": 303,
+              "netSales": 303,
               "cost": 8.6,
-              "grossProfit": 224.4,
-              "quantity": 26
+              "grossProfit": 294.4,
+              "quantity": 31
             }
           ],
           "items": [
@@ -34426,11 +34426,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 70,
-              "netSales": 70,
+              "quantity": 5,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -34446,11 +34446,11 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 9,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 13,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 40
             },
             {
               "category": "other",
@@ -34491,6 +34491,16 @@
               "netSales": 148,
               "cost": 128,
               "grossProfit": 20
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPYH235018RV03-26",
+              "itemName": "YOKOHAMA 235/50/18 RV03 (2026)",
+              "quantity": 4,
+              "sales": 1240,
+              "netSales": 1240,
+              "cost": 1240,
+              "grossProfit": 0
             },
             {
               "category": "passenger_tire",
@@ -34596,7 +34606,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
+      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
     },
     "KM": {
       "days": {
@@ -35134,8 +35144,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:14:07.491Z"
+      "lastCollectedAt": "2026-11-27T10:20:14.502Z"
     }
   },
-  "updatedAt": "2026-11-27T10:14:07.491Z"
+  "updatedAt": "2026-11-27T10:20:14.502Z"
 }
