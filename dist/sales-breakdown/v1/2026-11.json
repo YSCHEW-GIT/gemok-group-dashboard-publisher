@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 4,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1780,
-              "netSales": 1780,
-              "cost": 1996,
-              "grossProfit": -216,
-              "quantity": 11
+              "sales": 2362,
+              "netSales": 2362,
+              "cost": 2524,
+              "grossProfit": -162,
+              "quantity": 15
             },
             {
               "key": "sport_rim",
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 387,
-              "netSales": 372.94,
-              "cost": 24.15,
-              "grossProfit": 348.79,
-              "quantity": 26
+              "sales": 415,
+              "netSales": 400.94,
+              "cost": 26.75,
+              "grossProfit": 374.19,
+              "quantity": 35
             }
           ],
           "items": [
@@ -10039,7 +10039,7 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 3,
+              "quantity": 4,
               "sales": 90,
               "netSales": 83.34,
               "cost": 0,
@@ -10049,7 +10049,7 @@
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
+              "quantity": 14,
               "sales": 100,
               "netSales": 92.6,
               "cost": 0,
@@ -10080,10 +10080,20 @@
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
-              "sales": 792,
-              "netSales": 792,
+              "sales": 862,
+              "netSales": 862,
               "cost": 924,
-              "grossProfit": -132
+              "grossProfit": -62
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT185515AX77-26",
+              "itemName": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
+              "quantity": 4,
+              "sales": 512,
+              "netSales": 512,
+              "cost": 528,
+              "grossProfit": -16
             },
             {
               "category": "other",
@@ -10109,17 +10119,17 @@
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
-              "quantity": 1,
-              "sales": 7,
-              "netSales": 7,
-              "cost": 0.65,
-              "grossProfit": 6.35
+              "quantity": 5,
+              "sales": 35,
+              "netSales": 35,
+              "cost": 3.25,
+              "grossProfit": 31.75
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:17:01.425Z"
+      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
     },
     "SR": {
       "days": {
@@ -19448,7 +19458,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19460,34 +19470,105 @@
             },
             {
               "key": "sport_rim",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 81.39,
+              "netSales": 81.39,
               "cost": 0,
-              "grossProfit": 0,
+              "grossProfit": 81.39,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 78.92,
+              "netSales": 78.92,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 78.92,
+              "quantity": 1
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 167.69,
+              "netSales": 167.69,
+              "cost": 50,
+              "grossProfit": 117.69,
+              "quantity": 9
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617441",
+              "itemName": "USED SPORT RIM 15X7 8H (US2617441)",
+              "quantity": 1,
+              "sales": 284.1,
+              "netSales": 284.1,
+              "cost": 200,
+              "grossProfit": 84.1
+            },
+            {
+              "category": "sport_rim",
+              "itemCode": "US2617482",
+              "itemName": "USED SPORT RIM 17X7.5 8H",
+              "quantity": -1,
+              "sales": -202.71,
+              "netSales": -202.71,
+              "cost": -200,
+              "grossProfit": -2.71
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 59.18,
+              "netSales": 59.18,
+              "cost": 0,
+              "grossProfit": 59.18
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 78.92,
+              "netSales": 78.92,
+              "cost": 0,
+              "grossProfit": 78.92
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 39.46,
+              "netSales": 39.46,
+              "cost": 0,
+              "grossProfit": 39.46
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 9.86,
+              "netSales": 9.86,
+              "cost": 0,
+              "grossProfit": 9.86
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 59.19,
+              "netSales": 59.19,
+              "cost": 50,
+              "grossProfit": 9.19
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:17:01.425Z"
+      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
     },
     "ST": {
       "days": {
@@ -28166,7 +28247,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:17:01.425Z"
+      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
     },
     "SK": {
       "days": {
@@ -33795,7 +33876,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
@@ -33815,11 +33896,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 338,
+              "netSales": 338,
+              "cost": 209,
+              "grossProfit": 129,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -33830,11 +33911,32 @@
               "quantity": 0
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "foreman_item",
+              "itemCode": "OETL5W30Q9000",
+              "itemName": "TOTAL 5W30 QUARTZ 9000 FULLY SYNTHETIC ENG OIL",
+              "quantity": 1,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 171,
+              "grossProfit": 89
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110046",
+              "itemName": "OIL FILTER PROTON X70",
+              "quantity": 1,
+              "sales": 78,
+              "netSales": 78,
+              "cost": 38,
+              "grossProfit": 40
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:17:01.425Z"
+      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
     },
     "KM": {
       "days": {
@@ -34372,8 +34474,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:17:01.425Z"
+      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
     }
   },
-  "updatedAt": "2026-11-27T02:17:01.425Z"
+  "updatedAt": "2026-11-27T02:36:50.425Z"
 }
