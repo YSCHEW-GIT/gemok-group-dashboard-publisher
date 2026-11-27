@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3752,
-              "netSales": 3752,
+              "sales": 3912,
+              "netSales": 3912,
               "cost": 3632,
-              "grossProfit": 120,
-              "quantity": 23
+              "grossProfit": 280,
+              "quantity": 25
             },
             {
               "key": "sport_rim",
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 538,
-              "netSales": 523.2,
-              "cost": 45.95,
-              "grossProfit": 477.25,
-              "quantity": 60
+              "sales": 598,
+              "netSales": 580.24,
+              "cost": 49.25,
+              "grossProfit": 530.99,
+              "quantity": 63
             }
           ],
           "items": [
@@ -10034,6 +10034,16 @@
               "netSales": 40,
               "cost": 0,
               "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "UT225519",
+              "itemName": "USED TIRE 225/55/19",
+              "quantity": 2,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 0,
+              "grossProfit": 160
             },
             {
               "category": "other",
@@ -10089,11 +10099,11 @@
               "category": "other",
               "itemCode": "ALGNFB",
               "itemName": "Alignment (Front & Back)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 40,
+              "netSales": 37.04,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 37.04
             },
             {
               "category": "passenger_tire",
@@ -10209,11 +10219,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 14,
-              "sales": 140,
-              "netSales": 140,
-              "cost": 23.1,
-              "grossProfit": 116.9
+              "quantity": 16,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 26.4,
+              "grossProfit": 133.6
             },
             {
               "category": "other",
@@ -10239,7 +10249,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:42:36.438Z"
+      "lastCollectedAt": "2026-11-27T05:48:42.624Z"
     },
     "SR": {
       "days": {
@@ -19758,7 +19768,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:42:36.438Z"
+      "lastCollectedAt": "2026-11-27T05:48:42.624Z"
     },
     "ST": {
       "days": {
@@ -28477,7 +28487,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:42:36.438Z"
+      "lastCollectedAt": "2026-11-27T05:48:42.624Z"
     },
     "SK": {
       "days": {
@@ -34276,7 +34286,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:42:36.438Z"
+      "lastCollectedAt": "2026-11-27T05:48:42.624Z"
     },
     "KM": {
       "days": {
@@ -34814,8 +34824,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T05:42:36.438Z"
+      "lastCollectedAt": "2026-11-27T05:48:42.624Z"
     }
   },
-  "updatedAt": "2026-11-27T05:42:36.438Z"
+  "updatedAt": "2026-11-27T05:48:42.624Z"
 }
