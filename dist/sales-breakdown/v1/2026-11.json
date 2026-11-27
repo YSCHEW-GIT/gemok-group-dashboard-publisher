@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 6,
+          "documents": 8,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2355.12,
-              "netSales": 2355.12,
-              "cost": 2524,
-              "grossProfit": -168.88,
-              "quantity": 15
+              "sales": 3012,
+              "netSales": 3012,
+              "cost": 2954,
+              "grossProfit": 58,
+              "quantity": 17
             },
             {
               "key": "sport_rim",
@@ -10009,19 +10009,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 638.21,
-              "netSales": 614.51,
+              "sales": 640,
+              "netSales": 616.3,
               "cost": 190,
-              "grossProfit": 424.51,
+              "grossProfit": 426.3,
               "quantity": 2
             },
             {
               "key": "other",
-              "sales": 473.67,
-              "netSales": 455.17,
-              "cost": 26.75,
-              "grossProfit": 428.42,
-              "quantity": 38
+              "sales": 375,
+              "netSales": 365.38,
+              "cost": 30.05,
+              "grossProfit": 335.33,
+              "quantity": 43
             }
           ],
           "items": [
@@ -10030,146 +10030,166 @@
               "itemCode": "UT176514",
               "itemName": "USED TIRE 175/65/14",
               "quantity": 1,
-              "sales": 39.88,
-              "netSales": 39.88,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 39.88
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 4,
-              "sales": 89.76,
-              "netSales": 83.1,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 83.1
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 14,
-              "sales": 99.73,
-              "netSales": 92.33,
+              "quantity": 16,
+              "sales": 20,
+              "netSales": 18.52,
               "cost": 0,
-              "grossProfit": 92.33
+              "grossProfit": 18.52
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 49.87,
-              "netSales": 46.17,
+              "sales": 50,
+              "netSales": 46.3,
               "cost": 0,
-              "grossProfit": 46.17
+              "grossProfit": 46.3
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 319.14,
-              "netSales": 295.44,
+              "sales": 320,
+              "netSales": 296.3,
               "cost": 0,
-              "grossProfit": 295.44
+              "grossProfit": 296.3
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.97,
-              "netSales": 9.23,
+              "sales": 10,
+              "netSales": 9.26,
               "cost": 0,
-              "grossProfit": 9.23
+              "grossProfit": 9.26
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 50,
+              "netSales": 46.3,
+              "cost": 0,
+              "grossProfit": 46.3
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 4,
-              "sales": 789.69,
-              "netSales": 789.69,
+              "sales": 862,
+              "netSales": 862,
               "cost": 920,
-              "grossProfit": -130.31
+              "grossProfit": -58
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR176514R330-26",
               "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
               "quantity": 2,
-              "sales": 155.55,
-              "netSales": 155.55,
+              "sales": 206,
+              "netSales": 206,
               "cost": 152,
-              "grossProfit": 3.55
+              "grossProfit": 54
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPCT195515CC7",
               "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
               "quantity": 4,
-              "sales": 859.49,
-              "netSales": 859.49,
+              "sales": 862,
+              "netSales": 862,
               "cost": 924,
-              "grossProfit": -64.51
+              "grossProfit": -62
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPAT185515AX77-26",
               "itemName": "ATLANDER 185/55/15 XSPORT-AX77 BSW 82V TL TH (2026)",
               "quantity": 4,
-              "sales": 510.51,
-              "netSales": 510.51,
+              "sales": 582,
+              "netSales": 582,
               "cost": 528,
-              "grossProfit": -17.49
+              "grossProfit": 54
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPAT225017X86-26",
+              "itemName": "ATLANDER 225/50/17 XSPORT-86 BSW 98W TH (2026)",
+              "quantity": 2,
+              "sales": 460,
+              "netSales": 460,
+              "cost": 430,
+              "grossProfit": 30
             },
             {
               "category": "foreman_item",
               "itemCode": "NSKBRAKEPADRR",
               "itemName": "BRAKE PAD FRT M2923",
               "quantity": 1,
-              "sales": 319.07,
-              "netSales": 319.07,
+              "sales": 320,
+              "netSales": 320,
               "cost": 190,
-              "grossProfit": 129.07
+              "grossProfit": 130
             },
             {
               "category": "other",
               "itemCode": "MNC019",
               "itemName": "CAMBER NUT PERODUA/PROTON",
               "quantity": 2,
-              "sales": 89.74,
-              "netSales": 89.74,
+              "sales": 90,
+              "netSales": 90,
               "cost": 7,
-              "grossProfit": 82.74
+              "grossProfit": 83
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
-              "quantity": 10,
-              "sales": 99.7,
-              "netSales": 99.7,
-              "cost": 16.5,
-              "grossProfit": 83.2
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "TUBELESS VALVE RUBBER",
               "quantity": 5,
-              "sales": 34.9,
-              "netSales": 34.9,
+              "sales": 35,
+              "netSales": 35,
               "cost": 3.25,
-              "grossProfit": 31.65
+              "grossProfit": 31.75
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:26:32.823Z"
+      "lastCollectedAt": "2026-11-27T03:32:38.852Z"
     },
     "SR": {
       "days": {
@@ -19668,7 +19688,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:26:32.823Z"
+      "lastCollectedAt": "2026-11-27T03:32:38.852Z"
     },
     "ST": {
       "days": {
@@ -28275,11 +28295,11 @@
             },
             {
               "key": "other",
-              "sales": 218,
-              "netSales": 218,
-              "cost": 9.2,
-              "grossProfit": 208.8,
-              "quantity": 19
+              "sales": 308,
+              "netSales": 308,
+              "cost": 16.2,
+              "grossProfit": 291.8,
+              "quantity": 21
             }
           ],
           "items": [
@@ -28355,6 +28375,16 @@
             },
             {
               "category": "other",
+              "itemCode": "MNCPRKNCL",
+              "itemName": "CAMBER NUT PERODUA",
+              "quantity": 2,
+              "sales": 90,
+              "netSales": 90,
+              "cost": 7,
+              "grossProfit": 83
+            },
+            {
+              "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "TUBELESS VALVE-STEEL",
               "quantity": 4,
@@ -28377,7 +28407,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:26:32.823Z"
+      "lastCollectedAt": "2026-11-27T03:32:38.852Z"
     },
     "SK": {
       "days": {
@@ -34076,7 +34106,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:26:32.823Z"
+      "lastCollectedAt": "2026-11-27T03:32:38.852Z"
     },
     "KM": {
       "days": {
@@ -34614,8 +34644,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T03:26:32.823Z"
+      "lastCollectedAt": "2026-11-27T03:32:38.852Z"
     }
   },
-  "updatedAt": "2026-11-27T03:26:32.823Z"
+  "updatedAt": "2026-11-27T03:32:38.852Z"
 }
