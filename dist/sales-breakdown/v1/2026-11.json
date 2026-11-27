@@ -10269,7 +10269,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:06:05.653Z"
+      "lastCollectedAt": "2026-11-27T07:18:42.454Z"
     },
     "SR": {
       "days": {
@@ -19602,35 +19602,35 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1008,
-              "netSales": 1008,
-              "cost": 1047.2,
-              "grossProfit": -39.2,
-              "quantity": 7
+              "sales": 1178.41,
+              "netSales": 1178.41,
+              "cost": 1373.6,
+              "grossProfit": -195.19,
+              "quantity": 9
             },
             {
               "key": "sport_rim",
-              "sales": 88,
-              "netSales": 88,
+              "sales": 29.8,
+              "netSales": 29.8,
               "cost": 0,
-              "grossProfit": 88,
+              "grossProfit": 29.8,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 970,
-              "netSales": 970,
+              "sales": 854.32,
+              "netSales": 854.32,
               "cost": 486.8,
-              "grossProfit": 483.2,
+              "grossProfit": 367.52,
               "quantity": 9
             },
             {
               "key": "other",
-              "sales": 340,
-              "netSales": 340,
+              "sales": 343.47,
+              "netSales": 343.47,
               "cost": 14,
-              "grossProfit": 326,
-              "quantity": 25
+              "grossProfit": 329.47,
+              "quantity": 28
             }
           ],
           "items": [
@@ -19639,120 +19639,130 @@
               "itemCode": "US2617441",
               "itemName": "USED SPORT RIM 15X7 8H (US2617441)",
               "quantity": 1,
-              "sales": 288,
-              "netSales": 288,
+              "sales": 253.65,
+              "netSales": 253.65,
               "cost": 200,
-              "grossProfit": 88
+              "grossProfit": 53.65
             },
             {
               "category": "sport_rim",
               "itemCode": "US2617482",
               "itemName": "USED SPORT RIM 17X7.5 8H",
               "quantity": -1,
-              "sales": -200,
-              "netSales": -200,
+              "sales": -223.85,
+              "netSales": -223.85,
               "cost": -200,
-              "grossProfit": 0
+              "grossProfit": -23.85
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 7,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 8,
+              "sales": 132.1,
+              "netSales": 132.1,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 132.1
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 80,
-              "netSales": 80,
+              "sales": 70.46,
+              "netSales": 70.46,
               "cost": 0,
-              "grossProfit": 80
+              "grossProfit": 70.46
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 10,
-              "sales": 40,
-              "netSales": 40,
+              "quantity": 12,
+              "sales": 52.84,
+              "netSales": 52.84,
               "cost": 0,
-              "grossProfit": 40
+              "grossProfit": 52.84
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 17.62,
+              "netSales": 17.62,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 17.62
             },
             {
               "category": "other",
               "itemCode": "SRVCHG",
               "itemName": "SERVICE CHARGE",
               "quantity": 2,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 17.61,
+              "netSales": 17.61,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 17.61
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPZT185515VD-26",
               "itemName": "ZETA 185/55/15 VERDANT 82V TL THAI (2026)",
               "quantity": 1,
-              "sales": 138,
-              "netSales": 138,
+              "sales": 121.54,
+              "netSales": 121.54,
               "cost": 128,
-              "grossProfit": 10
+              "grossProfit": -6.46
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWL165514RP18-26",
               "itemName": "WEST LAKE 165/55/14 RP18 72V TH (2026)",
               "quantity": 2,
-              "sales": 248,
-              "netSales": 248,
+              "sales": 218.42,
+              "netSales": 218.42,
               "cost": 235.2,
-              "grossProfit": 12.8
+              "grossProfit": -16.78
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL196515Z117",
+              "itemName": "WEST LAKE 195/65/15 91H ZUPER FLEX Z-117 (2026)",
+              "quantity": 2,
+              "sales": 290.64,
+              "netSales": 290.64,
+              "cost": 326.4,
+              "grossProfit": -35.76
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 622,
-              "netSales": 622,
+              "sales": 547.81,
+              "netSales": 547.81,
               "cost": 684,
-              "grossProfit": -62
+              "grossProfit": -136.19
             },
             {
               "category": "foreman_item",
               "itemCode": "PWBNTNBLMR",
               "itemName": "NTN WHEEL BEARING SAGA BLM, VVT, IRIZ, PERSONA, SAVVY REAR-0574",
               "quantity": 1,
-              "sales": 160,
-              "netSales": 160,
+              "sales": 140.92,
+              "netSales": 140.92,
               "cost": 54,
-              "grossProfit": 106
+              "grossProfit": 86.92
             },
             {
               "category": "foreman_item",
               "itemCode": "PAFCMVVA",
               "itemName": "AIR FILTER VIVA / MYV 1.0 17801-BZ010",
               "quantity": 1,
-              "sales": 30,
-              "netSales": 30,
+              "sales": 26.42,
+              "netSales": 26.42,
               "cost": 8,
-              "grossProfit": 22
+              "grossProfit": 18.42
             },
             {
               "category": "foreman_item",
@@ -19769,46 +19779,46 @@
               "itemCode": "OEHX10W30Q5000",
               "itemName": "HELIX HX5 10W30 5000 SEMI SYTHENTIC ENG OIL 4X3L",
               "quantity": 1,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 123.3,
+              "netSales": 123.3,
               "cost": 72,
-              "grossProfit": 68
+              "grossProfit": 51.3
             },
             {
               "category": "foreman_item",
               "itemCode": "PAOFP2D3GR",
               "itemName": "PERODUA AUTO OIL D3-SP 1L GREEN (20K)",
               "quantity": 3,
-              "sales": 180,
-              "netSales": 180,
+              "sales": 158.53,
+              "netSales": 158.53,
               "cost": 64.8,
-              "grossProfit": 115.2
+              "grossProfit": 93.73
             },
             {
               "category": "other",
               "itemCode": "MNCPRKNCL",
               "itemName": "CAMBER NUT PERODUA",
               "quantity": 4,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 123.3,
+              "netSales": 123.3,
               "cost": 14,
-              "grossProfit": 126
+              "grossProfit": 109.3
             },
             {
               "category": "foreman_item",
               "itemCode": "PABSVKBZFRT",
               "itemName": "VERKE ABSORBER-SR PERODUA AXIA/BEZZA 14 LH-RH FRT SHK 332M077/M077 (VR01 4016/4017)",
               "quantity": 1,
-              "sales": 380,
-              "netSales": 380,
+              "sales": 334.69,
+              "netSales": 334.69,
               "cost": 280,
-              "grossProfit": 100
+              "grossProfit": 54.69
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:06:05.653Z"
+      "lastCollectedAt": "2026-11-27T07:18:42.454Z"
     },
     "ST": {
       "days": {
@@ -28527,7 +28537,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:06:05.653Z"
+      "lastCollectedAt": "2026-11-27T07:18:42.454Z"
     },
     "SK": {
       "days": {
@@ -34346,7 +34356,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:06:05.653Z"
+      "lastCollectedAt": "2026-11-27T07:18:42.454Z"
     },
     "KM": {
       "days": {
@@ -34884,8 +34894,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T07:06:05.653Z"
+      "lastCollectedAt": "2026-11-27T07:18:42.454Z"
     }
   },
-  "updatedAt": "2026-11-27T07:06:05.653Z"
+  "updatedAt": "2026-11-27T07:18:42.454Z"
 }
