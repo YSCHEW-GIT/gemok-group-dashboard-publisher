@@ -9989,14 +9989,14 @@
           ]
         },
         "2026-11-27": {
-          "documents": 17,
+          "documents": 18,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 7256,
-              "netSales": 7256,
+              "sales": 7466,
+              "netSales": 7466,
               "cost": 6730,
-              "grossProfit": 526,
+              "grossProfit": 736,
               "quantity": 39
             },
             {
@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 798,
-              "netSales": 772.84,
+              "sales": 618,
+              "netSales": 606.16,
               "cost": 65.75,
-              "grossProfit": 707.09,
-              "quantity": 94
+              "grossProfit": 540.41,
+              "quantity": 95
             }
           ],
           "items": [
@@ -10049,21 +10049,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 10,
-              "sales": 90,
-              "netSales": 83.34,
+              "quantity": 11,
+              "sales": 30,
+              "netSales": 27.78,
               "cost": 0,
-              "grossProfit": 83.34
+              "grossProfit": 27.78
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 38,
-              "sales": 120,
-              "netSales": 111.12,
+              "sales": 0,
+              "netSales": 0,
               "cost": 0,
-              "grossProfit": 111.12
+              "grossProfit": 0
             },
             {
               "category": "other",
@@ -10110,10 +10110,10 @@
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
               "quantity": 8,
-              "sales": 1654,
-              "netSales": 1654,
+              "sales": 1724,
+              "netSales": 1724,
               "cost": 1840,
-              "grossProfit": -186
+              "grossProfit": -116
             },
             {
               "category": "passenger_tire",
@@ -10140,10 +10140,10 @@
               "itemCode": "TPWR214517R330-26",
               "itemName": "WINRUN 215/45/17 R330 91W XL TL CN (2026)",
               "quantity": 4,
-              "sales": 512,
-              "netSales": 512,
+              "sales": 582,
+              "netSales": 582,
               "cost": 464,
-              "grossProfit": 48
+              "grossProfit": 118
             },
             {
               "category": "passenger_tire",
@@ -10170,10 +10170,10 @@
               "itemCode": "TPBS206017T005A-26",
               "itemName": "BRIDGESTONE 205/60/17 TURANZA T005A 94H TH (2026)",
               "quantity": 4,
-              "sales": 1480,
-              "netSales": 1480,
+              "sales": 1550,
+              "netSales": 1550,
               "cost": 1384,
-              "grossProfit": 96
+              "grossProfit": 166
             },
             {
               "category": "passenger_tire",
@@ -10279,7 +10279,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
+      "lastCollectedAt": "2026-11-27T08:16:41.846Z"
     },
     "SR": {
       "days": {
@@ -19828,7 +19828,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
+      "lastCollectedAt": "2026-11-27T08:16:41.846Z"
     },
     "ST": {
       "days": {
@@ -28567,7 +28567,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
+      "lastCollectedAt": "2026-11-27T08:16:41.846Z"
     },
     "SK": {
       "days": {
@@ -34406,7 +34406,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
+      "lastCollectedAt": "2026-11-27T08:16:41.846Z"
     },
     "KM": {
       "days": {
@@ -34944,8 +34944,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T08:10:34.874Z"
+      "lastCollectedAt": "2026-11-27T08:16:41.846Z"
     }
   },
-  "updatedAt": "2026-11-27T08:10:34.874Z"
+  "updatedAt": "2026-11-27T08:16:41.846Z"
 }
