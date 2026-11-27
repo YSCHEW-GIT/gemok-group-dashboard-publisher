@@ -10009,11 +10009,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 640,
+              "netSales": 616.3,
+              "cost": 190,
+              "grossProfit": 426.3,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -10056,6 +10056,16 @@
               "grossProfit": 92.6
             },
             {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 320,
+              "netSales": 296.3,
+              "cost": 0,
+              "grossProfit": 296.3
+            },
+            {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN FLEVA V701 85V (2026)",
@@ -10096,6 +10106,16 @@
               "grossProfit": -16
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSKBRAKEPADRR",
+              "itemName": "BRAKE PAD FRT M2923",
+              "quantity": 1,
+              "sales": 320,
+              "netSales": 320,
+              "cost": 190,
+              "grossProfit": 130
+            },
+            {
               "category": "other",
               "itemCode": "MNC019",
               "itemName": "CAMBER NUT PERODUA/PROTON",
@@ -10129,7 +10149,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
+      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
     },
     "SR": {
       "days": {
@@ -19458,7 +19478,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 2,
+          "documents": 3,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19470,26 +19490,26 @@
             },
             {
               "key": "sport_rim",
-              "sales": 81.39,
-              "netSales": 81.39,
+              "sales": 88,
+              "netSales": 88,
               "cost": 0,
-              "grossProfit": 81.39,
+              "grossProfit": 88,
               "quantity": 0
             },
             {
               "key": "foreman_item",
-              "sales": 78.92,
-              "netSales": 78.92,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 78.92,
+              "grossProfit": 80,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 167.69,
-              "netSales": 167.69,
+              "sales": 170,
+              "netSales": 170,
               "cost": 50,
-              "grossProfit": 117.69,
+              "grossProfit": 120,
               "quantity": 9
             }
           ],
@@ -19499,76 +19519,76 @@
               "itemCode": "US2617441",
               "itemName": "USED SPORT RIM 15X7 8H (US2617441)",
               "quantity": 1,
-              "sales": 284.1,
-              "netSales": 284.1,
+              "sales": 288,
+              "netSales": 288,
               "cost": 200,
-              "grossProfit": 84.1
+              "grossProfit": 88
             },
             {
               "category": "sport_rim",
               "itemCode": "US2617482",
               "itemName": "USED SPORT RIM 17X7.5 8H",
               "quantity": -1,
-              "sales": -202.71,
-              "netSales": -202.71,
+              "sales": -200,
+              "netSales": -200,
               "cost": -200,
-              "grossProfit": -2.71
+              "grossProfit": 0
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 2,
-              "sales": 59.18,
-              "netSales": 59.18,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 59.18
+              "grossProfit": 60
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 78.92,
-              "netSales": 78.92,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 78.92
+              "grossProfit": 80
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 4,
-              "sales": 39.46,
-              "netSales": 39.46,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 39.46
+              "grossProfit": 40
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 9.86,
-              "netSales": 9.86,
+              "sales": 10,
+              "netSales": 10,
               "cost": 0,
-              "grossProfit": 9.86
+              "grossProfit": 10
             },
             {
               "category": "other",
               "itemCode": "ADJCHM",
               "itemName": "ADJUST CAMBER",
               "quantity": 2,
-              "sales": 59.19,
-              "netSales": 59.19,
+              "sales": 60,
+              "netSales": 60,
               "cost": 50,
-              "grossProfit": 9.19
+              "grossProfit": 10
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
+      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
     },
     "ST": {
       "days": {
@@ -28247,7 +28267,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
+      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
     },
     "SK": {
       "days": {
@@ -33936,7 +33956,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
+      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
     },
     "KM": {
       "days": {
@@ -34474,8 +34494,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:36:50.425Z"
+      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
     }
   },
-  "updatedAt": "2026-11-27T02:36:50.425Z"
+  "updatedAt": "2026-11-27T02:42:55.772Z"
 }
