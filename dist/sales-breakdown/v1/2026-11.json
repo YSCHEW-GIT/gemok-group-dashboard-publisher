@@ -10159,7 +10159,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:55:09.443Z"
+      "lastCollectedAt": "2026-11-27T03:08:16.710Z"
     },
     "SR": {
       "days": {
@@ -19488,7 +19488,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 4,
+          "documents": 5,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19508,11 +19508,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 80,
-              "netSales": 80,
-              "cost": 0,
-              "grossProfit": 80,
-              "quantity": 1
+              "sales": 240,
+              "netSales": 240,
+              "cost": 54,
+              "grossProfit": 186,
+              "quantity": 2
             },
             {
               "key": "other",
@@ -19593,12 +19593,22 @@
               "netSales": 60,
               "cost": 50,
               "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWBNTNBLMR",
+              "itemName": "NTN WHEEL BEARING SAGA BLM, VVT, IRIZ, PERSONA, SAVVY REAR-0574",
+              "quantity": 1,
+              "sales": 160,
+              "netSales": 160,
+              "cost": 54,
+              "grossProfit": 106
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:55:09.443Z"
+      "lastCollectedAt": "2026-11-27T03:08:16.710Z"
     },
     "ST": {
       "days": {
@@ -28277,7 +28287,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:55:09.443Z"
+      "lastCollectedAt": "2026-11-27T03:08:16.710Z"
     },
     "SK": {
       "days": {
@@ -33976,7 +33986,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:55:09.443Z"
+      "lastCollectedAt": "2026-11-27T03:08:16.710Z"
     },
     "KM": {
       "days": {
@@ -34514,8 +34524,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:55:09.443Z"
+      "lastCollectedAt": "2026-11-27T03:08:16.710Z"
     }
   },
-  "updatedAt": "2026-11-27T02:55:09.443Z"
+  "updatedAt": "2026-11-27T03:08:16.710Z"
 }
