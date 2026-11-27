@@ -10279,7 +10279,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:21:20.324Z"
+      "lastCollectedAt": "2026-11-27T09:27:27.380Z"
     },
     "SR": {
       "days": {
@@ -19878,7 +19878,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:21:20.324Z"
+      "lastCollectedAt": "2026-11-27T09:27:27.380Z"
     },
     "ST": {
       "days": {
@@ -28461,19 +28461,19 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3835,
-              "netSales": 3835,
+              "sales": 3905,
+              "netSales": 3905,
               "cost": 3844,
-              "grossProfit": -9,
+              "grossProfit": 61,
               "quantity": 20
             },
             {
               "key": "sport_rim",
               "sales": 588,
               "netSales": 588,
-              "cost": 801,
-              "grossProfit": -213,
-              "quantity": 1
+              "cost": 601,
+              "grossProfit": -13,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -28485,14 +28485,24 @@
             },
             {
               "key": "other",
-              "sales": 1098,
-              "netSales": 1098,
+              "sales": 1028,
+              "netSales": 1028,
               "cost": 226.74,
-              "grossProfit": 871.26,
+              "grossProfit": 801.26,
               "quantity": 58
             }
           ],
           "items": [
+            {
+              "category": "sport_rim",
+              "itemCode": "US2612123S",
+              "itemName": "USED SPORT RIM 15X5JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
             {
               "category": "other",
               "itemCode": "SSD2MYOLD",
@@ -28508,30 +28518,30 @@
               "itemCode": "SR156541ET40-HBML-ADVGT",
               "itemName": "SPORT RIM 15X6.5 4X100 ET40 HYPER BLACK MILLING ML FFGT035A08ML (ADV GT)",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 801,
-              "grossProfit": -213
+              "grossProfit": -13
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 7,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 24,
-              "sales": 140,
-              "netSales": 140,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 140
+              "grossProfit": 100
             },
             {
               "category": "foreman_item",
@@ -28598,10 +28608,10 @@
               "itemCode": "TPGN195515GS5",
               "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
               "quantity": 4,
-              "sales": 592,
-              "netSales": 592,
+              "sales": 662,
+              "netSales": 662,
               "cost": 684,
-              "grossProfit": -92
+              "grossProfit": -22
             },
             {
               "category": "passenger_tire",
@@ -28687,7 +28697,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:21:20.324Z"
+      "lastCollectedAt": "2026-11-27T09:27:27.380Z"
     },
     "SK": {
       "days": {
@@ -34526,7 +34536,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:21:20.324Z"
+      "lastCollectedAt": "2026-11-27T09:27:27.380Z"
     },
     "KM": {
       "days": {
@@ -35064,8 +35074,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T09:21:20.324Z"
+      "lastCollectedAt": "2026-11-27T09:27:27.380Z"
     }
   },
-  "updatedAt": "2026-11-27T09:21:20.324Z"
+  "updatedAt": "2026-11-27T09:27:27.380Z"
 }
