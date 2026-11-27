@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-27T01:03:11.028Z",
+  "updatedAt": "2026-11-27T03:05:10.797Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 446,
-      "quantity": 1940,
-      "stockValue": 415175.42000000004
+      "quantity": 1928,
+      "stockValue": 413187.0200000001
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 702,
-      "quantity": 626,
-      "stockValue": 331180.52
+      "sku": 710,
+      "quantity": 635,
+      "stockValue": 338877.52
     },
     {
       "key": "absorber",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 256,
-      "stockValue": 13220.349999999999
+      "quantity": 255,
+      "stockValue": 13167.55
     },
     {
       "key": "brake-pump",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 106,
-      "quantity": 2166,
-      "stockValue": 159621.68
+      "quantity": 2165,
+      "stockValue": 159450.68
     },
     {
       "key": "oil-filter",
@@ -133,7 +133,7 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2107,
+      "sku": 2108,
       "quantity": 2013,
       "stockValue": 175844.5
     },
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9680,
-      "stockValue": 58412.42
+      "quantity": 9659,
+      "stockValue": 58383.06999999999
     },
     {
       "key": "non-stock-item",
@@ -278,7 +278,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 132,
           "price": 140
         },
@@ -2090,7 +2090,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 22,
+          "quantity": 18,
           "cost": 231,
           "price": 198
         },
@@ -8189,7 +8189,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 10,
           "cost": 126.4,
           "price": 108
         }
@@ -8320,8 +8320,8 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 2,
-          "cost": 147,
+          "quantity": 4,
+          "cost": 146.4,
           "price": 148
         }
       ]
@@ -8649,7 +8649,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 12,
           "cost": 149.6,
           "price": 160
         }
@@ -9446,7 +9446,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 12,
           "cost": 76,
           "price": 0
         },
@@ -9473,7 +9473,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 2,
           "cost": 77,
           "price": 78
         }
@@ -9947,7 +9947,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 23,
+          "quantity": 19,
           "cost": 230,
           "price": 0
         },
@@ -22136,6 +22136,25 @@
       ]
     },
     {
+      "code": "SR1564HET40-BLK CHRM (ADV GT)",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 4X100 ET40 BLK CHROME (ADV GT)",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 1150,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "SR156541-DB-CE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -22307,6 +22326,15 @@
         {
           "rowKey": "default#1",
           "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 801,
+          "price": 488
+        },
+        {
+          "rowKey": "default#1",
+          "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 1,
@@ -22563,6 +22591,25 @@
       ]
     },
     {
+      "code": "SR15658GM+CPLP-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X6.5 8X100/114.3 ET40 GM+CPLP (JW-C28)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 650,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "SR15658H-BMC-CE28",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -22743,6 +22790,25 @@
       ]
     },
     {
+      "code": "SR157041ET35-BL-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET35 BLUE PROTE570A44 (TE37)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 751,
+          "price": 488
+        }
+      ]
+    },
+    {
       "code": "SR157041ET35-CRM-RGD2",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -22857,6 +22923,25 @@
       ]
     },
     {
+      "code": "SR157041ET35-HBM-RGD2",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET35 HYPER BLACK MACHINE FF17570A08L -ADVAN RACING (RGD2)",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 751,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "SR157041ET35-HS-ENKEI",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -22890,6 +22975,25 @@
           "location": "",
           "quantity": 1,
           "cost": 736,
+          "price": 488
+        }
+      ]
+    },
+    {
+      "code": "SR157041ET35-RG-TE37",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 15X7.0 4X100 ET35 RACING GREEN PROTE570A56 (TE37)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 751,
           "price": 488
         }
       ]
@@ -23699,6 +23803,25 @@
       ]
     },
     {
+      "code": "SR167041ET35-DHB-RE30",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 16X7.0 4X100 ET35 DARK HYPER BRZ PROTE670A52 (RE30)",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 951,
+          "price": 688
+        }
+      ]
+    },
+    {
       "code": "SR167041ET35-SIL-ADVRC",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -23752,6 +23875,25 @@
           "quantity": 1,
           "cost": 901,
           "price": 688
+        }
+      ]
+    },
+    {
+      "code": "SR167041ET38-HB-TC105X",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 16X7 4X100 ET38 HB HYPER BLACK TNP-4231 (TC105X)",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 941,
+          "price": 0
         }
       ]
     },
@@ -23847,6 +23989,25 @@
           "quantity": 1,
           "cost": 1000,
           "price": 688
+        }
+      ]
+    },
+    {
+      "code": "SR167084ET40-DH-CE28",
+      "groupKey": "sport-rim",
+      "groupName": "Sport Rim",
+      "brand": "",
+      "name": "SPORT RIM 16X7 8HX100/114.3 ET40 DARK HYPER BRZ PROCE670F52 - (CE28)",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "ST",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 951,
+          "price": 0
         }
       ]
     },
@@ -32006,7 +32167,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 5,
           "cost": 52.8,
           "price": 98
         }
@@ -34858,7 +35019,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 7,
           "cost": 171,
           "price": 260
         },
@@ -95922,15 +96083,6 @@
           "quantity": 4,
           "cost": 62.5,
           "price": 0
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 200,
-          "price": 200
         }
       ]
     },
@@ -96073,6 +96225,25 @@
           "quantity": 0,
           "cost": 75,
           "price": 0
+        }
+      ]
+    },
+    {
+      "code": "US2617482",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 17X7.5 8H",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SR",
+          "company": "Gemok Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 200
         }
       ]
     },
@@ -106139,7 +106310,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 66,
+          "quantity": 64,
           "cost": 3.5,
           "price": 45
         }
@@ -111795,7 +111966,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 411,
+          "quantity": 406,
           "cost": 0.65,
           "price": 7
         },
@@ -111822,7 +111993,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 663,
+          "quantity": 659,
           "cost": 0.65,
           "price": 7
         }
@@ -111850,7 +112021,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 404,
+          "quantity": 394,
           "cost": 1.65,
           "price": 10
         },
