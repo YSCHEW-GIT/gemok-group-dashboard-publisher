@@ -10339,7 +10339,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:32:27.450Z"
+      "lastCollectedAt": "2026-11-27T10:38:33.540Z"
     },
     "SR": {
       "days": {
@@ -19968,7 +19968,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:32:27.450Z"
+      "lastCollectedAt": "2026-11-27T10:38:33.540Z"
     },
     "ST": {
       "days": {
@@ -28797,7 +28797,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:32:27.450Z"
+      "lastCollectedAt": "2026-11-27T10:38:33.540Z"
     },
     "SK": {
       "days": {
@@ -34426,7 +34426,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 8,
+          "documents": 9,
           "categories": [
             {
               "key": "passenger_tire",
@@ -34446,18 +34446,18 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1118,
-              "netSales": 1118,
+              "sales": 1163,
+              "netSales": 1163,
               "cost": 577,
-              "grossProfit": 541,
-              "quantity": 9
+              "grossProfit": 586,
+              "quantity": 10
             },
             {
               "key": "other",
-              "sales": 303,
-              "netSales": 303,
+              "sales": 313,
+              "netSales": 313,
               "cost": 8.6,
-              "grossProfit": 294.4,
+              "grossProfit": 304.4,
               "quantity": 31
             }
           ],
@@ -34466,11 +34466,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 5,
-              "sales": 100,
-              "netSales": 100,
+              "quantity": 4,
+              "sales": 70,
+              "netSales": 70,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 70
             },
             {
               "category": "other",
@@ -34506,11 +34506,11 @@
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
-              "quantity": 2,
-              "sales": 30,
-              "netSales": 30,
+              "quantity": 3,
+              "sales": 75,
+              "netSales": 75,
               "cost": 0,
-              "grossProfit": 30
+              "grossProfit": 75
             },
             {
               "category": "other",
@@ -34521,6 +34521,16 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "other",
+              "itemCode": "ALGNFB",
+              "itemName": "Alignment (Front & Back)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
             },
             {
               "category": "passenger_tire",
@@ -34646,7 +34656,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:32:27.450Z"
+      "lastCollectedAt": "2026-11-27T10:38:33.540Z"
     },
     "KM": {
       "days": {
@@ -35184,8 +35194,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T10:32:27.450Z"
+      "lastCollectedAt": "2026-11-27T10:38:33.540Z"
     }
   },
-  "updatedAt": "2026-11-27T10:32:27.450Z"
+  "updatedAt": "2026-11-27T10:38:33.540Z"
 }
