@@ -9989,15 +9989,15 @@
           ]
         },
         "2026-11-27": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 948,
+              "netSales": 948,
+              "cost": 1076,
+              "grossProfit": -128,
+              "quantity": 6
             },
             {
               "key": "sport_rim",
@@ -10017,18 +10017,69 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 180,
+              "netSales": 171.12,
+              "cost": 9.9,
+              "grossProfit": 161.22,
+              "quantity": 14
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 55.56,
+              "cost": 0,
+              "grossProfit": 55.56
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR176514R330-26",
+              "itemName": "WINRUN 175/65/14 R330 82T TL (2026)",
+              "quantity": 2,
+              "sales": 156,
+              "netSales": 156,
+              "cost": 152,
+              "grossProfit": 4
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT195515CC7",
+              "itemName": "CONTINENTAL 195/55/15 COMFORT CONTACT CC7 85V CN (2026)",
+              "quantity": 4,
+              "sales": 792,
+              "netSales": 792,
+              "cost": 924,
+              "grossProfit": -132
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 6,
+              "sales": 60,
+              "netSales": 60,
+              "cost": 9.9,
+              "grossProfit": 50.1
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T01:50:48.661Z"
+      "lastCollectedAt": "2026-11-27T02:02:10.072Z"
     },
     "SR": {
       "days": {
@@ -19396,7 +19447,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T01:50:48.661Z"
+      "lastCollectedAt": "2026-11-27T02:02:10.072Z"
     },
     "ST": {
       "days": {
@@ -28014,7 +28065,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T01:50:48.661Z"
+      "lastCollectedAt": "2026-11-27T02:02:10.072Z"
     },
     "SK": {
       "days": {
@@ -33682,7 +33733,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T01:50:48.661Z"
+      "lastCollectedAt": "2026-11-27T02:02:10.072Z"
     },
     "KM": {
       "days": {
@@ -34220,8 +34271,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T01:50:48.661Z"
+      "lastCollectedAt": "2026-11-27T02:02:10.072Z"
     }
   },
-  "updatedAt": "2026-11-27T01:50:48.661Z"
+  "updatedAt": "2026-11-27T02:02:10.072Z"
 }
