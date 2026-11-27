@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-27T07:48:53.195Z",
+  "updatedAt": "2026-11-27T08:59:06.409Z",
   "stores": [
     {
       "code": "SI",
@@ -29,15 +29,15 @@
       "key": "passanger-tire",
       "name": "Passanger Tire",
       "sku": 445,
-      "quantity": 1913,
-      "stockValue": 409975.22000000003
+      "quantity": 1897,
+      "stockValue": 406867.22000000003
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
-      "sku": 710,
-      "quantity": 629,
-      "stockValue": 333931.52
+      "sku": 709,
+      "quantity": 628,
+      "stockValue": 333130.52
     },
     {
       "key": "absorber",
@@ -57,8 +57,8 @@
       "key": "spring",
       "name": "Spring",
       "sku": 76,
-      "quantity": 206,
-      "stockValue": 40082.380000000005
+      "quantity": 205,
+      "stockValue": 39904.04
     },
     {
       "key": "brake-caliper",
@@ -85,22 +85,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 105,
-      "quantity": 2158,
-      "stockValue": 159229.88
+      "quantity": 2157,
+      "stockValue": 159129.88
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 192,
-      "stockValue": 1766
+      "quantity": 191,
+      "stockValue": 1757.5
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 868,
-      "quantity": 2903.5,
-      "stockValue": 103956.84999999999
+      "quantity": 2902.5,
+      "stockValue": 103916.84999999999
     },
     {
       "key": "battery",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9621,
-      "stockValue": 58311.17
+      "quantity": 9606,
+      "stockValue": 58272.369999999995
     },
     {
       "key": "non-stock-item",
@@ -391,6 +391,15 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
+          "cost": 165,
+          "price": 0
+        },
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 4,
           "cost": 165,
           "price": 0
         }
@@ -1283,7 +1292,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 20,
+          "quantity": 18,
           "cost": 212,
           "price": 218
         }
@@ -4373,7 +4382,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 171,
           "price": 138
         }
@@ -9033,7 +9042,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 6,
           "cost": 176,
           "price": 190
         }
@@ -9702,15 +9711,6 @@
         },
         {
           "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 116,
-          "price": 128
-        },
-        {
-          "rowKey": "default#1",
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
@@ -9919,7 +9919,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 15,
           "cost": 230,
           "price": 0
         },
@@ -9946,7 +9946,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 231,
           "price": 208
         }
@@ -22288,25 +22288,6 @@
       ]
     },
     {
-      "code": "SR156541ET40-HBML-ADVGT",
-      "groupKey": "sport-rim",
-      "groupName": "Sport Rim",
-      "brand": "",
-      "name": "SPORT RIM 15X6.5 4X100 ET40 HYPER BLACK MILLING ML FFGT035A08ML (ADV GT)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 801,
-          "price": 488
-        }
-      ]
-    },
-    {
       "code": "SR156541ET40-HBML-GT",
       "groupKey": "sport-rim",
       "groupName": "Sport Rim",
@@ -30665,15 +30646,6 @@
           "quantity": 4,
           "cost": 178.34,
           "price": 350
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 178.34,
-          "price": 350
         }
       ]
     },
@@ -34860,7 +34832,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 2,
           "cost": 100,
           "price": 180
         },
@@ -36561,7 +36533,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 8.5,
           "price": 25
         },
@@ -37843,7 +37815,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 29,
+          "quantity": 28,
           "cost": 40,
           "price": 130
         }
@@ -106759,7 +106731,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 81,
+          "quantity": 79,
           "cost": 3.5,
           "price": 35
         }
@@ -110486,7 +110458,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 19,
+          "quantity": 18,
           "cost": 12,
           "price": 100
         }
@@ -112010,7 +111982,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 382,
+          "quantity": 378,
           "cost": 1.65,
           "price": 10
         },
@@ -112028,7 +112000,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 206,
+          "quantity": 204,
           "cost": 1.65,
           "price": 10
         },
@@ -112037,7 +112009,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 612,
+          "quantity": 606,
           "cost": 1.65,
           "price": 10
         }
