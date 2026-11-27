@@ -10017,11 +10017,11 @@
             },
             {
               "key": "other",
-              "sales": 415,
-              "netSales": 400.94,
+              "sales": 465,
+              "netSales": 447.24,
               "cost": 26.75,
-              "grossProfit": 374.19,
-              "quantity": 35
+              "grossProfit": 420.49,
+              "quantity": 37
             }
           ],
           "items": [
@@ -10054,6 +10054,16 @@
               "netSales": 92.6,
               "cost": 0,
               "grossProfit": 92.6
+            },
+            {
+              "category": "other",
+              "itemCode": "ADJCHM",
+              "itemName": "ADJUST CAMBER",
+              "quantity": 2,
+              "sales": 50,
+              "netSales": 46.3,
+              "cost": 0,
+              "grossProfit": 46.3
             },
             {
               "category": "foreman_item",
@@ -10149,7 +10159,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
+      "lastCollectedAt": "2026-11-27T02:49:02.589Z"
     },
     "SR": {
       "days": {
@@ -19478,7 +19488,7 @@
           ]
         },
         "2026-11-27": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
@@ -19506,11 +19516,11 @@
             },
             {
               "key": "other",
-              "sales": 170,
-              "netSales": 170,
+              "sales": 200,
+              "netSales": 200,
               "cost": 50,
-              "grossProfit": 120,
-              "quantity": 9
+              "grossProfit": 150,
+              "quantity": 10
             }
           ],
           "items": [
@@ -19538,11 +19548,11 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 2,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 3,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 90
             },
             {
               "category": "foreman_item",
@@ -19588,7 +19598,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
+      "lastCollectedAt": "2026-11-27T02:49:02.589Z"
     },
     "ST": {
       "days": {
@@ -28267,7 +28277,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
+      "lastCollectedAt": "2026-11-27T02:49:02.589Z"
     },
     "SK": {
       "days": {
@@ -33924,14 +33934,24 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 40,
+              "netSales": 40,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 40,
+              "quantity": 1
             }
           ],
           "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
             {
               "category": "foreman_item",
               "itemCode": "OETL5W30Q9000",
@@ -33956,7 +33976,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
+      "lastCollectedAt": "2026-11-27T02:49:02.589Z"
     },
     "KM": {
       "days": {
@@ -34494,8 +34514,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-27T02:42:55.772Z"
+      "lastCollectedAt": "2026-11-27T02:49:02.589Z"
     }
   },
-  "updatedAt": "2026-11-27T02:42:55.772Z"
+  "updatedAt": "2026-11-27T02:49:02.589Z"
 }
