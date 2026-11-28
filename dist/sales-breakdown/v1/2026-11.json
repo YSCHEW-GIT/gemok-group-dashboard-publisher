@@ -10868,7 +10868,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:04:26.705Z"
+      "lastCollectedAt": "2026-11-28T08:10:36.133Z"
     },
     "SR": {
       "days": {
@@ -20896,7 +20896,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:04:26.705Z"
+      "lastCollectedAt": "2026-11-28T08:10:36.133Z"
     },
     "ST": {
       "days": {
@@ -29724,7 +29724,7 @@
           ]
         },
         "2026-11-28": {
-          "documents": 14,
+          "documents": 15,
           "categories": [
             {
               "key": "passenger_tire",
@@ -29744,11 +29744,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 996,
-              "netSales": 996,
+              "sales": 1041,
+              "netSales": 1041,
               "cost": 604.5,
-              "grossProfit": 391.5,
-              "quantity": 7
+              "grossProfit": 436.5,
+              "quantity": 8
             },
             {
               "key": "other",
@@ -29829,6 +29829,16 @@
               "netSales": 10,
               "cost": 0,
               "grossProfit": 10
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "PWMSHP",
+              "itemName": "WORKMANSHIP",
+              "quantity": 1,
+              "sales": 45,
+              "netSales": 45,
+              "cost": 0,
+              "grossProfit": 45
             },
             {
               "category": "other",
@@ -30014,7 +30024,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:04:26.705Z"
+      "lastCollectedAt": "2026-11-28T08:10:36.133Z"
     },
     "SK": {
       "days": {
@@ -36172,7 +36182,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:04:26.705Z"
+      "lastCollectedAt": "2026-11-28T08:10:36.133Z"
     },
     "KM": {
       "days": {
@@ -36748,8 +36758,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:04:26.705Z"
+      "lastCollectedAt": "2026-11-28T08:10:36.133Z"
     }
   },
-  "updatedAt": "2026-11-28T08:04:26.705Z"
+  "updatedAt": "2026-11-28T08:10:36.133Z"
 }
