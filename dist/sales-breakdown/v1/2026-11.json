@@ -10608,7 +10608,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:13:30.851Z"
+      "lastCollectedAt": "2026-11-28T04:19:37.480Z"
     },
     "SR": {
       "days": {
@@ -20236,7 +20236,7 @@
           ]
         },
         "2026-11-28": {
-          "documents": 8,
+          "documents": 10,
           "categories": [
             {
               "key": "passenger_tire",
@@ -20256,19 +20256,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 140,
-              "netSales": 140,
-              "cost": 70,
-              "grossProfit": 70,
-              "quantity": 2
+              "sales": 540,
+              "netSales": 540,
+              "cost": 270,
+              "grossProfit": 270,
+              "quantity": 4
             },
             {
               "key": "other",
-              "sales": 436,
-              "netSales": 436,
+              "sales": 506,
+              "netSales": 506,
               "cost": 66.7,
-              "grossProfit": 369.3,
-              "quantity": 48
+              "grossProfit": 439.3,
+              "quantity": 53
             }
           ],
           "items": [
@@ -20316,21 +20316,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 8,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 9,
+              "sales": 150,
+              "netSales": 150,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 150
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 20,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 24,
+              "sales": 100,
+              "netSales": 100,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 100
             },
             {
               "category": "other",
@@ -20403,6 +20403,26 @@
               "grossProfit": 50
             },
             {
+              "category": "foreman_item",
+              "itemCode": "NSR26110069",
+              "itemName": "FBK BRAKE PAD RR MAZDA CX-5 2.0, MPI WAGON 12y (SUSA)",
+              "quantity": 1,
+              "sales": 140,
+              "netSales": 140,
+              "cost": 70,
+              "grossProfit": 70
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSR26110070",
+              "itemName": "AKE/JP BRAKE PAD FRT MAZDA CX5 (SUSA)",
+              "quantity": 1,
+              "sales": 260,
+              "netSales": 260,
+              "cost": 130,
+              "grossProfit": 130
+            },
+            {
               "category": "other",
               "itemCode": "MNWSH150RED",
               "itemName": "HEPTAGON WHEEL NUT SMALL HEAD 1.50MM RED (16/BOX)",
@@ -20436,7 +20456,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:13:30.851Z"
+      "lastCollectedAt": "2026-11-28T04:19:37.480Z"
     },
     "ST": {
       "days": {
@@ -29444,7 +29464,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:13:30.851Z"
+      "lastCollectedAt": "2026-11-28T04:19:37.480Z"
     },
     "SK": {
       "days": {
@@ -35442,7 +35462,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:13:30.851Z"
+      "lastCollectedAt": "2026-11-28T04:19:37.480Z"
     },
     "KM": {
       "days": {
@@ -36018,8 +36038,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:13:30.851Z"
+      "lastCollectedAt": "2026-11-28T04:19:37.480Z"
     }
   },
-  "updatedAt": "2026-11-28T04:13:30.851Z"
+  "updatedAt": "2026-11-28T04:19:37.480Z"
 }
