@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-28T06:51:33.938Z",
+  "updatedAt": "2026-11-28T08:01:15.409Z",
   "stores": [
     {
       "code": "SI",
@@ -28,9 +28,9 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 442,
-      "quantity": 1785,
-      "stockValue": 387511.57999999996
+      "sku": 440,
+      "quantity": 1759,
+      "stockValue": 382400.38
     },
     {
       "key": "sport-rim",
@@ -71,8 +71,8 @@
       "key": "brake-pad",
       "name": "Brake pad",
       "sku": 75,
-      "quantity": 252,
-      "stockValue": 13051.55
+      "quantity": 251,
+      "stockValue": 13019.55
     },
     {
       "key": "brake-pump",
@@ -85,8 +85,8 @@
       "key": "oil",
       "name": "Oil",
       "sku": 105,
-      "quantity": 2150,
-      "stockValue": 158377.98
+      "quantity": 2145,
+      "stockValue": 158180.58000000002
     },
     {
       "key": "oil-filter",
@@ -98,9 +98,9 @@
     {
       "key": "parts",
       "name": "Parts",
-      "sku": 868,
+      "sku": 869,
       "quantity": 2898.5,
-      "stockValue": 103733.34999999999
+      "stockValue": 103873.84999999999
     },
     {
       "key": "battery",
@@ -135,7 +135,7 @@
       "name": "Used Sport Rim",
       "sku": 2114,
       "quantity": 2020,
-      "stockValue": 177146.5
+      "stockValue": 177246.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9387,
-      "stockValue": 57855.16999999999
+      "quantity": 9328,
+      "stockValue": 57744.16999999999
     },
     {
       "key": "non-stock-item",
@@ -399,7 +399,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 2,
           "cost": 165,
           "price": 0
         }
@@ -1700,18 +1700,9 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "CONTINENTAL 175/65/14 CC7 82H (2026)",
+      "name": "CONTINENTAL 175/65/14 CC7 82H CN (2026)",
       "spec": "0",
       "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 203,
-          "price": 168
-        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -1831,44 +1822,6 @@
           "quantity": 8,
           "cost": 233,
           "price": 220
-        }
-      ]
-    },
-    {
-      "code": "TPCT185516CC7",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 185/55/16 83V FR CC7 (2025)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 272,
-          "price": 218
-        }
-      ]
-    },
-    {
-      "code": "TPCT185516CC7-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "CONTINENTAL 185/55/16 83V FR CC7 (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 3,
-          "cost": 279,
-          "price": 248
         }
       ]
     },
@@ -4326,7 +4279,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 172,
           "price": 0
         }
@@ -4373,7 +4326,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 8,
           "cost": 171,
           "price": 138
         }
@@ -4401,7 +4354,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 170,
           "price": 0
         }
@@ -6789,7 +6742,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 4,
-          "cost": 216,
+          "cost": 203,
           "price": 250
         }
       ]
@@ -7079,7 +7032,7 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": 2,
-          "cost": 186,
+          "cost": 187,
           "price": 168
         },
         {
@@ -7087,8 +7040,8 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 1,
-          "cost": 186,
+          "quantity": 2,
+          "cost": 187,
           "price": 168
         }
       ]
@@ -7143,7 +7096,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 6,
           "cost": 201,
           "price": 178
         }
@@ -8490,7 +8443,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 173.6,
           "price": 188
         }
@@ -31499,7 +31452,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 6,
           "cost": 32,
           "price": 68
         },
@@ -34637,7 +34590,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 17,
           "cost": 111,
           "price": 190
         },
@@ -35880,7 +35833,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 21.6,
           "price": 55
         }
@@ -39247,6 +39200,25 @@
           "quantity": 0,
           "cost": 320,
           "price": 0
+        }
+      ]
+    },
+    {
+      "code": "PADTST1106-P",
+      "groupKey": "parts",
+      "groupName": "Parts",
+      "brand": "",
+      "name": "THUNDERSTORM BRAKE PAD FRT HD CIVIC/ACCORD/HRV T1106-P",
+      "spec": "0",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 145,
+          "price": 260
         }
       ]
     },
@@ -52467,7 +52439,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 32,
+          "quantity": 31,
           "cost": 4.5,
           "price": 0
         }
@@ -84140,25 +84112,6 @@
       ]
     },
     {
-      "code": "US2611972",
-      "groupKey": "used-sport-rim",
-      "groupName": "Used Sport Rim",
-      "brand": "",
-      "name": "USED SPORT RIM 15X5JJ PCD100",
-      "spec": "",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
-          "cost": 200,
-          "price": 0
-        }
-      ]
-    },
-    {
       "code": "US2611975",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -104308,6 +104261,25 @@
       ]
     },
     {
+      "code": "US2621221",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 16X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 300,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -106566,7 +106538,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 7,
+          "quantity": 6,
           "cost": 10,
           "price": 0
         },
@@ -106622,7 +106594,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 12,
+          "quantity": 10,
           "cost": 2.6,
           "price": 0
         },
@@ -108297,7 +108269,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 280,
+          "quantity": 260,
           "cost": 2,
           "price": 150
         }
@@ -110359,7 +110331,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 66,
+          "quantity": 62,
           "cost": 3,
           "price": 100
         },
@@ -111864,7 +111836,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 219,
+          "quantity": 215,
           "cost": 0.4,
           "price": 10
         },
@@ -111882,7 +111854,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 647,
+          "quantity": 643,
           "cost": 0.65,
           "price": 7
         }
@@ -111910,7 +111882,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 325,
+          "quantity": 315,
           "cost": 1.65,
           "price": 10
         },
@@ -111919,7 +111891,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 194,
+          "quantity": 188,
           "cost": 1.65,
           "price": 10
         },
@@ -111928,7 +111900,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 191,
+          "quantity": 187,
           "cost": 1.65,
           "price": 10
         },
@@ -111937,7 +111909,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 588,
+          "quantity": 584,
           "cost": 1.65,
           "price": 10
         }
