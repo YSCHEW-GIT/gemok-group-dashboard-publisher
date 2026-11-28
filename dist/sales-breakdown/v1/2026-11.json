@@ -10658,7 +10658,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T05:02:33.882Z"
+      "lastCollectedAt": "2026-11-28T05:08:42.809Z"
     },
     "SR": {
       "days": {
@@ -20546,7 +20546,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T05:02:33.882Z"
+      "lastCollectedAt": "2026-11-28T05:08:42.809Z"
     },
     "ST": {
       "days": {
@@ -29374,23 +29374,23 @@
           ]
         },
         "2026-11-28": {
-          "documents": 5,
+          "documents": 6,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 2406,
-              "netSales": 2406,
-              "cost": 2388,
-              "grossProfit": 18,
-              "quantity": 16
+              "sales": 3338,
+              "netSales": 3338,
+              "cost": 3312,
+              "grossProfit": 26,
+              "quantity": 20
             },
             {
               "key": "sport_rim",
               "sales": 588,
               "netSales": 588,
-              "cost": 616,
-              "grossProfit": -28,
-              "quantity": 1
+              "cost": 416,
+              "grossProfit": 172,
+              "quantity": 0
             },
             {
               "key": "foreman_item",
@@ -29402,73 +29402,83 @@
             },
             {
               "key": "other",
-              "sales": 536,
-              "netSales": 536,
-              "cost": 65.4,
-              "grossProfit": 470.6,
-              "quantity": 40
+              "sales": 506,
+              "netSales": 506,
+              "cost": 72,
+              "grossProfit": 434,
+              "quantity": 49
             }
           ],
           "items": [
             {
               "category": "sport_rim",
+              "itemCode": "US2612127",
+              "itemName": "USED SPORT RIM 15X5JJ PCD100",
+              "quantity": -1,
+              "sales": -200,
+              "netSales": -200,
+              "cost": -200,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SIMPHBP158HCE28",
               "itemName": "SPORT RIM 7X15 8X100/114.3 ET35 HBP BRONZE FX001 CE28",
               "quantity": 1,
-              "sales": 588,
-              "netSales": 588,
+              "sales": 788,
+              "netSales": 788,
               "cost": 616,
-              "grossProfit": -28
+              "grossProfit": 172
             },
             {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 4,
-              "sales": 90,
-              "netSales": 90,
+              "quantity": 5,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 90
+              "grossProfit": 60
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 16,
-              "sales": 120,
-              "netSales": 120,
+              "quantity": 20,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 80
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPYH195515V701",
               "itemName": "YOKOHAMA 195/55/15 ADVAN V701 (2026)",
-              "quantity": 4,
-              "sales": 862,
-              "netSales": 862,
-              "cost": 924,
-              "grossProfit": -62
+              "quantity": 8,
+              "sales": 1654,
+              "netSales": 1654,
+              "cost": 1848,
+              "grossProfit": -194
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR185515R330-26",
               "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
               "quantity": 4,
-              "sales": 352,
-              "netSales": 352,
+              "sales": 422,
+              "netSales": 422,
               "cost": 344,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPTY176514CR1",
               "itemName": "TOYO 175/65/14 PXCR1 MSIA 82H (2026)",
               "quantity": 4,
-              "sales": 640,
-              "netSales": 640,
+              "sales": 710,
+              "netSales": 710,
               "cost": 632,
-              "grossProfit": 8
+              "grossProfit": 78
             },
             {
               "category": "passenger_tire",
@@ -29524,11 +29534,11 @@
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
-              "quantity": 8,
-              "sales": 80,
-              "netSales": 80,
-              "cost": 13.2,
-              "grossProfit": 66.8
+              "quantity": 12,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 19.8,
+              "grossProfit": 100.2
             },
             {
               "category": "other",
@@ -29564,7 +29574,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T05:02:33.882Z"
+      "lastCollectedAt": "2026-11-28T05:08:42.809Z"
     },
     "SK": {
       "days": {
@@ -35642,7 +35652,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T05:02:33.882Z"
+      "lastCollectedAt": "2026-11-28T05:08:42.809Z"
     },
     "KM": {
       "days": {
@@ -36218,8 +36228,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T05:02:33.882Z"
+      "lastCollectedAt": "2026-11-28T05:08:42.809Z"
     }
   },
-  "updatedAt": "2026-11-28T05:02:33.882Z"
+  "updatedAt": "2026-11-28T05:08:42.809Z"
 }
