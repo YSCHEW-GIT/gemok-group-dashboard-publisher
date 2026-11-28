@@ -10338,15 +10338,15 @@
           ]
         },
         "2026-11-28": {
-          "documents": 2,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 352,
-              "netSales": 352,
-              "cost": 340,
-              "grossProfit": 12,
-              "quantity": 4
+              "sales": 1344,
+              "netSales": 1344,
+              "cost": 1184.64,
+              "grossProfit": 159.36,
+              "quantity": 10
             },
             {
               "key": "sport_rim",
@@ -10366,33 +10366,43 @@
             },
             {
               "key": "other",
-              "sales": 80,
-              "netSales": 74.08,
-              "cost": 0,
-              "grossProfit": 74.08,
-              "quantity": 6
+              "sales": 230,
+              "netSales": 218.9,
+              "cost": 13.2,
+              "grossProfit": 205.7,
+              "quantity": 19
             }
           ],
           "items": [
             {
+              "category": "passenger_tire",
+              "itemCode": "UT195515",
+              "itemName": "USED TIRE 195/55/15",
+              "quantity": 2,
+              "sales": 120,
+              "netSales": 120,
+              "cost": 0,
+              "grossProfit": 120
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 30,
-              "netSales": 27.78,
+              "quantity": 2,
+              "sales": 60,
+              "netSales": 55.56,
               "cost": 0,
-              "grossProfit": 27.78
+              "grossProfit": 55.56
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 37.04,
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 37.04
+              "grossProfit": 74.08
             },
             {
               "category": "other",
@@ -10413,12 +10423,32 @@
               "netSales": 352,
               "cost": 340,
               "grossProfit": 12
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPBS195515RE005-26",
+              "itemName": "BRIDGESTONE 195/55/15 POTENZA RE005 85W TH (2026)",
+              "quantity": 4,
+              "sales": 872,
+              "netSales": 872,
+              "cost": 844.64,
+              "grossProfit": 27.36
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLSTL",
+              "itemName": "Tubeless Valve-Steel",
+              "quantity": 8,
+              "sales": 80,
+              "netSales": 80,
+              "cost": 13.2,
+              "grossProfit": 66.8
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
+      "lastCollectedAt": "2026-11-28T02:06:54.579Z"
     },
     "SR": {
       "days": {
@@ -20126,7 +20156,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
+      "lastCollectedAt": "2026-11-28T02:06:54.579Z"
     },
     "ST": {
       "days": {
@@ -28993,7 +29023,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
+      "lastCollectedAt": "2026-11-28T02:06:54.579Z"
     },
     "SK": {
       "days": {
@@ -34890,7 +34920,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
+      "lastCollectedAt": "2026-11-28T02:06:54.579Z"
     },
     "KM": {
       "days": {
@@ -35466,8 +35496,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
+      "lastCollectedAt": "2026-11-28T02:06:54.579Z"
     }
   },
-  "updatedAt": "2026-11-28T01:59:47.973Z"
+  "updatedAt": "2026-11-28T02:06:54.579Z"
 }
