@@ -10338,7 +10338,7 @@
           ]
         },
         "2026-11-28": {
-          "documents": 12,
+          "documents": 13,
           "categories": [
             {
               "key": "passenger_tire",
@@ -10358,11 +10358,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1570,
-              "netSales": 1570,
-              "cost": 724,
-              "grossProfit": 846,
-              "quantity": 6
+              "sales": 1870,
+              "netSales": 1870,
+              "cost": 964.4,
+              "grossProfit": 905.6,
+              "quantity": 7
             },
             {
               "key": "other",
@@ -10506,6 +10506,16 @@
             },
             {
               "category": "foreman_item",
+              "itemCode": "OEHX5W40Q9000",
+              "itemName": "HELIX ULTRA 4X4L SP A3/B4 5W40 9000 FULLY SYTHENTIC ENG OIL",
+              "quantity": 1,
+              "sales": 300,
+              "netSales": 300,
+              "cost": 240.4,
+              "grossProfit": 59.6
+            },
+            {
+              "category": "foreman_item",
               "itemCode": "OPRCLRSR",
               "itemName": "SARAMOLY PRE-MIXED COOLANT RED",
               "quantity": 1,
@@ -10578,7 +10588,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T03:37:00.947Z"
+      "lastCollectedAt": "2026-11-28T03:43:07.845Z"
     },
     "SR": {
       "days": {
@@ -20386,7 +20396,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T03:37:00.947Z"
+      "lastCollectedAt": "2026-11-28T03:43:07.845Z"
     },
     "ST": {
       "days": {
@@ -29374,7 +29384,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T03:37:00.947Z"
+      "lastCollectedAt": "2026-11-28T03:43:07.845Z"
     },
     "SK": {
       "days": {
@@ -35372,7 +35382,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T03:37:00.947Z"
+      "lastCollectedAt": "2026-11-28T03:43:07.845Z"
     },
     "KM": {
       "days": {
@@ -35948,8 +35958,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T03:37:00.947Z"
+      "lastCollectedAt": "2026-11-28T03:43:07.845Z"
     }
   },
-  "updatedAt": "2026-11-28T03:37:00.947Z"
+  "updatedAt": "2026-11-28T03:43:07.845Z"
 }
