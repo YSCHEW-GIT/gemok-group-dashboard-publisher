@@ -10338,15 +10338,15 @@
           ]
         },
         "2026-11-28": {
-          "documents": 0,
+          "documents": 2,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 352,
+              "netSales": 352,
+              "cost": 340,
+              "grossProfit": 12,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -10366,18 +10366,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
+              "sales": 80,
+              "netSales": 74.08,
               "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "grossProfit": 74.08,
+              "quantity": 6
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 27.78,
+              "cost": 0,
+              "grossProfit": 27.78
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 37.04,
+              "cost": 0,
+              "grossProfit": 37.04
+            },
+            {
+              "category": "other",
+              "itemCode": "PATCH",
+              "itemName": "Patching",
+              "quantity": 1,
+              "sales": 10,
+              "netSales": 9.26,
+              "cost": 0,
+              "grossProfit": 9.26
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWR185515R330-26",
+              "itemName": "WINRUN 185/55/15 R330 82V TL (2026)",
+              "quantity": 4,
+              "sales": 352,
+              "netSales": 352,
+              "cost": 340,
+              "grossProfit": 12
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:52:38.772Z"
+      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
     },
     "SR": {
       "days": {
@@ -20005,15 +20046,15 @@
           ]
         },
         "2026-11-28": {
-          "documents": 0,
+          "documents": 1,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 552,
+              "netSales": 552,
+              "cost": 684,
+              "grossProfit": -132,
+              "quantity": 4
             },
             {
               "key": "sport_rim",
@@ -20033,18 +20074,59 @@
             },
             {
               "key": "other",
-              "sales": 0,
-              "netSales": 0,
-              "cost": 0,
-              "grossProfit": 0,
-              "quantity": 0
+              "sales": 98,
+              "netSales": 98,
+              "cost": 2.6,
+              "grossProfit": 95.4,
+              "quantity": 9
             }
           ],
-          "items": []
+          "items": [
+            {
+              "category": "other",
+              "itemCode": "ALGNF",
+              "itemName": "Alignment (Front)",
+              "quantity": 1,
+              "sales": 30,
+              "netSales": 30,
+              "cost": 0,
+              "grossProfit": 30
+            },
+            {
+              "category": "other",
+              "itemCode": "BLCOFF",
+              "itemName": "Balancing (Off Wheel)",
+              "quantity": 4,
+              "sales": 40,
+              "netSales": 40,
+              "cost": 0,
+              "grossProfit": 40
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPGN195515GS5",
+              "itemName": "GENERAL 195/55/15 ALTIMAX GS5 85V FR (2026)",
+              "quantity": 4,
+              "sales": 552,
+              "netSales": 552,
+              "cost": 684,
+              "grossProfit": -132
+            },
+            {
+              "category": "other",
+              "itemCode": "MVLRUB",
+              "itemName": "TUBELESS VALVE RUBBER",
+              "quantity": 4,
+              "sales": 28,
+              "netSales": 28,
+              "cost": 2.6,
+              "grossProfit": 25.4
+            }
+          ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:52:38.772Z"
+      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
     },
     "ST": {
       "days": {
@@ -28911,7 +28993,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:52:38.772Z"
+      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
     },
     "SK": {
       "days": {
@@ -34808,7 +34890,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:52:38.772Z"
+      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
     },
     "KM": {
       "days": {
@@ -35384,8 +35466,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T01:52:38.772Z"
+      "lastCollectedAt": "2026-11-28T01:59:47.973Z"
     }
   },
-  "updatedAt": "2026-11-28T01:52:38.772Z"
+  "updatedAt": "2026-11-28T01:59:47.973Z"
 }
