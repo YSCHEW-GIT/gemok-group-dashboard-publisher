@@ -10948,7 +10948,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T10:25:36.040Z"
+      "lastCollectedAt": "2026-11-28T10:31:44.059Z"
     },
     "SR": {
       "days": {
@@ -21016,7 +21016,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T10:25:36.040Z"
+      "lastCollectedAt": "2026-11-28T10:31:44.059Z"
     },
     "ST": {
       "days": {
@@ -30214,7 +30214,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T10:25:36.040Z"
+      "lastCollectedAt": "2026-11-28T10:31:44.059Z"
     },
     "SK": {
       "days": {
@@ -36084,10 +36084,10 @@
             },
             {
               "key": "sport_rim",
-              "sales": 488,
-              "netSales": 488,
-              "cost": 635,
-              "grossProfit": -147,
+              "sales": 976,
+              "netSales": 976,
+              "cost": 1165,
+              "grossProfit": -189,
               "quantity": 0
             },
             {
@@ -36100,11 +36100,11 @@
             },
             {
               "key": "other",
-              "sales": 880,
-              "netSales": 880,
-              "cost": 84.95,
-              "grossProfit": 795.05,
-              "quantity": 86
+              "sales": 940,
+              "netSales": 940,
+              "cost": 96.95,
+              "grossProfit": 843.05,
+              "quantity": 87
             }
           ],
           "items": [
@@ -36120,6 +36120,16 @@
             },
             {
               "category": "sport_rim",
+              "itemCode": "US268288",
+              "itemName": "USED SPORT RIM 14X5.5 4X100",
+              "quantity": -1,
+              "sales": -150,
+              "netSales": -150,
+              "cost": -150,
+              "grossProfit": 0
+            },
+            {
+              "category": "sport_rim",
               "itemCode": "SK145581ET38-BLK-CE28",
               "itemName": "SPORT RIM CE28 14X5.5 8X100/114.3 ET38 BLK",
               "quantity": 1,
@@ -36129,14 +36139,24 @@
               "grossProfit": 104
             },
             {
+              "category": "sport_rim",
+              "itemCode": "SIMPGBML1541TNP1236",
+              "itemName": "SPORT RIM 15X6.5 4X100 ET40 GLOSS BLACK MACHINE LIP TNP-1236",
+              "quantity": 1,
+              "sales": 638,
+              "netSales": 638,
+              "cost": 680,
+              "grossProfit": -42
+            },
+            {
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 9,
-              "sales": 70,
-              "netSales": 70,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 70
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -36397,12 +36417,22 @@
               "netSales": 160,
               "cost": 38,
               "grossProfit": 122
+            },
+            {
+              "category": "other",
+              "itemCode": "MRC7354",
+              "itemName": "RINGCONE 7354 (CH2) - ALTIS VIOS MYVI VIVA ALZA KELISA WISH",
+              "quantity": 1,
+              "sales": 70,
+              "netSales": 70,
+              "cost": 12,
+              "grossProfit": 58
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T10:25:36.040Z"
+      "lastCollectedAt": "2026-11-28T10:31:44.059Z"
     },
     "KM": {
       "days": {
@@ -36978,8 +37008,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T10:25:36.040Z"
+      "lastCollectedAt": "2026-11-28T10:31:44.059Z"
     }
   },
-  "updatedAt": "2026-11-28T10:25:36.040Z"
+  "updatedAt": "2026-11-28T10:31:44.059Z"
 }
