@@ -10342,10 +10342,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 10067.11,
-              "netSales": 10067.11,
+              "sales": 10117.08,
+              "netSales": 10117.08,
               "cost": 9416.24,
-              "grossProfit": 650.87,
+              "grossProfit": 700.84,
               "quantity": 56
             },
             {
@@ -10358,19 +10358,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 2508.52,
-              "netSales": 2508.52,
-              "cost": 1264.4,
-              "grossProfit": 1244.12,
-              "quantity": 10
+              "sales": 2248.67,
+              "netSales": 2248.67,
+              "cost": 1119.4,
+              "grossProfit": 1129.27,
+              "quantity": 9
             },
             {
               "key": "other",
-              "sales": 1611.09,
-              "netSales": 1571.72,
-              "cost": 215.15,
-              "grossProfit": 1356.57,
-              "quantity": 194
+              "sales": 1820.97,
+              "netSales": 1785.3,
+              "cost": 360.15,
+              "grossProfit": 1425.15,
+              "quantity": 195
             }
           ],
           "items": [
@@ -10449,20 +10449,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 14,
-              "sales": 179.88,
-              "netSales": 166.56,
+              "sales": 149.9,
+              "netSales": 138.8,
               "cost": 0,
-              "grossProfit": 166.56
+              "grossProfit": 138.8
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 54,
-              "sales": 199.9,
-              "netSales": 185.1,
+              "sales": 179.91,
+              "netSales": 166.59,
               "cost": 0,
-              "grossProfit": 185.1
+              "grossProfit": 166.59
             },
             {
               "category": "other",
@@ -10539,10 +10539,10 @@
               "itemCode": "TPWL195515Z117",
               "itemName": "WEST LAKE 195/55/15 ZUPER FLEX Z117 TL TH (2026)",
               "quantity": 2,
-              "sales": 235.86,
-              "netSales": 235.86,
+              "sales": 285.83,
+              "netSales": 285.83,
               "cost": 273.6,
-              "grossProfit": -37.74
+              "grossProfit": 12.23
             },
             {
               "category": "passenger_tire",
@@ -10655,6 +10655,16 @@
               "grossProfit": 119.85
             },
             {
+              "category": "other",
+              "itemCode": "PADTST1106-P",
+              "itemName": "THUNDERSTORM BRAKE PAD FRT HD CIVIC/ACCORD/HRV T1106-P",
+              "quantity": 1,
+              "sales": 259.85,
+              "netSales": 259.85,
+              "cost": 145,
+              "grossProfit": 114.85
+            },
+            {
               "category": "foreman_item",
               "itemCode": "OEHX5W40Q9000",
               "itemName": "HELIX ULTRA 4V4L SP A3/B4 5W40 9000 FULLY SYTHENTIC ENG OIL",
@@ -10735,16 +10745,6 @@
               "grossProfit": 199.81
             },
             {
-              "category": "foreman_item",
-              "itemCode": "NSKBRAKEPADHD",
-              "itemName": "THUNDERSTORM BRAKE PAD FRT HONDA HRV",
-              "quantity": 1,
-              "sales": 259.85,
-              "netSales": 259.85,
-              "cost": 145,
-              "grossProfit": 114.85
-            },
-            {
               "category": "other",
               "itemCode": "MNRWRY150BLK",
               "itemName": "RAYS RACING WHEEL NUTS 1.50 - BLACK",
@@ -10818,7 +10818,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T06:55:16.355Z"
+      "lastCollectedAt": "2026-11-28T07:01:23.781Z"
     },
     "SR": {
       "days": {
@@ -20446,7 +20446,7 @@
           ]
         },
         "2026-11-28": {
-          "documents": 20,
+          "documents": 21,
           "categories": [
             {
               "key": "passenger_tire",
@@ -20474,11 +20474,11 @@
             },
             {
               "key": "other",
-              "sales": 594,
-              "netSales": 594,
+              "sales": 644,
+              "netSales": 644,
               "cost": 69.3,
-              "grossProfit": 524.7,
-              "quantity": 73
+              "grossProfit": 574.7,
+              "quantity": 76
             }
           ],
           "items": [
@@ -20526,21 +20526,21 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 15,
-              "sales": 210,
-              "netSales": 210,
+              "quantity": 16,
+              "sales": 240,
+              "netSales": 240,
               "cost": 0,
-              "grossProfit": 210
+              "grossProfit": 240
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 30,
-              "sales": 60,
-              "netSales": 60,
+              "quantity": 32,
+              "sales": 80,
+              "netSales": 80,
               "cost": 0,
-              "grossProfit": 60
+              "grossProfit": 80
             },
             {
               "category": "foreman_item",
@@ -20796,7 +20796,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T06:55:16.355Z"
+      "lastCollectedAt": "2026-11-28T07:01:23.781Z"
     },
     "ST": {
       "days": {
@@ -29894,7 +29894,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T06:55:16.355Z"
+      "lastCollectedAt": "2026-11-28T07:01:23.781Z"
     },
     "SK": {
       "days": {
@@ -35756,10 +35756,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 3708,
-              "netSales": 3708,
+              "sales": 3778,
+              "netSales": 3778,
               "cost": 3617.6,
-              "grossProfit": 90.4,
+              "grossProfit": 160.4,
               "quantity": 21
             },
             {
@@ -35780,11 +35780,11 @@
             },
             {
               "key": "other",
-              "sales": 630,
-              "netSales": 630,
-              "cost": 41,
-              "grossProfit": 589,
-              "quantity": 52
+              "sales": 680,
+              "netSales": 680,
+              "cost": 47.8,
+              "grossProfit": 632.2,
+              "quantity": 58
             }
           ],
           "items": [
@@ -35813,20 +35813,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 6,
-              "sales": 120,
-              "netSales": 120,
+              "sales": 90,
+              "netSales": 90,
               "cost": 0,
-              "grossProfit": 120
+              "grossProfit": 90
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 21,
-              "sales": 100,
-              "netSales": 100,
+              "sales": 60,
+              "netSales": 60,
               "cost": 0,
-              "grossProfit": 100
+              "grossProfit": 60
             },
             {
               "category": "other",
@@ -35903,10 +35903,10 @@
               "itemCode": "TPWL165514RP18-26",
               "itemName": "WESTLAKE 165/55/14 72V RP18 (2026)",
               "quantity": 4,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 466,
+              "netSales": 466,
               "cost": 470.4,
-              "grossProfit": -74.4
+              "grossProfit": -4.4
             },
             {
               "category": "passenger_tire",
@@ -35962,21 +35962,21 @@
               "category": "other",
               "itemCode": "MNCPR12V",
               "itemName": "CAMBER NUT PROTON (17MM)",
-              "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 5.2,
-              "grossProfit": 84.8
+              "quantity": 4,
+              "sales": 170,
+              "netSales": 170,
+              "cost": 10.4,
+              "grossProfit": 159.6
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 9,
-              "sales": 90,
-              "netSales": 90,
-              "cost": 3.6,
-              "grossProfit": 86.4
+              "quantity": 13,
+              "sales": 130,
+              "netSales": 130,
+              "cost": 5.2,
+              "grossProfit": 124.8
             },
             {
               "category": "other",
@@ -36002,7 +36002,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T06:55:16.355Z"
+      "lastCollectedAt": "2026-11-28T07:01:23.781Z"
     },
     "KM": {
       "days": {
@@ -36578,8 +36578,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T06:55:16.355Z"
+      "lastCollectedAt": "2026-11-28T07:01:23.781Z"
     }
   },
-  "updatedAt": "2026-11-28T06:55:16.355Z"
+  "updatedAt": "2026-11-28T07:01:23.781Z"
 }
