@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "WEBMAX Stock Master + Stock Balance Rpt",
-  "updatedAt": "2026-11-28T05:24:04.870Z",
+  "updatedAt": "2026-11-28T06:51:33.938Z",
   "stores": [
     {
       "code": "SI",
@@ -28,16 +28,16 @@
     {
       "key": "passanger-tire",
       "name": "Passanger Tire",
-      "sku": 443,
-      "quantity": 1818,
-      "stockValue": 393240.38
+      "sku": 442,
+      "quantity": 1785,
+      "stockValue": 387511.57999999996
     },
     {
       "key": "sport-rim",
       "name": "Sport Rim",
       "sku": 706,
-      "quantity": 623,
-      "stockValue": 329539.52
+      "quantity": 618,
+      "stockValue": 327688.52
     },
     {
       "key": "absorber",
@@ -85,22 +85,22 @@
       "key": "oil",
       "name": "Oil",
       "sku": 105,
-      "quantity": 2152,
-      "stockValue": 158575.98
+      "quantity": 2150,
+      "stockValue": 158377.98
     },
     {
       "key": "oil-filter",
       "name": "Oil Filter",
       "sku": 15,
-      "quantity": 191,
-      "stockValue": 1757.5
+      "quantity": 190,
+      "stockValue": 1749.5
     },
     {
       "key": "parts",
       "name": "Parts",
       "sku": 868,
-      "quantity": 2900.5,
-      "stockValue": 103746.84999999999
+      "quantity": 2898.5,
+      "stockValue": 103733.34999999999
     },
     {
       "key": "battery",
@@ -133,9 +133,9 @@
     {
       "key": "used-sport-rim",
       "name": "Used Sport Rim",
-      "sku": 2113,
-      "quantity": 2019,
-      "stockValue": 176946.5
+      "sku": 2114,
+      "quantity": 2020,
+      "stockValue": 177146.5
     },
     {
       "key": "used-tayar",
@@ -148,8 +148,8 @@
       "key": "miscellaneous",
       "name": "Miscellaneous",
       "sku": 289,
-      "quantity": 9440,
-      "stockValue": 57956.21999999999
+      "quantity": 9387,
+      "stockValue": 57855.16999999999
     },
     {
       "key": "non-stock-item",
@@ -785,18 +785,9 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "ATLANDER 215/45R17 91W XSPORT-86 BSW (2026)",
+      "name": "ATLANDER 215/45/17 91W XSPORT-86 BSW (2026)",
       "spec": "0",
       "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 190,
-          "price": 0
-        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -1264,7 +1255,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 6,
+          "quantity": 4,
           "cost": 256,
           "price": 258
         }
@@ -1292,7 +1283,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 18,
+          "quantity": 14,
           "cost": 212,
           "price": 218
         }
@@ -5287,7 +5278,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 9,
+          "quantity": 7,
           "cost": 96,
           "price": 98
         },
@@ -5738,7 +5729,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 8,
+          "quantity": 4,
           "cost": 280,
           "price": 0
         },
@@ -7096,7 +7087,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 3,
+          "quantity": 1,
           "cost": 186,
           "price": 168
         }
@@ -8095,7 +8086,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 11,
+          "quantity": 10,
           "cost": 110.4,
           "price": 0
         },
@@ -8275,18 +8266,9 @@
       "groupKey": "passanger-tire",
       "groupName": "Passanger Tire",
       "brand": "",
-      "name": "WESLAKE 175/70/13 82T ZUPER FLEX Z-117 (2026)",
+      "name": "WEST LAKE 175/70/13 ZUPER FLEX Z-117 82T TL TH (2026)",
       "spec": "0",
       "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SK",
-          "company": "G Tayar",
-          "location": "",
-          "quantity": 4,
-          "cost": 116.8,
-          "price": 115
-        },
         {
           "rowKey": "default#1",
           "store": "SR",
@@ -8574,7 +8556,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 13,
+          "quantity": 11,
           "cost": 136.8,
           "price": 0
         },
@@ -8586,25 +8568,6 @@
           "quantity": 20,
           "cost": 136.8,
           "price": 138
-        }
-      ]
-    },
-    {
-      "code": "TPWL195515Z117-26",
-      "groupKey": "passanger-tire",
-      "groupName": "Passanger Tire",
-      "brand": "",
-      "name": "WEST LAKE 195/55/15 Z-117 85V TL TH (2026)",
-      "spec": "0",
-      "stockRows": [
-        {
-          "rowKey": "default#1",
-          "store": "SR",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 2,
-          "cost": 136.8,
-          "price": 119
         }
       ]
     },
@@ -9445,7 +9408,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 10,
+          "quantity": 6,
           "cost": 85,
           "price": 0
         },
@@ -9882,7 +9845,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 15,
+          "quantity": 13,
           "cost": 230,
           "price": 0
         },
@@ -14472,15 +14435,6 @@
           "company": "Bagus Tayar",
           "location": "",
           "quantity": 0,
-          "cost": 275,
-          "price": 988
-        },
-        {
-          "rowKey": "default#1",
-          "store": "SI",
-          "company": "Chew Tayar",
-          "location": "",
-          "quantity": 4,
           "cost": 275,
           "price": 988
         }
@@ -22824,15 +22778,6 @@
           "company": "Gemok Tayar",
           "location": "",
           "quantity": -1,
-          "cost": 751,
-          "price": 488
-        },
-        {
-          "rowKey": "default#1",
-          "store": "ST",
-          "company": "Gemok Tayar",
-          "location": "",
-          "quantity": 1,
           "cost": 751,
           "price": 488
         }
@@ -34858,7 +34803,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 92,
+          "quantity": 91,
           "cost": 170,
           "price": 270
         },
@@ -35303,7 +35248,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 28,
           "price": 30
         }
@@ -36449,7 +36394,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 16,
+          "quantity": 15,
           "cost": 8,
           "price": 25
         },
@@ -39626,7 +39571,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 14,
+          "quantity": 13,
           "cost": 5.5,
           "price": 45
         },
@@ -39823,7 +39768,7 @@
           "store": "SR",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 4,
+          "quantity": 3,
           "cost": 8,
           "price": 30
         }
@@ -104344,6 +104289,25 @@
       ]
     },
     {
+      "code": "US2621218",
+      "groupKey": "used-sport-rim",
+      "groupName": "Used Sport Rim",
+      "brand": "",
+      "name": "USED SPORT RIM 15X7 4X100",
+      "spec": "",
+      "stockRows": [
+        {
+          "rowKey": "default#1",
+          "store": "SI",
+          "company": "Chew Tayar",
+          "location": "",
+          "quantity": 1,
+          "cost": 200,
+          "price": 0
+        }
+      ]
+    },
+    {
       "code": "US263771",
       "groupKey": "used-sport-rim",
       "groupName": "Used Sport Rim",
@@ -106244,7 +106208,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 64,
+          "quantity": 62,
           "cost": 3.5,
           "price": 45
         }
@@ -108221,7 +108185,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 220,
+          "quantity": 200,
           "cost": 2,
           "price": 150
         },
@@ -110395,7 +110359,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 70,
+          "quantity": 66,
           "cost": 3,
           "price": 100
         },
@@ -111900,7 +111864,7 @@
           "store": "SK",
           "company": "G Tayar",
           "location": "",
-          "quantity": 221,
+          "quantity": 219,
           "cost": 0.4,
           "price": 10
         },
@@ -111946,7 +111910,7 @@
           "store": "SI",
           "company": "Chew Tayar",
           "location": "",
-          "quantity": 344,
+          "quantity": 325,
           "cost": 1.65,
           "price": 10
         },
@@ -111973,7 +111937,7 @@
           "store": "ST",
           "company": "Gemok Tayar",
           "location": "",
-          "quantity": 594,
+          "quantity": 588,
           "cost": 1.65,
           "price": 10
         }
