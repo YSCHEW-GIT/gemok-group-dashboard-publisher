@@ -10342,10 +10342,10 @@
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 14349.28,
-              "netSales": 14349.28,
+              "sales": 14419.25,
+              "netSales": 14419.25,
               "cost": 13466.24,
-              "grossProfit": 883.04,
+              "grossProfit": 953.01,
               "quantity": 70
             },
             {
@@ -10366,10 +10366,10 @@
             },
             {
               "key": "other",
-              "sales": 2090.88,
-              "netSales": 2061.13,
+              "sales": 2020.91,
+              "netSales": 1996.34,
               "cost": 435.25,
-              "grossProfit": 1625.88,
+              "grossProfit": 1561.09,
               "quantity": 252
             }
           ],
@@ -10459,20 +10459,20 @@
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
               "quantity": 17,
-              "sales": 89.97,
-              "netSales": 83.31,
+              "sales": 59.98,
+              "netSales": 55.54,
               "cost": 0,
-              "grossProfit": 83.31
+              "grossProfit": 55.54
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
               "quantity": 68,
-              "sales": 139.93,
-              "netSales": 129.57,
+              "sales": 99.95,
+              "netSales": 92.55,
               "cost": 0,
-              "grossProfit": 129.57
+              "grossProfit": 92.55
             },
             {
               "category": "other",
@@ -10569,10 +10569,10 @@
               "itemCode": "TPMC195515XM2-26",
               "itemName": "MICHELIN 195/55/15 XM2 PLUS 85V (2026)",
               "quantity": 4,
-              "sales": 1071.42,
-              "netSales": 1071.42,
+              "sales": 1141.39,
+              "netSales": 1141.39,
               "cost": 1120,
-              "grossProfit": -48.58
+              "grossProfit": 21.39
             },
             {
               "category": "passenger_tire",
@@ -10878,7 +10878,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:22:56.652Z"
+      "lastCollectedAt": "2026-11-28T08:29:09.005Z"
     },
     "SR": {
       "days": {
@@ -20906,7 +20906,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:22:56.652Z"
+      "lastCollectedAt": "2026-11-28T08:29:09.005Z"
     },
     "ST": {
       "days": {
@@ -30054,7 +30054,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:22:56.652Z"
+      "lastCollectedAt": "2026-11-28T08:29:09.005Z"
     },
     "SK": {
       "days": {
@@ -35932,11 +35932,11 @@
             },
             {
               "key": "foreman_item",
-              "sales": 1160,
-              "netSales": 1160,
+              "sales": 1320,
+              "netSales": 1320,
               "cost": 636.9,
-              "grossProfit": 523.1,
-              "quantity": 9
+              "grossProfit": 683.1,
+              "quantity": 10
             },
             {
               "key": "other",
@@ -36143,10 +36143,10 @@
               "itemCode": "PAOFSP3GRN",
               "itemName": "PERODUA AUTO OIL SP3 GREEN 1LT",
               "quantity": 4,
-              "sales": 220,
-              "netSales": 220,
+              "sales": 200,
+              "netSales": 200,
               "cost": 86.4,
-              "grossProfit": 133.6
+              "grossProfit": 113.6
             },
             {
               "category": "foreman_item",
@@ -36167,6 +36167,16 @@
               "netSales": 250,
               "cost": 155,
               "grossProfit": 95
+            },
+            {
+              "category": "foreman_item",
+              "itemCode": "NSK26110052",
+              "itemName": "AUTO FILTER SET PERODUA ALZA 14\"",
+              "quantity": 1,
+              "sales": 180,
+              "netSales": 180,
+              "cost": 0,
+              "grossProfit": 180
             },
             {
               "category": "other",
@@ -36212,7 +36222,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:22:56.652Z"
+      "lastCollectedAt": "2026-11-28T08:29:09.005Z"
     },
     "KM": {
       "days": {
@@ -36788,8 +36798,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T08:22:56.652Z"
+      "lastCollectedAt": "2026-11-28T08:29:09.005Z"
     }
   },
-  "updatedAt": "2026-11-28T08:22:56.652Z"
+  "updatedAt": "2026-11-28T08:29:09.005Z"
 }
