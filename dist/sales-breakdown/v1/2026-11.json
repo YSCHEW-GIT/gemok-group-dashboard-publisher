@@ -10608,7 +10608,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:25:43.822Z"
+      "lastCollectedAt": "2026-11-28T04:31:50.345Z"
     },
     "SR": {
       "days": {
@@ -20456,7 +20456,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:25:43.822Z"
+      "lastCollectedAt": "2026-11-28T04:31:50.345Z"
     },
     "ST": {
       "days": {
@@ -29464,7 +29464,7 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:25:43.822Z"
+      "lastCollectedAt": "2026-11-28T04:31:50.345Z"
     },
     "SK": {
       "days": {
@@ -35322,15 +35322,15 @@
           ]
         },
         "2026-11-28": {
-          "documents": 3,
+          "documents": 4,
           "categories": [
             {
               "key": "passenger_tire",
-              "sales": 1716,
-              "netSales": 1716,
-              "cost": 1580,
-              "grossProfit": 136,
-              "quantity": 8
+              "sales": 2134.08,
+              "netSales": 2134.08,
+              "cost": 2168,
+              "grossProfit": -33.92,
+              "quantity": 11
             },
             {
               "key": "sport_rim",
@@ -35342,19 +35342,19 @@
             },
             {
               "key": "foreman_item",
-              "sales": 20,
-              "netSales": 20,
+              "sales": 18.75,
+              "netSales": 18.75,
               "cost": 0,
-              "grossProfit": 20,
+              "grossProfit": 18.75,
               "quantity": 1
             },
             {
               "key": "other",
-              "sales": 180,
-              "netSales": 180,
-              "cost": 13.4,
-              "grossProfit": 166.6,
-              "quantity": 21
+              "sales": 253.17,
+              "netSales": 253.17,
+              "cost": 14.6,
+              "grossProfit": 238.57,
+              "quantity": 28
             }
           ],
           "items": [
@@ -35362,41 +35362,41 @@
               "category": "other",
               "itemCode": "ALGNF",
               "itemName": "Alignment (Front)",
-              "quantity": 1,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 2,
+              "sales": 28.13,
+              "netSales": 28.13,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 28.13
             },
             {
               "category": "other",
               "itemCode": "BLCOFF",
               "itemName": "Balancing (Off Wheel)",
-              "quantity": 8,
-              "sales": 0,
-              "netSales": 0,
+              "quantity": 11,
+              "sales": 28.13,
+              "netSales": 28.13,
               "cost": 0,
-              "grossProfit": 0
+              "grossProfit": 28.13
             },
             {
               "category": "other",
               "itemCode": "PATCH",
               "itemName": "Patching",
               "quantity": 1,
-              "sales": 10,
-              "netSales": 10,
+              "sales": 9.38,
+              "netSales": 9.38,
               "cost": 0,
-              "grossProfit": 10
+              "grossProfit": 9.38
             },
             {
               "category": "foreman_item",
               "itemCode": "PWMSHP",
               "itemName": "WORKMANSHIP",
               "quantity": 1,
-              "sales": 20,
-              "netSales": 20,
+              "sales": 18.75,
+              "netSales": 18.75,
               "cost": 0,
-              "grossProfit": 20
+              "grossProfit": 18.75
             },
             {
               "category": "other",
@@ -35413,56 +35413,76 @@
               "itemCode": "TPYH235018RV03-26",
               "itemName": "YOKOHAMA 235/50/18 RV03 (2026)",
               "quantity": 4,
-              "sales": 1320,
-              "netSales": 1320,
+              "sales": 1237.69,
+              "netSales": 1237.69,
               "cost": 1240,
-              "grossProfit": 80
+              "grossProfit": -2.31
             },
             {
               "category": "passenger_tire",
               "itemCode": "TPWR195515R330-26",
               "itemName": "WINRUN 195/55/15 R330 85V TL (2026)",
               "quantity": 4,
-              "sales": 396,
-              "netSales": 396,
+              "sales": 371.31,
+              "netSales": 371.31,
               "cost": 340,
-              "grossProfit": 56
+              "grossProfit": 31.31
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPWL176515Z108-26",
+              "itemName": "WEST LAKE 175/65/15 Z-108 84H TL CN (2026)",
+              "quantity": 1,
+              "sales": 131.27,
+              "netSales": 131.27,
+              "cost": 128,
+              "grossProfit": 3.27
+            },
+            {
+              "category": "passenger_tire",
+              "itemCode": "TPCT185515CC7-26",
+              "itemName": "CONTINENTAL 185/55/15 CC7 (2026)",
+              "quantity": 2,
+              "sales": 393.81,
+              "netSales": 393.81,
+              "cost": 460,
+              "grossProfit": -66.19
             },
             {
               "category": "other",
               "itemCode": "MNCPR12V",
               "itemName": "CAMBER NUT PROTON (17MM)",
               "quantity": 2,
-              "sales": 90,
-              "netSales": 90,
+              "sales": 84.39,
+              "netSales": 84.39,
               "cost": 5.2,
-              "grossProfit": 84.8
+              "grossProfit": 79.19
             },
             {
               "category": "other",
               "itemCode": "MVLRUB",
               "itemName": "Tubeless Valve-Rubber",
-              "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
-              "cost": 1.6,
-              "grossProfit": 38.4
+              "quantity": 7,
+              "sales": 65.63,
+              "netSales": 65.63,
+              "cost": 2.8,
+              "grossProfit": 62.83
             },
             {
               "category": "other",
               "itemCode": "MVLSTL",
               "itemName": "Tubeless Valve-Steel",
               "quantity": 4,
-              "sales": 40,
-              "netSales": 40,
+              "sales": 37.51,
+              "netSales": 37.51,
               "cost": 6.6,
-              "grossProfit": 33.4
+              "grossProfit": 30.91
             }
           ]
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:25:43.822Z"
+      "lastCollectedAt": "2026-11-28T04:31:50.345Z"
     },
     "KM": {
       "days": {
@@ -36038,8 +36058,8 @@
         }
       },
       "backfillCompletedAt": "2026-11-14T03:11:23.688Z",
-      "lastCollectedAt": "2026-11-28T04:25:43.822Z"
+      "lastCollectedAt": "2026-11-28T04:31:50.345Z"
     }
   },
-  "updatedAt": "2026-11-28T04:25:43.822Z"
+  "updatedAt": "2026-11-28T04:31:50.345Z"
 }
